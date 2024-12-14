@@ -1,0 +1,6 @@
+collected_data/
+dqn_plasticity_tensorboard/
+formatted_data/
+logs/
+models/
+frontend/node_modules/
