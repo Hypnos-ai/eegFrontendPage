@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EEG Research Interface</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .control-panel {
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        .visualization {
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .success {
+            background-color: #dff0d8;
+            color: #3c763d;
+        }
+
+        .error {
+            background-color: #f2dede;
+            color: #a94442;
+        }
+
+        .recording {
+            background-color: #f8d7da;
+            animation: blink 1s infinite;
+            font-weight: bold;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0.5;
+            }
+        }
+
+        #statusMessages {
+            max-height: 200px;
+            overflow-y: auto;
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .recording-indicator {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .feature-plot {
+            margin-top: 20px;
+            height: 300px;
+        }
+
+        .button-group {
+            margin: 10px 0;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        button:hover:not(:disabled) {
+            background-color: #0056b3;
+        }
+
+        .timer {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .signal-good {
+            color: #28a745;
+        }
+
+        .signal-bad {
+            color: #dc3545;
+        }
+
+        #signalQuality {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #eegPlot {
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 10px;
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="control-panel">
+            <h2>Control Panel</h2>
+            <div id="connectionStatus" class="status">Not connected</div>
+
+            <div class="button-group">
+                <button onclick="initializeBoard()" id="initButton">Initialize Board</button>
+                <span id="boardStatus"></span>
+            </div>
+
+            <div class="button-group">
+                <input type="number" id="duration" value="5" min="1" style="width: 60px;"> seconds
+                <button onclick="startRecording()" id="startButton" disabled>Start Recording</button>
+                <button onclick="stopRecording()" id="stopButton" disabled>Stop Recording</button>
+            </div>
+
+            <div id="timer" class="timer"></div>
+
+            <div class="button-group">
+                <button onclick="trainModel()" id="trainButton">Train Model</button>
+                <span id="trainingStatus"></span>
+            </div>
+
+            <div id="statusMessages"></div>
+        </div>
+
+        <div class="visualization">
+            <h2>EEG Visualization</h2>
+            <div id="eegPlot"></div>
+            <div id="featurePlot" class="feature-plot"></div>
+        </div>
+    </div>
+
+    <script>
+        const socket = io();
+        let isRecording = false;
+        let recordingStartTime = null;
+        let recordingTimer = null;
+
+        // Initialize plot data for 6 EEG channels
+        let plotData = Array(6).fill().map((_, i) => ({
+            y: [],
+            name: ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4'][i],
+            type: 'scatter',
+            mode: 'lines',
+            line: { width: 1 }
+        }));
+
+        // Initialize the plot with proper EEG settings
+        const layout = {
+            title: {
+                text: 'Real-time EEG Data',
+                font: { size: 24 }
+            },
+            xaxis: {
+                title: 'Time (samples)',
+                range: [0, 250]  // Show 1 second of data
+            },
+            yaxis: {
+                title: 'Amplitude (μV)',
+                range: [-200, 200],  // Typical EEG range
+                zeroline: true,
+                zerolinecolor: '#969696',
+                gridcolor: '#bdbdbd',
+                gridwidth: 1
+            },
+            height: 600,
+            margin: { l: 50, r: 50, t: 50, b: 50 },
+            showlegend: true,
+            legend: {
+                x: 1,
+                xanchor: 'right',
+                y: 1
+            },
+            paper_bgcolor: 'white',
+            plot_bgcolor: '#f8f9fa'
+        };
+
+        Plotly.newPlot('eegPlot', plotData, layout, {
+            responsive: true,
+            scrollZoom: true,
+            displayModeBar: true,
+            displaylogo: false
+        });
+
+        // Socket event handler for EEG data
+        socket.on('eeg_data', function (data) {
+            if (data.data) {
+                // Update each channel's data
+                for (let i = 0; i < 6; i++) {
+                    // Maintain a moving window of 2 seconds (500 samples)
+                    if (plotData[i].y.length > 500) {
+                        plotData[i].y = plotData[i].y.slice(-500);
+                    }
+                    // Add new data
+                    plotData[i].y = plotData[i].y.concat(data.data[i]);
+                }
+
+                // Update x-axis range to show moving window
+                const xrange = [Math.max(0, plotData[0].y.length - 250),
+                plotData[0].y.length];
+
+                // Update layout with new range
+                const updateLayout = {
+                    'xaxis.range': xrange
+                };
+
+                // Update plot with new data and layout
+                Plotly.update('eegPlot',
+                    { y: plotData.map(trace => trace.y) },
+                    updateLayout
+                );
+
+                // Update recording status if needed
+                if (data.is_recording) {
+                    document.getElementById('connectionStatus').classList.add('recording');
+                }
+            }
+        });
+
+        // Add status indicator for signal quality
+        function updateSignalQuality(data) {
+            const qualities = data.map(channel =>
+                Math.abs(channel.reduce((a, b) => a + b, 0) / channel.length)
+            );
+
+            const qualityDiv = document.getElementById('signalQuality');
+            qualityDiv.innerHTML = qualities.map((q, i) =>
+                `Channel ${plotData[i].name}: ${q < 100 ? '✓' : '⚠️'}`
+            ).join('<br>');
+        }
+        // In your researchindex.html
+        function initializeBoard() {
+            document.getElementById('connectionStatus').textContent = 'Attempting to connect...';
+            document.getElementById('initButton').disabled = true;
+
+            fetch('/initialize', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        document.getElementById('connectionStatus').textContent = 'Connected';
+                        document.getElementById('connectionStatus').className = 'status success';
+                        document.getElementById('startButton').disabled = false;
+                        addStatusMessage('Board initialized successfully');
+                    } else {
+                        document.getElementById('connectionStatus').textContent = 'Connection failed: ' + data.message;
+                        document.getElementById('connectionStatus').className = 'status error';
+                        document.getElementById('initButton').disabled = false;
+                        addStatusMessage('Board initialization failed: ' + data.message);
+                    }
+                })
+                .catch(error => {
+                    document.getElementById('connectionStatus').textContent = 'Connection error: ' + error;
+                    document.getElementById('connectionStatus').className = 'status error';
+                    document.getElementById('initButton').disabled = false;
+                    addStatusMessage('Connection error: ' + error);
+                });
+        }
+
+        // Add socket listener for board status
+        socket.on('board_status', function (data) {
+            console.log('Board status:', data);
+            if (data.status === 'success') {
+                document.getElementById('connectionStatus').textContent = 'Connected';
+                document.getElementById('connectionStatus').className = 'status success';
+                document.getElementById('startButton').disabled = false;
+            } else {
+                document.getElementById('connectionStatus').textContent = 'Error: ' + data.message;
+                document.getElementById('connectionStatus').className = 'status error';
+            }
+        });
+    </script>
+
+    <!-- Add signal quality indicator to HTML -->
+    <div id="signalQuality" class="status"></div>
+</body>
+
+</html>
