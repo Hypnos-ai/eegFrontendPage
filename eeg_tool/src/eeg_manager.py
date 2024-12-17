@@ -17,6 +17,17 @@ class EEGManager:
         self.current_session_num = None
         self.next_session_number = self._get_next_session_number()
         
+        # File management
+        self.data_dir = 'data'
+        self.raw_dir = os.path.join(self.data_dir, 'raw')
+        self.processed_dir = os.path.join(self.data_dir, 'processed')
+        self.formatted_dir = os.path.join(self.data_dir, 'formatted')
+        self.annotation_file = os.path.join(self.data_dir, 'annotations.txt')
+        
+        # Create directories
+        for directory in [self.raw_dir, self.processed_dir, self.formatted_dir]:
+            os.makedirs(directory, exist_ok=True)
+            
         # Channel setup
         self.channel_states = {
             'FCz': True,
@@ -41,22 +52,14 @@ class EEGManager:
         self.task_duration = 5  # Fixed at 5 seconds
         self.break_duration = 3  # Default break duration
         
-        # File management
-        self.data_dir = 'data'
-        self.raw_dir = os.path.join(self.data_dir, 'raw')
-        self.processed_dir = os.path.join(self.data_dir, 'processed')
-        self.formatted_dir = os.path.join(self.data_dir, 'formatted')
-        self.annotation_file = os.path.join(self.data_dir, 'annotations.txt')
-        
-        # Create directories
-        for directory in [self.raw_dir, self.processed_dir, self.formatted_dir]:
-            os.makedirs(directory, exist_ok=True)
-            
         # Initialize board
         self.initialize_board()
         
         # Initialize session counter
         self.next_session_number = self._get_next_session_number()
+        
+        # Data storage
+        self.raw_data = None
         
     def _get_next_session_number(self):
         """Determine the next available session number from annotations file"""
@@ -185,8 +188,10 @@ class EEGManager:
         # Only use names of enabled channels
         all_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
         enabled_indices = self.get_enabled_channels()
-        ch_names = [all_channels[i] for i, ch_idx in enumerate(all_channels) 
-                     if self.channel_states[all_channels[i]]]
+        ch_names = []
+        for i, ch_idx in enumerate(enabled_indices):
+            if self.channel_states[all_channels[i]]:
+                ch_names.append(all_channels[i])
         
         # Verify channel count matches data
         if len(ch_names) != eeg_data.shape[0]:
@@ -199,6 +204,10 @@ class EEGManager:
         
         # Create raw object
         raw = mne.io.RawArray(eeg_data, info)
+        
+        # Set montage for proper electrode positions
+        montage = mne.channels.make_standard_montage('standard_1020')
+        raw.set_montage(montage)
         
         # Save file
         filename = os.path.join(self.raw_dir, f"session{self.current_session_num}_{int(time.time())}_raw.fif")
@@ -231,27 +240,44 @@ class EEGManager:
         print(tasks)
 
         # Load the combined .fif file
-        raw_data = None
+        self.raw_data = None  # Store as instance variable
+        current_time = 0
+        annotations = mne.Annotations(onset=[], duration=[], description=[])
+
         for raw_file in sorted(os.listdir(self.raw_dir)):
             if f'session{session_num}' in raw_file and raw_file.endswith('_raw.fif'):
                 raw = mne.io.read_raw_fif(os.path.join(self.raw_dir, raw_file), preload=True)
-                if raw_data is None:
-                    raw_data = raw
+                if self.raw_data is None:
+                    self.raw_data = raw
                 else:
-                    raw_data.append(raw)
+                    self.raw_data.append(raw)
+                # Add annotation for this segment
+                if len(annotations.onset) < len(tasks):
+                    annotations.append(
+                        onset=current_time,
+                        duration=self.task_duration,
+                        description=tasks[len(annotations.onset)]
+                    )
+                current_time += self.task_duration
 
         # Set montage for proper plotting
         montage = mne.channels.make_standard_montage('standard_1020')
-        raw_data.set_montage(montage)
+        self.raw_data.set_montage(montage)
+
+        # Set annotations
+        self.raw_data.set_annotations(annotations)
+        print("\nAdded annotations:")
+        print(f"Onsets: {annotations.onset}")
+        print(f"Descriptions: {annotations.description}")
 
         # Get events and epochs
-        events, event_id = mne.events_from_annotations(raw_data)
+        events, event_id = mne.events_from_annotations(self.raw_data)
         print(f"\nEvents from raw data:")
         print(f"Event IDs: {event_id}")
         print(f"Events shape: {events.shape}")
         print(f"Unique event values: {np.unique(events[:, -1])}")
 
-        epochs = mne.Epochs(raw_data, events, event_id=event_id,
+        epochs = mne.Epochs(self.raw_data, events, event_id=event_id,
                           tmin=0, tmax=self.task_duration,
                           baseline=None, preload=True)
 
@@ -378,3 +404,73 @@ class EEGManager:
         self.task_sequence = []
         self.current_task_index = 0
         self.current_session_num = session_num  # Keep it until next session starts
+
+    def combine_fif_files(self):
+        """Combine all FIF files into one in formatted_data"""
+        print("\n=== Starting File Combination Process ===")
+        
+        # First, get all raw FIF files for current session
+        raw_files = sorted([f for f in os.listdir(self.raw_dir) 
+                           if f.endswith('_raw.fif') and 
+                           f'session{self.current_session_num}' in f])
+        
+        print(f"Found {len(raw_files)} raw files:")
+        for f in raw_files:
+            print(f"  - {f}")
+        
+        if not raw_files:
+            raise ValueError("No FIF files found for current session.")
+            
+        raw_combined = None
+        current_time = 0
+        
+        # Read annotations from annotations.txt
+        with open(self.annotation_file, "r") as f:
+            annotation_data = f.read().split("_____________________________________________")
+        
+        # Initialize lists for annotations
+        all_onsets = []
+        all_durations = []
+        all_descriptions = []
+        
+        for raw_file in raw_files:
+            full_path = os.path.join(self.raw_dir, raw_file)
+            print(f"Loading {full_path}")
+            raw = mne.io.read_raw_fif(full_path, preload=True)
+            
+            if raw_combined is None:
+                raw_combined = raw
+            else:
+                raw_combined.append(raw)
+            
+            # Update current time
+            current_time += len(raw.times) / raw.info['sfreq']
+        
+        # Get tasks for current session
+        tasks = self._read_annotations_file(self.current_session_num)
+        
+        # Create annotations
+        for i, task in enumerate(tasks):
+            all_onsets.append(i * self.task_duration)
+            all_durations.append(self.task_duration)
+            task = task.strip().lower()
+            if task == "jaw_clenching":
+                task = "jaw"
+            elif task.endswith("_hand"):
+                task = task.split("_")[0]
+            all_descriptions.append(task)
+        
+        # Set annotations
+        annotations = mne.Annotations(
+            onset=all_onsets,
+            duration=all_durations,
+            description=all_descriptions
+        )
+        raw_combined.set_annotations(annotations)
+        
+        # Save combined file
+        output_file = os.path.join(self.formatted_dir, 'S03.fif')
+        raw_combined.save(output_file, overwrite=True)
+        print(f"Saved combined file to {output_file}")
+        
+        return output_file

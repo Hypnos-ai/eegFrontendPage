@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2D Car Simulation</title>
+    <style>
+        #simulation {
+            border: 1px solid black;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        #status {
+            margin-top: 10px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <canvas id="simulation" width="500" height="500"></canvas>
+        <div id="status">Last Command: None</div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('simulation');
+        const ctx = canvas.getContext('2d');
+        const statusDiv = document.getElementById('status');
+
+        function drawCar(x, y, direction) {
+            ctx.save();
+            ctx.translate(x, y);
+            ctx.rotate(direction * Math.PI / 2);
+            
+            // Draw car body
+            ctx.fillStyle = 'blue';
+            ctx.fillRect(-15, -10, 30, 20);
+            
+            // Draw front (direction indicator)
+            ctx.fillStyle = 'red';
+            ctx.fillRect(10, -5, 5, 10);
+            
+            ctx.restore();
+        }
+
+        function updateSimulation() {
+            fetch('/state')
+                .then(response => response.json())
+                .then(state => {
+                    // Clear canvas
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    
+                    // Draw car
+                    drawCar(state.x, state.y, state.direction);
+                    
+                    // Update status
+                    statusDiv.textContent = `Last Command: ${state.last_command}`;
+                });
+        }
+
+        // Update simulation at 30 FPS
+        setInterval(updateSimulation, 33);
+    </script>
+</body>
+</html> 

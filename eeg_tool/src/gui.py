@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import (QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
-                            QPushButton, QLabel, QSpinBox, QDoubleSpinBox, QComboBox, QTextEdit, QGroupBox, QCheckBox, QScrollArea, QSlider, QLineEdit)
+                            QPushButton, QLabel, QSpinBox, QDoubleSpinBox, QComboBox, QTextEdit, QGroupBox, QCheckBox, QScrollArea, QSlider, QLineEdit, QProgressBar, QFrame, QTabWidget)
 from PyQt5.QtCore import QTimer, Qt
 import pyqtgraph as pg
 from eeg_manager import EEGManager
@@ -7,9 +7,13 @@ import numpy as np
 import mne
 import io
 import matplotlib.pyplot as plt
-from PyQt5.QtGui import QPixmap
+from PyQt5.QtGui import QPixmap, QFont, QPalette, QColor
 from brainflow.board_shim import BoardShim, BoardIds
 from scipy.signal import butter, filtfilt
+import os
+from stable_baselines3.common.callbacks import BaseCallback
+from AdaptiveDQN_RLEEGNET import AdaptiveDQNRLEEGNET
+import scipy.signal
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -27,6 +31,13 @@ class MainWindow(QMainWindow):
         main_widget = QWidget()
         self.setCentralWidget(main_widget)
         layout = QHBoxLayout(main_widget)
+        
+        try:
+            # Try to initialize board, but continue if it fails
+            self.eeg_manager.initialize_board()
+        except Exception as e:
+            print(f"Board initialization failed: {e}")
+            # Continue without board connection
         
         # Create control panel
         control_panel = self.create_control_panel()
@@ -56,7 +67,6 @@ class MainWindow(QMainWindow):
         self.setAttribute(Qt.WA_DeleteOnClose)
         
     def create_control_panel(self):
-        # Create scroll area for control panel
         scroll = QScrollArea()
         scroll.setWidgetResizable(True)
         scroll.setHorizontalScrollBarPolicy(Qt.ScrollBarAsNeeded)
@@ -64,7 +74,10 @@ class MainWindow(QMainWindow):
         
         panel = QWidget()
         layout = QVBoxLayout(panel)
-        scroll.setWidget(panel)
+        
+        # Add task display panel at the top
+        task_panel = self.create_task_display_panel()
+        layout.addWidget(task_panel)
         
         # Session selection
         session_group = QGroupBox("Session Management")
@@ -86,6 +99,51 @@ class MainWindow(QMainWindow):
         session_layout.addWidget(self.session_buttons)
         
         layout.addWidget(session_group)
+        
+        # Session Configuration
+        config_group = QGroupBox("Session Configuration")
+        config_group.setStyleSheet("""
+            QGroupBox {
+                background-color: #f5f5f5;
+                border: 2px solid #2196F3;
+                border-radius: 5px;
+                margin-top: 1ex;
+            }
+            QGroupBox::title {
+                color: #2196F3;
+            }
+        """)
+        config_layout = QVBoxLayout(config_group)
+        
+        # Tasks per type control
+        tasks_widget = QWidget()
+        tasks_layout = QHBoxLayout(tasks_widget)
+        tasks_layout.addWidget(QLabel("Tasks per type:"))
+        self.tasks_per_type = QSpinBox()
+        self.tasks_per_type.setRange(1, 50)
+        self.tasks_per_type.setValue(21)  # Default value
+        self.tasks_per_type.setToolTip("Number of trials for each task type")
+        tasks_layout.addWidget(self.tasks_per_type)
+        config_layout.addWidget(tasks_widget)
+        
+        # Break duration control
+        break_widget = QWidget()
+        break_layout = QHBoxLayout(break_widget)
+        break_layout.addWidget(QLabel("Break duration (sec):"))
+        self.break_duration = QSpinBox()
+        self.break_duration.setRange(1, 10)
+        self.break_duration.setValue(3)  # Default value
+        self.break_duration.setToolTip("Duration of break between trials")
+        break_layout.addWidget(self.break_duration)
+        config_layout.addWidget(break_widget)
+        
+        # Trial duration display (constant)
+        trial_widget = QWidget()
+        trial_layout = QHBoxLayout(trial_widget)
+        trial_layout.addWidget(QLabel("Trial duration: 5 seconds (fixed)"))
+        config_layout.addWidget(trial_widget)
+        
+        layout.addWidget(config_group)
         
         # Channel controls
         channel_group = QGroupBox("EEG Channels")
@@ -150,24 +208,27 @@ class MainWindow(QMainWindow):
         layout.addWidget(self.start_btn)
         layout.addWidget(self.stop_btn)
         
-        # Task display
-        self.task_label = QLabel("Current Task: None")
-        self.instruction_label = QLabel("Instruction: ")
-        self.progress_label = QLabel("Progress: 0/0")
-        layout.addWidget(self.task_label)
-        layout.addWidget(self.instruction_label)
-        layout.addWidget(self.progress_label)
-        
-        # Status messages
-        self.status_text = QTextEdit()
-        self.status_text.setReadOnly(True)
-        layout.addWidget(QLabel("Status Messages:"))
-        layout.addWidget(self.status_text)
-        
         # Analysis controls
-        self.analyze_btn = QPushButton("Analyze Session")
+        analysis_group = QGroupBox("Analysis")
+        analysis_layout = QVBoxLayout(analysis_group)
+        
+        self.analyze_btn = QPushButton("Analyze Session (CSP)")
         self.analyze_btn.clicked.connect(self.analyze_session)
-        layout.addWidget(self.analyze_btn)
+        analysis_layout.addWidget(self.analyze_btn)
+        
+        # DQN Training controls
+        self.train_dqn_btn = QPushButton("Train DQN-LSTM Model")
+        self.train_dqn_btn.clicked.connect(self.train_dqn_model)
+        analysis_layout.addWidget(self.train_dqn_btn)
+        
+        # Training progress
+        self.training_progress = QTextEdit()
+        self.training_progress.setReadOnly(True)
+        self.training_progress.setMaximumHeight(100)
+        analysis_layout.addWidget(QLabel("Training Progress:"))
+        analysis_layout.addWidget(self.training_progress)
+        
+        layout.addWidget(analysis_group)
         
         # Add signal controls
         signal_group = QGroupBox("Signal Controls")
@@ -209,6 +270,43 @@ class MainWindow(QMainWindow):
         
         layout.addWidget(signal_group)
         
+        # Add Status Messages section
+        status_group = QGroupBox("Status Messages")
+        status_group.setStyleSheet("""
+            QGroupBox {
+                background-color: #f5f5f5;
+                border: 2px solid #9e9e9e;
+                border-radius: 5px;
+                margin-top: 1ex;
+                font-size: 14px;
+            }
+            QGroupBox::title {
+                color: #424242;
+                subcontrol-origin: margin;
+                padding: 0 3px;
+            }
+        """)
+        status_layout = QVBoxLayout(status_group)
+        
+        # Create status text widget
+        self.status_text = QTextEdit()
+        self.status_text.setReadOnly(True)
+        self.status_text.setStyleSheet("""
+            QTextEdit {
+                background-color: white;
+                border: 1px solid #e0e0e0;
+                border-radius: 5px;
+                padding: 5px;
+                font-family: monospace;
+            }
+        """)
+        self.status_text.setMaximumHeight(150)
+        status_layout.addWidget(self.status_text)
+        
+        layout.addWidget(status_group)
+        
+        # Set the panel as the scroll area widget
+        scroll.setWidget(panel)
         return scroll
         
     def create_visualization_panel(self):
@@ -217,6 +315,7 @@ class MainWindow(QMainWindow):
         
         # Create plot widget with 6 subplots (one for each channel)
         self.eeg_plot = pg.GraphicsLayoutWidget()
+        self.eeg_plot.setBackground('w')
         self.eeg_curves = []
         channel_names = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
         
@@ -224,33 +323,27 @@ class MainWindow(QMainWindow):
         for i, name in enumerate(channel_names):
             # Add subplot
             plot = self.eeg_plot.addPlot(row=i, col=0)
-            plot.setTitle(name)
-            plot.setLabel('left', "μV")
-            if i == len(channel_names) - 1:  # Only show x-axis label on bottom plot
-                plot.setLabel('bottom', "Samples")
+            plot.setTitle(name, color='k')
+            plot.setLabel('left', "μV", color='k')
+            if i == len(channel_names) - 1:
+                plot.setLabel('bottom', "Samples", color='k')
             else:
                 plot.getAxis('bottom').hide()
             
-            # Set y-axis range the same for all plots
-            plot.enableAutoRange(axis='y')  # Enable auto-range by default
+            plot.enableAutoRange(axis='y')
             plot.setAutoVisible(y=True)
-            plot.setDownsampling(mode='peak')  # Add peak detection for better visualization
+            plot.setDownsampling(mode='peak')
             plot.setClipToView(True)
+            plot.showGrid(x=True, y=True, alpha=0.3)
             
-            # Add curve to subplot
+            # Add single curve for filtered data
             curve = plot.plot(pen=self.channel_colors[name])
             self.eeg_curves.append(curve)
             
-            # Link x-axes of all plots
             if i > 0:
                 plot.setXLink(self.eeg_plot.getItem(0, 0))
         
         layout.addWidget(self.eeg_plot)
-        
-        # CSP Analysis Plot
-        self.csp_plot = pg.GraphicsLayoutWidget()
-        layout.addWidget(self.csp_plot)
-        
         return panel
         
     def add_status_message(self, message):
@@ -259,11 +352,21 @@ class MainWindow(QMainWindow):
     def start_session(self):
         try:
             session_num = self.session_num.value()
+            
+            # Update task configuration
+            self.eeg_manager.task_names = {
+                "Right_Hand": ["Imagine or perform right hand movement", self.tasks_per_type.value()],
+                "Left_Hand": ["Imagine or perform left hand movement", self.tasks_per_type.value()],
+                "Blinking": ["Blink your eyes at a comfortable pace", self.tasks_per_type.value()],
+                "Jaw_Clenching": ["Clench your jaw with moderate force", self.tasks_per_type.value()],
+                "Relax": ["Relax your body and mind, do nothing", self.tasks_per_type.value()]
+            }
+            
             self.eeg_manager.initialize_session(session_num)
             self.start_btn.setEnabled(False)
             self.stop_btn.setEnabled(True)
             self.add_status_message(f"Started session {session_num}")
-            self.update_session_buttons()  # Update session list
+            self.update_session_buttons()
             self.get_next_task()
         except Exception as e:
             self.add_status_message(f"Error starting session: {str(e)}")
@@ -283,36 +386,53 @@ class MainWindow(QMainWindow):
             task_name, instruction = task
             self.task_label.setText(f"Current Task: {task_name}")
             self.instruction_label.setText(f"Instruction: {instruction}")
-            self.progress_label.setText(
-                f"Progress: {self.eeg_manager.current_task_index}/{len(self.eeg_manager.task_sequence)}"
-            )
+            
+            # Update progress
+            current = self.eeg_manager.current_task_index
+            total = len(self.eeg_manager.task_sequence)
+            self.progress_label.setText(f"Progress: {current}/{total}")
+            self.progress_bar.setValue(int((current / total) * 100))
+            
+            # Update sequence display
+            sequence_text = "Upcoming Tasks:\n"
+            remaining_tasks = self.eeg_manager.task_sequence[current:]
+            for i, (task, instr) in enumerate(remaining_tasks, start=current+1):
+                sequence_text += f"{i}. {task}\n"
+            self.sequence_list.setText(sequence_text)
+            
             # Start countdown
             self.countdown_remaining = 3
-            self.countdown_timer.start(1000)  # 1 second intervals
+            self.countdown_timer.start(1000)
         else:
             self.add_status_message("All tasks completed")
             self.stop_session()
             
     def update_plots(self):
         """Update real-time EEG plot"""
-        if self.eeg_manager.board and self.eeg_manager.board.is_prepared():
-            data = self.eeg_manager.get_current_data()
-            if data is not None:
-                # Apply filters
-                data = self.apply_filters(data)
-                
-                # Get enabled channels and their indices
-                enabled_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
-                enabled_indices = [i for i, ch in enumerate(enabled_channels) 
-                                   if self.eeg_manager.channel_states[ch]]
-                
-                # Update only enabled channels
-                data_idx = 0
-                for i, curve in enumerate(self.eeg_curves):
-                    if self.channel_checkboxes[enabled_channels[i]].isChecked():
-                        curve.setData(data[data_idx])
-                        data_idx += 1
+        try:
+            if hasattr(self.eeg_manager, 'board') and self.eeg_manager.board and self.eeg_manager.board.is_prepared():
+                data = self.eeg_manager.get_current_data()
+                if data is not None and len(self.eeg_curves) > 0:
+                    # Apply filters
+                    filtered_data = self.apply_filters(data)
                     
+                    # Get enabled channels and their indices
+                    enabled_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
+                    enabled_indices = [i for i, ch in enumerate(enabled_channels) 
+                                   if self.eeg_manager.channel_states.get(ch, False)]
+                    
+                    # Update curves
+                    data_idx = 0
+                    for i, curve in enumerate(self.eeg_curves):
+                        if i < len(enabled_channels) and enabled_channels[i] in self.channel_checkboxes:
+                            if self.channel_checkboxes[enabled_channels[i]].isChecked():
+                                if data_idx < len(filtered_data):
+                                    curve.setData(filtered_data[data_idx])
+                                    data_idx += 1
+                            
+        except Exception as e:
+            print(f"Error updating plots: {e}")
+            
     def analyze_session(self):
         try:
             self.add_status_message("Starting analysis...")
@@ -338,20 +458,31 @@ class MainWindow(QMainWindow):
         return positions
 
     def display_csp_patterns(self, patterns, class_names):
-        # Create figure with subplots for each class
-        plt.figure(figsize=(20, 15))
+        # Create a new window
+        analysis_window = QWidget()
+        analysis_window.setWindowTitle("CSP Analysis Results")
+        analysis_window.setGeometry(100, 100, 1200, 800)
+        layout = QVBoxLayout(analysis_window)
+        
+        # Create matplotlib figure
+        plt.style.use('default')  # Reset style
+        fig, axes = plt.subplots(2, 3, figsize=(20, 15))
+        axes = axes.ravel()  # Flatten axes array for easier indexing
         
         for i, (pattern, class_name) in enumerate(zip(patterns, class_names)):
-            plt.subplot(2, 3, i + 1)
+            ax = axes[i]
             mne.viz.plot_topomap(pattern[:, 0], self.eeg_manager.raw_data.info, 
-                                show=False, contours=0)
-            plt.title(f'CSP Pattern for {class_name}')
+                                axes=ax, show=False, contours=0,
+                                cmap='RdBu_r', sensors=True,
+                                outlines='head')
+            ax.set_title(f'CSP Pattern for {class_name}')
         
         plt.tight_layout()
         
-        # Convert to QPixmap and display
+        # Convert matplotlib figure to QPixmap
         buf = io.BytesIO()
-        plt.savefig(buf, format='png', dpi=100, bbox_inches='tight')
+        fig.savefig(buf, format='png', dpi=150, bbox_inches='tight', 
+                    facecolor='white', edgecolor='none')
         plt.close()
         
         pixmap = QPixmap()
@@ -361,10 +492,21 @@ class MainWindow(QMainWindow):
         # Show in a new window
         label = QLabel()
         label.setPixmap(pixmap)
+        label.setAlignment(Qt.AlignCenter)
         
         scroll = QScrollArea()
+        scroll.setWidgetResizable(True)
+        scroll.setMinimumSize(1000, 800)  # Set minimum size
         scroll.setWidget(label)
-        scroll.show()
+        layout.addWidget(scroll)
+        
+        # Show window
+        analysis_window.show()
+        analysis_window.raise_()  # Bring window to front
+        analysis_window.activateWindow()  # Activate the window
+        
+        # Store reference to prevent garbage collection
+        self._analysis_window = analysis_window
         
     def countdown_timeout(self):
         """Handle countdown before recording"""
@@ -385,7 +527,22 @@ class MainWindow(QMainWindow):
     def recording_timeout(self):
         """Handle recording timer"""
         self.time_remaining -= 1
-        self.add_status_message(f"Recording: {self.time_remaining}s remaining")
+        self.timer_label.setText(f"Time Remaining: {self.time_remaining}s")
+        self.timer_label.setStyleSheet("""
+            font-size: 18px;
+            font-weight: bold;
+            color: #FF5722;
+            padding: 10px;
+            background-color: #FBE9E7;
+            border-radius: 5px;
+        """)
+        
+        # Update progress bar
+        total_tasks = len(self.eeg_manager.task_sequence)
+        current_task = self.eeg_manager.current_task_index
+        progress = int((current_task / total_tasks) * 100)
+        self.progress_bar.setValue(progress)
+        self.progress_label.setText(f"Progress: {current_task}/{total_tasks}")
         
         if self.time_remaining <= 0:
             self.recording_timer.stop()
@@ -394,7 +551,7 @@ class MainWindow(QMainWindow):
         
     def start_break(self):
         """Start break between tasks"""
-        self.time_remaining = 3  # 3 second break
+        self.time_remaining = self.break_duration.value()  # Use configured break duration
         self.break_timer.start(1000)
         self.add_status_message("Break started")
         
@@ -530,3 +687,215 @@ class MainWindow(QMainWindow):
             plot.setTitle(new_name)
             
         self.add_status_message("Channel configuration updated")
+        
+    def train_dqn_model(self):
+        """Train DQN-LSTM model on the current session"""
+        try:
+            if self.eeg_manager.current_session_num is None:
+                raise ValueError("No session selected. Please select a session first.")
+                
+            self.training_progress.clear()
+            self.training_progress.append("Initializing DQN training...")
+            
+            # First combine all FIF files
+            self.training_progress.append("Combining FIF files...")
+            try:
+                self.eeg_manager.combine_fif_files()
+                self.training_progress.append("Files combined successfully")
+            except Exception as e:
+                raise Exception(f"Error combining files: {str(e)}")
+            
+            # Initialize the model
+            dqn_model = AdaptiveDQNRLEEGNET()
+            
+            # Setup EEG data
+            combined_file = os.path.join(self.eeg_manager.formatted_dir, 'S03.fif')  # Use same filename as in combine_fif_files
+            raw, events = dqn_model.setup_eeg(combined_file)
+            self.training_progress.append("Data loaded successfully")
+            
+            # Process epochs
+            X_train, X_test, y_train, y_test = dqn_model.process_epochs()
+            self.training_progress.append(f"Processed {len(X_train)} training samples")
+            
+            # Create environment
+            env_class = dqn_model.create_environment()
+            env = env_class()
+            
+            # Setup and train model
+            model, callbacks = dqn_model.setup_training(env)
+            
+            # Add custom callback for GUI updates
+            class GUICallback(BaseCallback):
+                def __init__(self_, gui, verbose=0):
+                    super().__init__(verbose)
+                    self_.gui = gui
+                
+                def _on_step(self_):
+                    if self_.n_calls % 1000 == 0:
+                        self_.gui.training_progress.append(f"Training step: {self_.n_calls}")
+                    return True
+            
+            callbacks.append(GUICallback(self))
+            
+            # Train model
+            self.training_progress.append("Starting training...")
+            model.learn(total_timesteps=2500, callback=callbacks)
+            
+            # Save model
+            model_path = os.path.join(self.eeg_manager.processed_dir, f'dqn_model_session{self.eeg_manager.current_session_num}.zip')
+            model.save(model_path)
+            
+            self.training_progress.append("Training complete!")
+            self.training_progress.append(f"Model saved to: {model_path}")
+            
+        except Exception as e:
+            self.training_progress.append(f"Training error: {str(e)}")
+        
+    def create_task_display_panel(self):
+        task_panel = QGroupBox("Current Session")
+        task_panel.setStyleSheet("""
+            QGroupBox {
+                background-color: #f0f0f0;
+                border: 2px solid #2196F3;
+                border-radius: 5px;
+                margin-top: 1ex;
+                font-size: 14px;
+            }
+            QGroupBox::title {
+                color: #2196F3;
+                subcontrol-origin: margin;
+                padding: 0 3px;
+            }
+        """)
+        
+        layout = QVBoxLayout(task_panel)
+        
+        # Session Status
+        status_frame = QFrame()
+        status_frame.setFrameStyle(QFrame.StyledPanel | QFrame.Raised)
+        status_frame.setStyleSheet("background-color: white; padding: 10px;")
+        status_layout = QVBoxLayout(status_frame)
+        
+        # Current Task Display
+        self.task_label = QLabel("Current Task: None")
+        self.task_label.setStyleSheet("""
+            font-size: 16px;
+            font-weight: bold;
+            color: #1976D2;
+            padding: 10px;
+            background-color: #E3F2FD;
+            border-radius: 5px;
+        """)
+        
+        # Instruction Display
+        self.instruction_label = QLabel("Instruction: ")
+        self.instruction_label.setStyleSheet("""
+            font-size: 14px;
+            color: #424242;
+            padding: 10px;
+            background-color: #F5F5F5;
+            border-radius: 5px;
+        """)
+        self.instruction_label.setWordWrap(True)
+        
+        # Progress Display
+        progress_container = QWidget()
+        progress_layout = QHBoxLayout(progress_container)
+        
+        self.progress_label = QLabel("Progress: 0/0")
+        self.progress_label.setStyleSheet("color: #616161; font-size: 14px;")
+        
+        self.progress_bar = QProgressBar()
+        self.progress_bar.setStyleSheet("""
+            QProgressBar {
+                border: 2px solid #E0E0E0;
+                border-radius: 5px;
+                text-align: center;
+                height: 25px;
+            }
+            QProgressBar::chunk {
+                background-color: #4CAF50;
+                border-radius: 3px;
+            }
+        """)
+        self.progress_bar.setMaximum(100)
+        
+        progress_layout.addWidget(self.progress_label)
+        progress_layout.addWidget(self.progress_bar)
+        
+        # Timer Display
+        self.timer_label = QLabel("Time Remaining: --")
+        self.timer_label.setStyleSheet("""
+            font-size: 18px;
+            font-weight: bold;
+            color: #FF5722;
+            padding: 10px;
+            background-color: #FBE9E7;
+            border-radius: 5px;
+        """)
+        
+        # Add all elements to status frame
+        status_layout.addWidget(self.task_label)
+        status_layout.addWidget(self.instruction_label)
+        status_layout.addWidget(progress_container)
+        status_layout.addWidget(self.timer_label)
+        
+        # Task Sequence Display
+        sequence_frame = QFrame()
+        sequence_frame.setFrameStyle(QFrame.StyledPanel | QFrame.Raised)
+        sequence_frame.setStyleSheet("background-color: white; padding: 10px;")
+        sequence_layout = QVBoxLayout(sequence_frame)
+        
+        sequence_label = QLabel("Task Sequence")
+        sequence_label.setStyleSheet("font-size: 14px; font-weight: bold; color: #1976D2;")
+        self.sequence_list = QTextEdit()
+        self.sequence_list.setReadOnly(True)
+        self.sequence_list.setStyleSheet("""
+            background-color: #FAFAFA;
+            border: 1px solid #E0E0E0;
+            border-radius: 5px;
+            padding: 5px;
+        """)
+        
+        sequence_layout.addWidget(sequence_label)
+        sequence_layout.addWidget(self.sequence_list)
+        
+        # Add frames to main layout
+        layout.addWidget(status_frame)
+        layout.addWidget(sequence_frame)
+        
+        return task_panel
+
+    def update_filter_response(self):
+        """Update the filter frequency response plot"""
+        try:
+            fs = BoardShim.get_sampling_rate(BoardIds.CYTON_BOARD.value)
+            nyquist = fs / 2.0
+            
+            lowcut = self.lowcut.value()
+            highcut = self.highcut.value()
+            
+            if lowcut >= highcut:
+                return
+            
+            # Generate frequency response
+            order = 4
+            b, a = butter(order, [lowcut/nyquist, highcut/nyquist], btype='band')
+            
+            # Calculate frequency response
+            w, h = scipy.signal.freqz(b, a)
+            
+            # Convert to Hz and dB
+            frequencies = w * nyquist / np.pi
+            magnitude_db = 20 * np.log10(np.abs(h))
+            
+            # Update plot
+            self.filter_plot.clear()
+            self.filter_plot.plot(frequencies, magnitude_db, pen='b')
+            
+            # Add cutoff frequency markers
+            self.filter_plot.addLine(x=lowcut, pen='r')
+            self.filter_plot.addLine(x=highcut, pen='r')
+            
+        except Exception as e:
+            print(f"Error updating filter response: {str(e)}")
