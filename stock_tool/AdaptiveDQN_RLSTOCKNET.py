@@ -17,7 +17,7 @@ from stable_baselines3 import DQN
 from stable_baselines3.common.callbacks import BaseCallback, CheckpointCallback, EvalCallback
 import random
 
-class AdaptiveDQNRLEEGNET:
+class AdaptiveDQNRLSTOCKNET:
     def __init__(self):
         self.ncomp = 4
         self.GLOBAL_SHAPE_LENGTH = None
@@ -29,6 +29,7 @@ class AdaptiveDQNRLEEGNET:
         self.X_test = None
         self.y_train = None
         self.y_test = None
+        self.num_outputs = 2
         self.scaler = StandardScaler()
         
     def _mean(self, x):
@@ -175,30 +176,29 @@ class AdaptiveDQNRLEEGNET:
                 self_.keras_model = Sequential([
                     Reshape((self.GLOBAL_SHAPE_LENGTH, self.ncomp)),
                     BatchNormalization(),
+
+                    Conv1D(32, kernel_size=3),
+                    PReLU(),
+                    BatchNormalization(),
+
+                    
+                    SpatialDropout1D(0.1),
+
                     Conv1D(32, kernel_size=3),
                     BatchNormalization(),
                     PReLU(),
-                    MaxPooling1D(pool_size=2),
+                    
                     SpatialDropout1D(0.1),
-                    Conv1D(64, kernel_size=3),
-                    BatchNormalization(),
-                    PReLU(),
-                    AveragePooling1D(pool_size=2),
-                    SpatialDropout1D(0.1),
-                    LSTM(64, activation='tanh', 
-                         recurrent_regularizer=l1_l2(l1=0.01, l2=0.01),
-                         return_sequences=True),
+
+                    LSTM(32, activation='tanh', recurrent_regularizer=l1_l2(l1=0.01, l2=0.01),return_sequences=True),
                     BatchNormalization(),
                     GlobalMaxPooling1D(),
                     BatchNormalization(),
-                    Dense(units=64, activation='relu', 
-                          kernel_regularizer=l1_l2(l1=0.01, l2=0.01)),
+                    Dense(units=64, activation='relu', kernel_regularizer=l1_l2(l1=0.01, l2=0.01)),
                     BatchNormalization(),
+                    
                     Dropout(0.1),
-                    Dense(units=32, activation='relu'),
-                    BatchNormalization(),
-                    Dropout(0.1),
-                    Dense(units=5, activation='linear')
+                    Dense(units=self.num_outputs, activation='linear')
                 ])
             
             def q_values(self_, obs):
@@ -211,10 +211,10 @@ class AdaptiveDQNRLEEGNET:
             def __init__(self_, images_per_episode=1, dataset=(self.X_train, self.y_train), 
                         random=True):
                 super(Plasticity, self_).__init__()
-                self_.action_space = gym.spaces.Discrete(5)
+                self_.action_space = gym.spaces.Discrete(self.num_outputs)
                 self_.observation_space = gym.spaces.Box(
                     low=-np.inf, high=np.inf,
-                    shape=(self.ncomp, self.GLOBAL_SHAPE_LENGTH),
+                    shape=(10, 21),  # 10 timesteps, 21 features
                     dtype=np.float32
                 )
                 self_.images_per_episode = images_per_episode
@@ -245,10 +245,10 @@ class AdaptiveDQNRLEEGNET:
                     obs = self_.x[self_.dataset_idx]
                     self_.expected_action = int(self_.y[self_.dataset_idx])
                     self_.dataset_idx = (self_.dataset_idx + 1) % (len(self_.x))
-                return obs
+                return obs.reshape(10, 21)  # Reshape to match observation space
 
             def _calculate_reward(self_, action):
-                return 1.0 if action == self_.expected_action else -1.0
+                return 1.0 if action == self_.expected_action else -2.0
 
         return Plasticity
 
@@ -256,16 +256,16 @@ class AdaptiveDQNRLEEGNET:
         model = DQN(
             self.create_dqn_policy(),
             env,
-            verbose=1,
-            learning_rate=5e-4,
+            verbose=0,
+            learning_rate=0.0055,
             buffer_size=50000,
             learning_starts=100,
             batch_size=32,
             gamma=0.99,
             train_freq=4,
             target_update_interval=200,
-            exploration_fraction=0.1,
-            exploration_final_eps=0.02,
+            exploration_fraction=1,
+            exploration_final_eps=0.01,
             tensorboard_log="./dqn_plasticity_tensorboard/"
         )
 
