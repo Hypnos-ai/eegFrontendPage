@@ -1,5 +1,5 @@
 import time
-from AdaptiveDQN_RLEEGNET import AdaptiveDQNRLEEGNET
+from eeg_tool.src.AdaptiveDQN_RLEEGNET import AdaptiveDQNRLEEGNET
 import numpy as np
 import time
 import socket

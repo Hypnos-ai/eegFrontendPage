@@ -5,3 +5,23 @@ logs/
 models/
 frontend/node_modules/
 analysis_plots/
+
+# Model code and sensitive files
+eeg_tool/src/AdaptiveDQN_RLEEGNET.py
+eeg_tool/src/__pycache__/
+eeg_tool/src/models/
+eeg_venv/
+*.pkl
+*.h5
+*.zip
+EEG_Tool_Deployment/eeg_venv
+EEG_Tool_Deployment/build
+EEG_Tool_Deployment/NeuroSync.egg-info
+# Environment variables
+.env
+.env.local
+.vscode
+# Vercel
+.vercel
+installer_output/
+stock_tool/

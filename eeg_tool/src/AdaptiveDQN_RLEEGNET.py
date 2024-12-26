@@ -17,6 +17,114 @@ from stable_baselines3 import DQN
 from stable_baselines3.common.callbacks import BaseCallback, CheckpointCallback, EvalCallback
 import random
 
+class Plasticity(gym.Env):
+    def __init__(self, images_per_episode, dataset, random, ncomp, global_shape_length, n_actions):
+        super(Plasticity, self).__init__()
+        self.action_space = gym.spaces.Discrete(n_actions)
+        self.observation_space = gym.spaces.Box(
+            low=-np.inf, high=np.inf,
+            shape=(ncomp, global_shape_length),
+            dtype=np.float32
+        )
+        self.images_per_episode = images_per_episode
+        self.step_count = 0
+        self.x, self.y = dataset
+        self.random = random
+        self.dataset_idx = 0
+
+    def step(self, action):
+        done = False
+        reward = self._calculate_reward(action)
+        obs = self._next_obs()
+        self.step_count += 1
+        if self.step_count >= self.images_per_episode:
+            done = True
+        return obs, reward, done, {}
+
+    def reset(self):
+        self.step_count = 0
+        return self._next_obs()
+
+    def _next_obs(self):
+        if self.random:
+            next_obs_idx = random.randint(0, len(self.x) - 1)
+            self.expected_action = int(self.y[next_obs_idx])
+            obs = self.x[next_obs_idx]
+        else:
+            obs = self.x[self.dataset_idx]
+            self.expected_action = int(self.y[self.dataset_idx])
+            self.dataset_idx = (self.dataset_idx + 1) % (len(self.x))
+        return obs
+
+    def _calculate_reward(self, action):
+        return 1.0 if action == self.expected_action else -1.0
+
+
+class CustomCallback(BaseCallback):
+    def __init__(self, verbose=0):
+        super(CustomCallback, self).__init__(verbose)
+
+    def _on_step(self) -> bool:
+        if self.n_calls % 1000 == 0:
+            print(f"Step: {self.n_calls}")
+        return True
+
+class KerasDQNPolicy(DQNPolicy):
+    """
+    Top-level class so that cloudpickle can serialize it.
+    """
+    
+    def __init__(self, *args, **kwargs):
+        # Pop your custom parameters out of kwargs before calling super
+        ncomp = kwargs.pop("ncomp")
+        global_shape_length = kwargs.pop("global_shape_length")
+        super().__init__(*args, **kwargs)
+
+        self.ncomp = ncomp
+        self.global_shape_length = global_shape_length
+        self.n_actions = kwargs.get('n_actions', 5)
+
+        # Build your Keras model
+        self.keras_model = Sequential([
+            Reshape((self.global_shape_length, self.ncomp)),
+            BatchNormalization(),
+            Conv1D(32, kernel_size=3),
+            BatchNormalization(),
+            PReLU(),
+            MaxPooling1D(pool_size=2),
+            SpatialDropout1D(0.1),
+            Conv1D(64, kernel_size=3),
+            BatchNormalization(),
+            PReLU(),
+            AveragePooling1D(pool_size=2),
+            SpatialDropout1D(0.1),
+            LSTM(
+                64, activation='tanh',
+                recurrent_regularizer=l1_l2(l1=0.01, l2=0.01),
+                return_sequences=True
+            ),
+            BatchNormalization(),
+            GlobalMaxPooling1D(),
+            BatchNormalization(),
+            Dense(64, activation='relu', kernel_regularizer=l1_l2(l1=0.01, l2=0.01)),
+            BatchNormalization(),
+            Dropout(0.1),
+            Dense(32, activation='relu'),
+            BatchNormalization(),
+            Dropout(0.1),
+            Dense(self.n_actions, activation='linear')
+        ])
+
+    def q_values(self, obs: np.ndarray) -> np.ndarray:
+        """
+        Compute the Q-values using the internal Keras model.
+
+        :param obs: A (batch_size x *observation_shape*) array
+        :return: A (batch_size x n_actions) array of Q-values
+        """
+        # Make sure obs is the right shape, or do any conversions needed
+        return self.keras_model.predict(obs)
+    
 class AdaptiveDQNRLEEGNET:
     def __init__(self):
         self.ncomp = 4
@@ -30,7 +138,8 @@ class AdaptiveDQNRLEEGNET:
         self.y_train = None
         self.y_test = None
         self.scaler = StandardScaler()
-        
+        self.task_names = []
+
     def _mean(self, x):
         return np.mean(x, axis=-1).reshape(-1, 1)
 
@@ -168,94 +277,21 @@ class AdaptiveDQNRLEEGNET:
         
         return self.X_train, self.X_test, self.y_train, self.y_test
 
-    def create_dqn_policy(self):
-        class KerasDQNPolicy(DQNPolicy):
-            def __init__(self_, *args, **kwargs):
-                super(KerasDQNPolicy, self_).__init__(*args, **kwargs)
-                self_.keras_model = Sequential([
-                    Reshape((self.GLOBAL_SHAPE_LENGTH, self.ncomp)),
-                    BatchNormalization(),
-                    Conv1D(32, kernel_size=3),
-                    BatchNormalization(),
-                    PReLU(),
-                    MaxPooling1D(pool_size=2),
-                    SpatialDropout1D(0.1),
-                    Conv1D(64, kernel_size=3),
-                    BatchNormalization(),
-                    PReLU(),
-                    AveragePooling1D(pool_size=2),
-                    SpatialDropout1D(0.1),
-                    LSTM(64, activation='tanh', 
-                         recurrent_regularizer=l1_l2(l1=0.01, l2=0.01),
-                         return_sequences=True),
-                    BatchNormalization(),
-                    GlobalMaxPooling1D(),
-                    BatchNormalization(),
-                    Dense(units=64, activation='relu', 
-                          kernel_regularizer=l1_l2(l1=0.01, l2=0.01)),
-                    BatchNormalization(),
-                    Dropout(0.1),
-                    Dense(units=32, activation='relu'),
-                    BatchNormalization(),
-                    Dropout(0.1),
-                    Dense(units=5, activation='linear')
-                ])
-            
-            def q_values(self_, obs):
-                return self_.keras_model.predict(np.array(obs))
-        
-        return KerasDQNPolicy
 
-    def create_environment(self):
-        class Plasticity(gym.Env):
-            def __init__(self_, images_per_episode=1, dataset=(self.X_train, self.y_train), 
-                        random=True):
-                super(Plasticity, self_).__init__()
-                self_.action_space = gym.spaces.Discrete(5)
-                self_.observation_space = gym.spaces.Box(
-                    low=-np.inf, high=np.inf,
-                    shape=(self.ncomp, self.GLOBAL_SHAPE_LENGTH),
-                    dtype=np.float32
-                )
-                self_.images_per_episode = images_per_episode
-                self_.step_count = 0
-                self_.x, self_.y = dataset
-                self_.random = random
-                self_.dataset_idx = 0
-
-            def step(self_, action):
-                done = False
-                reward = self_._calculate_reward(action)
-                obs = self_._next_obs()
-                self_.step_count += 1
-                if self_.step_count >= self_.images_per_episode:
-                    done = True
-                return obs, reward, done, {}
-
-            def reset(self_):
-                self_.step_count = 0
-                return self_._next_obs()
-
-            def _next_obs(self_):
-                if self_.random:
-                    next_obs_idx = random.randint(0, len(self_.x) - 1)
-                    self_.expected_action = int(self_.y[next_obs_idx])
-                    obs = self_.x[next_obs_idx]
-                else:
-                    obs = self_.x[self_.dataset_idx]
-                    self_.expected_action = int(self_.y[self_.dataset_idx])
-                    self_.dataset_idx = (self_.dataset_idx + 1) % (len(self_.x))
-                return obs
-
-            def _calculate_reward(self_, action):
-                return 1.0 if action == self_.expected_action else -1.0
-
-        return Plasticity
-
-    def setup_training(self, env):
+    def setup_training(self, task_names):
+        self.task_names = task_names
+        n_actions = len(self.task_names)
+        env = Plasticity(
+            images_per_episode=1, 
+            dataset=(np.concatenate((self.X_train, self.X_test), axis=0), np.concatenate((self.y_train, self.y_test), axis=0)),  
+            random=True, 
+            ncomp=self.ncomp, 
+            global_shape_length=self.GLOBAL_SHAPE_LENGTH,
+            n_actions=n_actions
+        )
         model = DQN(
-            self.create_dqn_policy(),
-            env,
+            KerasDQNPolicy,
+            env=env,
             verbose=1,
             learning_rate=5e-4,
             buffer_size=50000,
@@ -266,25 +302,13 @@ class AdaptiveDQNRLEEGNET:
             target_update_interval=200,
             exploration_fraction=0.1,
             exploration_final_eps=0.02,
-            tensorboard_log="./dqn_plasticity_tensorboard/"
+            policy_kwargs={
+                'ncomp': self.ncomp,
+                'global_shape_length': self.GLOBAL_SHAPE_LENGTH,
+                'n_actions': n_actions
+            }
         )
-
-        checkpoint_callback = CheckpointCallback(
-            save_freq=1000,
-            save_path='./models/',
-            name_prefix='dqn_plasticity'
-        )
-
-        class CustomCallback(BaseCallback):
-            def __init__(self_, verbose=0):
-                super(CustomCallback, self_).__init__(verbose)
-
-            def _on_step(self_) -> bool:
-                if self_.n_calls % 1000 == 0:
-                    print(f"Step: {self_.n_calls}")
-                return True
-
-        return model, [checkpoint_callback, CustomCallback()]
+        return model, [CustomCallback()]
 
 
 

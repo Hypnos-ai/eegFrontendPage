@@ -1,8 +1,6 @@
-import sys
-import os
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from PyQt5.QtWidgets import QApplication
 from gui import MainWindow
+import sys
 
 def main():
     app = QApplication(sys.argv)
@@ -10,5 +8,6 @@ def main():
     window.show()
     sys.exit(app.exec_())
 
-if __name__ == '__main__':
-    main() 
+if __name__ == "__main__":
+    # This will only be called by the launcher after dependencies are installed
+    main()
