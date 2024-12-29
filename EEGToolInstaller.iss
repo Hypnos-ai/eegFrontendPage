@@ -27,6 +27,7 @@ Source: "eeg_tool_deployment\src\*.pkl"; DestDir: "C:\NeuroSync\"; Flags: ignore
 Source: "eeg_tool_deployment\requirements.txt"; DestDir: "{app}"; Flags: ignoreversion
 Source: "eeg_tool_deployment\src\run_hidden.vbs"; DestDir: "{app}\src"; Flags: ignoreversion
 Source: "eeg_tool_deployment\src\NeuroSync.ico"; DestDir: "{app}"; Flags: ignoreversion
+Source: "eeg_tool_deployment\eeg_venv\*"; DestDir: "{app}\eeg_venv"; Flags: ignoreversion recursesubdirs createallsubdirs onlyifdoesntexist
 
 [Icons]
 Name: "{group}\NeuroSync"; Filename: "{app}\eeg_venv\Scripts\python.exe"; Parameters: """{app}\src\launcher.py"""; WorkingDir: "{app}\src"; IconFilename: "{app}\NeuroSync.ico"

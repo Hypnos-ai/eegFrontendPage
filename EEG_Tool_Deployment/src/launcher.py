@@ -1,7 +1,7 @@
 import os
 import subprocess
 import sys
-import src.main
+import main
 def run_vbs_script():
     # Path to the VBScript file
     vbs_path = os.path.join(os.path.dirname(sys.argv[0]), "run_hidden.vbs")
