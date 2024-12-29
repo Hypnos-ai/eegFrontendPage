@@ -3,12 +3,12 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "src.eeg_manager",
+        "name": "eeg_manager",
         "sources": [
             "src\\eeg_manager.py"
         ]
     },
-    "module_name": "src.eeg_manager"
+    "module_name": "eeg_manager"
 }
 END: Cython Metadata */
 
@@ -1228,8 +1228,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__src__eeg_manager
-#define __PYX_HAVE_API__src__eeg_manager
+#define __PYX_HAVE__eeg_manager
+#define __PYX_HAVE_API__eeg_manager
 /* Early includes */
 #ifdef _OPENMP
 #include <omp.h>
@@ -2367,14 +2367,14 @@ static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 /* #### Code section: module_declarations ### */
 
-/* Module declarations from "src.eeg_manager" */
+/* Module declarations from "eeg_manager" */
 /* #### Code section: typeinfo ### */
 /* #### Code section: before_global_var ### */
-#define __Pyx_MODULE_NAME "src.eeg_manager"
-extern int __pyx_module_is_main_src__eeg_manager;
-int __pyx_module_is_main_src__eeg_manager = 0;
+#define __Pyx_MODULE_NAME "eeg_manager"
+extern int __pyx_module_is_main_eeg_manager;
+int __pyx_module_is_main_eeg_manager = 0;
 
-/* Implementation of "src.eeg_manager" */
+/* Implementation of "eeg_manager" */
 /* #### Code section: global_var ### */
 static PyObject *__pyx_builtin_staticmethod;
 static PyObject *__pyx_builtin_print;
@@ -2665,6 +2665,7 @@ static const char __pyx_k_annotations[] = "annotations";
 static const char __pyx_k_class_names[] = "class_names";
 static const char __pyx_k_create_info[] = "create_info";
 static const char __pyx_k_description[] = "description";
+static const char __pyx_k_eeg_manager[] = "eeg_manager";
 static const char __pyx_k_instruction[] = "instruction";
 static const char __pyx_k_is_prepared[] = "is_prepared";
 static const char __pyx_k_new_actions[] = "new_actions";
@@ -2728,7 +2729,6 @@ static const char __pyx_k_enabled_indices[] = "enabled_indices";
 static const char __pyx_k_prepare_session[] = "prepare_session";
 static const char __pyx_k_release_session[] = "release_session";
 static const char __pyx_k_set_annotations[] = "set_annotations";
-static const char __pyx_k_src_eeg_manager[] = "src.eeg_manager";
 static const char __pyx_k_start_recording[] = "start_recording";
 static const char __pyx_k_total_raw_files[] = " total raw files:";
 static const char __pyx_k_update_channels[] = "update_channels";
@@ -2831,32 +2831,32 @@ static const char __pyx_k_Relax_your_body_and_mind_do_noth[] = "Relax your body 
 static const char __pyx_k_Sample_annotations_file_not_foun[] = "Sample annotations file not found";
 static const char __pyx_k_Sample_data_file_S03_fif_not_fou[] = "Sample data file (S03.fif) not found";
 /* #### Code section: decls ### */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_number(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_port); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_10get_next_task(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_eeg_data); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_file(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_22set_channel_state(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_channel_name, PyObject *__pyx_v_enabled); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_24get_enabled_channels(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_26get_channel_positions(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_name(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_name); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_36update_action_names(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_new_actions); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_files(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num, PyObject *__pyx_v_data); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_channel_names); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_2_get_next_session_number(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_4initialize_board(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_port); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_8initialize_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_10get_next_task(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_12start_recording(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_14stop_recording(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_eeg_data); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_18_read_annotations_file(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_20analyze_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_22set_channel_state(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_channel_name, PyObject *__pyx_v_enabled); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_24get_enabled_channels(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_26get_channel_positions(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_28validate_channel_name(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_name); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_30get_current_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_32stop_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_34combine_fif_files(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_36update_action_names(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_new_actions); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_38delete_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_40delete_all_sessions(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_42combine_all_fif_files(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_44save_session_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num, PyObject *__pyx_v_data); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_46load_session_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_48get_sample_files(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_50update_channels(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_channel_names); /* proto */
 /* #### Code section: late_includes ### */
 /* #### Code section: module_state ### */
 typedef struct {
@@ -3133,6 +3133,7 @@ typedef struct {
   PyObject *__pyx_n_u_eeg;
   PyObject *__pyx_n_s_eeg_channels;
   PyObject *__pyx_n_s_eeg_data;
+  PyObject *__pyx_n_s_eeg_manager;
   PyObject *__pyx_n_s_enabled;
   PyObject *__pyx_n_s_enabled_channels;
   PyObject *__pyx_n_s_enabled_indices;
@@ -3299,7 +3300,6 @@ typedef struct {
   PyObject *__pyx_n_s_size;
   PyObject *__pyx_n_s_spec;
   PyObject *__pyx_n_s_split;
-  PyObject *__pyx_n_s_src_eeg_manager;
   PyObject *__pyx_kp_s_src_eeg_manager_py;
   PyObject *__pyx_n_u_standard_1020;
   PyObject *__pyx_n_s_start_recording;
@@ -3713,6 +3713,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_u_eeg);
   Py_CLEAR(clear_module_state->__pyx_n_s_eeg_channels);
   Py_CLEAR(clear_module_state->__pyx_n_s_eeg_data);
+  Py_CLEAR(clear_module_state->__pyx_n_s_eeg_manager);
   Py_CLEAR(clear_module_state->__pyx_n_s_enabled);
   Py_CLEAR(clear_module_state->__pyx_n_s_enabled_channels);
   Py_CLEAR(clear_module_state->__pyx_n_s_enabled_indices);
@@ -3879,7 +3880,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_size);
   Py_CLEAR(clear_module_state->__pyx_n_s_spec);
   Py_CLEAR(clear_module_state->__pyx_n_s_split);
-  Py_CLEAR(clear_module_state->__pyx_n_s_src_eeg_manager);
   Py_CLEAR(clear_module_state->__pyx_kp_s_src_eeg_manager_py);
   Py_CLEAR(clear_module_state->__pyx_n_u_standard_1020);
   Py_CLEAR(clear_module_state->__pyx_n_s_start_recording);
@@ -4271,6 +4271,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_u_eeg);
   Py_VISIT(traverse_module_state->__pyx_n_s_eeg_channels);
   Py_VISIT(traverse_module_state->__pyx_n_s_eeg_data);
+  Py_VISIT(traverse_module_state->__pyx_n_s_eeg_manager);
   Py_VISIT(traverse_module_state->__pyx_n_s_enabled);
   Py_VISIT(traverse_module_state->__pyx_n_s_enabled_channels);
   Py_VISIT(traverse_module_state->__pyx_n_s_enabled_indices);
@@ -4437,7 +4438,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_size);
   Py_VISIT(traverse_module_state->__pyx_n_s_spec);
   Py_VISIT(traverse_module_state->__pyx_n_s_split);
-  Py_VISIT(traverse_module_state->__pyx_n_s_src_eeg_manager);
   Py_VISIT(traverse_module_state->__pyx_kp_s_src_eeg_manager_py);
   Py_VISIT(traverse_module_state->__pyx_n_u_standard_1020);
   Py_VISIT(traverse_module_state->__pyx_n_s_start_recording);
@@ -4839,6 +4839,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_u_eeg __pyx_mstate_global->__pyx_n_u_eeg
 #define __pyx_n_s_eeg_channels __pyx_mstate_global->__pyx_n_s_eeg_channels
 #define __pyx_n_s_eeg_data __pyx_mstate_global->__pyx_n_s_eeg_data
+#define __pyx_n_s_eeg_manager __pyx_mstate_global->__pyx_n_s_eeg_manager
 #define __pyx_n_s_enabled __pyx_mstate_global->__pyx_n_s_enabled
 #define __pyx_n_s_enabled_channels __pyx_mstate_global->__pyx_n_s_enabled_channels
 #define __pyx_n_s_enabled_indices __pyx_mstate_global->__pyx_n_s_enabled_indices
@@ -5005,7 +5006,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_size __pyx_mstate_global->__pyx_n_s_size
 #define __pyx_n_s_spec __pyx_mstate_global->__pyx_n_s_spec
 #define __pyx_n_s_split __pyx_mstate_global->__pyx_n_s_split
-#define __pyx_n_s_src_eeg_manager __pyx_mstate_global->__pyx_n_s_src_eeg_manager
 #define __pyx_kp_s_src_eeg_manager_py __pyx_mstate_global->__pyx_kp_s_src_eeg_manager_py
 #define __pyx_n_u_standard_1020 __pyx_mstate_global->__pyx_n_u_standard_1020
 #define __pyx_n_s_start_recording __pyx_mstate_global->__pyx_n_s_start_recording
@@ -5132,7 +5132,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_codeobj__82 __pyx_mstate_global->__pyx_codeobj__82
 /* #### Code section: module_code ### */
 
-/* "src/eeg_manager.py":12
+/* "eeg_manager.py":12
  * 
  * class EEGManager:
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -5141,16 +5141,16 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_1__init__(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager___init__, "EEGManager.__init__(self)");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager___init__};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_1__init__(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager___init__, "EEGManager.__init__(self)");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager___init__};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -5220,11 +5220,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager___init__(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager___init__(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -5237,7 +5237,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_base_dir = NULL;
   PyObject *__pyx_v_directory = NULL;
   PyObject *__pyx_v_f = NULL;
@@ -5262,7 +5262,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 1);
 
-  /* "src/eeg_manager.py":14
+  /* "eeg_manager.py":14
  *     def __init__(self):
  *         # Board setup
  *         self.board = None             # <<<<<<<<<<<<<<
@@ -5271,7 +5271,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_board, Py_None) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":15
+  /* "eeg_manager.py":15
  *         # Board setup
  *         self.board = None
  *         self.is_recording = False             # <<<<<<<<<<<<<<
@@ -5280,7 +5280,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_is_recording, Py_False) < 0) __PYX_ERR(0, 15, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":16
+  /* "eeg_manager.py":16
  *         self.board = None
  *         self.is_recording = False
  *         self.is_streaming = False             # <<<<<<<<<<<<<<
@@ -5289,7 +5289,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_is_streaming, Py_False) < 0) __PYX_ERR(0, 16, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":19
+  /* "eeg_manager.py":19
  * 
  *         # Session management
  *         self.current_session_num = None             # <<<<<<<<<<<<<<
@@ -5298,7 +5298,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_current_session_num, Py_None) < 0) __PYX_ERR(0, 19, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":20
+  /* "eeg_manager.py":20
  *         # Session management
  *         self.current_session_num = None
  *         self.next_session_number = self._get_next_session_number()             # <<<<<<<<<<<<<<
@@ -5332,7 +5332,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_next_session_number, __pyx_t_1) < 0) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":21
+  /* "eeg_manager.py":21
  *         self.current_session_num = None
  *         self.next_session_number = self._get_next_session_number()
  *         print(os.path.dirname(__file__))             # <<<<<<<<<<<<<<
@@ -5377,7 +5377,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":24
+  /* "eeg_manager.py":24
  * 
  *         # File management
  *         base_dir = "C:\\NeuroSync"             # <<<<<<<<<<<<<<
@@ -5387,7 +5387,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   __Pyx_INCREF(__pyx_kp_u_C_NeuroSync);
   __pyx_v_base_dir = __pyx_kp_u_C_NeuroSync;
 
-  /* "src/eeg_manager.py":25
+  /* "eeg_manager.py":25
  *         # File management
  *         base_dir = "C:\\NeuroSync"
  *         self.data_dir = os.path.join(base_dir, 'data')             # <<<<<<<<<<<<<<
@@ -5427,7 +5427,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_data_dir, __pyx_t_2) < 0) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":26
+  /* "eeg_manager.py":26
  *         base_dir = "C:\\NeuroSync"
  *         self.data_dir = os.path.join(base_dir, 'data')
  *         self.raw_dir = os.path.join(self.data_dir, 'raw')             # <<<<<<<<<<<<<<
@@ -5470,7 +5470,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_raw_dir, __pyx_t_2) < 0) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":27
+  /* "eeg_manager.py":27
  *         self.data_dir = os.path.join(base_dir, 'data')
  *         self.raw_dir = os.path.join(self.data_dir, 'raw')
  *         self.processed_dir = os.path.join(self.data_dir, 'processed')             # <<<<<<<<<<<<<<
@@ -5513,7 +5513,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_processed_dir, __pyx_t_2) < 0) __PYX_ERR(0, 27, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":28
+  /* "eeg_manager.py":28
  *         self.raw_dir = os.path.join(self.data_dir, 'raw')
  *         self.processed_dir = os.path.join(self.data_dir, 'processed')
  *         self.formatted_dir = os.path.join(self.data_dir, 'formatted')             # <<<<<<<<<<<<<<
@@ -5556,7 +5556,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_formatted_dir, __pyx_t_2) < 0) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":29
+  /* "eeg_manager.py":29
  *         self.processed_dir = os.path.join(self.data_dir, 'processed')
  *         self.formatted_dir = os.path.join(self.data_dir, 'formatted')
  *         self.annotation_file = os.path.join(self.data_dir, 'annotations.txt')             # <<<<<<<<<<<<<<
@@ -5599,7 +5599,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_annotation_file, __pyx_t_2) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":30
+  /* "eeg_manager.py":30
  *         self.formatted_dir = os.path.join(self.data_dir, 'formatted')
  *         self.annotation_file = os.path.join(self.data_dir, 'annotations.txt')
  *         self.sample_dir = os.path.join(base_dir, 'sample_data')             # <<<<<<<<<<<<<<
@@ -5639,7 +5639,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_sample_dir, __pyx_t_2) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":33
+  /* "eeg_manager.py":33
  * 
  *         # Ensure the formatted directory exists
  *         self.formatted_sample_dir = os.path.join(self.sample_dir, 'formatted')             # <<<<<<<<<<<<<<
@@ -5682,7 +5682,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_formatted_sample_dir, __pyx_t_2) < 0) __PYX_ERR(0, 33, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":36
+  /* "eeg_manager.py":36
  * 
  *         # Create directories and annotation file if they don't exist
  *         for directory in [self.data_dir, self.raw_dir, self.processed_dir, self.formatted_dir]:             # <<<<<<<<<<<<<<
@@ -5725,7 +5725,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
     __Pyx_XDECREF_SET(__pyx_v_directory, __pyx_t_6);
     __pyx_t_6 = 0;
 
-    /* "src/eeg_manager.py":37
+    /* "eeg_manager.py":37
  *         # Create directories and annotation file if they don't exist
  *         for directory in [self.data_dir, self.raw_dir, self.processed_dir, self.formatted_dir]:
  *             os.makedirs(directory, exist_ok=True)             # <<<<<<<<<<<<<<
@@ -5752,7 +5752,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "src/eeg_manager.py":36
+    /* "eeg_manager.py":36
  * 
  *         # Create directories and annotation file if they don't exist
  *         for directory in [self.data_dir, self.raw_dir, self.processed_dir, self.formatted_dir]:             # <<<<<<<<<<<<<<
@@ -5762,7 +5762,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   }
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/eeg_manager.py":40
+  /* "eeg_manager.py":40
  * 
  *         # Create empty annotation file if it doesn't exist
  *         if not os.path.exists(self.annotation_file):             # <<<<<<<<<<<<<<
@@ -5807,7 +5807,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   __pyx_t_9 = (!__pyx_t_8);
   if (__pyx_t_9) {
 
-    /* "src/eeg_manager.py":41
+    /* "eeg_manager.py":41
  *         # Create empty annotation file if it doesn't exist
  *         if not os.path.exists(self.annotation_file):
  *             with open(self.annotation_file, 'w') as f:             # <<<<<<<<<<<<<<
@@ -5869,7 +5869,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
             __pyx_v_f = __pyx_t_1;
             __pyx_t_1 = 0;
 
-            /* "src/eeg_manager.py":42
+            /* "eeg_manager.py":42
  *         if not os.path.exists(self.annotation_file):
  *             with open(self.annotation_file, 'w') as f:
  *                 f.write('')             # <<<<<<<<<<<<<<
@@ -5902,7 +5902,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
             }
             __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-            /* "src/eeg_manager.py":41
+            /* "eeg_manager.py":41
  *         # Create empty annotation file if it doesn't exist
  *         if not os.path.exists(self.annotation_file):
  *             with open(self.annotation_file, 'w') as f:             # <<<<<<<<<<<<<<
@@ -5921,7 +5921,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
           /*except:*/ {
-            __Pyx_AddTraceback("src.eeg_manager.EEGManager.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+            __Pyx_AddTraceback("eeg_manager.EEGManager.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
             if (__Pyx_GetException(&__pyx_t_1, &__pyx_t_5, &__pyx_t_2) < 0) __PYX_ERR(0, 41, __pyx_L13_except_error)
             __Pyx_XGOTREF(__pyx_t_1);
             __Pyx_XGOTREF(__pyx_t_5);
@@ -5984,7 +5984,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
       __pyx_L20:;
     }
 
-    /* "src/eeg_manager.py":40
+    /* "eeg_manager.py":40
  * 
  *         # Create empty annotation file if it doesn't exist
  *         if not os.path.exists(self.annotation_file):             # <<<<<<<<<<<<<<
@@ -5993,7 +5993,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
  */
   }
 
-  /* "src/eeg_manager.py":46
+  /* "eeg_manager.py":46
  *         # Channel setup
  *         self.channel_states = {
  *             'FCz': True,             # <<<<<<<<<<<<<<
@@ -6004,7 +6004,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_u_FCz, Py_True) < 0) __PYX_ERR(0, 46, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":47
+  /* "eeg_manager.py":47
  *         self.channel_states = {
  *             'FCz': True,
  *             'C3': True,             # <<<<<<<<<<<<<<
@@ -6013,7 +6013,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
  */
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_u_C3, Py_True) < 0) __PYX_ERR(0, 46, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":48
+  /* "eeg_manager.py":48
  *             'FCz': True,
  *             'C3': True,
  *             'Cz': True,             # <<<<<<<<<<<<<<
@@ -6022,7 +6022,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
  */
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_u_Cz, Py_True) < 0) __PYX_ERR(0, 46, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":49
+  /* "eeg_manager.py":49
  *             'C3': True,
  *             'Cz': True,
  *             'CPz': True,             # <<<<<<<<<<<<<<
@@ -6031,7 +6031,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
  */
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_u_CPz, Py_True) < 0) __PYX_ERR(0, 46, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":50
+  /* "eeg_manager.py":50
  *             'Cz': True,
  *             'CPz': True,
  *             'C2': True,             # <<<<<<<<<<<<<<
@@ -6040,7 +6040,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
  */
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_u_C2, Py_True) < 0) __PYX_ERR(0, 46, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":51
+  /* "eeg_manager.py":51
  *             'CPz': True,
  *             'C2': True,
  *             'C4': True             # <<<<<<<<<<<<<<
@@ -6049,7 +6049,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
  */
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_u_C4, Py_True) < 0) __PYX_ERR(0, 46, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":45
+  /* "eeg_manager.py":45
  * 
  *         # Channel setup
  *         self.channel_states = {             # <<<<<<<<<<<<<<
@@ -6059,7 +6059,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_channel_states, __pyx_t_2) < 0) __PYX_ERR(0, 45, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":53
+  /* "eeg_manager.py":53
  *             'C4': True
  *         }
  *         self.channel_names = list(self.channel_states.keys())  # Store current channel names             # <<<<<<<<<<<<<<
@@ -6099,7 +6099,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_channel_names, __pyx_t_1) < 0) __PYX_ERR(0, 53, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":57
+  /* "eeg_manager.py":57
  *         # Task setup with default tasks
  *         self.task_names = {
  *             "Right_Hand": ["Imagine or perform right hand movement", 21],             # <<<<<<<<<<<<<<
@@ -6119,7 +6119,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_Right_Hand, __pyx_t_2) < 0) __PYX_ERR(0, 57, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":58
+  /* "eeg_manager.py":58
  *         self.task_names = {
  *             "Right_Hand": ["Imagine or perform right hand movement", 21],
  *             "Left_Hand": ["Imagine or perform left hand movement", 21],             # <<<<<<<<<<<<<<
@@ -6137,7 +6137,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_Left_Hand, __pyx_t_2) < 0) __PYX_ERR(0, 57, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":59
+  /* "eeg_manager.py":59
  *             "Right_Hand": ["Imagine or perform right hand movement", 21],
  *             "Left_Hand": ["Imagine or perform left hand movement", 21],
  *             "Blinking": ["Blink your eyes at a comfortable pace", 21],             # <<<<<<<<<<<<<<
@@ -6155,7 +6155,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_Blinking, __pyx_t_2) < 0) __PYX_ERR(0, 57, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":60
+  /* "eeg_manager.py":60
  *             "Left_Hand": ["Imagine or perform left hand movement", 21],
  *             "Blinking": ["Blink your eyes at a comfortable pace", 21],
  *             "Jaw_Clenching": ["Clench your jaw with moderate force", 21],             # <<<<<<<<<<<<<<
@@ -6173,7 +6173,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_Jaw_Clenching, __pyx_t_2) < 0) __PYX_ERR(0, 57, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":61
+  /* "eeg_manager.py":61
  *             "Blinking": ["Blink your eyes at a comfortable pace", 21],
  *             "Jaw_Clenching": ["Clench your jaw with moderate force", 21],
  *             "Relax": ["Relax your body and mind, do nothing", 21]             # <<<<<<<<<<<<<<
@@ -6191,7 +6191,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_Relax, __pyx_t_2) < 0) __PYX_ERR(0, 57, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":56
+  /* "eeg_manager.py":56
  * 
  *         # Task setup with default tasks
  *         self.task_names = {             # <<<<<<<<<<<<<<
@@ -6201,7 +6201,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_task_names, __pyx_t_1) < 0) __PYX_ERR(0, 56, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":63
+  /* "eeg_manager.py":63
  *             "Relax": ["Relax your body and mind, do nothing", 21]
  *         }
  *         self.task_sequence = []             # <<<<<<<<<<<<<<
@@ -6213,7 +6213,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_task_sequence, __pyx_t_1) < 0) __PYX_ERR(0, 63, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":64
+  /* "eeg_manager.py":64
  *         }
  *         self.task_sequence = []
  *         self.current_task_index = 0             # <<<<<<<<<<<<<<
@@ -6222,7 +6222,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_current_task_index, __pyx_int_0) < 0) __PYX_ERR(0, 64, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":65
+  /* "eeg_manager.py":65
  *         self.task_sequence = []
  *         self.current_task_index = 0
  *         self.break_duration = 3  # Default break duration             # <<<<<<<<<<<<<<
@@ -6231,7 +6231,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_break_duration, __pyx_int_3) < 0) __PYX_ERR(0, 65, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":68
+  /* "eeg_manager.py":68
  * 
  *         # Initialize board
  *         self.initialize_board()             # <<<<<<<<<<<<<<
@@ -6264,7 +6264,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":71
+  /* "eeg_manager.py":71
  * 
  *         # Initialize session counter
  *         self.next_session_number = self._get_next_session_number()             # <<<<<<<<<<<<<<
@@ -6298,7 +6298,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_next_session_number, __pyx_t_1) < 0) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":74
+  /* "eeg_manager.py":74
  * 
  *         # Data storage
  *         self.raw_data = None             # <<<<<<<<<<<<<<
@@ -6307,7 +6307,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_raw_data, Py_None) < 0) __PYX_ERR(0, 74, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":77
+  /* "eeg_manager.py":77
  * 
  *         # API setup
  *         self.api_url = "your-vercel-deployment-url/api"             # <<<<<<<<<<<<<<
@@ -6316,7 +6316,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_api_url, __pyx_kp_u_your_vercel_deployment_url_api) < 0) __PYX_ERR(0, 77, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":12
+  /* "eeg_manager.py":12
  * 
  * class EEGManager:
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -6333,7 +6333,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_base_dir);
@@ -6344,7 +6344,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":79
+/* "eeg_manager.py":79
  *         self.api_url = "your-vercel-deployment-url/api"
  * 
  *     def _get_next_session_number(self):             # <<<<<<<<<<<<<<
@@ -6353,16 +6353,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_3_get_next_session_number(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_3_get_next_session_number(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_2_get_next_session_number, "EEGManager._get_next_session_number(self)\nDetermine the next available session number from annotations file");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_3_get_next_session_number = {"_get_next_session_number", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_3_get_next_session_number, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_2_get_next_session_number};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_3_get_next_session_number(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_2_get_next_session_number, "EEGManager._get_next_session_number(self)\nDetermine the next available session number from annotations file");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_3_get_next_session_number = {"_get_next_session_number", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_3_get_next_session_number, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_2_get_next_session_number};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_3_get_next_session_number(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -6432,11 +6432,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager._get_next_session_number", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager._get_next_session_number", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_number(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_2_get_next_session_number(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -6449,7 +6449,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_number(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_2_get_next_session_number(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_f = NULL;
   PyObject *__pyx_v_content = NULL;
   PyObject *__pyx_v_sessions = NULL;
@@ -6485,7 +6485,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_get_next_session_number", 1);
 
-  /* "src/eeg_manager.py":81
+  /* "eeg_manager.py":81
  *     def _get_next_session_number(self):
  *         """Determine the next available session number from annotations file"""
  *         try:             # <<<<<<<<<<<<<<
@@ -6501,7 +6501,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "src/eeg_manager.py":82
+      /* "eeg_manager.py":82
  *         """Determine the next available session number from annotations file"""
  *         try:
  *             if not os.path.exists(self.annotation_file):             # <<<<<<<<<<<<<<
@@ -6546,7 +6546,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
       __pyx_t_10 = (!__pyx_t_9);
       if (__pyx_t_10) {
 
-        /* "src/eeg_manager.py":83
+        /* "eeg_manager.py":83
  *         try:
  *             if not os.path.exists(self.annotation_file):
  *                 return 1             # <<<<<<<<<<<<<<
@@ -6558,7 +6558,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
         __pyx_r = __pyx_int_1;
         goto __pyx_L7_try_return;
 
-        /* "src/eeg_manager.py":82
+        /* "eeg_manager.py":82
  *         """Determine the next available session number from annotations file"""
  *         try:
  *             if not os.path.exists(self.annotation_file):             # <<<<<<<<<<<<<<
@@ -6567,7 +6567,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
  */
       }
 
-      /* "src/eeg_manager.py":85
+      /* "eeg_manager.py":85
  *                 return 1
  * 
  *             with open(self.annotation_file, 'r') as f:             # <<<<<<<<<<<<<<
@@ -6629,7 +6629,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
               __pyx_v_f = __pyx_t_6;
               __pyx_t_6 = 0;
 
-              /* "src/eeg_manager.py":86
+              /* "eeg_manager.py":86
  * 
  *             with open(self.annotation_file, 'r') as f:
  *                 content = f.read()             # <<<<<<<<<<<<<<
@@ -6663,7 +6663,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
               __pyx_v_content = __pyx_t_6;
               __pyx_t_6 = 0;
 
-              /* "src/eeg_manager.py":87
+              /* "eeg_manager.py":87
  *             with open(self.annotation_file, 'r') as f:
  *                 content = f.read()
  *                 sessions = [int(x.replace('session', ''))             # <<<<<<<<<<<<<<
@@ -6674,7 +6674,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
                 __pyx_t_6 = PyList_New(0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 87, __pyx_L22_error)
                 __Pyx_GOTREF(__pyx_t_6);
 
-                /* "src/eeg_manager.py":88
+                /* "eeg_manager.py":88
  *                 content = f.read()
  *                 sessions = [int(x.replace('session', ''))
  *                           for x in content.split('\n')             # <<<<<<<<<<<<<<
@@ -6761,7 +6761,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
                   __Pyx_XDECREF_SET(__pyx_7genexpr__pyx_v_x, __pyx_t_4);
                   __pyx_t_4 = 0;
 
-                  /* "src/eeg_manager.py":89
+                  /* "eeg_manager.py":89
  *                 sessions = [int(x.replace('session', ''))
  *                           for x in content.split('\n')
  *                           if x.strip().startswith('session')]             # <<<<<<<<<<<<<<
@@ -6821,7 +6821,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
                   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
                   if (__pyx_t_10) {
 
-                    /* "src/eeg_manager.py":87
+                    /* "eeg_manager.py":87
  *             with open(self.annotation_file, 'r') as f:
  *                 content = f.read()
  *                 sessions = [int(x.replace('session', ''))             # <<<<<<<<<<<<<<
@@ -6839,7 +6839,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
                     if (unlikely(__Pyx_ListComp_Append(__pyx_t_6, (PyObject*)__pyx_t_4))) __PYX_ERR(0, 87, __pyx_L22_error)
                     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-                    /* "src/eeg_manager.py":89
+                    /* "eeg_manager.py":89
  *                 sessions = [int(x.replace('session', ''))
  *                           for x in content.split('\n')
  *                           if x.strip().startswith('session')]             # <<<<<<<<<<<<<<
@@ -6848,7 +6848,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
  */
                   }
 
-                  /* "src/eeg_manager.py":88
+                  /* "eeg_manager.py":88
  *                 content = f.read()
  *                 sessions = [int(x.replace('session', ''))
  *                           for x in content.split('\n')             # <<<<<<<<<<<<<<
@@ -6867,7 +6867,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
               __pyx_v_sessions = ((PyObject*)__pyx_t_6);
               __pyx_t_6 = 0;
 
-              /* "src/eeg_manager.py":90
+              /* "eeg_manager.py":90
  *                           for x in content.split('\n')
  *                           if x.strip().startswith('session')]
  *                 return max(sessions, default=0) + 1             # <<<<<<<<<<<<<<
@@ -6894,7 +6894,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
               __pyx_t_5 = 0;
               goto __pyx_L18_try_return;
 
-              /* "src/eeg_manager.py":85
+              /* "eeg_manager.py":85
  *                 return 1
  * 
  *             with open(self.annotation_file, 'r') as f:             # <<<<<<<<<<<<<<
@@ -6910,7 +6910,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
             __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
             /*except:*/ {
-              __Pyx_AddTraceback("src.eeg_manager.EEGManager._get_next_session_number", __pyx_clineno, __pyx_lineno, __pyx_filename);
+              __Pyx_AddTraceback("eeg_manager.EEGManager._get_next_session_number", __pyx_clineno, __pyx_lineno, __pyx_filename);
               if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_4, &__pyx_t_6) < 0) __PYX_ERR(0, 85, __pyx_L16_except_error)
               __Pyx_XGOTREF(__pyx_t_5);
               __Pyx_XGOTREF(__pyx_t_4);
@@ -6992,7 +6992,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
         __pyx_L31:;
       }
 
-      /* "src/eeg_manager.py":81
+      /* "eeg_manager.py":81
  *     def _get_next_session_number(self):
  *         """Determine the next available session number from annotations file"""
  *         try:             # <<<<<<<<<<<<<<
@@ -7012,7 +7012,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "src/eeg_manager.py":91
+    /* "eeg_manager.py":91
  *                           if x.strip().startswith('session')]
  *                 return max(sessions, default=0) + 1
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -7021,7 +7021,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
  */
     __pyx_t_20 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_20) {
-      __Pyx_AddTraceback("src.eeg_manager.EEGManager._get_next_session_number", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("eeg_manager.EEGManager._get_next_session_number", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_6, &__pyx_t_4, &__pyx_t_5) < 0) __PYX_ERR(0, 91, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_4);
@@ -7030,7 +7030,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
       __pyx_v_e = __pyx_t_4;
       /*try:*/ {
 
-        /* "src/eeg_manager.py":92
+        /* "eeg_manager.py":92
  *                 return max(sessions, default=0) + 1
  *         except Exception as e:
  *             print(f"Error reading session number: {e}")             # <<<<<<<<<<<<<<
@@ -7047,7 +7047,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-        /* "src/eeg_manager.py":93
+        /* "eeg_manager.py":93
  *         except Exception as e:
  *             print(f"Error reading session number: {e}")
  *             return 1             # <<<<<<<<<<<<<<
@@ -7063,7 +7063,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
         goto __pyx_L36_return;
       }
 
-      /* "src/eeg_manager.py":91
+      /* "eeg_manager.py":91
  *                           if x.strip().startswith('session')]
  *                 return max(sessions, default=0) + 1
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -7117,7 +7117,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
     }
     goto __pyx_L5_except_error;
 
-    /* "src/eeg_manager.py":81
+    /* "eeg_manager.py":81
  *     def _get_next_session_number(self):
  *         """Determine the next available session number from annotations file"""
  *         try:             # <<<<<<<<<<<<<<
@@ -7145,7 +7145,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
     __pyx_L8_try_end:;
   }
 
-  /* "src/eeg_manager.py":79
+  /* "eeg_manager.py":79
  *         self.api_url = "your-vercel-deployment-url/api"
  * 
  *     def _get_next_session_number(self):             # <<<<<<<<<<<<<<
@@ -7163,7 +7163,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_17);
   __Pyx_XDECREF(__pyx_t_18);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager._get_next_session_number", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager._get_next_session_number", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_f);
@@ -7176,7 +7176,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":95
+/* "eeg_manager.py":95
  *             return 1
  * 
  *     def initialize_board(self, port='COM9'):             # <<<<<<<<<<<<<<
@@ -7185,16 +7185,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_2_get_next_session_num
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_5initialize_board(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_5initialize_board(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_4initialize_board, "EEGManager.initialize_board(self, port=u'COM9')\nInitialize OpenBCI board");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_5initialize_board = {"initialize_board", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_5initialize_board, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_4initialize_board};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_5initialize_board(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_4initialize_board, "EEGManager.initialize_board(self, port=u'COM9')\nInitialize OpenBCI board");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_5initialize_board = {"initialize_board", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_5initialize_board, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_4initialize_board};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_5initialize_board(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -7280,11 +7280,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.initialize_board", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.initialize_board", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(__pyx_self, __pyx_v_self, __pyx_v_port);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_4initialize_board(__pyx_self, __pyx_v_self, __pyx_v_port);
 
   /* function exit code */
   {
@@ -7297,7 +7297,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_port) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_4initialize_board(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_port) {
   PyObject *__pyx_v_params = NULL;
   PyObject *__pyx_v_e = NULL;
   PyObject *__pyx_r = NULL;
@@ -7326,7 +7326,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("initialize_board", 1);
 
-  /* "src/eeg_manager.py":97
+  /* "eeg_manager.py":97
  *     def initialize_board(self, port='COM9'):
  *         """Initialize OpenBCI board"""
  *         try:             # <<<<<<<<<<<<<<
@@ -7342,7 +7342,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "src/eeg_manager.py":98
+      /* "eeg_manager.py":98
  *         """Initialize OpenBCI board"""
  *         try:
  *             if self.is_streaming:             # <<<<<<<<<<<<<<
@@ -7355,7 +7355,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (__pyx_t_5) {
 
-        /* "src/eeg_manager.py":99
+        /* "eeg_manager.py":99
  *         try:
  *             if self.is_streaming:
  *                 return True             # <<<<<<<<<<<<<<
@@ -7367,7 +7367,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
         __pyx_r = Py_True;
         goto __pyx_L7_try_return;
 
-        /* "src/eeg_manager.py":98
+        /* "eeg_manager.py":98
  *         """Initialize OpenBCI board"""
  *         try:
  *             if self.is_streaming:             # <<<<<<<<<<<<<<
@@ -7376,7 +7376,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
  */
       }
 
-      /* "src/eeg_manager.py":101
+      /* "eeg_manager.py":101
  *                 return True
  * 
  *             params = BrainFlowInputParams()             # <<<<<<<<<<<<<<
@@ -7410,7 +7410,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
       __pyx_v_params = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":102
+      /* "eeg_manager.py":102
  * 
  *             params = BrainFlowInputParams()
  *             params.serial_port = port             # <<<<<<<<<<<<<<
@@ -7419,7 +7419,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
  */
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_params, __pyx_n_s_serial_port, __pyx_v_port) < 0) __PYX_ERR(0, 102, __pyx_L3_error)
 
-      /* "src/eeg_manager.py":103
+      /* "eeg_manager.py":103
  *             params = BrainFlowInputParams()
  *             params.serial_port = port
  *             self.board = BoardShim(BoardIds.CYTON_BOARD.value, params)             # <<<<<<<<<<<<<<
@@ -7462,7 +7462,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_board, __pyx_t_4) < 0) __PYX_ERR(0, 103, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":104
+      /* "eeg_manager.py":104
  *             params.serial_port = port
  *             self.board = BoardShim(BoardIds.CYTON_BOARD.value, params)
  *             self.board.prepare_session()             # <<<<<<<<<<<<<<
@@ -7498,7 +7498,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":105
+      /* "eeg_manager.py":105
  *             self.board = BoardShim(BoardIds.CYTON_BOARD.value, params)
  *             self.board.prepare_session()
  *             self.board.start_stream()             # <<<<<<<<<<<<<<
@@ -7534,7 +7534,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":106
+      /* "eeg_manager.py":106
  *             self.board.prepare_session()
  *             self.board.start_stream()
  *             self.is_streaming = True             # <<<<<<<<<<<<<<
@@ -7543,7 +7543,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
  */
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_is_streaming, Py_True) < 0) __PYX_ERR(0, 106, __pyx_L3_error)
 
-      /* "src/eeg_manager.py":107
+      /* "eeg_manager.py":107
  *             self.board.start_stream()
  *             self.is_streaming = True
  *             print("Board initialized successfully")             # <<<<<<<<<<<<<<
@@ -7554,7 +7554,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":108
+      /* "eeg_manager.py":108
  *             self.is_streaming = True
  *             print("Board initialized successfully")
  *             return True             # <<<<<<<<<<<<<<
@@ -7566,7 +7566,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
       __pyx_r = Py_True;
       goto __pyx_L7_try_return;
 
-      /* "src/eeg_manager.py":97
+      /* "eeg_manager.py":97
  *     def initialize_board(self, port='COM9'):
  *         """Initialize OpenBCI board"""
  *         try:             # <<<<<<<<<<<<<<
@@ -7580,7 +7580,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-    /* "src/eeg_manager.py":109
+    /* "eeg_manager.py":109
  *             print("Board initialized successfully")
  *             return True
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -7589,7 +7589,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
  */
     __pyx_t_10 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_10) {
-      __Pyx_AddTraceback("src.eeg_manager.EEGManager.initialize_board", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("eeg_manager.EEGManager.initialize_board", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(0, 109, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_4);
       __Pyx_XGOTREF(__pyx_t_6);
@@ -7598,7 +7598,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
       __pyx_v_e = __pyx_t_6;
       /*try:*/ {
 
-        /* "src/eeg_manager.py":110
+        /* "eeg_manager.py":110
  *             return True
  *         except Exception as e:
  *             print(f"Error initializing board: {e}")             # <<<<<<<<<<<<<<
@@ -7615,7 +7615,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-        /* "src/eeg_manager.py":111
+        /* "eeg_manager.py":111
  *         except Exception as e:
  *             print(f"Error initializing board: {e}")
  *             self.is_streaming = False             # <<<<<<<<<<<<<<
@@ -7624,7 +7624,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
  */
         if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_is_streaming, Py_False) < 0) __PYX_ERR(0, 111, __pyx_L15_error)
 
-        /* "src/eeg_manager.py":112
+        /* "eeg_manager.py":112
  *             print(f"Error initializing board: {e}")
  *             self.is_streaming = False
  *             return False             # <<<<<<<<<<<<<<
@@ -7640,7 +7640,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
         goto __pyx_L14_return;
       }
 
-      /* "src/eeg_manager.py":109
+      /* "eeg_manager.py":109
  *             print("Board initialized successfully")
  *             return True
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -7693,7 +7693,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
     }
     goto __pyx_L5_except_error;
 
-    /* "src/eeg_manager.py":97
+    /* "eeg_manager.py":97
  *     def initialize_board(self, port='COM9'):
  *         """Initialize OpenBCI board"""
  *         try:             # <<<<<<<<<<<<<<
@@ -7720,7 +7720,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
     goto __pyx_L0;
   }
 
-  /* "src/eeg_manager.py":95
+  /* "eeg_manager.py":95
  *             return 1
  * 
  *     def initialize_board(self, port='COM9'):             # <<<<<<<<<<<<<<
@@ -7735,7 +7735,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.initialize_board", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.initialize_board", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_params);
@@ -7745,7 +7745,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":114
+/* "eeg_manager.py":114
  *             return False
  * 
  *     def stop_stream(self):             # <<<<<<<<<<<<<<
@@ -7754,16 +7754,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_4initialize_board(CYTH
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_7stop_stream(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_7stop_stream(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_6stop_stream, "EEGManager.stop_stream(self)\nStop board streaming");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_7stop_stream = {"stop_stream", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_7stop_stream, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_6stop_stream};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_7stop_stream(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_6stop_stream, "EEGManager.stop_stream(self)\nStop board streaming");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_7stop_stream = {"stop_stream", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_7stop_stream, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_6stop_stream};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_7stop_stream(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -7833,11 +7833,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.stop_stream", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.stop_stream", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_6stop_stream(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -7850,7 +7850,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_e = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -7879,7 +7879,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("stop_stream", 1);
 
-  /* "src/eeg_manager.py":116
+  /* "eeg_manager.py":116
  *     def stop_stream(self):
  *         """Stop board streaming"""
  *         if self.board and self.is_streaming:             # <<<<<<<<<<<<<<
@@ -7903,7 +7903,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "src/eeg_manager.py":117
+    /* "eeg_manager.py":117
  *         """Stop board streaming"""
  *         if self.board and self.is_streaming:
  *             try:             # <<<<<<<<<<<<<<
@@ -7919,7 +7919,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
       __Pyx_XGOTREF(__pyx_t_6);
       /*try:*/ {
 
-        /* "src/eeg_manager.py":118
+        /* "eeg_manager.py":118
  *         if self.board and self.is_streaming:
  *             try:
  *                 self.board.stop_stream()             # <<<<<<<<<<<<<<
@@ -7955,7 +7955,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
         }
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "src/eeg_manager.py":119
+        /* "eeg_manager.py":119
  *             try:
  *                 self.board.stop_stream()
  *                 self.board.release_session()             # <<<<<<<<<<<<<<
@@ -7991,7 +7991,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
         }
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "src/eeg_manager.py":120
+        /* "eeg_manager.py":120
  *                 self.board.stop_stream()
  *                 self.board.release_session()
  *                 self.board = None             # <<<<<<<<<<<<<<
@@ -8000,7 +8000,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
  */
         if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_board, Py_None) < 0) __PYX_ERR(0, 120, __pyx_L6_error)
 
-        /* "src/eeg_manager.py":121
+        /* "eeg_manager.py":121
  *                 self.board.release_session()
  *                 self.board = None
  *                 self.is_streaming = False             # <<<<<<<<<<<<<<
@@ -8009,7 +8009,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
  */
         if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_is_streaming, Py_False) < 0) __PYX_ERR(0, 121, __pyx_L6_error)
 
-        /* "src/eeg_manager.py":122
+        /* "eeg_manager.py":122
  *                 self.board = None
  *                 self.is_streaming = False
  *                 print("Board streaming stopped")             # <<<<<<<<<<<<<<
@@ -8020,7 +8020,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "src/eeg_manager.py":123
+        /* "eeg_manager.py":123
  *                 self.is_streaming = False
  *                 print("Board streaming stopped")
  *                 return True             # <<<<<<<<<<<<<<
@@ -8032,7 +8032,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
         __pyx_r = Py_True;
         goto __pyx_L10_try_return;
 
-        /* "src/eeg_manager.py":117
+        /* "eeg_manager.py":117
  *         """Stop board streaming"""
  *         if self.board and self.is_streaming:
  *             try:             # <<<<<<<<<<<<<<
@@ -8045,7 +8045,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-      /* "src/eeg_manager.py":124
+      /* "eeg_manager.py":124
  *                 print("Board streaming stopped")
  *                 return True
  *             except Exception as e:             # <<<<<<<<<<<<<<
@@ -8054,7 +8054,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
  */
       __pyx_t_10 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
       if (__pyx_t_10) {
-        __Pyx_AddTraceback("src.eeg_manager.EEGManager.stop_stream", __pyx_clineno, __pyx_lineno, __pyx_filename);
+        __Pyx_AddTraceback("eeg_manager.EEGManager.stop_stream", __pyx_clineno, __pyx_lineno, __pyx_filename);
         if (__Pyx_GetException(&__pyx_t_2, &__pyx_t_7, &__pyx_t_8) < 0) __PYX_ERR(0, 124, __pyx_L8_except_error)
         __Pyx_XGOTREF(__pyx_t_2);
         __Pyx_XGOTREF(__pyx_t_7);
@@ -8063,7 +8063,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
         __pyx_v_e = __pyx_t_7;
         /*try:*/ {
 
-          /* "src/eeg_manager.py":125
+          /* "eeg_manager.py":125
  *                 return True
  *             except Exception as e:
  *                 print(f"Error stopping board: {e}")             # <<<<<<<<<<<<<<
@@ -8080,7 +8080,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
           __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-          /* "src/eeg_manager.py":126
+          /* "eeg_manager.py":126
  *             except Exception as e:
  *                 print(f"Error stopping board: {e}")
  *                 return False             # <<<<<<<<<<<<<<
@@ -8096,7 +8096,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
           goto __pyx_L16_return;
         }
 
-        /* "src/eeg_manager.py":124
+        /* "eeg_manager.py":124
  *                 print("Board streaming stopped")
  *                 return True
  *             except Exception as e:             # <<<<<<<<<<<<<<
@@ -8149,7 +8149,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
       }
       goto __pyx_L8_except_error;
 
-      /* "src/eeg_manager.py":117
+      /* "eeg_manager.py":117
  *         """Stop board streaming"""
  *         if self.board and self.is_streaming:
  *             try:             # <<<<<<<<<<<<<<
@@ -8176,7 +8176,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
       goto __pyx_L0;
     }
 
-    /* "src/eeg_manager.py":116
+    /* "eeg_manager.py":116
  *     def stop_stream(self):
  *         """Stop board streaming"""
  *         if self.board and self.is_streaming:             # <<<<<<<<<<<<<<
@@ -8185,7 +8185,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
  */
   }
 
-  /* "src/eeg_manager.py":127
+  /* "eeg_manager.py":127
  *                 print(f"Error stopping board: {e}")
  *                 return False
  *         return True             # <<<<<<<<<<<<<<
@@ -8197,7 +8197,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
   __pyx_r = Py_True;
   goto __pyx_L0;
 
-  /* "src/eeg_manager.py":114
+  /* "eeg_manager.py":114
  *             return False
  * 
  *     def stop_stream(self):             # <<<<<<<<<<<<<<
@@ -8212,7 +8212,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_11);
   __Pyx_XDECREF(__pyx_t_12);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.stop_stream", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.stop_stream", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_e);
@@ -8221,7 +8221,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":129
+/* "eeg_manager.py":129
  *         return True
  * 
  *     def initialize_session(self, session_num):             # <<<<<<<<<<<<<<
@@ -8230,16 +8230,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UN
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_9initialize_session(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_9initialize_session(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_8initialize_session, "EEGManager.initialize_session(self, session_num)\nInitialize a new recording session");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_9initialize_session = {"initialize_session", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_9initialize_session, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_8initialize_session};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_9initialize_session(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_8initialize_session, "EEGManager.initialize_session(self, session_num)\nInitialize a new recording session");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_9initialize_session = {"initialize_session", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_9initialize_session, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_8initialize_session};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_9initialize_session(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -8324,11 +8324,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.initialize_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.initialize_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(__pyx_self, __pyx_v_self, __pyx_v_session_num);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_8initialize_session(__pyx_self, __pyx_v_self, __pyx_v_session_num);
 
   /* function exit code */
   {
@@ -8341,7 +8341,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_8initialize_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num) {
   PyObject *__pyx_v_task_name = NULL;
   PyObject *__pyx_v_instruction = NULL;
   PyObject *__pyx_v_count = NULL;
@@ -8372,7 +8372,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CY
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("initialize_session", 1);
 
-  /* "src/eeg_manager.py":131
+  /* "eeg_manager.py":131
  *     def initialize_session(self, session_num):
  *         """Initialize a new recording session"""
  *         self.current_session_num = session_num             # <<<<<<<<<<<<<<
@@ -8381,7 +8381,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CY
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_current_session_num, __pyx_v_session_num) < 0) __PYX_ERR(0, 131, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":132
+  /* "eeg_manager.py":132
  *         """Initialize a new recording session"""
  *         self.current_session_num = session_num
  *         self.task_sequence = []             # <<<<<<<<<<<<<<
@@ -8393,7 +8393,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CY
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_task_sequence, __pyx_t_1) < 0) __PYX_ERR(0, 132, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":133
+  /* "eeg_manager.py":133
  *         self.current_session_num = session_num
  *         self.task_sequence = []
  *         self.current_task_index = 0             # <<<<<<<<<<<<<<
@@ -8402,7 +8402,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CY
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_current_task_index, __pyx_int_0) < 0) __PYX_ERR(0, 133, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":136
+  /* "eeg_manager.py":136
  * 
  *         # Create balanced task sequence from current task_names
  *         for task_name, (instruction, count) in self.task_names.items():             # <<<<<<<<<<<<<<
@@ -8481,7 +8481,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CY
     __Pyx_XDECREF_SET(__pyx_v_count, __pyx_t_8);
     __pyx_t_8 = 0;
 
-    /* "src/eeg_manager.py":137
+    /* "eeg_manager.py":137
  *         # Create balanced task sequence from current task_names
  *         for task_name, (instruction, count) in self.task_names.items():
  *             self.task_sequence.extend([(task_name, instruction)] * count)             # <<<<<<<<<<<<<<
@@ -8538,7 +8538,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CY
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":140
+  /* "eeg_manager.py":140
  * 
  *         # Randomize task order
  *         random.shuffle(self.task_sequence)             # <<<<<<<<<<<<<<
@@ -8577,7 +8577,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CY
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":143
+  /* "eeg_manager.py":143
  * 
  *         # Write session header to annotations file
  *         with open(self.annotation_file, "a+") as f:             # <<<<<<<<<<<<<<
@@ -8639,7 +8639,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CY
           __pyx_v_f = __pyx_t_5;
           __pyx_t_5 = 0;
 
-          /* "src/eeg_manager.py":144
+          /* "eeg_manager.py":144
  *         # Write session header to annotations file
  *         with open(self.annotation_file, "a+") as f:
  *             f.write(f"\nsession{self.current_session_num}\n")             # <<<<<<<<<<<<<<
@@ -8698,7 +8698,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CY
           }
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-          /* "src/eeg_manager.py":143
+          /* "eeg_manager.py":143
  * 
  *         # Write session header to annotations file
  *         with open(self.annotation_file, "a+") as f:             # <<<<<<<<<<<<<<
@@ -8717,7 +8717,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CY
         __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
         /*except:*/ {
-          __Pyx_AddTraceback("src.eeg_manager.EEGManager.initialize_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
+          __Pyx_AddTraceback("eeg_manager.EEGManager.initialize_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
           if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_1, &__pyx_t_8) < 0) __PYX_ERR(0, 143, __pyx_L13_except_error)
           __Pyx_XGOTREF(__pyx_t_5);
           __Pyx_XGOTREF(__pyx_t_1);
@@ -8780,7 +8780,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CY
     __pyx_L20:;
   }
 
-  /* "src/eeg_manager.py":146
+  /* "eeg_manager.py":146
  *             f.write(f"\nsession{self.current_session_num}\n")
  * 
  *         return True             # <<<<<<<<<<<<<<
@@ -8792,7 +8792,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CY
   __pyx_r = Py_True;
   goto __pyx_L0;
 
-  /* "src/eeg_manager.py":129
+  /* "eeg_manager.py":129
  *         return True
  * 
  *     def initialize_session(self, session_num):             # <<<<<<<<<<<<<<
@@ -8807,7 +8807,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CY
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_9);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.initialize_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.initialize_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_task_name);
@@ -8819,7 +8819,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CY
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":148
+/* "eeg_manager.py":148
  *         return True
  * 
  *     def get_next_task(self):             # <<<<<<<<<<<<<<
@@ -8828,16 +8828,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_8initialize_session(CY
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_11get_next_task(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_11get_next_task(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_10get_next_task, "EEGManager.get_next_task(self)\nGet next task in sequence");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_11get_next_task = {"get_next_task", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_11get_next_task, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_10get_next_task};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_11get_next_task(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_10get_next_task, "EEGManager.get_next_task(self)\nGet next task in sequence");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_11get_next_task = {"get_next_task", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_11get_next_task, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_10get_next_task};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_11get_next_task(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -8907,11 +8907,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.get_next_task", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.get_next_task", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_10get_next_task(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_10get_next_task(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -8924,7 +8924,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_10get_next_task(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_10get_next_task(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_task = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -8938,7 +8938,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_10get_next_task(CYTHON
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_next_task", 1);
 
-  /* "src/eeg_manager.py":150
+  /* "eeg_manager.py":150
  *     def get_next_task(self):
  *         """Get next task in sequence"""
  *         if self.current_task_index < len(self.task_sequence):             # <<<<<<<<<<<<<<
@@ -8960,7 +8960,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_10get_next_task(CYTHON
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   if (__pyx_t_5) {
 
-    /* "src/eeg_manager.py":151
+    /* "eeg_manager.py":151
  *         """Get next task in sequence"""
  *         if self.current_task_index < len(self.task_sequence):
  *             task = self.task_sequence[self.current_task_index]             # <<<<<<<<<<<<<<
@@ -8978,7 +8978,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_10get_next_task(CYTHON
     __pyx_v_task = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "src/eeg_manager.py":152
+    /* "eeg_manager.py":152
  *         if self.current_task_index < len(self.task_sequence):
  *             task = self.task_sequence[self.current_task_index]
  *             self.current_task_index += 1             # <<<<<<<<<<<<<<
@@ -8993,7 +8993,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_10get_next_task(CYTHON
     if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_current_task_index, __pyx_t_2) < 0) __PYX_ERR(0, 152, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "src/eeg_manager.py":153
+    /* "eeg_manager.py":153
  *             task = self.task_sequence[self.current_task_index]
  *             self.current_task_index += 1
  *             return task             # <<<<<<<<<<<<<<
@@ -9005,7 +9005,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_10get_next_task(CYTHON
     __pyx_r = __pyx_v_task;
     goto __pyx_L0;
 
-    /* "src/eeg_manager.py":150
+    /* "eeg_manager.py":150
  *     def get_next_task(self):
  *         """Get next task in sequence"""
  *         if self.current_task_index < len(self.task_sequence):             # <<<<<<<<<<<<<<
@@ -9014,7 +9014,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_10get_next_task(CYTHON
  */
   }
 
-  /* "src/eeg_manager.py":154
+  /* "eeg_manager.py":154
  *             self.current_task_index += 1
  *             return task
  *         return None             # <<<<<<<<<<<<<<
@@ -9025,7 +9025,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_10get_next_task(CYTHON
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
 
-  /* "src/eeg_manager.py":148
+  /* "eeg_manager.py":148
  *         return True
  * 
  *     def get_next_task(self):             # <<<<<<<<<<<<<<
@@ -9038,7 +9038,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_10get_next_task(CYTHON
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.get_next_task", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.get_next_task", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_task);
@@ -9047,7 +9047,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_10get_next_task(CYTHON
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":156
+/* "eeg_manager.py":156
  *         return None
  * 
  *     def start_recording(self):             # <<<<<<<<<<<<<<
@@ -9056,16 +9056,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_10get_next_task(CYTHON
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_13start_recording(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_13start_recording(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_12start_recording, "EEGManager.start_recording(self)\nStart recording current task");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_13start_recording = {"start_recording", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_13start_recording, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_12start_recording};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_13start_recording(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_12start_recording, "EEGManager.start_recording(self)\nStart recording current task");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_13start_recording = {"start_recording", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_13start_recording, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_12start_recording};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_13start_recording(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -9135,11 +9135,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.start_recording", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.start_recording", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_12start_recording(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -9152,7 +9152,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_12start_recording(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_task_name = NULL;
   PyObject *__pyx_v_f = NULL;
   PyObject *__pyx_v_task = NULL;
@@ -9175,7 +9175,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("start_recording", 1);
 
-  /* "src/eeg_manager.py":158
+  /* "eeg_manager.py":158
  *     def start_recording(self):
  *         """Start recording current task"""
  *         if self.board and self.is_streaming:             # <<<<<<<<<<<<<<
@@ -9199,7 +9199,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "src/eeg_manager.py":159
+    /* "eeg_manager.py":159
  *         """Start recording current task"""
  *         if self.board and self.is_streaming:
  *             self.is_recording = True             # <<<<<<<<<<<<<<
@@ -9208,7 +9208,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
  */
     if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_is_recording, Py_True) < 0) __PYX_ERR(0, 159, __pyx_L1_error)
 
-    /* "src/eeg_manager.py":160
+    /* "eeg_manager.py":160
  *         if self.board and self.is_streaming:
  *             self.is_recording = True
  *             self.current_eeg_data = []             # <<<<<<<<<<<<<<
@@ -9220,7 +9220,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
     if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_current_eeg_data, __pyx_t_2) < 0) __PYX_ERR(0, 160, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "src/eeg_manager.py":161
+    /* "eeg_manager.py":161
  *             self.is_recording = True
  *             self.current_eeg_data = []
  *             self.board.get_board_data()  # Clear buffer             # <<<<<<<<<<<<<<
@@ -9256,7 +9256,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "src/eeg_manager.py":164
+    /* "eeg_manager.py":164
  * 
  *             # Record task in annotations
  *             if self.current_task_index > 0:             # <<<<<<<<<<<<<<
@@ -9271,7 +9271,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     if (__pyx_t_1) {
 
-      /* "src/eeg_manager.py":165
+      /* "eeg_manager.py":165
  *             # Record task in annotations
  *             if self.current_task_index > 0:
  *                 task_name = self.task_sequence[self.current_task_index - 1][0]             # <<<<<<<<<<<<<<
@@ -9295,7 +9295,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
       __pyx_v_task_name = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":166
+      /* "eeg_manager.py":166
  *             if self.current_task_index > 0:
  *                 task_name = self.task_sequence[self.current_task_index - 1][0]
  *                 with open(self.annotation_file, "a+") as f:             # <<<<<<<<<<<<<<
@@ -9357,7 +9357,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
               __pyx_v_f = __pyx_t_5;
               __pyx_t_5 = 0;
 
-              /* "src/eeg_manager.py":167
+              /* "eeg_manager.py":167
  *                 task_name = self.task_sequence[self.current_task_index - 1][0]
  *                 with open(self.annotation_file, "a+") as f:
  *                     task = task_name.split('_')[0]             # <<<<<<<<<<<<<<
@@ -9394,7 +9394,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
               __pyx_v_task = __pyx_t_4;
               __pyx_t_4 = 0;
 
-              /* "src/eeg_manager.py":168
+              /* "eeg_manager.py":168
  *                 with open(self.annotation_file, "a+") as f:
  *                     task = task_name.split('_')[0]
  *                     if task == "Jaw":             # <<<<<<<<<<<<<<
@@ -9404,7 +9404,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
               __pyx_t_1 = (__Pyx_PyUnicode_Equals(__pyx_v_task, __pyx_n_u_Jaw, Py_EQ)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 168, __pyx_L11_error)
               if (__pyx_t_1) {
 
-                /* "src/eeg_manager.py":169
+                /* "eeg_manager.py":169
  *                     task = task_name.split('_')[0]
  *                     if task == "Jaw":
  *                         task = "Jaw_Clenching"             # <<<<<<<<<<<<<<
@@ -9414,7 +9414,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
                 __Pyx_INCREF(__pyx_n_u_Jaw_Clenching);
                 __Pyx_DECREF_SET(__pyx_v_task, __pyx_n_u_Jaw_Clenching);
 
-                /* "src/eeg_manager.py":168
+                /* "eeg_manager.py":168
  *                 with open(self.annotation_file, "a+") as f:
  *                     task = task_name.split('_')[0]
  *                     if task == "Jaw":             # <<<<<<<<<<<<<<
@@ -9424,7 +9424,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
                 goto __pyx_L17;
               }
 
-              /* "src/eeg_manager.py":170
+              /* "eeg_manager.py":170
  *                     if task == "Jaw":
  *                         task = "Jaw_Clenching"
  *                     elif task in ["Left", "Right"]:             # <<<<<<<<<<<<<<
@@ -9446,7 +9446,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
               __pyx_t_3 = __pyx_t_1;
               if (__pyx_t_3) {
 
-                /* "src/eeg_manager.py":171
+                /* "eeg_manager.py":171
  *                         task = "Jaw_Clenching"
  *                     elif task in ["Left", "Right"]:
  *                         task = f"{task}_Hand"             # <<<<<<<<<<<<<<
@@ -9461,7 +9461,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
                 __Pyx_DECREF_SET(__pyx_v_task, __pyx_t_5);
                 __pyx_t_5 = 0;
 
-                /* "src/eeg_manager.py":170
+                /* "eeg_manager.py":170
  *                     if task == "Jaw":
  *                         task = "Jaw_Clenching"
  *                     elif task in ["Left", "Right"]:             # <<<<<<<<<<<<<<
@@ -9471,7 +9471,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
               }
               __pyx_L17:;
 
-              /* "src/eeg_manager.py":172
+              /* "eeg_manager.py":172
  *                     elif task in ["Left", "Right"]:
  *                         task = f"{task}_Hand"
  *                     f.write(f"{task}\n")             # <<<<<<<<<<<<<<
@@ -9510,7 +9510,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
               }
               __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-              /* "src/eeg_manager.py":166
+              /* "eeg_manager.py":166
  *             if self.current_task_index > 0:
  *                 task_name = self.task_sequence[self.current_task_index - 1][0]
  *                 with open(self.annotation_file, "a+") as f:             # <<<<<<<<<<<<<<
@@ -9528,7 +9528,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
             __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
             __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
             /*except:*/ {
-              __Pyx_AddTraceback("src.eeg_manager.EEGManager.start_recording", __pyx_clineno, __pyx_lineno, __pyx_filename);
+              __Pyx_AddTraceback("eeg_manager.EEGManager.start_recording", __pyx_clineno, __pyx_lineno, __pyx_filename);
               if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_4, &__pyx_t_8) < 0) __PYX_ERR(0, 166, __pyx_L13_except_error)
               __Pyx_XGOTREF(__pyx_t_5);
               __Pyx_XGOTREF(__pyx_t_4);
@@ -9591,7 +9591,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
         __pyx_L23:;
       }
 
-      /* "src/eeg_manager.py":164
+      /* "eeg_manager.py":164
  * 
  *             # Record task in annotations
  *             if self.current_task_index > 0:             # <<<<<<<<<<<<<<
@@ -9600,7 +9600,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
  */
     }
 
-    /* "src/eeg_manager.py":174
+    /* "eeg_manager.py":174
  *                     f.write(f"{task}\n")
  * 
  *             return True             # <<<<<<<<<<<<<<
@@ -9612,7 +9612,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
     __pyx_r = Py_True;
     goto __pyx_L0;
 
-    /* "src/eeg_manager.py":158
+    /* "eeg_manager.py":158
  *     def start_recording(self):
  *         """Start recording current task"""
  *         if self.board and self.is_streaming:             # <<<<<<<<<<<<<<
@@ -9621,7 +9621,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
  */
   }
 
-  /* "src/eeg_manager.py":175
+  /* "eeg_manager.py":175
  * 
  *             return True
  *         return False             # <<<<<<<<<<<<<<
@@ -9633,7 +9633,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
   __pyx_r = Py_False;
   goto __pyx_L0;
 
-  /* "src/eeg_manager.py":156
+  /* "eeg_manager.py":156
  *         return None
  * 
  *     def start_recording(self):             # <<<<<<<<<<<<<<
@@ -9647,7 +9647,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.start_recording", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.start_recording", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_task_name);
@@ -9658,7 +9658,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":177
+/* "eeg_manager.py":177
  *         return False
  * 
  *     def stop_recording(self):             # <<<<<<<<<<<<<<
@@ -9667,16 +9667,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_12start_recording(CYTH
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_15stop_recording(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_15stop_recording(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_14stop_recording, "EEGManager.stop_recording(self)\nStop recording and save data");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_15stop_recording = {"stop_recording", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_15stop_recording, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_14stop_recording};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_15stop_recording(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_14stop_recording, "EEGManager.stop_recording(self)\nStop recording and save data");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_15stop_recording = {"stop_recording", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_15stop_recording, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_14stop_recording};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_15stop_recording(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -9746,11 +9746,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.stop_recording", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.stop_recording", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_14stop_recording(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -9763,7 +9763,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_14stop_recording(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_data = NULL;
   PyObject *__pyx_v_enabled_channels = NULL;
   PyObject *__pyx_v_eeg_data = NULL;
@@ -9780,7 +9780,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHO
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("stop_recording", 1);
 
-  /* "src/eeg_manager.py":179
+  /* "eeg_manager.py":179
  *     def stop_recording(self):
  *         """Stop recording and save data"""
  *         if self.is_recording:             # <<<<<<<<<<<<<<
@@ -9793,7 +9793,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHO
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
-    /* "src/eeg_manager.py":180
+    /* "eeg_manager.py":180
  *         """Stop recording and save data"""
  *         if self.is_recording:
  *             self.is_recording = False             # <<<<<<<<<<<<<<
@@ -9802,7 +9802,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHO
  */
     if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_is_recording, Py_False) < 0) __PYX_ERR(0, 180, __pyx_L1_error)
 
-    /* "src/eeg_manager.py":183
+    /* "eeg_manager.py":183
  * 
  *             # Get recorded data
  *             data = self.board.get_board_data()             # <<<<<<<<<<<<<<
@@ -9839,7 +9839,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHO
     __pyx_v_data = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "src/eeg_manager.py":184
+    /* "eeg_manager.py":184
  *             # Get recorded data
  *             data = self.board.get_board_data()
  *             enabled_channels = self.get_enabled_channels()             # <<<<<<<<<<<<<<
@@ -9873,7 +9873,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHO
     __pyx_v_enabled_channels = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "src/eeg_manager.py":185
+    /* "eeg_manager.py":185
  *             data = self.board.get_board_data()
  *             enabled_channels = self.get_enabled_channels()
  *             if not enabled_channels:             # <<<<<<<<<<<<<<
@@ -9884,7 +9884,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHO
     __pyx_t_6 = (!__pyx_t_2);
     if (__pyx_t_6) {
 
-      /* "src/eeg_manager.py":186
+      /* "eeg_manager.py":186
  *             enabled_channels = self.get_enabled_channels()
  *             if not enabled_channels:
  *                 print("No channels enabled, skipping save")             # <<<<<<<<<<<<<<
@@ -9895,7 +9895,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHO
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "src/eeg_manager.py":187
+      /* "eeg_manager.py":187
  *             if not enabled_channels:
  *                 print("No channels enabled, skipping save")
  *                 return             # <<<<<<<<<<<<<<
@@ -9906,7 +9906,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHO
       __pyx_r = Py_None; __Pyx_INCREF(Py_None);
       goto __pyx_L0;
 
-      /* "src/eeg_manager.py":185
+      /* "eeg_manager.py":185
  *             data = self.board.get_board_data()
  *             enabled_channels = self.get_enabled_channels()
  *             if not enabled_channels:             # <<<<<<<<<<<<<<
@@ -9915,7 +9915,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHO
  */
     }
 
-    /* "src/eeg_manager.py":188
+    /* "eeg_manager.py":188
  *                 print("No channels enabled, skipping save")
  *                 return
  *             eeg_data = data[enabled_channels, :]             # <<<<<<<<<<<<<<
@@ -9936,7 +9936,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHO
     __pyx_v_eeg_data = __pyx_t_4;
     __pyx_t_4 = 0;
 
-    /* "src/eeg_manager.py":191
+    /* "eeg_manager.py":191
  * 
  *             # Save as FIF file
  *             self.save_to_fif(eeg_data)             # <<<<<<<<<<<<<<
@@ -9969,7 +9969,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHO
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "src/eeg_manager.py":179
+    /* "eeg_manager.py":179
  *     def stop_recording(self):
  *         """Stop recording and save data"""
  *         if self.is_recording:             # <<<<<<<<<<<<<<
@@ -9978,7 +9978,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHO
  */
   }
 
-  /* "src/eeg_manager.py":177
+  /* "eeg_manager.py":177
  *         return False
  * 
  *     def stop_recording(self):             # <<<<<<<<<<<<<<
@@ -9993,7 +9993,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHO
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.stop_recording", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.stop_recording", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_data);
@@ -10004,7 +10004,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHO
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":193
+/* "eeg_manager.py":193
  *             self.save_to_fif(eeg_data)
  * 
  *     def save_to_fif(self, eeg_data):             # <<<<<<<<<<<<<<
@@ -10013,16 +10013,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_14stop_recording(CYTHO
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_17save_to_fif(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_17save_to_fif(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_16save_to_fif, "EEGManager.save_to_fif(self, eeg_data)\nSave EEG data as FIF file");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_17save_to_fif = {"save_to_fif", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_17save_to_fif, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_16save_to_fif};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_17save_to_fif(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_16save_to_fif, "EEGManager.save_to_fif(self, eeg_data)\nSave EEG data as FIF file");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_17save_to_fif = {"save_to_fif", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_17save_to_fif, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_16save_to_fif};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_17save_to_fif(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -10107,11 +10107,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.save_to_fif", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.save_to_fif", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(__pyx_self, __pyx_v_self, __pyx_v_eeg_data);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_16save_to_fif(__pyx_self, __pyx_v_self, __pyx_v_eeg_data);
 
   /* function exit code */
   {
@@ -10124,7 +10124,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_eeg_data) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_eeg_data) {
   PyObject *__pyx_v_all_channels = NULL;
   PyObject *__pyx_v_enabled_indices = NULL;
   PyObject *__pyx_v_ch_names = NULL;
@@ -10156,7 +10156,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("save_to_fif", 1);
 
-  /* "src/eeg_manager.py":196
+  /* "eeg_manager.py":196
  *         """Save EEG data as FIF file"""
  *         # Only use names of enabled channels
  *         all_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']             # <<<<<<<<<<<<<<
@@ -10186,7 +10186,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   __pyx_v_all_channels = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":197
+  /* "eeg_manager.py":197
  *         # Only use names of enabled channels
  *         all_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
  *         enabled_indices = self.get_enabled_channels()             # <<<<<<<<<<<<<<
@@ -10220,7 +10220,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   __pyx_v_enabled_indices = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":198
+  /* "eeg_manager.py":198
  *         all_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
  *         enabled_indices = self.get_enabled_channels()
  *         ch_names = []             # <<<<<<<<<<<<<<
@@ -10232,7 +10232,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   __pyx_v_ch_names = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":199
+  /* "eeg_manager.py":199
  *         enabled_indices = self.get_enabled_channels()
  *         ch_names = []
  *         for i, ch_idx in enumerate(enabled_indices):             # <<<<<<<<<<<<<<
@@ -10303,7 +10303,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
     __pyx_t_1 = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "src/eeg_manager.py":200
+    /* "eeg_manager.py":200
  *         ch_names = []
  *         for i, ch_idx in enumerate(enabled_indices):
  *             if self.channel_states[all_channels[i]]:             # <<<<<<<<<<<<<<
@@ -10322,7 +10322,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     if (__pyx_t_9) {
 
-      /* "src/eeg_manager.py":201
+      /* "eeg_manager.py":201
  *         for i, ch_idx in enumerate(enabled_indices):
  *             if self.channel_states[all_channels[i]]:
  *                 ch_names.append(all_channels[i])             # <<<<<<<<<<<<<<
@@ -10334,7 +10334,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
       __pyx_t_10 = __Pyx_PyList_Append(__pyx_v_ch_names, __pyx_t_8); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 201, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-      /* "src/eeg_manager.py":200
+      /* "eeg_manager.py":200
  *         ch_names = []
  *         for i, ch_idx in enumerate(enabled_indices):
  *             if self.channel_states[all_channels[i]]:             # <<<<<<<<<<<<<<
@@ -10343,7 +10343,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
  */
     }
 
-    /* "src/eeg_manager.py":199
+    /* "eeg_manager.py":199
  *         enabled_indices = self.get_enabled_channels()
  *         ch_names = []
  *         for i, ch_idx in enumerate(enabled_indices):             # <<<<<<<<<<<<<<
@@ -10354,7 +10354,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":204
+  /* "eeg_manager.py":204
  * 
  *         # Verify channel count matches data
  *         if len(ch_names) != eeg_data.shape[0]:             # <<<<<<<<<<<<<<
@@ -10376,7 +10376,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_9)) {
 
-    /* "src/eeg_manager.py":205
+    /* "eeg_manager.py":205
  *         # Verify channel count matches data
  *         if len(ch_names) != eeg_data.shape[0]:
  *             raise ValueError(f"Channel count mismatch: {len(ch_names)} names but {eeg_data.shape[0]} channels in data")             # <<<<<<<<<<<<<<
@@ -10429,7 +10429,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __PYX_ERR(0, 205, __pyx_L1_error)
 
-    /* "src/eeg_manager.py":204
+    /* "eeg_manager.py":204
  * 
  *         # Verify channel count matches data
  *         if len(ch_names) != eeg_data.shape[0]:             # <<<<<<<<<<<<<<
@@ -10438,7 +10438,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
  */
   }
 
-  /* "src/eeg_manager.py":207
+  /* "eeg_manager.py":207
  *             raise ValueError(f"Channel count mismatch: {len(ch_names)} names but {eeg_data.shape[0]} channels in data")
  * 
  *         sfreq = BoardShim.get_sampling_rate(BoardIds.CYTON_BOARD.value)             # <<<<<<<<<<<<<<
@@ -10484,7 +10484,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   __pyx_v_sfreq = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":210
+  /* "eeg_manager.py":210
  * 
  *         # Create info object
  *         info = mne.create_info(ch_names=ch_names, sfreq=sfreq, ch_types=['eeg'] * len(ch_names))             # <<<<<<<<<<<<<<
@@ -10519,7 +10519,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   __pyx_v_info = __pyx_t_8;
   __pyx_t_8 = 0;
 
-  /* "src/eeg_manager.py":213
+  /* "eeg_manager.py":213
  * 
  *         # Create raw object
  *         raw = mne.io.RawArray(eeg_data, info)             # <<<<<<<<<<<<<<
@@ -10559,7 +10559,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   __pyx_v_raw = __pyx_t_8;
   __pyx_t_8 = 0;
 
-  /* "src/eeg_manager.py":216
+  /* "eeg_manager.py":216
  * 
  *         # Set montage for proper electrode positions
  *         montage = mne.channels.make_standard_montage('standard_1020')             # <<<<<<<<<<<<<<
@@ -10599,7 +10599,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   __pyx_v_montage = __pyx_t_8;
   __pyx_t_8 = 0;
 
-  /* "src/eeg_manager.py":217
+  /* "eeg_manager.py":217
  *         # Set montage for proper electrode positions
  *         montage = mne.channels.make_standard_montage('standard_1020')
  *         raw.set_montage(montage)             # <<<<<<<<<<<<<<
@@ -10632,7 +10632,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   }
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-  /* "src/eeg_manager.py":220
+  /* "eeg_manager.py":220
  * 
  *         # Save file
  *         filename = os.path.join(self.raw_dir, f"session{self.current_session_num}_{int(time.time())}_raw.fif")             # <<<<<<<<<<<<<<
@@ -10743,7 +10743,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   __pyx_v_filename = __pyx_t_8;
   __pyx_t_8 = 0;
 
-  /* "src/eeg_manager.py":221
+  /* "eeg_manager.py":221
  *         # Save file
  *         filename = os.path.join(self.raw_dir, f"session{self.current_session_num}_{int(time.time())}_raw.fif")
  *         raw.save(filename, overwrite=True)             # <<<<<<<<<<<<<<
@@ -10767,7 +10767,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":222
+  /* "eeg_manager.py":222
  *         filename = os.path.join(self.raw_dir, f"session{self.current_session_num}_{int(time.time())}_raw.fif")
  *         raw.save(filename, overwrite=True)
  *         print(f"Saved data with channels: {ch_names}")             # <<<<<<<<<<<<<<
@@ -10784,7 +10784,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":223
+  /* "eeg_manager.py":223
  *         raw.save(filename, overwrite=True)
  *         print(f"Saved data with channels: {ch_names}")
  *         return raw             # <<<<<<<<<<<<<<
@@ -10796,7 +10796,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   __pyx_r = __pyx_v_raw;
   goto __pyx_L0;
 
-  /* "src/eeg_manager.py":193
+  /* "eeg_manager.py":193
  *             self.save_to_fif(eeg_data)
  * 
  *     def save_to_fif(self, eeg_data):             # <<<<<<<<<<<<<<
@@ -10813,7 +10813,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_13);
   __Pyx_XDECREF(__pyx_t_14);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.save_to_fif", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.save_to_fif", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_all_channels);
@@ -10831,7 +10831,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":225
+/* "eeg_manager.py":225
  *         return raw
  * 
  *     def _read_annotations_file(self, session_num):             # <<<<<<<<<<<<<<
@@ -10840,16 +10840,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_U
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_19_read_annotations_file(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_19_read_annotations_file(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_18_read_annotations_file, "EEGManager._read_annotations_file(self, session_num)\nRead tasks from annotations file for a specific session");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_19_read_annotations_file = {"_read_annotations_file", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_19_read_annotations_file, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_18_read_annotations_file};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_19_read_annotations_file(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_18_read_annotations_file, "EEGManager._read_annotations_file(self, session_num)\nRead tasks from annotations file for a specific session");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_19_read_annotations_file = {"_read_annotations_file", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_19_read_annotations_file, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_18_read_annotations_file};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_19_read_annotations_file(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -10934,11 +10934,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager._read_annotations_file", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager._read_annotations_file", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_file(__pyx_self, __pyx_v_self, __pyx_v_session_num);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_18_read_annotations_file(__pyx_self, __pyx_v_self, __pyx_v_session_num);
 
   /* function exit code */
   {
@@ -10951,7 +10951,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_file(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_18_read_annotations_file(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num) {
   PyObject *__pyx_v_f = NULL;
   PyObject *__pyx_v_lines = NULL;
   PyObject *__pyx_v_tasks = NULL;
@@ -10988,7 +10988,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_read_annotations_file", 1);
 
-  /* "src/eeg_manager.py":227
+  /* "eeg_manager.py":227
  *     def _read_annotations_file(self, session_num):
  *         """Read tasks from annotations file for a specific session"""
  *         try:             # <<<<<<<<<<<<<<
@@ -11004,7 +11004,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "src/eeg_manager.py":228
+      /* "eeg_manager.py":228
  *         """Read tasks from annotations file for a specific session"""
  *         try:
  *             if not os.path.exists(self.annotation_file):             # <<<<<<<<<<<<<<
@@ -11049,7 +11049,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
       __pyx_t_10 = (!__pyx_t_9);
       if (__pyx_t_10) {
 
-        /* "src/eeg_manager.py":229
+        /* "eeg_manager.py":229
  *         try:
  *             if not os.path.exists(self.annotation_file):
  *                 return []             # <<<<<<<<<<<<<<
@@ -11063,7 +11063,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
         __pyx_t_4 = 0;
         goto __pyx_L7_try_return;
 
-        /* "src/eeg_manager.py":228
+        /* "eeg_manager.py":228
  *         """Read tasks from annotations file for a specific session"""
  *         try:
  *             if not os.path.exists(self.annotation_file):             # <<<<<<<<<<<<<<
@@ -11072,7 +11072,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
  */
       }
 
-      /* "src/eeg_manager.py":231
+      /* "eeg_manager.py":231
  *                 return []
  * 
  *             with open(self.annotation_file, 'r') as f:             # <<<<<<<<<<<<<<
@@ -11134,7 +11134,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
               __pyx_v_f = __pyx_t_6;
               __pyx_t_6 = 0;
 
-              /* "src/eeg_manager.py":232
+              /* "eeg_manager.py":232
  * 
  *             with open(self.annotation_file, 'r') as f:
  *                 lines = f.readlines()             # <<<<<<<<<<<<<<
@@ -11168,7 +11168,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
               __pyx_v_lines = __pyx_t_6;
               __pyx_t_6 = 0;
 
-              /* "src/eeg_manager.py":231
+              /* "eeg_manager.py":231
  *                 return []
  * 
  *             with open(self.annotation_file, 'r') as f:             # <<<<<<<<<<<<<<
@@ -11186,7 +11186,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
             __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
             /*except:*/ {
-              __Pyx_AddTraceback("src.eeg_manager.EEGManager._read_annotations_file", __pyx_clineno, __pyx_lineno, __pyx_filename);
+              __Pyx_AddTraceback("eeg_manager.EEGManager._read_annotations_file", __pyx_clineno, __pyx_lineno, __pyx_filename);
               if (__Pyx_GetException(&__pyx_t_6, &__pyx_t_4, &__pyx_t_5) < 0) __PYX_ERR(0, 231, __pyx_L16_except_error)
               __Pyx_XGOTREF(__pyx_t_6);
               __Pyx_XGOTREF(__pyx_t_4);
@@ -11249,7 +11249,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
         __pyx_L23:;
       }
 
-      /* "src/eeg_manager.py":234
+      /* "eeg_manager.py":234
  *                 lines = f.readlines()
  * 
  *             tasks = []             # <<<<<<<<<<<<<<
@@ -11261,7 +11261,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
       __pyx_v_tasks = ((PyObject*)__pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "src/eeg_manager.py":235
+      /* "eeg_manager.py":235
  * 
  *             tasks = []
  *             in_session = False             # <<<<<<<<<<<<<<
@@ -11270,7 +11270,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
  */
       __pyx_v_in_session = 0;
 
-      /* "src/eeg_manager.py":236
+      /* "eeg_manager.py":236
  *             tasks = []
  *             in_session = False
  *             for line in lines:             # <<<<<<<<<<<<<<
@@ -11333,7 +11333,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
         __Pyx_XDECREF_SET(__pyx_v_line, __pyx_t_4);
         __pyx_t_4 = 0;
 
-        /* "src/eeg_manager.py":237
+        /* "eeg_manager.py":237
  *             in_session = False
  *             for line in lines:
  *                 line = line.strip()             # <<<<<<<<<<<<<<
@@ -11367,7 +11367,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
         __Pyx_DECREF_SET(__pyx_v_line, __pyx_t_4);
         __pyx_t_4 = 0;
 
-        /* "src/eeg_manager.py":238
+        /* "eeg_manager.py":238
  *             for line in lines:
  *                 line = line.strip()
  *                 if line == f'session{session_num}':             # <<<<<<<<<<<<<<
@@ -11383,7 +11383,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         if (__pyx_t_9) {
 
-          /* "src/eeg_manager.py":239
+          /* "eeg_manager.py":239
  *                 line = line.strip()
  *                 if line == f'session{session_num}':
  *                     in_session = True             # <<<<<<<<<<<<<<
@@ -11392,7 +11392,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
  */
           __pyx_v_in_session = 1;
 
-          /* "src/eeg_manager.py":238
+          /* "eeg_manager.py":238
  *             for line in lines:
  *                 line = line.strip()
  *                 if line == f'session{session_num}':             # <<<<<<<<<<<<<<
@@ -11402,7 +11402,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
           goto __pyx_L26;
         }
 
-        /* "src/eeg_manager.py":240
+        /* "eeg_manager.py":240
  *                 if line == f'session{session_num}':
  *                     in_session = True
  *                 elif line.startswith('_'):             # <<<<<<<<<<<<<<
@@ -11437,7 +11437,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         if (__pyx_t_9) {
 
-          /* "src/eeg_manager.py":241
+          /* "eeg_manager.py":241
  *                     in_session = True
  *                 elif line.startswith('_'):
  *                     in_session = False             # <<<<<<<<<<<<<<
@@ -11446,7 +11446,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
  */
           __pyx_v_in_session = 0;
 
-          /* "src/eeg_manager.py":240
+          /* "eeg_manager.py":240
  *                 if line == f'session{session_num}':
  *                     in_session = True
  *                 elif line.startswith('_'):             # <<<<<<<<<<<<<<
@@ -11456,7 +11456,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
           goto __pyx_L26;
         }
 
-        /* "src/eeg_manager.py":242
+        /* "eeg_manager.py":242
  *                 elif line.startswith('_'):
  *                     in_session = False
  *                 elif in_session and line:             # <<<<<<<<<<<<<<
@@ -11473,7 +11473,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
         __pyx_L27_bool_binop_done:;
         if (__pyx_t_9) {
 
-          /* "src/eeg_manager.py":243
+          /* "eeg_manager.py":243
  *                     in_session = False
  *                 elif in_session and line:
  *                     tasks.append(line)             # <<<<<<<<<<<<<<
@@ -11482,7 +11482,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
  */
           __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_tasks, __pyx_v_line); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 243, __pyx_L3_error)
 
-          /* "src/eeg_manager.py":242
+          /* "eeg_manager.py":242
  *                 elif line.startswith('_'):
  *                     in_session = False
  *                 elif in_session and line:             # <<<<<<<<<<<<<<
@@ -11492,7 +11492,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
         }
         __pyx_L26:;
 
-        /* "src/eeg_manager.py":236
+        /* "eeg_manager.py":236
  *             tasks = []
  *             in_session = False
  *             for line in lines:             # <<<<<<<<<<<<<<
@@ -11502,7 +11502,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "src/eeg_manager.py":245
+      /* "eeg_manager.py":245
  *                     tasks.append(line)
  * 
  *             return tasks             # <<<<<<<<<<<<<<
@@ -11514,7 +11514,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
       __pyx_r = __pyx_v_tasks;
       goto __pyx_L7_try_return;
 
-      /* "src/eeg_manager.py":227
+      /* "eeg_manager.py":227
  *     def _read_annotations_file(self, session_num):
  *         """Read tasks from annotations file for a specific session"""
  *         try:             # <<<<<<<<<<<<<<
@@ -11528,7 +11528,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "src/eeg_manager.py":246
+    /* "eeg_manager.py":246
  * 
  *             return tasks
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -11537,7 +11537,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
  */
     __pyx_t_19 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_19) {
-      __Pyx_AddTraceback("src.eeg_manager.EEGManager._read_annotations_file", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("eeg_manager.EEGManager._read_annotations_file", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_4) < 0) __PYX_ERR(0, 246, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
@@ -11546,7 +11546,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
       __pyx_v_e = __pyx_t_6;
       /*try:*/ {
 
-        /* "src/eeg_manager.py":247
+        /* "eeg_manager.py":247
  *             return tasks
  *         except Exception as e:
  *             print(f"Error reading annotations: {e}")             # <<<<<<<<<<<<<<
@@ -11563,7 +11563,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
         __Pyx_DECREF(__pyx_t_20); __pyx_t_20 = 0;
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "src/eeg_manager.py":248
+        /* "eeg_manager.py":248
  *         except Exception as e:
  *             print(f"Error reading annotations: {e}")
  *             return []             # <<<<<<<<<<<<<<
@@ -11581,7 +11581,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
         goto __pyx_L34_return;
       }
 
-      /* "src/eeg_manager.py":246
+      /* "eeg_manager.py":246
  * 
  *             return tasks
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -11634,7 +11634,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
     }
     goto __pyx_L5_except_error;
 
-    /* "src/eeg_manager.py":227
+    /* "eeg_manager.py":227
  *     def _read_annotations_file(self, session_num):
  *         """Read tasks from annotations file for a specific session"""
  *         try:             # <<<<<<<<<<<<<<
@@ -11661,7 +11661,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
     goto __pyx_L0;
   }
 
-  /* "src/eeg_manager.py":225
+  /* "eeg_manager.py":225
  *         return raw
  * 
  *     def _read_annotations_file(self, session_num):             # <<<<<<<<<<<<<<
@@ -11676,7 +11676,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_20);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager._read_annotations_file", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager._read_annotations_file", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_f);
@@ -11689,7 +11689,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":250
+/* "eeg_manager.py":250
  *             return []
  * 
  *     def analyze_session(self, session_num):             # <<<<<<<<<<<<<<
@@ -11698,16 +11698,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_18_read_annotations_fi
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_21analyze_session(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_21analyze_session(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_20analyze_session, "EEGManager.analyze_session(self, session_num)\nAnalyze recorded session data");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_21analyze_session = {"analyze_session", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_21analyze_session, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_20analyze_session};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_21analyze_session(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_20analyze_session, "EEGManager.analyze_session(self, session_num)\nAnalyze recorded session data");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_21analyze_session = {"analyze_session", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_21analyze_session, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_20analyze_session};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_21analyze_session(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -11792,11 +11792,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.analyze_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.analyze_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(__pyx_self, __pyx_v_self, __pyx_v_session_num);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_20analyze_session(__pyx_self, __pyx_v_self, __pyx_v_session_num);
 
   /* function exit code */
   {
@@ -11809,7 +11809,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_20analyze_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num) {
   PyObject *__pyx_v_sample_annotations = NULL;
   PyObject *__pyx_v_f = NULL;
   PyObject *__pyx_v_lines = NULL;
@@ -11882,7 +11882,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("analyze_session", 1);
 
-  /* "src/eeg_manager.py":252
+  /* "eeg_manager.py":252
  *     def analyze_session(self, session_num):
  *         """Analyze recorded session data"""
  *         try:             # <<<<<<<<<<<<<<
@@ -11898,7 +11898,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "src/eeg_manager.py":254
+      /* "eeg_manager.py":254
  *         try:
  *             # Handle tasks differently for sample data
  *             if session_num == 0:  # Sample data             # <<<<<<<<<<<<<<
@@ -11908,7 +11908,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __pyx_t_4 = (__Pyx_PyInt_BoolEqObjC(__pyx_v_session_num, __pyx_int_0, 0, 0)); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 254, __pyx_L3_error)
       if (__pyx_t_4) {
 
-        /* "src/eeg_manager.py":256
+        /* "eeg_manager.py":256
  *             if session_num == 0:  # Sample data
  *                 # Read sample annotations directly from sample_data folder
  *                 sample_annotations = os.path.join(self.sample_dir, 'annotations.txt')             # <<<<<<<<<<<<<<
@@ -11951,7 +11951,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __pyx_v_sample_annotations = __pyx_t_5;
         __pyx_t_5 = 0;
 
-        /* "src/eeg_manager.py":257
+        /* "eeg_manager.py":257
  *                 # Read sample annotations directly from sample_data folder
  *                 sample_annotations = os.path.join(self.sample_dir, 'annotations.txt')
  *                 if not os.path.exists(sample_annotations):             # <<<<<<<<<<<<<<
@@ -11993,7 +11993,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __pyx_t_10 = (!__pyx_t_4);
         if (unlikely(__pyx_t_10)) {
 
-          /* "src/eeg_manager.py":258
+          /* "eeg_manager.py":258
  *                 sample_annotations = os.path.join(self.sample_dir, 'annotations.txt')
  *                 if not os.path.exists(sample_annotations):
  *                     raise ValueError("Sample annotations file not found")             # <<<<<<<<<<<<<<
@@ -12006,7 +12006,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
           __PYX_ERR(0, 258, __pyx_L3_error)
 
-          /* "src/eeg_manager.py":257
+          /* "eeg_manager.py":257
  *                 # Read sample annotations directly from sample_data folder
  *                 sample_annotations = os.path.join(self.sample_dir, 'annotations.txt')
  *                 if not os.path.exists(sample_annotations):             # <<<<<<<<<<<<<<
@@ -12015,7 +12015,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
         }
 
-        /* "src/eeg_manager.py":261
+        /* "eeg_manager.py":261
  * 
  *                 # Parse sample annotations file
  *                 with open(sample_annotations, 'r') as f:             # <<<<<<<<<<<<<<
@@ -12075,7 +12075,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                 __pyx_v_f = __pyx_t_7;
                 __pyx_t_7 = 0;
 
-                /* "src/eeg_manager.py":262
+                /* "eeg_manager.py":262
  *                 # Parse sample annotations file
  *                 with open(sample_annotations, 'r') as f:
  *                     lines = f.readlines()             # <<<<<<<<<<<<<<
@@ -12109,7 +12109,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                 __pyx_v_lines = __pyx_t_7;
                 __pyx_t_7 = 0;
 
-                /* "src/eeg_manager.py":263
+                /* "eeg_manager.py":263
  *                 with open(sample_annotations, 'r') as f:
  *                     lines = f.readlines()
  *                     tasks = []             # <<<<<<<<<<<<<<
@@ -12121,7 +12121,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                 __pyx_v_tasks = __pyx_t_7;
                 __pyx_t_7 = 0;
 
-                /* "src/eeg_manager.py":264
+                /* "eeg_manager.py":264
  *                     lines = f.readlines()
  *                     tasks = []
  *                     in_session = False             # <<<<<<<<<<<<<<
@@ -12130,7 +12130,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
                 __pyx_v_in_session = 0;
 
-                /* "src/eeg_manager.py":265
+                /* "eeg_manager.py":265
  *                     tasks = []
  *                     in_session = False
  *                     for line in lines:             # <<<<<<<<<<<<<<
@@ -12192,7 +12192,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                   __Pyx_XDECREF_SET(__pyx_v_line, __pyx_t_6);
                   __pyx_t_6 = 0;
 
-                  /* "src/eeg_manager.py":266
+                  /* "eeg_manager.py":266
  *                     in_session = False
  *                     for line in lines:
  *                         line = line.strip()             # <<<<<<<<<<<<<<
@@ -12226,7 +12226,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                   __Pyx_DECREF_SET(__pyx_v_line, __pyx_t_6);
                   __pyx_t_6 = 0;
 
-                  /* "src/eeg_manager.py":267
+                  /* "eeg_manager.py":267
  *                     for line in lines:
  *                         line = line.strip()
  *                         if line == 'session1':  # First session in sample data             # <<<<<<<<<<<<<<
@@ -12236,7 +12236,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                   __pyx_t_10 = (__Pyx_PyUnicode_Equals(__pyx_v_line, __pyx_n_u_session1, Py_EQ)); if (unlikely((__pyx_t_10 < 0))) __PYX_ERR(0, 267, __pyx_L15_error)
                   if (__pyx_t_10) {
 
-                    /* "src/eeg_manager.py":268
+                    /* "eeg_manager.py":268
  *                         line = line.strip()
  *                         if line == 'session1':  # First session in sample data
  *                             in_session = True             # <<<<<<<<<<<<<<
@@ -12245,7 +12245,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
                     __pyx_v_in_session = 1;
 
-                    /* "src/eeg_manager.py":267
+                    /* "eeg_manager.py":267
  *                     for line in lines:
  *                         line = line.strip()
  *                         if line == 'session1':  # First session in sample data             # <<<<<<<<<<<<<<
@@ -12255,7 +12255,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                     goto __pyx_L23;
                   }
 
-                  /* "src/eeg_manager.py":269
+                  /* "eeg_manager.py":269
  *                         if line == 'session1':  # First session in sample data
  *                             in_session = True
  *                         elif line.startswith('_'):             # <<<<<<<<<<<<<<
@@ -12290,7 +12290,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
                   if (__pyx_t_10) {
 
-                    /* "src/eeg_manager.py":270
+                    /* "eeg_manager.py":270
  *                             in_session = True
  *                         elif line.startswith('_'):
  *                             break  # Stop at first session boundary             # <<<<<<<<<<<<<<
@@ -12299,7 +12299,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
                     goto __pyx_L22_break;
 
-                    /* "src/eeg_manager.py":269
+                    /* "eeg_manager.py":269
  *                         if line == 'session1':  # First session in sample data
  *                             in_session = True
  *                         elif line.startswith('_'):             # <<<<<<<<<<<<<<
@@ -12308,7 +12308,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
                   }
 
-                  /* "src/eeg_manager.py":271
+                  /* "eeg_manager.py":271
  *                         elif line.startswith('_'):
  *                             break  # Stop at first session boundary
  *                         elif in_session and line:             # <<<<<<<<<<<<<<
@@ -12325,7 +12325,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                   __pyx_L24_bool_binop_done:;
                   if (__pyx_t_10) {
 
-                    /* "src/eeg_manager.py":273
+                    /* "eeg_manager.py":273
  *                         elif in_session and line:
  *                             # Clean up task names
  *                             task = line.strip().lower()             # <<<<<<<<<<<<<<
@@ -12384,7 +12384,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                     __Pyx_XDECREF_SET(__pyx_v_task, __pyx_t_6);
                     __pyx_t_6 = 0;
 
-                    /* "src/eeg_manager.py":274
+                    /* "eeg_manager.py":274
  *                             # Clean up task names
  *                             task = line.strip().lower()
  *                             if task == "jaw_clenching":             # <<<<<<<<<<<<<<
@@ -12394,7 +12394,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                     __pyx_t_10 = (__Pyx_PyUnicode_Equals(__pyx_v_task, __pyx_n_u_jaw_clenching, Py_EQ)); if (unlikely((__pyx_t_10 < 0))) __PYX_ERR(0, 274, __pyx_L15_error)
                     if (__pyx_t_10) {
 
-                      /* "src/eeg_manager.py":275
+                      /* "eeg_manager.py":275
  *                             task = line.strip().lower()
  *                             if task == "jaw_clenching":
  *                                 task = "jaw"             # <<<<<<<<<<<<<<
@@ -12404,7 +12404,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                       __Pyx_INCREF(__pyx_n_u_jaw);
                       __Pyx_DECREF_SET(__pyx_v_task, __pyx_n_u_jaw);
 
-                      /* "src/eeg_manager.py":274
+                      /* "eeg_manager.py":274
  *                             # Clean up task names
  *                             task = line.strip().lower()
  *                             if task == "jaw_clenching":             # <<<<<<<<<<<<<<
@@ -12414,7 +12414,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                       goto __pyx_L26;
                     }
 
-                    /* "src/eeg_manager.py":276
+                    /* "eeg_manager.py":276
  *                             if task == "jaw_clenching":
  *                                 task = "jaw"
  *                             elif task.endswith("_hand"):             # <<<<<<<<<<<<<<
@@ -12449,7 +12449,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
                     if (__pyx_t_10) {
 
-                      /* "src/eeg_manager.py":277
+                      /* "eeg_manager.py":277
  *                                 task = "jaw"
  *                             elif task.endswith("_hand"):
  *                                 task = task.split("_")[0]             # <<<<<<<<<<<<<<
@@ -12486,7 +12486,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                       __Pyx_DECREF_SET(__pyx_v_task, __pyx_t_8);
                       __pyx_t_8 = 0;
 
-                      /* "src/eeg_manager.py":276
+                      /* "eeg_manager.py":276
  *                             if task == "jaw_clenching":
  *                                 task = "jaw"
  *                             elif task.endswith("_hand"):             # <<<<<<<<<<<<<<
@@ -12496,7 +12496,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                     }
                     __pyx_L26:;
 
-                    /* "src/eeg_manager.py":278
+                    /* "eeg_manager.py":278
  *                             elif task.endswith("_hand"):
  *                                 task = task.split("_")[0]
  *                             tasks.append(task)             # <<<<<<<<<<<<<<
@@ -12505,7 +12505,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
                     __pyx_t_18 = __Pyx_PyObject_Append(__pyx_v_tasks, __pyx_v_task); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 278, __pyx_L15_error)
 
-                    /* "src/eeg_manager.py":271
+                    /* "eeg_manager.py":271
  *                         elif line.startswith('_'):
  *                             break  # Stop at first session boundary
  *                         elif in_session and line:             # <<<<<<<<<<<<<<
@@ -12515,7 +12515,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                   }
                   __pyx_L23:;
 
-                  /* "src/eeg_manager.py":265
+                  /* "eeg_manager.py":265
  *                     tasks = []
  *                     in_session = False
  *                     for line in lines:             # <<<<<<<<<<<<<<
@@ -12530,7 +12530,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
                 goto __pyx_L27_for_end;
                 __pyx_L27_for_end:;
 
-                /* "src/eeg_manager.py":261
+                /* "eeg_manager.py":261
  * 
  *                 # Parse sample annotations file
  *                 with open(sample_annotations, 'r') as f:             # <<<<<<<<<<<<<<
@@ -12549,7 +12549,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
               __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
               __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
               /*except:*/ {
-                __Pyx_AddTraceback("src.eeg_manager.EEGManager.analyze_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
+                __Pyx_AddTraceback("eeg_manager.EEGManager.analyze_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
                 if (__Pyx_GetException(&__pyx_t_7, &__pyx_t_8, &__pyx_t_6) < 0) __PYX_ERR(0, 261, __pyx_L17_except_error)
                 __Pyx_XGOTREF(__pyx_t_7);
                 __Pyx_XGOTREF(__pyx_t_8);
@@ -12612,7 +12612,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
           __pyx_L31:;
         }
 
-        /* "src/eeg_manager.py":254
+        /* "eeg_manager.py":254
  *         try:
  *             # Handle tasks differently for sample data
  *             if session_num == 0:  # Sample data             # <<<<<<<<<<<<<<
@@ -12622,7 +12622,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         goto __pyx_L9;
       }
 
-      /* "src/eeg_manager.py":281
+      /* "eeg_manager.py":281
  *             else:
  *                 # Regular session - read from main annotations file
  *                 tasks = self._read_annotations_file(session_num)             # <<<<<<<<<<<<<<
@@ -12659,7 +12659,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       }
       __pyx_L9:;
 
-      /* "src/eeg_manager.py":283
+      /* "eeg_manager.py":283
  *                 tasks = self._read_annotations_file(session_num)
  * 
  *             if not tasks:             # <<<<<<<<<<<<<<
@@ -12671,7 +12671,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __pyx_t_10 = (!__pyx_t_4);
       if (unlikely(__pyx_t_10)) {
 
-        /* "src/eeg_manager.py":284
+        /* "eeg_manager.py":284
  * 
  *             if not tasks:
  *                 raise ValueError("No tasks found for this session")             # <<<<<<<<<<<<<<
@@ -12684,7 +12684,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         __PYX_ERR(0, 284, __pyx_L3_error)
 
-        /* "src/eeg_manager.py":283
+        /* "eeg_manager.py":283
  *                 tasks = self._read_annotations_file(session_num)
  * 
  *             if not tasks:             # <<<<<<<<<<<<<<
@@ -12693,7 +12693,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
       }
 
-      /* "src/eeg_manager.py":285
+      /* "eeg_manager.py":285
  *             if not tasks:
  *                 raise ValueError("No tasks found for this session")
  *             print(f"\nTasks from annotations file for session {session_num}:")             # <<<<<<<<<<<<<<
@@ -12727,7 +12727,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "src/eeg_manager.py":286
+      /* "eeg_manager.py":286
  *                 raise ValueError("No tasks found for this session")
  *             print(f"\nTasks from annotations file for session {session_num}:")
  *             print(tasks)             # <<<<<<<<<<<<<<
@@ -12739,7 +12739,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "src/eeg_manager.py":289
+      /* "eeg_manager.py":289
  * 
  *             # Load the appropriate data file
  *             if session_num == 0:  # Sample data             # <<<<<<<<<<<<<<
@@ -12749,7 +12749,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __pyx_t_10 = (__Pyx_PyInt_BoolEqObjC(__pyx_v_session_num, __pyx_int_0, 0, 0)); if (unlikely((__pyx_t_10 < 0))) __PYX_ERR(0, 289, __pyx_L3_error)
       if (__pyx_t_10) {
 
-        /* "src/eeg_manager.py":290
+        /* "eeg_manager.py":290
  *             # Load the appropriate data file
  *             if session_num == 0:  # Sample data
  *                 sample_file = os.path.join(self.sample_dir, 'formatted', 'S03.fif')             # <<<<<<<<<<<<<<
@@ -12792,7 +12792,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __pyx_v_sample_file = __pyx_t_6;
         __pyx_t_6 = 0;
 
-        /* "src/eeg_manager.py":291
+        /* "eeg_manager.py":291
  *             if session_num == 0:  # Sample data
  *                 sample_file = os.path.join(self.sample_dir, 'formatted', 'S03.fif')
  *                 if not os.path.exists(sample_file):             # <<<<<<<<<<<<<<
@@ -12834,7 +12834,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __pyx_t_4 = (!__pyx_t_10);
         if (unlikely(__pyx_t_4)) {
 
-          /* "src/eeg_manager.py":292
+          /* "eeg_manager.py":292
  *                 sample_file = os.path.join(self.sample_dir, 'formatted', 'S03.fif')
  *                 if not os.path.exists(sample_file):
  *                     raise ValueError("Sample data file (S03.fif) not found")             # <<<<<<<<<<<<<<
@@ -12847,7 +12847,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __PYX_ERR(0, 292, __pyx_L3_error)
 
-          /* "src/eeg_manager.py":291
+          /* "eeg_manager.py":291
  *             if session_num == 0:  # Sample data
  *                 sample_file = os.path.join(self.sample_dir, 'formatted', 'S03.fif')
  *                 if not os.path.exists(sample_file):             # <<<<<<<<<<<<<<
@@ -12856,7 +12856,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
         }
 
-        /* "src/eeg_manager.py":293
+        /* "eeg_manager.py":293
  *                 if not os.path.exists(sample_file):
  *                     raise ValueError("Sample data file (S03.fif) not found")
  *                 self.raw_data = mne.io.read_raw_fif(sample_file, preload=True)             # <<<<<<<<<<<<<<
@@ -12887,7 +12887,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_raw_data, __pyx_t_5) < 0) __PYX_ERR(0, 293, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* "src/eeg_manager.py":289
+        /* "eeg_manager.py":289
  * 
  *             # Load the appropriate data file
  *             if session_num == 0:  # Sample data             # <<<<<<<<<<<<<<
@@ -12897,7 +12897,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         goto __pyx_L33;
       }
 
-      /* "src/eeg_manager.py":296
+      /* "eeg_manager.py":296
  *             else:
  *                 # Regular session handling remains the same
  *                 combined_file = os.path.join(self.formatted_dir, f'session{session_num}_combined.fif')             # <<<<<<<<<<<<<<
@@ -12964,7 +12964,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __pyx_v_combined_file = __pyx_t_5;
         __pyx_t_5 = 0;
 
-        /* "src/eeg_manager.py":297
+        /* "eeg_manager.py":297
  *                 # Regular session handling remains the same
  *                 combined_file = os.path.join(self.formatted_dir, f'session{session_num}_combined.fif')
  *                 if os.path.exists(combined_file):             # <<<<<<<<<<<<<<
@@ -13005,7 +13005,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         if (__pyx_t_4) {
 
-          /* "src/eeg_manager.py":298
+          /* "eeg_manager.py":298
  *                 combined_file = os.path.join(self.formatted_dir, f'session{session_num}_combined.fif')
  *                 if os.path.exists(combined_file):
  *                     self.raw_data = mne.io.read_raw_fif(combined_file, preload=True)             # <<<<<<<<<<<<<<
@@ -13036,7 +13036,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
           if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_raw_data, __pyx_t_8) < 0) __PYX_ERR(0, 298, __pyx_L3_error)
           __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-          /* "src/eeg_manager.py":297
+          /* "eeg_manager.py":297
  *                 # Regular session handling remains the same
  *                 combined_file = os.path.join(self.formatted_dir, f'session{session_num}_combined.fif')
  *                 if os.path.exists(combined_file):             # <<<<<<<<<<<<<<
@@ -13046,7 +13046,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
           goto __pyx_L35;
         }
 
-        /* "src/eeg_manager.py":301
+        /* "eeg_manager.py":301
  *                 else:
  *                     # Get all raw files for this session
  *                     raw_files = sorted([f for f in os.listdir(self.raw_dir)             # <<<<<<<<<<<<<<
@@ -13143,7 +13143,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
               __Pyx_XDECREF_SET(__pyx_8genexpr1__pyx_v_f, __pyx_t_7);
               __pyx_t_7 = 0;
 
-              /* "src/eeg_manager.py":302
+              /* "eeg_manager.py":302
  *                     # Get all raw files for this session
  *                     raw_files = sorted([f for f in os.listdir(self.raw_dir)
  *                                       if f'session{session_num}' in f and f.endswith('_raw.fif')])             # <<<<<<<<<<<<<<
@@ -13192,7 +13192,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
               __pyx_L42_bool_binop_done:;
               if (__pyx_t_4) {
 
-                /* "src/eeg_manager.py":301
+                /* "eeg_manager.py":301
  *                 else:
  *                     # Get all raw files for this session
  *                     raw_files = sorted([f for f in os.listdir(self.raw_dir)             # <<<<<<<<<<<<<<
@@ -13201,7 +13201,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
                 if (unlikely(__Pyx_ListComp_Append(__pyx_t_17, (PyObject*)__pyx_8genexpr1__pyx_v_f))) __PYX_ERR(0, 301, __pyx_L38_error)
 
-                /* "src/eeg_manager.py":302
+                /* "eeg_manager.py":302
  *                     # Get all raw files for this session
  *                     raw_files = sorted([f for f in os.listdir(self.raw_dir)
  *                                       if f'session{session_num}' in f and f.endswith('_raw.fif')])             # <<<<<<<<<<<<<<
@@ -13210,7 +13210,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
               }
 
-              /* "src/eeg_manager.py":301
+              /* "eeg_manager.py":301
  *                 else:
  *                     # Get all raw files for this session
  *                     raw_files = sorted([f for f in os.listdir(self.raw_dir)             # <<<<<<<<<<<<<<
@@ -13232,7 +13232,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
           __pyx_v_raw_files = ((PyObject*)__pyx_t_8);
           __pyx_t_8 = 0;
 
-          /* "src/eeg_manager.py":303
+          /* "eeg_manager.py":303
  *                     raw_files = sorted([f for f in os.listdir(self.raw_dir)
  *                                       if f'session{session_num}' in f and f.endswith('_raw.fif')])
  *                     if not raw_files:             # <<<<<<<<<<<<<<
@@ -13243,7 +13243,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
           __pyx_t_10 = (!__pyx_t_4);
           if (unlikely(__pyx_t_10)) {
 
-            /* "src/eeg_manager.py":304
+            /* "eeg_manager.py":304
  *                                       if f'session{session_num}' in f and f.endswith('_raw.fif')])
  *                     if not raw_files:
  *                         raise ValueError("No recording files found for this session")             # <<<<<<<<<<<<<<
@@ -13256,7 +13256,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
             __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
             __PYX_ERR(0, 304, __pyx_L3_error)
 
-            /* "src/eeg_manager.py":303
+            /* "eeg_manager.py":303
  *                     raw_files = sorted([f for f in os.listdir(self.raw_dir)
  *                                       if f'session{session_num}' in f and f.endswith('_raw.fif')])
  *                     if not raw_files:             # <<<<<<<<<<<<<<
@@ -13265,7 +13265,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
           }
 
-          /* "src/eeg_manager.py":307
+          /* "eeg_manager.py":307
  * 
  *                     # Load and combine all files
  *                     raw_combined = None             # <<<<<<<<<<<<<<
@@ -13275,7 +13275,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
           __Pyx_INCREF(Py_None);
           __pyx_v_raw_combined = Py_None;
 
-          /* "src/eeg_manager.py":308
+          /* "eeg_manager.py":308
  *                     # Load and combine all files
  *                     raw_combined = None
  *                     for raw_file in raw_files:             # <<<<<<<<<<<<<<
@@ -13301,7 +13301,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
             __Pyx_XDECREF_SET(__pyx_v_raw_file, __pyx_t_17);
             __pyx_t_17 = 0;
 
-            /* "src/eeg_manager.py":309
+            /* "eeg_manager.py":309
  *                     raw_combined = None
  *                     for raw_file in raw_files:
  *                         raw = mne.io.read_raw_fif(os.path.join(self.raw_dir, raw_file), preload=True)             # <<<<<<<<<<<<<<
@@ -13365,7 +13365,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
             __Pyx_XDECREF_SET(__pyx_v_raw, __pyx_t_7);
             __pyx_t_7 = 0;
 
-            /* "src/eeg_manager.py":310
+            /* "eeg_manager.py":310
  *                     for raw_file in raw_files:
  *                         raw = mne.io.read_raw_fif(os.path.join(self.raw_dir, raw_file), preload=True)
  *                         if raw_combined is None:             # <<<<<<<<<<<<<<
@@ -13375,7 +13375,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
             __pyx_t_10 = (__pyx_v_raw_combined == Py_None);
             if (__pyx_t_10) {
 
-              /* "src/eeg_manager.py":311
+              /* "eeg_manager.py":311
  *                         raw = mne.io.read_raw_fif(os.path.join(self.raw_dir, raw_file), preload=True)
  *                         if raw_combined is None:
  *                             raw_combined = raw             # <<<<<<<<<<<<<<
@@ -13385,7 +13385,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
               __Pyx_INCREF(__pyx_v_raw);
               __Pyx_DECREF_SET(__pyx_v_raw_combined, __pyx_v_raw);
 
-              /* "src/eeg_manager.py":310
+              /* "eeg_manager.py":310
  *                     for raw_file in raw_files:
  *                         raw = mne.io.read_raw_fif(os.path.join(self.raw_dir, raw_file), preload=True)
  *                         if raw_combined is None:             # <<<<<<<<<<<<<<
@@ -13395,7 +13395,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
               goto __pyx_L49;
             }
 
-            /* "src/eeg_manager.py":313
+            /* "eeg_manager.py":313
  *                             raw_combined = raw
  *                         else:
  *                             raw_combined.append(raw)             # <<<<<<<<<<<<<<
@@ -13407,7 +13407,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
             }
             __pyx_L49:;
 
-            /* "src/eeg_manager.py":308
+            /* "eeg_manager.py":308
  *                     # Load and combine all files
  *                     raw_combined = None
  *                     for raw_file in raw_files:             # <<<<<<<<<<<<<<
@@ -13417,7 +13417,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
           }
           __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-          /* "src/eeg_manager.py":314
+          /* "eeg_manager.py":314
  *                         else:
  *                             raw_combined.append(raw)
  *                     self.raw_data = raw_combined             # <<<<<<<<<<<<<<
@@ -13430,7 +13430,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       }
       __pyx_L33:;
 
-      /* "src/eeg_manager.py":317
+      /* "eeg_manager.py":317
  * 
  *             # Create epochs
  *             events = mne.events_from_annotations(self.raw_data)             # <<<<<<<<<<<<<<
@@ -13470,7 +13470,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __pyx_v_events = __pyx_t_8;
       __pyx_t_8 = 0;
 
-      /* "src/eeg_manager.py":318
+      /* "eeg_manager.py":318
  *             # Create epochs
  *             events = mne.events_from_annotations(self.raw_data)
  *             epochs = mne.Epochs(self.raw_data, events[0], event_id=events[1],             # <<<<<<<<<<<<<<
@@ -13503,7 +13503,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_tmin, __pyx_float_0_0) < 0) __PYX_ERR(0, 318, __pyx_L3_error)
       if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_tmax, __pyx_float_5_0) < 0) __PYX_ERR(0, 318, __pyx_L3_error)
 
-      /* "src/eeg_manager.py":319
+      /* "eeg_manager.py":319
  *             events = mne.events_from_annotations(self.raw_data)
  *             epochs = mne.Epochs(self.raw_data, events[0], event_id=events[1],
  *                               tmin=0.0, tmax=5.0, baseline=None, preload=True)             # <<<<<<<<<<<<<<
@@ -13513,7 +13513,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_baseline, Py_None) < 0) __PYX_ERR(0, 318, __pyx_L3_error)
       if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_preload, Py_True) < 0) __PYX_ERR(0, 318, __pyx_L3_error)
 
-      /* "src/eeg_manager.py":318
+      /* "eeg_manager.py":318
  *             # Create epochs
  *             events = mne.events_from_annotations(self.raw_data)
  *             epochs = mne.Epochs(self.raw_data, events[0], event_id=events[1],             # <<<<<<<<<<<<<<
@@ -13528,7 +13528,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __pyx_v_epochs = __pyx_t_8;
       __pyx_t_8 = 0;
 
-      /* "src/eeg_manager.py":322
+      /* "eeg_manager.py":322
  * 
  *             # Get data ready for CSP
  *             X = epochs.get_data()             # <<<<<<<<<<<<<<
@@ -13562,7 +13562,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __pyx_v_X = __pyx_t_8;
       __pyx_t_8 = 0;
 
-      /* "src/eeg_manager.py":325
+      /* "eeg_manager.py":325
  * 
  *             # Create event mapping using cleaned task names
  *             unique_events = sorted(list(set(tasks)))  # Sort to ensure consistent ordering             # <<<<<<<<<<<<<<
@@ -13584,7 +13584,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __pyx_v_unique_events = ((PyObject*)__pyx_t_8);
       __pyx_t_8 = 0;
 
-      /* "src/eeg_manager.py":326
+      /* "eeg_manager.py":326
  *             # Create event mapping using cleaned task names
  *             unique_events = sorted(list(set(tasks)))  # Sort to ensure consistent ordering
  *             event_mapping = {event: idx for idx, event in enumerate(unique_events)}             # <<<<<<<<<<<<<<
@@ -13637,7 +13637,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __pyx_v_event_mapping = ((PyObject*)__pyx_t_8);
       __pyx_t_8 = 0;
 
-      /* "src/eeg_manager.py":327
+      /* "eeg_manager.py":327
  *             unique_events = sorted(list(set(tasks)))  # Sort to ensure consistent ordering
  *             event_mapping = {event: idx for idx, event in enumerate(unique_events)}
  *             event_id = {task: i+1 for i, task in enumerate(unique_events)}             # <<<<<<<<<<<<<<
@@ -13693,7 +13693,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __pyx_v_event_id = ((PyObject*)__pyx_t_8);
       __pyx_t_8 = 0;
 
-      /* "src/eeg_manager.py":329
+      /* "eeg_manager.py":329
  *             event_id = {task: i+1 for i, task in enumerate(unique_events)}
  * 
  *             print("Event mapping:", event_mapping)             # <<<<<<<<<<<<<<
@@ -13713,7 +13713,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "src/eeg_manager.py":330
+      /* "eeg_manager.py":330
  * 
  *             print("Event mapping:", event_mapping)
  *             print("Event IDs:", event_id)             # <<<<<<<<<<<<<<
@@ -13733,7 +13733,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-      /* "src/eeg_manager.py":333
+      /* "eeg_manager.py":333
  * 
  *             # Initialize labels array
  *             y = np.zeros(len(epochs.events))             # <<<<<<<<<<<<<<
@@ -13777,7 +13777,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __pyx_v_y = __pyx_t_8;
       __pyx_t_8 = 0;
 
-      /* "src/eeg_manager.py":336
+      /* "eeg_manager.py":336
  * 
  *             # Map events to labels
  *             for i, event in enumerate(epochs.events[:, -1]):             # <<<<<<<<<<<<<<
@@ -13854,7 +13854,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __pyx_t_8 = __pyx_t_7;
         __pyx_t_7 = 0;
 
-        /* "src/eeg_manager.py":337
+        /* "eeg_manager.py":337
  *             # Map events to labels
  *             for i, event in enumerate(epochs.events[:, -1]):
  *                 event_name = None             # <<<<<<<<<<<<<<
@@ -13864,7 +13864,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __Pyx_INCREF(Py_None);
         __Pyx_XDECREF_SET(__pyx_v_event_name, Py_None);
 
-        /* "src/eeg_manager.py":338
+        /* "eeg_manager.py":338
  *             for i, event in enumerate(epochs.events[:, -1]):
  *                 event_name = None
  *                 for name, value in event_id.items():             # <<<<<<<<<<<<<<
@@ -13888,7 +13888,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
           __Pyx_XDECREF_SET(__pyx_v_value, __pyx_t_17);
           __pyx_t_17 = 0;
 
-          /* "src/eeg_manager.py":339
+          /* "eeg_manager.py":339
  *                 event_name = None
  *                 for name, value in event_id.items():
  *                     if value == event:             # <<<<<<<<<<<<<<
@@ -13900,7 +13900,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
           __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
           if (__pyx_t_10) {
 
-            /* "src/eeg_manager.py":340
+            /* "eeg_manager.py":340
  *                 for name, value in event_id.items():
  *                     if value == event:
  *                         event_name = name             # <<<<<<<<<<<<<<
@@ -13910,7 +13910,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
             __Pyx_INCREF(__pyx_v_name);
             __Pyx_DECREF_SET(__pyx_v_event_name, __pyx_v_name);
 
-            /* "src/eeg_manager.py":341
+            /* "eeg_manager.py":341
  *                     if value == event:
  *                         event_name = name
  *                         break             # <<<<<<<<<<<<<<
@@ -13919,7 +13919,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
             goto __pyx_L68_break;
 
-            /* "src/eeg_manager.py":339
+            /* "eeg_manager.py":339
  *                 event_name = None
  *                 for name, value in event_id.items():
  *                     if value == event:             # <<<<<<<<<<<<<<
@@ -13931,7 +13931,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __pyx_L68_break:;
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "src/eeg_manager.py":342
+        /* "eeg_manager.py":342
  *                         event_name = name
  *                         break
  *                 if event_name and event_name in event_mapping:             # <<<<<<<<<<<<<<
@@ -13949,7 +13949,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __pyx_L71_bool_binop_done:;
         if (__pyx_t_10) {
 
-          /* "src/eeg_manager.py":343
+          /* "eeg_manager.py":343
  *                         break
  *                 if event_name and event_name in event_mapping:
  *                     y[i] = event_mapping[event_name]             # <<<<<<<<<<<<<<
@@ -13961,7 +13961,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
           if (unlikely((PyObject_SetItem(__pyx_v_y, __pyx_v_i, __pyx_t_7) < 0))) __PYX_ERR(0, 343, __pyx_L3_error)
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-          /* "src/eeg_manager.py":342
+          /* "eeg_manager.py":342
  *                         event_name = name
  *                         break
  *                 if event_name and event_name in event_mapping:             # <<<<<<<<<<<<<<
@@ -13970,7 +13970,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
         }
 
-        /* "src/eeg_manager.py":336
+        /* "eeg_manager.py":336
  * 
  *             # Map events to labels
  *             for i, event in enumerate(epochs.events[:, -1]):             # <<<<<<<<<<<<<<
@@ -13981,7 +13981,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-      /* "src/eeg_manager.py":346
+      /* "eeg_manager.py":346
  * 
  *             # Create CSP patterns
  *             patterns = []             # <<<<<<<<<<<<<<
@@ -13993,7 +13993,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __pyx_v_patterns = ((PyObject*)__pyx_t_8);
       __pyx_t_8 = 0;
 
-      /* "src/eeg_manager.py":347
+      /* "eeg_manager.py":347
  *             # Create CSP patterns
  *             patterns = []
  *             class_names = unique_events             # <<<<<<<<<<<<<<
@@ -14003,7 +14003,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __Pyx_INCREF(__pyx_v_unique_events);
       __pyx_v_class_names = __pyx_v_unique_events;
 
-      /* "src/eeg_manager.py":348
+      /* "eeg_manager.py":348
  *             patterns = []
  *             class_names = unique_events
  *             n_components = len(epochs.ch_names)             # <<<<<<<<<<<<<<
@@ -14016,7 +14016,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __pyx_v_n_components = __pyx_t_15;
 
-      /* "src/eeg_manager.py":350
+      /* "eeg_manager.py":350
  *             n_components = len(epochs.ch_names)
  * 
  *             for class_idx in range(len(class_names)):             # <<<<<<<<<<<<<<
@@ -14028,7 +14028,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_23; __pyx_t_22+=1) {
         __pyx_v_class_idx = __pyx_t_22;
 
-        /* "src/eeg_manager.py":351
+        /* "eeg_manager.py":351
  * 
  *             for class_idx in range(len(class_names)):
  *                 binary_y = (y == class_idx).astype(int)             # <<<<<<<<<<<<<<
@@ -14067,7 +14067,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __Pyx_XDECREF_SET(__pyx_v_binary_y, __pyx_t_8);
         __pyx_t_8 = 0;
 
-        /* "src/eeg_manager.py":352
+        /* "eeg_manager.py":352
  *             for class_idx in range(len(class_names)):
  *                 binary_y = (y == class_idx).astype(int)
  *                 if sum(binary_y) < 2:             # <<<<<<<<<<<<<<
@@ -14082,7 +14082,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         if (__pyx_t_10) {
 
-          /* "src/eeg_manager.py":353
+          /* "eeg_manager.py":353
  *                 binary_y = (y == class_idx).astype(int)
  *                 if sum(binary_y) < 2:
  *                     print(f"Skipping {class_names[class_idx]} - insufficient data")             # <<<<<<<<<<<<<<
@@ -14119,7 +14119,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-          /* "src/eeg_manager.py":354
+          /* "eeg_manager.py":354
  *                 if sum(binary_y) < 2:
  *                     print(f"Skipping {class_names[class_idx]} - insufficient data")
  *                     patterns.append(np.zeros((n_components, n_components)))             # <<<<<<<<<<<<<<
@@ -14169,7 +14169,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
           __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_patterns, __pyx_t_5); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 354, __pyx_L3_error)
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-          /* "src/eeg_manager.py":355
+          /* "eeg_manager.py":355
  *                     print(f"Skipping {class_names[class_idx]} - insufficient data")
  *                     patterns.append(np.zeros((n_components, n_components)))
  *                     continue             # <<<<<<<<<<<<<<
@@ -14178,7 +14178,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
           goto __pyx_L74_continue;
 
-          /* "src/eeg_manager.py":352
+          /* "eeg_manager.py":352
  *             for class_idx in range(len(class_names)):
  *                 binary_y = (y == class_idx).astype(int)
  *                 if sum(binary_y) < 2:             # <<<<<<<<<<<<<<
@@ -14187,7 +14187,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
         }
 
-        /* "src/eeg_manager.py":357
+        /* "eeg_manager.py":357
  *                     continue
  * 
  *                 csp = CSP(n_components=n_components, reg=None, log=True, norm_trace=False)             # <<<<<<<<<<<<<<
@@ -14212,7 +14212,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __Pyx_XDECREF_SET(__pyx_v_csp, __pyx_t_6);
         __pyx_t_6 = 0;
 
-        /* "src/eeg_manager.py":358
+        /* "eeg_manager.py":358
  * 
  *                 csp = CSP(n_components=n_components, reg=None, log=True, norm_trace=False)
  *                 csp.fit(X, binary_y)             # <<<<<<<<<<<<<<
@@ -14245,7 +14245,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         }
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-        /* "src/eeg_manager.py":359
+        /* "eeg_manager.py":359
  *                 csp = CSP(n_components=n_components, reg=None, log=True, norm_trace=False)
  *                 csp.fit(X, binary_y)
  *                 patterns.append(csp.patterns_)             # <<<<<<<<<<<<<<
@@ -14259,7 +14259,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __pyx_L74_continue:;
       }
 
-      /* "src/eeg_manager.py":361
+      /* "eeg_manager.py":361
  *                 patterns.append(csp.patterns_)
  * 
  *             return patterns, class_names             # <<<<<<<<<<<<<<
@@ -14279,7 +14279,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __pyx_t_6 = 0;
       goto __pyx_L7_try_return;
 
-      /* "src/eeg_manager.py":252
+      /* "eeg_manager.py":252
  *     def analyze_session(self, session_num):
  *         """Analyze recorded session data"""
  *         try:             # <<<<<<<<<<<<<<
@@ -14295,7 +14295,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* "src/eeg_manager.py":363
+    /* "eeg_manager.py":363
  *             return patterns, class_names
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -14304,7 +14304,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
     __pyx_t_24 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_24) {
-      __Pyx_AddTraceback("src.eeg_manager.EEGManager.analyze_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("eeg_manager.EEGManager.analyze_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_6, &__pyx_t_8, &__pyx_t_5) < 0) __PYX_ERR(0, 363, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_8);
@@ -14313,7 +14313,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
       __pyx_v_e = __pyx_t_8;
       /*try:*/ {
 
-        /* "src/eeg_manager.py":364
+        /* "eeg_manager.py":364
  * 
  *         except Exception as e:
  *             print(f"Analysis error details: {str(e)}")             # <<<<<<<<<<<<<<
@@ -14330,7 +14330,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-        /* "src/eeg_manager.py":365
+        /* "eeg_manager.py":365
  *         except Exception as e:
  *             print(f"Analysis error details: {str(e)}")
  *             raise             # <<<<<<<<<<<<<<
@@ -14345,7 +14345,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
         __PYX_ERR(0, 365, __pyx_L82_error)
       }
 
-      /* "src/eeg_manager.py":363
+      /* "eeg_manager.py":363
  *             return patterns, class_names
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -14391,7 +14391,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
     }
     goto __pyx_L5_except_error;
 
-    /* "src/eeg_manager.py":252
+    /* "eeg_manager.py":252
  *     def analyze_session(self, session_num):
  *         """Analyze recorded session data"""
  *         try:             # <<<<<<<<<<<<<<
@@ -14412,7 +14412,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
     goto __pyx_L0;
   }
 
-  /* "src/eeg_manager.py":250
+  /* "eeg_manager.py":250
  *             return []
  * 
  *     def analyze_session(self, session_num):             # <<<<<<<<<<<<<<
@@ -14428,7 +14428,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_17);
   __Pyx_XDECREF(__pyx_t_21);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.analyze_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.analyze_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_sample_annotations);
@@ -14470,7 +14470,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":367
+/* "eeg_manager.py":367
  *             raise
  * 
  *     def set_channel_state(self, channel_name, enabled):             # <<<<<<<<<<<<<<
@@ -14479,16 +14479,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_20analyze_session(CYTH
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_23set_channel_state(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_23set_channel_state(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_22set_channel_state, "EEGManager.set_channel_state(self, channel_name, enabled)\nEnable/disable a channel");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_23set_channel_state = {"set_channel_state", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_23set_channel_state, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_22set_channel_state};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_23set_channel_state(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_22set_channel_state, "EEGManager.set_channel_state(self, channel_name, enabled)\nEnable/disable a channel");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_23set_channel_state = {"set_channel_state", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_23set_channel_state, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_22set_channel_state};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_23set_channel_state(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -14588,11 +14588,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.set_channel_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.set_channel_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_22set_channel_state(__pyx_self, __pyx_v_self, __pyx_v_channel_name, __pyx_v_enabled);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_22set_channel_state(__pyx_self, __pyx_v_self, __pyx_v_channel_name, __pyx_v_enabled);
 
   /* function exit code */
   {
@@ -14605,7 +14605,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_22set_channel_state(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_channel_name, PyObject *__pyx_v_enabled) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_22set_channel_state(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_channel_name, PyObject *__pyx_v_enabled) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -14614,7 +14614,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_22set_channel_state(CY
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("set_channel_state", 1);
 
-  /* "src/eeg_manager.py":369
+  /* "eeg_manager.py":369
  *     def set_channel_state(self, channel_name, enabled):
  *         """Enable/disable a channel"""
  *         self.channel_states[channel_name] = enabled             # <<<<<<<<<<<<<<
@@ -14626,7 +14626,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_22set_channel_state(CY
   if (unlikely((PyObject_SetItem(__pyx_t_1, __pyx_v_channel_name, __pyx_v_enabled) < 0))) __PYX_ERR(0, 369, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":367
+  /* "eeg_manager.py":367
  *             raise
  * 
  *     def set_channel_state(self, channel_name, enabled):             # <<<<<<<<<<<<<<
@@ -14639,7 +14639,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_22set_channel_state(CY
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.set_channel_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.set_channel_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -14647,7 +14647,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_22set_channel_state(CY
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":371
+/* "eeg_manager.py":371
  *         self.channel_states[channel_name] = enabled
  * 
  *     def get_enabled_channels(self):             # <<<<<<<<<<<<<<
@@ -14656,16 +14656,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_22set_channel_state(CY
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_25get_enabled_channels(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_25get_enabled_channels(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_24get_enabled_channels, "EEGManager.get_enabled_channels(self)\nGet list of enabled channel indices");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_25get_enabled_channels = {"get_enabled_channels", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_25get_enabled_channels, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_24get_enabled_channels};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_25get_enabled_channels(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_24get_enabled_channels, "EEGManager.get_enabled_channels(self)\nGet list of enabled channel indices");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_25get_enabled_channels = {"get_enabled_channels", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_25get_enabled_channels, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_24get_enabled_channels};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_25get_enabled_channels(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -14735,11 +14735,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.get_enabled_channels", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.get_enabled_channels", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_24get_enabled_channels(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_24get_enabled_channels(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -14752,7 +14752,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_24get_enabled_channels(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_24get_enabled_channels(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_all_channels = NULL;
   PyObject *__pyx_v_eeg_channels = NULL;
   PyObject *__pyx_8genexpr4__pyx_v_i = NULL;
@@ -14774,7 +14774,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_24get_enabled_channels
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_enabled_channels", 1);
 
-  /* "src/eeg_manager.py":373
+  /* "eeg_manager.py":373
  *     def get_enabled_channels(self):
  *         """Get list of enabled channel indices"""
  *         all_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']             # <<<<<<<<<<<<<<
@@ -14804,7 +14804,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_24get_enabled_channels
   __pyx_v_all_channels = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":374
+  /* "eeg_manager.py":374
  *         """Get list of enabled channel indices"""
  *         all_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
  *         eeg_channels = BoardShim.get_eeg_channels(BoardIds.CYTON_BOARD.value)[:6]             # <<<<<<<<<<<<<<
@@ -14853,7 +14853,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_24get_enabled_channels
   __pyx_v_eeg_channels = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":375
+  /* "eeg_manager.py":375
  *         all_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
  *         eeg_channels = BoardShim.get_eeg_channels(BoardIds.CYTON_BOARD.value)[:6]
  *         return [ch_idx for i, ch_idx in enumerate(eeg_channels)             # <<<<<<<<<<<<<<
@@ -14928,7 +14928,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_24get_enabled_channels
       __pyx_t_1 = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":376
+      /* "eeg_manager.py":376
  *         eeg_channels = BoardShim.get_eeg_channels(BoardIds.CYTON_BOARD.value)[:6]
  *         return [ch_idx for i, ch_idx in enumerate(eeg_channels)
  *                 if self.channel_states[all_channels[i]]]             # <<<<<<<<<<<<<<
@@ -14947,7 +14947,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_24get_enabled_channels
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       if (__pyx_t_10) {
 
-        /* "src/eeg_manager.py":375
+        /* "eeg_manager.py":375
  *         all_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
  *         eeg_channels = BoardShim.get_eeg_channels(BoardIds.CYTON_BOARD.value)[:6]
  *         return [ch_idx for i, ch_idx in enumerate(eeg_channels)             # <<<<<<<<<<<<<<
@@ -14956,7 +14956,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_24get_enabled_channels
  */
         if (unlikely(__Pyx_ListComp_Append(__pyx_t_3, (PyObject*)__pyx_8genexpr4__pyx_v_ch_idx))) __PYX_ERR(0, 375, __pyx_L5_error)
 
-        /* "src/eeg_manager.py":376
+        /* "eeg_manager.py":376
  *         eeg_channels = BoardShim.get_eeg_channels(BoardIds.CYTON_BOARD.value)[:6]
  *         return [ch_idx for i, ch_idx in enumerate(eeg_channels)
  *                 if self.channel_states[all_channels[i]]]             # <<<<<<<<<<<<<<
@@ -14965,7 +14965,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_24get_enabled_channels
  */
       }
 
-      /* "src/eeg_manager.py":375
+      /* "eeg_manager.py":375
  *         all_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
  *         eeg_channels = BoardShim.get_eeg_channels(BoardIds.CYTON_BOARD.value)[:6]
  *         return [ch_idx for i, ch_idx in enumerate(eeg_channels)             # <<<<<<<<<<<<<<
@@ -14988,7 +14988,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_24get_enabled_channels
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "src/eeg_manager.py":371
+  /* "eeg_manager.py":371
  *         self.channel_states[channel_name] = enabled
  * 
  *     def get_enabled_channels(self):             # <<<<<<<<<<<<<<
@@ -15004,7 +15004,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_24get_enabled_channels
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_9);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.get_enabled_channels", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.get_enabled_channels", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_all_channels);
@@ -15016,7 +15016,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_24get_enabled_channels
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":378
+/* "eeg_manager.py":378
  *                 if self.channel_states[all_channels[i]]]
  * 
  *     def get_channel_positions(self):             # <<<<<<<<<<<<<<
@@ -15025,16 +15025,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_24get_enabled_channels
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_27get_channel_positions(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_27get_channel_positions(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_26get_channel_positions, "EEGManager.get_channel_positions(self)\nGet channel positions in 2D for topographic plotting");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_27get_channel_positions = {"get_channel_positions", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_27get_channel_positions, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_26get_channel_positions};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_27get_channel_positions(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_26get_channel_positions, "EEGManager.get_channel_positions(self)\nGet channel positions in 2D for topographic plotting");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_27get_channel_positions = {"get_channel_positions", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_27get_channel_positions, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_26get_channel_positions};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_27get_channel_positions(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -15104,11 +15104,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.get_channel_positions", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.get_channel_positions", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_26get_channel_positions(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_26get_channel_positions(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -15121,7 +15121,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_26get_channel_positions(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_26get_channel_positions(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self) {
   PyObject *__pyx_v_positions = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -15132,7 +15132,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_26get_channel_position
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_channel_positions", 1);
 
-  /* "src/eeg_manager.py":381
+  /* "eeg_manager.py":381
  *         """Get channel positions in 2D for topographic plotting"""
  *         positions = {
  *             'FCz': [0, 0.25],             # <<<<<<<<<<<<<<
@@ -15152,7 +15152,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_26get_channel_position
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_FCz, __pyx_t_2) < 0) __PYX_ERR(0, 381, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":382
+  /* "eeg_manager.py":382
  *         positions = {
  *             'FCz': [0, 0.25],
  *             'C3': [-0.5, 0],             # <<<<<<<<<<<<<<
@@ -15170,7 +15170,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_26get_channel_position
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_C3, __pyx_t_2) < 0) __PYX_ERR(0, 381, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":383
+  /* "eeg_manager.py":383
  *             'FCz': [0, 0.25],
  *             'C3': [-0.5, 0],
  *             'Cz': [0, 0],             # <<<<<<<<<<<<<<
@@ -15188,7 +15188,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_26get_channel_position
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_Cz, __pyx_t_2) < 0) __PYX_ERR(0, 381, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":384
+  /* "eeg_manager.py":384
  *             'C3': [-0.5, 0],
  *             'Cz': [0, 0],
  *             'CPz': [0, -0.25],             # <<<<<<<<<<<<<<
@@ -15206,7 +15206,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_26get_channel_position
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_CPz, __pyx_t_2) < 0) __PYX_ERR(0, 381, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":385
+  /* "eeg_manager.py":385
  *             'Cz': [0, 0],
  *             'CPz': [0, -0.25],
  *             'C2': [0.25, 0],             # <<<<<<<<<<<<<<
@@ -15224,7 +15224,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_26get_channel_position
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_C2, __pyx_t_2) < 0) __PYX_ERR(0, 381, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":386
+  /* "eeg_manager.py":386
  *             'CPz': [0, -0.25],
  *             'C2': [0.25, 0],
  *             'C4': [0.5, 0]             # <<<<<<<<<<<<<<
@@ -15244,7 +15244,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_26get_channel_position
   __pyx_v_positions = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":388
+  /* "eeg_manager.py":388
  *             'C4': [0.5, 0]
  *         }
  *         return positions             # <<<<<<<<<<<<<<
@@ -15256,7 +15256,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_26get_channel_position
   __pyx_r = __pyx_v_positions;
   goto __pyx_L0;
 
-  /* "src/eeg_manager.py":378
+  /* "eeg_manager.py":378
  *                 if self.channel_states[all_channels[i]]]
  * 
  *     def get_channel_positions(self):             # <<<<<<<<<<<<<<
@@ -15268,7 +15268,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_26get_channel_position
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.get_channel_positions", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.get_channel_positions", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_positions);
@@ -15277,7 +15277,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_26get_channel_position
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":406
+/* "eeg_manager.py":406
  *     }
  * 
  *     @staticmethod             # <<<<<<<<<<<<<<
@@ -15286,16 +15286,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_26get_channel_position
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_29validate_channel_name(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_29validate_channel_name(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_28validate_channel_name, "EEGManager.validate_channel_name(name)\n\n        Validate if a channel name follows 10-20 system naming convention\n        Returns: (bool, str) - (is_valid, error_message)\n        ");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_29validate_channel_name = {"validate_channel_name", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_29validate_channel_name, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_28validate_channel_name};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_29validate_channel_name(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_28validate_channel_name, "EEGManager.validate_channel_name(name)\n\n        Validate if a channel name follows 10-20 system naming convention\n        Returns: (bool, str) - (is_valid, error_message)\n        ");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_29validate_channel_name = {"validate_channel_name", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_29validate_channel_name, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_28validate_channel_name};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_29validate_channel_name(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -15365,11 +15365,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.validate_channel_name", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.validate_channel_name", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_name(__pyx_self, __pyx_v_name);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_28validate_channel_name(__pyx_self, __pyx_v_name);
 
   /* function exit code */
   {
@@ -15382,7 +15382,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_name(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_name) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_28validate_channel_name(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_name) {
   PyObject *__pyx_v_formatted_name = NULL;
   PyObject *__pyx_v_re = NULL;
   PyObject *__pyx_v_pattern = NULL;
@@ -15403,7 +15403,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
   __Pyx_RefNannySetupContext("validate_channel_name", 0);
   __Pyx_INCREF(__pyx_v_name);
 
-  /* "src/eeg_manager.py":412
+  /* "eeg_manager.py":412
  *         Returns: (bool, str) - (is_valid, error_message)
  *         """
  *         name = name.strip()             # <<<<<<<<<<<<<<
@@ -15437,7 +15437,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
   __Pyx_DECREF_SET(__pyx_v_name, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":413
+  /* "eeg_manager.py":413
  *         """
  *         name = name.strip()
  *         if not name:             # <<<<<<<<<<<<<<
@@ -15448,7 +15448,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
   __pyx_t_6 = (!__pyx_t_5);
   if (__pyx_t_6) {
 
-    /* "src/eeg_manager.py":414
+    /* "eeg_manager.py":414
  *         name = name.strip()
  *         if not name:
  *             return False, "Channel name cannot be empty"             # <<<<<<<<<<<<<<
@@ -15460,7 +15460,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
     __pyx_r = __pyx_tuple__17;
     goto __pyx_L0;
 
-    /* "src/eeg_manager.py":413
+    /* "eeg_manager.py":413
  *         """
  *         name = name.strip()
  *         if not name:             # <<<<<<<<<<<<<<
@@ -15469,7 +15469,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
  */
   }
 
-  /* "src/eeg_manager.py":417
+  /* "eeg_manager.py":417
  * 
  *         # Convert to proper case (first letter capital, rest lowercase)
  *         formatted_name = name[0].upper() + name[1:].lower()             # <<<<<<<<<<<<<<
@@ -15537,7 +15537,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
   __pyx_v_formatted_name = __pyx_t_7;
   __pyx_t_7 = 0;
 
-  /* "src/eeg_manager.py":419
+  /* "eeg_manager.py":419
  *         formatted_name = name[0].upper() + name[1:].lower()
  * 
  *         if formatted_name in EEGManager.VALID_CHANNELS:             # <<<<<<<<<<<<<<
@@ -15553,7 +15553,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_6) {
 
-    /* "src/eeg_manager.py":420
+    /* "eeg_manager.py":420
  * 
  *         if formatted_name in EEGManager.VALID_CHANNELS:
  *             return True, ""             # <<<<<<<<<<<<<<
@@ -15565,7 +15565,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
     __pyx_r = __pyx_tuple__19;
     goto __pyx_L0;
 
-    /* "src/eeg_manager.py":419
+    /* "eeg_manager.py":419
  *         formatted_name = name[0].upper() + name[1:].lower()
  * 
  *         if formatted_name in EEGManager.VALID_CHANNELS:             # <<<<<<<<<<<<<<
@@ -15574,7 +15574,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
  */
   }
 
-  /* "src/eeg_manager.py":423
+  /* "eeg_manager.py":423
  * 
  *         # Check if it follows 10-20 naming pattern but isn't in our list
  *         import re             # <<<<<<<<<<<<<<
@@ -15586,7 +15586,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
   __pyx_v_re = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":424
+  /* "eeg_manager.py":424
  *         # Check if it follows 10-20 naming pattern but isn't in our list
  *         import re
  *         pattern = r'^[A-Za-z]+\d*$'             # <<<<<<<<<<<<<<
@@ -15596,7 +15596,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
   __Pyx_INCREF(__pyx_kp_u_A_Za_z_d);
   __pyx_v_pattern = __pyx_kp_u_A_Za_z_d;
 
-  /* "src/eeg_manager.py":425
+  /* "eeg_manager.py":425
  *         import re
  *         pattern = r'^[A-Za-z]+\d*$'
  *         if not re.match(pattern, name):             # <<<<<<<<<<<<<<
@@ -15632,7 +15632,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
   __pyx_t_5 = (!__pyx_t_6);
   if (__pyx_t_5) {
 
-    /* "src/eeg_manager.py":426
+    /* "eeg_manager.py":426
  *         pattern = r'^[A-Za-z]+\d*$'
  *         if not re.match(pattern, name):
  *             return False, "Invalid channel name format"             # <<<<<<<<<<<<<<
@@ -15644,7 +15644,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
     __pyx_r = __pyx_tuple__21;
     goto __pyx_L0;
 
-    /* "src/eeg_manager.py":425
+    /* "eeg_manager.py":425
  *         import re
  *         pattern = r'^[A-Za-z]+\d*$'
  *         if not re.match(pattern, name):             # <<<<<<<<<<<<<<
@@ -15653,7 +15653,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
  */
   }
 
-  /* "src/eeg_manager.py":428
+  /* "eeg_manager.py":428
  *             return False, "Invalid channel name format"
  * 
  *         return False, f"Channel name '{name}' is not a standard 10-20 system position"             # <<<<<<<<<<<<<<
@@ -15695,7 +15695,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "src/eeg_manager.py":406
+  /* "eeg_manager.py":406
  *     }
  * 
  *     @staticmethod             # <<<<<<<<<<<<<<
@@ -15709,7 +15709,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.validate_channel_name", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.validate_channel_name", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_formatted_name);
@@ -15721,7 +15721,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":430
+/* "eeg_manager.py":430
  *         return False, f"Channel name '{name}' is not a standard 10-20 system position"
  * 
  *     def get_current_data(self):             # <<<<<<<<<<<<<<
@@ -15730,16 +15730,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_28validate_channel_nam
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_31get_current_data(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_31get_current_data(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_30get_current_data, "EEGManager.get_current_data(self)\nGet current data for plotting");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_31get_current_data = {"get_current_data", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_31get_current_data, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_30get_current_data};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_31get_current_data(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_30get_current_data, "EEGManager.get_current_data(self)\nGet current data for plotting");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_31get_current_data = {"get_current_data", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_31get_current_data, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_30get_current_data};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_31get_current_data(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -15809,11 +15809,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.get_current_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.get_current_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_30get_current_data(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -15826,7 +15826,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_30get_current_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_data = NULL;
   PyObject *__pyx_v_enabled_channels = NULL;
   PyObject *__pyx_r = NULL;
@@ -15842,7 +15842,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYT
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_current_data", 1);
 
-  /* "src/eeg_manager.py":432
+  /* "eeg_manager.py":432
  *     def get_current_data(self):
  *         """Get current data for plotting"""
  *         if self.board and self.board.is_prepared():             # <<<<<<<<<<<<<<
@@ -15891,7 +15891,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYT
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "src/eeg_manager.py":433
+    /* "eeg_manager.py":433
  *         """Get current data for plotting"""
  *         if self.board and self.board.is_prepared():
  *             data = self.board.get_current_board_data(250)  # Get 1 second             # <<<<<<<<<<<<<<
@@ -15928,7 +15928,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYT
     __pyx_v_data = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "src/eeg_manager.py":434
+    /* "eeg_manager.py":434
  *         if self.board and self.board.is_prepared():
  *             data = self.board.get_current_board_data(250)  # Get 1 second
  *             if data is not None and data.size > 0:             # <<<<<<<<<<<<<<
@@ -15951,7 +15951,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYT
     __pyx_L7_bool_binop_done:;
     if (__pyx_t_1) {
 
-      /* "src/eeg_manager.py":435
+      /* "eeg_manager.py":435
  *             data = self.board.get_current_board_data(250)  # Get 1 second
  *             if data is not None and data.size > 0:
  *                 enabled_channels = self.get_enabled_channels()             # <<<<<<<<<<<<<<
@@ -15985,7 +15985,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYT
       __pyx_v_enabled_channels = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":436
+      /* "eeg_manager.py":436
  *             if data is not None and data.size > 0:
  *                 enabled_channels = self.get_enabled_channels()
  *                 if not enabled_channels:  # If no channels enabled             # <<<<<<<<<<<<<<
@@ -15996,7 +15996,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYT
       __pyx_t_3 = (!__pyx_t_1);
       if (__pyx_t_3) {
 
-        /* "src/eeg_manager.py":437
+        /* "eeg_manager.py":437
  *                 enabled_channels = self.get_enabled_channels()
  *                 if not enabled_channels:  # If no channels enabled
  *                     return None             # <<<<<<<<<<<<<<
@@ -16007,7 +16007,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYT
         __pyx_r = Py_None; __Pyx_INCREF(Py_None);
         goto __pyx_L0;
 
-        /* "src/eeg_manager.py":436
+        /* "eeg_manager.py":436
  *             if data is not None and data.size > 0:
  *                 enabled_channels = self.get_enabled_channels()
  *                 if not enabled_channels:  # If no channels enabled             # <<<<<<<<<<<<<<
@@ -16016,7 +16016,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYT
  */
       }
 
-      /* "src/eeg_manager.py":438
+      /* "eeg_manager.py":438
  *                 if not enabled_channels:  # If no channels enabled
  *                     return None
  *                 return data[enabled_channels, :] * 1e6  # Convert to microvolts             # <<<<<<<<<<<<<<
@@ -16042,7 +16042,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYT
       __pyx_t_4 = 0;
       goto __pyx_L0;
 
-      /* "src/eeg_manager.py":434
+      /* "eeg_manager.py":434
  *         if self.board and self.board.is_prepared():
  *             data = self.board.get_current_board_data(250)  # Get 1 second
  *             if data is not None and data.size > 0:             # <<<<<<<<<<<<<<
@@ -16051,7 +16051,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYT
  */
     }
 
-    /* "src/eeg_manager.py":432
+    /* "eeg_manager.py":432
  *     def get_current_data(self):
  *         """Get current data for plotting"""
  *         if self.board and self.board.is_prepared():             # <<<<<<<<<<<<<<
@@ -16060,7 +16060,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYT
  */
   }
 
-  /* "src/eeg_manager.py":439
+  /* "eeg_manager.py":439
  *                     return None
  *                 return data[enabled_channels, :] * 1e6  # Convert to microvolts
  *         return None             # <<<<<<<<<<<<<<
@@ -16071,7 +16071,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYT
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
 
-  /* "src/eeg_manager.py":430
+  /* "eeg_manager.py":430
  *         return False, f"Channel name '{name}' is not a standard 10-20 system position"
  * 
  *     def get_current_data(self):             # <<<<<<<<<<<<<<
@@ -16084,7 +16084,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYT
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.get_current_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.get_current_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_data);
@@ -16094,7 +16094,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYT
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":441
+/* "eeg_manager.py":441
  *         return None
  * 
  *     def stop_session(self):             # <<<<<<<<<<<<<<
@@ -16103,16 +16103,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_30get_current_data(CYT
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_33stop_session(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_33stop_session(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_32stop_session, "EEGManager.stop_session(self)\nStop current session");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_33stop_session = {"stop_session", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_33stop_session, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_32stop_session};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_33stop_session(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_32stop_session, "EEGManager.stop_session(self)\nStop current session");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_33stop_session = {"stop_session", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_33stop_session, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_32stop_session};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_33stop_session(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -16182,11 +16182,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.stop_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.stop_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_32stop_session(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -16199,7 +16199,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_32stop_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_f = NULL;
   PyObject *__pyx_v_session_num = NULL;
   PyObject *__pyx_r = NULL;
@@ -16221,7 +16221,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("stop_session", 1);
 
-  /* "src/eeg_manager.py":443
+  /* "eeg_manager.py":443
  *     def stop_session(self):
  *         """Stop current session"""
  *         if self.is_recording:             # <<<<<<<<<<<<<<
@@ -16234,7 +16234,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
-    /* "src/eeg_manager.py":444
+    /* "eeg_manager.py":444
  *         """Stop current session"""
  *         if self.is_recording:
  *             self.stop_recording()             # <<<<<<<<<<<<<<
@@ -16267,7 +16267,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "src/eeg_manager.py":443
+    /* "eeg_manager.py":443
  *     def stop_session(self):
  *         """Stop current session"""
  *         if self.is_recording:             # <<<<<<<<<<<<<<
@@ -16276,7 +16276,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_
  */
   }
 
-  /* "src/eeg_manager.py":447
+  /* "eeg_manager.py":447
  * 
  *         # Write session end marker
  *         with open(self.annotation_file, "a+") as f:             # <<<<<<<<<<<<<<
@@ -16338,7 +16338,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_
           __pyx_v_f = __pyx_t_4;
           __pyx_t_4 = 0;
 
-          /* "src/eeg_manager.py":448
+          /* "eeg_manager.py":448
  *         # Write session end marker
  *         with open(self.annotation_file, "a+") as f:
  *             f.write("_____________________________________________\n")             # <<<<<<<<<<<<<<
@@ -16371,7 +16371,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_
           }
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-          /* "src/eeg_manager.py":447
+          /* "eeg_manager.py":447
  * 
  *         # Write session end marker
  *         with open(self.annotation_file, "a+") as f:             # <<<<<<<<<<<<<<
@@ -16389,7 +16389,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
         /*except:*/ {
-          __Pyx_AddTraceback("src.eeg_manager.EEGManager.stop_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
+          __Pyx_AddTraceback("eeg_manager.EEGManager.stop_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
           if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_1, &__pyx_t_3) < 0) __PYX_ERR(0, 447, __pyx_L10_except_error)
           __Pyx_XGOTREF(__pyx_t_4);
           __Pyx_XGOTREF(__pyx_t_1);
@@ -16452,7 +16452,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_
     __pyx_L17:;
   }
 
-  /* "src/eeg_manager.py":451
+  /* "eeg_manager.py":451
  * 
  *         # Clear session state AFTER all files are saved
  *         session_num = self.current_session_num  # Store current session number             # <<<<<<<<<<<<<<
@@ -16464,7 +16464,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_
   __pyx_v_session_num = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":452
+  /* "eeg_manager.py":452
  *         # Clear session state AFTER all files are saved
  *         session_num = self.current_session_num  # Store current session number
  *         self.task_sequence = []             # <<<<<<<<<<<<<<
@@ -16476,7 +16476,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_task_sequence, __pyx_t_3) < 0) __PYX_ERR(0, 452, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":453
+  /* "eeg_manager.py":453
  *         session_num = self.current_session_num  # Store current session number
  *         self.task_sequence = []
  *         self.current_task_index = 0             # <<<<<<<<<<<<<<
@@ -16485,7 +16485,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_current_task_index, __pyx_int_0) < 0) __PYX_ERR(0, 453, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":454
+  /* "eeg_manager.py":454
  *         self.task_sequence = []
  *         self.current_task_index = 0
  *         self.current_session_num = session_num  # Keep it until next session starts             # <<<<<<<<<<<<<<
@@ -16494,7 +16494,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_current_session_num, __pyx_v_session_num) < 0) __PYX_ERR(0, 454, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":441
+  /* "eeg_manager.py":441
  *         return None
  * 
  *     def stop_session(self):             # <<<<<<<<<<<<<<
@@ -16510,7 +16510,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.stop_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.stop_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_f);
@@ -16520,7 +16520,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":456
+/* "eeg_manager.py":456
  *         self.current_session_num = session_num  # Keep it until next session starts
  * 
  *     def combine_fif_files(self):             # <<<<<<<<<<<<<<
@@ -16529,16 +16529,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_32stop_session(CYTHON_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_35combine_fif_files(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_35combine_fif_files(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_34combine_fif_files, "EEGManager.combine_fif_files(self)\nCombine all FIF files into one in formatted_data");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_35combine_fif_files = {"combine_fif_files", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_35combine_fif_files, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_34combine_fif_files};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_35combine_fif_files(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_34combine_fif_files, "EEGManager.combine_fif_files(self)\nCombine all FIF files into one in formatted_data");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_35combine_fif_files = {"combine_fif_files", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_35combine_fif_files, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_34combine_fif_files};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_35combine_fif_files(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -16608,11 +16608,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.combine_fif_files", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.combine_fif_files", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_34combine_fif_files(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -16625,7 +16625,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_34combine_fif_files(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_raw_files = NULL;
   PyObject *__pyx_v_f = NULL;
   PyObject *__pyx_v_raw_combined = NULL;
@@ -16665,7 +16665,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("combine_fif_files", 1);
 
-  /* "src/eeg_manager.py":458
+  /* "eeg_manager.py":458
  *     def combine_fif_files(self):
  *         """Combine all FIF files into one in formatted_data"""
  *         print("\n=== Starting File Combination Process ===")             # <<<<<<<<<<<<<<
@@ -16676,7 +16676,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":461
+  /* "eeg_manager.py":461
  * 
  *         # First, get all raw FIF files for current session
  *         raw_files = sorted([f for f in os.listdir(self.raw_dir)             # <<<<<<<<<<<<<<
@@ -16772,7 +16772,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
       __Pyx_XDECREF_SET(__pyx_8genexpr5__pyx_v_f, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "src/eeg_manager.py":462
+      /* "eeg_manager.py":462
  *         # First, get all raw FIF files for current session
  *         raw_files = sorted([f for f in os.listdir(self.raw_dir)
  *                            if f'session{self.current_session_num}' in f and f.endswith('_raw.fif')])             # <<<<<<<<<<<<<<
@@ -16824,7 +16824,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
       __pyx_L9_bool_binop_done:;
       if (__pyx_t_10) {
 
-        /* "src/eeg_manager.py":461
+        /* "eeg_manager.py":461
  * 
  *         # First, get all raw FIF files for current session
  *         raw_files = sorted([f for f in os.listdir(self.raw_dir)             # <<<<<<<<<<<<<<
@@ -16833,7 +16833,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
  */
         if (unlikely(__Pyx_ListComp_Append(__pyx_t_2, (PyObject*)__pyx_8genexpr5__pyx_v_f))) __PYX_ERR(0, 461, __pyx_L5_error)
 
-        /* "src/eeg_manager.py":462
+        /* "eeg_manager.py":462
  *         # First, get all raw FIF files for current session
  *         raw_files = sorted([f for f in os.listdir(self.raw_dir)
  *                            if f'session{self.current_session_num}' in f and f.endswith('_raw.fif')])             # <<<<<<<<<<<<<<
@@ -16842,7 +16842,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
  */
       }
 
-      /* "src/eeg_manager.py":461
+      /* "eeg_manager.py":461
  * 
  *         # First, get all raw FIF files for current session
  *         raw_files = sorted([f for f in os.listdir(self.raw_dir)             # <<<<<<<<<<<<<<
@@ -16864,7 +16864,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __pyx_v_raw_files = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":464
+  /* "eeg_manager.py":464
  *                            if f'session{self.current_session_num}' in f and f.endswith('_raw.fif')])
  * 
  *         print(f"Found {len(raw_files)} raw files:")             # <<<<<<<<<<<<<<
@@ -16898,7 +16898,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":465
+  /* "eeg_manager.py":465
  * 
  *         print(f"Found {len(raw_files)} raw files:")
  *         for f in raw_files:             # <<<<<<<<<<<<<<
@@ -16924,7 +16924,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
     __Pyx_XDECREF_SET(__pyx_v_f, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "src/eeg_manager.py":466
+    /* "eeg_manager.py":466
  *         print(f"Found {len(raw_files)} raw files:")
  *         for f in raw_files:
  *             print(f"  - {f}")             # <<<<<<<<<<<<<<
@@ -16941,7 +16941,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "src/eeg_manager.py":465
+    /* "eeg_manager.py":465
  * 
  *         print(f"Found {len(raw_files)} raw files:")
  *         for f in raw_files:             # <<<<<<<<<<<<<<
@@ -16951,7 +16951,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":468
+  /* "eeg_manager.py":468
  *             print(f"  - {f}")
  * 
  *         if not raw_files:             # <<<<<<<<<<<<<<
@@ -16962,7 +16962,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __pyx_t_11 = (!__pyx_t_10);
   if (unlikely(__pyx_t_11)) {
 
-    /* "src/eeg_manager.py":469
+    /* "eeg_manager.py":469
  * 
  *         if not raw_files:
  *             raise ValueError("No FIF files found for current session.")             # <<<<<<<<<<<<<<
@@ -16975,7 +16975,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __PYX_ERR(0, 469, __pyx_L1_error)
 
-    /* "src/eeg_manager.py":468
+    /* "eeg_manager.py":468
  *             print(f"  - {f}")
  * 
  *         if not raw_files:             # <<<<<<<<<<<<<<
@@ -16984,7 +16984,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
  */
   }
 
-  /* "src/eeg_manager.py":471
+  /* "eeg_manager.py":471
  *             raise ValueError("No FIF files found for current session.")
  * 
  *         raw_combined = None             # <<<<<<<<<<<<<<
@@ -16994,7 +16994,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __Pyx_INCREF(Py_None);
   __pyx_v_raw_combined = Py_None;
 
-  /* "src/eeg_manager.py":472
+  /* "eeg_manager.py":472
  * 
  *         raw_combined = None
  *         current_time = 0             # <<<<<<<<<<<<<<
@@ -17003,7 +17003,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
  */
   __pyx_v_current_time = 0;
 
-  /* "src/eeg_manager.py":475
+  /* "eeg_manager.py":475
  * 
  *         # Get tasks for current session
  *         tasks = self._read_annotations_file(self.current_session_num)             # <<<<<<<<<<<<<<
@@ -17040,7 +17040,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __pyx_v_tasks = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":478
+  /* "eeg_manager.py":478
  * 
  *         # Load first file to get recording duration
  *         first_raw = mne.io.read_raw_fif(os.path.join(self.raw_dir, raw_files[0]), preload=True)             # <<<<<<<<<<<<<<
@@ -17107,7 +17107,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __pyx_v_first_raw = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "src/eeg_manager.py":479
+  /* "eeg_manager.py":479
  *         # Load first file to get recording duration
  *         first_raw = mne.io.read_raw_fif(os.path.join(self.raw_dir, raw_files[0]), preload=True)
  *         recording_duration = len(first_raw.times) / first_raw.info['sfreq']             # <<<<<<<<<<<<<<
@@ -17132,7 +17132,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __pyx_v_recording_duration = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":482
+  /* "eeg_manager.py":482
  * 
  *         # Initialize lists for annotations
  *         all_onsets = []             # <<<<<<<<<<<<<<
@@ -17144,7 +17144,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __pyx_v_all_onsets = ((PyObject*)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":483
+  /* "eeg_manager.py":483
  *         # Initialize lists for annotations
  *         all_onsets = []
  *         all_durations = []             # <<<<<<<<<<<<<<
@@ -17156,7 +17156,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __pyx_v_all_durations = ((PyObject*)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":484
+  /* "eeg_manager.py":484
  *         all_onsets = []
  *         all_durations = []
  *         all_descriptions = []             # <<<<<<<<<<<<<<
@@ -17168,7 +17168,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __pyx_v_all_descriptions = ((PyObject*)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":486
+  /* "eeg_manager.py":486
  *         all_descriptions = []
  * 
  *         for raw_file in raw_files:             # <<<<<<<<<<<<<<
@@ -17194,7 +17194,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
     __Pyx_XDECREF_SET(__pyx_v_raw_file, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "src/eeg_manager.py":487
+    /* "eeg_manager.py":487
  * 
  *         for raw_file in raw_files:
  *             full_path = os.path.join(self.raw_dir, raw_file)             # <<<<<<<<<<<<<<
@@ -17237,7 +17237,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
     __Pyx_XDECREF_SET(__pyx_v_full_path, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "src/eeg_manager.py":488
+    /* "eeg_manager.py":488
  *         for raw_file in raw_files:
  *             full_path = os.path.join(self.raw_dir, raw_file)
  *             print(f"Loading {full_path}")             # <<<<<<<<<<<<<<
@@ -17254,7 +17254,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "src/eeg_manager.py":489
+    /* "eeg_manager.py":489
  *             full_path = os.path.join(self.raw_dir, raw_file)
  *             print(f"Loading {full_path}")
  *             raw = mne.io.read_raw_fif(full_path, preload=True)             # <<<<<<<<<<<<<<
@@ -17285,7 +17285,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
     __Pyx_XDECREF_SET(__pyx_v_raw, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "src/eeg_manager.py":491
+    /* "eeg_manager.py":491
  *             raw = mne.io.read_raw_fif(full_path, preload=True)
  * 
  *             if raw_combined is None:             # <<<<<<<<<<<<<<
@@ -17295,7 +17295,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
     __pyx_t_11 = (__pyx_v_raw_combined == Py_None);
     if (__pyx_t_11) {
 
-      /* "src/eeg_manager.py":492
+      /* "eeg_manager.py":492
  * 
  *             if raw_combined is None:
  *                 raw_combined = raw             # <<<<<<<<<<<<<<
@@ -17305,7 +17305,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
       __Pyx_INCREF(__pyx_v_raw);
       __Pyx_DECREF_SET(__pyx_v_raw_combined, __pyx_v_raw);
 
-      /* "src/eeg_manager.py":491
+      /* "eeg_manager.py":491
  *             raw = mne.io.read_raw_fif(full_path, preload=True)
  * 
  *             if raw_combined is None:             # <<<<<<<<<<<<<<
@@ -17315,7 +17315,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
       goto __pyx_L19;
     }
 
-    /* "src/eeg_manager.py":494
+    /* "eeg_manager.py":494
  *                 raw_combined = raw
  *             else:
  *                 raw_combined.append(raw)             # <<<<<<<<<<<<<<
@@ -17327,7 +17327,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
     }
     __pyx_L19:;
 
-    /* "src/eeg_manager.py":486
+    /* "eeg_manager.py":486
  *         all_descriptions = []
  * 
  *         for raw_file in raw_files:             # <<<<<<<<<<<<<<
@@ -17337,7 +17337,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":497
+  /* "eeg_manager.py":497
  * 
  *         # Create annotations using actual recording duration
  *         for i, task in enumerate(tasks):             # <<<<<<<<<<<<<<
@@ -17408,7 +17408,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
     __pyx_t_2 = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "src/eeg_manager.py":498
+    /* "eeg_manager.py":498
  *         # Create annotations using actual recording duration
  *         for i, task in enumerate(tasks):
  *             all_onsets.append(i * recording_duration)             # <<<<<<<<<<<<<<
@@ -17420,7 +17420,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
     __pyx_t_12 = __Pyx_PyList_Append(__pyx_v_all_onsets, __pyx_t_1); if (unlikely(__pyx_t_12 == ((int)-1))) __PYX_ERR(0, 498, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "src/eeg_manager.py":499
+    /* "eeg_manager.py":499
  *         for i, task in enumerate(tasks):
  *             all_onsets.append(i * recording_duration)
  *             all_durations.append(recording_duration)             # <<<<<<<<<<<<<<
@@ -17429,7 +17429,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
  */
     __pyx_t_12 = __Pyx_PyList_Append(__pyx_v_all_durations, __pyx_v_recording_duration); if (unlikely(__pyx_t_12 == ((int)-1))) __PYX_ERR(0, 499, __pyx_L1_error)
 
-    /* "src/eeg_manager.py":500
+    /* "eeg_manager.py":500
  *             all_onsets.append(i * recording_duration)
  *             all_durations.append(recording_duration)
  *             task = task.strip().lower()             # <<<<<<<<<<<<<<
@@ -17488,7 +17488,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
     __Pyx_DECREF_SET(__pyx_v_task, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "src/eeg_manager.py":501
+    /* "eeg_manager.py":501
  *             all_durations.append(recording_duration)
  *             task = task.strip().lower()
  *             if task == "jaw_clenching":             # <<<<<<<<<<<<<<
@@ -17498,7 +17498,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
     __pyx_t_11 = (__Pyx_PyUnicode_Equals(__pyx_v_task, __pyx_n_u_jaw_clenching, Py_EQ)); if (unlikely((__pyx_t_11 < 0))) __PYX_ERR(0, 501, __pyx_L1_error)
     if (__pyx_t_11) {
 
-      /* "src/eeg_manager.py":502
+      /* "eeg_manager.py":502
  *             task = task.strip().lower()
  *             if task == "jaw_clenching":
  *                 task = "jaw"             # <<<<<<<<<<<<<<
@@ -17508,7 +17508,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
       __Pyx_INCREF(__pyx_n_u_jaw);
       __Pyx_DECREF_SET(__pyx_v_task, __pyx_n_u_jaw);
 
-      /* "src/eeg_manager.py":501
+      /* "eeg_manager.py":501
  *             all_durations.append(recording_duration)
  *             task = task.strip().lower()
  *             if task == "jaw_clenching":             # <<<<<<<<<<<<<<
@@ -17518,7 +17518,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
       goto __pyx_L23;
     }
 
-    /* "src/eeg_manager.py":503
+    /* "eeg_manager.py":503
  *             if task == "jaw_clenching":
  *                 task = "jaw"
  *             elif task.endswith("_hand"):             # <<<<<<<<<<<<<<
@@ -17553,7 +17553,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (__pyx_t_11) {
 
-      /* "src/eeg_manager.py":504
+      /* "eeg_manager.py":504
  *                 task = "jaw"
  *             elif task.endswith("_hand"):
  *                 task = task.split("_")[0]             # <<<<<<<<<<<<<<
@@ -17590,7 +17590,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
       __Pyx_DECREF_SET(__pyx_v_task, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "src/eeg_manager.py":503
+      /* "eeg_manager.py":503
  *             if task == "jaw_clenching":
  *                 task = "jaw"
  *             elif task.endswith("_hand"):             # <<<<<<<<<<<<<<
@@ -17600,7 +17600,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
     }
     __pyx_L23:;
 
-    /* "src/eeg_manager.py":505
+    /* "eeg_manager.py":505
  *             elif task.endswith("_hand"):
  *                 task = task.split("_")[0]
  *             all_descriptions.append(task)             # <<<<<<<<<<<<<<
@@ -17609,7 +17609,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
  */
     __pyx_t_12 = __Pyx_PyList_Append(__pyx_v_all_descriptions, __pyx_v_task); if (unlikely(__pyx_t_12 == ((int)-1))) __PYX_ERR(0, 505, __pyx_L1_error)
 
-    /* "src/eeg_manager.py":497
+    /* "eeg_manager.py":497
  * 
  *         # Create annotations using actual recording duration
  *         for i, task in enumerate(tasks):             # <<<<<<<<<<<<<<
@@ -17620,7 +17620,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":508
+  /* "eeg_manager.py":508
  * 
  *         # Set annotations
  *         annotations = mne.Annotations(             # <<<<<<<<<<<<<<
@@ -17633,7 +17633,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":509
+  /* "eeg_manager.py":509
  *         # Set annotations
  *         annotations = mne.Annotations(
  *             onset=all_onsets,             # <<<<<<<<<<<<<<
@@ -17644,7 +17644,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_onset, __pyx_v_all_onsets) < 0) __PYX_ERR(0, 509, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":510
+  /* "eeg_manager.py":510
  *         annotations = mne.Annotations(
  *             onset=all_onsets,
  *             duration=all_durations,             # <<<<<<<<<<<<<<
@@ -17653,7 +17653,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
  */
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_duration, __pyx_v_all_durations) < 0) __PYX_ERR(0, 509, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":511
+  /* "eeg_manager.py":511
  *             onset=all_onsets,
  *             duration=all_durations,
  *             description=all_descriptions             # <<<<<<<<<<<<<<
@@ -17662,7 +17662,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
  */
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_description, __pyx_v_all_descriptions) < 0) __PYX_ERR(0, 509, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":508
+  /* "eeg_manager.py":508
  * 
  *         # Set annotations
  *         annotations = mne.Annotations(             # <<<<<<<<<<<<<<
@@ -17676,7 +17676,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __pyx_v_annotations = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "src/eeg_manager.py":513
+  /* "eeg_manager.py":513
  *             description=all_descriptions
  *         )
  *         raw_combined.set_annotations(annotations)             # <<<<<<<<<<<<<<
@@ -17709,7 +17709,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   }
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/eeg_manager.py":516
+  /* "eeg_manager.py":516
  * 
  *         # Save combined file
  *         output_file = os.path.join(self.formatted_dir, 'S03.fif')             # <<<<<<<<<<<<<<
@@ -17752,7 +17752,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __pyx_v_output_file = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "src/eeg_manager.py":517
+  /* "eeg_manager.py":517
  *         # Save combined file
  *         output_file = os.path.join(self.formatted_dir, 'S03.fif')
  *         raw_combined.save(output_file, overwrite=True)             # <<<<<<<<<<<<<<
@@ -17776,7 +17776,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":518
+  /* "eeg_manager.py":518
  *         output_file = os.path.join(self.formatted_dir, 'S03.fif')
  *         raw_combined.save(output_file, overwrite=True)
  *         print(f"Saved combined file to {output_file}")             # <<<<<<<<<<<<<<
@@ -17793,7 +17793,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":520
+  /* "eeg_manager.py":520
  *         print(f"Saved combined file to {output_file}")
  * 
  *         return output_file             # <<<<<<<<<<<<<<
@@ -17805,7 +17805,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __pyx_r = __pyx_v_output_file;
   goto __pyx_L0;
 
-  /* "src/eeg_manager.py":456
+  /* "eeg_manager.py":456
  *         self.current_session_num = session_num  # Keep it until next session starts
  * 
  *     def combine_fif_files(self):             # <<<<<<<<<<<<<<
@@ -17821,7 +17821,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.combine_fif_files", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.combine_fif_files", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_raw_files);
@@ -17846,7 +17846,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":522
+/* "eeg_manager.py":522
  *         return output_file
  * 
  *     def update_action_names(self, new_actions):             # <<<<<<<<<<<<<<
@@ -17855,16 +17855,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_34combine_fif_files(CY
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_37update_action_names(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_37update_action_names(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_36update_action_names, "EEGManager.update_action_names(self, new_actions)\nUpdate the action names and their configurations");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_37update_action_names = {"update_action_names", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_37update_action_names, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_36update_action_names};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_37update_action_names(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_36update_action_names, "EEGManager.update_action_names(self, new_actions)\nUpdate the action names and their configurations");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_37update_action_names = {"update_action_names", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_37update_action_names, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_36update_action_names};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_37update_action_names(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -17949,11 +17949,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.update_action_names", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.update_action_names", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_36update_action_names(__pyx_self, __pyx_v_self, __pyx_v_new_actions);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_36update_action_names(__pyx_self, __pyx_v_self, __pyx_v_new_actions);
 
   /* function exit code */
   {
@@ -17966,7 +17966,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_36update_action_names(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_new_actions) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_36update_action_names(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_new_actions) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
@@ -17974,7 +17974,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_36update_action_names(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("update_action_names", 1);
 
-  /* "src/eeg_manager.py":524
+  /* "eeg_manager.py":524
  *     def update_action_names(self, new_actions):
  *         """Update the action names and their configurations"""
  *         self.task_names = new_actions             # <<<<<<<<<<<<<<
@@ -17983,7 +17983,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_36update_action_names(
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_task_names, __pyx_v_new_actions) < 0) __PYX_ERR(0, 524, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":522
+  /* "eeg_manager.py":522
  *         return output_file
  * 
  *     def update_action_names(self, new_actions):             # <<<<<<<<<<<<<<
@@ -17995,7 +17995,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_36update_action_names(
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.update_action_names", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.update_action_names", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -18003,7 +18003,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_36update_action_names(
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":526
+/* "eeg_manager.py":526
  *         self.task_names = new_actions
  * 
  *     def delete_session(self, session_num):             # <<<<<<<<<<<<<<
@@ -18012,16 +18012,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_36update_action_names(
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_39delete_session(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_39delete_session(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_38delete_session, "EEGManager.delete_session(self, session_num)\nDelete a specific session and its files");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_39delete_session = {"delete_session", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_39delete_session, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_38delete_session};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_39delete_session(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_38delete_session, "EEGManager.delete_session(self, session_num)\nDelete a specific session and its files");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_39delete_session = {"delete_session", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_39delete_session, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_38delete_session};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_39delete_session(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -18106,11 +18106,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.delete_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.delete_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(__pyx_self, __pyx_v_self, __pyx_v_session_num);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_38delete_session(__pyx_self, __pyx_v_self, __pyx_v_session_num);
 
   /* function exit code */
   {
@@ -18123,7 +18123,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_38delete_session(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num) {
   PyObject *__pyx_v_file = NULL;
   PyObject *__pyx_v_f = NULL;
   PyObject *__pyx_v_lines = NULL;
@@ -18155,7 +18155,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("delete_session", 1);
 
-  /* "src/eeg_manager.py":529
+  /* "eeg_manager.py":529
  *         """Delete a specific session and its files"""
  *         # Delete raw files
  *         for file in os.listdir(self.raw_dir):             # <<<<<<<<<<<<<<
@@ -18248,7 +18248,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
     __Pyx_XDECREF_SET(__pyx_v_file, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "src/eeg_manager.py":530
+    /* "eeg_manager.py":530
  *         # Delete raw files
  *         for file in os.listdir(self.raw_dir):
  *             if f'session{session_num}_' in file:             # <<<<<<<<<<<<<<
@@ -18281,7 +18281,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (__pyx_t_10) {
 
-      /* "src/eeg_manager.py":531
+      /* "eeg_manager.py":531
  *         for file in os.listdir(self.raw_dir):
  *             if f'session{session_num}_' in file:
  *                 os.remove(os.path.join(self.raw_dir, file))             # <<<<<<<<<<<<<<
@@ -18351,7 +18351,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
       }
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "src/eeg_manager.py":530
+      /* "eeg_manager.py":530
  *         # Delete raw files
  *         for file in os.listdir(self.raw_dir):
  *             if f'session{session_num}_' in file:             # <<<<<<<<<<<<<<
@@ -18360,7 +18360,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
  */
     }
 
-    /* "src/eeg_manager.py":529
+    /* "eeg_manager.py":529
  *         """Delete a specific session and its files"""
  *         # Delete raw files
  *         for file in os.listdir(self.raw_dir):             # <<<<<<<<<<<<<<
@@ -18370,7 +18370,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":534
+  /* "eeg_manager.py":534
  * 
  *         # Delete processed files
  *         for file in os.listdir(self.processed_dir):             # <<<<<<<<<<<<<<
@@ -18463,7 +18463,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
     __Pyx_XDECREF_SET(__pyx_v_file, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "src/eeg_manager.py":535
+    /* "eeg_manager.py":535
  *         # Delete processed files
  *         for file in os.listdir(self.processed_dir):
  *             if f'session{session_num}' in file:             # <<<<<<<<<<<<<<
@@ -18479,7 +18479,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (__pyx_t_10) {
 
-      /* "src/eeg_manager.py":536
+      /* "eeg_manager.py":536
  *         for file in os.listdir(self.processed_dir):
  *             if f'session{session_num}' in file:
  *                 os.remove(os.path.join(self.processed_dir, file))             # <<<<<<<<<<<<<<
@@ -18549,7 +18549,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
       }
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "src/eeg_manager.py":535
+      /* "eeg_manager.py":535
  *         # Delete processed files
  *         for file in os.listdir(self.processed_dir):
  *             if f'session{session_num}' in file:             # <<<<<<<<<<<<<<
@@ -18558,7 +18558,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
  */
     }
 
-    /* "src/eeg_manager.py":534
+    /* "eeg_manager.py":534
  * 
  *         # Delete processed files
  *         for file in os.listdir(self.processed_dir):             # <<<<<<<<<<<<<<
@@ -18568,7 +18568,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
   }
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eeg_manager.py":539
+  /* "eeg_manager.py":539
  * 
  *         # Delete formatted files
  *         for file in os.listdir(self.formatted_dir):             # <<<<<<<<<<<<<<
@@ -18661,7 +18661,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
     __Pyx_XDECREF_SET(__pyx_v_file, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "src/eeg_manager.py":540
+    /* "eeg_manager.py":540
  *         # Delete formatted files
  *         for file in os.listdir(self.formatted_dir):
  *             if f'session{session_num}' in file:             # <<<<<<<<<<<<<<
@@ -18677,7 +18677,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (__pyx_t_10) {
 
-      /* "src/eeg_manager.py":541
+      /* "eeg_manager.py":541
  *         for file in os.listdir(self.formatted_dir):
  *             if f'session{session_num}' in file:
  *                 os.remove(os.path.join(self.formatted_dir, file))             # <<<<<<<<<<<<<<
@@ -18747,7 +18747,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
       }
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "src/eeg_manager.py":540
+      /* "eeg_manager.py":540
  *         # Delete formatted files
  *         for file in os.listdir(self.formatted_dir):
  *             if f'session{session_num}' in file:             # <<<<<<<<<<<<<<
@@ -18756,7 +18756,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
  */
     }
 
-    /* "src/eeg_manager.py":539
+    /* "eeg_manager.py":539
  * 
  *         # Delete formatted files
  *         for file in os.listdir(self.formatted_dir):             # <<<<<<<<<<<<<<
@@ -18766,7 +18766,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":544
+  /* "eeg_manager.py":544
  * 
  *         # Update annotations file
  *         if os.path.exists(self.annotation_file):             # <<<<<<<<<<<<<<
@@ -18810,7 +18810,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_10) {
 
-    /* "src/eeg_manager.py":545
+    /* "eeg_manager.py":545
  *         # Update annotations file
  *         if os.path.exists(self.annotation_file):
  *             with open(self.annotation_file, 'r') as f:             # <<<<<<<<<<<<<<
@@ -18872,7 +18872,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
             __pyx_v_f = __pyx_t_3;
             __pyx_t_3 = 0;
 
-            /* "src/eeg_manager.py":546
+            /* "eeg_manager.py":546
  *         if os.path.exists(self.annotation_file):
  *             with open(self.annotation_file, 'r') as f:
  *                 lines = f.readlines()             # <<<<<<<<<<<<<<
@@ -18906,7 +18906,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
             __pyx_v_lines = __pyx_t_3;
             __pyx_t_3 = 0;
 
-            /* "src/eeg_manager.py":545
+            /* "eeg_manager.py":545
  *         # Update annotations file
  *         if os.path.exists(self.annotation_file):
  *             with open(self.annotation_file, 'r') as f:             # <<<<<<<<<<<<<<
@@ -18927,7 +18927,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
           __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           /*except:*/ {
-            __Pyx_AddTraceback("src.eeg_manager.EEGManager.delete_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
+            __Pyx_AddTraceback("eeg_manager.EEGManager.delete_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
             if (__Pyx_GetException(&__pyx_t_3, &__pyx_t_1, &__pyx_t_2) < 0) __PYX_ERR(0, 545, __pyx_L22_except_error)
             __Pyx_XGOTREF(__pyx_t_3);
             __Pyx_XGOTREF(__pyx_t_1);
@@ -18990,7 +18990,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
       __pyx_L29:;
     }
 
-    /* "src/eeg_manager.py":549
+    /* "eeg_manager.py":549
  * 
  *             # Write back all lines except those for the deleted session
  *             with open(self.annotation_file, 'w') as f:             # <<<<<<<<<<<<<<
@@ -19052,7 +19052,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
             __Pyx_XDECREF_SET(__pyx_v_f, __pyx_t_3);
             __pyx_t_3 = 0;
 
-            /* "src/eeg_manager.py":550
+            /* "eeg_manager.py":550
  *             # Write back all lines except those for the deleted session
  *             with open(self.annotation_file, 'w') as f:
  *                 in_session = False             # <<<<<<<<<<<<<<
@@ -19061,7 +19061,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
  */
             __pyx_v_in_session = 0;
 
-            /* "src/eeg_manager.py":551
+            /* "eeg_manager.py":551
  *             with open(self.annotation_file, 'w') as f:
  *                 in_session = False
  *                 for line in lines:             # <<<<<<<<<<<<<<
@@ -19124,7 +19124,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
               __Pyx_XDECREF_SET(__pyx_v_line, __pyx_t_2);
               __pyx_t_2 = 0;
 
-              /* "src/eeg_manager.py":552
+              /* "eeg_manager.py":552
  *                 in_session = False
  *                 for line in lines:
  *                     if f'session{session_num}' in line:             # <<<<<<<<<<<<<<
@@ -19140,7 +19140,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
               __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
               if (__pyx_t_19) {
 
-                /* "src/eeg_manager.py":553
+                /* "eeg_manager.py":553
  *                 for line in lines:
  *                     if f'session{session_num}' in line:
  *                         in_session = True             # <<<<<<<<<<<<<<
@@ -19149,7 +19149,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
  */
                 __pyx_v_in_session = 1;
 
-                /* "src/eeg_manager.py":552
+                /* "eeg_manager.py":552
  *                 in_session = False
  *                 for line in lines:
  *                     if f'session{session_num}' in line:             # <<<<<<<<<<<<<<
@@ -19159,7 +19159,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
                 goto __pyx_L42;
               }
 
-              /* "src/eeg_manager.py":554
+              /* "eeg_manager.py":554
  *                     if f'session{session_num}' in line:
  *                         in_session = True
  *                     elif line.startswith('_'):             # <<<<<<<<<<<<<<
@@ -19194,7 +19194,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
               __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
               if (__pyx_t_19) {
 
-                /* "src/eeg_manager.py":555
+                /* "eeg_manager.py":555
  *                         in_session = True
  *                     elif line.startswith('_'):
  *                         in_session = False             # <<<<<<<<<<<<<<
@@ -19203,7 +19203,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
  */
                 __pyx_v_in_session = 0;
 
-                /* "src/eeg_manager.py":554
+                /* "eeg_manager.py":554
  *                     if f'session{session_num}' in line:
  *                         in_session = True
  *                     elif line.startswith('_'):             # <<<<<<<<<<<<<<
@@ -19213,7 +19213,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
                 goto __pyx_L42;
               }
 
-              /* "src/eeg_manager.py":556
+              /* "eeg_manager.py":556
  *                     elif line.startswith('_'):
  *                         in_session = False
  *                     elif not in_session:             # <<<<<<<<<<<<<<
@@ -19223,7 +19223,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
               __pyx_t_19 = (!__pyx_v_in_session);
               if (__pyx_t_19) {
 
-                /* "src/eeg_manager.py":557
+                /* "eeg_manager.py":557
  *                         in_session = False
  *                     elif not in_session:
  *                         f.write(line)             # <<<<<<<<<<<<<<
@@ -19256,7 +19256,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
                 }
                 __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-                /* "src/eeg_manager.py":556
+                /* "eeg_manager.py":556
  *                     elif line.startswith('_'):
  *                         in_session = False
  *                     elif not in_session:             # <<<<<<<<<<<<<<
@@ -19266,7 +19266,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
               }
               __pyx_L42:;
 
-              /* "src/eeg_manager.py":551
+              /* "eeg_manager.py":551
  *             with open(self.annotation_file, 'w') as f:
  *                 in_session = False
  *                 for line in lines:             # <<<<<<<<<<<<<<
@@ -19276,7 +19276,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
             }
             __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-            /* "src/eeg_manager.py":549
+            /* "eeg_manager.py":549
  * 
  *             # Write back all lines except those for the deleted session
  *             with open(self.annotation_file, 'w') as f:             # <<<<<<<<<<<<<<
@@ -19297,7 +19297,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
           __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           /*except:*/ {
-            __Pyx_AddTraceback("src.eeg_manager.EEGManager.delete_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
+            __Pyx_AddTraceback("eeg_manager.EEGManager.delete_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
             if (__Pyx_GetException(&__pyx_t_3, &__pyx_t_1, &__pyx_t_2) < 0) __PYX_ERR(0, 549, __pyx_L36_except_error)
             __Pyx_XGOTREF(__pyx_t_3);
             __Pyx_XGOTREF(__pyx_t_1);
@@ -19360,7 +19360,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
       __pyx_L47:;
     }
 
-    /* "src/eeg_manager.py":544
+    /* "eeg_manager.py":544
  * 
  *         # Update annotations file
  *         if os.path.exists(self.annotation_file):             # <<<<<<<<<<<<<<
@@ -19369,7 +19369,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
  */
   }
 
-  /* "src/eeg_manager.py":526
+  /* "eeg_manager.py":526
  *         self.task_names = new_actions
  * 
  *     def delete_session(self, session_num):             # <<<<<<<<<<<<<<
@@ -19388,7 +19388,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
   __Pyx_XDECREF(__pyx_t_11);
   __Pyx_XDECREF(__pyx_t_12);
   __Pyx_XDECREF(__pyx_t_13);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.delete_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.delete_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_file);
@@ -19400,7 +19400,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":559
+/* "eeg_manager.py":559
  *                         f.write(line)
  * 
  *     def delete_all_sessions(self):             # <<<<<<<<<<<<<<
@@ -19409,16 +19409,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_38delete_session(CYTHO
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_41delete_all_sessions(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_41delete_all_sessions(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_40delete_all_sessions, "EEGManager.delete_all_sessions(self)\nDelete all session files and reset");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_41delete_all_sessions = {"delete_all_sessions", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_41delete_all_sessions, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_40delete_all_sessions};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_41delete_all_sessions(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_40delete_all_sessions, "EEGManager.delete_all_sessions(self)\nDelete all session files and reset");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_41delete_all_sessions = {"delete_all_sessions", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_41delete_all_sessions, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_40delete_all_sessions};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_41delete_all_sessions(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -19488,11 +19488,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.delete_all_sessions", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.delete_all_sessions", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_40delete_all_sessions(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -19505,7 +19505,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_40delete_all_sessions(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_directory = NULL;
   PyObject *__pyx_v_file = NULL;
   PyObject *__pyx_v_file_path = NULL;
@@ -19545,7 +19545,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("delete_all_sessions", 1);
 
-  /* "src/eeg_manager.py":562
+  /* "eeg_manager.py":562
  *         """Delete all session files and reset"""
  *         # Delete all files in data directories
  *         for directory in [self.raw_dir, self.processed_dir, self.formatted_dir]:             # <<<<<<<<<<<<<<
@@ -19583,7 +19583,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
     __Pyx_XDECREF_SET(__pyx_v_directory, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "src/eeg_manager.py":563
+    /* "eeg_manager.py":563
  *         # Delete all files in data directories
  *         for directory in [self.raw_dir, self.processed_dir, self.formatted_dir]:
  *             for file in os.listdir(directory):             # <<<<<<<<<<<<<<
@@ -19673,7 +19673,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
       __Pyx_XDECREF_SET(__pyx_v_file, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":564
+      /* "eeg_manager.py":564
  *         for directory in [self.raw_dir, self.processed_dir, self.formatted_dir]:
  *             for file in os.listdir(directory):
  *                 file_path = os.path.join(directory, file)             # <<<<<<<<<<<<<<
@@ -19713,7 +19713,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
       __Pyx_XDECREF_SET(__pyx_v_file_path, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":565
+      /* "eeg_manager.py":565
  *             for file in os.listdir(directory):
  *                 file_path = os.path.join(directory, file)
  *                 try:             # <<<<<<<<<<<<<<
@@ -19729,7 +19729,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
         __Pyx_XGOTREF(__pyx_t_12);
         /*try:*/ {
 
-          /* "src/eeg_manager.py":566
+          /* "eeg_manager.py":566
  *                 file_path = os.path.join(directory, file)
  *                 try:
  *                     os.remove(file_path)             # <<<<<<<<<<<<<<
@@ -19765,7 +19765,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
           }
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-          /* "src/eeg_manager.py":565
+          /* "eeg_manager.py":565
  *             for file in os.listdir(directory):
  *                 file_path = os.path.join(directory, file)
  *                 try:             # <<<<<<<<<<<<<<
@@ -19782,7 +19782,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-        /* "src/eeg_manager.py":567
+        /* "eeg_manager.py":567
  *                 try:
  *                     os.remove(file_path)
  *                 except Exception as e:             # <<<<<<<<<<<<<<
@@ -19791,7 +19791,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
  */
         __pyx_t_13 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
         if (__pyx_t_13) {
-          __Pyx_AddTraceback("src.eeg_manager.EEGManager.delete_all_sessions", __pyx_clineno, __pyx_lineno, __pyx_filename);
+          __Pyx_AddTraceback("eeg_manager.EEGManager.delete_all_sessions", __pyx_clineno, __pyx_lineno, __pyx_filename);
           if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_9, &__pyx_t_2) < 0) __PYX_ERR(0, 567, __pyx_L9_except_error)
           __Pyx_XGOTREF(__pyx_t_4);
           __Pyx_XGOTREF(__pyx_t_9);
@@ -19800,7 +19800,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
           __pyx_v_e = __pyx_t_9;
           /*try:*/ {
 
-            /* "src/eeg_manager.py":568
+            /* "eeg_manager.py":568
  *                     os.remove(file_path)
  *                 except Exception as e:
  *                     print(f"Error deleting {file_path}: {e}")             # <<<<<<<<<<<<<<
@@ -19842,7 +19842,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
             __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
           }
 
-          /* "src/eeg_manager.py":567
+          /* "eeg_manager.py":567
  *                 try:
  *                     os.remove(file_path)
  *                 except Exception as e:             # <<<<<<<<<<<<<<
@@ -19896,7 +19896,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
         }
         goto __pyx_L9_except_error;
 
-        /* "src/eeg_manager.py":565
+        /* "eeg_manager.py":565
  *             for file in os.listdir(directory):
  *                 file_path = os.path.join(directory, file)
  *                 try:             # <<<<<<<<<<<<<<
@@ -19917,7 +19917,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
         __pyx_L14_try_end:;
       }
 
-      /* "src/eeg_manager.py":563
+      /* "eeg_manager.py":563
  *         # Delete all files in data directories
  *         for directory in [self.raw_dir, self.processed_dir, self.formatted_dir]:
  *             for file in os.listdir(directory):             # <<<<<<<<<<<<<<
@@ -19927,7 +19927,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "src/eeg_manager.py":562
+    /* "eeg_manager.py":562
  *         """Delete all session files and reset"""
  *         # Delete all files in data directories
  *         for directory in [self.raw_dir, self.processed_dir, self.formatted_dir]:             # <<<<<<<<<<<<<<
@@ -19937,7 +19937,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":571
+  /* "eeg_manager.py":571
  * 
  *         # Clear annotations file
  *         with open(self.annotation_file, 'w') as f:             # <<<<<<<<<<<<<<
@@ -19999,7 +19999,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
           __pyx_v_f = __pyx_t_2;
           __pyx_t_2 = 0;
 
-          /* "src/eeg_manager.py":572
+          /* "eeg_manager.py":572
  *         # Clear annotations file
  *         with open(self.annotation_file, 'w') as f:
  *             f.write('')             # <<<<<<<<<<<<<<
@@ -20032,7 +20032,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
           }
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-          /* "src/eeg_manager.py":571
+          /* "eeg_manager.py":571
  * 
  *         # Clear annotations file
  *         with open(self.annotation_file, 'w') as f:             # <<<<<<<<<<<<<<
@@ -20053,7 +20053,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
         /*except:*/ {
-          __Pyx_AddTraceback("src.eeg_manager.EEGManager.delete_all_sessions", __pyx_clineno, __pyx_lineno, __pyx_filename);
+          __Pyx_AddTraceback("eeg_manager.EEGManager.delete_all_sessions", __pyx_clineno, __pyx_lineno, __pyx_filename);
           if (__Pyx_GetException(&__pyx_t_2, &__pyx_t_3, &__pyx_t_1) < 0) __PYX_ERR(0, 571, __pyx_L34_except_error)
           __Pyx_XGOTREF(__pyx_t_2);
           __Pyx_XGOTREF(__pyx_t_3);
@@ -20116,7 +20116,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
     __pyx_L41:;
   }
 
-  /* "src/eeg_manager.py":575
+  /* "eeg_manager.py":575
  * 
  *         # Reset session counter
  *         self.next_session_number = 1             # <<<<<<<<<<<<<<
@@ -20125,7 +20125,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_next_session_number, __pyx_int_1) < 0) __PYX_ERR(0, 575, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":576
+  /* "eeg_manager.py":576
  *         # Reset session counter
  *         self.next_session_number = 1
  *         self.current_session_num = None             # <<<<<<<<<<<<<<
@@ -20134,7 +20134,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_current_session_num, Py_None) < 0) __PYX_ERR(0, 576, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":559
+  /* "eeg_manager.py":559
  *                         f.write(line)
  * 
  *     def delete_all_sessions(self):             # <<<<<<<<<<<<<<
@@ -20153,7 +20153,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_14);
   __Pyx_XDECREF(__pyx_t_17);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.delete_all_sessions", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.delete_all_sessions", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_directory);
@@ -20166,7 +20166,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":578
+/* "eeg_manager.py":578
  *         self.current_session_num = None
  * 
  *     def combine_all_fif_files(self):             # <<<<<<<<<<<<<<
@@ -20175,16 +20175,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_40delete_all_sessions(
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_43combine_all_fif_files(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_43combine_all_fif_files(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_42combine_all_fif_files, "EEGManager.combine_all_fif_files(self)\nCombine FIF files from all sessions into one");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_43combine_all_fif_files = {"combine_all_fif_files", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_43combine_all_fif_files, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_42combine_all_fif_files};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_43combine_all_fif_files(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_42combine_all_fif_files, "EEGManager.combine_all_fif_files(self)\nCombine FIF files from all sessions into one");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_43combine_all_fif_files = {"combine_all_fif_files", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_43combine_all_fif_files, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_42combine_all_fif_files};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_43combine_all_fif_files(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -20254,11 +20254,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.combine_all_fif_files", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.combine_all_fif_files", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_files(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_42combine_all_fif_files(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -20271,7 +20271,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_files(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_42combine_all_fif_files(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_raw_files = NULL;
   PyObject *__pyx_v_f = NULL;
   PyObject *__pyx_v_raw_combined = NULL;
@@ -20313,7 +20313,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("combine_all_fif_files", 1);
 
-  /* "src/eeg_manager.py":580
+  /* "eeg_manager.py":580
  *     def combine_all_fif_files(self):
  *         """Combine FIF files from all sessions into one"""
  *         print("\n=== Starting All Sessions File Combination Process ===")             # <<<<<<<<<<<<<<
@@ -20324,7 +20324,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":583
+  /* "eeg_manager.py":583
  * 
  *         # Get all raw FIF files
  *         raw_files = sorted([f for f in os.listdir(self.raw_dir) if f.endswith('_raw.fif')])             # <<<<<<<<<<<<<<
@@ -20463,7 +20463,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __pyx_v_raw_files = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":585
+  /* "eeg_manager.py":585
  *         raw_files = sorted([f for f in os.listdir(self.raw_dir) if f.endswith('_raw.fif')])
  * 
  *         print(f"Found {len(raw_files)} total raw files:")             # <<<<<<<<<<<<<<
@@ -20497,7 +20497,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":586
+  /* "eeg_manager.py":586
  * 
  *         print(f"Found {len(raw_files)} total raw files:")
  *         for f in raw_files:             # <<<<<<<<<<<<<<
@@ -20523,7 +20523,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
     __Pyx_XDECREF_SET(__pyx_v_f, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "src/eeg_manager.py":587
+    /* "eeg_manager.py":587
  *         print(f"Found {len(raw_files)} total raw files:")
  *         for f in raw_files:
  *             print(f"  - {f}")             # <<<<<<<<<<<<<<
@@ -20540,7 +20540,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "src/eeg_manager.py":586
+    /* "eeg_manager.py":586
  * 
  *         print(f"Found {len(raw_files)} total raw files:")
  *         for f in raw_files:             # <<<<<<<<<<<<<<
@@ -20550,7 +20550,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":589
+  /* "eeg_manager.py":589
  *             print(f"  - {f}")
  * 
  *         if not raw_files:             # <<<<<<<<<<<<<<
@@ -20561,7 +20561,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __pyx_t_14 = (!__pyx_t_10);
   if (unlikely(__pyx_t_14)) {
 
-    /* "src/eeg_manager.py":590
+    /* "eeg_manager.py":590
  * 
  *         if not raw_files:
  *             raise ValueError("No FIF files found.")             # <<<<<<<<<<<<<<
@@ -20574,7 +20574,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __PYX_ERR(0, 590, __pyx_L1_error)
 
-    /* "src/eeg_manager.py":589
+    /* "eeg_manager.py":589
  *             print(f"  - {f}")
  * 
  *         if not raw_files:             # <<<<<<<<<<<<<<
@@ -20583,7 +20583,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
  */
   }
 
-  /* "src/eeg_manager.py":592
+  /* "eeg_manager.py":592
  *             raise ValueError("No FIF files found.")
  * 
  *         raw_combined = None             # <<<<<<<<<<<<<<
@@ -20593,7 +20593,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __Pyx_INCREF(Py_None);
   __pyx_v_raw_combined = Py_None;
 
-  /* "src/eeg_manager.py":593
+  /* "eeg_manager.py":593
  * 
  *         raw_combined = None
  *         current_time = 0             # <<<<<<<<<<<<<<
@@ -20603,7 +20603,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_current_time = __pyx_int_0;
 
-  /* "src/eeg_manager.py":596
+  /* "eeg_manager.py":596
  * 
  *         # Initialize lists for annotations
  *         all_onsets = []             # <<<<<<<<<<<<<<
@@ -20615,7 +20615,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __pyx_v_all_onsets = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":597
+  /* "eeg_manager.py":597
  *         # Initialize lists for annotations
  *         all_onsets = []
  *         all_durations = []             # <<<<<<<<<<<<<<
@@ -20627,7 +20627,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __pyx_v_all_durations = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":598
+  /* "eeg_manager.py":598
  *         all_onsets = []
  *         all_durations = []
  *         all_descriptions = []             # <<<<<<<<<<<<<<
@@ -20639,7 +20639,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __pyx_v_all_descriptions = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":601
+  /* "eeg_manager.py":601
  * 
  *         # Get all session numbers
  *         sessions = sorted(list(set([             # <<<<<<<<<<<<<<
@@ -20650,7 +20650,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
     __pyx_t_2 = PyList_New(0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 601, __pyx_L17_error)
     __Pyx_GOTREF(__pyx_t_2);
 
-    /* "src/eeg_manager.py":603
+    /* "eeg_manager.py":603
  *         sessions = sorted(list(set([
  *             int(f.split('_')[0].replace('session', ''))
  *             for f in raw_files             # <<<<<<<<<<<<<<
@@ -20676,7 +20676,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
       __Pyx_XDECREF_SET(__pyx_8genexpr7__pyx_v_f, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "src/eeg_manager.py":602
+      /* "eeg_manager.py":602
  *         # Get all session numbers
  *         sessions = sorted(list(set([
  *             int(f.split('_')[0].replace('session', ''))             # <<<<<<<<<<<<<<
@@ -20722,7 +20722,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
       if (unlikely(__Pyx_ListComp_Append(__pyx_t_2, (PyObject*)__pyx_t_3))) __PYX_ERR(0, 601, __pyx_L17_error)
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "src/eeg_manager.py":603
+      /* "eeg_manager.py":603
  *         sessions = sorted(list(set([
  *             int(f.split('_')[0].replace('session', ''))
  *             for f in raw_files             # <<<<<<<<<<<<<<
@@ -20739,7 +20739,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
     __pyx_L21_exit_scope:;
   } /* exit inner scope */
 
-  /* "src/eeg_manager.py":601
+  /* "eeg_manager.py":601
  * 
  *         # Get all session numbers
  *         sessions = sorted(list(set([             # <<<<<<<<<<<<<<
@@ -20761,7 +20761,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __pyx_v_sessions = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":607
+  /* "eeg_manager.py":607
  * 
  *         # Process each session
  *         for session in sessions:             # <<<<<<<<<<<<<<
@@ -20787,7 +20787,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
     __Pyx_XDECREF_SET(__pyx_v_session, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "src/eeg_manager.py":609
+    /* "eeg_manager.py":609
  *         for session in sessions:
  *             # Get tasks for this session
  *             tasks = self._read_annotations_file(session)             # <<<<<<<<<<<<<<
@@ -20821,7 +20821,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
     __Pyx_XDECREF_SET(__pyx_v_tasks, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "src/eeg_manager.py":612
+    /* "eeg_manager.py":612
  * 
  *             # Add tasks to annotations
  *             for i, task in enumerate(tasks):             # <<<<<<<<<<<<<<
@@ -20892,7 +20892,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
       __pyx_t_5 = __pyx_t_3;
       __pyx_t_3 = 0;
 
-      /* "src/eeg_manager.py":613
+      /* "eeg_manager.py":613
  *             # Add tasks to annotations
  *             for i, task in enumerate(tasks):
  *                 all_onsets.append(current_time)             # <<<<<<<<<<<<<<
@@ -20901,7 +20901,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
  */
       __pyx_t_11 = __Pyx_PyList_Append(__pyx_v_all_onsets, __pyx_v_current_time); if (unlikely(__pyx_t_11 == ((int)-1))) __PYX_ERR(0, 613, __pyx_L1_error)
 
-      /* "src/eeg_manager.py":614
+      /* "eeg_manager.py":614
  *             for i, task in enumerate(tasks):
  *                 all_onsets.append(current_time)
  *                 all_durations.append(self.task_duration)             # <<<<<<<<<<<<<<
@@ -20913,7 +20913,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
       __pyx_t_11 = __Pyx_PyList_Append(__pyx_v_all_durations, __pyx_t_3); if (unlikely(__pyx_t_11 == ((int)-1))) __PYX_ERR(0, 614, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "src/eeg_manager.py":615
+      /* "eeg_manager.py":615
  *                 all_onsets.append(current_time)
  *                 all_durations.append(self.task_duration)
  *                 task = task.strip().lower()             # <<<<<<<<<<<<<<
@@ -20972,7 +20972,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
       __Pyx_DECREF_SET(__pyx_v_task, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "src/eeg_manager.py":616
+      /* "eeg_manager.py":616
  *                 all_durations.append(self.task_duration)
  *                 task = task.strip().lower()
  *                 if task == "jaw_clenching":             # <<<<<<<<<<<<<<
@@ -20982,7 +20982,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
       __pyx_t_14 = (__Pyx_PyUnicode_Equals(__pyx_v_task, __pyx_n_u_jaw_clenching, Py_EQ)); if (unlikely((__pyx_t_14 < 0))) __PYX_ERR(0, 616, __pyx_L1_error)
       if (__pyx_t_14) {
 
-        /* "src/eeg_manager.py":617
+        /* "eeg_manager.py":617
  *                 task = task.strip().lower()
  *                 if task == "jaw_clenching":
  *                     task = "jaw"             # <<<<<<<<<<<<<<
@@ -20992,7 +20992,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
         __Pyx_INCREF(__pyx_n_u_jaw);
         __Pyx_DECREF_SET(__pyx_v_task, __pyx_n_u_jaw);
 
-        /* "src/eeg_manager.py":616
+        /* "eeg_manager.py":616
  *                 all_durations.append(self.task_duration)
  *                 task = task.strip().lower()
  *                 if task == "jaw_clenching":             # <<<<<<<<<<<<<<
@@ -21002,7 +21002,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
         goto __pyx_L26;
       }
 
-      /* "src/eeg_manager.py":618
+      /* "eeg_manager.py":618
  *                 if task == "jaw_clenching":
  *                     task = "jaw"
  *                 elif task.endswith("_hand"):             # <<<<<<<<<<<<<<
@@ -21037,7 +21037,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       if (__pyx_t_14) {
 
-        /* "src/eeg_manager.py":619
+        /* "eeg_manager.py":619
  *                     task = "jaw"
  *                 elif task.endswith("_hand"):
  *                     task = task.split("_")[0]             # <<<<<<<<<<<<<<
@@ -21074,7 +21074,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
         __Pyx_DECREF_SET(__pyx_v_task, __pyx_t_6);
         __pyx_t_6 = 0;
 
-        /* "src/eeg_manager.py":618
+        /* "eeg_manager.py":618
  *                 if task == "jaw_clenching":
  *                     task = "jaw"
  *                 elif task.endswith("_hand"):             # <<<<<<<<<<<<<<
@@ -21084,7 +21084,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
       }
       __pyx_L26:;
 
-      /* "src/eeg_manager.py":620
+      /* "eeg_manager.py":620
  *                 elif task.endswith("_hand"):
  *                     task = task.split("_")[0]
  *                 all_descriptions.append(task)             # <<<<<<<<<<<<<<
@@ -21093,7 +21093,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
  */
       __pyx_t_11 = __Pyx_PyList_Append(__pyx_v_all_descriptions, __pyx_v_task); if (unlikely(__pyx_t_11 == ((int)-1))) __PYX_ERR(0, 620, __pyx_L1_error)
 
-      /* "src/eeg_manager.py":621
+      /* "eeg_manager.py":621
  *                     task = task.split("_")[0]
  *                 all_descriptions.append(task)
  *                 current_time += self.task_duration + self.break_duration             # <<<<<<<<<<<<<<
@@ -21114,7 +21114,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
       __Pyx_DECREF_SET(__pyx_v_current_time, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "src/eeg_manager.py":612
+      /* "eeg_manager.py":612
  * 
  *             # Add tasks to annotations
  *             for i, task in enumerate(tasks):             # <<<<<<<<<<<<<<
@@ -21125,7 +21125,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "src/eeg_manager.py":607
+    /* "eeg_manager.py":607
  * 
  *         # Process each session
  *         for session in sessions:             # <<<<<<<<<<<<<<
@@ -21135,7 +21135,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":624
+  /* "eeg_manager.py":624
  * 
  *         # Combine all files
  *         for raw_file in raw_files:             # <<<<<<<<<<<<<<
@@ -21161,7 +21161,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
     __Pyx_XDECREF_SET(__pyx_v_raw_file, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "src/eeg_manager.py":625
+    /* "eeg_manager.py":625
  *         # Combine all files
  *         for raw_file in raw_files:
  *             full_path = os.path.join(self.raw_dir, raw_file)             # <<<<<<<<<<<<<<
@@ -21204,7 +21204,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
     __Pyx_XDECREF_SET(__pyx_v_full_path, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "src/eeg_manager.py":626
+    /* "eeg_manager.py":626
  *         for raw_file in raw_files:
  *             full_path = os.path.join(self.raw_dir, raw_file)
  *             print(f"Loading {full_path}")             # <<<<<<<<<<<<<<
@@ -21221,7 +21221,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "src/eeg_manager.py":627
+    /* "eeg_manager.py":627
  *             full_path = os.path.join(self.raw_dir, raw_file)
  *             print(f"Loading {full_path}")
  *             raw = mne.io.read_raw_fif(full_path, preload=True)             # <<<<<<<<<<<<<<
@@ -21252,7 +21252,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
     __Pyx_XDECREF_SET(__pyx_v_raw, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "src/eeg_manager.py":629
+    /* "eeg_manager.py":629
  *             raw = mne.io.read_raw_fif(full_path, preload=True)
  * 
  *             if raw_combined is None:             # <<<<<<<<<<<<<<
@@ -21262,7 +21262,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
     __pyx_t_14 = (__pyx_v_raw_combined == Py_None);
     if (__pyx_t_14) {
 
-      /* "src/eeg_manager.py":630
+      /* "eeg_manager.py":630
  * 
  *             if raw_combined is None:
  *                 raw_combined = raw             # <<<<<<<<<<<<<<
@@ -21272,7 +21272,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
       __Pyx_INCREF(__pyx_v_raw);
       __Pyx_DECREF_SET(__pyx_v_raw_combined, __pyx_v_raw);
 
-      /* "src/eeg_manager.py":629
+      /* "eeg_manager.py":629
  *             raw = mne.io.read_raw_fif(full_path, preload=True)
  * 
  *             if raw_combined is None:             # <<<<<<<<<<<<<<
@@ -21282,7 +21282,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
       goto __pyx_L31;
     }
 
-    /* "src/eeg_manager.py":632
+    /* "eeg_manager.py":632
  *                 raw_combined = raw
  *             else:
  *                 raw_combined.append(raw)             # <<<<<<<<<<<<<<
@@ -21294,7 +21294,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
     }
     __pyx_L31:;
 
-    /* "src/eeg_manager.py":624
+    /* "eeg_manager.py":624
  * 
  *         # Combine all files
  *         for raw_file in raw_files:             # <<<<<<<<<<<<<<
@@ -21304,7 +21304,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":635
+  /* "eeg_manager.py":635
  * 
  *         # Set annotations
  *         annotations = mne.Annotations(             # <<<<<<<<<<<<<<
@@ -21317,7 +21317,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eeg_manager.py":636
+  /* "eeg_manager.py":636
  *         # Set annotations
  *         annotations = mne.Annotations(
  *             onset=all_onsets,             # <<<<<<<<<<<<<<
@@ -21328,7 +21328,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_onset, __pyx_v_all_onsets) < 0) __PYX_ERR(0, 636, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":637
+  /* "eeg_manager.py":637
  *         annotations = mne.Annotations(
  *             onset=all_onsets,
  *             duration=all_durations,             # <<<<<<<<<<<<<<
@@ -21337,7 +21337,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
  */
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_duration, __pyx_v_all_durations) < 0) __PYX_ERR(0, 636, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":638
+  /* "eeg_manager.py":638
  *             onset=all_onsets,
  *             duration=all_durations,
  *             description=all_descriptions             # <<<<<<<<<<<<<<
@@ -21346,7 +21346,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
  */
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_description, __pyx_v_all_descriptions) < 0) __PYX_ERR(0, 636, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":635
+  /* "eeg_manager.py":635
  * 
  *         # Set annotations
  *         annotations = mne.Annotations(             # <<<<<<<<<<<<<<
@@ -21360,7 +21360,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __pyx_v_annotations = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":640
+  /* "eeg_manager.py":640
  *             description=all_descriptions
  *         )
  *         raw_combined.set_annotations(annotations)             # <<<<<<<<<<<<<<
@@ -21393,7 +21393,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":643
+  /* "eeg_manager.py":643
  * 
  *         # Save combined file
  *         output_file = os.path.join(self.formatted_dir, 'S03.fif')             # <<<<<<<<<<<<<<
@@ -21436,7 +21436,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __pyx_v_output_file = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":644
+  /* "eeg_manager.py":644
  *         # Save combined file
  *         output_file = os.path.join(self.formatted_dir, 'S03.fif')
  *         raw_combined.save(output_file, overwrite=True)             # <<<<<<<<<<<<<<
@@ -21460,7 +21460,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":645
+  /* "eeg_manager.py":645
  *         output_file = os.path.join(self.formatted_dir, 'S03.fif')
  *         raw_combined.save(output_file, overwrite=True)
  *         print(f"Saved combined file to {output_file}")             # <<<<<<<<<<<<<<
@@ -21477,7 +21477,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":647
+  /* "eeg_manager.py":647
  *         print(f"Saved combined file to {output_file}")
  * 
  *         return output_file             # <<<<<<<<<<<<<<
@@ -21489,7 +21489,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __pyx_r = __pyx_v_output_file;
   goto __pyx_L0;
 
-  /* "src/eeg_manager.py":578
+  /* "eeg_manager.py":578
  *         self.current_session_num = None
  * 
  *     def combine_all_fif_files(self):             # <<<<<<<<<<<<<<
@@ -21506,7 +21506,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_15);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.combine_all_fif_files", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.combine_all_fif_files", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_raw_files);
@@ -21533,7 +21533,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":649
+/* "eeg_manager.py":649
  *         return output_file
  * 
  *     def save_session_data(self, session_num, data):             # <<<<<<<<<<<<<<
@@ -21542,16 +21542,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_42combine_all_fif_file
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_45save_session_data(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_45save_session_data(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_44save_session_data, "EEGManager.save_session_data(self, session_num, data)\nSave session data to remote storage");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_45save_session_data = {"save_session_data", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_45save_session_data, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_44save_session_data};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_45save_session_data(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_44save_session_data, "EEGManager.save_session_data(self, session_num, data)\nSave session data to remote storage");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_45save_session_data = {"save_session_data", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_45save_session_data, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_44save_session_data};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_45save_session_data(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -21651,11 +21651,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.save_session_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.save_session_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(__pyx_self, __pyx_v_self, __pyx_v_session_num, __pyx_v_data);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_44save_session_data(__pyx_self, __pyx_v_self, __pyx_v_session_num, __pyx_v_data);
 
   /* function exit code */
   {
@@ -21668,7 +21668,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num, PyObject *__pyx_v_data) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_44save_session_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num, PyObject *__pyx_v_data) {
   PyObject *__pyx_v_response = NULL;
   PyObject *__pyx_v_e = NULL;
   PyObject *__pyx_r = NULL;
@@ -21699,7 +21699,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("save_session_data", 1);
 
-  /* "src/eeg_manager.py":651
+  /* "eeg_manager.py":651
  *     def save_session_data(self, session_num, data):
  *         """Save session data to remote storage"""
  *         try:             # <<<<<<<<<<<<<<
@@ -21715,7 +21715,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "src/eeg_manager.py":652
+      /* "eeg_manager.py":652
  *         """Save session data to remote storage"""
  *         try:
  *             response = requests.post(             # <<<<<<<<<<<<<<
@@ -21728,7 +21728,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":653
+      /* "eeg_manager.py":653
  *         try:
  *             response = requests.post(
  *                 f"{self.api_url}/session_data",             # <<<<<<<<<<<<<<
@@ -21744,7 +21744,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "src/eeg_manager.py":652
+      /* "eeg_manager.py":652
  *         """Save session data to remote storage"""
  *         try:
  *             response = requests.post(             # <<<<<<<<<<<<<<
@@ -21757,7 +21757,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
       if (__Pyx_PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_4)) __PYX_ERR(0, 652, __pyx_L3_error);
       __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":654
+      /* "eeg_manager.py":654
  *             response = requests.post(
  *                 f"{self.api_url}/session_data",
  *                 json={             # <<<<<<<<<<<<<<
@@ -21767,7 +21767,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
       __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 654, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
 
-      /* "src/eeg_manager.py":655
+      /* "eeg_manager.py":655
  *                 f"{self.api_url}/session_data",
  *                 json={
  *                     'session_num': session_num,             # <<<<<<<<<<<<<<
@@ -21778,7 +21778,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
       __Pyx_GOTREF(__pyx_t_7);
       if (PyDict_SetItem(__pyx_t_7, __pyx_n_u_session_num, __pyx_v_session_num) < 0) __PYX_ERR(0, 655, __pyx_L3_error)
 
-      /* "src/eeg_manager.py":656
+      /* "eeg_manager.py":656
  *                 json={
  *                     'session_num': session_num,
  *                     'session_data': base64.b64encode(data).decode()             # <<<<<<<<<<<<<<
@@ -21842,7 +21842,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
       if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_json, __pyx_t_7) < 0) __PYX_ERR(0, 654, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "src/eeg_manager.py":652
+      /* "eeg_manager.py":652
  *         """Save session data to remote storage"""
  *         try:
  *             response = requests.post(             # <<<<<<<<<<<<<<
@@ -21857,7 +21857,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
       __pyx_v_response = __pyx_t_7;
       __pyx_t_7 = 0;
 
-      /* "src/eeg_manager.py":659
+      /* "eeg_manager.py":659
  *                 }
  *             )
  *             response.raise_for_status()             # <<<<<<<<<<<<<<
@@ -21890,7 +21890,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
       }
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "src/eeg_manager.py":660
+      /* "eeg_manager.py":660
  *             )
  *             response.raise_for_status()
  *             return True             # <<<<<<<<<<<<<<
@@ -21902,7 +21902,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
       __pyx_r = Py_True;
       goto __pyx_L7_try_return;
 
-      /* "src/eeg_manager.py":651
+      /* "eeg_manager.py":651
  *     def save_session_data(self, session_num, data):
  *         """Save session data to remote storage"""
  *         try:             # <<<<<<<<<<<<<<
@@ -21920,7 +21920,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-    /* "src/eeg_manager.py":661
+    /* "eeg_manager.py":661
  *             response.raise_for_status()
  *             return True
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -21929,7 +21929,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
  */
     __pyx_t_13 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_13) {
-      __Pyx_AddTraceback("src.eeg_manager.EEGManager.save_session_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("eeg_manager.EEGManager.save_session_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_7, &__pyx_t_4, &__pyx_t_6) < 0) __PYX_ERR(0, 661, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_7);
       __Pyx_XGOTREF(__pyx_t_4);
@@ -21938,7 +21938,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
       __pyx_v_e = __pyx_t_4;
       /*try:*/ {
 
-        /* "src/eeg_manager.py":662
+        /* "eeg_manager.py":662
  *             return True
  *         except Exception as e:
  *             print(f"Error saving session data: {e}")             # <<<<<<<<<<<<<<
@@ -21955,7 +21955,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* "src/eeg_manager.py":663
+        /* "eeg_manager.py":663
  *         except Exception as e:
  *             print(f"Error saving session data: {e}")
  *             return False             # <<<<<<<<<<<<<<
@@ -21971,7 +21971,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
         goto __pyx_L13_return;
       }
 
-      /* "src/eeg_manager.py":661
+      /* "eeg_manager.py":661
  *             response.raise_for_status()
  *             return True
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -22027,7 +22027,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
     }
     goto __pyx_L5_except_error;
 
-    /* "src/eeg_manager.py":651
+    /* "eeg_manager.py":651
  *     def save_session_data(self, session_num, data):
  *         """Save session data to remote storage"""
  *         try:             # <<<<<<<<<<<<<<
@@ -22054,7 +22054,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
     goto __pyx_L0;
   }
 
-  /* "src/eeg_manager.py":649
+  /* "eeg_manager.py":649
  *         return output_file
  * 
  *     def save_session_data(self, session_num, data):             # <<<<<<<<<<<<<<
@@ -22072,7 +22072,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.save_session_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.save_session_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_response);
@@ -22082,7 +22082,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":665
+/* "eeg_manager.py":665
  *             return False
  * 
  *     def load_session_data(self, session_num):             # <<<<<<<<<<<<<<
@@ -22091,16 +22091,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_44save_session_data(CY
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_47load_session_data(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_47load_session_data(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_46load_session_data, "EEGManager.load_session_data(self, session_num)\nLoad session data from remote storage");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_47load_session_data = {"load_session_data", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_47load_session_data, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_46load_session_data};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_47load_session_data(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_46load_session_data, "EEGManager.load_session_data(self, session_num)\nLoad session data from remote storage");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_47load_session_data = {"load_session_data", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_47load_session_data, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_46load_session_data};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_47load_session_data(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -22185,11 +22185,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.load_session_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.load_session_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(__pyx_self, __pyx_v_self, __pyx_v_session_num);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_46load_session_data(__pyx_self, __pyx_v_self, __pyx_v_session_num);
 
   /* function exit code */
   {
@@ -22202,7 +22202,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_46load_session_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num) {
   PyObject *__pyx_v_response = NULL;
   PyObject *__pyx_v_data = NULL;
   PyObject *__pyx_v_e = NULL;
@@ -22233,7 +22233,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("load_session_data", 1);
 
-  /* "src/eeg_manager.py":667
+  /* "eeg_manager.py":667
  *     def load_session_data(self, session_num):
  *         """Load session data from remote storage"""
  *         try:             # <<<<<<<<<<<<<<
@@ -22249,7 +22249,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "src/eeg_manager.py":668
+      /* "eeg_manager.py":668
  *         """Load session data from remote storage"""
  *         try:
  *             response = requests.get(f"{self.api_url}/session_data/{session_num}")             # <<<<<<<<<<<<<<
@@ -22315,7 +22315,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
       __pyx_v_response = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":669
+      /* "eeg_manager.py":669
  *         try:
  *             response = requests.get(f"{self.api_url}/session_data/{session_num}")
  *             response.raise_for_status()             # <<<<<<<<<<<<<<
@@ -22348,7 +22348,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":670
+      /* "eeg_manager.py":670
  *             response = requests.get(f"{self.api_url}/session_data/{session_num}")
  *             response.raise_for_status()
  *             data = response.json()             # <<<<<<<<<<<<<<
@@ -22382,7 +22382,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
       __pyx_v_data = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":671
+      /* "eeg_manager.py":671
  *             response.raise_for_status()
  *             data = response.json()
  *             return base64.b64decode(data['session_data'])             # <<<<<<<<<<<<<<
@@ -22424,7 +22424,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
       __pyx_t_4 = 0;
       goto __pyx_L7_try_return;
 
-      /* "src/eeg_manager.py":667
+      /* "eeg_manager.py":667
  *     def load_session_data(self, session_num):
  *         """Load session data from remote storage"""
  *         try:             # <<<<<<<<<<<<<<
@@ -22439,7 +22439,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-    /* "src/eeg_manager.py":672
+    /* "eeg_manager.py":672
  *             data = response.json()
  *             return base64.b64decode(data['session_data'])
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -22448,7 +22448,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
  */
     __pyx_t_12 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_12) {
-      __Pyx_AddTraceback("src.eeg_manager.EEGManager.load_session_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("eeg_manager.EEGManager.load_session_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_10, &__pyx_t_6) < 0) __PYX_ERR(0, 672, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_4);
       __Pyx_XGOTREF(__pyx_t_10);
@@ -22457,7 +22457,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
       __pyx_v_e = __pyx_t_10;
       /*try:*/ {
 
-        /* "src/eeg_manager.py":673
+        /* "eeg_manager.py":673
  *             return base64.b64decode(data['session_data'])
  *         except Exception as e:
  *             print(f"Error loading session data: {e}")             # <<<<<<<<<<<<<<
@@ -22474,7 +22474,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* "src/eeg_manager.py":674
+        /* "eeg_manager.py":674
  *         except Exception as e:
  *             print(f"Error loading session data: {e}")
  *             return None             # <<<<<<<<<<<<<<
@@ -22489,7 +22489,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
         goto __pyx_L13_return;
       }
 
-      /* "src/eeg_manager.py":672
+      /* "eeg_manager.py":672
  *             data = response.json()
  *             return base64.b64decode(data['session_data'])
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -22542,7 +22542,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
     }
     goto __pyx_L5_except_error;
 
-    /* "src/eeg_manager.py":667
+    /* "eeg_manager.py":667
  *     def load_session_data(self, session_num):
  *         """Load session data from remote storage"""
  *         try:             # <<<<<<<<<<<<<<
@@ -22569,7 +22569,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
     goto __pyx_L0;
   }
 
-  /* "src/eeg_manager.py":665
+  /* "eeg_manager.py":665
  *             return False
  * 
  *     def load_session_data(self, session_num):             # <<<<<<<<<<<<<<
@@ -22584,7 +22584,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.load_session_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.load_session_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_response);
@@ -22595,7 +22595,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":676
+/* "eeg_manager.py":676
  *             return None
  * 
  *     def get_sample_files(self):             # <<<<<<<<<<<<<<
@@ -22604,16 +22604,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_46load_session_data(CY
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_49get_sample_files(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_49get_sample_files(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_48get_sample_files, "EEGManager.get_sample_files(self)\nGet list of available sample data files");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_49get_sample_files = {"get_sample_files", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_49get_sample_files, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_48get_sample_files};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_49get_sample_files(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_48get_sample_files, "EEGManager.get_sample_files(self)\nGet list of available sample data files");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_49get_sample_files = {"get_sample_files", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_49get_sample_files, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_48get_sample_files};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_49get_sample_files(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -22683,11 +22683,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.get_sample_files", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.get_sample_files", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_48get_sample_files(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -22700,7 +22700,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_48get_sample_files(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_formatted_dir = NULL;
   PyObject *__pyx_v_sample_file = NULL;
   PyObject *__pyx_v_e = NULL;
@@ -22730,7 +22730,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_sample_files", 1);
 
-  /* "src/eeg_manager.py":678
+  /* "eeg_manager.py":678
  *     def get_sample_files(self):
  *         """Get list of available sample data files"""
  *         try:             # <<<<<<<<<<<<<<
@@ -22746,7 +22746,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "src/eeg_manager.py":680
+      /* "eeg_manager.py":680
  *         try:
  *             # Look specifically for S03.fif in the formatted subfolder of sample_data
  *             formatted_dir = os.path.join(self.sample_dir, 'formatted')             # <<<<<<<<<<<<<<
@@ -22789,7 +22789,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
       __pyx_v_formatted_dir = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":681
+      /* "eeg_manager.py":681
  *             # Look specifically for S03.fif in the formatted subfolder of sample_data
  *             formatted_dir = os.path.join(self.sample_dir, 'formatted')
  *             sample_file = os.path.join(formatted_dir, 'S03.fif')             # <<<<<<<<<<<<<<
@@ -22829,7 +22829,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
       __pyx_v_sample_file = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":683
+      /* "eeg_manager.py":683
  *             sample_file = os.path.join(formatted_dir, 'S03.fif')
  * 
  *             if os.path.exists(sample_file):             # <<<<<<<<<<<<<<
@@ -22870,7 +22870,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (__pyx_t_9) {
 
-        /* "src/eeg_manager.py":684
+        /* "eeg_manager.py":684
  * 
  *             if os.path.exists(sample_file):
  *                 return [sample_file]             # <<<<<<<<<<<<<<
@@ -22887,7 +22887,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
         __pyx_t_4 = 0;
         goto __pyx_L7_try_return;
 
-        /* "src/eeg_manager.py":683
+        /* "eeg_manager.py":683
  *             sample_file = os.path.join(formatted_dir, 'S03.fif')
  * 
  *             if os.path.exists(sample_file):             # <<<<<<<<<<<<<<
@@ -22896,7 +22896,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
  */
       }
 
-      /* "src/eeg_manager.py":686
+      /* "eeg_manager.py":686
  *                 return [sample_file]
  *             else:
  *                 print(f"Sample file not found at: {sample_file}")             # <<<<<<<<<<<<<<
@@ -22914,7 +22914,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "src/eeg_manager.py":687
+        /* "eeg_manager.py":687
  *             else:
  *                 print(f"Sample file not found at: {sample_file}")
  *                 return []             # <<<<<<<<<<<<<<
@@ -22929,7 +22929,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
         goto __pyx_L7_try_return;
       }
 
-      /* "src/eeg_manager.py":678
+      /* "eeg_manager.py":678
  *     def get_sample_files(self):
  *         """Get list of available sample data files"""
  *         try:             # <<<<<<<<<<<<<<
@@ -22943,7 +22943,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "src/eeg_manager.py":689
+    /* "eeg_manager.py":689
  *                 return []
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -22952,7 +22952,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
  */
     __pyx_t_10 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_10) {
-      __Pyx_AddTraceback("src.eeg_manager.EEGManager.get_sample_files", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("eeg_manager.EEGManager.get_sample_files", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_5, &__pyx_t_6) < 0) __PYX_ERR(0, 689, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_4);
       __Pyx_XGOTREF(__pyx_t_5);
@@ -22961,7 +22961,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
       __pyx_v_e = __pyx_t_5;
       /*try:*/ {
 
-        /* "src/eeg_manager.py":690
+        /* "eeg_manager.py":690
  * 
  *         except Exception as e:
  *             print(f"Error getting sample files: {e}")             # <<<<<<<<<<<<<<
@@ -22978,7 +22978,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "src/eeg_manager.py":691
+        /* "eeg_manager.py":691
  *         except Exception as e:
  *             print(f"Error getting sample files: {e}")
  *             return []             # <<<<<<<<<<<<<<
@@ -22996,7 +22996,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
         goto __pyx_L14_return;
       }
 
-      /* "src/eeg_manager.py":689
+      /* "eeg_manager.py":689
  *                 return []
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -23049,7 +23049,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
     }
     goto __pyx_L5_except_error;
 
-    /* "src/eeg_manager.py":678
+    /* "eeg_manager.py":678
  *     def get_sample_files(self):
  *         """Get list of available sample data files"""
  *         try:             # <<<<<<<<<<<<<<
@@ -23076,7 +23076,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
     goto __pyx_L0;
   }
 
-  /* "src/eeg_manager.py":676
+  /* "eeg_manager.py":676
  *             return None
  * 
  *     def get_sample_files(self):             # <<<<<<<<<<<<<<
@@ -23091,7 +23091,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.get_sample_files", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.get_sample_files", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_formatted_dir);
@@ -23102,7 +23102,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
   return __pyx_r;
 }
 
-/* "src/eeg_manager.py":693
+/* "eeg_manager.py":693
  *             return []
  * 
  *     def update_channels(self, channel_names):             # <<<<<<<<<<<<<<
@@ -23111,16 +23111,16 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_48get_sample_files(CYT
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_51update_channels(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_51update_channels(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_11eeg_manager_10EEGManager_50update_channels, "EEGManager.update_channels(self, channel_names)\nUpdate the active channel configuration");
-static PyMethodDef __pyx_mdef_3src_11eeg_manager_10EEGManager_51update_channels = {"update_channels", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_11eeg_manager_10EEGManager_51update_channels, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_11eeg_manager_10EEGManager_50update_channels};
-static PyObject *__pyx_pw_3src_11eeg_manager_10EEGManager_51update_channels(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_11eeg_manager_10EEGManager_50update_channels, "EEGManager.update_channels(self, channel_names)\nUpdate the active channel configuration");
+static PyMethodDef __pyx_mdef_11eeg_manager_10EEGManager_51update_channels = {"update_channels", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_11eeg_manager_10EEGManager_51update_channels, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_11eeg_manager_10EEGManager_50update_channels};
+static PyObject *__pyx_pw_11eeg_manager_10EEGManager_51update_channels(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -23205,11 +23205,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.update_channels", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.update_channels", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(__pyx_self, __pyx_v_self, __pyx_v_channel_names);
+  __pyx_r = __pyx_pf_11eeg_manager_10EEGManager_50update_channels(__pyx_self, __pyx_v_self, __pyx_v_channel_names);
 
   /* function exit code */
   {
@@ -23222,7 +23222,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_channel_names) {
+static PyObject *__pyx_pf_11eeg_manager_10EEGManager_50update_channels(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_channel_names) {
   PyObject *__pyx_v_e = NULL;
   PyObject *__pyx_8genexpr8__pyx_v_name = NULL;
   PyObject *__pyx_r = NULL;
@@ -23254,7 +23254,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTH
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("update_channels", 1);
 
-  /* "src/eeg_manager.py":695
+  /* "eeg_manager.py":695
  *     def update_channels(self, channel_names):
  *         """Update the active channel configuration"""
  *         try:             # <<<<<<<<<<<<<<
@@ -23270,7 +23270,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTH
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "src/eeg_manager.py":697
+      /* "eeg_manager.py":697
  *         try:
  *             # Update channel names
  *             self.channel_names = channel_names             # <<<<<<<<<<<<<<
@@ -23279,7 +23279,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTH
  */
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_channel_names, __pyx_v_channel_names) < 0) __PYX_ERR(0, 697, __pyx_L3_error)
 
-      /* "src/eeg_manager.py":700
+      /* "eeg_manager.py":700
  * 
  *             # Update channel states
  *             self.channel_states = {name: True for name in channel_names}             # <<<<<<<<<<<<<<
@@ -23356,7 +23356,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTH
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_channel_states, __pyx_t_4) < 0) __PYX_ERR(0, 700, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "src/eeg_manager.py":703
+      /* "eeg_manager.py":703
  * 
  *             # If board is connected, update channel configuration
  *             if self.board and self.board.is_prepared():             # <<<<<<<<<<<<<<
@@ -23406,7 +23406,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTH
       if (__pyx_t_9) {
       }
 
-      /* "src/eeg_manager.py":707
+      /* "eeg_manager.py":707
  *                 pass
  * 
  *             return True             # <<<<<<<<<<<<<<
@@ -23418,7 +23418,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTH
       __pyx_r = Py_True;
       goto __pyx_L7_try_return;
 
-      /* "src/eeg_manager.py":695
+      /* "eeg_manager.py":695
  *     def update_channels(self, channel_names):
  *         """Update the active channel configuration"""
  *         try:             # <<<<<<<<<<<<<<
@@ -23431,7 +23431,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTH
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* "src/eeg_manager.py":709
+    /* "eeg_manager.py":709
  *             return True
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -23440,7 +23440,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTH
  */
     __pyx_t_12 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_12) {
-      __Pyx_AddTraceback("src.eeg_manager.EEGManager.update_channels", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("eeg_manager.EEGManager.update_channels", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_8, &__pyx_t_5) < 0) __PYX_ERR(0, 709, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_4);
       __Pyx_XGOTREF(__pyx_t_8);
@@ -23449,7 +23449,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTH
       __pyx_v_e = __pyx_t_8;
       /*try:*/ {
 
-        /* "src/eeg_manager.py":710
+        /* "eeg_manager.py":710
  * 
  *         except Exception as e:
  *             print(f"Error updating channels: {str(e)}")             # <<<<<<<<<<<<<<
@@ -23465,7 +23465,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTH
         __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
 
-        /* "src/eeg_manager.py":711
+        /* "eeg_manager.py":711
  *         except Exception as e:
  *             print(f"Error updating channels: {str(e)}")
  *             return False             # <<<<<<<<<<<<<<
@@ -23479,7 +23479,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTH
         goto __pyx_L23_return;
       }
 
-      /* "src/eeg_manager.py":709
+      /* "eeg_manager.py":709
  *             return True
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -23532,7 +23532,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTH
     }
     goto __pyx_L5_except_error;
 
-    /* "src/eeg_manager.py":695
+    /* "eeg_manager.py":695
  *     def update_channels(self, channel_names):
  *         """Update the active channel configuration"""
  *         try:             # <<<<<<<<<<<<<<
@@ -23559,7 +23559,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTH
     goto __pyx_L0;
   }
 
-  /* "src/eeg_manager.py":693
+  /* "eeg_manager.py":693
  *             return []
  * 
  *     def update_channels(self, channel_names):             # <<<<<<<<<<<<<<
@@ -23574,7 +23574,7 @@ static PyObject *__pyx_pf_3src_11eeg_manager_10EEGManager_50update_channels(CYTH
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_13);
   __Pyx_XDECREF(__pyx_t_14);
-  __Pyx_AddTraceback("src.eeg_manager.EEGManager.update_channels", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eeg_manager.EEGManager.update_channels", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_e);
@@ -23847,6 +23847,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_u_eeg, __pyx_k_eeg, sizeof(__pyx_k_eeg), 0, 1, 0, 1},
     {&__pyx_n_s_eeg_channels, __pyx_k_eeg_channels, sizeof(__pyx_k_eeg_channels), 0, 0, 1, 1},
     {&__pyx_n_s_eeg_data, __pyx_k_eeg_data, sizeof(__pyx_k_eeg_data), 0, 0, 1, 1},
+    {&__pyx_n_s_eeg_manager, __pyx_k_eeg_manager, sizeof(__pyx_k_eeg_manager), 0, 0, 1, 1},
     {&__pyx_n_s_enabled, __pyx_k_enabled, sizeof(__pyx_k_enabled), 0, 0, 1, 1},
     {&__pyx_n_s_enabled_channels, __pyx_k_enabled_channels, sizeof(__pyx_k_enabled_channels), 0, 0, 1, 1},
     {&__pyx_n_s_enabled_indices, __pyx_k_enabled_indices, sizeof(__pyx_k_enabled_indices), 0, 0, 1, 1},
@@ -24013,7 +24014,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_size, __pyx_k_size, sizeof(__pyx_k_size), 0, 0, 1, 1},
     {&__pyx_n_s_spec, __pyx_k_spec, sizeof(__pyx_k_spec), 0, 0, 1, 1},
     {&__pyx_n_s_split, __pyx_k_split, sizeof(__pyx_k_split), 0, 0, 1, 1},
-    {&__pyx_n_s_src_eeg_manager, __pyx_k_src_eeg_manager, sizeof(__pyx_k_src_eeg_manager), 0, 0, 1, 1},
     {&__pyx_kp_s_src_eeg_manager_py, __pyx_k_src_eeg_manager_py, sizeof(__pyx_k_src_eeg_manager_py), 0, 0, 1, 0},
     {&__pyx_n_u_standard_1020, __pyx_k_standard_1020, sizeof(__pyx_k_standard_1020), 0, 1, 0, 1},
     {&__pyx_n_s_start_recording, __pyx_k_start_recording, sizeof(__pyx_k_start_recording), 0, 0, 1, 1},
@@ -24074,7 +24074,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "src/eeg_manager.py":41
+  /* "eeg_manager.py":41
  *         # Create empty annotation file if it doesn't exist
  *         if not os.path.exists(self.annotation_file):
  *             with open(self.annotation_file, 'w') as f:             # <<<<<<<<<<<<<<
@@ -24085,7 +24085,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "src/eeg_manager.py":87
+  /* "eeg_manager.py":87
  *             with open(self.annotation_file, 'r') as f:
  *                 content = f.read()
  *                 sessions = [int(x.replace('session', ''))             # <<<<<<<<<<<<<<
@@ -24096,7 +24096,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "src/eeg_manager.py":107
+  /* "eeg_manager.py":107
  *             self.board.start_stream()
  *             self.is_streaming = True
  *             print("Board initialized successfully")             # <<<<<<<<<<<<<<
@@ -24107,7 +24107,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "src/eeg_manager.py":122
+  /* "eeg_manager.py":122
  *                 self.board = None
  *                 self.is_streaming = False
  *                 print("Board streaming stopped")             # <<<<<<<<<<<<<<
@@ -24118,7 +24118,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "src/eeg_manager.py":186
+  /* "eeg_manager.py":186
  *             enabled_channels = self.get_enabled_channels()
  *             if not enabled_channels:
  *                 print("No channels enabled, skipping save")             # <<<<<<<<<<<<<<
@@ -24129,7 +24129,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "src/eeg_manager.py":188
+  /* "eeg_manager.py":188
  *                 print("No channels enabled, skipping save")
  *                 return
  *             eeg_data = data[enabled_channels, :]             # <<<<<<<<<<<<<<
@@ -24140,7 +24140,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__9);
   __Pyx_GIVEREF(__pyx_slice__9);
 
-  /* "src/eeg_manager.py":258
+  /* "eeg_manager.py":258
  *                 sample_annotations = os.path.join(self.sample_dir, 'annotations.txt')
  *                 if not os.path.exists(sample_annotations):
  *                     raise ValueError("Sample annotations file not found")             # <<<<<<<<<<<<<<
@@ -24151,7 +24151,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
 
-  /* "src/eeg_manager.py":284
+  /* "eeg_manager.py":284
  * 
  *             if not tasks:
  *                 raise ValueError("No tasks found for this session")             # <<<<<<<<<<<<<<
@@ -24162,7 +24162,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__11);
   __Pyx_GIVEREF(__pyx_tuple__11);
 
-  /* "src/eeg_manager.py":292
+  /* "eeg_manager.py":292
  *                 sample_file = os.path.join(self.sample_dir, 'formatted', 'S03.fif')
  *                 if not os.path.exists(sample_file):
  *                     raise ValueError("Sample data file (S03.fif) not found")             # <<<<<<<<<<<<<<
@@ -24173,7 +24173,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__13);
   __Pyx_GIVEREF(__pyx_tuple__13);
 
-  /* "src/eeg_manager.py":304
+  /* "eeg_manager.py":304
  *                                       if f'session{session_num}' in f and f.endswith('_raw.fif')])
  *                     if not raw_files:
  *                         raise ValueError("No recording files found for this session")             # <<<<<<<<<<<<<<
@@ -24184,7 +24184,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
 
-  /* "src/eeg_manager.py":336
+  /* "eeg_manager.py":336
  * 
  *             # Map events to labels
  *             for i, event in enumerate(epochs.events[:, -1]):             # <<<<<<<<<<<<<<
@@ -24195,7 +24195,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__15);
   __Pyx_GIVEREF(__pyx_tuple__15);
 
-  /* "src/eeg_manager.py":374
+  /* "eeg_manager.py":374
  *         """Get list of enabled channel indices"""
  *         all_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
  *         eeg_channels = BoardShim.get_eeg_channels(BoardIds.CYTON_BOARD.value)[:6]             # <<<<<<<<<<<<<<
@@ -24206,7 +24206,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__16);
   __Pyx_GIVEREF(__pyx_slice__16);
 
-  /* "src/eeg_manager.py":414
+  /* "eeg_manager.py":414
  *         name = name.strip()
  *         if not name:
  *             return False, "Channel name cannot be empty"             # <<<<<<<<<<<<<<
@@ -24217,7 +24217,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__17);
   __Pyx_GIVEREF(__pyx_tuple__17);
 
-  /* "src/eeg_manager.py":417
+  /* "eeg_manager.py":417
  * 
  *         # Convert to proper case (first letter capital, rest lowercase)
  *         formatted_name = name[0].upper() + name[1:].lower()             # <<<<<<<<<<<<<<
@@ -24228,7 +24228,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__18);
   __Pyx_GIVEREF(__pyx_slice__18);
 
-  /* "src/eeg_manager.py":420
+  /* "eeg_manager.py":420
  * 
  *         if formatted_name in EEGManager.VALID_CHANNELS:
  *             return True, ""             # <<<<<<<<<<<<<<
@@ -24239,7 +24239,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__19);
   __Pyx_GIVEREF(__pyx_tuple__19);
 
-  /* "src/eeg_manager.py":426
+  /* "eeg_manager.py":426
  *         pattern = r'^[A-Za-z]+\d*$'
  *         if not re.match(pattern, name):
  *             return False, "Invalid channel name format"             # <<<<<<<<<<<<<<
@@ -24250,7 +24250,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__21);
   __Pyx_GIVEREF(__pyx_tuple__21);
 
-  /* "src/eeg_manager.py":458
+  /* "eeg_manager.py":458
  *     def combine_fif_files(self):
  *         """Combine all FIF files into one in formatted_data"""
  *         print("\n=== Starting File Combination Process ===")             # <<<<<<<<<<<<<<
@@ -24261,7 +24261,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__23);
   __Pyx_GIVEREF(__pyx_tuple__23);
 
-  /* "src/eeg_manager.py":469
+  /* "eeg_manager.py":469
  * 
  *         if not raw_files:
  *             raise ValueError("No FIF files found for current session.")             # <<<<<<<<<<<<<<
@@ -24272,7 +24272,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__25);
   __Pyx_GIVEREF(__pyx_tuple__25);
 
-  /* "src/eeg_manager.py":580
+  /* "eeg_manager.py":580
  *     def combine_all_fif_files(self):
  *         """Combine FIF files from all sessions into one"""
  *         print("\n=== Starting All Sessions File Combination Process ===")             # <<<<<<<<<<<<<<
@@ -24283,7 +24283,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__27);
   __Pyx_GIVEREF(__pyx_tuple__27);
 
-  /* "src/eeg_manager.py":590
+  /* "eeg_manager.py":590
  * 
  *         if not raw_files:
  *             raise ValueError("No FIF files found.")             # <<<<<<<<<<<<<<
@@ -24294,7 +24294,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__28);
   __Pyx_GIVEREF(__pyx_tuple__28);
 
-  /* "src/eeg_manager.py":12
+  /* "eeg_manager.py":12
  * 
  * class EEGManager:
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -24306,7 +24306,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__30);
   __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_init, 12, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) __PYX_ERR(0, 12, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":79
+  /* "eeg_manager.py":79
  *         self.api_url = "your-vercel-deployment-url/api"
  * 
  *     def _get_next_session_number(self):             # <<<<<<<<<<<<<<
@@ -24318,7 +24318,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__32);
   __pyx_codeobj__33 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_next_session_number, 79, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__33)) __PYX_ERR(0, 79, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":95
+  /* "eeg_manager.py":95
  *             return 1
  * 
  *     def initialize_board(self, port='COM9'):             # <<<<<<<<<<<<<<
@@ -24333,7 +24333,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__36);
   __Pyx_GIVEREF(__pyx_tuple__36);
 
-  /* "src/eeg_manager.py":114
+  /* "eeg_manager.py":114
  *             return False
  * 
  *     def stop_stream(self):             # <<<<<<<<<<<<<<
@@ -24345,7 +24345,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__37);
   __pyx_codeobj__38 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__37, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_stop_stream, 114, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__38)) __PYX_ERR(0, 114, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":129
+  /* "eeg_manager.py":129
  *         return True
  * 
  *     def initialize_session(self, session_num):             # <<<<<<<<<<<<<<
@@ -24357,7 +24357,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__39);
   __pyx_codeobj__40 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__39, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_initialize_session, 129, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__40)) __PYX_ERR(0, 129, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":148
+  /* "eeg_manager.py":148
  *         return True
  * 
  *     def get_next_task(self):             # <<<<<<<<<<<<<<
@@ -24369,7 +24369,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__41);
   __pyx_codeobj__42 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_next_task, 148, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__42)) __PYX_ERR(0, 148, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":156
+  /* "eeg_manager.py":156
  *         return None
  * 
  *     def start_recording(self):             # <<<<<<<<<<<<<<
@@ -24381,7 +24381,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__43);
   __pyx_codeobj__44 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__43, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_start_recording, 156, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__44)) __PYX_ERR(0, 156, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":177
+  /* "eeg_manager.py":177
  *         return False
  * 
  *     def stop_recording(self):             # <<<<<<<<<<<<<<
@@ -24393,7 +24393,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__45);
   __pyx_codeobj__46 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__45, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_stop_recording, 177, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__46)) __PYX_ERR(0, 177, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":193
+  /* "eeg_manager.py":193
  *             self.save_to_fif(eeg_data)
  * 
  *     def save_to_fif(self, eeg_data):             # <<<<<<<<<<<<<<
@@ -24405,7 +24405,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__47);
   __pyx_codeobj__48 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 12, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__47, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_save_to_fif, 193, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__48)) __PYX_ERR(0, 193, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":225
+  /* "eeg_manager.py":225
  *         return raw
  * 
  *     def _read_annotations_file(self, session_num):             # <<<<<<<<<<<<<<
@@ -24417,7 +24417,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__49);
   __pyx_codeobj__50 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 8, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__49, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_read_annotations_file, 225, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__50)) __PYX_ERR(0, 225, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":250
+  /* "eeg_manager.py":250
  *             return []
  * 
  *     def analyze_session(self, session_num):             # <<<<<<<<<<<<<<
@@ -24429,7 +24429,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__51);
   __pyx_codeobj__52 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 39, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__51, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_analyze_session, 250, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__52)) __PYX_ERR(0, 250, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":367
+  /* "eeg_manager.py":367
  *             raise
  * 
  *     def set_channel_state(self, channel_name, enabled):             # <<<<<<<<<<<<<<
@@ -24441,7 +24441,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__53);
   __pyx_codeobj__54 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__53, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_set_channel_state, 367, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__54)) __PYX_ERR(0, 367, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":371
+  /* "eeg_manager.py":371
  *         self.channel_states[channel_name] = enabled
  * 
  *     def get_enabled_channels(self):             # <<<<<<<<<<<<<<
@@ -24453,7 +24453,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__55);
   __pyx_codeobj__56 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__55, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_enabled_channels, 371, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__56)) __PYX_ERR(0, 371, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":378
+  /* "eeg_manager.py":378
  *                 if self.channel_states[all_channels[i]]]
  * 
  *     def get_channel_positions(self):             # <<<<<<<<<<<<<<
@@ -24465,7 +24465,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__57);
   __pyx_codeobj__58 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__57, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_channel_positions, 378, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__58)) __PYX_ERR(0, 378, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":406
+  /* "eeg_manager.py":406
  *     }
  * 
  *     @staticmethod             # <<<<<<<<<<<<<<
@@ -24477,7 +24477,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__59);
   __pyx_codeobj__60 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__59, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_validate_channel_name, 406, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__60)) __PYX_ERR(0, 406, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":430
+  /* "eeg_manager.py":430
  *         return False, f"Channel name '{name}' is not a standard 10-20 system position"
  * 
  *     def get_current_data(self):             # <<<<<<<<<<<<<<
@@ -24489,7 +24489,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__61);
   __pyx_codeobj__62 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__61, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_current_data, 430, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__62)) __PYX_ERR(0, 430, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":441
+  /* "eeg_manager.py":441
  *         return None
  * 
  *     def stop_session(self):             # <<<<<<<<<<<<<<
@@ -24501,7 +24501,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__63);
   __pyx_codeobj__64 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__63, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_stop_session, 441, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__64)) __PYX_ERR(0, 441, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":456
+  /* "eeg_manager.py":456
  *         self.current_session_num = session_num  # Keep it until next session starts
  * 
  *     def combine_fif_files(self):             # <<<<<<<<<<<<<<
@@ -24513,7 +24513,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__65);
   __pyx_codeobj__66 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 19, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__65, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_combine_fif_files, 456, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__66)) __PYX_ERR(0, 456, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":522
+  /* "eeg_manager.py":522
  *         return output_file
  * 
  *     def update_action_names(self, new_actions):             # <<<<<<<<<<<<<<
@@ -24525,7 +24525,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__67);
   __pyx_codeobj__68 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__67, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_update_action_names, 522, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__68)) __PYX_ERR(0, 522, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":526
+  /* "eeg_manager.py":526
  *         self.task_names = new_actions
  * 
  *     def delete_session(self, session_num):             # <<<<<<<<<<<<<<
@@ -24537,7 +24537,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__69);
   __pyx_codeobj__70 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__69, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_delete_session, 526, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__70)) __PYX_ERR(0, 526, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":559
+  /* "eeg_manager.py":559
  *                         f.write(line)
  * 
  *     def delete_all_sessions(self):             # <<<<<<<<<<<<<<
@@ -24549,7 +24549,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__71);
   __pyx_codeobj__72 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__71, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_delete_all_sessions, 559, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__72)) __PYX_ERR(0, 559, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":578
+  /* "eeg_manager.py":578
  *         self.current_session_num = None
  * 
  *     def combine_all_fif_files(self):             # <<<<<<<<<<<<<<
@@ -24561,7 +24561,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__73);
   __pyx_codeobj__74 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 20, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__73, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_combine_all_fif_files, 578, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__74)) __PYX_ERR(0, 578, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":649
+  /* "eeg_manager.py":649
  *         return output_file
  * 
  *     def save_session_data(self, session_num, data):             # <<<<<<<<<<<<<<
@@ -24573,7 +24573,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__75);
   __pyx_codeobj__76 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__75, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_save_session_data, 649, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__76)) __PYX_ERR(0, 649, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":665
+  /* "eeg_manager.py":665
  *             return False
  * 
  *     def load_session_data(self, session_num):             # <<<<<<<<<<<<<<
@@ -24585,7 +24585,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__77);
   __pyx_codeobj__78 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__77, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_load_session_data, 665, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__78)) __PYX_ERR(0, 665, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":676
+  /* "eeg_manager.py":676
  *             return None
  * 
  *     def get_sample_files(self):             # <<<<<<<<<<<<<<
@@ -24597,7 +24597,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__79);
   __pyx_codeobj__80 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__79, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_sample_files, 676, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__80)) __PYX_ERR(0, 676, __pyx_L1_error)
 
-  /* "src/eeg_manager.py":693
+  /* "eeg_manager.py":693
  *             return []
  * 
  *     def update_channels(self, channel_names):             # <<<<<<<<<<<<<<
@@ -24960,14 +24960,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_src__eeg_manager) {
+  if (__pyx_module_is_main_eeg_manager) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name_2, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "src.eeg_manager")) {
-      if (unlikely((PyDict_SetItemString(modules, "src.eeg_manager", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "eeg_manager")) {
+      if (unlikely((PyDict_SetItemString(modules, "eeg_manager", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -24988,7 +24988,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "src/eeg_manager.py":1
+  /* "eeg_manager.py":1
  * import numpy as np             # <<<<<<<<<<<<<<
  * import mne
  * from brainflow.board_shim import BoardShim, BrainFlowInputParams, BoardIds
@@ -24998,7 +24998,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_2) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":2
+  /* "eeg_manager.py":2
  * import numpy as np
  * import mne             # <<<<<<<<<<<<<<
  * from brainflow.board_shim import BoardShim, BrainFlowInputParams, BoardIds
@@ -25009,7 +25009,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_mne, __pyx_t_2) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":3
+  /* "eeg_manager.py":3
  * import numpy as np
  * import mne
  * from brainflow.board_shim import BoardShim, BrainFlowInputParams, BoardIds             # <<<<<<<<<<<<<<
@@ -25044,7 +25044,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":4
+  /* "eeg_manager.py":4
  * import mne
  * from brainflow.board_shim import BoardShim, BrainFlowInputParams, BoardIds
  * import os             # <<<<<<<<<<<<<<
@@ -25056,7 +25056,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_os, __pyx_t_3) < 0) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":5
+  /* "eeg_manager.py":5
  * from brainflow.board_shim import BoardShim, BrainFlowInputParams, BoardIds
  * import os
  * import time             # <<<<<<<<<<<<<<
@@ -25068,7 +25068,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_time, __pyx_t_3) < 0) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":6
+  /* "eeg_manager.py":6
  * import os
  * import time
  * import random             # <<<<<<<<<<<<<<
@@ -25080,7 +25080,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_random, __pyx_t_3) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":7
+  /* "eeg_manager.py":7
  * import time
  * import random
  * from mne.decoding import CSP             # <<<<<<<<<<<<<<
@@ -25101,7 +25101,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":8
+  /* "eeg_manager.py":8
  * import random
  * from mne.decoding import CSP
  * import requests             # <<<<<<<<<<<<<<
@@ -25113,7 +25113,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_requests, __pyx_t_2) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":9
+  /* "eeg_manager.py":9
  * from mne.decoding import CSP
  * import requests
  * import base64             # <<<<<<<<<<<<<<
@@ -25125,186 +25125,186 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_base64, __pyx_t_2) < 0) __PYX_ERR(0, 9, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":11
+  /* "eeg_manager.py":11
  * import base64
  * 
  * class EEGManager:             # <<<<<<<<<<<<<<
  *     def __init__(self):
  *         # Board setup
  */
-  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_EEGManager, __pyx_n_s_EEGManager, (PyObject *) NULL, __pyx_n_s_src_eeg_manager, (PyObject *) NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 11, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_EEGManager, __pyx_n_s_EEGManager, (PyObject *) NULL, __pyx_n_s_eeg_manager, (PyObject *) NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 11, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
 
-  /* "src/eeg_manager.py":12
+  /* "eeg_manager.py":12
  * 
  * class EEGManager:
  *     def __init__(self):             # <<<<<<<<<<<<<<
  *         # Board setup
  *         self.board = None
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_1__init__, 0, __pyx_n_s_EEGManager___init, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__31)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 12, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_1__init__, 0, __pyx_n_s_EEGManager___init, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__31)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_init, __pyx_t_3) < 0) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":79
+  /* "eeg_manager.py":79
  *         self.api_url = "your-vercel-deployment-url/api"
  * 
  *     def _get_next_session_number(self):             # <<<<<<<<<<<<<<
  *         """Determine the next available session number from annotations file"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_3_get_next_session_number, 0, __pyx_n_s_EEGManager__get_next_session_num, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__33)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 79, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_3_get_next_session_number, 0, __pyx_n_s_EEGManager__get_next_session_num, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__33)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 79, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_get_next_session_number, __pyx_t_3) < 0) __PYX_ERR(0, 79, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":95
+  /* "eeg_manager.py":95
  *             return 1
  * 
  *     def initialize_board(self, port='COM9'):             # <<<<<<<<<<<<<<
  *         """Initialize OpenBCI board"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_5initialize_board, 0, __pyx_n_s_EEGManager_initialize_board, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__35)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 95, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_5initialize_board, 0, __pyx_n_s_EEGManager_initialize_board, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__35)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_tuple__36);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_initialize_board, __pyx_t_3) < 0) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":114
+  /* "eeg_manager.py":114
  *             return False
  * 
  *     def stop_stream(self):             # <<<<<<<<<<<<<<
  *         """Stop board streaming"""
  *         if self.board and self.is_streaming:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_7stop_stream, 0, __pyx_n_s_EEGManager_stop_stream, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__38)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_7stop_stream, 0, __pyx_n_s_EEGManager_stop_stream, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__38)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_stop_stream, __pyx_t_3) < 0) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":129
+  /* "eeg_manager.py":129
  *         return True
  * 
  *     def initialize_session(self, session_num):             # <<<<<<<<<<<<<<
  *         """Initialize a new recording session"""
  *         self.current_session_num = session_num
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_9initialize_session, 0, __pyx_n_s_EEGManager_initialize_session, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 129, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_9initialize_session, 0, __pyx_n_s_EEGManager_initialize_session, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 129, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_initialize_session, __pyx_t_3) < 0) __PYX_ERR(0, 129, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":148
+  /* "eeg_manager.py":148
  *         return True
  * 
  *     def get_next_task(self):             # <<<<<<<<<<<<<<
  *         """Get next task in sequence"""
  *         if self.current_task_index < len(self.task_sequence):
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_11get_next_task, 0, __pyx_n_s_EEGManager_get_next_task, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__42)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 148, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_11get_next_task, 0, __pyx_n_s_EEGManager_get_next_task, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__42)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_get_next_task, __pyx_t_3) < 0) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":156
+  /* "eeg_manager.py":156
  *         return None
  * 
  *     def start_recording(self):             # <<<<<<<<<<<<<<
  *         """Start recording current task"""
  *         if self.board and self.is_streaming:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_13start_recording, 0, __pyx_n_s_EEGManager_start_recording, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__44)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 156, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_13start_recording, 0, __pyx_n_s_EEGManager_start_recording, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__44)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 156, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_start_recording, __pyx_t_3) < 0) __PYX_ERR(0, 156, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":177
+  /* "eeg_manager.py":177
  *         return False
  * 
  *     def stop_recording(self):             # <<<<<<<<<<<<<<
  *         """Stop recording and save data"""
  *         if self.is_recording:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_15stop_recording, 0, __pyx_n_s_EEGManager_stop_recording, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__46)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 177, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_15stop_recording, 0, __pyx_n_s_EEGManager_stop_recording, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__46)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 177, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_stop_recording, __pyx_t_3) < 0) __PYX_ERR(0, 177, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":193
+  /* "eeg_manager.py":193
  *             self.save_to_fif(eeg_data)
  * 
  *     def save_to_fif(self, eeg_data):             # <<<<<<<<<<<<<<
  *         """Save EEG data as FIF file"""
  *         # Only use names of enabled channels
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_17save_to_fif, 0, __pyx_n_s_EEGManager_save_to_fif, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__48)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 193, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_17save_to_fif, 0, __pyx_n_s_EEGManager_save_to_fif, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__48)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_save_to_fif, __pyx_t_3) < 0) __PYX_ERR(0, 193, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":225
+  /* "eeg_manager.py":225
  *         return raw
  * 
  *     def _read_annotations_file(self, session_num):             # <<<<<<<<<<<<<<
  *         """Read tasks from annotations file for a specific session"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_19_read_annotations_file, 0, __pyx_n_s_EEGManager__read_annotations_fil, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__50)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 225, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_19_read_annotations_file, 0, __pyx_n_s_EEGManager__read_annotations_fil, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__50)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 225, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_read_annotations_file, __pyx_t_3) < 0) __PYX_ERR(0, 225, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":250
+  /* "eeg_manager.py":250
  *             return []
  * 
  *     def analyze_session(self, session_num):             # <<<<<<<<<<<<<<
  *         """Analyze recorded session data"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_21analyze_session, 0, __pyx_n_s_EEGManager_analyze_session, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__52)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 250, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_21analyze_session, 0, __pyx_n_s_EEGManager_analyze_session, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__52)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 250, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_analyze_session, __pyx_t_3) < 0) __PYX_ERR(0, 250, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":367
+  /* "eeg_manager.py":367
  *             raise
  * 
  *     def set_channel_state(self, channel_name, enabled):             # <<<<<<<<<<<<<<
  *         """Enable/disable a channel"""
  *         self.channel_states[channel_name] = enabled
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_23set_channel_state, 0, __pyx_n_s_EEGManager_set_channel_state, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__54)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 367, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_23set_channel_state, 0, __pyx_n_s_EEGManager_set_channel_state, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__54)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 367, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_set_channel_state, __pyx_t_3) < 0) __PYX_ERR(0, 367, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":371
+  /* "eeg_manager.py":371
  *         self.channel_states[channel_name] = enabled
  * 
  *     def get_enabled_channels(self):             # <<<<<<<<<<<<<<
  *         """Get list of enabled channel indices"""
  *         all_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_25get_enabled_channels, 0, __pyx_n_s_EEGManager_get_enabled_channels, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__56)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 371, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_25get_enabled_channels, 0, __pyx_n_s_EEGManager_get_enabled_channels, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__56)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 371, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_get_enabled_channels, __pyx_t_3) < 0) __PYX_ERR(0, 371, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":378
+  /* "eeg_manager.py":378
  *                 if self.channel_states[all_channels[i]]]
  * 
  *     def get_channel_positions(self):             # <<<<<<<<<<<<<<
  *         """Get channel positions in 2D for topographic plotting"""
  *         positions = {
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_27get_channel_positions, 0, __pyx_n_s_EEGManager_get_channel_positions, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__58)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 378, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_27get_channel_positions, 0, __pyx_n_s_EEGManager_get_channel_positions, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__58)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 378, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_get_channel_positions, __pyx_t_3) < 0) __PYX_ERR(0, 378, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":393
+  /* "eeg_manager.py":393
  *     VALID_CHANNELS = {
  *         # 10-20 standard positions
  *         'Fp1', 'Fp2', 'F7', 'F3', 'Fz', 'F4', 'F8', 'T3', 'C3', 'Cz', 'C4', 'T4',             # <<<<<<<<<<<<<<
@@ -25400,14 +25400,14 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_VALID_CHANNELS, __pyx_t_3) < 0) __PYX_ERR(0, 391, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eeg_manager.py":406
+  /* "eeg_manager.py":406
  *     }
  * 
  *     @staticmethod             # <<<<<<<<<<<<<<
  *     def validate_channel_name(name):
  *         """
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_29validate_channel_name, __Pyx_CYFUNCTION_STATICMETHOD, __pyx_n_s_EEGManager_validate_channel_name, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__60)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 406, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_29validate_channel_name, __Pyx_CYFUNCTION_STATICMETHOD, __pyx_n_s_EEGManager_validate_channel_name, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__60)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 406, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_staticmethod, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 406, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -25415,139 +25415,139 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_validate_channel_name, __pyx_t_4) < 0) __PYX_ERR(0, 406, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eeg_manager.py":430
+  /* "eeg_manager.py":430
  *         return False, f"Channel name '{name}' is not a standard 10-20 system position"
  * 
  *     def get_current_data(self):             # <<<<<<<<<<<<<<
  *         """Get current data for plotting"""
  *         if self.board and self.board.is_prepared():
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_31get_current_data, 0, __pyx_n_s_EEGManager_get_current_data, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__62)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 430, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_31get_current_data, 0, __pyx_n_s_EEGManager_get_current_data, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__62)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 430, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_get_current_data, __pyx_t_4) < 0) __PYX_ERR(0, 430, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eeg_manager.py":441
+  /* "eeg_manager.py":441
  *         return None
  * 
  *     def stop_session(self):             # <<<<<<<<<<<<<<
  *         """Stop current session"""
  *         if self.is_recording:
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_33stop_session, 0, __pyx_n_s_EEGManager_stop_session, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__64)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 441, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_33stop_session, 0, __pyx_n_s_EEGManager_stop_session, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__64)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 441, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_stop_session, __pyx_t_4) < 0) __PYX_ERR(0, 441, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eeg_manager.py":456
+  /* "eeg_manager.py":456
  *         self.current_session_num = session_num  # Keep it until next session starts
  * 
  *     def combine_fif_files(self):             # <<<<<<<<<<<<<<
  *         """Combine all FIF files into one in formatted_data"""
  *         print("\n=== Starting File Combination Process ===")
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_35combine_fif_files, 0, __pyx_n_s_EEGManager_combine_fif_files, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__66)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 456, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_35combine_fif_files, 0, __pyx_n_s_EEGManager_combine_fif_files, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__66)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 456, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_combine_fif_files, __pyx_t_4) < 0) __PYX_ERR(0, 456, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eeg_manager.py":522
+  /* "eeg_manager.py":522
  *         return output_file
  * 
  *     def update_action_names(self, new_actions):             # <<<<<<<<<<<<<<
  *         """Update the action names and their configurations"""
  *         self.task_names = new_actions
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_37update_action_names, 0, __pyx_n_s_EEGManager_update_action_names, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__68)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 522, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_37update_action_names, 0, __pyx_n_s_EEGManager_update_action_names, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__68)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 522, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_update_action_names, __pyx_t_4) < 0) __PYX_ERR(0, 522, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eeg_manager.py":526
+  /* "eeg_manager.py":526
  *         self.task_names = new_actions
  * 
  *     def delete_session(self, session_num):             # <<<<<<<<<<<<<<
  *         """Delete a specific session and its files"""
  *         # Delete raw files
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_39delete_session, 0, __pyx_n_s_EEGManager_delete_session, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__70)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 526, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_39delete_session, 0, __pyx_n_s_EEGManager_delete_session, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__70)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 526, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_delete_session, __pyx_t_4) < 0) __PYX_ERR(0, 526, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eeg_manager.py":559
+  /* "eeg_manager.py":559
  *                         f.write(line)
  * 
  *     def delete_all_sessions(self):             # <<<<<<<<<<<<<<
  *         """Delete all session files and reset"""
  *         # Delete all files in data directories
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_41delete_all_sessions, 0, __pyx_n_s_EEGManager_delete_all_sessions, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__72)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 559, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_41delete_all_sessions, 0, __pyx_n_s_EEGManager_delete_all_sessions, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__72)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 559, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_delete_all_sessions, __pyx_t_4) < 0) __PYX_ERR(0, 559, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eeg_manager.py":578
+  /* "eeg_manager.py":578
  *         self.current_session_num = None
  * 
  *     def combine_all_fif_files(self):             # <<<<<<<<<<<<<<
  *         """Combine FIF files from all sessions into one"""
  *         print("\n=== Starting All Sessions File Combination Process ===")
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_43combine_all_fif_files, 0, __pyx_n_s_EEGManager_combine_all_fif_files, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__74)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 578, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_43combine_all_fif_files, 0, __pyx_n_s_EEGManager_combine_all_fif_files, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__74)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 578, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_combine_all_fif_files, __pyx_t_4) < 0) __PYX_ERR(0, 578, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eeg_manager.py":649
+  /* "eeg_manager.py":649
  *         return output_file
  * 
  *     def save_session_data(self, session_num, data):             # <<<<<<<<<<<<<<
  *         """Save session data to remote storage"""
  *         try:
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_45save_session_data, 0, __pyx_n_s_EEGManager_save_session_data, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__76)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 649, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_45save_session_data, 0, __pyx_n_s_EEGManager_save_session_data, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__76)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 649, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_save_session_data, __pyx_t_4) < 0) __PYX_ERR(0, 649, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eeg_manager.py":665
+  /* "eeg_manager.py":665
  *             return False
  * 
  *     def load_session_data(self, session_num):             # <<<<<<<<<<<<<<
  *         """Load session data from remote storage"""
  *         try:
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_47load_session_data, 0, __pyx_n_s_EEGManager_load_session_data, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__78)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 665, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_47load_session_data, 0, __pyx_n_s_EEGManager_load_session_data, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__78)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 665, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_load_session_data, __pyx_t_4) < 0) __PYX_ERR(0, 665, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eeg_manager.py":676
+  /* "eeg_manager.py":676
  *             return None
  * 
  *     def get_sample_files(self):             # <<<<<<<<<<<<<<
  *         """Get list of available sample data files"""
  *         try:
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_49get_sample_files, 0, __pyx_n_s_EEGManager_get_sample_files, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__80)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 676, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_49get_sample_files, 0, __pyx_n_s_EEGManager_get_sample_files, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__80)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 676, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_get_sample_files, __pyx_t_4) < 0) __PYX_ERR(0, 676, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eeg_manager.py":693
+  /* "eeg_manager.py":693
  *             return []
  * 
  *     def update_channels(self, channel_names):             # <<<<<<<<<<<<<<
  *         """Update the active channel configuration"""
  *         try:
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_3src_11eeg_manager_10EEGManager_51update_channels, 0, __pyx_n_s_EEGManager_update_channels, NULL, __pyx_n_s_src_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__82)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 693, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_51update_channels, 0, __pyx_n_s_EEGManager_update_channels, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__82)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 693, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_update_channels, __pyx_t_4) < 0) __PYX_ERR(0, 693, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eeg_manager.py":11
+  /* "eeg_manager.py":11
  * import base64
  * 
  * class EEGManager:             # <<<<<<<<<<<<<<
@@ -25560,7 +25560,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eeg_manager.py":1
+  /* "eeg_manager.py":1
  * import numpy as np             # <<<<<<<<<<<<<<
  * import mne
  * from brainflow.board_shim import BoardShim, BrainFlowInputParams, BoardIds
@@ -25579,7 +25579,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_4);
   if (__pyx_m) {
     if (__pyx_d && stringtab_initialized) {
-      __Pyx_AddTraceback("init src.eeg_manager", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init eeg_manager", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     #if !CYTHON_USE_MODULE_STATE
     Py_CLEAR(__pyx_m);
@@ -25593,7 +25593,7 @@ if (!__Pyx_RefNanny) {
     }
     #endif
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init src.eeg_manager");
+    PyErr_SetString(PyExc_ImportError, "init eeg_manager");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

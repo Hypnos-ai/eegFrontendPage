@@ -1,5 +1,5 @@
 import time
-from eeg_tool.src.AdaptiveDQN_RLEEGNET import AdaptiveDQNRLEEGNET
+from AdaptiveDQN_RLEEGNET import AdaptiveDQNRLEEGNET
 import numpy as np
 import time
 import socket
@@ -16,15 +16,15 @@ MAX_CONFIDENCE = 0.8
 COMMAND_DURATION = 0.5
 dqnutils = AdaptiveDQNRLEEGNET()
 # Load the pre-trained DQN model
-model = DQN.load("C:\DEV\EEG\eegFrontendPage\eeg_tool\src\data\processed\dqn_model_session1.zip")
+model = DQN.load("C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\sample_data\processed\dqn_model_session1")
 print("DQN model loaded.")
 
 # Load the pre-trained CSP filters
-csp_filters = joblib.load('csp_filters_ovr.pkl')
+csp_filters = joblib.load('C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\csp_filters_ovr.pkl')
 print("CSP filters loaded for real-time use.")
 
 # Load the scaler used during training
-scaler = joblib.load('scaler.pkl')
+scaler = joblib.load('C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\scaler.pkl')
 print("Scaler loaded for real-time use.")
 
 class MultiChannelCircularBuffer:

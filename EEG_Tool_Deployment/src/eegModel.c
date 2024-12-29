@@ -3,12 +3,12 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "src.eegModel",
+        "name": "eegModel",
         "sources": [
             "src\\eegModel.py"
         ]
     },
-    "module_name": "src.eegModel"
+    "module_name": "eegModel"
 }
 END: Cython Metadata */
 
@@ -1228,8 +1228,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__src__eegModel
-#define __PYX_HAVE_API__src__eegModel
+#define __PYX_HAVE__eegModel
+#define __PYX_HAVE_API__eegModel
 /* Early includes */
 #ifdef _OPENMP
 #include <omp.h>
@@ -1492,16 +1492,16 @@ static const char *__pyx_f[] = {
 /* #### Code section: type_declarations ### */
 
 /*--- Type declarations ---*/
-struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction;
+struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction;
 
-/* "src/eegModel.py":166
+/* "eegModel.py":166
  * print("Started data stream from board.")
  * 
  * def get_conservative_prediction(predictions, confidences, similarity_threshold=0.5):             # <<<<<<<<<<<<<<
  *     """
  *     When confidences are close (within threshold), pick the lower confidence prediction
  */
-struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction {
+struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction {
   PyObject_HEAD
   PyObject *__pyx_v_confidences;
 };
@@ -2552,14 +2552,14 @@ static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 /* #### Code section: module_declarations ### */
 
-/* Module declarations from "src.eegModel" */
+/* Module declarations from "eegModel" */
 /* #### Code section: typeinfo ### */
 /* #### Code section: before_global_var ### */
-#define __Pyx_MODULE_NAME "src.eegModel"
-extern int __pyx_module_is_main_src__eegModel;
-int __pyx_module_is_main_src__eegModel = 0;
+#define __Pyx_MODULE_NAME "eegModel"
+extern int __pyx_module_is_main_eegModel;
+int __pyx_module_is_main_eegModel = 0;
 
-/* Implementation of "src.eegModel" */
+/* Implementation of "eegModel" */
 /* #### Code section: global_var ### */
 static PyObject *__pyx_builtin_print;
 static PyObject *__pyx_builtin_max;
@@ -2663,6 +2663,7 @@ static const char __pyx_k_add_data[] = "add_data";
 static const char __pyx_k_class_id[] = "class_id";
 static const char __pyx_k_csp_ftrs[] = "csp_ftrs";
 static const char __pyx_k_dqnutils[] = "dqnutils";
+static const char __pyx_k_eegModel[] = "eegModel";
 static const char __pyx_k_eeg_data[] = "eeg_data";
 static const char __pyx_k_max_conf[] = "max_conf";
 static const char __pyx_k_q_values[] = "q_values";
@@ -2686,7 +2687,6 @@ static const char __pyx_k_data_array[] = "data_array";
 static const char __pyx_k_eeg_buffer[] = "eeg_buffer";
 static const char __pyx_k_get_window[] = "get_window";
 static const char __pyx_k_last_state[] = "last_state";
-static const char __pyx_k_scaler_pkl[] = "scaler.pkl";
 static const char __pyx_k_simulation[] = "simulation";
 static const char __pyx_k_start_time[] = "start_time";
 static const char __pyx_k_tensorflow[] = "tensorflow";
@@ -2715,7 +2715,6 @@ static const char __pyx_k_min_conf_idx[] = "min_conf_idx";
 static const char __pyx_k_mne_decoding[] = "mne.decoding";
 static const char __pyx_k_num_channels[] = "num_channels";
 static const char __pyx_k_send_command[] = "send_command";
-static const char __pyx_k_src_eegModel[] = "src.eegModel";
 static const char __pyx_k_start_stream[] = "start_stream";
 static const char __pyx_k_192_168_1_168[] = "192.168.1.168";
 static const char __pyx_k_STOP_DURATION[] = "STOP_DURATION";
@@ -2758,8 +2757,8 @@ static const char __pyx_k_featuresarray_load[] = "featuresarray_load";
 static const char __pyx_k_prediction_history[] = "prediction_history";
 static const char __pyx_k_samples_since_last[] = "samples_since_last";
 static const char __pyx_k_AdaptiveDQNRLEEGNET[] = "AdaptiveDQNRLEEGNET";
-static const char __pyx_k_csp_filters_ovr_pkl[] = "csp_filters_ovr.pkl";
 static const char __pyx_k_http_localhost_5000[] = "http://localhost:5000";
+static const char __pyx_k_AdaptiveDQN_RLEEGNET[] = "AdaptiveDQN_RLEEGNET";
 static const char __pyx_k_BrainFlowInputParams[] = "BrainFlowInputParams";
 static const char __pyx_k_Error_during_cleanup[] = "Error during cleanup: ";
 static const char __pyx_k_SimulationConnection[] = "SimulationConnection";
@@ -2785,31 +2784,32 @@ static const char __pyx_k_Started_data_stream_from_board[] = "Started data strea
 static const char __pyx_k_Scaler_loaded_for_real_time_use[] = "Scaler loaded for real-time use.";
 static const char __pyx_k_ArduinoConnection__send_http_com[] = "ArduinoConnection._send_http_command";
 static const char __pyx_k_CSP_filters_loaded_for_real_time[] = "CSP filters loaded for real-time use.";
-static const char __pyx_k_C_DEV_EEG_eegFrontendPage_eeg_to[] = "C:\\DEV\\EEG\\eegFrontendPage\\eeg_tool\\src\\data\\processed\\dqn_model_session1.zip";
+static const char __pyx_k_C_DEV_EEG_eegFrontendPage_eeg_to[] = "C:\\DEV\\EEG\\eegFrontendPage\\eeg_tool_deployment\\src\\sample_data\\processed\\dqn_model_session1";
 static const char __pyx_k_MultiChannelCircularBuffer___ini[] = "MultiChannelCircularBuffer.__init__";
 static const char __pyx_k_MultiChannelCircularBuffer_add_d[] = "MultiChannelCircularBuffer.add_data";
 static const char __pyx_k_MultiChannelCircularBuffer_get_w[] = "MultiChannelCircularBuffer.get_window";
 static const char __pyx_k_Resources_cleaned_up_successfull[] = "Resources cleaned up successfully";
 static const char __pyx_k_SimulationConnection_send_comman[] = "SimulationConnection.send_command";
-static const char __pyx_k_eeg_tool_src_AdaptiveDQN_RLEEGNE[] = "eeg_tool.src.AdaptiveDQN_RLEEGNET";
 static const char __pyx_k_get_conservative_prediction_loca[] = "get_conservative_prediction.<locals>.<lambda>";
+static const char __pyx_k_C_DEV_EEG_eegFrontendPage_eeg_to_2[] = "C:\\DEV\\EEG\\eegFrontendPage\\eeg_tool_deployment\\src\\csp_filters_ovr.pkl";
+static const char __pyx_k_C_DEV_EEG_eegFrontendPage_eeg_to_3[] = "C:\\DEV\\EEG\\eegFrontendPage\\eeg_tool_deployment\\src\\scaler.pkl";
 /* #### Code section: decls ### */
-static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_num_channels, PyObject *__pyx_v_buffer_size, PyObject *__pyx_v_window_size, PyObject *__pyx_v_overlap_ratio); /* proto */
-static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_data); /* proto */
-static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_window(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_host); /* proto */
-static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_command); /* proto */
-static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_4close(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_host, PyObject *__pyx_v_port); /* proto */
-static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_new_command); /* proto */
-static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_command); /* proto */
-static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_6close(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_8eegModel_map_action_to_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_action); /* proto */
+static PyObject *__pyx_pf_8eegModel_26MultiChannelCircularBuffer___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_num_channels, PyObject *__pyx_v_buffer_size, PyObject *__pyx_v_window_size, PyObject *__pyx_v_overlap_ratio); /* proto */
+static PyObject *__pyx_pf_8eegModel_26MultiChannelCircularBuffer_2add_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_data); /* proto */
+static PyObject *__pyx_pf_8eegModel_26MultiChannelCircularBuffer_4get_window(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_8eegModel_20SimulationConnection___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_host); /* proto */
+static PyObject *__pyx_pf_8eegModel_20SimulationConnection_2send_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_command); /* proto */
+static PyObject *__pyx_pf_8eegModel_20SimulationConnection_4close(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_8eegModel_17ArduinoConnection___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_host, PyObject *__pyx_v_port); /* proto */
+static PyObject *__pyx_pf_8eegModel_17ArduinoConnection_2send_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_new_command); /* proto */
+static PyObject *__pyx_pf_8eegModel_17ArduinoConnection_4_send_http_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_command); /* proto */
+static PyObject *__pyx_pf_8eegModel_17ArduinoConnection_6close(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_8eegModel_map_action_to_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_action); /* proto */
 static PyObject *__pyx_lambda_funcdef_lambda(PyObject *__pyx_self, PyObject *__pyx_v_i); /* proto */
-static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_predictions, PyObject *__pyx_v_confidences, PyObject *__pyx_v_similarity_threshold); /* proto */
-static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_tp_new_3src_8eegModel___pyx_scope_struct__get_conservative_prediction(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_pf_8eegModel_2get_conservative_prediction(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_predictions, PyObject *__pyx_v_confidences, PyObject *__pyx_v_similarity_threshold); /* proto */
+static PyObject *__pyx_pf_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_pf_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_tp_new_8eegModel___pyx_scope_struct__get_conservative_prediction(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static __Pyx_CachedCFunction __pyx_umethod_PyDict_Type_get = {0, 0, 0, 0, 0};
 /* #### Code section: late_includes ### */
 /* #### Code section: module_state ### */
@@ -2839,14 +2839,15 @@ typedef struct {
   PyTypeObject *__pyx_CoroutineType;
   #endif
   #if CYTHON_USE_MODULE_STATE
-  PyObject *__pyx_type_3src_8eegModel___pyx_scope_struct__get_conservative_prediction;
+  PyObject *__pyx_type_8eegModel___pyx_scope_struct__get_conservative_prediction;
   #endif
-  PyTypeObject *__pyx_ptype_3src_8eegModel___pyx_scope_struct__get_conservative_prediction;
+  PyTypeObject *__pyx_ptype_8eegModel___pyx_scope_struct__get_conservative_prediction;
   PyObject *__pyx_kp_u_0f;
   PyObject *__pyx_kp_u_192_168_1_168;
   PyObject *__pyx_kp_u_1f;
   PyObject *__pyx_kp_u_3f;
   PyObject *__pyx_n_s_AdaptiveDQNRLEEGNET;
+  PyObject *__pyx_n_s_AdaptiveDQN_RLEEGNET;
   PyObject *__pyx_n_s_ArduinoConnection;
   PyObject *__pyx_n_s_ArduinoConnection___init;
   PyObject *__pyx_n_s_ArduinoConnection__send_http_com;
@@ -2865,6 +2866,8 @@ typedef struct {
   PyObject *__pyx_kp_u_CSP_filters_loaded_for_real_time;
   PyObject *__pyx_n_s_CYTON_BOARD;
   PyObject *__pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to;
+  PyObject *__pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to_2;
+  PyObject *__pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to_3;
   PyObject *__pyx_kp_u_Changed_to_new_command;
   PyObject *__pyx_kp_u_Connection_error;
   PyObject *__pyx_n_s_DQN;
@@ -2932,7 +2935,6 @@ typedef struct {
   PyObject *__pyx_n_s_csp;
   PyObject *__pyx_n_s_csp_features_list;
   PyObject *__pyx_n_s_csp_filters;
-  PyObject *__pyx_kp_u_csp_filters_ovr_pkl;
   PyObject *__pyx_n_s_csp_ftrs;
   PyObject *__pyx_n_s_current_command;
   PyObject *__pyx_n_s_data;
@@ -2944,10 +2946,10 @@ typedef struct {
   PyObject *__pyx_n_s_doc;
   PyObject *__pyx_n_s_dqnutils;
   PyObject *__pyx_n_s_e;
+  PyObject *__pyx_n_s_eegModel;
   PyObject *__pyx_n_s_eeg_buffer;
   PyObject *__pyx_n_s_eeg_channels;
   PyObject *__pyx_n_s_eeg_data;
-  PyObject *__pyx_n_s_eeg_tool_src_AdaptiveDQN_RLEEGNE;
   PyObject *__pyx_kp_u_enable;
   PyObject *__pyx_n_s_end_index;
   PyObject *__pyx_n_s_enumerate;
@@ -3033,7 +3035,6 @@ typedef struct {
   PyObject *__pyx_n_s_samples_per_read;
   PyObject *__pyx_n_s_samples_since_last;
   PyObject *__pyx_n_s_scaler;
-  PyObject *__pyx_kp_u_scaler_pkl;
   PyObject *__pyx_n_s_self;
   PyObject *__pyx_n_s_send_command;
   PyObject *__pyx_n_s_send_http_command;
@@ -3045,7 +3046,6 @@ typedef struct {
   PyObject *__pyx_n_s_sleep;
   PyObject *__pyx_n_s_socket;
   PyObject *__pyx_n_s_spec;
-  PyObject *__pyx_n_s_src_eegModel;
   PyObject *__pyx_kp_s_src_eegModel_py;
   PyObject *__pyx_n_s_stable_baselines3;
   PyObject *__pyx_n_s_start_idx;
@@ -3175,13 +3175,14 @@ static int __pyx_m_clear(PyObject *m) {
   #ifdef __Pyx_FusedFunction_USED
   Py_CLEAR(clear_module_state->__pyx_FusedFunctionType);
   #endif
-  Py_CLEAR(clear_module_state->__pyx_ptype_3src_8eegModel___pyx_scope_struct__get_conservative_prediction);
-  Py_CLEAR(clear_module_state->__pyx_type_3src_8eegModel___pyx_scope_struct__get_conservative_prediction);
+  Py_CLEAR(clear_module_state->__pyx_ptype_8eegModel___pyx_scope_struct__get_conservative_prediction);
+  Py_CLEAR(clear_module_state->__pyx_type_8eegModel___pyx_scope_struct__get_conservative_prediction);
   Py_CLEAR(clear_module_state->__pyx_kp_u_0f);
   Py_CLEAR(clear_module_state->__pyx_kp_u_192_168_1_168);
   Py_CLEAR(clear_module_state->__pyx_kp_u_1f);
   Py_CLEAR(clear_module_state->__pyx_kp_u_3f);
   Py_CLEAR(clear_module_state->__pyx_n_s_AdaptiveDQNRLEEGNET);
+  Py_CLEAR(clear_module_state->__pyx_n_s_AdaptiveDQN_RLEEGNET);
   Py_CLEAR(clear_module_state->__pyx_n_s_ArduinoConnection);
   Py_CLEAR(clear_module_state->__pyx_n_s_ArduinoConnection___init);
   Py_CLEAR(clear_module_state->__pyx_n_s_ArduinoConnection__send_http_com);
@@ -3200,6 +3201,8 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_u_CSP_filters_loaded_for_real_time);
   Py_CLEAR(clear_module_state->__pyx_n_s_CYTON_BOARD);
   Py_CLEAR(clear_module_state->__pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to);
+  Py_CLEAR(clear_module_state->__pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to_2);
+  Py_CLEAR(clear_module_state->__pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to_3);
   Py_CLEAR(clear_module_state->__pyx_kp_u_Changed_to_new_command);
   Py_CLEAR(clear_module_state->__pyx_kp_u_Connection_error);
   Py_CLEAR(clear_module_state->__pyx_n_s_DQN);
@@ -3267,7 +3270,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_csp);
   Py_CLEAR(clear_module_state->__pyx_n_s_csp_features_list);
   Py_CLEAR(clear_module_state->__pyx_n_s_csp_filters);
-  Py_CLEAR(clear_module_state->__pyx_kp_u_csp_filters_ovr_pkl);
   Py_CLEAR(clear_module_state->__pyx_n_s_csp_ftrs);
   Py_CLEAR(clear_module_state->__pyx_n_s_current_command);
   Py_CLEAR(clear_module_state->__pyx_n_s_data);
@@ -3279,10 +3281,10 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_doc);
   Py_CLEAR(clear_module_state->__pyx_n_s_dqnutils);
   Py_CLEAR(clear_module_state->__pyx_n_s_e);
+  Py_CLEAR(clear_module_state->__pyx_n_s_eegModel);
   Py_CLEAR(clear_module_state->__pyx_n_s_eeg_buffer);
   Py_CLEAR(clear_module_state->__pyx_n_s_eeg_channels);
   Py_CLEAR(clear_module_state->__pyx_n_s_eeg_data);
-  Py_CLEAR(clear_module_state->__pyx_n_s_eeg_tool_src_AdaptiveDQN_RLEEGNE);
   Py_CLEAR(clear_module_state->__pyx_kp_u_enable);
   Py_CLEAR(clear_module_state->__pyx_n_s_end_index);
   Py_CLEAR(clear_module_state->__pyx_n_s_enumerate);
@@ -3368,7 +3370,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_samples_per_read);
   Py_CLEAR(clear_module_state->__pyx_n_s_samples_since_last);
   Py_CLEAR(clear_module_state->__pyx_n_s_scaler);
-  Py_CLEAR(clear_module_state->__pyx_kp_u_scaler_pkl);
   Py_CLEAR(clear_module_state->__pyx_n_s_self);
   Py_CLEAR(clear_module_state->__pyx_n_s_send_command);
   Py_CLEAR(clear_module_state->__pyx_n_s_send_http_command);
@@ -3380,7 +3381,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_sleep);
   Py_CLEAR(clear_module_state->__pyx_n_s_socket);
   Py_CLEAR(clear_module_state->__pyx_n_s_spec);
-  Py_CLEAR(clear_module_state->__pyx_n_s_src_eegModel);
   Py_CLEAR(clear_module_state->__pyx_kp_s_src_eegModel_py);
   Py_CLEAR(clear_module_state->__pyx_n_s_stable_baselines3);
   Py_CLEAR(clear_module_state->__pyx_n_s_start_idx);
@@ -3488,13 +3488,14 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   #ifdef __Pyx_FusedFunction_USED
   Py_VISIT(traverse_module_state->__pyx_FusedFunctionType);
   #endif
-  Py_VISIT(traverse_module_state->__pyx_ptype_3src_8eegModel___pyx_scope_struct__get_conservative_prediction);
-  Py_VISIT(traverse_module_state->__pyx_type_3src_8eegModel___pyx_scope_struct__get_conservative_prediction);
+  Py_VISIT(traverse_module_state->__pyx_ptype_8eegModel___pyx_scope_struct__get_conservative_prediction);
+  Py_VISIT(traverse_module_state->__pyx_type_8eegModel___pyx_scope_struct__get_conservative_prediction);
   Py_VISIT(traverse_module_state->__pyx_kp_u_0f);
   Py_VISIT(traverse_module_state->__pyx_kp_u_192_168_1_168);
   Py_VISIT(traverse_module_state->__pyx_kp_u_1f);
   Py_VISIT(traverse_module_state->__pyx_kp_u_3f);
   Py_VISIT(traverse_module_state->__pyx_n_s_AdaptiveDQNRLEEGNET);
+  Py_VISIT(traverse_module_state->__pyx_n_s_AdaptiveDQN_RLEEGNET);
   Py_VISIT(traverse_module_state->__pyx_n_s_ArduinoConnection);
   Py_VISIT(traverse_module_state->__pyx_n_s_ArduinoConnection___init);
   Py_VISIT(traverse_module_state->__pyx_n_s_ArduinoConnection__send_http_com);
@@ -3513,6 +3514,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_u_CSP_filters_loaded_for_real_time);
   Py_VISIT(traverse_module_state->__pyx_n_s_CYTON_BOARD);
   Py_VISIT(traverse_module_state->__pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to);
+  Py_VISIT(traverse_module_state->__pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to_2);
+  Py_VISIT(traverse_module_state->__pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to_3);
   Py_VISIT(traverse_module_state->__pyx_kp_u_Changed_to_new_command);
   Py_VISIT(traverse_module_state->__pyx_kp_u_Connection_error);
   Py_VISIT(traverse_module_state->__pyx_n_s_DQN);
@@ -3580,7 +3583,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_csp);
   Py_VISIT(traverse_module_state->__pyx_n_s_csp_features_list);
   Py_VISIT(traverse_module_state->__pyx_n_s_csp_filters);
-  Py_VISIT(traverse_module_state->__pyx_kp_u_csp_filters_ovr_pkl);
   Py_VISIT(traverse_module_state->__pyx_n_s_csp_ftrs);
   Py_VISIT(traverse_module_state->__pyx_n_s_current_command);
   Py_VISIT(traverse_module_state->__pyx_n_s_data);
@@ -3592,10 +3594,10 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_doc);
   Py_VISIT(traverse_module_state->__pyx_n_s_dqnutils);
   Py_VISIT(traverse_module_state->__pyx_n_s_e);
+  Py_VISIT(traverse_module_state->__pyx_n_s_eegModel);
   Py_VISIT(traverse_module_state->__pyx_n_s_eeg_buffer);
   Py_VISIT(traverse_module_state->__pyx_n_s_eeg_channels);
   Py_VISIT(traverse_module_state->__pyx_n_s_eeg_data);
-  Py_VISIT(traverse_module_state->__pyx_n_s_eeg_tool_src_AdaptiveDQN_RLEEGNE);
   Py_VISIT(traverse_module_state->__pyx_kp_u_enable);
   Py_VISIT(traverse_module_state->__pyx_n_s_end_index);
   Py_VISIT(traverse_module_state->__pyx_n_s_enumerate);
@@ -3681,7 +3683,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_samples_per_read);
   Py_VISIT(traverse_module_state->__pyx_n_s_samples_since_last);
   Py_VISIT(traverse_module_state->__pyx_n_s_scaler);
-  Py_VISIT(traverse_module_state->__pyx_kp_u_scaler_pkl);
   Py_VISIT(traverse_module_state->__pyx_n_s_self);
   Py_VISIT(traverse_module_state->__pyx_n_s_send_command);
   Py_VISIT(traverse_module_state->__pyx_n_s_send_http_command);
@@ -3693,7 +3694,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_sleep);
   Py_VISIT(traverse_module_state->__pyx_n_s_socket);
   Py_VISIT(traverse_module_state->__pyx_n_s_spec);
-  Py_VISIT(traverse_module_state->__pyx_n_s_src_eegModel);
   Py_VISIT(traverse_module_state->__pyx_kp_s_src_eegModel_py);
   Py_VISIT(traverse_module_state->__pyx_n_s_stable_baselines3);
   Py_VISIT(traverse_module_state->__pyx_n_s_start_idx);
@@ -3810,14 +3810,15 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_CoroutineType __pyx_mstate_global->__pyx_CoroutineType
 #endif
 #if CYTHON_USE_MODULE_STATE
-#define __pyx_type_3src_8eegModel___pyx_scope_struct__get_conservative_prediction __pyx_mstate_global->__pyx_type_3src_8eegModel___pyx_scope_struct__get_conservative_prediction
+#define __pyx_type_8eegModel___pyx_scope_struct__get_conservative_prediction __pyx_mstate_global->__pyx_type_8eegModel___pyx_scope_struct__get_conservative_prediction
 #endif
-#define __pyx_ptype_3src_8eegModel___pyx_scope_struct__get_conservative_prediction __pyx_mstate_global->__pyx_ptype_3src_8eegModel___pyx_scope_struct__get_conservative_prediction
+#define __pyx_ptype_8eegModel___pyx_scope_struct__get_conservative_prediction __pyx_mstate_global->__pyx_ptype_8eegModel___pyx_scope_struct__get_conservative_prediction
 #define __pyx_kp_u_0f __pyx_mstate_global->__pyx_kp_u_0f
 #define __pyx_kp_u_192_168_1_168 __pyx_mstate_global->__pyx_kp_u_192_168_1_168
 #define __pyx_kp_u_1f __pyx_mstate_global->__pyx_kp_u_1f
 #define __pyx_kp_u_3f __pyx_mstate_global->__pyx_kp_u_3f
 #define __pyx_n_s_AdaptiveDQNRLEEGNET __pyx_mstate_global->__pyx_n_s_AdaptiveDQNRLEEGNET
+#define __pyx_n_s_AdaptiveDQN_RLEEGNET __pyx_mstate_global->__pyx_n_s_AdaptiveDQN_RLEEGNET
 #define __pyx_n_s_ArduinoConnection __pyx_mstate_global->__pyx_n_s_ArduinoConnection
 #define __pyx_n_s_ArduinoConnection___init __pyx_mstate_global->__pyx_n_s_ArduinoConnection___init
 #define __pyx_n_s_ArduinoConnection__send_http_com __pyx_mstate_global->__pyx_n_s_ArduinoConnection__send_http_com
@@ -3836,6 +3837,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_u_CSP_filters_loaded_for_real_time __pyx_mstate_global->__pyx_kp_u_CSP_filters_loaded_for_real_time
 #define __pyx_n_s_CYTON_BOARD __pyx_mstate_global->__pyx_n_s_CYTON_BOARD
 #define __pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to __pyx_mstate_global->__pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to
+#define __pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to_2 __pyx_mstate_global->__pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to_2
+#define __pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to_3 __pyx_mstate_global->__pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to_3
 #define __pyx_kp_u_Changed_to_new_command __pyx_mstate_global->__pyx_kp_u_Changed_to_new_command
 #define __pyx_kp_u_Connection_error __pyx_mstate_global->__pyx_kp_u_Connection_error
 #define __pyx_n_s_DQN __pyx_mstate_global->__pyx_n_s_DQN
@@ -3903,7 +3906,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_csp __pyx_mstate_global->__pyx_n_s_csp
 #define __pyx_n_s_csp_features_list __pyx_mstate_global->__pyx_n_s_csp_features_list
 #define __pyx_n_s_csp_filters __pyx_mstate_global->__pyx_n_s_csp_filters
-#define __pyx_kp_u_csp_filters_ovr_pkl __pyx_mstate_global->__pyx_kp_u_csp_filters_ovr_pkl
 #define __pyx_n_s_csp_ftrs __pyx_mstate_global->__pyx_n_s_csp_ftrs
 #define __pyx_n_s_current_command __pyx_mstate_global->__pyx_n_s_current_command
 #define __pyx_n_s_data __pyx_mstate_global->__pyx_n_s_data
@@ -3915,10 +3917,10 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_doc __pyx_mstate_global->__pyx_n_s_doc
 #define __pyx_n_s_dqnutils __pyx_mstate_global->__pyx_n_s_dqnutils
 #define __pyx_n_s_e __pyx_mstate_global->__pyx_n_s_e
+#define __pyx_n_s_eegModel __pyx_mstate_global->__pyx_n_s_eegModel
 #define __pyx_n_s_eeg_buffer __pyx_mstate_global->__pyx_n_s_eeg_buffer
 #define __pyx_n_s_eeg_channels __pyx_mstate_global->__pyx_n_s_eeg_channels
 #define __pyx_n_s_eeg_data __pyx_mstate_global->__pyx_n_s_eeg_data
-#define __pyx_n_s_eeg_tool_src_AdaptiveDQN_RLEEGNE __pyx_mstate_global->__pyx_n_s_eeg_tool_src_AdaptiveDQN_RLEEGNE
 #define __pyx_kp_u_enable __pyx_mstate_global->__pyx_kp_u_enable
 #define __pyx_n_s_end_index __pyx_mstate_global->__pyx_n_s_end_index
 #define __pyx_n_s_enumerate __pyx_mstate_global->__pyx_n_s_enumerate
@@ -4004,7 +4006,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_samples_per_read __pyx_mstate_global->__pyx_n_s_samples_per_read
 #define __pyx_n_s_samples_since_last __pyx_mstate_global->__pyx_n_s_samples_since_last
 #define __pyx_n_s_scaler __pyx_mstate_global->__pyx_n_s_scaler
-#define __pyx_kp_u_scaler_pkl __pyx_mstate_global->__pyx_kp_u_scaler_pkl
 #define __pyx_n_s_self __pyx_mstate_global->__pyx_n_s_self
 #define __pyx_n_s_send_command __pyx_mstate_global->__pyx_n_s_send_command
 #define __pyx_n_s_send_http_command __pyx_mstate_global->__pyx_n_s_send_http_command
@@ -4016,7 +4017,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_sleep __pyx_mstate_global->__pyx_n_s_sleep
 #define __pyx_n_s_socket __pyx_mstate_global->__pyx_n_s_socket
 #define __pyx_n_s_spec __pyx_mstate_global->__pyx_n_s_spec
-#define __pyx_n_s_src_eegModel __pyx_mstate_global->__pyx_n_s_src_eegModel
 #define __pyx_kp_s_src_eegModel_py __pyx_mstate_global->__pyx_kp_s_src_eegModel_py
 #define __pyx_n_s_stable_baselines3 __pyx_mstate_global->__pyx_n_s_stable_baselines3
 #define __pyx_n_s_start_idx __pyx_mstate_global->__pyx_n_s_start_idx
@@ -4106,7 +4106,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_codeobj__53 __pyx_mstate_global->__pyx_codeobj__53
 /* #### Code section: module_code ### */
 
-/* "src/eegModel.py":31
+/* "eegModel.py":31
  * 
  * class MultiChannelCircularBuffer:
  *     def __init__(self, num_channels, buffer_size, window_size=1250, overlap_ratio=0.8):             # <<<<<<<<<<<<<<
@@ -4115,16 +4115,16 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_8eegModel_26MultiChannelCircularBuffer_1__init__(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_8eegModel_26MultiChannelCircularBuffer_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_8eegModel_26MultiChannelCircularBuffer___init__, "MultiChannelCircularBuffer.__init__(self, num_channels, buffer_size, window_size=1250, overlap_ratio=0.8)");
-static PyMethodDef __pyx_mdef_3src_8eegModel_26MultiChannelCircularBuffer_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_8eegModel_26MultiChannelCircularBuffer_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_8eegModel_26MultiChannelCircularBuffer___init__};
-static PyObject *__pyx_pw_3src_8eegModel_26MultiChannelCircularBuffer_1__init__(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_8eegModel_26MultiChannelCircularBuffer___init__, "MultiChannelCircularBuffer.__init__(self, num_channels, buffer_size, window_size=1250, overlap_ratio=0.8)");
+static PyMethodDef __pyx_mdef_8eegModel_26MultiChannelCircularBuffer_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8eegModel_26MultiChannelCircularBuffer_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_8eegModel_26MultiChannelCircularBuffer___init__};
+static PyObject *__pyx_pw_8eegModel_26MultiChannelCircularBuffer_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -4254,11 +4254,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eegModel.MultiChannelCircularBuffer.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.MultiChannelCircularBuffer.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(__pyx_self, __pyx_v_self, __pyx_v_num_channels, __pyx_v_buffer_size, __pyx_v_window_size, __pyx_v_overlap_ratio);
+  __pyx_r = __pyx_pf_8eegModel_26MultiChannelCircularBuffer___init__(__pyx_self, __pyx_v_self, __pyx_v_num_channels, __pyx_v_buffer_size, __pyx_v_window_size, __pyx_v_overlap_ratio);
 
   /* function exit code */
   {
@@ -4271,7 +4271,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_num_channels, PyObject *__pyx_v_buffer_size, PyObject *__pyx_v_window_size, PyObject *__pyx_v_overlap_ratio) {
+static PyObject *__pyx_pf_8eegModel_26MultiChannelCircularBuffer___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_num_channels, PyObject *__pyx_v_buffer_size, PyObject *__pyx_v_window_size, PyObject *__pyx_v_overlap_ratio) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4286,7 +4286,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 1);
 
-  /* "src/eegModel.py":32
+  /* "eegModel.py":32
  * class MultiChannelCircularBuffer:
  *     def __init__(self, num_channels, buffer_size, window_size=1250, overlap_ratio=0.8):
  *         self.buffer = np.zeros((num_channels, buffer_size))             # <<<<<<<<<<<<<<
@@ -4332,7 +4332,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_buffer, __pyx_t_1) < 0) __PYX_ERR(0, 32, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eegModel.py":33
+  /* "eegModel.py":33
  *     def __init__(self, num_channels, buffer_size, window_size=1250, overlap_ratio=0.8):
  *         self.buffer = np.zeros((num_channels, buffer_size))
  *         self.buffer_size = buffer_size             # <<<<<<<<<<<<<<
@@ -4341,7 +4341,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_buffer_size, __pyx_v_buffer_size) < 0) __PYX_ERR(0, 33, __pyx_L1_error)
 
-  /* "src/eegModel.py":34
+  /* "eegModel.py":34
  *         self.buffer = np.zeros((num_channels, buffer_size))
  *         self.buffer_size = buffer_size
  *         self.window_size = window_size             # <<<<<<<<<<<<<<
@@ -4350,7 +4350,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_window_size, __pyx_v_window_size) < 0) __PYX_ERR(0, 34, __pyx_L1_error)
 
-  /* "src/eegModel.py":35
+  /* "eegModel.py":35
  *         self.buffer_size = buffer_size
  *         self.window_size = window_size
  *         self.overlap_samples = int(window_size * overlap_ratio)             # <<<<<<<<<<<<<<
@@ -4365,7 +4365,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_overlap_samples, __pyx_t_3) < 0) __PYX_ERR(0, 35, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":36
+  /* "eegModel.py":36
  *         self.window_size = window_size
  *         self.overlap_samples = int(window_size * overlap_ratio)
  *         self.step_size = window_size - self.overlap_samples             # <<<<<<<<<<<<<<
@@ -4380,7 +4380,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_step_size, __pyx_t_1) < 0) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eegModel.py":37
+  /* "eegModel.py":37
  *         self.overlap_samples = int(window_size * overlap_ratio)
  *         self.step_size = window_size - self.overlap_samples
  *         self.index = 0             # <<<<<<<<<<<<<<
@@ -4389,7 +4389,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_index, __pyx_int_0) < 0) __PYX_ERR(0, 37, __pyx_L1_error)
 
-  /* "src/eegModel.py":38
+  /* "eegModel.py":38
  *         self.step_size = window_size - self.overlap_samples
  *         self.index = 0
  *         self.last_window_end = 0             # <<<<<<<<<<<<<<
@@ -4398,7 +4398,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_last_window_end, __pyx_int_0) < 0) __PYX_ERR(0, 38, __pyx_L1_error)
 
-  /* "src/eegModel.py":40
+  /* "eegModel.py":40
  *         self.last_window_end = 0
  * 
  *         print(f"Initialized circular buffer:")             # <<<<<<<<<<<<<<
@@ -4409,7 +4409,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eegModel.py":41
+  /* "eegModel.py":41
  * 
  *         print(f"Initialized circular buffer:")
  *         print(f"- Buffer size: {buffer_size} samples ({buffer_size/250:.1f}s)")             # <<<<<<<<<<<<<<
@@ -4457,7 +4457,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eegModel.py":42
+  /* "eegModel.py":42
  *         print(f"Initialized circular buffer:")
  *         print(f"- Buffer size: {buffer_size} samples ({buffer_size/250:.1f}s)")
  *         print(f"- Window size: {window_size} samples ({window_size/250:.1f}s)")             # <<<<<<<<<<<<<<
@@ -4505,7 +4505,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eegModel.py":43
+  /* "eegModel.py":43
  *         print(f"- Buffer size: {buffer_size} samples ({buffer_size/250:.1f}s)")
  *         print(f"- Window size: {window_size} samples ({window_size/250:.1f}s)")
  *         print(f"- Overlap: {overlap_ratio*100:.0f}% ({self.overlap_samples} samples)")             # <<<<<<<<<<<<<<
@@ -4556,7 +4556,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eegModel.py":44
+  /* "eegModel.py":44
  *         print(f"- Window size: {window_size} samples ({window_size/250:.1f}s)")
  *         print(f"- Overlap: {overlap_ratio*100:.0f}% ({self.overlap_samples} samples)")
  *         print(f"- Step size: {self.step_size} samples ({self.step_size/250:.3f}s)")             # <<<<<<<<<<<<<<
@@ -4610,7 +4610,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eegModel.py":31
+  /* "eegModel.py":31
  * 
  * class MultiChannelCircularBuffer:
  *     def __init__(self, num_channels, buffer_size, window_size=1250, overlap_ratio=0.8):             # <<<<<<<<<<<<<<
@@ -4626,7 +4626,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("src.eegModel.MultiChannelCircularBuffer.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.MultiChannelCircularBuffer.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4634,7 +4634,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
   return __pyx_r;
 }
 
-/* "src/eegModel.py":46
+/* "eegModel.py":46
  *         print(f"- Step size: {self.step_size} samples ({self.step_size/250:.3f}s)")
  * 
  *     def add_data(self, data):             # <<<<<<<<<<<<<<
@@ -4643,16 +4643,16 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer___init__(C
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_8eegModel_26MultiChannelCircularBuffer_3add_data(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_8eegModel_26MultiChannelCircularBuffer_3add_data(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_8eegModel_26MultiChannelCircularBuffer_2add_data, "MultiChannelCircularBuffer.add_data(self, data)\nAdd new data and return True if enough new samples for next window");
-static PyMethodDef __pyx_mdef_3src_8eegModel_26MultiChannelCircularBuffer_3add_data = {"add_data", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_8eegModel_26MultiChannelCircularBuffer_3add_data, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_8eegModel_26MultiChannelCircularBuffer_2add_data};
-static PyObject *__pyx_pw_3src_8eegModel_26MultiChannelCircularBuffer_3add_data(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_8eegModel_26MultiChannelCircularBuffer_2add_data, "MultiChannelCircularBuffer.add_data(self, data)\nAdd new data and return True if enough new samples for next window");
+static PyMethodDef __pyx_mdef_8eegModel_26MultiChannelCircularBuffer_3add_data = {"add_data", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8eegModel_26MultiChannelCircularBuffer_3add_data, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_8eegModel_26MultiChannelCircularBuffer_2add_data};
+static PyObject *__pyx_pw_8eegModel_26MultiChannelCircularBuffer_3add_data(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -4737,11 +4737,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eegModel.MultiChannelCircularBuffer.add_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.MultiChannelCircularBuffer.add_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(__pyx_self, __pyx_v_self, __pyx_v_data);
+  __pyx_r = __pyx_pf_8eegModel_26MultiChannelCircularBuffer_2add_data(__pyx_self, __pyx_v_self, __pyx_v_data);
 
   /* function exit code */
   {
@@ -4754,7 +4754,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_data) {
+static PyObject *__pyx_pf_8eegModel_26MultiChannelCircularBuffer_2add_data(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_data) {
   PyObject *__pyx_v_num_samples = NULL;
   PyObject *__pyx_v_end_index = NULL;
   PyObject *__pyx_v_samples_since_last = NULL;
@@ -4770,7 +4770,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("add_data", 1);
 
-  /* "src/eegModel.py":48
+  /* "eegModel.py":48
  *     def add_data(self, data):
  *         """Add new data and return True if enough new samples for next window"""
  *         num_samples = data.shape[1]             # <<<<<<<<<<<<<<
@@ -4785,7 +4785,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(
   __pyx_v_num_samples = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":51
+  /* "eegModel.py":51
  * 
  *         # Add data to buffer
  *         if self.index + num_samples <= self.buffer_size:             # <<<<<<<<<<<<<<
@@ -4806,7 +4806,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_4) {
 
-    /* "src/eegModel.py":52
+    /* "eegModel.py":52
  *         # Add data to buffer
  *         if self.index + num_samples <= self.buffer_size:
  *             self.buffer[:, self.index:self.index + num_samples] = data             # <<<<<<<<<<<<<<
@@ -4838,7 +4838,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "src/eegModel.py":51
+    /* "eegModel.py":51
  * 
  *         # Add data to buffer
  *         if self.index + num_samples <= self.buffer_size:             # <<<<<<<<<<<<<<
@@ -4848,7 +4848,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(
     goto __pyx_L3;
   }
 
-  /* "src/eegModel.py":55
+  /* "eegModel.py":55
  *         else:
  *             # Handle wrap-around
  *             end_index = (self.index + num_samples) % self.buffer_size             # <<<<<<<<<<<<<<
@@ -4870,7 +4870,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(
     __pyx_v_end_index = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "src/eegModel.py":56
+    /* "eegModel.py":56
  *             # Handle wrap-around
  *             end_index = (self.index + num_samples) % self.buffer_size
  *             self.buffer[:, self.index:] = data[:, :self.buffer_size - self.index]             # <<<<<<<<<<<<<<
@@ -4919,7 +4919,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "src/eegModel.py":57
+    /* "eegModel.py":57
  *             end_index = (self.index + num_samples) % self.buffer_size
  *             self.buffer[:, self.index:] = data[:, :self.buffer_size - self.index]
  *             self.buffer[:, :end_index] = data[:, self.buffer_size - self.index:]             # <<<<<<<<<<<<<<
@@ -4967,7 +4967,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(
   }
   __pyx_L3:;
 
-  /* "src/eegModel.py":59
+  /* "eegModel.py":59
  *             self.buffer[:, :end_index] = data[:, self.buffer_size - self.index:]
  * 
  *         self.index = (self.index + num_samples) % self.buffer_size             # <<<<<<<<<<<<<<
@@ -4988,7 +4988,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_index, __pyx_t_3) < 0) __PYX_ERR(0, 59, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":62
+  /* "eegModel.py":62
  * 
  *         # Check if we have enough new samples since last window
  *         samples_since_last = (self.index - self.last_window_end) % self.buffer_size             # <<<<<<<<<<<<<<
@@ -5012,7 +5012,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(
   __pyx_v_samples_since_last = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":63
+  /* "eegModel.py":63
  *         # Check if we have enough new samples since last window
  *         samples_since_last = (self.index - self.last_window_end) % self.buffer_size
  *         return samples_since_last >= self.step_size             # <<<<<<<<<<<<<<
@@ -5028,7 +5028,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "src/eegModel.py":46
+  /* "eegModel.py":46
  *         print(f"- Step size: {self.step_size} samples ({self.step_size/250:.3f}s)")
  * 
  *     def add_data(self, data):             # <<<<<<<<<<<<<<
@@ -5042,7 +5042,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("src.eegModel.MultiChannelCircularBuffer.add_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.MultiChannelCircularBuffer.add_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_num_samples);
@@ -5053,7 +5053,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(
   return __pyx_r;
 }
 
-/* "src/eegModel.py":65
+/* "eegModel.py":65
  *         return samples_since_last >= self.step_size
  * 
  *     def get_window(self):             # <<<<<<<<<<<<<<
@@ -5062,16 +5062,16 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_2add_data(
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_8eegModel_26MultiChannelCircularBuffer_5get_window(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_8eegModel_26MultiChannelCircularBuffer_5get_window(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_8eegModel_26MultiChannelCircularBuffer_4get_window, "MultiChannelCircularBuffer.get_window(self)\nGet the latest overlapping window of data");
-static PyMethodDef __pyx_mdef_3src_8eegModel_26MultiChannelCircularBuffer_5get_window = {"get_window", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_8eegModel_26MultiChannelCircularBuffer_5get_window, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_8eegModel_26MultiChannelCircularBuffer_4get_window};
-static PyObject *__pyx_pw_3src_8eegModel_26MultiChannelCircularBuffer_5get_window(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_8eegModel_26MultiChannelCircularBuffer_4get_window, "MultiChannelCircularBuffer.get_window(self)\nGet the latest overlapping window of data");
+static PyMethodDef __pyx_mdef_8eegModel_26MultiChannelCircularBuffer_5get_window = {"get_window", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8eegModel_26MultiChannelCircularBuffer_5get_window, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_8eegModel_26MultiChannelCircularBuffer_4get_window};
+static PyObject *__pyx_pw_8eegModel_26MultiChannelCircularBuffer_5get_window(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -5141,11 +5141,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eegModel.MultiChannelCircularBuffer.get_window", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.MultiChannelCircularBuffer.get_window", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_window(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_8eegModel_26MultiChannelCircularBuffer_4get_window(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -5158,7 +5158,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_window(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_8eegModel_26MultiChannelCircularBuffer_4get_window(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_start_idx = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -5173,7 +5173,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_window", 1);
 
-  /* "src/eegModel.py":68
+  /* "eegModel.py":68
  *         """Get the latest overlapping window of data"""
  *         # Update last window position
  *         self.last_window_end = self.index             # <<<<<<<<<<<<<<
@@ -5185,7 +5185,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_last_window_end, __pyx_t_1) < 0) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eegModel.py":71
+  /* "eegModel.py":71
  * 
  *         # Calculate start position for window
  *         start_idx = (self.index - self.window_size) % self.buffer_size             # <<<<<<<<<<<<<<
@@ -5209,7 +5209,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
   __pyx_v_start_idx = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "src/eegModel.py":73
+  /* "eegModel.py":73
  *         start_idx = (self.index - self.window_size) % self.buffer_size
  * 
  *         if start_idx < self.index:             # <<<<<<<<<<<<<<
@@ -5224,7 +5224,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_4) {
 
-    /* "src/eegModel.py":74
+    /* "eegModel.py":74
  * 
  *         if start_idx < self.index:
  *             return self.buffer[:, start_idx:self.index]             # <<<<<<<<<<<<<<
@@ -5255,7 +5255,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
     __pyx_t_3 = 0;
     goto __pyx_L0;
 
-    /* "src/eegModel.py":73
+    /* "eegModel.py":73
  *         start_idx = (self.index - self.window_size) % self.buffer_size
  * 
  *         if start_idx < self.index:             # <<<<<<<<<<<<<<
@@ -5264,7 +5264,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
  */
   }
 
-  /* "src/eegModel.py":76
+  /* "eegModel.py":76
  *             return self.buffer[:, start_idx:self.index]
  *         else:
  *             return np.concatenate((             # <<<<<<<<<<<<<<
@@ -5279,7 +5279,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "src/eegModel.py":77
+    /* "eegModel.py":77
  *         else:
  *             return np.concatenate((
  *                 self.buffer[:, start_idx:],             # <<<<<<<<<<<<<<
@@ -5303,7 +5303,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "src/eegModel.py":78
+    /* "eegModel.py":78
  *             return np.concatenate((
  *                 self.buffer[:, start_idx:],
  *                 self.buffer[:, :self.index]             # <<<<<<<<<<<<<<
@@ -5330,7 +5330,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "src/eegModel.py":77
+    /* "eegModel.py":77
  *         else:
  *             return np.concatenate((
  *                 self.buffer[:, start_idx:],             # <<<<<<<<<<<<<<
@@ -5346,7 +5346,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
     __pyx_t_2 = 0;
     __pyx_t_6 = 0;
 
-    /* "src/eegModel.py":76
+    /* "eegModel.py":76
  *             return self.buffer[:, start_idx:self.index]
  *         else:
  *             return np.concatenate((             # <<<<<<<<<<<<<<
@@ -5359,7 +5359,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
     if (__Pyx_PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_3)) __PYX_ERR(0, 76, __pyx_L1_error);
     __pyx_t_3 = 0;
 
-    /* "src/eegModel.py":79
+    /* "eegModel.py":79
  *                 self.buffer[:, start_idx:],
  *                 self.buffer[:, :self.index]
  *             ), axis=1)             # <<<<<<<<<<<<<<
@@ -5370,7 +5370,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
     __Pyx_GOTREF(__pyx_t_3);
     if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_axis, __pyx_int_1) < 0) __PYX_ERR(0, 79, __pyx_L1_error)
 
-    /* "src/eegModel.py":76
+    /* "eegModel.py":76
  *             return self.buffer[:, start_idx:self.index]
  *         else:
  *             return np.concatenate((             # <<<<<<<<<<<<<<
@@ -5387,7 +5387,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
     goto __pyx_L0;
   }
 
-  /* "src/eegModel.py":65
+  /* "eegModel.py":65
  *         return samples_since_last >= self.step_size
  * 
  *     def get_window(self):             # <<<<<<<<<<<<<<
@@ -5402,7 +5402,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("src.eegModel.MultiChannelCircularBuffer.get_window", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.MultiChannelCircularBuffer.get_window", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_start_idx);
@@ -5411,7 +5411,7 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
   return __pyx_r;
 }
 
-/* "src/eegModel.py":83
+/* "eegModel.py":83
  * 
  * class SimulationConnection:
  *     def __init__(self, host='http://localhost:5000'):             # <<<<<<<<<<<<<<
@@ -5420,16 +5420,16 @@ static PyObject *__pyx_pf_3src_8eegModel_26MultiChannelCircularBuffer_4get_windo
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_8eegModel_20SimulationConnection_1__init__(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_8eegModel_20SimulationConnection_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_8eegModel_20SimulationConnection___init__, "SimulationConnection.__init__(self, host=u'http://localhost:5000')");
-static PyMethodDef __pyx_mdef_3src_8eegModel_20SimulationConnection_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_8eegModel_20SimulationConnection_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_8eegModel_20SimulationConnection___init__};
-static PyObject *__pyx_pw_3src_8eegModel_20SimulationConnection_1__init__(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_8eegModel_20SimulationConnection___init__, "SimulationConnection.__init__(self, host=u'http://localhost:5000')");
+static PyMethodDef __pyx_mdef_8eegModel_20SimulationConnection_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8eegModel_20SimulationConnection_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_8eegModel_20SimulationConnection___init__};
+static PyObject *__pyx_pw_8eegModel_20SimulationConnection_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -5515,11 +5515,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eegModel.SimulationConnection.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.SimulationConnection.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_8eegModel_20SimulationConnection___init__(__pyx_self, __pyx_v_self, __pyx_v_host);
+  __pyx_r = __pyx_pf_8eegModel_20SimulationConnection___init__(__pyx_self, __pyx_v_self, __pyx_v_host);
 
   /* function exit code */
   {
@@ -5532,7 +5532,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_host) {
+static PyObject *__pyx_pf_8eegModel_20SimulationConnection___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_host) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
@@ -5540,7 +5540,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection___init__(CYTHON_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 1);
 
-  /* "src/eegModel.py":84
+  /* "eegModel.py":84
  * class SimulationConnection:
  *     def __init__(self, host='http://localhost:5000'):
  *         self.host = host             # <<<<<<<<<<<<<<
@@ -5549,7 +5549,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection___init__(CYTHON_
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_host, __pyx_v_host) < 0) __PYX_ERR(0, 84, __pyx_L1_error)
 
-  /* "src/eegModel.py":83
+  /* "eegModel.py":83
  * 
  * class SimulationConnection:
  *     def __init__(self, host='http://localhost:5000'):             # <<<<<<<<<<<<<<
@@ -5561,7 +5561,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection___init__(CYTHON_
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("src.eegModel.SimulationConnection.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.SimulationConnection.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -5569,7 +5569,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection___init__(CYTHON_
   return __pyx_r;
 }
 
-/* "src/eegModel.py":86
+/* "eegModel.py":86
  *         self.host = host
  * 
  *     def send_command(self, command):             # <<<<<<<<<<<<<<
@@ -5578,16 +5578,16 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection___init__(CYTHON_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_8eegModel_20SimulationConnection_3send_command(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_8eegModel_20SimulationConnection_3send_command(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_8eegModel_20SimulationConnection_2send_command, "SimulationConnection.send_command(self, command)");
-static PyMethodDef __pyx_mdef_3src_8eegModel_20SimulationConnection_3send_command = {"send_command", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_8eegModel_20SimulationConnection_3send_command, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_8eegModel_20SimulationConnection_2send_command};
-static PyObject *__pyx_pw_3src_8eegModel_20SimulationConnection_3send_command(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_8eegModel_20SimulationConnection_2send_command, "SimulationConnection.send_command(self, command)");
+static PyMethodDef __pyx_mdef_8eegModel_20SimulationConnection_3send_command = {"send_command", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8eegModel_20SimulationConnection_3send_command, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_8eegModel_20SimulationConnection_2send_command};
+static PyObject *__pyx_pw_8eegModel_20SimulationConnection_3send_command(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -5672,11 +5672,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eegModel.SimulationConnection.send_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.SimulationConnection.send_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(__pyx_self, __pyx_v_self, __pyx_v_command);
+  __pyx_r = __pyx_pf_8eegModel_20SimulationConnection_2send_command(__pyx_self, __pyx_v_self, __pyx_v_command);
 
   /* function exit code */
   {
@@ -5689,7 +5689,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_command) {
+static PyObject *__pyx_pf_8eegModel_20SimulationConnection_2send_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_command) {
   PyObject *__pyx_v_requests = NULL;
   PyObject *__pyx_v_response = NULL;
   CYTHON_UNUSED PyObject *__pyx_v_e = NULL;
@@ -5713,7 +5713,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CY
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("send_command", 1);
 
-  /* "src/eegModel.py":87
+  /* "eegModel.py":87
  * 
  *     def send_command(self, command):
  *         try:             # <<<<<<<<<<<<<<
@@ -5729,7 +5729,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CY
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "src/eegModel.py":88
+      /* "eegModel.py":88
  *     def send_command(self, command):
  *         try:
  *             import requests             # <<<<<<<<<<<<<<
@@ -5741,7 +5741,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CY
       __pyx_v_requests = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "src/eegModel.py":89
+      /* "eegModel.py":89
  *         try:
  *             import requests
  *             response = requests.get(f"{self.host}/command/{command}")             # <<<<<<<<<<<<<<
@@ -5804,7 +5804,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CY
       __pyx_v_response = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "src/eegModel.py":90
+      /* "eegModel.py":90
  *             import requests
  *             response = requests.get(f"{self.host}/command/{command}")
  *             return response.json()['status'] == 'ok'             # <<<<<<<<<<<<<<
@@ -5845,7 +5845,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CY
       __pyx_t_4 = 0;
       goto __pyx_L7_try_return;
 
-      /* "src/eegModel.py":87
+      /* "eegModel.py":87
  * 
  *     def send_command(self, command):
  *         try:             # <<<<<<<<<<<<<<
@@ -5860,7 +5860,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CY
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-    /* "src/eegModel.py":91
+    /* "eegModel.py":91
  *             response = requests.get(f"{self.host}/command/{command}")
  *             return response.json()['status'] == 'ok'
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -5869,7 +5869,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CY
  */
     __pyx_t_12 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_12) {
-      __Pyx_AddTraceback("src.eegModel.SimulationConnection.send_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("eegModel.SimulationConnection.send_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_5, &__pyx_t_10) < 0) __PYX_ERR(0, 91, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_4);
       __Pyx_XGOTREF(__pyx_t_5);
@@ -5878,7 +5878,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CY
       __pyx_v_e = __pyx_t_5;
       /*try:*/ {
 
-        /* "src/eegModel.py":92
+        /* "eegModel.py":92
  *             return response.json()['status'] == 'ok'
  *         except Exception as e:
  *             return False             # <<<<<<<<<<<<<<
@@ -5894,7 +5894,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CY
         goto __pyx_L13_return;
       }
 
-      /* "src/eegModel.py":91
+      /* "eegModel.py":91
  *             response = requests.get(f"{self.host}/command/{command}")
  *             return response.json()['status'] == 'ok'
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -5914,7 +5914,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CY
     }
     goto __pyx_L5_except_error;
 
-    /* "src/eegModel.py":87
+    /* "eegModel.py":87
  * 
  *     def send_command(self, command):
  *         try:             # <<<<<<<<<<<<<<
@@ -5941,7 +5941,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CY
     goto __pyx_L0;
   }
 
-  /* "src/eegModel.py":86
+  /* "eegModel.py":86
  *         self.host = host
  * 
  *     def send_command(self, command):             # <<<<<<<<<<<<<<
@@ -5956,7 +5956,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CY
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
-  __Pyx_AddTraceback("src.eegModel.SimulationConnection.send_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.SimulationConnection.send_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_requests);
@@ -5967,7 +5967,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CY
   return __pyx_r;
 }
 
-/* "src/eegModel.py":94
+/* "eegModel.py":94
  *             return False
  * 
  *     def close(self):             # <<<<<<<<<<<<<<
@@ -5976,16 +5976,16 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_2send_command(CY
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_8eegModel_20SimulationConnection_5close(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_8eegModel_20SimulationConnection_5close(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_8eegModel_20SimulationConnection_4close, "SimulationConnection.close(self)");
-static PyMethodDef __pyx_mdef_3src_8eegModel_20SimulationConnection_5close = {"close", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_8eegModel_20SimulationConnection_5close, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_8eegModel_20SimulationConnection_4close};
-static PyObject *__pyx_pw_3src_8eegModel_20SimulationConnection_5close(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_8eegModel_20SimulationConnection_4close, "SimulationConnection.close(self)");
+static PyMethodDef __pyx_mdef_8eegModel_20SimulationConnection_5close = {"close", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8eegModel_20SimulationConnection_5close, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_8eegModel_20SimulationConnection_4close};
+static PyObject *__pyx_pw_8eegModel_20SimulationConnection_5close(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -6055,11 +6055,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eegModel.SimulationConnection.close", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.SimulationConnection.close", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_8eegModel_20SimulationConnection_4close(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_8eegModel_20SimulationConnection_4close(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -6072,7 +6072,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_4close(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_8eegModel_20SimulationConnection_4close(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("close", 1);
@@ -6084,7 +6084,7 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_4close(CYTHON_UN
   return __pyx_r;
 }
 
-/* "src/eegModel.py":100
+/* "eegModel.py":100
  * 
  * class ArduinoConnection:
  *     def __init__(self, host, port):             # <<<<<<<<<<<<<<
@@ -6093,16 +6093,16 @@ static PyObject *__pyx_pf_3src_8eegModel_20SimulationConnection_4close(CYTHON_UN
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_8eegModel_17ArduinoConnection_1__init__(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_8eegModel_17ArduinoConnection_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_8eegModel_17ArduinoConnection___init__, "ArduinoConnection.__init__(self, host, port)");
-static PyMethodDef __pyx_mdef_3src_8eegModel_17ArduinoConnection_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_8eegModel_17ArduinoConnection_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_8eegModel_17ArduinoConnection___init__};
-static PyObject *__pyx_pw_3src_8eegModel_17ArduinoConnection_1__init__(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_8eegModel_17ArduinoConnection___init__, "ArduinoConnection.__init__(self, host, port)");
+static PyMethodDef __pyx_mdef_8eegModel_17ArduinoConnection_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8eegModel_17ArduinoConnection_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_8eegModel_17ArduinoConnection___init__};
+static PyObject *__pyx_pw_8eegModel_17ArduinoConnection_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -6202,11 +6202,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eegModel.ArduinoConnection.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.ArduinoConnection.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_8eegModel_17ArduinoConnection___init__(__pyx_self, __pyx_v_self, __pyx_v_host, __pyx_v_port);
+  __pyx_r = __pyx_pf_8eegModel_17ArduinoConnection___init__(__pyx_self, __pyx_v_self, __pyx_v_host, __pyx_v_port);
 
   /* function exit code */
   {
@@ -6219,7 +6219,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_host, PyObject *__pyx_v_port) {
+static PyObject *__pyx_pf_8eegModel_17ArduinoConnection___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_host, PyObject *__pyx_v_port) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
@@ -6227,7 +6227,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection___init__(CYTHON_UNU
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 1);
 
-  /* "src/eegModel.py":101
+  /* "eegModel.py":101
  * class ArduinoConnection:
  *     def __init__(self, host, port):
  *         self.host = host             # <<<<<<<<<<<<<<
@@ -6236,7 +6236,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection___init__(CYTHON_UNU
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_host, __pyx_v_host) < 0) __PYX_ERR(0, 101, __pyx_L1_error)
 
-  /* "src/eegModel.py":102
+  /* "eegModel.py":102
  *     def __init__(self, host, port):
  *         self.host = host
  *         self.port = port             # <<<<<<<<<<<<<<
@@ -6245,7 +6245,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection___init__(CYTHON_UNU
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_port, __pyx_v_port) < 0) __PYX_ERR(0, 102, __pyx_L1_error)
 
-  /* "src/eegModel.py":103
+  /* "eegModel.py":103
  *         self.host = host
  *         self.port = port
  *         self.current_command = 'S'             # <<<<<<<<<<<<<<
@@ -6254,7 +6254,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection___init__(CYTHON_UNU
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_current_command, __pyx_n_u_S) < 0) __PYX_ERR(0, 103, __pyx_L1_error)
 
-  /* "src/eegModel.py":104
+  /* "eegModel.py":104
  *         self.port = port
  *         self.current_command = 'S'
  *         self.STOP_DURATION = 0.5             # <<<<<<<<<<<<<<
@@ -6263,7 +6263,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection___init__(CYTHON_UNU
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_STOP_DURATION, __pyx_float_0_5) < 0) __PYX_ERR(0, 104, __pyx_L1_error)
 
-  /* "src/eegModel.py":100
+  /* "eegModel.py":100
  * 
  * class ArduinoConnection:
  *     def __init__(self, host, port):             # <<<<<<<<<<<<<<
@@ -6275,7 +6275,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection___init__(CYTHON_UNU
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("src.eegModel.ArduinoConnection.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.ArduinoConnection.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -6283,7 +6283,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection___init__(CYTHON_UNU
   return __pyx_r;
 }
 
-/* "src/eegModel.py":106
+/* "eegModel.py":106
  *         self.STOP_DURATION = 0.5
  * 
  *     def send_command(self, new_command):             # <<<<<<<<<<<<<<
@@ -6292,16 +6292,16 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection___init__(CYTHON_UNU
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_8eegModel_17ArduinoConnection_3send_command(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_8eegModel_17ArduinoConnection_3send_command(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_8eegModel_17ArduinoConnection_2send_command, "ArduinoConnection.send_command(self, new_command)");
-static PyMethodDef __pyx_mdef_3src_8eegModel_17ArduinoConnection_3send_command = {"send_command", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_8eegModel_17ArduinoConnection_3send_command, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_8eegModel_17ArduinoConnection_2send_command};
-static PyObject *__pyx_pw_3src_8eegModel_17ArduinoConnection_3send_command(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_8eegModel_17ArduinoConnection_2send_command, "ArduinoConnection.send_command(self, new_command)");
+static PyMethodDef __pyx_mdef_8eegModel_17ArduinoConnection_3send_command = {"send_command", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8eegModel_17ArduinoConnection_3send_command, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_8eegModel_17ArduinoConnection_2send_command};
+static PyObject *__pyx_pw_8eegModel_17ArduinoConnection_3send_command(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -6386,11 +6386,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eegModel.ArduinoConnection.send_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.ArduinoConnection.send_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(__pyx_self, __pyx_v_self, __pyx_v_new_command);
+  __pyx_r = __pyx_pf_8eegModel_17ArduinoConnection_2send_command(__pyx_self, __pyx_v_self, __pyx_v_new_command);
 
   /* function exit code */
   {
@@ -6403,7 +6403,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_new_command) {
+static PyObject *__pyx_pf_8eegModel_17ArduinoConnection_2send_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_new_command) {
   PyObject *__pyx_v_e = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -6431,7 +6431,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("send_command", 1);
 
-  /* "src/eegModel.py":107
+  /* "eegModel.py":107
  * 
  *     def send_command(self, new_command):
  *         if new_command != self.current_command:             # <<<<<<<<<<<<<<
@@ -6446,7 +6446,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "src/eegModel.py":108
+    /* "eegModel.py":108
  *     def send_command(self, new_command):
  *         if new_command != self.current_command:
  *             try:             # <<<<<<<<<<<<<<
@@ -6462,7 +6462,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
       __Pyx_XGOTREF(__pyx_t_6);
       /*try:*/ {
 
-        /* "src/eegModel.py":110
+        /* "eegModel.py":110
  *             try:
  *                 # Send stop command
  *                 print("Stopping for 1 second...")             # <<<<<<<<<<<<<<
@@ -6473,7 +6473,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "src/eegModel.py":111
+        /* "eegModel.py":111
  *                 # Send stop command
  *                 print("Stopping for 1 second...")
  *                 self._send_http_command('S')             # <<<<<<<<<<<<<<
@@ -6506,7 +6506,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
         }
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "src/eegModel.py":112
+        /* "eegModel.py":112
  *                 print("Stopping for 1 second...")
  *                 self._send_http_command('S')
  *                 time.sleep(self.STOP_DURATION)             # <<<<<<<<<<<<<<
@@ -6545,7 +6545,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
         }
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "src/eegModel.py":115
+        /* "eegModel.py":115
  * 
  *                 # Send new command
  *                 self._send_http_command(new_command)             # <<<<<<<<<<<<<<
@@ -6578,7 +6578,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
         }
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "src/eegModel.py":116
+        /* "eegModel.py":116
  *                 # Send new command
  *                 self._send_http_command(new_command)
  *                 self.current_command = new_command             # <<<<<<<<<<<<<<
@@ -6587,7 +6587,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
  */
         if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_current_command, __pyx_v_new_command) < 0) __PYX_ERR(0, 116, __pyx_L4_error)
 
-        /* "src/eegModel.py":117
+        /* "eegModel.py":117
  *                 self._send_http_command(new_command)
  *                 self.current_command = new_command
  *                 print(f"Changed to new command: {new_command}")             # <<<<<<<<<<<<<<
@@ -6604,7 +6604,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "src/eegModel.py":108
+        /* "eegModel.py":108
  *     def send_command(self, new_command):
  *         if new_command != self.current_command:
  *             try:             # <<<<<<<<<<<<<<
@@ -6622,7 +6622,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-      /* "src/eegModel.py":119
+      /* "eegModel.py":119
  *                 print(f"Changed to new command: {new_command}")
  * 
  *             except Exception as e:             # <<<<<<<<<<<<<<
@@ -6631,7 +6631,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
  */
       __pyx_t_10 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
       if (__pyx_t_10) {
-        __Pyx_AddTraceback("src.eegModel.ArduinoConnection.send_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
+        __Pyx_AddTraceback("eegModel.ArduinoConnection.send_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
         if (__Pyx_GetException(&__pyx_t_2, &__pyx_t_7, &__pyx_t_1) < 0) __PYX_ERR(0, 119, __pyx_L6_except_error)
         __Pyx_XGOTREF(__pyx_t_2);
         __Pyx_XGOTREF(__pyx_t_7);
@@ -6640,7 +6640,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
         __pyx_v_e = __pyx_t_7;
         /*try:*/ {
 
-          /* "src/eegModel.py":120
+          /* "eegModel.py":120
  * 
  *             except Exception as e:
  *                 print(f"Connection error: {e}")             # <<<<<<<<<<<<<<
@@ -6658,7 +6658,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
           __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         }
 
-        /* "src/eegModel.py":119
+        /* "eegModel.py":119
  *                 print(f"Changed to new command: {new_command}")
  * 
  *             except Exception as e:             # <<<<<<<<<<<<<<
@@ -6712,7 +6712,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
       }
       goto __pyx_L6_except_error;
 
-      /* "src/eegModel.py":108
+      /* "eegModel.py":108
  *     def send_command(self, new_command):
  *         if new_command != self.current_command:
  *             try:             # <<<<<<<<<<<<<<
@@ -6733,7 +6733,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
       __pyx_L9_try_end:;
     }
 
-    /* "src/eegModel.py":107
+    /* "eegModel.py":107
  * 
  *     def send_command(self, new_command):
  *         if new_command != self.current_command:             # <<<<<<<<<<<<<<
@@ -6742,7 +6742,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
  */
   }
 
-  /* "src/eegModel.py":106
+  /* "eegModel.py":106
  *         self.STOP_DURATION = 0.5
  * 
  *     def send_command(self, new_command):             # <<<<<<<<<<<<<<
@@ -6759,7 +6759,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_AddTraceback("src.eegModel.ArduinoConnection.send_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.ArduinoConnection.send_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_e);
@@ -6768,7 +6768,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
   return __pyx_r;
 }
 
-/* "src/eegModel.py":122
+/* "eegModel.py":122
  *                 print(f"Connection error: {e}")
  * 
  *     def _send_http_command(self, command):             # <<<<<<<<<<<<<<
@@ -6777,16 +6777,16 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_2send_command(CYTHO
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_8eegModel_17ArduinoConnection_5_send_http_command(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_8eegModel_17ArduinoConnection_5_send_http_command(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_8eegModel_17ArduinoConnection_4_send_http_command, "ArduinoConnection._send_http_command(self, command)");
-static PyMethodDef __pyx_mdef_3src_8eegModel_17ArduinoConnection_5_send_http_command = {"_send_http_command", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_8eegModel_17ArduinoConnection_5_send_http_command, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_8eegModel_17ArduinoConnection_4_send_http_command};
-static PyObject *__pyx_pw_3src_8eegModel_17ArduinoConnection_5_send_http_command(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_8eegModel_17ArduinoConnection_4_send_http_command, "ArduinoConnection._send_http_command(self, command)");
+static PyMethodDef __pyx_mdef_8eegModel_17ArduinoConnection_5_send_http_command = {"_send_http_command", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8eegModel_17ArduinoConnection_5_send_http_command, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_8eegModel_17ArduinoConnection_4_send_http_command};
+static PyObject *__pyx_pw_8eegModel_17ArduinoConnection_5_send_http_command(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -6871,11 +6871,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eegModel.ArduinoConnection._send_http_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.ArduinoConnection._send_http_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command(__pyx_self, __pyx_v_self, __pyx_v_command);
+  __pyx_r = __pyx_pf_8eegModel_17ArduinoConnection_4_send_http_command(__pyx_self, __pyx_v_self, __pyx_v_command);
 
   /* function exit code */
   {
@@ -6888,7 +6888,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_command) {
+static PyObject *__pyx_pf_8eegModel_17ArduinoConnection_4_send_http_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_command) {
   PyObject *__pyx_v_requests = NULL;
   PyObject *__pyx_v_url = NULL;
   PyObject *__pyx_v_e = NULL;
@@ -6918,7 +6918,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_send_http_command", 1);
 
-  /* "src/eegModel.py":123
+  /* "eegModel.py":123
  * 
  *     def _send_http_command(self, command):
  *         import requests             # <<<<<<<<<<<<<<
@@ -6930,7 +6930,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command
   __pyx_v_requests = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "src/eegModel.py":124
+  /* "eegModel.py":124
  *     def _send_http_command(self, command):
  *         import requests
  *         try:             # <<<<<<<<<<<<<<
@@ -6946,7 +6946,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command
     __Pyx_XGOTREF(__pyx_t_4);
     /*try:*/ {
 
-      /* "src/eegModel.py":125
+      /* "eegModel.py":125
  *         import requests
  *         try:
  *             url = f"http://{self.host}:{self.port}/{command}"             # <<<<<<<<<<<<<<
@@ -7002,7 +7002,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command
       __pyx_v_url = ((PyObject*)__pyx_t_7);
       __pyx_t_7 = 0;
 
-      /* "src/eegModel.py":126
+      /* "eegModel.py":126
  *         try:
  *             url = f"http://{self.host}:{self.port}/{command}"
  *             requests.get(url, timeout=1)             # <<<<<<<<<<<<<<
@@ -7026,7 +7026,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-      /* "src/eegModel.py":124
+      /* "eegModel.py":124
  *     def _send_http_command(self, command):
  *         import requests
  *         try:             # <<<<<<<<<<<<<<
@@ -7044,7 +7044,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-    /* "src/eegModel.py":127
+    /* "eegModel.py":127
  *             url = f"http://{self.host}:{self.port}/{command}"
  *             requests.get(url, timeout=1)
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -7053,7 +7053,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command
  */
     __pyx_t_10 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_10) {
-      __Pyx_AddTraceback("src.eegModel.ArduinoConnection._send_http_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("eegModel.ArduinoConnection._send_http_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_9, &__pyx_t_8, &__pyx_t_1) < 0) __PYX_ERR(0, 127, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_9);
       __Pyx_XGOTREF(__pyx_t_8);
@@ -7062,7 +7062,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command
       __pyx_v_e = __pyx_t_8;
       /*try:*/ {
 
-        /* "src/eegModel.py":128
+        /* "eegModel.py":128
  *             requests.get(url, timeout=1)
  *         except Exception as e:
  *             print(f"HTTP request error: {e}")             # <<<<<<<<<<<<<<
@@ -7080,7 +7080,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       }
 
-      /* "src/eegModel.py":127
+      /* "eegModel.py":127
  *             url = f"http://{self.host}:{self.port}/{command}"
  *             requests.get(url, timeout=1)
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -7134,7 +7134,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command
     }
     goto __pyx_L5_except_error;
 
-    /* "src/eegModel.py":124
+    /* "eegModel.py":124
  *     def _send_http_command(self, command):
  *         import requests
  *         try:             # <<<<<<<<<<<<<<
@@ -7155,7 +7155,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command
     __pyx_L8_try_end:;
   }
 
-  /* "src/eegModel.py":122
+  /* "eegModel.py":122
  *                 print(f"Connection error: {e}")
  * 
  *     def _send_http_command(self, command):             # <<<<<<<<<<<<<<
@@ -7172,7 +7172,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_AddTraceback("src.eegModel.ArduinoConnection._send_http_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.ArduinoConnection._send_http_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_requests);
@@ -7183,7 +7183,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command
   return __pyx_r;
 }
 
-/* "src/eegModel.py":130
+/* "eegModel.py":130
  *             print(f"HTTP request error: {e}")
  * 
  *     def close(self):             # <<<<<<<<<<<<<<
@@ -7192,16 +7192,16 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_4_send_http_command
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_8eegModel_17ArduinoConnection_7close(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_8eegModel_17ArduinoConnection_7close(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_8eegModel_17ArduinoConnection_6close, "ArduinoConnection.close(self)");
-static PyMethodDef __pyx_mdef_3src_8eegModel_17ArduinoConnection_7close = {"close", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_8eegModel_17ArduinoConnection_7close, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_8eegModel_17ArduinoConnection_6close};
-static PyObject *__pyx_pw_3src_8eegModel_17ArduinoConnection_7close(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_8eegModel_17ArduinoConnection_6close, "ArduinoConnection.close(self)");
+static PyMethodDef __pyx_mdef_8eegModel_17ArduinoConnection_7close = {"close", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8eegModel_17ArduinoConnection_7close, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_8eegModel_17ArduinoConnection_6close};
+static PyObject *__pyx_pw_8eegModel_17ArduinoConnection_7close(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -7271,11 +7271,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eegModel.ArduinoConnection.close", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.ArduinoConnection.close", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_8eegModel_17ArduinoConnection_6close(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_8eegModel_17ArduinoConnection_6close(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -7288,7 +7288,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_6close(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_8eegModel_17ArduinoConnection_6close(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -7300,7 +7300,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_6close(CYTHON_UNUSE
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("close", 1);
 
-  /* "src/eegModel.py":131
+  /* "eegModel.py":131
  * 
  *     def close(self):
  *         self._send_http_command('S')             # <<<<<<<<<<<<<<
@@ -7333,7 +7333,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_6close(CYTHON_UNUSE
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/eegModel.py":130
+  /* "eegModel.py":130
  *             print(f"HTTP request error: {e}")
  * 
  *     def close(self):             # <<<<<<<<<<<<<<
@@ -7348,7 +7348,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_6close(CYTHON_UNUSE
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("src.eegModel.ArduinoConnection.close", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.ArduinoConnection.close", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -7356,7 +7356,7 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_6close(CYTHON_UNUSE
   return __pyx_r;
 }
 
-/* "src/eegModel.py":134
+/* "eegModel.py":134
  * arduino = ArduinoConnection('192.168.1.168', 80)
  * 
  * def map_action_to_command(action):             # <<<<<<<<<<<<<<
@@ -7365,16 +7365,16 @@ static PyObject *__pyx_pf_3src_8eegModel_17ArduinoConnection_6close(CYTHON_UNUSE
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_8eegModel_1map_action_to_command(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_8eegModel_1map_action_to_command(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_8eegModel_map_action_to_command, "map_action_to_command(action)");
-static PyMethodDef __pyx_mdef_3src_8eegModel_1map_action_to_command = {"map_action_to_command", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_8eegModel_1map_action_to_command, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_8eegModel_map_action_to_command};
-static PyObject *__pyx_pw_3src_8eegModel_1map_action_to_command(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_8eegModel_map_action_to_command, "map_action_to_command(action)");
+static PyMethodDef __pyx_mdef_8eegModel_1map_action_to_command = {"map_action_to_command", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8eegModel_1map_action_to_command, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_8eegModel_map_action_to_command};
+static PyObject *__pyx_pw_8eegModel_1map_action_to_command(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -7444,11 +7444,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eegModel.map_action_to_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.map_action_to_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_8eegModel_map_action_to_command(__pyx_self, __pyx_v_action);
+  __pyx_r = __pyx_pf_8eegModel_map_action_to_command(__pyx_self, __pyx_v_action);
 
   /* function exit code */
   {
@@ -7461,7 +7461,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_8eegModel_map_action_to_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_action) {
+static PyObject *__pyx_pf_8eegModel_map_action_to_command(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_action) {
   PyObject *__pyx_v_action_mapping = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -7471,7 +7471,7 @@ static PyObject *__pyx_pf_3src_8eegModel_map_action_to_command(CYTHON_UNUSED PyO
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("map_action_to_command", 1);
 
-  /* "src/eegModel.py":136
+  /* "eegModel.py":136
  * def map_action_to_command(action):
  *     action_mapping = {
  *         0: 'L',             # <<<<<<<<<<<<<<
@@ -7487,7 +7487,7 @@ static PyObject *__pyx_pf_3src_8eegModel_map_action_to_command(CYTHON_UNUSED PyO
   __pyx_v_action_mapping = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "src/eegModel.py":141
+  /* "eegModel.py":141
  *         3: 'B'
  *     }
  *     return action_mapping.get(action, 'S')             # <<<<<<<<<<<<<<
@@ -7501,7 +7501,7 @@ static PyObject *__pyx_pf_3src_8eegModel_map_action_to_command(CYTHON_UNUSED PyO
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "src/eegModel.py":134
+  /* "eegModel.py":134
  * arduino = ArduinoConnection('192.168.1.168', 80)
  * 
  * def map_action_to_command(action):             # <<<<<<<<<<<<<<
@@ -7512,7 +7512,7 @@ static PyObject *__pyx_pf_3src_8eegModel_map_action_to_command(CYTHON_UNUSED PyO
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("src.eegModel.map_action_to_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.map_action_to_command", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_action_mapping);
@@ -7521,7 +7521,7 @@ static PyObject *__pyx_pf_3src_8eegModel_map_action_to_command(CYTHON_UNUSED PyO
   return __pyx_r;
 }
 
-/* "src/eegModel.py":166
+/* "eegModel.py":166
  * print("Started data stream from board.")
  * 
  * def get_conservative_prediction(predictions, confidences, similarity_threshold=0.5):             # <<<<<<<<<<<<<<
@@ -7530,16 +7530,16 @@ static PyObject *__pyx_pf_3src_8eegModel_map_action_to_command(CYTHON_UNUSED PyO
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_8eegModel_3get_conservative_prediction(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_8eegModel_3get_conservative_prediction(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_8eegModel_2get_conservative_prediction, "get_conservative_prediction(predictions, confidences, similarity_threshold=0.5)\n\n    When confidences are close (within threshold), pick the lower confidence prediction\n    ");
-static PyMethodDef __pyx_mdef_3src_8eegModel_3get_conservative_prediction = {"get_conservative_prediction", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_8eegModel_3get_conservative_prediction, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_8eegModel_2get_conservative_prediction};
-static PyObject *__pyx_pw_3src_8eegModel_3get_conservative_prediction(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_8eegModel_2get_conservative_prediction, "get_conservative_prediction(predictions, confidences, similarity_threshold=0.5)\n\n    When confidences are close (within threshold), pick the lower confidence prediction\n    ");
+static PyMethodDef __pyx_mdef_8eegModel_3get_conservative_prediction = {"get_conservative_prediction", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8eegModel_3get_conservative_prediction, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_8eegModel_2get_conservative_prediction};
+static PyObject *__pyx_pw_8eegModel_3get_conservative_prediction(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -7640,11 +7640,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eegModel.get_conservative_prediction", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.get_conservative_prediction", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_8eegModel_2get_conservative_prediction(__pyx_self, __pyx_v_predictions, __pyx_v_confidences, __pyx_v_similarity_threshold);
+  __pyx_r = __pyx_pf_8eegModel_2get_conservative_prediction(__pyx_self, __pyx_v_predictions, __pyx_v_confidences, __pyx_v_similarity_threshold);
 
   /* function exit code */
   {
@@ -7657,7 +7657,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-/* "src/eegModel.py":183
+/* "eegModel.py":183
  *     if len(close_indices) > 1:
  *         # If we have close confidences, pick the lower one
  *         min_conf_idx = min(close_indices, key=lambda i: confidences[i])             # <<<<<<<<<<<<<<
@@ -7666,15 +7666,15 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_8eegModel_27get_conservative_prediction_lambda(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_8eegModel_27get_conservative_prediction_lambda(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_3src_8eegModel_27get_conservative_prediction_lambda = {"lambda", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_8eegModel_27get_conservative_prediction_lambda, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_3src_8eegModel_27get_conservative_prediction_lambda(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_8eegModel_27get_conservative_prediction_lambda = {"lambda", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8eegModel_27get_conservative_prediction_lambda, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_8eegModel_27get_conservative_prediction_lambda(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -7744,7 +7744,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.eegModel.get_conservative_prediction.lambda", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.get_conservative_prediction.lambda", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
@@ -7762,8 +7762,8 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
 }
 
 static PyObject *__pyx_lambda_funcdef_lambda(PyObject *__pyx_self, PyObject *__pyx_v_i) {
-  struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction *__pyx_cur_scope;
-  struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction *__pyx_outer_scope;
+  struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction *__pyx_cur_scope;
+  struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction *__pyx_outer_scope;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -7771,7 +7771,7 @@ static PyObject *__pyx_lambda_funcdef_lambda(PyObject *__pyx_self, PyObject *__p
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("lambda", 1);
-  __pyx_outer_scope = (struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction *) __Pyx_CyFunction_GetClosure(__pyx_self);
+  __pyx_outer_scope = (struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction *) __Pyx_CyFunction_GetClosure(__pyx_self);
   __pyx_cur_scope = __pyx_outer_scope;
   __Pyx_XDECREF(__pyx_r);
   if (unlikely(!__pyx_cur_scope->__pyx_v_confidences)) { __Pyx_RaiseClosureNameError("confidences"); __PYX_ERR(0, 183, __pyx_L1_error) }
@@ -7784,7 +7784,7 @@ static PyObject *__pyx_lambda_funcdef_lambda(PyObject *__pyx_self, PyObject *__p
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("src.eegModel.get_conservative_prediction.lambda", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.get_conservative_prediction.lambda", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -7792,7 +7792,7 @@ static PyObject *__pyx_lambda_funcdef_lambda(PyObject *__pyx_self, PyObject *__p
   return __pyx_r;
 }
 
-/* "src/eegModel.py":166
+/* "eegModel.py":166
  * print("Started data stream from board.")
  * 
  * def get_conservative_prediction(predictions, confidences, similarity_threshold=0.5):             # <<<<<<<<<<<<<<
@@ -7800,8 +7800,8 @@ static PyObject *__pyx_lambda_funcdef_lambda(PyObject *__pyx_self, PyObject *__p
  *     When confidences are close (within threshold), pick the lower confidence prediction
  */
 
-static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_predictions, PyObject *__pyx_v_confidences, PyObject *__pyx_v_similarity_threshold) {
-  struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction *__pyx_cur_scope;
+static PyObject *__pyx_pf_8eegModel_2get_conservative_prediction(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_predictions, PyObject *__pyx_v_confidences, PyObject *__pyx_v_similarity_threshold) {
+  struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction *__pyx_cur_scope;
   PyObject *__pyx_v_max_conf = NULL;
   PyObject *__pyx_v_max_idx = NULL;
   PyObject *__pyx_v_close_indices = NULL;
@@ -7824,9 +7824,9 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_conservative_prediction", 0);
-  __pyx_cur_scope = (struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction *)__pyx_tp_new_3src_8eegModel___pyx_scope_struct__get_conservative_prediction(__pyx_ptype_3src_8eegModel___pyx_scope_struct__get_conservative_prediction, __pyx_empty_tuple, NULL);
+  __pyx_cur_scope = (struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction *)__pyx_tp_new_8eegModel___pyx_scope_struct__get_conservative_prediction(__pyx_ptype_8eegModel___pyx_scope_struct__get_conservative_prediction, __pyx_empty_tuple, NULL);
   if (unlikely(!__pyx_cur_scope)) {
-    __pyx_cur_scope = ((struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction *)Py_None);
+    __pyx_cur_scope = ((struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction *)Py_None);
     __Pyx_INCREF(Py_None);
     __PYX_ERR(0, 166, __pyx_L1_error)
   } else {
@@ -7836,7 +7836,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
   __Pyx_INCREF(__pyx_cur_scope->__pyx_v_confidences);
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_confidences);
 
-  /* "src/eegModel.py":170
+  /* "eegModel.py":170
  *     When confidences are close (within threshold), pick the lower confidence prediction
  *     """
  *     if not confidences:  # Empty list check             # <<<<<<<<<<<<<<
@@ -7847,7 +7847,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
   __pyx_t_2 = (!__pyx_t_1);
   if (__pyx_t_2) {
 
-    /* "src/eegModel.py":171
+    /* "eegModel.py":171
  *     """
  *     if not confidences:  # Empty list check
  *         return None, None             # <<<<<<<<<<<<<<
@@ -7859,7 +7859,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
     __pyx_r = __pyx_tuple__8;
     goto __pyx_L0;
 
-    /* "src/eegModel.py":170
+    /* "eegModel.py":170
  *     When confidences are close (within threshold), pick the lower confidence prediction
  *     """
  *     if not confidences:  # Empty list check             # <<<<<<<<<<<<<<
@@ -7868,7 +7868,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
  */
   }
 
-  /* "src/eegModel.py":174
+  /* "eegModel.py":174
  * 
  *     # Get the highest confidence and its index
  *     max_conf = max(confidences)             # <<<<<<<<<<<<<<
@@ -7880,7 +7880,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
   __pyx_v_max_conf = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":175
+  /* "eegModel.py":175
  *     # Get the highest confidence and its index
  *     max_conf = max(confidences)
  *     max_idx = confidences.index(max_conf)             # <<<<<<<<<<<<<<
@@ -7914,7 +7914,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
   __pyx_v_max_idx = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":178
+  /* "eegModel.py":178
  * 
  *     # Look for confidences that are close to the maximum
  *     close_indices = [i for i, conf in enumerate(confidences)             # <<<<<<<<<<<<<<
@@ -7988,7 +7988,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
       __pyx_t_4 = __pyx_t_9;
       __pyx_t_9 = 0;
 
-      /* "src/eegModel.py":179
+      /* "eegModel.py":179
  *     # Look for confidences that are close to the maximum
  *     close_indices = [i for i, conf in enumerate(confidences)
  *                     if (max_conf - conf) <= similarity_threshold]             # <<<<<<<<<<<<<<
@@ -8003,7 +8003,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       if (__pyx_t_2) {
 
-        /* "src/eegModel.py":178
+        /* "eegModel.py":178
  * 
  *     # Look for confidences that are close to the maximum
  *     close_indices = [i for i, conf in enumerate(confidences)             # <<<<<<<<<<<<<<
@@ -8012,7 +8012,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
  */
         if (unlikely(__Pyx_ListComp_Append(__pyx_t_3, (PyObject*)__pyx_7genexpr__pyx_v_i))) __PYX_ERR(0, 178, __pyx_L6_error)
 
-        /* "src/eegModel.py":179
+        /* "eegModel.py":179
  *     # Look for confidences that are close to the maximum
  *     close_indices = [i for i, conf in enumerate(confidences)
  *                     if (max_conf - conf) <= similarity_threshold]             # <<<<<<<<<<<<<<
@@ -8021,7 +8021,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
  */
       }
 
-      /* "src/eegModel.py":178
+      /* "eegModel.py":178
  * 
  *     # Look for confidences that are close to the maximum
  *     close_indices = [i for i, conf in enumerate(confidences)             # <<<<<<<<<<<<<<
@@ -8043,7 +8043,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
   __pyx_v_close_indices = ((PyObject*)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":181
+  /* "eegModel.py":181
  *                     if (max_conf - conf) <= similarity_threshold]
  * 
  *     if len(close_indices) > 1:             # <<<<<<<<<<<<<<
@@ -8054,7 +8054,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
   __pyx_t_2 = (__pyx_t_7 > 1);
   if (__pyx_t_2) {
 
-    /* "src/eegModel.py":183
+    /* "eegModel.py":183
  *     if len(close_indices) > 1:
  *         # If we have close confidences, pick the lower one
  *         min_conf_idx = min(close_indices, key=lambda i: confidences[i])             # <<<<<<<<<<<<<<
@@ -8068,7 +8068,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
     if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_v_close_indices)) __PYX_ERR(0, 183, __pyx_L1_error);
     __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 183, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_3src_8eegModel_27get_conservative_prediction_lambda, 0, __pyx_n_s_get_conservative_prediction_loca, ((PyObject*)__pyx_cur_scope), __pyx_n_s_src_eegModel, __pyx_d, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 183, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_8eegModel_27get_conservative_prediction_lambda, 0, __pyx_n_s_get_conservative_prediction_loca, ((PyObject*)__pyx_cur_scope), __pyx_n_s_eegModel, __pyx_d, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 183, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_key, __pyx_t_5) < 0) __PYX_ERR(0, 183, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -8079,7 +8079,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
     __pyx_v_min_conf_idx = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "src/eegModel.py":184
+    /* "eegModel.py":184
  *         # If we have close confidences, pick the lower one
  *         min_conf_idx = min(close_indices, key=lambda i: confidences[i])
  *         return predictions[min_conf_idx], confidences[min_conf_idx]             # <<<<<<<<<<<<<<
@@ -8103,7 +8103,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
     __pyx_t_3 = 0;
     goto __pyx_L0;
 
-    /* "src/eegModel.py":181
+    /* "eegModel.py":181
  *                     if (max_conf - conf) <= similarity_threshold]
  * 
  *     if len(close_indices) > 1:             # <<<<<<<<<<<<<<
@@ -8112,7 +8112,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
  */
   }
 
-  /* "src/eegModel.py":187
+  /* "eegModel.py":187
  * 
  *     # If no close confidences, return the highest one
  *     return predictions[max_idx], confidences[max_idx]             # <<<<<<<<<<<<<<
@@ -8136,7 +8136,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "src/eegModel.py":166
+  /* "eegModel.py":166
  * print("Started data stream from board.")
  * 
  * def get_conservative_prediction(predictions, confidences, similarity_threshold=0.5):             # <<<<<<<<<<<<<<
@@ -8151,7 +8151,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
-  __Pyx_AddTraceback("src.eegModel.get_conservative_prediction", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.get_conservative_prediction", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_max_conf);
@@ -8166,7 +8166,7 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
   return __pyx_r;
 }
 
-/* "src/eegModel.py":189
+/* "eegModel.py":189
  *     return predictions[max_idx], confidences[max_idx]
  * 
  * def cleanup_resources():             # <<<<<<<<<<<<<<
@@ -8175,23 +8175,23 @@ static PyObject *__pyx_pf_3src_8eegModel_2get_conservative_prediction(CYTHON_UNU
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_8eegModel_5cleanup_resources(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_8eegModel_4cleanup_resources, "cleanup_resources()\n\n    Clean up board and connection resources\n    ");
-static PyMethodDef __pyx_mdef_3src_8eegModel_5cleanup_resources = {"cleanup_resources", (PyCFunction)__pyx_pw_3src_8eegModel_5cleanup_resources, METH_NOARGS, __pyx_doc_3src_8eegModel_4cleanup_resources};
-static PyObject *__pyx_pw_3src_8eegModel_5cleanup_resources(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_8eegModel_5cleanup_resources(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+PyDoc_STRVAR(__pyx_doc_8eegModel_4cleanup_resources, "cleanup_resources()\n\n    Clean up board and connection resources\n    ");
+static PyMethodDef __pyx_mdef_8eegModel_5cleanup_resources = {"cleanup_resources", (PyCFunction)__pyx_pw_8eegModel_5cleanup_resources, METH_NOARGS, __pyx_doc_8eegModel_4cleanup_resources};
+static PyObject *__pyx_pw_8eegModel_5cleanup_resources(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("cleanup_resources (wrapper)", 0);
   __pyx_kwvalues = __Pyx_KwValues_VARARGS(__pyx_args, __pyx_nargs);
-  __pyx_r = __pyx_pf_3src_8eegModel_4cleanup_resources(__pyx_self);
+  __pyx_r = __pyx_pf_8eegModel_4cleanup_resources(__pyx_self);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObject *__pyx_self) {
+static PyObject *__pyx_pf_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObject *__pyx_self) {
   PyObject *__pyx_v_e = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -8219,7 +8219,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("cleanup_resources", 1);
 
-  /* "src/eegModel.py":193
+  /* "eegModel.py":193
  *     Clean up board and connection resources
  *     """
  *     try:             # <<<<<<<<<<<<<<
@@ -8235,7 +8235,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "src/eegModel.py":194
+      /* "eegModel.py":194
  *     """
  *     try:
  *         if board.is_prepared():             # <<<<<<<<<<<<<<
@@ -8273,7 +8273,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (__pyx_t_8) {
 
-        /* "src/eegModel.py":195
+        /* "eegModel.py":195
  *     try:
  *         if board.is_prepared():
  *             board.stop_stream()             # <<<<<<<<<<<<<<
@@ -8309,7 +8309,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "src/eegModel.py":196
+        /* "eegModel.py":196
  *         if board.is_prepared():
  *             board.stop_stream()
  *             board.release_session()             # <<<<<<<<<<<<<<
@@ -8345,7 +8345,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "src/eegModel.py":194
+        /* "eegModel.py":194
  *     """
  *     try:
  *         if board.is_prepared():             # <<<<<<<<<<<<<<
@@ -8354,7 +8354,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
  */
       }
 
-      /* "src/eegModel.py":197
+      /* "eegModel.py":197
  *             board.stop_stream()
  *             board.release_session()
  *         arduino.close()             # <<<<<<<<<<<<<<
@@ -8390,7 +8390,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "src/eegModel.py":198
+      /* "eegModel.py":198
  *             board.release_session()
  *         arduino.close()
  *         print("Resources cleaned up successfully")             # <<<<<<<<<<<<<<
@@ -8401,7 +8401,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "src/eegModel.py":193
+      /* "eegModel.py":193
  *     Clean up board and connection resources
  *     """
  *     try:             # <<<<<<<<<<<<<<
@@ -8418,7 +8418,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "src/eegModel.py":199
+    /* "eegModel.py":199
  *         arduino.close()
  *         print("Resources cleaned up successfully")
  *     except Exception as e:             # <<<<<<<<<<<<<<
@@ -8427,7 +8427,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
  */
     __pyx_t_9 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_9) {
-      __Pyx_AddTraceback("src.eegModel.cleanup_resources", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("eegModel.cleanup_resources", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_5, &__pyx_t_6) < 0) __PYX_ERR(0, 199, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_4);
       __Pyx_XGOTREF(__pyx_t_5);
@@ -8436,7 +8436,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
       __pyx_v_e = __pyx_t_5;
       /*try:*/ {
 
-        /* "src/eegModel.py":200
+        /* "eegModel.py":200
  *         print("Resources cleaned up successfully")
  *     except Exception as e:
  *         print(f"Error during cleanup: {e}")             # <<<<<<<<<<<<<<
@@ -8454,7 +8454,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
 
-      /* "src/eegModel.py":199
+      /* "eegModel.py":199
  *         arduino.close()
  *         print("Resources cleaned up successfully")
  *     except Exception as e:             # <<<<<<<<<<<<<<
@@ -8508,7 +8508,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
     }
     goto __pyx_L5_except_error;
 
-    /* "src/eegModel.py":193
+    /* "eegModel.py":193
  *     Clean up board and connection resources
  *     """
  *     try:             # <<<<<<<<<<<<<<
@@ -8529,7 +8529,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
     __pyx_L8_try_end:;
   }
 
-  /* "src/eegModel.py":189
+  /* "eegModel.py":189
  *     return predictions[max_idx], confidences[max_idx]
  * 
  * def cleanup_resources():             # <<<<<<<<<<<<<<
@@ -8546,7 +8546,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_AddTraceback("src.eegModel.cleanup_resources", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.cleanup_resources", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_e);
@@ -8555,7 +8555,7 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
   return __pyx_r;
 }
 
-/* "src/eegModel.py":202
+/* "eegModel.py":202
  *         print(f"Error during cleanup: {e}")
  * 
  * def main():             # <<<<<<<<<<<<<<
@@ -8564,23 +8564,23 @@ static PyObject *__pyx_pf_3src_8eegModel_4cleanup_resources(CYTHON_UNUSED PyObje
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_8eegModel_7main(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_8eegModel_6main, "main()");
-static PyMethodDef __pyx_mdef_3src_8eegModel_7main = {"main", (PyCFunction)__pyx_pw_3src_8eegModel_7main, METH_NOARGS, __pyx_doc_3src_8eegModel_6main};
-static PyObject *__pyx_pw_3src_8eegModel_7main(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_8eegModel_7main(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+PyDoc_STRVAR(__pyx_doc_8eegModel_6main, "main()");
+static PyMethodDef __pyx_mdef_8eegModel_7main = {"main", (PyCFunction)__pyx_pw_8eegModel_7main, METH_NOARGS, __pyx_doc_8eegModel_6main};
+static PyObject *__pyx_pw_8eegModel_7main(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("main (wrapper)", 0);
   __pyx_kwvalues = __Pyx_KwValues_VARARGS(__pyx_args, __pyx_nargs);
-  __pyx_r = __pyx_pf_3src_8eegModel_6main(__pyx_self);
+  __pyx_r = __pyx_pf_8eegModel_6main(__pyx_self);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_self) {
+static PyObject *__pyx_pf_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_self) {
   CYTHON_UNUSED PyObject *__pyx_v_prediction_history = NULL;
   CYTHON_UNUSED PyObject *__pyx_v_last_state = NULL;
   CYTHON_UNUSED PyObject *__pyx_v_last_command = NULL;
@@ -8638,7 +8638,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("main", 1);
 
-  /* "src/eegModel.py":203
+  /* "eegModel.py":203
  * 
  * def main():
  *     try:             # <<<<<<<<<<<<<<
@@ -8655,7 +8655,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
       __Pyx_XGOTREF(__pyx_t_3);
       /*try:*/ {
 
-        /* "src/eegModel.py":205
+        /* "eegModel.py":205
  *     try:
  *         # Initialize state variables
  *         prediction_history = []             # <<<<<<<<<<<<<<
@@ -8667,7 +8667,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_v_prediction_history = ((PyObject*)__pyx_t_4);
         __pyx_t_4 = 0;
 
-        /* "src/eegModel.py":206
+        /* "eegModel.py":206
  *         # Initialize state variables
  *         prediction_history = []
  *         last_state = None             # <<<<<<<<<<<<<<
@@ -8677,7 +8677,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
         __Pyx_INCREF(Py_None);
         __pyx_v_last_state = Py_None;
 
-        /* "src/eegModel.py":207
+        /* "eegModel.py":207
  *         prediction_history = []
  *         last_state = None
  *         last_command = 'S'             # <<<<<<<<<<<<<<
@@ -8687,7 +8687,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
         __Pyx_INCREF(__pyx_n_u_S);
         __pyx_v_last_command = __pyx_n_u_S;
 
-        /* "src/eegModel.py":208
+        /* "eegModel.py":208
  *         last_state = None
  *         last_command = 'S'
  *         last_command_time = time.time()             # <<<<<<<<<<<<<<
@@ -8724,7 +8724,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_v_last_command_time = __pyx_t_4;
         __pyx_t_4 = 0;
 
-        /* "src/eegModel.py":209
+        /* "eegModel.py":209
  *         last_command = 'S'
  *         last_command_time = time.time()
  *         start_time = time.time()             # <<<<<<<<<<<<<<
@@ -8761,7 +8761,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_v_start_time = __pyx_t_4;
         __pyx_t_4 = 0;
 
-        /* "src/eegModel.py":210
+        /* "eegModel.py":210
  *         last_command_time = time.time()
  *         start_time = time.time()
  *         model.exploration_rate = 2             # <<<<<<<<<<<<<<
@@ -8773,7 +8773,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
         if (__Pyx_PyObject_SetAttrStr(__pyx_t_4, __pyx_n_s_exploration_rate, __pyx_int_2) < 0) __PYX_ERR(0, 210, __pyx_L6_error)
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "src/eegModel.py":211
+        /* "eegModel.py":211
  *         start_time = time.time()
  *         model.exploration_rate = 2
  *         model.exploration_final_eps = 2             # <<<<<<<<<<<<<<
@@ -8785,7 +8785,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
         if (__Pyx_PyObject_SetAttrStr(__pyx_t_4, __pyx_n_s_exploration_final_eps, __pyx_int_2) < 0) __PYX_ERR(0, 211, __pyx_L6_error)
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "src/eegModel.py":212
+        /* "eegModel.py":212
  *         model.exploration_rate = 2
  *         model.exploration_final_eps = 2
  *         while True:             # <<<<<<<<<<<<<<
@@ -8794,7 +8794,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
  */
         while (1) {
 
-          /* "src/eegModel.py":214
+          /* "eegModel.py":214
  *         while True:
  *             # Get new data (5 second chunks)
  *             data = board.get_current_board_data(samples_per_read)             # <<<<<<<<<<<<<<
@@ -8834,7 +8834,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
           __Pyx_XDECREF_SET(__pyx_v_data, __pyx_t_4);
           __pyx_t_4 = 0;
 
-          /* "src/eegModel.py":215
+          /* "eegModel.py":215
  *             # Get new data (5 second chunks)
  *             data = board.get_current_board_data(samples_per_read)
  *             eeg_channels = BoardShim.get_eeg_channels(BoardIds.CYTON_BOARD.value)             # <<<<<<<<<<<<<<
@@ -8880,7 +8880,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
           __Pyx_XDECREF_SET(__pyx_v_eeg_channels, __pyx_t_4);
           __pyx_t_4 = 0;
 
-          /* "src/eegModel.py":216
+          /* "eegModel.py":216
  *             data = board.get_current_board_data(samples_per_read)
  *             eeg_channels = BoardShim.get_eeg_channels(BoardIds.CYTON_BOARD.value)
  *             eeg_data = data[eeg_channels[:6], :]             # <<<<<<<<<<<<<<
@@ -8903,7 +8903,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
           __Pyx_XDECREF_SET(__pyx_v_eeg_data, __pyx_t_4);
           __pyx_t_4 = 0;
 
-          /* "src/eegModel.py":220
+          /* "eegModel.py":220
  * 
  *             # Add data and check if we have enough for a window
  *             if eeg_buffer.add_data(eeg_data):             # <<<<<<<<<<<<<<
@@ -8941,7 +8941,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
           if (__pyx_t_9) {
 
-            /* "src/eegModel.py":222
+            /* "eegModel.py":222
  *             if eeg_buffer.add_data(eeg_data):
  *                 # Get window and process
  *                 window_data = eeg_buffer.get_window().reshape(1, num_channels, -1)             # <<<<<<<<<<<<<<
@@ -9006,7 +9006,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
             __Pyx_XDECREF_SET(__pyx_v_window_data, __pyx_t_4);
             __pyx_t_4 = 0;
 
-            /* "src/eegModel.py":223
+            /* "eegModel.py":223
  *                 # Get window and process
  *                 window_data = eeg_buffer.get_window().reshape(1, num_channels, -1)
  *                 print(f"Processing window of shape: {window_data.shape}")             # <<<<<<<<<<<<<<
@@ -9026,7 +9026,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
             __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-            /* "src/eegModel.py":229
+            /* "eegModel.py":229
  *                 # filtered_data = mne.filter.filter_data(data_downsampled, sfreq=250, l_freq=0.5, h_freq=45, verbose=False)
  *                 # Initialize CSP features list
  *                 csp_features_list = []             # <<<<<<<<<<<<<<
@@ -9038,7 +9038,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
             __Pyx_XDECREF_SET(__pyx_v_csp_features_list, ((PyObject*)__pyx_t_8));
             __pyx_t_8 = 0;
 
-            /* "src/eegModel.py":232
+            /* "eegModel.py":232
  * 
  *                 # Apply CSP transform for each class
  *                 for class_id, csp in csp_filters.items():             # <<<<<<<<<<<<<<
@@ -9069,7 +9069,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_XDECREF_SET(__pyx_v_csp, __pyx_t_4);
               __pyx_t_4 = 0;
 
-              /* "src/eegModel.py":233
+              /* "eegModel.py":233
  *                 # Apply CSP transform for each class
  *                 for class_id, csp in csp_filters.items():
  *                     transformed = csp.transform(window_data)             # <<<<<<<<<<<<<<
@@ -9103,7 +9103,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_XDECREF_SET(__pyx_v_transformed, __pyx_t_4);
               __pyx_t_4 = 0;
 
-              /* "src/eegModel.py":236
+              /* "eegModel.py":236
  *                     # if hasattr(raw, 'info'):  # Only plot if raw.info is available
  *                     #     csp.plot_patterns(info=raw.info, components=list(range(4)), ch_type='eeg')
  *                     csp_features_list.append(transformed)             # <<<<<<<<<<<<<<
@@ -9114,7 +9114,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
             }
             __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-            /* "src/eegModel.py":239
+            /* "eegModel.py":239
  * 
  *                 # Concatenate CSP features
  *                 csp_ftrs = np.concatenate(csp_features_list, axis=1)             # <<<<<<<<<<<<<<
@@ -9142,7 +9142,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
             __Pyx_XDECREF_SET(__pyx_v_csp_ftrs, __pyx_t_5);
             __pyx_t_5 = 0;
 
-            /* "src/eegModel.py":240
+            /* "eegModel.py":240
  *                 # Concatenate CSP features
  *                 csp_ftrs = np.concatenate(csp_features_list, axis=1)
  *                 print(f"CSP Features Shape: {csp_ftrs.shape}")             # <<<<<<<<<<<<<<
@@ -9162,7 +9162,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
             __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-            /* "src/eegModel.py":243
+            /* "eegModel.py":243
  * 
  *                 # Extract features
  *                 ftrs = dqnutils.featuresarray_load(data_array=csp_ftrs)             # <<<<<<<<<<<<<<
@@ -9184,7 +9184,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
             __Pyx_XDECREF_SET(__pyx_v_ftrs, __pyx_t_8);
             __pyx_t_8 = 0;
 
-            /* "src/eegModel.py":244
+            /* "eegModel.py":244
  *                 # Extract features
  *                 ftrs = dqnutils.featuresarray_load(data_array=csp_ftrs)
  *                 print(f"Extracted Features Shape: {ftrs.shape}")             # <<<<<<<<<<<<<<
@@ -9204,7 +9204,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
             __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-            /* "src/eegModel.py":246
+            /* "eegModel.py":246
  *                 print(f"Extracted Features Shape: {ftrs.shape}")
  * 
  *                 predictions = []             # <<<<<<<<<<<<<<
@@ -9216,7 +9216,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
             __Pyx_XDECREF_SET(__pyx_v_predictions, ((PyObject*)__pyx_t_6));
             __pyx_t_6 = 0;
 
-            /* "src/eegModel.py":247
+            /* "eegModel.py":247
  * 
  *                 predictions = []
  *                 confidences = []             # <<<<<<<<<<<<<<
@@ -9228,7 +9228,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
             __Pyx_XDECREF_SET(__pyx_v_confidences, ((PyObject*)__pyx_t_6));
             __pyx_t_6 = 0;
 
-            /* "src/eegModel.py":249
+            /* "eegModel.py":249
  *                 confidences = []
  * 
  *                 for i in range(0, 20, 4):             # <<<<<<<<<<<<<<
@@ -9241,7 +9241,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_6);
               __pyx_t_6 = 0;
 
-              /* "src/eegModel.py":250
+              /* "eegModel.py":250
  * 
  *                 for i in range(0, 20, 4):
  *                     ftrs_scaled = scaler.transform(ftrs.reshape(-1, ftrs.shape[-1])).reshape(ftrs.shape)             # <<<<<<<<<<<<<<
@@ -9337,7 +9337,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_XDECREF_SET(__pyx_v_ftrs_scaled, __pyx_t_6);
               __pyx_t_6 = 0;
 
-              /* "src/eegModel.py":251
+              /* "eegModel.py":251
  *                 for i in range(0, 20, 4):
  *                     ftrs_scaled = scaler.transform(ftrs.reshape(-1, ftrs.shape[-1])).reshape(ftrs.shape)
  *                     ftrs_scaled = ftrs_scaled[:, i:i+4, :]             # <<<<<<<<<<<<<<
@@ -9366,7 +9366,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_DECREF_SET(__pyx_v_ftrs_scaled, __pyx_t_4);
               __pyx_t_4 = 0;
 
-              /* "src/eegModel.py":255
+              /* "eegModel.py":255
  * 
  *                     # Get prediction
  *                     action, _ = model.predict(ftrs_scaled, deterministic=False)  # Changed this line             # <<<<<<<<<<<<<<
@@ -9442,7 +9442,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_XDECREF_SET(__pyx_v__, __pyx_t_4);
               __pyx_t_4 = 0;
 
-              /* "src/eegModel.py":256
+              /* "eegModel.py":256
  *                     # Get prediction
  *                     action, _ = model.predict(ftrs_scaled, deterministic=False)  # Changed this line
  *                     action = action[0]             # <<<<<<<<<<<<<<
@@ -9454,7 +9454,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_DECREF_SET(__pyx_v_action, __pyx_t_5);
               __pyx_t_5 = 0;
 
-              /* "src/eegModel.py":261
+              /* "eegModel.py":261
  *                     # simulation.send_command(command)
  *                     # Calculate confidence
  *                     q_values = model.q_net(model.q_net.obs_to_tensor(ftrs_scaled)[0])[0].detach().numpy()             # <<<<<<<<<<<<<<
@@ -9578,7 +9578,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_XDECREF_SET(__pyx_v_q_values, __pyx_t_5);
               __pyx_t_5 = 0;
 
-              /* "src/eegModel.py":262
+              /* "eegModel.py":262
  *                     # Calculate confidence
  *                     q_values = model.q_net(model.q_net.obs_to_tensor(ftrs_scaled)[0])[0].detach().numpy()
  *                     q_values = (q_values - np.min(q_values)) / (np.max(q_values) - np.min(q_values) + 1e-6)             # <<<<<<<<<<<<<<
@@ -9683,7 +9683,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_DECREF_SET(__pyx_v_q_values, __pyx_t_18);
               __pyx_t_18 = 0;
 
-              /* "src/eegModel.py":264
+              /* "eegModel.py":264
  *                     q_values = (q_values - np.min(q_values)) / (np.max(q_values) - np.min(q_values) + 1e-6)
  * 
  *                     max_q = np.max(q_values)             # <<<<<<<<<<<<<<
@@ -9720,7 +9720,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_XDECREF_SET(__pyx_v_max_q, __pyx_t_18);
               __pyx_t_18 = 0;
 
-              /* "src/eegModel.py":265
+              /* "eegModel.py":265
  * 
  *                     max_q = np.max(q_values)
  *                     other_q_values = q_values[q_values != max_q]             # <<<<<<<<<<<<<<
@@ -9734,7 +9734,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_XDECREF_SET(__pyx_v_other_q_values, __pyx_t_4);
               __pyx_t_4 = 0;
 
-              /* "src/eegModel.py":266
+              /* "eegModel.py":266
  *                     max_q = np.max(q_values)
  *                     other_q_values = q_values[q_values != max_q]
  *                     confidence = float(max_q - np.mean(other_q_values)) if len(other_q_values) > 0 else 0             # <<<<<<<<<<<<<<
@@ -9786,7 +9786,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_XDECREF_SET(__pyx_v_confidence, __pyx_t_4);
               __pyx_t_4 = 0;
 
-              /* "src/eegModel.py":269
+              /* "eegModel.py":269
  * 
  *                     # Only add high confidence predictions
  *                     if confidence > 0.6:  # You can adjust this threshold             # <<<<<<<<<<<<<<
@@ -9798,7 +9798,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
               if (__pyx_t_9) {
 
-                /* "src/eegModel.py":270
+                /* "eegModel.py":270
  *                     # Only add high confidence predictions
  *                     if confidence > 0.6:  # You can adjust this threshold
  *                         predictions.append(int(action))             # <<<<<<<<<<<<<<
@@ -9810,7 +9810,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
                 __pyx_t_14 = __Pyx_PyList_Append(__pyx_v_predictions, __pyx_t_4); if (unlikely(__pyx_t_14 == ((int)-1))) __PYX_ERR(0, 270, __pyx_L6_error)
                 __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-                /* "src/eegModel.py":271
+                /* "eegModel.py":271
  *                     if confidence > 0.6:  # You can adjust this threshold
  *                         predictions.append(int(action))
  *                         confidences.append(confidence)             # <<<<<<<<<<<<<<
@@ -9819,7 +9819,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
  */
                 __pyx_t_14 = __Pyx_PyList_Append(__pyx_v_confidences, __pyx_v_confidence); if (unlikely(__pyx_t_14 == ((int)-1))) __PYX_ERR(0, 271, __pyx_L6_error)
 
-                /* "src/eegModel.py":269
+                /* "eegModel.py":269
  * 
  *                     # Only add high confidence predictions
  *                     if confidence > 0.6:  # You can adjust this threshold             # <<<<<<<<<<<<<<
@@ -9829,7 +9829,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               }
             }
 
-            /* "src/eegModel.py":274
+            /* "eegModel.py":274
  * 
  *                 # Get conservative prediction
  *                 action, confidence = get_conservative_prediction(predictions, confidences)             # <<<<<<<<<<<<<<
@@ -9911,7 +9911,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
             __Pyx_XDECREF_SET(__pyx_v_confidence, __pyx_t_5);
             __pyx_t_5 = 0;
 
-            /* "src/eegModel.py":275
+            /* "eegModel.py":275
  *                 # Get conservative prediction
  *                 action, confidence = get_conservative_prediction(predictions, confidences)
  *                 if action is not None:             # <<<<<<<<<<<<<<
@@ -9921,7 +9921,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
             __pyx_t_9 = (__pyx_v_action != Py_None);
             if (__pyx_t_9) {
 
-              /* "src/eegModel.py":276
+              /* "eegModel.py":276
  *                 action, confidence = get_conservative_prediction(predictions, confidences)
  *                 if action is not None:
  *                     command = map_action_to_command(action)             # <<<<<<<<<<<<<<
@@ -9955,7 +9955,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_XDECREF_SET(__pyx_v_command, __pyx_t_4);
               __pyx_t_4 = 0;
 
-              /* "src/eegModel.py":277
+              /* "eegModel.py":277
  *                 if action is not None:
  *                     command = map_action_to_command(action)
  *                     print(f"Mapped Command: {command} {predictions}{confidences}")             # <<<<<<<<<<<<<<
@@ -10003,7 +10003,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
               __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-              /* "src/eegModel.py":275
+              /* "eegModel.py":275
  *                 # Get conservative prediction
  *                 action, confidence = get_conservative_prediction(predictions, confidences)
  *                 if action is not None:             # <<<<<<<<<<<<<<
@@ -10013,7 +10013,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
               goto __pyx_L24;
             }
 
-            /* "src/eegModel.py":279
+            /* "eegModel.py":279
  *                     print(f"Mapped Command: {command} {predictions}{confidences}")
  *                 else:
  *                     command = 'S'  # Default to stop if no confident predictions             # <<<<<<<<<<<<<<
@@ -10026,7 +10026,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
             }
             __pyx_L24:;
 
-            /* "src/eegModel.py":280
+            /* "eegModel.py":280
  *                 else:
  *                     command = 'S'  # Default to stop if no confident predictions
  *                 simulation.send_command(command)             # <<<<<<<<<<<<<<
@@ -10062,7 +10062,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
             }
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-            /* "src/eegModel.py":281
+            /* "eegModel.py":281
  *                     command = 'S'  # Default to stop if no confident predictions
  *                 simulation.send_command(command)
  *                 arduino.send_command(command)             # <<<<<<<<<<<<<<
@@ -10098,7 +10098,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
             }
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-            /* "src/eegModel.py":220
+            /* "eegModel.py":220
  * 
  *             # Add data and check if we have enough for a window
  *             if eeg_buffer.add_data(eeg_data):             # <<<<<<<<<<<<<<
@@ -10107,7 +10107,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
  */
           }
 
-          /* "src/eegModel.py":283
+          /* "eegModel.py":283
  *                 arduino.send_command(command)
  * 
  *             time.sleep(0.02)  # 20ms sleep             # <<<<<<<<<<<<<<
@@ -10144,7 +10144,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         }
 
-        /* "src/eegModel.py":203
+        /* "eegModel.py":203
  * 
  * def main():
  *     try:             # <<<<<<<<<<<<<<
@@ -10165,7 +10165,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-      /* "src/eegModel.py":285
+      /* "eegModel.py":285
  *             time.sleep(0.02)  # 20ms sleep
  * 
  *     except KeyboardInterrupt:             # <<<<<<<<<<<<<<
@@ -10174,13 +10174,13 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
  */
       __pyx_t_12 = __Pyx_PyErr_ExceptionMatches(__pyx_builtin_KeyboardInterrupt);
       if (__pyx_t_12) {
-        __Pyx_AddTraceback("src.eegModel.main", __pyx_clineno, __pyx_lineno, __pyx_filename);
+        __Pyx_AddTraceback("eegModel.main", __pyx_clineno, __pyx_lineno, __pyx_filename);
         if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_18, &__pyx_t_5) < 0) __PYX_ERR(0, 285, __pyx_L8_except_error)
         __Pyx_XGOTREF(__pyx_t_4);
         __Pyx_XGOTREF(__pyx_t_18);
         __Pyx_XGOTREF(__pyx_t_5);
 
-        /* "src/eegModel.py":286
+        /* "eegModel.py":286
  * 
  *     except KeyboardInterrupt:
  *         print("\nStopped by user.")             # <<<<<<<<<<<<<<
@@ -10197,7 +10197,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
       }
       goto __pyx_L8_except_error;
 
-      /* "src/eegModel.py":203
+      /* "eegModel.py":203
  * 
  * def main():
  *     try:             # <<<<<<<<<<<<<<
@@ -10219,7 +10219,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
     }
   }
 
-  /* "src/eegModel.py":288
+  /* "eegModel.py":288
  *         print("\nStopped by user.")
  *     finally:
  *         simulation.close()             # <<<<<<<<<<<<<<
@@ -10257,7 +10257,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "src/eegModel.py":289
+      /* "eegModel.py":289
  *     finally:
  *         simulation.close()
  *         board.stop_stream()             # <<<<<<<<<<<<<<
@@ -10293,7 +10293,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "src/eegModel.py":290
+      /* "eegModel.py":290
  *         simulation.close()
  *         board.stop_stream()
  *         board.release_session()             # <<<<<<<<<<<<<<
@@ -10329,7 +10329,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "src/eegModel.py":291
+      /* "eegModel.py":291
  *         board.stop_stream()
  *         board.release_session()
  *         simulation.send_command('S')             # <<<<<<<<<<<<<<
@@ -10365,7 +10365,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "src/eegModel.py":292
+      /* "eegModel.py":292
  *         board.release_session()
  *         simulation.send_command('S')
  *         arduino.send_command('S')             # <<<<<<<<<<<<<<
@@ -10425,7 +10425,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
       __pyx_t_12 = __pyx_lineno; __pyx_t_13 = __pyx_clineno; __pyx_t_21 = __pyx_filename;
       {
 
-        /* "src/eegModel.py":288
+        /* "eegModel.py":288
  *         print("\nStopped by user.")
  *     finally:
  *         simulation.close()             # <<<<<<<<<<<<<<
@@ -10461,7 +10461,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
         }
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* "src/eegModel.py":289
+        /* "eegModel.py":289
  *     finally:
  *         simulation.close()
  *         board.stop_stream()             # <<<<<<<<<<<<<<
@@ -10497,7 +10497,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
         }
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* "src/eegModel.py":290
+        /* "eegModel.py":290
  *         simulation.close()
  *         board.stop_stream()
  *         board.release_session()             # <<<<<<<<<<<<<<
@@ -10533,7 +10533,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
         }
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* "src/eegModel.py":291
+        /* "eegModel.py":291
  *         board.stop_stream()
  *         board.release_session()
  *         simulation.send_command('S')             # <<<<<<<<<<<<<<
@@ -10569,7 +10569,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
         }
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* "src/eegModel.py":292
+        /* "eegModel.py":292
  *         board.release_session()
  *         simulation.send_command('S')
  *         arduino.send_command('S')             # <<<<<<<<<<<<<<
@@ -10634,7 +10634,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
     __pyx_L5:;
   }
 
-  /* "src/eegModel.py":202
+  /* "eegModel.py":202
  *         print(f"Error during cleanup: {e}")
  * 
  * def main():             # <<<<<<<<<<<<<<
@@ -10653,7 +10653,7 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
   __Pyx_XDECREF(__pyx_t_16);
   __Pyx_XDECREF(__pyx_t_17);
   __Pyx_XDECREF(__pyx_t_18);
-  __Pyx_AddTraceback("src.eegModel.main", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("eegModel.main", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_prediction_history);
@@ -10688,20 +10688,20 @@ static PyObject *__pyx_pf_3src_8eegModel_6main(CYTHON_UNUSED PyObject *__pyx_sel
 }
 
 #if CYTHON_USE_FREELISTS
-static struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction *__pyx_freelist_3src_8eegModel___pyx_scope_struct__get_conservative_prediction[8];
-static int __pyx_freecount_3src_8eegModel___pyx_scope_struct__get_conservative_prediction = 0;
+static struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction *__pyx_freelist_8eegModel___pyx_scope_struct__get_conservative_prediction[8];
+static int __pyx_freecount_8eegModel___pyx_scope_struct__get_conservative_prediction = 0;
 #endif
 
-static PyObject *__pyx_tp_new_3src_8eegModel___pyx_scope_struct__get_conservative_prediction(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+static PyObject *__pyx_tp_new_8eegModel___pyx_scope_struct__get_conservative_prediction(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
   PyObject *o;
   #if CYTHON_COMPILING_IN_LIMITED_API
   allocfunc alloc_func = (allocfunc)PyType_GetSlot(t, Py_tp_alloc);
   o = alloc_func(t, 0);
   #else
   #if CYTHON_USE_FREELISTS
-  if (likely((int)(__pyx_freecount_3src_8eegModel___pyx_scope_struct__get_conservative_prediction > 0) & (int)(t->tp_basicsize == sizeof(struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction)))) {
-    o = (PyObject*)__pyx_freelist_3src_8eegModel___pyx_scope_struct__get_conservative_prediction[--__pyx_freecount_3src_8eegModel___pyx_scope_struct__get_conservative_prediction];
-    memset(o, 0, sizeof(struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction));
+  if (likely((int)(__pyx_freecount_8eegModel___pyx_scope_struct__get_conservative_prediction > 0) & (int)(t->tp_basicsize == sizeof(struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction)))) {
+    o = (PyObject*)__pyx_freelist_8eegModel___pyx_scope_struct__get_conservative_prediction[--__pyx_freecount_8eegModel___pyx_scope_struct__get_conservative_prediction];
+    memset(o, 0, sizeof(struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction));
     (void) PyObject_INIT(o, t);
     PyObject_GC_Track(o);
   } else
@@ -10714,11 +10714,11 @@ static PyObject *__pyx_tp_new_3src_8eegModel___pyx_scope_struct__get_conservativ
   return o;
 }
 
-static void __pyx_tp_dealloc_3src_8eegModel___pyx_scope_struct__get_conservative_prediction(PyObject *o) {
-  struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction *p = (struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction *)o;
+static void __pyx_tp_dealloc_8eegModel___pyx_scope_struct__get_conservative_prediction(PyObject *o) {
+  struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction *p = (struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction *)o;
   #if CYTHON_USE_TP_FINALIZE
   if (unlikely((PY_VERSION_HEX >= 0x03080000 || __Pyx_PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE)) && __Pyx_PyObject_GetSlot(o, tp_finalize, destructor)) && !__Pyx_PyObject_GC_IsFinalized(o)) {
-    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_3src_8eegModel___pyx_scope_struct__get_conservative_prediction) {
+    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_8eegModel___pyx_scope_struct__get_conservative_prediction) {
       if (PyObject_CallFinalizerFromDealloc(o)) return;
     }
   }
@@ -10726,8 +10726,8 @@ static void __pyx_tp_dealloc_3src_8eegModel___pyx_scope_struct__get_conservative
   PyObject_GC_UnTrack(o);
   Py_CLEAR(p->__pyx_v_confidences);
   #if CYTHON_USE_FREELISTS
-  if (((int)(__pyx_freecount_3src_8eegModel___pyx_scope_struct__get_conservative_prediction < 8) & (int)(Py_TYPE(o)->tp_basicsize == sizeof(struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction)))) {
-    __pyx_freelist_3src_8eegModel___pyx_scope_struct__get_conservative_prediction[__pyx_freecount_3src_8eegModel___pyx_scope_struct__get_conservative_prediction++] = ((struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction *)o);
+  if (((int)(__pyx_freecount_8eegModel___pyx_scope_struct__get_conservative_prediction < 8) & (int)(Py_TYPE(o)->tp_basicsize == sizeof(struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction)))) {
+    __pyx_freelist_8eegModel___pyx_scope_struct__get_conservative_prediction[__pyx_freecount_8eegModel___pyx_scope_struct__get_conservative_prediction++] = ((struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction *)o);
   } else
   #endif
   {
@@ -10742,46 +10742,46 @@ static void __pyx_tp_dealloc_3src_8eegModel___pyx_scope_struct__get_conservative
   }
 }
 
-static int __pyx_tp_traverse_3src_8eegModel___pyx_scope_struct__get_conservative_prediction(PyObject *o, visitproc v, void *a) {
+static int __pyx_tp_traverse_8eegModel___pyx_scope_struct__get_conservative_prediction(PyObject *o, visitproc v, void *a) {
   int e;
-  struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction *p = (struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction *)o;
+  struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction *p = (struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction *)o;
   if (p->__pyx_v_confidences) {
     e = (*v)(p->__pyx_v_confidences, a); if (e) return e;
   }
   return 0;
 }
 
-static int __pyx_tp_clear_3src_8eegModel___pyx_scope_struct__get_conservative_prediction(PyObject *o) {
+static int __pyx_tp_clear_8eegModel___pyx_scope_struct__get_conservative_prediction(PyObject *o) {
   PyObject* tmp;
-  struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction *p = (struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction *)o;
+  struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction *p = (struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction *)o;
   tmp = ((PyObject*)p->__pyx_v_confidences);
   p->__pyx_v_confidences = Py_None; Py_INCREF(Py_None);
   Py_XDECREF(tmp);
   return 0;
 }
 #if CYTHON_USE_TYPE_SPECS
-static PyType_Slot __pyx_type_3src_8eegModel___pyx_scope_struct__get_conservative_prediction_slots[] = {
-  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_3src_8eegModel___pyx_scope_struct__get_conservative_prediction},
-  {Py_tp_traverse, (void *)__pyx_tp_traverse_3src_8eegModel___pyx_scope_struct__get_conservative_prediction},
-  {Py_tp_clear, (void *)__pyx_tp_clear_3src_8eegModel___pyx_scope_struct__get_conservative_prediction},
-  {Py_tp_new, (void *)__pyx_tp_new_3src_8eegModel___pyx_scope_struct__get_conservative_prediction},
+static PyType_Slot __pyx_type_8eegModel___pyx_scope_struct__get_conservative_prediction_slots[] = {
+  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_8eegModel___pyx_scope_struct__get_conservative_prediction},
+  {Py_tp_traverse, (void *)__pyx_tp_traverse_8eegModel___pyx_scope_struct__get_conservative_prediction},
+  {Py_tp_clear, (void *)__pyx_tp_clear_8eegModel___pyx_scope_struct__get_conservative_prediction},
+  {Py_tp_new, (void *)__pyx_tp_new_8eegModel___pyx_scope_struct__get_conservative_prediction},
   {0, 0},
 };
-static PyType_Spec __pyx_type_3src_8eegModel___pyx_scope_struct__get_conservative_prediction_spec = {
-  "src.eegModel.__pyx_scope_struct__get_conservative_prediction",
-  sizeof(struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction),
+static PyType_Spec __pyx_type_8eegModel___pyx_scope_struct__get_conservative_prediction_spec = {
+  "eegModel.__pyx_scope_struct__get_conservative_prediction",
+  sizeof(struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_HAVE_FINALIZE,
-  __pyx_type_3src_8eegModel___pyx_scope_struct__get_conservative_prediction_slots,
+  __pyx_type_8eegModel___pyx_scope_struct__get_conservative_prediction_slots,
 };
 #else
 
-static PyTypeObject __pyx_type_3src_8eegModel___pyx_scope_struct__get_conservative_prediction = {
+static PyTypeObject __pyx_type_8eegModel___pyx_scope_struct__get_conservative_prediction = {
   PyVarObject_HEAD_INIT(0, 0)
-  "src.eegModel.""__pyx_scope_struct__get_conservative_prediction", /*tp_name*/
-  sizeof(struct __pyx_obj_3src_8eegModel___pyx_scope_struct__get_conservative_prediction), /*tp_basicsize*/
+  "eegModel.""__pyx_scope_struct__get_conservative_prediction", /*tp_name*/
+  sizeof(struct __pyx_obj_8eegModel___pyx_scope_struct__get_conservative_prediction), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3src_8eegModel___pyx_scope_struct__get_conservative_prediction, /*tp_dealloc*/
+  __pyx_tp_dealloc_8eegModel___pyx_scope_struct__get_conservative_prediction, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
   0, /*tp_print*/
   #endif
@@ -10808,8 +10808,8 @@ static PyTypeObject __pyx_type_3src_8eegModel___pyx_scope_struct__get_conservati
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_HAVE_FINALIZE, /*tp_flags*/
   0, /*tp_doc*/
-  __pyx_tp_traverse_3src_8eegModel___pyx_scope_struct__get_conservative_prediction, /*tp_traverse*/
-  __pyx_tp_clear_3src_8eegModel___pyx_scope_struct__get_conservative_prediction, /*tp_clear*/
+  __pyx_tp_traverse_8eegModel___pyx_scope_struct__get_conservative_prediction, /*tp_traverse*/
+  __pyx_tp_clear_8eegModel___pyx_scope_struct__get_conservative_prediction, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
@@ -10826,7 +10826,7 @@ static PyTypeObject __pyx_type_3src_8eegModel___pyx_scope_struct__get_conservati
   #endif
   0, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_3src_8eegModel___pyx_scope_struct__get_conservative_prediction, /*tp_new*/
+  __pyx_tp_new_8eegModel___pyx_scope_struct__get_conservative_prediction, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -10882,6 +10882,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_u_1f, __pyx_k_1f, sizeof(__pyx_k_1f), 0, 1, 0, 0},
     {&__pyx_kp_u_3f, __pyx_k_3f, sizeof(__pyx_k_3f), 0, 1, 0, 0},
     {&__pyx_n_s_AdaptiveDQNRLEEGNET, __pyx_k_AdaptiveDQNRLEEGNET, sizeof(__pyx_k_AdaptiveDQNRLEEGNET), 0, 0, 1, 1},
+    {&__pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_k_AdaptiveDQN_RLEEGNET, sizeof(__pyx_k_AdaptiveDQN_RLEEGNET), 0, 0, 1, 1},
     {&__pyx_n_s_ArduinoConnection, __pyx_k_ArduinoConnection, sizeof(__pyx_k_ArduinoConnection), 0, 0, 1, 1},
     {&__pyx_n_s_ArduinoConnection___init, __pyx_k_ArduinoConnection___init, sizeof(__pyx_k_ArduinoConnection___init), 0, 0, 1, 1},
     {&__pyx_n_s_ArduinoConnection__send_http_com, __pyx_k_ArduinoConnection__send_http_com, sizeof(__pyx_k_ArduinoConnection__send_http_com), 0, 0, 1, 1},
@@ -10900,6 +10901,8 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_u_CSP_filters_loaded_for_real_time, __pyx_k_CSP_filters_loaded_for_real_time, sizeof(__pyx_k_CSP_filters_loaded_for_real_time), 0, 1, 0, 0},
     {&__pyx_n_s_CYTON_BOARD, __pyx_k_CYTON_BOARD, sizeof(__pyx_k_CYTON_BOARD), 0, 0, 1, 1},
     {&__pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to, __pyx_k_C_DEV_EEG_eegFrontendPage_eeg_to, sizeof(__pyx_k_C_DEV_EEG_eegFrontendPage_eeg_to), 0, 1, 0, 0},
+    {&__pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to_2, __pyx_k_C_DEV_EEG_eegFrontendPage_eeg_to_2, sizeof(__pyx_k_C_DEV_EEG_eegFrontendPage_eeg_to_2), 0, 1, 0, 0},
+    {&__pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to_3, __pyx_k_C_DEV_EEG_eegFrontendPage_eeg_to_3, sizeof(__pyx_k_C_DEV_EEG_eegFrontendPage_eeg_to_3), 0, 1, 0, 0},
     {&__pyx_kp_u_Changed_to_new_command, __pyx_k_Changed_to_new_command, sizeof(__pyx_k_Changed_to_new_command), 0, 1, 0, 0},
     {&__pyx_kp_u_Connection_error, __pyx_k_Connection_error, sizeof(__pyx_k_Connection_error), 0, 1, 0, 0},
     {&__pyx_n_s_DQN, __pyx_k_DQN, sizeof(__pyx_k_DQN), 0, 0, 1, 1},
@@ -10967,7 +10970,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_csp, __pyx_k_csp, sizeof(__pyx_k_csp), 0, 0, 1, 1},
     {&__pyx_n_s_csp_features_list, __pyx_k_csp_features_list, sizeof(__pyx_k_csp_features_list), 0, 0, 1, 1},
     {&__pyx_n_s_csp_filters, __pyx_k_csp_filters, sizeof(__pyx_k_csp_filters), 0, 0, 1, 1},
-    {&__pyx_kp_u_csp_filters_ovr_pkl, __pyx_k_csp_filters_ovr_pkl, sizeof(__pyx_k_csp_filters_ovr_pkl), 0, 1, 0, 0},
     {&__pyx_n_s_csp_ftrs, __pyx_k_csp_ftrs, sizeof(__pyx_k_csp_ftrs), 0, 0, 1, 1},
     {&__pyx_n_s_current_command, __pyx_k_current_command, sizeof(__pyx_k_current_command), 0, 0, 1, 1},
     {&__pyx_n_s_data, __pyx_k_data, sizeof(__pyx_k_data), 0, 0, 1, 1},
@@ -10979,10 +10981,10 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_doc, __pyx_k_doc, sizeof(__pyx_k_doc), 0, 0, 1, 1},
     {&__pyx_n_s_dqnutils, __pyx_k_dqnutils, sizeof(__pyx_k_dqnutils), 0, 0, 1, 1},
     {&__pyx_n_s_e, __pyx_k_e, sizeof(__pyx_k_e), 0, 0, 1, 1},
+    {&__pyx_n_s_eegModel, __pyx_k_eegModel, sizeof(__pyx_k_eegModel), 0, 0, 1, 1},
     {&__pyx_n_s_eeg_buffer, __pyx_k_eeg_buffer, sizeof(__pyx_k_eeg_buffer), 0, 0, 1, 1},
     {&__pyx_n_s_eeg_channels, __pyx_k_eeg_channels, sizeof(__pyx_k_eeg_channels), 0, 0, 1, 1},
     {&__pyx_n_s_eeg_data, __pyx_k_eeg_data, sizeof(__pyx_k_eeg_data), 0, 0, 1, 1},
-    {&__pyx_n_s_eeg_tool_src_AdaptiveDQN_RLEEGNE, __pyx_k_eeg_tool_src_AdaptiveDQN_RLEEGNE, sizeof(__pyx_k_eeg_tool_src_AdaptiveDQN_RLEEGNE), 0, 0, 1, 1},
     {&__pyx_kp_u_enable, __pyx_k_enable, sizeof(__pyx_k_enable), 0, 1, 0, 0},
     {&__pyx_n_s_end_index, __pyx_k_end_index, sizeof(__pyx_k_end_index), 0, 0, 1, 1},
     {&__pyx_n_s_enumerate, __pyx_k_enumerate, sizeof(__pyx_k_enumerate), 0, 0, 1, 1},
@@ -11068,7 +11070,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_samples_per_read, __pyx_k_samples_per_read, sizeof(__pyx_k_samples_per_read), 0, 0, 1, 1},
     {&__pyx_n_s_samples_since_last, __pyx_k_samples_since_last, sizeof(__pyx_k_samples_since_last), 0, 0, 1, 1},
     {&__pyx_n_s_scaler, __pyx_k_scaler, sizeof(__pyx_k_scaler), 0, 0, 1, 1},
-    {&__pyx_kp_u_scaler_pkl, __pyx_k_scaler_pkl, sizeof(__pyx_k_scaler_pkl), 0, 1, 0, 0},
     {&__pyx_n_s_self, __pyx_k_self, sizeof(__pyx_k_self), 0, 0, 1, 1},
     {&__pyx_n_s_send_command, __pyx_k_send_command, sizeof(__pyx_k_send_command), 0, 0, 1, 1},
     {&__pyx_n_s_send_http_command, __pyx_k_send_http_command, sizeof(__pyx_k_send_http_command), 0, 0, 1, 1},
@@ -11080,7 +11081,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_sleep, __pyx_k_sleep, sizeof(__pyx_k_sleep), 0, 0, 1, 1},
     {&__pyx_n_s_socket, __pyx_k_socket, sizeof(__pyx_k_socket), 0, 0, 1, 1},
     {&__pyx_n_s_spec, __pyx_k_spec, sizeof(__pyx_k_spec), 0, 0, 1, 1},
-    {&__pyx_n_s_src_eegModel, __pyx_k_src_eegModel, sizeof(__pyx_k_src_eegModel), 0, 0, 1, 1},
     {&__pyx_kp_s_src_eegModel_py, __pyx_k_src_eegModel_py, sizeof(__pyx_k_src_eegModel_py), 0, 0, 1, 0},
     {&__pyx_n_s_stable_baselines3, __pyx_k_stable_baselines3, sizeof(__pyx_k_stable_baselines3), 0, 0, 1, 1},
     {&__pyx_n_s_start_idx, __pyx_k_start_idx, sizeof(__pyx_k_start_idx), 0, 0, 1, 1},
@@ -11125,7 +11125,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "src/eegModel.py":40
+  /* "eegModel.py":40
  *         self.last_window_end = 0
  * 
  *         print(f"Initialized circular buffer:")             # <<<<<<<<<<<<<<
@@ -11136,7 +11136,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "src/eegModel.py":52
+  /* "eegModel.py":52
  *         # Add data to buffer
  *         if self.index + num_samples <= self.buffer_size:
  *             self.buffer[:, self.index:self.index + num_samples] = data             # <<<<<<<<<<<<<<
@@ -11147,7 +11147,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__3);
   __Pyx_GIVEREF(__pyx_slice__3);
 
-  /* "src/eegModel.py":110
+  /* "eegModel.py":110
  *             try:
  *                 # Send stop command
  *                 print("Stopping for 1 second...")             # <<<<<<<<<<<<<<
@@ -11158,7 +11158,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "src/eegModel.py":171
+  /* "eegModel.py":171
  *     """
  *     if not confidences:  # Empty list check
  *         return None, None             # <<<<<<<<<<<<<<
@@ -11169,7 +11169,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "src/eegModel.py":198
+  /* "eegModel.py":198
  *             board.release_session()
  *         arduino.close()
  *         print("Resources cleaned up successfully")             # <<<<<<<<<<<<<<
@@ -11180,7 +11180,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "src/eegModel.py":216
+  /* "eegModel.py":216
  *             data = board.get_current_board_data(samples_per_read)
  *             eeg_channels = BoardShim.get_eeg_channels(BoardIds.CYTON_BOARD.value)
  *             eeg_data = data[eeg_channels[:6], :]             # <<<<<<<<<<<<<<
@@ -11191,7 +11191,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__10);
   __Pyx_GIVEREF(__pyx_slice__10);
 
-  /* "src/eegModel.py":286
+  /* "eegModel.py":286
  * 
  *     except KeyboardInterrupt:
  *         print("\nStopped by user.")             # <<<<<<<<<<<<<<
@@ -11202,10 +11202,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__12);
   __Pyx_GIVEREF(__pyx_tuple__12);
 
-  /* "src/eegModel.py":19
+  /* "eegModel.py":19
  * dqnutils = AdaptiveDQNRLEEGNET()
  * # Load the pre-trained DQN model
- * model = DQN.load("C:\DEV\EEG\eegFrontendPage\eeg_tool\src\data\processed\dqn_model_session1.zip")             # <<<<<<<<<<<<<<
+ * model = DQN.load("C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\sample_data\processed\dqn_model_session1")             # <<<<<<<<<<<<<<
  * print("DQN model loaded.")
  * 
  */
@@ -11213,9 +11213,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
 
-  /* "src/eegModel.py":20
+  /* "eegModel.py":20
  * # Load the pre-trained DQN model
- * model = DQN.load("C:\DEV\EEG\eegFrontendPage\eeg_tool\src\data\processed\dqn_model_session1.zip")
+ * model = DQN.load("C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\sample_data\processed\dqn_model_session1")
  * print("DQN model loaded.")             # <<<<<<<<<<<<<<
  * 
  * # Load the pre-trained CSP filters
@@ -11224,20 +11224,20 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__15);
   __Pyx_GIVEREF(__pyx_tuple__15);
 
-  /* "src/eegModel.py":23
+  /* "eegModel.py":23
  * 
  * # Load the pre-trained CSP filters
- * csp_filters = joblib.load('csp_filters_ovr.pkl')             # <<<<<<<<<<<<<<
+ * csp_filters = joblib.load('C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\csp_filters_ovr.pkl')             # <<<<<<<<<<<<<<
  * print("CSP filters loaded for real-time use.")
  * 
  */
-  __pyx_tuple__16 = PyTuple_Pack(1, __pyx_kp_u_csp_filters_ovr_pkl); if (unlikely(!__pyx_tuple__16)) __PYX_ERR(0, 23, __pyx_L1_error)
+  __pyx_tuple__16 = PyTuple_Pack(1, __pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to_2); if (unlikely(!__pyx_tuple__16)) __PYX_ERR(0, 23, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__16);
   __Pyx_GIVEREF(__pyx_tuple__16);
 
-  /* "src/eegModel.py":24
+  /* "eegModel.py":24
  * # Load the pre-trained CSP filters
- * csp_filters = joblib.load('csp_filters_ovr.pkl')
+ * csp_filters = joblib.load('C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\csp_filters_ovr.pkl')
  * print("CSP filters loaded for real-time use.")             # <<<<<<<<<<<<<<
  * 
  * # Load the scaler used during training
@@ -11246,20 +11246,20 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__17);
   __Pyx_GIVEREF(__pyx_tuple__17);
 
-  /* "src/eegModel.py":27
+  /* "eegModel.py":27
  * 
  * # Load the scaler used during training
- * scaler = joblib.load('scaler.pkl')             # <<<<<<<<<<<<<<
+ * scaler = joblib.load('C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\scaler.pkl')             # <<<<<<<<<<<<<<
  * print("Scaler loaded for real-time use.")
  * 
  */
-  __pyx_tuple__18 = PyTuple_Pack(1, __pyx_kp_u_scaler_pkl); if (unlikely(!__pyx_tuple__18)) __PYX_ERR(0, 27, __pyx_L1_error)
+  __pyx_tuple__18 = PyTuple_Pack(1, __pyx_kp_u_C_DEV_EEG_eegFrontendPage_eeg_to_3); if (unlikely(!__pyx_tuple__18)) __PYX_ERR(0, 27, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__18);
   __Pyx_GIVEREF(__pyx_tuple__18);
 
-  /* "src/eegModel.py":28
+  /* "eegModel.py":28
  * # Load the scaler used during training
- * scaler = joblib.load('scaler.pkl')
+ * scaler = joblib.load('C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\scaler.pkl')
  * print("Scaler loaded for real-time use.")             # <<<<<<<<<<<<<<
  * 
  * class MultiChannelCircularBuffer:
@@ -11268,7 +11268,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__19);
   __Pyx_GIVEREF(__pyx_tuple__19);
 
-  /* "src/eegModel.py":31
+  /* "eegModel.py":31
  * 
  * class MultiChannelCircularBuffer:
  *     def __init__(self, num_channels, buffer_size, window_size=1250, overlap_ratio=0.8):             # <<<<<<<<<<<<<<
@@ -11283,7 +11283,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__22);
   __Pyx_GIVEREF(__pyx_tuple__22);
 
-  /* "src/eegModel.py":46
+  /* "eegModel.py":46
  *         print(f"- Step size: {self.step_size} samples ({self.step_size/250:.3f}s)")
  * 
  *     def add_data(self, data):             # <<<<<<<<<<<<<<
@@ -11295,7 +11295,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__23);
   __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eegModel_py, __pyx_n_s_add_data, 46, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) __PYX_ERR(0, 46, __pyx_L1_error)
 
-  /* "src/eegModel.py":65
+  /* "eegModel.py":65
  *         return samples_since_last >= self.step_size
  * 
  *     def get_window(self):             # <<<<<<<<<<<<<<
@@ -11307,7 +11307,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__25);
   __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eegModel_py, __pyx_n_s_get_window, 65, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) __PYX_ERR(0, 65, __pyx_L1_error)
 
-  /* "src/eegModel.py":83
+  /* "eegModel.py":83
  * 
  * class SimulationConnection:
  *     def __init__(self, host='http://localhost:5000'):             # <<<<<<<<<<<<<<
@@ -11322,7 +11322,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__29);
   __Pyx_GIVEREF(__pyx_tuple__29);
 
-  /* "src/eegModel.py":86
+  /* "eegModel.py":86
  *         self.host = host
  * 
  *     def send_command(self, command):             # <<<<<<<<<<<<<<
@@ -11334,7 +11334,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__30);
   __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eegModel_py, __pyx_n_s_send_command, 86, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) __PYX_ERR(0, 86, __pyx_L1_error)
 
-  /* "src/eegModel.py":94
+  /* "eegModel.py":94
  *             return False
  * 
  *     def close(self):             # <<<<<<<<<<<<<<
@@ -11346,7 +11346,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__32);
   __pyx_codeobj__33 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eegModel_py, __pyx_n_s_close, 94, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__33)) __PYX_ERR(0, 94, __pyx_L1_error)
 
-  /* "src/eegModel.py":100
+  /* "eegModel.py":100
  * 
  * class ArduinoConnection:
  *     def __init__(self, host, port):             # <<<<<<<<<<<<<<
@@ -11358,7 +11358,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__34);
   __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eegModel_py, __pyx_n_s_init, 100, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) __PYX_ERR(0, 100, __pyx_L1_error)
 
-  /* "src/eegModel.py":106
+  /* "eegModel.py":106
  *         self.STOP_DURATION = 0.5
  * 
  *     def send_command(self, new_command):             # <<<<<<<<<<<<<<
@@ -11370,7 +11370,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__36);
   __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eegModel_py, __pyx_n_s_send_command, 106, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) __PYX_ERR(0, 106, __pyx_L1_error)
 
-  /* "src/eegModel.py":122
+  /* "eegModel.py":122
  *                 print(f"Connection error: {e}")
  * 
  *     def _send_http_command(self, command):             # <<<<<<<<<<<<<<
@@ -11382,7 +11382,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__38);
   __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eegModel_py, __pyx_n_s_send_http_command, 122, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 122, __pyx_L1_error)
 
-  /* "src/eegModel.py":130
+  /* "eegModel.py":130
  *             print(f"HTTP request error: {e}")
  * 
  *     def close(self):             # <<<<<<<<<<<<<<
@@ -11391,7 +11391,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__40 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eegModel_py, __pyx_n_s_close, 130, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__40)) __PYX_ERR(0, 130, __pyx_L1_error)
 
-  /* "src/eegModel.py":132
+  /* "eegModel.py":132
  *     def close(self):
  *         self._send_http_command('S')
  * arduino = ArduinoConnection('192.168.1.168', 80)             # <<<<<<<<<<<<<<
@@ -11402,7 +11402,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__41);
   __Pyx_GIVEREF(__pyx_tuple__41);
 
-  /* "src/eegModel.py":134
+  /* "eegModel.py":134
  * arduino = ArduinoConnection('192.168.1.168', 80)
  * 
  * def map_action_to_command(action):             # <<<<<<<<<<<<<<
@@ -11414,7 +11414,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__42);
   __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__42, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eegModel_py, __pyx_n_s_map_action_to_command, 134, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) __PYX_ERR(0, 134, __pyx_L1_error)
 
-  /* "src/eegModel.py":162
+  /* "eegModel.py":162
  * board = BoardShim(BoardIds.CYTON_BOARD.value, params)
  * board.prepare_session()
  * print("BrainFlow session prepared.")             # <<<<<<<<<<<<<<
@@ -11425,7 +11425,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__44);
   __Pyx_GIVEREF(__pyx_tuple__44);
 
-  /* "src/eegModel.py":164
+  /* "eegModel.py":164
  * print("BrainFlow session prepared.")
  * board.start_stream()
  * print("Started data stream from board.")             # <<<<<<<<<<<<<<
@@ -11436,7 +11436,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__45);
   __Pyx_GIVEREF(__pyx_tuple__45);
 
-  /* "src/eegModel.py":166
+  /* "eegModel.py":166
  * print("Started data stream from board.")
  * 
  * def get_conservative_prediction(predictions, confidences, similarity_threshold=0.5):             # <<<<<<<<<<<<<<
@@ -11451,7 +11451,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__48);
   __Pyx_GIVEREF(__pyx_tuple__48);
 
-  /* "src/eegModel.py":189
+  /* "eegModel.py":189
  *     return predictions[max_idx], confidences[max_idx]
  * 
  * def cleanup_resources():             # <<<<<<<<<<<<<<
@@ -11463,7 +11463,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__49);
   __pyx_codeobj__50 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__49, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eegModel_py, __pyx_n_s_cleanup_resources, 189, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__50)) __PYX_ERR(0, 189, __pyx_L1_error)
 
-  /* "src/eegModel.py":202
+  /* "eegModel.py":202
  *         print(f"Error during cleanup: {e}")
  * 
  * def main():             # <<<<<<<<<<<<<<
@@ -11556,22 +11556,22 @@ static int __Pyx_modinit_type_init_code(void) {
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_init_code", 0);
   /*--- Type init code ---*/
   #if CYTHON_USE_TYPE_SPECS
-  __pyx_ptype_3src_8eegModel___pyx_scope_struct__get_conservative_prediction = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_3src_8eegModel___pyx_scope_struct__get_conservative_prediction_spec, NULL); if (unlikely(!__pyx_ptype_3src_8eegModel___pyx_scope_struct__get_conservative_prediction)) __PYX_ERR(0, 166, __pyx_L1_error)
-  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_3src_8eegModel___pyx_scope_struct__get_conservative_prediction_spec, __pyx_ptype_3src_8eegModel___pyx_scope_struct__get_conservative_prediction) < 0) __PYX_ERR(0, 166, __pyx_L1_error)
+  __pyx_ptype_8eegModel___pyx_scope_struct__get_conservative_prediction = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_8eegModel___pyx_scope_struct__get_conservative_prediction_spec, NULL); if (unlikely(!__pyx_ptype_8eegModel___pyx_scope_struct__get_conservative_prediction)) __PYX_ERR(0, 166, __pyx_L1_error)
+  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_8eegModel___pyx_scope_struct__get_conservative_prediction_spec, __pyx_ptype_8eegModel___pyx_scope_struct__get_conservative_prediction) < 0) __PYX_ERR(0, 166, __pyx_L1_error)
   #else
-  __pyx_ptype_3src_8eegModel___pyx_scope_struct__get_conservative_prediction = &__pyx_type_3src_8eegModel___pyx_scope_struct__get_conservative_prediction;
+  __pyx_ptype_8eegModel___pyx_scope_struct__get_conservative_prediction = &__pyx_type_8eegModel___pyx_scope_struct__get_conservative_prediction;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
   #endif
   #if !CYTHON_USE_TYPE_SPECS
-  if (__Pyx_PyType_Ready(__pyx_ptype_3src_8eegModel___pyx_scope_struct__get_conservative_prediction) < 0) __PYX_ERR(0, 166, __pyx_L1_error)
+  if (__Pyx_PyType_Ready(__pyx_ptype_8eegModel___pyx_scope_struct__get_conservative_prediction) < 0) __PYX_ERR(0, 166, __pyx_L1_error)
   #endif
   #if PY_MAJOR_VERSION < 3
-  __pyx_ptype_3src_8eegModel___pyx_scope_struct__get_conservative_prediction->tp_print = 0;
+  __pyx_ptype_8eegModel___pyx_scope_struct__get_conservative_prediction->tp_print = 0;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_3src_8eegModel___pyx_scope_struct__get_conservative_prediction->tp_dictoffset && __pyx_ptype_3src_8eegModel___pyx_scope_struct__get_conservative_prediction->tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_ptype_3src_8eegModel___pyx_scope_struct__get_conservative_prediction->tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_8eegModel___pyx_scope_struct__get_conservative_prediction->tp_dictoffset && __pyx_ptype_8eegModel___pyx_scope_struct__get_conservative_prediction->tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_ptype_8eegModel___pyx_scope_struct__get_conservative_prediction->tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
   }
   #endif
   __Pyx_RefNannyFinishContext();
@@ -11867,14 +11867,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_src__eegModel) {
+  if (__pyx_module_is_main_eegModel) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "src.eegModel")) {
-      if (unlikely((PyDict_SetItemString(modules, "src.eegModel", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "eegModel")) {
+      if (unlikely((PyDict_SetItemString(modules, "eegModel", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -11895,9 +11895,9 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "src/eegModel.py":1
+  /* "eegModel.py":1
  * import time             # <<<<<<<<<<<<<<
- * from eeg_tool.src.AdaptiveDQN_RLEEGNET import AdaptiveDQNRLEEGNET
+ * from AdaptiveDQN_RLEEGNET import AdaptiveDQNRLEEGNET
  * import numpy as np
  */
   __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_n_s_time, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1, __pyx_L1_error)
@@ -11905,9 +11905,9 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_time, __pyx_t_2) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":2
+  /* "eegModel.py":2
  * import time
- * from eeg_tool.src.AdaptiveDQN_RLEEGNET import AdaptiveDQNRLEEGNET             # <<<<<<<<<<<<<<
+ * from AdaptiveDQN_RLEEGNET import AdaptiveDQNRLEEGNET             # <<<<<<<<<<<<<<
  * import numpy as np
  * import time
  */
@@ -11916,7 +11916,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_INCREF(__pyx_n_s_AdaptiveDQNRLEEGNET);
   __Pyx_GIVEREF(__pyx_n_s_AdaptiveDQNRLEEGNET);
   if (__Pyx_PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_AdaptiveDQNRLEEGNET)) __PYX_ERR(0, 2, __pyx_L1_error);
-  __pyx_t_3 = __Pyx_Import(__pyx_n_s_eeg_tool_src_AdaptiveDQN_RLEEGNE, __pyx_t_2, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_Import(__pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_t_2, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_3, __pyx_n_s_AdaptiveDQNRLEEGNET); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2, __pyx_L1_error)
@@ -11925,9 +11925,9 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":3
+  /* "eegModel.py":3
  * import time
- * from eeg_tool.src.AdaptiveDQN_RLEEGNET import AdaptiveDQNRLEEGNET
+ * from AdaptiveDQN_RLEEGNET import AdaptiveDQNRLEEGNET
  * import numpy as np             # <<<<<<<<<<<<<<
  * import time
  * import socket
@@ -11937,8 +11937,8 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_3) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":4
- * from eeg_tool.src.AdaptiveDQN_RLEEGNET import AdaptiveDQNRLEEGNET
+  /* "eegModel.py":4
+ * from AdaptiveDQN_RLEEGNET import AdaptiveDQNRLEEGNET
  * import numpy as np
  * import time             # <<<<<<<<<<<<<<
  * import socket
@@ -11949,7 +11949,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_time, __pyx_t_3) < 0) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":5
+  /* "eegModel.py":5
  * import numpy as np
  * import time
  * import socket             # <<<<<<<<<<<<<<
@@ -11961,7 +11961,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_socket, __pyx_t_3) < 0) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":6
+  /* "eegModel.py":6
  * import time
  * import socket
  * from stable_baselines3 import DQN             # <<<<<<<<<<<<<<
@@ -11982,7 +11982,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":7
+  /* "eegModel.py":7
  * import socket
  * from stable_baselines3 import DQN
  * from brainflow.board_shim import BoardShim, BrainFlowInputParams, BoardIds             # <<<<<<<<<<<<<<
@@ -12017,7 +12017,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":8
+  /* "eegModel.py":8
  * from stable_baselines3 import DQN
  * from brainflow.board_shim import BoardShim, BrainFlowInputParams, BoardIds
  * from mne.decoding import CSP             # <<<<<<<<<<<<<<
@@ -12038,7 +12038,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":9
+  /* "eegModel.py":9
  * from brainflow.board_shim import BoardShim, BrainFlowInputParams, BoardIds
  * from mne.decoding import CSP
  * import joblib             # <<<<<<<<<<<<<<
@@ -12050,7 +12050,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_joblib, __pyx_t_2) < 0) __PYX_ERR(0, 9, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":10
+  /* "eegModel.py":10
  * from mne.decoding import CSP
  * import joblib
  * import tensorflow as tf             # <<<<<<<<<<<<<<
@@ -12062,7 +12062,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_tf, __pyx_t_2) < 0) __PYX_ERR(0, 10, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":11
+  /* "eegModel.py":11
  * import joblib
  * import tensorflow as tf
  * import mne             # <<<<<<<<<<<<<<
@@ -12074,7 +12074,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_mne, __pyx_t_2) < 0) __PYX_ERR(0, 11, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":12
+  /* "eegModel.py":12
  * import tensorflow as tf
  * import mne
  * import torch             # <<<<<<<<<<<<<<
@@ -12086,7 +12086,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_torch, __pyx_t_2) < 0) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":14
+  /* "eegModel.py":14
  * import torch
  * 
  * MIN_CONFIDENCE = 0.3             # <<<<<<<<<<<<<<
@@ -12095,7 +12095,7 @@ if (!__Pyx_RefNanny) {
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_MIN_CONFIDENCE, __pyx_float_0_3) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
 
-  /* "src/eegModel.py":15
+  /* "eegModel.py":15
  * 
  * MIN_CONFIDENCE = 0.3
  * MAX_CONFIDENCE = 0.8             # <<<<<<<<<<<<<<
@@ -12104,7 +12104,7 @@ if (!__Pyx_RefNanny) {
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_MAX_CONFIDENCE, __pyx_float_0_8) < 0) __PYX_ERR(0, 15, __pyx_L1_error)
 
-  /* "src/eegModel.py":16
+  /* "eegModel.py":16
  * MIN_CONFIDENCE = 0.3
  * MAX_CONFIDENCE = 0.8
  * COMMAND_DURATION = 0.5             # <<<<<<<<<<<<<<
@@ -12113,12 +12113,12 @@ if (!__Pyx_RefNanny) {
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_COMMAND_DURATION, __pyx_float_0_5) < 0) __PYX_ERR(0, 16, __pyx_L1_error)
 
-  /* "src/eegModel.py":17
+  /* "eegModel.py":17
  * MAX_CONFIDENCE = 0.8
  * COMMAND_DURATION = 0.5
  * dqnutils = AdaptiveDQNRLEEGNET()             # <<<<<<<<<<<<<<
  * # Load the pre-trained DQN model
- * model = DQN.load("C:\DEV\EEG\eegFrontendPage\eeg_tool\src\data\processed\dqn_model_session1.zip")
+ * model = DQN.load("C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\sample_data\processed\dqn_model_session1")
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_AdaptiveDQNRLEEGNET); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -12128,10 +12128,10 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_dqnutils, __pyx_t_3) < 0) __PYX_ERR(0, 17, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":19
+  /* "eegModel.py":19
  * dqnutils = AdaptiveDQNRLEEGNET()
  * # Load the pre-trained DQN model
- * model = DQN.load("C:\DEV\EEG\eegFrontendPage\eeg_tool\src\data\processed\dqn_model_session1.zip")             # <<<<<<<<<<<<<<
+ * model = DQN.load("C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\sample_data\processed\dqn_model_session1")             # <<<<<<<<<<<<<<
  * print("DQN model loaded.")
  * 
  */
@@ -12146,9 +12146,9 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_model, __pyx_t_3) < 0) __PYX_ERR(0, 19, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":20
+  /* "eegModel.py":20
  * # Load the pre-trained DQN model
- * model = DQN.load("C:\DEV\EEG\eegFrontendPage\eeg_tool\src\data\processed\dqn_model_session1.zip")
+ * model = DQN.load("C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\sample_data\processed\dqn_model_session1")
  * print("DQN model loaded.")             # <<<<<<<<<<<<<<
  * 
  * # Load the pre-trained CSP filters
@@ -12157,10 +12157,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":23
+  /* "eegModel.py":23
  * 
  * # Load the pre-trained CSP filters
- * csp_filters = joblib.load('csp_filters_ovr.pkl')             # <<<<<<<<<<<<<<
+ * csp_filters = joblib.load('C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\csp_filters_ovr.pkl')             # <<<<<<<<<<<<<<
  * print("CSP filters loaded for real-time use.")
  * 
  */
@@ -12175,9 +12175,9 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_csp_filters, __pyx_t_3) < 0) __PYX_ERR(0, 23, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":24
+  /* "eegModel.py":24
  * # Load the pre-trained CSP filters
- * csp_filters = joblib.load('csp_filters_ovr.pkl')
+ * csp_filters = joblib.load('C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\csp_filters_ovr.pkl')
  * print("CSP filters loaded for real-time use.")             # <<<<<<<<<<<<<<
  * 
  * # Load the scaler used during training
@@ -12186,10 +12186,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":27
+  /* "eegModel.py":27
  * 
  * # Load the scaler used during training
- * scaler = joblib.load('scaler.pkl')             # <<<<<<<<<<<<<<
+ * scaler = joblib.load('C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\scaler.pkl')             # <<<<<<<<<<<<<<
  * print("Scaler loaded for real-time use.")
  * 
  */
@@ -12204,9 +12204,9 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_scaler, __pyx_t_3) < 0) __PYX_ERR(0, 27, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":28
+  /* "eegModel.py":28
  * # Load the scaler used during training
- * scaler = joblib.load('scaler.pkl')
+ * scaler = joblib.load('C:\DEV\EEG\eegFrontendPage\eeg_tool_deployment\src\scaler.pkl')
  * print("Scaler loaded for real-time use.")             # <<<<<<<<<<<<<<
  * 
  * class MultiChannelCircularBuffer:
@@ -12215,54 +12215,54 @@ if (!__Pyx_RefNanny) {
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":30
+  /* "eegModel.py":30
  * print("Scaler loaded for real-time use.")
  * 
  * class MultiChannelCircularBuffer:             # <<<<<<<<<<<<<<
  *     def __init__(self, num_channels, buffer_size, window_size=1250, overlap_ratio=0.8):
  *         self.buffer = np.zeros((num_channels, buffer_size))
  */
-  __pyx_t_3 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_MultiChannelCircularBuffer, __pyx_n_s_MultiChannelCircularBuffer, (PyObject *) NULL, __pyx_n_s_src_eegModel, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 30, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_MultiChannelCircularBuffer, __pyx_n_s_MultiChannelCircularBuffer, (PyObject *) NULL, __pyx_n_s_eegModel, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
 
-  /* "src/eegModel.py":31
+  /* "eegModel.py":31
  * 
  * class MultiChannelCircularBuffer:
  *     def __init__(self, num_channels, buffer_size, window_size=1250, overlap_ratio=0.8):             # <<<<<<<<<<<<<<
  *         self.buffer = np.zeros((num_channels, buffer_size))
  *         self.buffer_size = buffer_size
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_3src_8eegModel_26MultiChannelCircularBuffer_1__init__, 0, __pyx_n_s_MultiChannelCircularBuffer___ini, NULL, __pyx_n_s_src_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__21)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 31, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_8eegModel_26MultiChannelCircularBuffer_1__init__, 0, __pyx_n_s_MultiChannelCircularBuffer___ini, NULL, __pyx_n_s_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__21)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 31, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_2, __pyx_tuple__22);
   if (__Pyx_SetNameInClass(__pyx_t_3, __pyx_n_s_init, __pyx_t_2) < 0) __PYX_ERR(0, 31, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":46
+  /* "eegModel.py":46
  *         print(f"- Step size: {self.step_size} samples ({self.step_size/250:.3f}s)")
  * 
  *     def add_data(self, data):             # <<<<<<<<<<<<<<
  *         """Add new data and return True if enough new samples for next window"""
  *         num_samples = data.shape[1]
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_3src_8eegModel_26MultiChannelCircularBuffer_3add_data, 0, __pyx_n_s_MultiChannelCircularBuffer_add_d, NULL, __pyx_n_s_src_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__24)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 46, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_8eegModel_26MultiChannelCircularBuffer_3add_data, 0, __pyx_n_s_MultiChannelCircularBuffer_add_d, NULL, __pyx_n_s_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__24)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 46, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (__Pyx_SetNameInClass(__pyx_t_3, __pyx_n_s_add_data, __pyx_t_2) < 0) __PYX_ERR(0, 46, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":65
+  /* "eegModel.py":65
  *         return samples_since_last >= self.step_size
  * 
  *     def get_window(self):             # <<<<<<<<<<<<<<
  *         """Get the latest overlapping window of data"""
  *         # Update last window position
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_3src_8eegModel_26MultiChannelCircularBuffer_5get_window, 0, __pyx_n_s_MultiChannelCircularBuffer_get_w, NULL, __pyx_n_s_src_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__26)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 65, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_8eegModel_26MultiChannelCircularBuffer_5get_window, 0, __pyx_n_s_MultiChannelCircularBuffer_get_w, NULL, __pyx_n_s_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__26)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 65, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (__Pyx_SetNameInClass(__pyx_t_3, __pyx_n_s_get_window, __pyx_t_2) < 0) __PYX_ERR(0, 65, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":30
+  /* "eegModel.py":30
  * print("Scaler loaded for real-time use.")
  * 
  * class MultiChannelCircularBuffer:             # <<<<<<<<<<<<<<
@@ -12275,54 +12275,54 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":82
+  /* "eegModel.py":82
  * 
  * 
  * class SimulationConnection:             # <<<<<<<<<<<<<<
  *     def __init__(self, host='http://localhost:5000'):
  *         self.host = host
  */
-  __pyx_t_3 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_SimulationConnection, __pyx_n_s_SimulationConnection, (PyObject *) NULL, __pyx_n_s_src_eegModel, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 82, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_SimulationConnection, __pyx_n_s_SimulationConnection, (PyObject *) NULL, __pyx_n_s_eegModel, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 82, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
 
-  /* "src/eegModel.py":83
+  /* "eegModel.py":83
  * 
  * class SimulationConnection:
  *     def __init__(self, host='http://localhost:5000'):             # <<<<<<<<<<<<<<
  *         self.host = host
  * 
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_3src_8eegModel_20SimulationConnection_1__init__, 0, __pyx_n_s_SimulationConnection___init, NULL, __pyx_n_s_src_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__28)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 83, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_8eegModel_20SimulationConnection_1__init__, 0, __pyx_n_s_SimulationConnection___init, NULL, __pyx_n_s_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__28)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 83, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_2, __pyx_tuple__29);
   if (__Pyx_SetNameInClass(__pyx_t_3, __pyx_n_s_init, __pyx_t_2) < 0) __PYX_ERR(0, 83, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":86
+  /* "eegModel.py":86
  *         self.host = host
  * 
  *     def send_command(self, command):             # <<<<<<<<<<<<<<
  *         try:
  *             import requests
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_3src_8eegModel_20SimulationConnection_3send_command, 0, __pyx_n_s_SimulationConnection_send_comman, NULL, __pyx_n_s_src_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__31)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 86, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_8eegModel_20SimulationConnection_3send_command, 0, __pyx_n_s_SimulationConnection_send_comman, NULL, __pyx_n_s_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__31)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 86, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (__Pyx_SetNameInClass(__pyx_t_3, __pyx_n_s_send_command, __pyx_t_2) < 0) __PYX_ERR(0, 86, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":94
+  /* "eegModel.py":94
  *             return False
  * 
  *     def close(self):             # <<<<<<<<<<<<<<
  *         pass
  * 
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_3src_8eegModel_20SimulationConnection_5close, 0, __pyx_n_s_SimulationConnection_close, NULL, __pyx_n_s_src_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__33)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_8eegModel_20SimulationConnection_5close, 0, __pyx_n_s_SimulationConnection_close, NULL, __pyx_n_s_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__33)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 94, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (__Pyx_SetNameInClass(__pyx_t_3, __pyx_n_s_close, __pyx_t_2) < 0) __PYX_ERR(0, 94, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":82
+  /* "eegModel.py":82
  * 
  * 
  * class SimulationConnection:             # <<<<<<<<<<<<<<
@@ -12335,7 +12335,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":97
+  /* "eegModel.py":97
  *         pass
  * 
  * simulation = SimulationConnection()             # <<<<<<<<<<<<<<
@@ -12350,65 +12350,65 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_simulation, __pyx_t_2) < 0) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":99
+  /* "eegModel.py":99
  * simulation = SimulationConnection()
  * 
  * class ArduinoConnection:             # <<<<<<<<<<<<<<
  *     def __init__(self, host, port):
  *         self.host = host
  */
-  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_ArduinoConnection, __pyx_n_s_ArduinoConnection, (PyObject *) NULL, __pyx_n_s_src_eegModel, (PyObject *) NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 99, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_ArduinoConnection, __pyx_n_s_ArduinoConnection, (PyObject *) NULL, __pyx_n_s_eegModel, (PyObject *) NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 99, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
 
-  /* "src/eegModel.py":100
+  /* "eegModel.py":100
  * 
  * class ArduinoConnection:
  *     def __init__(self, host, port):             # <<<<<<<<<<<<<<
  *         self.host = host
  *         self.port = port
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_8eegModel_17ArduinoConnection_1__init__, 0, __pyx_n_s_ArduinoConnection___init, NULL, __pyx_n_s_src_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__35)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_8eegModel_17ArduinoConnection_1__init__, 0, __pyx_n_s_ArduinoConnection___init, NULL, __pyx_n_s_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__35)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_init, __pyx_t_3) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":106
+  /* "eegModel.py":106
  *         self.STOP_DURATION = 0.5
  * 
  *     def send_command(self, new_command):             # <<<<<<<<<<<<<<
  *         if new_command != self.current_command:
  *             try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_8eegModel_17ArduinoConnection_3send_command, 0, __pyx_n_s_ArduinoConnection_send_command, NULL, __pyx_n_s_src_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_8eegModel_17ArduinoConnection_3send_command, 0, __pyx_n_s_ArduinoConnection_send_command, NULL, __pyx_n_s_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 106, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_send_command, __pyx_t_3) < 0) __PYX_ERR(0, 106, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":122
+  /* "eegModel.py":122
  *                 print(f"Connection error: {e}")
  * 
  *     def _send_http_command(self, command):             # <<<<<<<<<<<<<<
  *         import requests
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_8eegModel_17ArduinoConnection_5_send_http_command, 0, __pyx_n_s_ArduinoConnection__send_http_com, NULL, __pyx_n_s_src_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__39)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 122, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_8eegModel_17ArduinoConnection_5_send_http_command, 0, __pyx_n_s_ArduinoConnection__send_http_com, NULL, __pyx_n_s_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__39)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 122, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_send_http_command, __pyx_t_3) < 0) __PYX_ERR(0, 122, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":130
+  /* "eegModel.py":130
  *             print(f"HTTP request error: {e}")
  * 
  *     def close(self):             # <<<<<<<<<<<<<<
  *         self._send_http_command('S')
  * arduino = ArduinoConnection('192.168.1.168', 80)
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_8eegModel_17ArduinoConnection_7close, 0, __pyx_n_s_ArduinoConnection_close, NULL, __pyx_n_s_src_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 130, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_8eegModel_17ArduinoConnection_7close, 0, __pyx_n_s_ArduinoConnection_close, NULL, __pyx_n_s_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 130, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_close, __pyx_t_3) < 0) __PYX_ERR(0, 130, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":99
+  /* "eegModel.py":99
  * simulation = SimulationConnection()
  * 
  * class ArduinoConnection:             # <<<<<<<<<<<<<<
@@ -12421,7 +12421,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":132
+  /* "eegModel.py":132
  *     def close(self):
  *         self._send_http_command('S')
  * arduino = ArduinoConnection('192.168.1.168', 80)             # <<<<<<<<<<<<<<
@@ -12436,19 +12436,19 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_arduino, __pyx_t_3) < 0) __PYX_ERR(0, 132, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":134
+  /* "eegModel.py":134
  * arduino = ArduinoConnection('192.168.1.168', 80)
  * 
  * def map_action_to_command(action):             # <<<<<<<<<<<<<<
  *     action_mapping = {
  *         0: 'L',
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_8eegModel_1map_action_to_command, 0, __pyx_n_s_map_action_to_command, NULL, __pyx_n_s_src_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__43)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 134, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_8eegModel_1map_action_to_command, 0, __pyx_n_s_map_action_to_command, NULL, __pyx_n_s_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__43)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 134, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_map_action_to_command, __pyx_t_3) < 0) __PYX_ERR(0, 134, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":144
+  /* "eegModel.py":144
  * 
  * # Initialize components
  * num_channels = 6             # <<<<<<<<<<<<<<
@@ -12457,7 +12457,7 @@ if (!__Pyx_RefNanny) {
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_num_channels, __pyx_int_6) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
 
-  /* "src/eegModel.py":145
+  /* "eegModel.py":145
  * # Initialize components
  * num_channels = 6
  * buffer_size = 1250 * 10  # 10 seconds buffer             # <<<<<<<<<<<<<<
@@ -12466,7 +12466,7 @@ if (!__Pyx_RefNanny) {
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_buffer_size, __pyx_int_12500) < 0) __PYX_ERR(0, 145, __pyx_L1_error)
 
-  /* "src/eegModel.py":146
+  /* "eegModel.py":146
  * num_channels = 6
  * buffer_size = 1250 * 10  # 10 seconds buffer
  * window_size = 1250       # 5 seconds window             # <<<<<<<<<<<<<<
@@ -12475,7 +12475,7 @@ if (!__Pyx_RefNanny) {
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_window_size, __pyx_int_1250) < 0) __PYX_ERR(0, 146, __pyx_L1_error)
 
-  /* "src/eegModel.py":147
+  /* "eegModel.py":147
  * buffer_size = 1250 * 10  # 10 seconds buffer
  * window_size = 1250       # 5 seconds window
  * samples_per_read = 1250  # Read 5 seconds of data at a time             # <<<<<<<<<<<<<<
@@ -12484,7 +12484,7 @@ if (!__Pyx_RefNanny) {
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_samples_per_read, __pyx_int_1250) < 0) __PYX_ERR(0, 147, __pyx_L1_error)
 
-  /* "src/eegModel.py":150
+  /* "eegModel.py":150
  * 
  * # Initialize the buffer
  * eeg_buffer = MultiChannelCircularBuffer(             # <<<<<<<<<<<<<<
@@ -12494,7 +12494,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_MultiChannelCircularBuffer); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
 
-  /* "src/eegModel.py":151
+  /* "eegModel.py":151
  * # Initialize the buffer
  * eeg_buffer = MultiChannelCircularBuffer(
  *     num_channels=num_channels,             # <<<<<<<<<<<<<<
@@ -12508,7 +12508,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_num_channels, __pyx_t_4) < 0) __PYX_ERR(0, 151, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eegModel.py":152
+  /* "eegModel.py":152
  * eeg_buffer = MultiChannelCircularBuffer(
  *     num_channels=num_channels,
  *     buffer_size=buffer_size,             # <<<<<<<<<<<<<<
@@ -12520,7 +12520,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_buffer_size, __pyx_t_4) < 0) __PYX_ERR(0, 151, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eegModel.py":153
+  /* "eegModel.py":153
  *     num_channels=num_channels,
  *     buffer_size=buffer_size,
  *     window_size=window_size,             # <<<<<<<<<<<<<<
@@ -12533,7 +12533,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_overlap_ratio, __pyx_float_0_65) < 0) __PYX_ERR(0, 151, __pyx_L1_error)
 
-  /* "src/eegModel.py":150
+  /* "eegModel.py":150
  * 
  * # Initialize the buffer
  * eeg_buffer = MultiChannelCircularBuffer(             # <<<<<<<<<<<<<<
@@ -12547,7 +12547,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_eeg_buffer, __pyx_t_4) < 0) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eegModel.py":156
+  /* "eegModel.py":156
  *     overlap_ratio=0.65
  * )
  * predictions = []             # <<<<<<<<<<<<<<
@@ -12559,7 +12559,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_predictions, __pyx_t_4) < 0) __PYX_ERR(0, 156, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/eegModel.py":158
+  /* "eegModel.py":158
  * predictions = []
  * # Set up BrainFlow
  * params = BrainFlowInputParams()             # <<<<<<<<<<<<<<
@@ -12574,7 +12574,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_params, __pyx_t_2) < 0) __PYX_ERR(0, 158, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":159
+  /* "eegModel.py":159
  * # Set up BrainFlow
  * params = BrainFlowInputParams()
  * params.serial_port = 'COM9'  # Replace with your actual COM port             # <<<<<<<<<<<<<<
@@ -12586,7 +12586,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_n_s_serial_port, __pyx_n_u_COM9) < 0) __PYX_ERR(0, 159, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/eegModel.py":160
+  /* "eegModel.py":160
  * params = BrainFlowInputParams()
  * params.serial_port = 'COM9'  # Replace with your actual COM port
  * board = BoardShim(BoardIds.CYTON_BOARD.value, params)             # <<<<<<<<<<<<<<
@@ -12620,7 +12620,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_board, __pyx_t_3) < 0) __PYX_ERR(0, 160, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":161
+  /* "eegModel.py":161
  * params.serial_port = 'COM9'  # Replace with your actual COM port
  * board = BoardShim(BoardIds.CYTON_BOARD.value, params)
  * board.prepare_session()             # <<<<<<<<<<<<<<
@@ -12637,7 +12637,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":162
+  /* "eegModel.py":162
  * board = BoardShim(BoardIds.CYTON_BOARD.value, params)
  * board.prepare_session()
  * print("BrainFlow session prepared.")             # <<<<<<<<<<<<<<
@@ -12648,7 +12648,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":163
+  /* "eegModel.py":163
  * board.prepare_session()
  * print("BrainFlow session prepared.")
  * board.start_stream()             # <<<<<<<<<<<<<<
@@ -12665,7 +12665,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":164
+  /* "eegModel.py":164
  * print("BrainFlow session prepared.")
  * board.start_stream()
  * print("Started data stream from board.")             # <<<<<<<<<<<<<<
@@ -12676,44 +12676,44 @@ if (!__Pyx_RefNanny) {
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":166
+  /* "eegModel.py":166
  * print("Started data stream from board.")
  * 
  * def get_conservative_prediction(predictions, confidences, similarity_threshold=0.5):             # <<<<<<<<<<<<<<
  *     """
  *     When confidences are close (within threshold), pick the lower confidence prediction
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_8eegModel_3get_conservative_prediction, 0, __pyx_n_s_get_conservative_prediction, NULL, __pyx_n_s_src_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__47)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 166, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_8eegModel_3get_conservative_prediction, 0, __pyx_n_s_get_conservative_prediction, NULL, __pyx_n_s_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__47)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_tuple__48);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_get_conservative_prediction, __pyx_t_3) < 0) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":189
+  /* "eegModel.py":189
  *     return predictions[max_idx], confidences[max_idx]
  * 
  * def cleanup_resources():             # <<<<<<<<<<<<<<
  *     """
  *     Clean up board and connection resources
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_8eegModel_5cleanup_resources, 0, __pyx_n_s_cleanup_resources, NULL, __pyx_n_s_src_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__50)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 189, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_8eegModel_5cleanup_resources, 0, __pyx_n_s_cleanup_resources, NULL, __pyx_n_s_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__50)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 189, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_cleanup_resources, __pyx_t_3) < 0) __PYX_ERR(0, 189, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":202
+  /* "eegModel.py":202
  *         print(f"Error during cleanup: {e}")
  * 
  * def main():             # <<<<<<<<<<<<<<
  *     try:
  *         # Initialize state variables
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_8eegModel_7main, 0, __pyx_n_s_main_2, NULL, __pyx_n_s_src_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__53)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_8eegModel_7main, 0, __pyx_n_s_main_2, NULL, __pyx_n_s_eegModel, __pyx_d, ((PyObject *)__pyx_codeobj__53)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_main_2, __pyx_t_3) < 0) __PYX_ERR(0, 202, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/eegModel.py":295
+  /* "eegModel.py":295
  * 
  * 
  * if __name__ == "__main__":             # <<<<<<<<<<<<<<
@@ -12726,7 +12726,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_6) {
 
-    /* "src/eegModel.py":296
+    /* "eegModel.py":296
  * 
  * if __name__ == "__main__":
  *     try:             # <<<<<<<<<<<<<<
@@ -12735,7 +12735,7 @@ if (!__Pyx_RefNanny) {
  */
     /*try:*/ {
 
-      /* "src/eegModel.py":297
+      /* "eegModel.py":297
  * if __name__ == "__main__":
  *     try:
  *         main()             # <<<<<<<<<<<<<<
@@ -12750,7 +12750,7 @@ if (!__Pyx_RefNanny) {
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     }
 
-    /* "src/eegModel.py":299
+    /* "eegModel.py":299
  *         main()
  *     finally:
  *         cleanup_resources()             # <<<<<<<<<<<<<<
@@ -12820,7 +12820,7 @@ if (!__Pyx_RefNanny) {
       __pyx_L5:;
     }
 
-    /* "src/eegModel.py":295
+    /* "eegModel.py":295
  * 
  * 
  * if __name__ == "__main__":             # <<<<<<<<<<<<<<
@@ -12829,9 +12829,9 @@ if (!__Pyx_RefNanny) {
  */
   }
 
-  /* "src/eegModel.py":1
+  /* "eegModel.py":1
  * import time             # <<<<<<<<<<<<<<
- * from eeg_tool.src.AdaptiveDQN_RLEEGNET import AdaptiveDQNRLEEGNET
+ * from AdaptiveDQN_RLEEGNET import AdaptiveDQNRLEEGNET
  * import numpy as np
  */
   __pyx_t_5 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1, __pyx_L1_error)
@@ -12849,7 +12849,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_5);
   if (__pyx_m) {
     if (__pyx_d && stringtab_initialized) {
-      __Pyx_AddTraceback("init src.eegModel", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init eegModel", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     #if !CYTHON_USE_MODULE_STATE
     Py_CLEAR(__pyx_m);
@@ -12863,7 +12863,7 @@ if (!__Pyx_RefNanny) {
     }
     #endif
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init src.eegModel");
+    PyErr_SetString(PyExc_ImportError, "init eegModel");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

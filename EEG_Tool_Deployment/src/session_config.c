@@ -3,12 +3,12 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "src.session_config",
+        "name": "session_config",
         "sources": [
             "src\\session_config.py"
         ]
     },
-    "module_name": "src.session_config"
+    "module_name": "session_config"
 }
 END: Cython Metadata */
 
@@ -1228,8 +1228,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__src__session_config
-#define __PYX_HAVE_API__src__session_config
+#define __PYX_HAVE__session_config
+#define __PYX_HAVE_API__session_config
 /* Early includes */
 #ifdef _OPENMP
 #include <omp.h>
@@ -1492,16 +1492,16 @@ static const char *__pyx_f[] = {
 /* #### Code section: type_declarations ### */
 
 /*--- Type declarations ---*/
-struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr;
+struct __pyx_obj_14session_config___pyx_scope_struct__genexpr;
 
-/* "src/session_config.py":73
+/* "session_config.py":73
  * 
  *         config_files = sorted(
  *             f for f in os.listdir(config_dir) if f.endswith('_config.pkl')             # <<<<<<<<<<<<<<
  *         )
  *         if not config_files:
  */
-struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr {
+struct __pyx_obj_14session_config___pyx_scope_struct__genexpr {
   PyObject_HEAD
   PyObject *__pyx_genexpr_arg_0;
   PyObject *__pyx_v_f;
@@ -2328,14 +2328,14 @@ static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 /* #### Code section: module_declarations ### */
 
-/* Module declarations from "src.session_config" */
+/* Module declarations from "session_config" */
 /* #### Code section: typeinfo ### */
 /* #### Code section: before_global_var ### */
-#define __Pyx_MODULE_NAME "src.session_config"
-extern int __pyx_module_is_main_src__session_config;
-int __pyx_module_is_main_src__session_config = 0;
+#define __Pyx_MODULE_NAME "session_config"
+extern int __pyx_module_is_main_session_config;
+int __pyx_module_is_main_session_config = 0;
 
-/* Implementation of "src.session_config" */
+/* Implementation of "session_config" */
 /* #### Code section: global_var ### */
 static PyObject *__pyx_builtin_staticmethod;
 static PyObject *__pyx_builtin_open;
@@ -2408,6 +2408,7 @@ static const char __pyx_k_staticmethod[] = "staticmethod";
 static const char __pyx_k_SessionConfig[] = "SessionConfig";
 static const char __pyx_k_init_subclass[] = "__init_subclass__";
 static const char __pyx_k_break_duration[] = "break_duration";
+static const char __pyx_k_session_config[] = "session_config";
 static const char __pyx_k_channel_configs[] = "channel_configs";
 static const char __pyx_k_record_duration[] = "record_duration";
 static const char __pyx_k_C_NeuroSync_data[] = "C:\\NeuroSync\\data";
@@ -2416,7 +2417,6 @@ static const char __pyx_k_SessionConfig_load[] = "SessionConfig.load";
 static const char __pyx_k_SessionConfig_save[] = "SessionConfig.save";
 static const char __pyx_k_asyncio_coroutines[] = "asyncio.coroutines";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
-static const char __pyx_k_src_session_config[] = "src.session_config";
 static const char __pyx_k_SessionConfig___init[] = "SessionConfig.__init__";
 static const char __pyx_k_SessionConfig_to_dict[] = "SessionConfig.to_dict";
 static const char __pyx_k_src_session_config_py[] = "src\\session_config.py";
@@ -2424,14 +2424,14 @@ static const char __pyx_k_SessionConfig_from_dict[] = "SessionConfig.from_dict";
 static const char __pyx_k_SessionConfig_load_last_config[] = "SessionConfig.load_last_config";
 static const char __pyx_k_SessionConfig_load_last_config_l[] = "SessionConfig.load_last_config.<locals>.genexpr";
 /* #### Code section: decls ### */
-static PyObject *__pyx_pf_3src_14session_config_13SessionConfig___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_2to_dict(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_4from_dict(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_cls, PyObject *__pyx_v_data); /* proto */
-static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_6save(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num); /* proto */
-static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_session_num); /* proto */
-static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_16load_last_config_genexpr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_genexpr_arg_0); /* proto */
-static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_config(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_tp_new_3src_14session_config___pyx_scope_struct__genexpr(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_pf_14session_config_13SessionConfig___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14session_config_13SessionConfig_2to_dict(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14session_config_13SessionConfig_4from_dict(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_cls, PyObject *__pyx_v_data); /* proto */
+static PyObject *__pyx_pf_14session_config_13SessionConfig_6save(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num); /* proto */
+static PyObject *__pyx_pf_14session_config_13SessionConfig_8load(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_session_num); /* proto */
+static PyObject *__pyx_pf_14session_config_13SessionConfig_16load_last_config_genexpr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_genexpr_arg_0); /* proto */
+static PyObject *__pyx_pf_14session_config_13SessionConfig_10load_last_config(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_tp_new_14session_config___pyx_scope_struct__genexpr(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 /* #### Code section: late_includes ### */
 /* #### Code section: module_state ### */
 typedef struct {
@@ -2460,9 +2460,9 @@ typedef struct {
   PyTypeObject *__pyx_CoroutineType;
   #endif
   #if CYTHON_USE_MODULE_STATE
-  PyObject *__pyx_type_3src_14session_config___pyx_scope_struct__genexpr;
+  PyObject *__pyx_type_14session_config___pyx_scope_struct__genexpr;
   #endif
-  PyTypeObject *__pyx_ptype_3src_14session_config___pyx_scope_struct__genexpr;
+  PyTypeObject *__pyx_ptype_14session_config___pyx_scope_struct__genexpr;
   PyObject *__pyx_kp_u_C_NeuroSync_data;
   PyObject *__pyx_n_s_SessionConfig;
   PyObject *__pyx_n_s_SessionConfig___init;
@@ -2542,10 +2542,10 @@ typedef struct {
   PyObject *__pyx_n_s_self;
   PyObject *__pyx_n_s_send;
   PyObject *__pyx_n_u_session;
+  PyObject *__pyx_n_s_session_config;
   PyObject *__pyx_n_s_session_num;
   PyObject *__pyx_n_s_set_name;
   PyObject *__pyx_n_s_spec;
-  PyObject *__pyx_n_s_src_session_config;
   PyObject *__pyx_kp_s_src_session_config_py;
   PyObject *__pyx_n_s_staticmethod;
   PyObject *__pyx_n_s_super;
@@ -2618,8 +2618,8 @@ static int __pyx_m_clear(PyObject *m) {
   #ifdef __Pyx_FusedFunction_USED
   Py_CLEAR(clear_module_state->__pyx_FusedFunctionType);
   #endif
-  Py_CLEAR(clear_module_state->__pyx_ptype_3src_14session_config___pyx_scope_struct__genexpr);
-  Py_CLEAR(clear_module_state->__pyx_type_3src_14session_config___pyx_scope_struct__genexpr);
+  Py_CLEAR(clear_module_state->__pyx_ptype_14session_config___pyx_scope_struct__genexpr);
+  Py_CLEAR(clear_module_state->__pyx_type_14session_config___pyx_scope_struct__genexpr);
   Py_CLEAR(clear_module_state->__pyx_kp_u_C_NeuroSync_data);
   Py_CLEAR(clear_module_state->__pyx_n_s_SessionConfig);
   Py_CLEAR(clear_module_state->__pyx_n_s_SessionConfig___init);
@@ -2699,10 +2699,10 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_self);
   Py_CLEAR(clear_module_state->__pyx_n_s_send);
   Py_CLEAR(clear_module_state->__pyx_n_u_session);
+  Py_CLEAR(clear_module_state->__pyx_n_s_session_config);
   Py_CLEAR(clear_module_state->__pyx_n_s_session_num);
   Py_CLEAR(clear_module_state->__pyx_n_s_set_name);
   Py_CLEAR(clear_module_state->__pyx_n_s_spec);
-  Py_CLEAR(clear_module_state->__pyx_n_s_src_session_config);
   Py_CLEAR(clear_module_state->__pyx_kp_s_src_session_config_py);
   Py_CLEAR(clear_module_state->__pyx_n_s_staticmethod);
   Py_CLEAR(clear_module_state->__pyx_n_s_super);
@@ -2753,8 +2753,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   #ifdef __Pyx_FusedFunction_USED
   Py_VISIT(traverse_module_state->__pyx_FusedFunctionType);
   #endif
-  Py_VISIT(traverse_module_state->__pyx_ptype_3src_14session_config___pyx_scope_struct__genexpr);
-  Py_VISIT(traverse_module_state->__pyx_type_3src_14session_config___pyx_scope_struct__genexpr);
+  Py_VISIT(traverse_module_state->__pyx_ptype_14session_config___pyx_scope_struct__genexpr);
+  Py_VISIT(traverse_module_state->__pyx_type_14session_config___pyx_scope_struct__genexpr);
   Py_VISIT(traverse_module_state->__pyx_kp_u_C_NeuroSync_data);
   Py_VISIT(traverse_module_state->__pyx_n_s_SessionConfig);
   Py_VISIT(traverse_module_state->__pyx_n_s_SessionConfig___init);
@@ -2834,10 +2834,10 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_self);
   Py_VISIT(traverse_module_state->__pyx_n_s_send);
   Py_VISIT(traverse_module_state->__pyx_n_u_session);
+  Py_VISIT(traverse_module_state->__pyx_n_s_session_config);
   Py_VISIT(traverse_module_state->__pyx_n_s_session_num);
   Py_VISIT(traverse_module_state->__pyx_n_s_set_name);
   Py_VISIT(traverse_module_state->__pyx_n_s_spec);
-  Py_VISIT(traverse_module_state->__pyx_n_s_src_session_config);
   Py_VISIT(traverse_module_state->__pyx_kp_s_src_session_config_py);
   Py_VISIT(traverse_module_state->__pyx_n_s_staticmethod);
   Py_VISIT(traverse_module_state->__pyx_n_s_super);
@@ -2897,9 +2897,9 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_CoroutineType __pyx_mstate_global->__pyx_CoroutineType
 #endif
 #if CYTHON_USE_MODULE_STATE
-#define __pyx_type_3src_14session_config___pyx_scope_struct__genexpr __pyx_mstate_global->__pyx_type_3src_14session_config___pyx_scope_struct__genexpr
+#define __pyx_type_14session_config___pyx_scope_struct__genexpr __pyx_mstate_global->__pyx_type_14session_config___pyx_scope_struct__genexpr
 #endif
-#define __pyx_ptype_3src_14session_config___pyx_scope_struct__genexpr __pyx_mstate_global->__pyx_ptype_3src_14session_config___pyx_scope_struct__genexpr
+#define __pyx_ptype_14session_config___pyx_scope_struct__genexpr __pyx_mstate_global->__pyx_ptype_14session_config___pyx_scope_struct__genexpr
 #define __pyx_kp_u_C_NeuroSync_data __pyx_mstate_global->__pyx_kp_u_C_NeuroSync_data
 #define __pyx_n_s_SessionConfig __pyx_mstate_global->__pyx_n_s_SessionConfig
 #define __pyx_n_s_SessionConfig___init __pyx_mstate_global->__pyx_n_s_SessionConfig___init
@@ -2979,10 +2979,10 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_self __pyx_mstate_global->__pyx_n_s_self
 #define __pyx_n_s_send __pyx_mstate_global->__pyx_n_s_send
 #define __pyx_n_u_session __pyx_mstate_global->__pyx_n_u_session
+#define __pyx_n_s_session_config __pyx_mstate_global->__pyx_n_s_session_config
 #define __pyx_n_s_session_num __pyx_mstate_global->__pyx_n_s_session_num
 #define __pyx_n_s_set_name __pyx_mstate_global->__pyx_n_s_set_name
 #define __pyx_n_s_spec __pyx_mstate_global->__pyx_n_s_spec
-#define __pyx_n_s_src_session_config __pyx_mstate_global->__pyx_n_s_src_session_config
 #define __pyx_kp_s_src_session_config_py __pyx_mstate_global->__pyx_kp_s_src_session_config_py
 #define __pyx_n_s_staticmethod __pyx_mstate_global->__pyx_n_s_staticmethod
 #define __pyx_n_s_super __pyx_mstate_global->__pyx_n_s_super
@@ -3015,7 +3015,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_codeobj__19 __pyx_mstate_global->__pyx_codeobj__19
 /* #### Code section: module_code ### */
 
-/* "src/session_config.py":5
+/* "session_config.py":5
  * 
  * class SessionConfig:
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -3024,16 +3024,16 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_14session_config_13SessionConfig_1__init__(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_14session_config_13SessionConfig_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_14session_config_13SessionConfig___init__, "SessionConfig.__init__(self)");
-static PyMethodDef __pyx_mdef_3src_14session_config_13SessionConfig_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_14session_config_13SessionConfig_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_14session_config_13SessionConfig___init__};
-static PyObject *__pyx_pw_3src_14session_config_13SessionConfig_1__init__(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_14session_config_13SessionConfig___init__, "SessionConfig.__init__(self)");
+static PyMethodDef __pyx_mdef_14session_config_13SessionConfig_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_14session_config_13SessionConfig_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_14session_config_13SessionConfig___init__};
+static PyObject *__pyx_pw_14session_config_13SessionConfig_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3103,11 +3103,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.session_config.SessionConfig.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("session_config.SessionConfig.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_14session_config_13SessionConfig___init__(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_14session_config_13SessionConfig___init__(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -3120,7 +3120,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_14session_config_13SessionConfig___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_14session_config_13SessionConfig___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3129,7 +3129,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig___init__(CYTHON_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 1);
 
-  /* "src/session_config.py":6
+  /* "session_config.py":6
  * class SessionConfig:
  *     def __init__(self):
  *         self.actions = {}          # Store action configurations             # <<<<<<<<<<<<<<
@@ -3141,7 +3141,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig___init__(CYTHON_
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_actions, __pyx_t_1) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/session_config.py":7
+  /* "session_config.py":7
  *     def __init__(self):
  *         self.actions = {}          # Store action configurations
  *         self.repetitions = 21             # <<<<<<<<<<<<<<
@@ -3150,7 +3150,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig___init__(CYTHON_
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_repetitions, __pyx_int_21) < 0) __PYX_ERR(0, 7, __pyx_L1_error)
 
-  /* "src/session_config.py":8
+  /* "session_config.py":8
  *         self.actions = {}          # Store action configurations
  *         self.repetitions = 21
  *         self.break_duration = 3             # <<<<<<<<<<<<<<
@@ -3159,7 +3159,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig___init__(CYTHON_
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_break_duration, __pyx_int_3) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
 
-  /* "src/session_config.py":9
+  /* "session_config.py":9
  *         self.repetitions = 21
  *         self.break_duration = 3
  *         self.record_duration = 5             # <<<<<<<<<<<<<<
@@ -3168,7 +3168,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig___init__(CYTHON_
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_record_duration, __pyx_int_5) < 0) __PYX_ERR(0, 9, __pyx_L1_error)
 
-  /* "src/session_config.py":10
+  /* "session_config.py":10
  *         self.break_duration = 3
  *         self.record_duration = 5
  *         self.lowcut = 0.5             # <<<<<<<<<<<<<<
@@ -3177,7 +3177,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig___init__(CYTHON_
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_lowcut, __pyx_float_0_5) < 0) __PYX_ERR(0, 10, __pyx_L1_error)
 
-  /* "src/session_config.py":11
+  /* "session_config.py":11
  *         self.record_duration = 5
  *         self.lowcut = 0.5
  *         self.highcut = 45.0             # <<<<<<<<<<<<<<
@@ -3186,7 +3186,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig___init__(CYTHON_
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_highcut, __pyx_float_45_0) < 0) __PYX_ERR(0, 11, __pyx_L1_error)
 
-  /* "src/session_config.py":12
+  /* "session_config.py":12
  *         self.lowcut = 0.5
  *         self.highcut = 45.0
  *         self.channel_configs = {}  # Add this line to store channel configurations             # <<<<<<<<<<<<<<
@@ -3198,7 +3198,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig___init__(CYTHON_
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_channel_configs, __pyx_t_1) < 0) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/session_config.py":5
+  /* "session_config.py":5
  * 
  * class SessionConfig:
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -3211,7 +3211,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig___init__(CYTHON_
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("src.session_config.SessionConfig.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("session_config.SessionConfig.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3219,7 +3219,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig___init__(CYTHON_
   return __pyx_r;
 }
 
-/* "src/session_config.py":14
+/* "session_config.py":14
  *         self.channel_configs = {}  # Add this line to store channel configurations
  * 
  *     def to_dict(self):             # <<<<<<<<<<<<<<
@@ -3228,16 +3228,16 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig___init__(CYTHON_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_14session_config_13SessionConfig_3to_dict(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_14session_config_13SessionConfig_3to_dict(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_14session_config_13SessionConfig_2to_dict, "SessionConfig.to_dict(self)\n\n        Convert this SessionConfig object into a plain dictionary\n        which can be pickled safely, even under Cython.\n        ");
-static PyMethodDef __pyx_mdef_3src_14session_config_13SessionConfig_3to_dict = {"to_dict", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_14session_config_13SessionConfig_3to_dict, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_14session_config_13SessionConfig_2to_dict};
-static PyObject *__pyx_pw_3src_14session_config_13SessionConfig_3to_dict(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_14session_config_13SessionConfig_2to_dict, "SessionConfig.to_dict(self)\n\n        Convert this SessionConfig object into a plain dictionary\n        which can be pickled safely, even under Cython.\n        ");
+static PyMethodDef __pyx_mdef_14session_config_13SessionConfig_3to_dict = {"to_dict", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_14session_config_13SessionConfig_3to_dict, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_14session_config_13SessionConfig_2to_dict};
+static PyObject *__pyx_pw_14session_config_13SessionConfig_3to_dict(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3307,11 +3307,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.session_config.SessionConfig.to_dict", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("session_config.SessionConfig.to_dict", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_14session_config_13SessionConfig_2to_dict(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_14session_config_13SessionConfig_2to_dict(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -3324,7 +3324,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_2to_dict(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_14session_config_13SessionConfig_2to_dict(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3334,7 +3334,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_2to_dict(CYTHON_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("to_dict", 1);
 
-  /* "src/session_config.py":19
+  /* "session_config.py":19
  *         which can be pickled safely, even under Cython.
  *         """
  *         return {             # <<<<<<<<<<<<<<
@@ -3343,7 +3343,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_2to_dict(CYTHON_
  */
   __Pyx_XDECREF(__pyx_r);
 
-  /* "src/session_config.py":20
+  /* "session_config.py":20
  *         """
  *         return {
  *             "actions": self.actions,             # <<<<<<<<<<<<<<
@@ -3357,7 +3357,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_2to_dict(CYTHON_
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_actions, __pyx_t_2) < 0) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/session_config.py":21
+  /* "session_config.py":21
  *         return {
  *             "actions": self.actions,
  *             "repetitions": self.repetitions,             # <<<<<<<<<<<<<<
@@ -3369,7 +3369,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_2to_dict(CYTHON_
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_repetitions, __pyx_t_2) < 0) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/session_config.py":22
+  /* "session_config.py":22
  *             "actions": self.actions,
  *             "repetitions": self.repetitions,
  *             "break_duration": self.break_duration,             # <<<<<<<<<<<<<<
@@ -3381,7 +3381,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_2to_dict(CYTHON_
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_break_duration, __pyx_t_2) < 0) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/session_config.py":23
+  /* "session_config.py":23
  *             "repetitions": self.repetitions,
  *             "break_duration": self.break_duration,
  *             "record_duration": self.record_duration,             # <<<<<<<<<<<<<<
@@ -3393,7 +3393,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_2to_dict(CYTHON_
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_record_duration, __pyx_t_2) < 0) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/session_config.py":24
+  /* "session_config.py":24
  *             "break_duration": self.break_duration,
  *             "record_duration": self.record_duration,
  *             "lowcut": self.lowcut,             # <<<<<<<<<<<<<<
@@ -3405,7 +3405,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_2to_dict(CYTHON_
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_lowcut, __pyx_t_2) < 0) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/session_config.py":25
+  /* "session_config.py":25
  *             "record_duration": self.record_duration,
  *             "lowcut": self.lowcut,
  *             "highcut": self.highcut,             # <<<<<<<<<<<<<<
@@ -3417,7 +3417,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_2to_dict(CYTHON_
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_highcut, __pyx_t_2) < 0) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/session_config.py":26
+  /* "session_config.py":26
  *             "lowcut": self.lowcut,
  *             "highcut": self.highcut,
  *             "channel_configs": self.channel_configs  # Add this line to include channel configs             # <<<<<<<<<<<<<<
@@ -3432,7 +3432,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_2to_dict(CYTHON_
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "src/session_config.py":14
+  /* "session_config.py":14
  *         self.channel_configs = {}  # Add this line to store channel configurations
  * 
  *     def to_dict(self):             # <<<<<<<<<<<<<<
@@ -3444,7 +3444,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_2to_dict(CYTHON_
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("src.session_config.SessionConfig.to_dict", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("session_config.SessionConfig.to_dict", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3452,7 +3452,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_2to_dict(CYTHON_
   return __pyx_r;
 }
 
-/* "src/session_config.py":29
+/* "session_config.py":29
  *         }
  * 
  *     @classmethod             # <<<<<<<<<<<<<<
@@ -3461,16 +3461,16 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_2to_dict(CYTHON_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_14session_config_13SessionConfig_5from_dict(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_14session_config_13SessionConfig_5from_dict(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_14session_config_13SessionConfig_4from_dict, "SessionConfig.from_dict(cls, data)\n\n        Reconstruct a SessionConfig object from a dictionary\n        ");
-static PyMethodDef __pyx_mdef_3src_14session_config_13SessionConfig_5from_dict = {"from_dict", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_14session_config_13SessionConfig_5from_dict, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_14session_config_13SessionConfig_4from_dict};
-static PyObject *__pyx_pw_3src_14session_config_13SessionConfig_5from_dict(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_14session_config_13SessionConfig_4from_dict, "SessionConfig.from_dict(cls, data)\n\n        Reconstruct a SessionConfig object from a dictionary\n        ");
+static PyMethodDef __pyx_mdef_14session_config_13SessionConfig_5from_dict = {"from_dict", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_14session_config_13SessionConfig_5from_dict, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_14session_config_13SessionConfig_4from_dict};
+static PyObject *__pyx_pw_14session_config_13SessionConfig_5from_dict(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3555,11 +3555,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.session_config.SessionConfig.from_dict", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("session_config.SessionConfig.from_dict", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_14session_config_13SessionConfig_4from_dict(__pyx_self, __pyx_v_cls, __pyx_v_data);
+  __pyx_r = __pyx_pf_14session_config_13SessionConfig_4from_dict(__pyx_self, __pyx_v_cls, __pyx_v_data);
 
   /* function exit code */
   {
@@ -3572,7 +3572,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_4from_dict(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_cls, PyObject *__pyx_v_data) {
+static PyObject *__pyx_pf_14session_config_13SessionConfig_4from_dict(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_cls, PyObject *__pyx_v_data) {
   PyObject *__pyx_v_obj = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -3586,7 +3586,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_4from_dict(CYTHO
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("from_dict", 1);
 
-  /* "src/session_config.py":34
+  /* "session_config.py":34
  *         Reconstruct a SessionConfig object from a dictionary
  *         """
  *         obj = cls()             # <<<<<<<<<<<<<<
@@ -3619,7 +3619,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_4from_dict(CYTHO
   __pyx_v_obj = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "src/session_config.py":35
+  /* "session_config.py":35
  *         """
  *         obj = cls()
  *         obj.actions = data.get("actions", {})             # <<<<<<<<<<<<<<
@@ -3656,7 +3656,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_4from_dict(CYTHO
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_obj, __pyx_n_s_actions, __pyx_t_1) < 0) __PYX_ERR(0, 35, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/session_config.py":36
+  /* "session_config.py":36
  *         obj = cls()
  *         obj.actions = data.get("actions", {})
  *         obj.repetitions = data.get("repetitions", 21)             # <<<<<<<<<<<<<<
@@ -3671,7 +3671,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_4from_dict(CYTHO
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_obj, __pyx_n_s_repetitions, __pyx_t_2) < 0) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/session_config.py":37
+  /* "session_config.py":37
  *         obj.actions = data.get("actions", {})
  *         obj.repetitions = data.get("repetitions", 21)
  *         obj.break_duration = data.get("break_duration", 3)             # <<<<<<<<<<<<<<
@@ -3686,7 +3686,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_4from_dict(CYTHO
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_obj, __pyx_n_s_break_duration, __pyx_t_1) < 0) __PYX_ERR(0, 37, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/session_config.py":38
+  /* "session_config.py":38
  *         obj.repetitions = data.get("repetitions", 21)
  *         obj.break_duration = data.get("break_duration", 3)
  *         obj.record_duration = data.get("record_duration", 5)             # <<<<<<<<<<<<<<
@@ -3701,7 +3701,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_4from_dict(CYTHO
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_obj, __pyx_n_s_record_duration, __pyx_t_2) < 0) __PYX_ERR(0, 38, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/session_config.py":39
+  /* "session_config.py":39
  *         obj.break_duration = data.get("break_duration", 3)
  *         obj.record_duration = data.get("record_duration", 5)
  *         obj.lowcut = data.get("lowcut", 0.5)             # <<<<<<<<<<<<<<
@@ -3716,7 +3716,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_4from_dict(CYTHO
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_obj, __pyx_n_s_lowcut, __pyx_t_1) < 0) __PYX_ERR(0, 39, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/session_config.py":40
+  /* "session_config.py":40
  *         obj.record_duration = data.get("record_duration", 5)
  *         obj.lowcut = data.get("lowcut", 0.5)
  *         obj.highcut = data.get("highcut", 45.0)             # <<<<<<<<<<<<<<
@@ -3731,7 +3731,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_4from_dict(CYTHO
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_obj, __pyx_n_s_highcut, __pyx_t_2) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/session_config.py":41
+  /* "session_config.py":41
  *         obj.lowcut = data.get("lowcut", 0.5)
  *         obj.highcut = data.get("highcut", 45.0)
  *         obj.channel_configs = data.get("channel_configs", {})  # Add this line to load channel configs             # <<<<<<<<<<<<<<
@@ -3768,7 +3768,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_4from_dict(CYTHO
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_obj, __pyx_n_s_channel_configs, __pyx_t_2) < 0) __PYX_ERR(0, 41, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/session_config.py":42
+  /* "session_config.py":42
  *         obj.highcut = data.get("highcut", 45.0)
  *         obj.channel_configs = data.get("channel_configs", {})  # Add this line to load channel configs
  *         return obj             # <<<<<<<<<<<<<<
@@ -3780,7 +3780,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_4from_dict(CYTHO
   __pyx_r = __pyx_v_obj;
   goto __pyx_L0;
 
-  /* "src/session_config.py":29
+  /* "session_config.py":29
  *         }
  * 
  *     @classmethod             # <<<<<<<<<<<<<<
@@ -3794,7 +3794,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_4from_dict(CYTHO
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("src.session_config.SessionConfig.from_dict", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("session_config.SessionConfig.from_dict", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_obj);
@@ -3803,7 +3803,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_4from_dict(CYTHO
   return __pyx_r;
 }
 
-/* "src/session_config.py":44
+/* "session_config.py":44
  *         return obj
  * 
  *     def save(self, session_num):             # <<<<<<<<<<<<<<
@@ -3812,16 +3812,16 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_4from_dict(CYTHO
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_14session_config_13SessionConfig_7save(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_14session_config_13SessionConfig_7save(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_14session_config_13SessionConfig_6save, "SessionConfig.save(self, session_num)\nSave configuration to file (as a dict).");
-static PyMethodDef __pyx_mdef_3src_14session_config_13SessionConfig_7save = {"save", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_14session_config_13SessionConfig_7save, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_14session_config_13SessionConfig_6save};
-static PyObject *__pyx_pw_3src_14session_config_13SessionConfig_7save(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_14session_config_13SessionConfig_6save, "SessionConfig.save(self, session_num)\nSave configuration to file (as a dict).");
+static PyMethodDef __pyx_mdef_14session_config_13SessionConfig_7save = {"save", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_14session_config_13SessionConfig_7save, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_14session_config_13SessionConfig_6save};
+static PyObject *__pyx_pw_14session_config_13SessionConfig_7save(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3906,11 +3906,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.session_config.SessionConfig.save", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("session_config.SessionConfig.save", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_14session_config_13SessionConfig_6save(__pyx_self, __pyx_v_self, __pyx_v_session_num);
+  __pyx_r = __pyx_pf_14session_config_13SessionConfig_6save(__pyx_self, __pyx_v_self, __pyx_v_session_num);
 
   /* function exit code */
   {
@@ -3923,7 +3923,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_6save(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num) {
+static PyObject *__pyx_pf_14session_config_13SessionConfig_6save(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_session_num) {
   PyObject *__pyx_v_config_dir = NULL;
   PyObject *__pyx_v_filename = NULL;
   PyObject *__pyx_v_f = NULL;
@@ -3949,7 +3949,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_6save(CYTHON_UNU
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("save", 1);
 
-  /* "src/session_config.py":46
+  /* "session_config.py":46
  *     def save(self, session_num):
  *         """Save configuration to file (as a dict)."""
  *         config_dir = os.path.join('C:\\NeuroSync\\data', 'configs')             # <<<<<<<<<<<<<<
@@ -3970,7 +3970,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_6save(CYTHON_UNU
   __pyx_v_config_dir = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "src/session_config.py":47
+  /* "session_config.py":47
  *         """Save configuration to file (as a dict)."""
  *         config_dir = os.path.join('C:\\NeuroSync\\data', 'configs')
  *         os.makedirs(config_dir, exist_ok=True)             # <<<<<<<<<<<<<<
@@ -3997,7 +3997,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_6save(CYTHON_UNU
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/session_config.py":49
+  /* "session_config.py":49
  *         os.makedirs(config_dir, exist_ok=True)
  * 
  *         filename = os.path.join(config_dir, f'session{session_num}_config.pkl')             # <<<<<<<<<<<<<<
@@ -4060,7 +4060,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_6save(CYTHON_UNU
   __pyx_v_filename = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "src/session_config.py":50
+  /* "session_config.py":50
  * 
  *         filename = os.path.join(config_dir, f'session{session_num}_config.pkl')
  *         with open(filename, 'wb') as f:             # <<<<<<<<<<<<<<
@@ -4120,7 +4120,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_6save(CYTHON_UNU
           __pyx_v_f = __pyx_t_1;
           __pyx_t_1 = 0;
 
-          /* "src/session_config.py":51
+          /* "session_config.py":51
  *         filename = os.path.join(config_dir, f'session{session_num}_config.pkl')
  *         with open(filename, 'wb') as f:
  *             pickle.dump(self.to_dict(), f)             # <<<<<<<<<<<<<<
@@ -4181,7 +4181,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_6save(CYTHON_UNU
           }
           __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-          /* "src/session_config.py":50
+          /* "session_config.py":50
  * 
  *         filename = os.path.join(config_dir, f'session{session_num}_config.pkl')
  *         with open(filename, 'wb') as f:             # <<<<<<<<<<<<<<
@@ -4200,7 +4200,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_6save(CYTHON_UNU
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         /*except:*/ {
-          __Pyx_AddTraceback("src.session_config.SessionConfig.save", __pyx_clineno, __pyx_lineno, __pyx_filename);
+          __Pyx_AddTraceback("session_config.SessionConfig.save", __pyx_clineno, __pyx_lineno, __pyx_filename);
           if (__Pyx_GetException(&__pyx_t_1, &__pyx_t_4, &__pyx_t_3) < 0) __PYX_ERR(0, 50, __pyx_L9_except_error)
           __Pyx_XGOTREF(__pyx_t_1);
           __Pyx_XGOTREF(__pyx_t_4);
@@ -4263,7 +4263,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_6save(CYTHON_UNU
     __pyx_L16:;
   }
 
-  /* "src/session_config.py":44
+  /* "session_config.py":44
  *         return obj
  * 
  *     def save(self, session_num):             # <<<<<<<<<<<<<<
@@ -4280,7 +4280,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_6save(CYTHON_UNU
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_12);
-  __Pyx_AddTraceback("src.session_config.SessionConfig.save", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("session_config.SessionConfig.save", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_config_dir);
@@ -4291,7 +4291,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_6save(CYTHON_UNU
   return __pyx_r;
 }
 
-/* "src/session_config.py":53
+/* "session_config.py":53
  *             pickle.dump(self.to_dict(), f)
  * 
  *     @staticmethod             # <<<<<<<<<<<<<<
@@ -4300,16 +4300,16 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_6save(CYTHON_UNU
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_14session_config_13SessionConfig_9load(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_14session_config_13SessionConfig_9load(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_14session_config_13SessionConfig_8load, "SessionConfig.load(session_num)\nLoad configuration from file and rebuild the SessionConfig object.");
-static PyMethodDef __pyx_mdef_3src_14session_config_13SessionConfig_9load = {"load", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_14session_config_13SessionConfig_9load, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_14session_config_13SessionConfig_8load};
-static PyObject *__pyx_pw_3src_14session_config_13SessionConfig_9load(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_14session_config_13SessionConfig_8load, "SessionConfig.load(session_num)\nLoad configuration from file and rebuild the SessionConfig object.");
+static PyMethodDef __pyx_mdef_14session_config_13SessionConfig_9load = {"load", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_14session_config_13SessionConfig_9load, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_14session_config_13SessionConfig_8load};
+static PyObject *__pyx_pw_14session_config_13SessionConfig_9load(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -4379,11 +4379,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.session_config.SessionConfig.load", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("session_config.SessionConfig.load", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_14session_config_13SessionConfig_8load(__pyx_self, __pyx_v_session_num);
+  __pyx_r = __pyx_pf_14session_config_13SessionConfig_8load(__pyx_self, __pyx_v_session_num);
 
   /* function exit code */
   {
@@ -4396,7 +4396,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_session_num) {
+static PyObject *__pyx_pf_14session_config_13SessionConfig_8load(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_session_num) {
   PyObject *__pyx_v_config_dir = NULL;
   PyObject *__pyx_v_filename = NULL;
   PyObject *__pyx_v_f = NULL;
@@ -4422,7 +4422,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNU
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("load", 1);
 
-  /* "src/session_config.py":56
+  /* "session_config.py":56
  *     def load(session_num):
  *         """Load configuration from file and rebuild the SessionConfig object."""
  *         config_dir = os.path.join('C:\\NeuroSync\\data', 'configs')             # <<<<<<<<<<<<<<
@@ -4443,7 +4443,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNU
   __pyx_v_config_dir = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "src/session_config.py":57
+  /* "session_config.py":57
  *         """Load configuration from file and rebuild the SessionConfig object."""
  *         config_dir = os.path.join('C:\\NeuroSync\\data', 'configs')
  *         filename = os.path.join(config_dir, f'session{session_num}_config.pkl')             # <<<<<<<<<<<<<<
@@ -4506,7 +4506,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNU
   __pyx_v_filename = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "src/session_config.py":59
+  /* "session_config.py":59
  *         filename = os.path.join(config_dir, f'session{session_num}_config.pkl')
  * 
  *         if os.path.exists(filename):             # <<<<<<<<<<<<<<
@@ -4547,7 +4547,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNU
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_8) {
 
-    /* "src/session_config.py":60
+    /* "session_config.py":60
  * 
  *         if os.path.exists(filename):
  *             with open(filename, 'rb') as f:             # <<<<<<<<<<<<<<
@@ -4607,7 +4607,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNU
             __pyx_v_f = __pyx_t_6;
             __pyx_t_6 = 0;
 
-            /* "src/session_config.py":61
+            /* "session_config.py":61
  *         if os.path.exists(filename):
  *             with open(filename, 'rb') as f:
  *                 data = pickle.load(f)             # <<<<<<<<<<<<<<
@@ -4644,7 +4644,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNU
             __pyx_v_data = __pyx_t_6;
             __pyx_t_6 = 0;
 
-            /* "src/session_config.py":62
+            /* "session_config.py":62
  *             with open(filename, 'rb') as f:
  *                 data = pickle.load(f)
  *                 return SessionConfig.from_dict(data)             # <<<<<<<<<<<<<<
@@ -4683,7 +4683,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNU
             __pyx_t_6 = 0;
             goto __pyx_L12_try_return;
 
-            /* "src/session_config.py":60
+            /* "session_config.py":60
  * 
  *         if os.path.exists(filename):
  *             with open(filename, 'rb') as f:             # <<<<<<<<<<<<<<
@@ -4697,7 +4697,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNU
           __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
           /*except:*/ {
-            __Pyx_AddTraceback("src.session_config.SessionConfig.load", __pyx_clineno, __pyx_lineno, __pyx_filename);
+            __Pyx_AddTraceback("session_config.SessionConfig.load", __pyx_clineno, __pyx_lineno, __pyx_filename);
             if (__Pyx_GetException(&__pyx_t_6, &__pyx_t_1, &__pyx_t_2) < 0) __PYX_ERR(0, 60, __pyx_L10_except_error)
             __Pyx_XGOTREF(__pyx_t_6);
             __Pyx_XGOTREF(__pyx_t_1);
@@ -4779,7 +4779,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNU
       __pyx_L17:;
     }
 
-    /* "src/session_config.py":59
+    /* "session_config.py":59
  *         filename = os.path.join(config_dir, f'session{session_num}_config.pkl')
  * 
  *         if os.path.exists(filename):             # <<<<<<<<<<<<<<
@@ -4788,7 +4788,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNU
  */
   }
 
-  /* "src/session_config.py":63
+  /* "session_config.py":63
  *                 data = pickle.load(f)
  *                 return SessionConfig.from_dict(data)
  *         return None             # <<<<<<<<<<<<<<
@@ -4799,7 +4799,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNU
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
 
-  /* "src/session_config.py":53
+  /* "session_config.py":53
  *             pickle.dump(self.to_dict(), f)
  * 
  *     @staticmethod             # <<<<<<<<<<<<<<
@@ -4813,7 +4813,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNU
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("src.session_config.SessionConfig.load", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("session_config.SessionConfig.load", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_config_dir);
@@ -4825,7 +4825,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNU
   return __pyx_r;
 }
 
-/* "src/session_config.py":65
+/* "session_config.py":65
  *         return None
  * 
  *     @staticmethod             # <<<<<<<<<<<<<<
@@ -4834,24 +4834,24 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_8load(CYTHON_UNU
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_14session_config_13SessionConfig_11load_last_config(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_14session_config_13SessionConfig_10load_last_config, "SessionConfig.load_last_config()\nLoad most recent configuration.");
-static PyMethodDef __pyx_mdef_3src_14session_config_13SessionConfig_11load_last_config = {"load_last_config", (PyCFunction)__pyx_pw_3src_14session_config_13SessionConfig_11load_last_config, METH_NOARGS, __pyx_doc_3src_14session_config_13SessionConfig_10load_last_config};
-static PyObject *__pyx_pw_3src_14session_config_13SessionConfig_11load_last_config(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_14session_config_13SessionConfig_11load_last_config(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+PyDoc_STRVAR(__pyx_doc_14session_config_13SessionConfig_10load_last_config, "SessionConfig.load_last_config()\nLoad most recent configuration.");
+static PyMethodDef __pyx_mdef_14session_config_13SessionConfig_11load_last_config = {"load_last_config", (PyCFunction)__pyx_pw_14session_config_13SessionConfig_11load_last_config, METH_NOARGS, __pyx_doc_14session_config_13SessionConfig_10load_last_config};
+static PyObject *__pyx_pw_14session_config_13SessionConfig_11load_last_config(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("load_last_config (wrapper)", 0);
   __pyx_kwvalues = __Pyx_KwValues_VARARGS(__pyx_args, __pyx_nargs);
-  __pyx_r = __pyx_pf_3src_14session_config_13SessionConfig_10load_last_config(__pyx_self);
+  __pyx_r = __pyx_pf_14session_config_13SessionConfig_10load_last_config(__pyx_self);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
-static PyObject *__pyx_gb_3src_14session_config_13SessionConfig_16load_last_config_2generator(__pyx_CoroutineObject *__pyx_generator, CYTHON_UNUSED PyThreadState *__pyx_tstate, PyObject *__pyx_sent_value); /* proto */
+static PyObject *__pyx_gb_14session_config_13SessionConfig_16load_last_config_2generator(__pyx_CoroutineObject *__pyx_generator, CYTHON_UNUSED PyThreadState *__pyx_tstate, PyObject *__pyx_sent_value); /* proto */
 
-/* "src/session_config.py":73
+/* "session_config.py":73
  * 
  *         config_files = sorted(
  *             f for f in os.listdir(config_dir) if f.endswith('_config.pkl')             # <<<<<<<<<<<<<<
@@ -4859,17 +4859,17 @@ static PyObject *__pyx_gb_3src_14session_config_13SessionConfig_16load_last_conf
  *         if not config_files:
  */
 
-static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_16load_last_config_genexpr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_genexpr_arg_0) {
-  struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr *__pyx_cur_scope;
+static PyObject *__pyx_pf_14session_config_13SessionConfig_16load_last_config_genexpr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_genexpr_arg_0) {
+  struct __pyx_obj_14session_config___pyx_scope_struct__genexpr *__pyx_cur_scope;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("genexpr", 0);
-  __pyx_cur_scope = (struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr *)__pyx_tp_new_3src_14session_config___pyx_scope_struct__genexpr(__pyx_ptype_3src_14session_config___pyx_scope_struct__genexpr, __pyx_empty_tuple, NULL);
+  __pyx_cur_scope = (struct __pyx_obj_14session_config___pyx_scope_struct__genexpr *)__pyx_tp_new_14session_config___pyx_scope_struct__genexpr(__pyx_ptype_14session_config___pyx_scope_struct__genexpr, __pyx_empty_tuple, NULL);
   if (unlikely(!__pyx_cur_scope)) {
-    __pyx_cur_scope = ((struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr *)Py_None);
+    __pyx_cur_scope = ((struct __pyx_obj_14session_config___pyx_scope_struct__genexpr *)Py_None);
     __Pyx_INCREF(Py_None);
     __PYX_ERR(0, 73, __pyx_L1_error)
   } else {
@@ -4879,7 +4879,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_16load_last_conf
   __Pyx_INCREF(__pyx_cur_scope->__pyx_genexpr_arg_0);
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_genexpr_arg_0);
   {
-    __pyx_CoroutineObject *gen = __Pyx_Generator_New((__pyx_coroutine_body_t) __pyx_gb_3src_14session_config_13SessionConfig_16load_last_config_2generator, NULL, (PyObject *) __pyx_cur_scope, __pyx_n_s_genexpr, __pyx_n_s_SessionConfig_load_last_config_l, __pyx_n_s_src_session_config); if (unlikely(!gen)) __PYX_ERR(0, 73, __pyx_L1_error)
+    __pyx_CoroutineObject *gen = __Pyx_Generator_New((__pyx_coroutine_body_t) __pyx_gb_14session_config_13SessionConfig_16load_last_config_2generator, NULL, (PyObject *) __pyx_cur_scope, __pyx_n_s_genexpr, __pyx_n_s_SessionConfig_load_last_config_l, __pyx_n_s_session_config); if (unlikely(!gen)) __PYX_ERR(0, 73, __pyx_L1_error)
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -4887,7 +4887,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_16load_last_conf
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("src.session_config.SessionConfig.load_last_config.genexpr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("session_config.SessionConfig.load_last_config.genexpr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_DECREF((PyObject *)__pyx_cur_scope);
   __Pyx_XGIVEREF(__pyx_r);
@@ -4895,9 +4895,9 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_16load_last_conf
   return __pyx_r;
 }
 
-static PyObject *__pyx_gb_3src_14session_config_13SessionConfig_16load_last_config_2generator(__pyx_CoroutineObject *__pyx_generator, CYTHON_UNUSED PyThreadState *__pyx_tstate, PyObject *__pyx_sent_value) /* generator body */
+static PyObject *__pyx_gb_14session_config_13SessionConfig_16load_last_config_2generator(__pyx_CoroutineObject *__pyx_generator, CYTHON_UNUSED PyThreadState *__pyx_tstate, PyObject *__pyx_sent_value) /* generator body */
 {
-  struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr *__pyx_cur_scope = ((struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr *)__pyx_generator->closure);
+  struct __pyx_obj_14session_config___pyx_scope_struct__genexpr *__pyx_cur_scope = ((struct __pyx_obj_14session_config___pyx_scope_struct__genexpr *)__pyx_generator->closure);
   PyObject *__pyx_r = NULL;
   PyObject *__pyx_t_1 = NULL;
   Py_ssize_t __pyx_t_2;
@@ -5033,7 +5033,7 @@ static PyObject *__pyx_gb_3src_14session_config_13SessionConfig_16load_last_conf
   return __pyx_r;
 }
 
-/* "src/session_config.py":65
+/* "session_config.py":65
  *         return None
  * 
  *     @staticmethod             # <<<<<<<<<<<<<<
@@ -5041,13 +5041,13 @@ static PyObject *__pyx_gb_3src_14session_config_13SessionConfig_16load_last_conf
  *         """Load most recent configuration."""
  */
 
-static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_config(CYTHON_UNUSED PyObject *__pyx_self) {
+static PyObject *__pyx_pf_14session_config_13SessionConfig_10load_last_config(CYTHON_UNUSED PyObject *__pyx_self) {
   PyObject *__pyx_v_config_dir = NULL;
   PyObject *__pyx_v_config_files = NULL;
   PyObject *__pyx_v_last_file = NULL;
   PyObject *__pyx_v_f = NULL;
   PyObject *__pyx_v_data = NULL;
-  PyObject *__pyx_gb_3src_14session_config_13SessionConfig_16load_last_config_2generator = 0;
+  PyObject *__pyx_gb_14session_config_13SessionConfig_16load_last_config_2generator = 0;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5068,7 +5068,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("load_last_config", 1);
 
-  /* "src/session_config.py":68
+  /* "session_config.py":68
  *     def load_last_config():
  *         """Load most recent configuration."""
  *         config_dir = os.path.join('C:\\NeuroSync\\data', 'configs')             # <<<<<<<<<<<<<<
@@ -5089,7 +5089,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
   __pyx_v_config_dir = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "src/session_config.py":69
+  /* "session_config.py":69
  *         """Load most recent configuration."""
  *         config_dir = os.path.join('C:\\NeuroSync\\data', 'configs')
  *         if not os.path.exists(config_dir):             # <<<<<<<<<<<<<<
@@ -5131,7 +5131,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
   __pyx_t_6 = (!__pyx_t_5);
   if (__pyx_t_6) {
 
-    /* "src/session_config.py":70
+    /* "session_config.py":70
  *         config_dir = os.path.join('C:\\NeuroSync\\data', 'configs')
  *         if not os.path.exists(config_dir):
  *             return None             # <<<<<<<<<<<<<<
@@ -5142,7 +5142,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "src/session_config.py":69
+    /* "session_config.py":69
  *         """Load most recent configuration."""
  *         config_dir = os.path.join('C:\\NeuroSync\\data', 'configs')
  *         if not os.path.exists(config_dir):             # <<<<<<<<<<<<<<
@@ -5151,7 +5151,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
  */
   }
 
-  /* "src/session_config.py":73
+  /* "session_config.py":73
  * 
  *         config_files = sorted(
  *             f for f in os.listdir(config_dir) if f.endswith('_config.pkl')             # <<<<<<<<<<<<<<
@@ -5185,11 +5185,11 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   }
-  __pyx_t_7 = __pyx_pf_3src_14session_config_13SessionConfig_16load_last_config_genexpr(NULL, __pyx_t_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_t_7 = __pyx_pf_14session_config_13SessionConfig_16load_last_config_genexpr(NULL, __pyx_t_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/session_config.py":72
+  /* "session_config.py":72
  *             return None
  * 
  *         config_files = sorted(             # <<<<<<<<<<<<<<
@@ -5205,7 +5205,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
   __pyx_v_config_files = ((PyObject*)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "src/session_config.py":75
+  /* "session_config.py":75
  *             f for f in os.listdir(config_dir) if f.endswith('_config.pkl')
  *         )
  *         if not config_files:             # <<<<<<<<<<<<<<
@@ -5216,7 +5216,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
   __pyx_t_5 = (!__pyx_t_6);
   if (__pyx_t_5) {
 
-    /* "src/session_config.py":76
+    /* "session_config.py":76
  *         )
  *         if not config_files:
  *             return None             # <<<<<<<<<<<<<<
@@ -5227,7 +5227,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "src/session_config.py":75
+    /* "session_config.py":75
  *             f for f in os.listdir(config_dir) if f.endswith('_config.pkl')
  *         )
  *         if not config_files:             # <<<<<<<<<<<<<<
@@ -5236,7 +5236,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
  */
   }
 
-  /* "src/session_config.py":78
+  /* "session_config.py":78
  *             return None
  * 
  *         last_file = os.path.join(config_dir, config_files[-1])             # <<<<<<<<<<<<<<
@@ -5279,7 +5279,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
   __pyx_v_last_file = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "src/session_config.py":79
+  /* "session_config.py":79
  * 
  *         last_file = os.path.join(config_dir, config_files[-1])
  *         with open(last_file, 'rb') as f:             # <<<<<<<<<<<<<<
@@ -5339,7 +5339,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
           __pyx_v_f = __pyx_t_7;
           __pyx_t_7 = 0;
 
-          /* "src/session_config.py":80
+          /* "session_config.py":80
  *         last_file = os.path.join(config_dir, config_files[-1])
  *         with open(last_file, 'rb') as f:
  *             data = pickle.load(f)             # <<<<<<<<<<<<<<
@@ -5375,7 +5375,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
           __pyx_v_data = __pyx_t_7;
           __pyx_t_7 = 0;
 
-          /* "src/session_config.py":81
+          /* "session_config.py":81
  *         with open(last_file, 'rb') as f:
  *             data = pickle.load(f)
  *             return SessionConfig.from_dict(data)             # <<<<<<<<<<<<<<
@@ -5412,7 +5412,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
           __pyx_t_7 = 0;
           goto __pyx_L13_try_return;
 
-          /* "src/session_config.py":79
+          /* "session_config.py":79
  * 
  *         last_file = os.path.join(config_dir, config_files[-1])
  *         with open(last_file, 'rb') as f:             # <<<<<<<<<<<<<<
@@ -5426,7 +5426,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
         /*except:*/ {
-          __Pyx_AddTraceback("src.session_config.SessionConfig.load_last_config", __pyx_clineno, __pyx_lineno, __pyx_filename);
+          __Pyx_AddTraceback("session_config.SessionConfig.load_last_config", __pyx_clineno, __pyx_lineno, __pyx_filename);
           if (__Pyx_GetException(&__pyx_t_7, &__pyx_t_1, &__pyx_t_2) < 0) __PYX_ERR(0, 79, __pyx_L11_except_error)
           __Pyx_XGOTREF(__pyx_t_7);
           __Pyx_XGOTREF(__pyx_t_1);
@@ -5508,7 +5508,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
     __pyx_L18:;
   }
 
-  /* "src/session_config.py":65
+  /* "session_config.py":65
  *         return None
  * 
  *     @staticmethod             # <<<<<<<<<<<<<<
@@ -5524,7 +5524,7 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("src.session_config.SessionConfig.load_last_config", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("session_config.SessionConfig.load_last_config", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_config_dir);
@@ -5532,27 +5532,27 @@ static PyObject *__pyx_pf_3src_14session_config_13SessionConfig_10load_last_conf
   __Pyx_XDECREF(__pyx_v_last_file);
   __Pyx_XDECREF(__pyx_v_f);
   __Pyx_XDECREF(__pyx_v_data);
-  __Pyx_XDECREF(__pyx_gb_3src_14session_config_13SessionConfig_16load_last_config_2generator);
+  __Pyx_XDECREF(__pyx_gb_14session_config_13SessionConfig_16load_last_config_2generator);
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
 #if CYTHON_USE_FREELISTS
-static struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr *__pyx_freelist_3src_14session_config___pyx_scope_struct__genexpr[8];
-static int __pyx_freecount_3src_14session_config___pyx_scope_struct__genexpr = 0;
+static struct __pyx_obj_14session_config___pyx_scope_struct__genexpr *__pyx_freelist_14session_config___pyx_scope_struct__genexpr[8];
+static int __pyx_freecount_14session_config___pyx_scope_struct__genexpr = 0;
 #endif
 
-static PyObject *__pyx_tp_new_3src_14session_config___pyx_scope_struct__genexpr(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+static PyObject *__pyx_tp_new_14session_config___pyx_scope_struct__genexpr(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
   PyObject *o;
   #if CYTHON_COMPILING_IN_LIMITED_API
   allocfunc alloc_func = (allocfunc)PyType_GetSlot(t, Py_tp_alloc);
   o = alloc_func(t, 0);
   #else
   #if CYTHON_USE_FREELISTS
-  if (likely((int)(__pyx_freecount_3src_14session_config___pyx_scope_struct__genexpr > 0) & (int)(t->tp_basicsize == sizeof(struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr)))) {
-    o = (PyObject*)__pyx_freelist_3src_14session_config___pyx_scope_struct__genexpr[--__pyx_freecount_3src_14session_config___pyx_scope_struct__genexpr];
-    memset(o, 0, sizeof(struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr));
+  if (likely((int)(__pyx_freecount_14session_config___pyx_scope_struct__genexpr > 0) & (int)(t->tp_basicsize == sizeof(struct __pyx_obj_14session_config___pyx_scope_struct__genexpr)))) {
+    o = (PyObject*)__pyx_freelist_14session_config___pyx_scope_struct__genexpr[--__pyx_freecount_14session_config___pyx_scope_struct__genexpr];
+    memset(o, 0, sizeof(struct __pyx_obj_14session_config___pyx_scope_struct__genexpr));
     (void) PyObject_INIT(o, t);
     PyObject_GC_Track(o);
   } else
@@ -5565,11 +5565,11 @@ static PyObject *__pyx_tp_new_3src_14session_config___pyx_scope_struct__genexpr(
   return o;
 }
 
-static void __pyx_tp_dealloc_3src_14session_config___pyx_scope_struct__genexpr(PyObject *o) {
-  struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr *p = (struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr *)o;
+static void __pyx_tp_dealloc_14session_config___pyx_scope_struct__genexpr(PyObject *o) {
+  struct __pyx_obj_14session_config___pyx_scope_struct__genexpr *p = (struct __pyx_obj_14session_config___pyx_scope_struct__genexpr *)o;
   #if CYTHON_USE_TP_FINALIZE
   if (unlikely((PY_VERSION_HEX >= 0x03080000 || __Pyx_PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE)) && __Pyx_PyObject_GetSlot(o, tp_finalize, destructor)) && !__Pyx_PyObject_GC_IsFinalized(o)) {
-    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_3src_14session_config___pyx_scope_struct__genexpr) {
+    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_14session_config___pyx_scope_struct__genexpr) {
       if (PyObject_CallFinalizerFromDealloc(o)) return;
     }
   }
@@ -5578,8 +5578,8 @@ static void __pyx_tp_dealloc_3src_14session_config___pyx_scope_struct__genexpr(P
   Py_CLEAR(p->__pyx_genexpr_arg_0);
   Py_CLEAR(p->__pyx_v_f);
   #if CYTHON_USE_FREELISTS
-  if (((int)(__pyx_freecount_3src_14session_config___pyx_scope_struct__genexpr < 8) & (int)(Py_TYPE(o)->tp_basicsize == sizeof(struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr)))) {
-    __pyx_freelist_3src_14session_config___pyx_scope_struct__genexpr[__pyx_freecount_3src_14session_config___pyx_scope_struct__genexpr++] = ((struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr *)o);
+  if (((int)(__pyx_freecount_14session_config___pyx_scope_struct__genexpr < 8) & (int)(Py_TYPE(o)->tp_basicsize == sizeof(struct __pyx_obj_14session_config___pyx_scope_struct__genexpr)))) {
+    __pyx_freelist_14session_config___pyx_scope_struct__genexpr[__pyx_freecount_14session_config___pyx_scope_struct__genexpr++] = ((struct __pyx_obj_14session_config___pyx_scope_struct__genexpr *)o);
   } else
   #endif
   {
@@ -5594,9 +5594,9 @@ static void __pyx_tp_dealloc_3src_14session_config___pyx_scope_struct__genexpr(P
   }
 }
 
-static int __pyx_tp_traverse_3src_14session_config___pyx_scope_struct__genexpr(PyObject *o, visitproc v, void *a) {
+static int __pyx_tp_traverse_14session_config___pyx_scope_struct__genexpr(PyObject *o, visitproc v, void *a) {
   int e;
-  struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr *p = (struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr *)o;
+  struct __pyx_obj_14session_config___pyx_scope_struct__genexpr *p = (struct __pyx_obj_14session_config___pyx_scope_struct__genexpr *)o;
   if (p->__pyx_genexpr_arg_0) {
     e = (*v)(p->__pyx_genexpr_arg_0, a); if (e) return e;
   }
@@ -5606,27 +5606,27 @@ static int __pyx_tp_traverse_3src_14session_config___pyx_scope_struct__genexpr(P
   return 0;
 }
 #if CYTHON_USE_TYPE_SPECS
-static PyType_Slot __pyx_type_3src_14session_config___pyx_scope_struct__genexpr_slots[] = {
-  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_3src_14session_config___pyx_scope_struct__genexpr},
-  {Py_tp_traverse, (void *)__pyx_tp_traverse_3src_14session_config___pyx_scope_struct__genexpr},
-  {Py_tp_new, (void *)__pyx_tp_new_3src_14session_config___pyx_scope_struct__genexpr},
+static PyType_Slot __pyx_type_14session_config___pyx_scope_struct__genexpr_slots[] = {
+  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_14session_config___pyx_scope_struct__genexpr},
+  {Py_tp_traverse, (void *)__pyx_tp_traverse_14session_config___pyx_scope_struct__genexpr},
+  {Py_tp_new, (void *)__pyx_tp_new_14session_config___pyx_scope_struct__genexpr},
   {0, 0},
 };
-static PyType_Spec __pyx_type_3src_14session_config___pyx_scope_struct__genexpr_spec = {
-  "src.session_config.__pyx_scope_struct__genexpr",
-  sizeof(struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr),
+static PyType_Spec __pyx_type_14session_config___pyx_scope_struct__genexpr_spec = {
+  "session_config.__pyx_scope_struct__genexpr",
+  sizeof(struct __pyx_obj_14session_config___pyx_scope_struct__genexpr),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_HAVE_FINALIZE,
-  __pyx_type_3src_14session_config___pyx_scope_struct__genexpr_slots,
+  __pyx_type_14session_config___pyx_scope_struct__genexpr_slots,
 };
 #else
 
-static PyTypeObject __pyx_type_3src_14session_config___pyx_scope_struct__genexpr = {
+static PyTypeObject __pyx_type_14session_config___pyx_scope_struct__genexpr = {
   PyVarObject_HEAD_INIT(0, 0)
-  "src.session_config.""__pyx_scope_struct__genexpr", /*tp_name*/
-  sizeof(struct __pyx_obj_3src_14session_config___pyx_scope_struct__genexpr), /*tp_basicsize*/
+  "session_config.""__pyx_scope_struct__genexpr", /*tp_name*/
+  sizeof(struct __pyx_obj_14session_config___pyx_scope_struct__genexpr), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3src_14session_config___pyx_scope_struct__genexpr, /*tp_dealloc*/
+  __pyx_tp_dealloc_14session_config___pyx_scope_struct__genexpr, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
   0, /*tp_print*/
   #endif
@@ -5653,7 +5653,7 @@ static PyTypeObject __pyx_type_3src_14session_config___pyx_scope_struct__genexpr
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_HAVE_FINALIZE, /*tp_flags*/
   0, /*tp_doc*/
-  __pyx_tp_traverse_3src_14session_config___pyx_scope_struct__genexpr, /*tp_traverse*/
+  __pyx_tp_traverse_14session_config___pyx_scope_struct__genexpr, /*tp_traverse*/
   0, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
@@ -5671,7 +5671,7 @@ static PyTypeObject __pyx_type_3src_14session_config___pyx_scope_struct__genexpr
   #endif
   0, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_3src_14session_config___pyx_scope_struct__genexpr, /*tp_new*/
+  __pyx_tp_new_14session_config___pyx_scope_struct__genexpr, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -5801,10 +5801,10 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_self, __pyx_k_self, sizeof(__pyx_k_self), 0, 0, 1, 1},
     {&__pyx_n_s_send, __pyx_k_send, sizeof(__pyx_k_send), 0, 0, 1, 1},
     {&__pyx_n_u_session, __pyx_k_session, sizeof(__pyx_k_session), 0, 1, 0, 1},
+    {&__pyx_n_s_session_config, __pyx_k_session_config, sizeof(__pyx_k_session_config), 0, 0, 1, 1},
     {&__pyx_n_s_session_num, __pyx_k_session_num, sizeof(__pyx_k_session_num), 0, 0, 1, 1},
     {&__pyx_n_s_set_name, __pyx_k_set_name, sizeof(__pyx_k_set_name), 0, 0, 1, 1},
     {&__pyx_n_s_spec, __pyx_k_spec, sizeof(__pyx_k_spec), 0, 0, 1, 1},
-    {&__pyx_n_s_src_session_config, __pyx_k_src_session_config, sizeof(__pyx_k_src_session_config), 0, 0, 1, 1},
     {&__pyx_kp_s_src_session_config_py, __pyx_k_src_session_config_py, sizeof(__pyx_k_src_session_config_py), 0, 0, 1, 0},
     {&__pyx_n_s_staticmethod, __pyx_k_staticmethod, sizeof(__pyx_k_staticmethod), 0, 0, 1, 1},
     {&__pyx_n_s_super, __pyx_k_super, sizeof(__pyx_k_super), 0, 0, 1, 1},
@@ -5830,7 +5830,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "src/session_config.py":36
+  /* "session_config.py":36
  *         obj = cls()
  *         obj.actions = data.get("actions", {})
  *         obj.repetitions = data.get("repetitions", 21)             # <<<<<<<<<<<<<<
@@ -5841,7 +5841,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "src/session_config.py":37
+  /* "session_config.py":37
  *         obj.actions = data.get("actions", {})
  *         obj.repetitions = data.get("repetitions", 21)
  *         obj.break_duration = data.get("break_duration", 3)             # <<<<<<<<<<<<<<
@@ -5852,7 +5852,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "src/session_config.py":38
+  /* "session_config.py":38
  *         obj.repetitions = data.get("repetitions", 21)
  *         obj.break_duration = data.get("break_duration", 3)
  *         obj.record_duration = data.get("record_duration", 5)             # <<<<<<<<<<<<<<
@@ -5863,7 +5863,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "src/session_config.py":39
+  /* "session_config.py":39
  *         obj.break_duration = data.get("break_duration", 3)
  *         obj.record_duration = data.get("record_duration", 5)
  *         obj.lowcut = data.get("lowcut", 0.5)             # <<<<<<<<<<<<<<
@@ -5874,7 +5874,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "src/session_config.py":40
+  /* "session_config.py":40
  *         obj.record_duration = data.get("record_duration", 5)
  *         obj.lowcut = data.get("lowcut", 0.5)
  *         obj.highcut = data.get("highcut", 45.0)             # <<<<<<<<<<<<<<
@@ -5885,7 +5885,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "src/session_config.py":46
+  /* "session_config.py":46
  *     def save(self, session_num):
  *         """Save configuration to file (as a dict)."""
  *         config_dir = os.path.join('C:\\NeuroSync\\data', 'configs')             # <<<<<<<<<<<<<<
@@ -5896,7 +5896,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "src/session_config.py":50
+  /* "session_config.py":50
  * 
  *         filename = os.path.join(config_dir, f'session{session_num}_config.pkl')
  *         with open(filename, 'wb') as f:             # <<<<<<<<<<<<<<
@@ -5907,7 +5907,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "src/session_config.py":5
+  /* "session_config.py":5
  * 
  * class SessionConfig:
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -5919,7 +5919,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__9);
   __pyx_codeobj__10 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__9, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_session_config_py, __pyx_n_s_init, 5, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__10)) __PYX_ERR(0, 5, __pyx_L1_error)
 
-  /* "src/session_config.py":14
+  /* "session_config.py":14
  *         self.channel_configs = {}  # Add this line to store channel configurations
  * 
  *     def to_dict(self):             # <<<<<<<<<<<<<<
@@ -5928,7 +5928,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__11 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__9, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_session_config_py, __pyx_n_s_to_dict, 14, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__11)) __PYX_ERR(0, 14, __pyx_L1_error)
 
-  /* "src/session_config.py":29
+  /* "session_config.py":29
  *         }
  * 
  *     @classmethod             # <<<<<<<<<<<<<<
@@ -5940,7 +5940,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__12);
   __pyx_codeobj__13 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__12, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_session_config_py, __pyx_n_s_from_dict, 29, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__13)) __PYX_ERR(0, 29, __pyx_L1_error)
 
-  /* "src/session_config.py":44
+  /* "session_config.py":44
  *         return obj
  * 
  *     def save(self, session_num):             # <<<<<<<<<<<<<<
@@ -5952,7 +5952,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__14);
   __pyx_codeobj__15 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__14, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_session_config_py, __pyx_n_s_save, 44, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__15)) __PYX_ERR(0, 44, __pyx_L1_error)
 
-  /* "src/session_config.py":53
+  /* "session_config.py":53
  *             pickle.dump(self.to_dict(), f)
  * 
  *     @staticmethod             # <<<<<<<<<<<<<<
@@ -5964,7 +5964,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__16);
   __pyx_codeobj__17 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__16, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_session_config_py, __pyx_n_s_load, 53, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__17)) __PYX_ERR(0, 53, __pyx_L1_error)
 
-  /* "src/session_config.py":65
+  /* "session_config.py":65
  *         return None
  * 
  *     @staticmethod             # <<<<<<<<<<<<<<
@@ -6041,22 +6041,22 @@ static int __Pyx_modinit_type_init_code(void) {
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_init_code", 0);
   /*--- Type init code ---*/
   #if CYTHON_USE_TYPE_SPECS
-  __pyx_ptype_3src_14session_config___pyx_scope_struct__genexpr = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_3src_14session_config___pyx_scope_struct__genexpr_spec, NULL); if (unlikely(!__pyx_ptype_3src_14session_config___pyx_scope_struct__genexpr)) __PYX_ERR(0, 73, __pyx_L1_error)
-  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_3src_14session_config___pyx_scope_struct__genexpr_spec, __pyx_ptype_3src_14session_config___pyx_scope_struct__genexpr) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_ptype_14session_config___pyx_scope_struct__genexpr = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_14session_config___pyx_scope_struct__genexpr_spec, NULL); if (unlikely(!__pyx_ptype_14session_config___pyx_scope_struct__genexpr)) __PYX_ERR(0, 73, __pyx_L1_error)
+  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_14session_config___pyx_scope_struct__genexpr_spec, __pyx_ptype_14session_config___pyx_scope_struct__genexpr) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
   #else
-  __pyx_ptype_3src_14session_config___pyx_scope_struct__genexpr = &__pyx_type_3src_14session_config___pyx_scope_struct__genexpr;
+  __pyx_ptype_14session_config___pyx_scope_struct__genexpr = &__pyx_type_14session_config___pyx_scope_struct__genexpr;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
   #endif
   #if !CYTHON_USE_TYPE_SPECS
-  if (__Pyx_PyType_Ready(__pyx_ptype_3src_14session_config___pyx_scope_struct__genexpr) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
+  if (__Pyx_PyType_Ready(__pyx_ptype_14session_config___pyx_scope_struct__genexpr) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
   #endif
   #if PY_MAJOR_VERSION < 3
-  __pyx_ptype_3src_14session_config___pyx_scope_struct__genexpr->tp_print = 0;
+  __pyx_ptype_14session_config___pyx_scope_struct__genexpr->tp_print = 0;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_3src_14session_config___pyx_scope_struct__genexpr->tp_dictoffset && __pyx_ptype_3src_14session_config___pyx_scope_struct__genexpr->tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_ptype_3src_14session_config___pyx_scope_struct__genexpr->tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_14session_config___pyx_scope_struct__genexpr->tp_dictoffset && __pyx_ptype_14session_config___pyx_scope_struct__genexpr->tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_ptype_14session_config___pyx_scope_struct__genexpr->tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
   }
   #endif
   __Pyx_RefNannyFinishContext();
@@ -6342,14 +6342,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_src__session_config) {
+  if (__pyx_module_is_main_session_config) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "src.session_config")) {
-      if (unlikely((PyDict_SetItemString(modules, "src.session_config", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "session_config")) {
+      if (unlikely((PyDict_SetItemString(modules, "session_config", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -6370,7 +6370,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "src/session_config.py":1
+  /* "session_config.py":1
  * import os             # <<<<<<<<<<<<<<
  * import pickle
  * 
@@ -6380,7 +6380,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_os, __pyx_t_2) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/session_config.py":2
+  /* "session_config.py":2
  * import os
  * import pickle             # <<<<<<<<<<<<<<
  * 
@@ -6391,48 +6391,48 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pickle, __pyx_t_2) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/session_config.py":4
+  /* "session_config.py":4
  * import pickle
  * 
  * class SessionConfig:             # <<<<<<<<<<<<<<
  *     def __init__(self):
  *         self.actions = {}          # Store action configurations
  */
-  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_SessionConfig, __pyx_n_s_SessionConfig, (PyObject *) NULL, __pyx_n_s_src_session_config, (PyObject *) NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 4, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_SessionConfig, __pyx_n_s_SessionConfig, (PyObject *) NULL, __pyx_n_s_session_config, (PyObject *) NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
 
-  /* "src/session_config.py":5
+  /* "session_config.py":5
  * 
  * class SessionConfig:
  *     def __init__(self):             # <<<<<<<<<<<<<<
  *         self.actions = {}          # Store action configurations
  *         self.repetitions = 21
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_14session_config_13SessionConfig_1__init__, 0, __pyx_n_s_SessionConfig___init, NULL, __pyx_n_s_src_session_config, __pyx_d, ((PyObject *)__pyx_codeobj__10)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 5, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_14session_config_13SessionConfig_1__init__, 0, __pyx_n_s_SessionConfig___init, NULL, __pyx_n_s_session_config, __pyx_d, ((PyObject *)__pyx_codeobj__10)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_init, __pyx_t_3) < 0) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/session_config.py":14
+  /* "session_config.py":14
  *         self.channel_configs = {}  # Add this line to store channel configurations
  * 
  *     def to_dict(self):             # <<<<<<<<<<<<<<
  *         """
  *         Convert this SessionConfig object into a plain dictionary
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_14session_config_13SessionConfig_3to_dict, 0, __pyx_n_s_SessionConfig_to_dict, NULL, __pyx_n_s_src_session_config, __pyx_d, ((PyObject *)__pyx_codeobj__11)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_14session_config_13SessionConfig_3to_dict, 0, __pyx_n_s_SessionConfig_to_dict, NULL, __pyx_n_s_session_config, __pyx_d, ((PyObject *)__pyx_codeobj__11)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_to_dict, __pyx_t_3) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/session_config.py":29
+  /* "session_config.py":29
  *         }
  * 
  *     @classmethod             # <<<<<<<<<<<<<<
  *     def from_dict(cls, data):
  *         """
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_14session_config_13SessionConfig_5from_dict, __Pyx_CYFUNCTION_CLASSMETHOD, __pyx_n_s_SessionConfig_from_dict, NULL, __pyx_n_s_src_session_config, __pyx_d, ((PyObject *)__pyx_codeobj__13)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 29, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_14session_config_13SessionConfig_5from_dict, __Pyx_CYFUNCTION_CLASSMETHOD, __pyx_n_s_SessionConfig_from_dict, NULL, __pyx_n_s_session_config, __pyx_d, ((PyObject *)__pyx_codeobj__13)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_4 = __Pyx_Method_ClassMethod(__pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -6440,26 +6440,26 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_from_dict, __pyx_t_4) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/session_config.py":44
+  /* "session_config.py":44
  *         return obj
  * 
  *     def save(self, session_num):             # <<<<<<<<<<<<<<
  *         """Save configuration to file (as a dict)."""
  *         config_dir = os.path.join('C:\\NeuroSync\\data', 'configs')
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_3src_14session_config_13SessionConfig_7save, 0, __pyx_n_s_SessionConfig_save, NULL, __pyx_n_s_src_session_config, __pyx_d, ((PyObject *)__pyx_codeobj__15)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 44, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_14session_config_13SessionConfig_7save, 0, __pyx_n_s_SessionConfig_save, NULL, __pyx_n_s_session_config, __pyx_d, ((PyObject *)__pyx_codeobj__15)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 44, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_save, __pyx_t_4) < 0) __PYX_ERR(0, 44, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/session_config.py":53
+  /* "session_config.py":53
  *             pickle.dump(self.to_dict(), f)
  * 
  *     @staticmethod             # <<<<<<<<<<<<<<
  *     def load(session_num):
  *         """Load configuration from file and rebuild the SessionConfig object."""
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_3src_14session_config_13SessionConfig_9load, __Pyx_CYFUNCTION_STATICMETHOD, __pyx_n_s_SessionConfig_load, NULL, __pyx_n_s_src_session_config, __pyx_d, ((PyObject *)__pyx_codeobj__17)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 53, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_14session_config_13SessionConfig_9load, __Pyx_CYFUNCTION_STATICMETHOD, __pyx_n_s_SessionConfig_load, NULL, __pyx_n_s_session_config, __pyx_d, ((PyObject *)__pyx_codeobj__17)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 53, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_staticmethod, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 53, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
@@ -6467,14 +6467,14 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_load, __pyx_t_3) < 0) __PYX_ERR(0, 53, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/session_config.py":65
+  /* "session_config.py":65
  *         return None
  * 
  *     @staticmethod             # <<<<<<<<<<<<<<
  *     def load_last_config():
  *         """Load most recent configuration."""
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_14session_config_13SessionConfig_11load_last_config, __Pyx_CYFUNCTION_STATICMETHOD, __pyx_n_s_SessionConfig_load_last_config, NULL, __pyx_n_s_src_session_config, __pyx_d, ((PyObject *)__pyx_codeobj__19)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 65, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_14session_config_13SessionConfig_11load_last_config, __Pyx_CYFUNCTION_STATICMETHOD, __pyx_n_s_SessionConfig_load_last_config, NULL, __pyx_n_s_session_config, __pyx_d, ((PyObject *)__pyx_codeobj__19)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 65, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_staticmethod, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 65, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -6482,7 +6482,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_load_last_config, __pyx_t_4) < 0) __PYX_ERR(0, 65, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/session_config.py":4
+  /* "session_config.py":4
  * import pickle
  * 
  * class SessionConfig:             # <<<<<<<<<<<<<<
@@ -6495,7 +6495,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/session_config.py":1
+  /* "session_config.py":1
  * import os             # <<<<<<<<<<<<<<
  * import pickle
  * 
@@ -6514,7 +6514,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_4);
   if (__pyx_m) {
     if (__pyx_d && stringtab_initialized) {
-      __Pyx_AddTraceback("init src.session_config", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init session_config", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     #if !CYTHON_USE_MODULE_STATE
     Py_CLEAR(__pyx_m);
@@ -6528,7 +6528,7 @@ if (!__Pyx_RefNanny) {
     }
     #endif
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init src.session_config");
+    PyErr_SetString(PyExc_ImportError, "init session_config");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

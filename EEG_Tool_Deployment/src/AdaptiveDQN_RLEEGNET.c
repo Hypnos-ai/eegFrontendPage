@@ -3,12 +3,12 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "src.AdaptiveDQN_RLEEGNET",
+        "name": "AdaptiveDQN_RLEEGNET",
         "sources": [
             "src\\AdaptiveDQN_RLEEGNET.py"
         ]
     },
-    "module_name": "src.AdaptiveDQN_RLEEGNET"
+    "module_name": "AdaptiveDQN_RLEEGNET"
 }
 END: Cython Metadata */
 
@@ -1228,8 +1228,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__src__AdaptiveDQN_RLEEGNET
-#define __PYX_HAVE_API__src__AdaptiveDQN_RLEEGNET
+#define __PYX_HAVE__AdaptiveDQN_RLEEGNET
+#define __PYX_HAVE_API__AdaptiveDQN_RLEEGNET
 /* Early includes */
 #ifdef _OPENMP
 #include <omp.h>
@@ -2293,14 +2293,14 @@ static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 /* #### Code section: module_declarations ### */
 
-/* Module declarations from "src.AdaptiveDQN_RLEEGNET" */
+/* Module declarations from "AdaptiveDQN_RLEEGNET" */
 /* #### Code section: typeinfo ### */
 /* #### Code section: before_global_var ### */
-#define __Pyx_MODULE_NAME "src.AdaptiveDQN_RLEEGNET"
-extern int __pyx_module_is_main_src__AdaptiveDQN_RLEEGNET;
-int __pyx_module_is_main_src__AdaptiveDQN_RLEEGNET = 0;
+#define __Pyx_MODULE_NAME "AdaptiveDQN_RLEEGNET"
+extern int __pyx_module_is_main_AdaptiveDQN_RLEEGNET;
+int __pyx_module_is_main_AdaptiveDQN_RLEEGNET = 0;
 
-/* Implementation of "src.AdaptiveDQN_RLEEGNET" */
+/* Implementation of "AdaptiveDQN_RLEEGNET" */
 /* #### Code section: global_var ### */
 static PyObject *__pyx_builtin_super;
 static PyObject *__pyx_builtin_print;
@@ -2573,6 +2573,7 @@ static const char __pyx_k_AdaptiveDQNRLEEGNET[] = "AdaptiveDQNRLEEGNET";
 static const char __pyx_k_GLOBAL_SHAPE_LENGTH[] = "GLOBAL_SHAPE_LENGTH";
 static const char __pyx_k_Training_data_shape[] = "Training data shape (";
 static const char __pyx_k_global_shape_length[] = "global_shape_length";
+static const char __pyx_k_AdaptiveDQN_RLEEGNET[] = "AdaptiveDQN_RLEEGNET";
 static const char __pyx_k_Plasticity__next_obs[] = "Plasticity._next_obs";
 static const char __pyx_k_csp_transformed_data[] = "csp_transformed_data";
 static const char __pyx_k_exploration_fraction[] = "exploration_fraction";
@@ -2592,7 +2593,6 @@ static const char __pyx_k_KerasDQNPolicy_q_values[] = "KerasDQNPolicy.q_values";
 static const char __pyx_k_events_from_annotations[] = "events_from_annotations";
 static const char __pyx_k_sklearn_model_selection[] = "sklearn.model_selection";
 static const char __pyx_k_AdaptiveDQNRLEEGNET__rms[] = "AdaptiveDQNRLEEGNET._rms";
-static const char __pyx_k_src_AdaptiveDQN_RLEEGNET[] = "src.AdaptiveDQN_RLEEGNET";
 static const char __pyx_k_AdaptiveDQNRLEEGNET__mean[] = "AdaptiveDQNRLEEGNET._mean";
 static const char __pyx_k_Scaler_saved_successfully[] = "Scaler saved successfully.";
 static const char __pyx_k_Testing_samples_per_class[] = "Testing samples per class: ";
@@ -2622,31 +2622,31 @@ static const char __pyx_k_AdaptiveDQNRLEEGNET_process_epoc[] = "AdaptiveDQNRLEEG
 static const char __pyx_k_AdaptiveDQNRLEEGNET_setup_traini[] = "AdaptiveDQNRLEEGNET.setup_training";
 static const char __pyx_k_stable_baselines3_common_callbac[] = "stable_baselines3.common.callbacks";
 /* #### Code section: decls ### */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_images_per_episode, PyObject *__pyx_v_dataset, PyObject *__pyx_v_random, PyObject *__pyx_v_ncomp, PyObject *__pyx_v_global_shape_length, PyObject *__pyx_v_n_actions); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_action); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_8_calculate_reward(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_action); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_verbose); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_2q_values(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_obs); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_2_mean(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_4_stddev(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_6_peaktopeak(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_8_variance(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_10_rms(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_12_abs_diff_signal(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_14_skewness(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_16_kurtosis(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_concat_features(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_apply_cwt(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_data, PyObject *__pyx_v_scales, PyObject *__pyx_v_wavelet_name); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22featuresarray_load(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_data_array); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24setup_eeg(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_path); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET___defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26process_epochs(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_event_ids); /* proto */
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28setup_training(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_task_names); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_images_per_episode, PyObject *__pyx_v_dataset, PyObject *__pyx_v_random, PyObject *__pyx_v_ncomp, PyObject *__pyx_v_global_shape_length, PyObject *__pyx_v_n_actions); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_action); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_10Plasticity_8_calculate_reward(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_action); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_14CustomCallback___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_verbose); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_2q_values(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_obs); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_2_mean(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_4_stddev(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_6_peaktopeak(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_8_variance(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_10_rms(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_12_abs_diff_signal(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_14_skewness(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_16_kurtosis(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_concat_features(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_apply_cwt(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_data, PyObject *__pyx_v_scales, PyObject *__pyx_v_wavelet_name); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22featuresarray_load(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_data_array); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24setup_eeg(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_path); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET___defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26process_epochs(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_event_ids); /* proto */
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28setup_training(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_task_names); /* proto */
 static __Pyx_CachedCFunction __pyx_umethod_PyDict_Type_pop = {0, 0, 0, 0, 0};
 /* #### Code section: late_includes ### */
 /* #### Code section: module_state ### */
@@ -2693,6 +2693,7 @@ typedef struct {
   PyObject *__pyx_n_s_AdaptiveDQNRLEEGNET_process_epoc;
   PyObject *__pyx_n_s_AdaptiveDQNRLEEGNET_setup_eeg;
   PyObject *__pyx_n_s_AdaptiveDQNRLEEGNET_setup_traini;
+  PyObject *__pyx_n_s_AdaptiveDQN_RLEEGNET;
   PyObject *__pyx_n_s_AveragePooling1D;
   PyObject *__pyx_n_s_BaseCallback;
   PyObject *__pyx_n_s_BatchNormalization;
@@ -2956,7 +2957,6 @@ typedef struct {
   PyObject *__pyx_n_s_spaces;
   PyObject *__pyx_n_s_spec;
   PyObject *__pyx_n_s_sqrt;
-  PyObject *__pyx_n_s_src_AdaptiveDQN_RLEEGNET;
   PyObject *__pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py;
   PyObject *__pyx_n_s_stable_baselines3;
   PyObject *__pyx_n_s_stable_baselines3_common_callbac;
@@ -3131,6 +3131,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_AdaptiveDQNRLEEGNET_process_epoc);
   Py_CLEAR(clear_module_state->__pyx_n_s_AdaptiveDQNRLEEGNET_setup_eeg);
   Py_CLEAR(clear_module_state->__pyx_n_s_AdaptiveDQNRLEEGNET_setup_traini);
+  Py_CLEAR(clear_module_state->__pyx_n_s_AdaptiveDQN_RLEEGNET);
   Py_CLEAR(clear_module_state->__pyx_n_s_AveragePooling1D);
   Py_CLEAR(clear_module_state->__pyx_n_s_BaseCallback);
   Py_CLEAR(clear_module_state->__pyx_n_s_BatchNormalization);
@@ -3394,7 +3395,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_spaces);
   Py_CLEAR(clear_module_state->__pyx_n_s_spec);
   Py_CLEAR(clear_module_state->__pyx_n_s_sqrt);
-  Py_CLEAR(clear_module_state->__pyx_n_s_src_AdaptiveDQN_RLEEGNET);
   Py_CLEAR(clear_module_state->__pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py);
   Py_CLEAR(clear_module_state->__pyx_n_s_stable_baselines3);
   Py_CLEAR(clear_module_state->__pyx_n_s_stable_baselines3_common_callbac);
@@ -3547,6 +3547,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_AdaptiveDQNRLEEGNET_process_epoc);
   Py_VISIT(traverse_module_state->__pyx_n_s_AdaptiveDQNRLEEGNET_setup_eeg);
   Py_VISIT(traverse_module_state->__pyx_n_s_AdaptiveDQNRLEEGNET_setup_traini);
+  Py_VISIT(traverse_module_state->__pyx_n_s_AdaptiveDQN_RLEEGNET);
   Py_VISIT(traverse_module_state->__pyx_n_s_AveragePooling1D);
   Py_VISIT(traverse_module_state->__pyx_n_s_BaseCallback);
   Py_VISIT(traverse_module_state->__pyx_n_s_BatchNormalization);
@@ -3810,7 +3811,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_spaces);
   Py_VISIT(traverse_module_state->__pyx_n_s_spec);
   Py_VISIT(traverse_module_state->__pyx_n_s_sqrt);
-  Py_VISIT(traverse_module_state->__pyx_n_s_src_AdaptiveDQN_RLEEGNET);
   Py_VISIT(traverse_module_state->__pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py);
   Py_VISIT(traverse_module_state->__pyx_n_s_stable_baselines3);
   Py_VISIT(traverse_module_state->__pyx_n_s_stable_baselines3_common_callbac);
@@ -3973,6 +3973,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_AdaptiveDQNRLEEGNET_process_epoc __pyx_mstate_global->__pyx_n_s_AdaptiveDQNRLEEGNET_process_epoc
 #define __pyx_n_s_AdaptiveDQNRLEEGNET_setup_eeg __pyx_mstate_global->__pyx_n_s_AdaptiveDQNRLEEGNET_setup_eeg
 #define __pyx_n_s_AdaptiveDQNRLEEGNET_setup_traini __pyx_mstate_global->__pyx_n_s_AdaptiveDQNRLEEGNET_setup_traini
+#define __pyx_n_s_AdaptiveDQN_RLEEGNET __pyx_mstate_global->__pyx_n_s_AdaptiveDQN_RLEEGNET
 #define __pyx_n_s_AveragePooling1D __pyx_mstate_global->__pyx_n_s_AveragePooling1D
 #define __pyx_n_s_BaseCallback __pyx_mstate_global->__pyx_n_s_BaseCallback
 #define __pyx_n_s_BatchNormalization __pyx_mstate_global->__pyx_n_s_BatchNormalization
@@ -4236,7 +4237,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_spaces __pyx_mstate_global->__pyx_n_s_spaces
 #define __pyx_n_s_spec __pyx_mstate_global->__pyx_n_s_spec
 #define __pyx_n_s_sqrt __pyx_mstate_global->__pyx_n_s_sqrt
-#define __pyx_n_s_src_AdaptiveDQN_RLEEGNET __pyx_mstate_global->__pyx_n_s_src_AdaptiveDQN_RLEEGNET
 #define __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py __pyx_mstate_global->__pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py
 #define __pyx_n_s_stable_baselines3 __pyx_mstate_global->__pyx_n_s_stable_baselines3
 #define __pyx_n_s_stable_baselines3_common_callbac __pyx_mstate_global->__pyx_n_s_stable_baselines3_common_callbac
@@ -4355,7 +4355,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_codeobj__56 __pyx_mstate_global->__pyx_codeobj__56
 /* #### Code section: module_code ### */
 
-/* "src/AdaptiveDQN_RLEEGNET.py":21
+/* "AdaptiveDQN_RLEEGNET.py":21
  * 
  * class Plasticity(gym.Env):
  *     def __init__(self, images_per_episode, dataset, random, ncomp, global_shape_length, n_actions):             # <<<<<<<<<<<<<<
@@ -4364,16 +4364,16 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_1__init__(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_10Plasticity_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__, "Plasticity.__init__(self, images_per_episode, dataset, random, ncomp, global_shape_length, n_actions)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_1__init__(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_10Plasticity___init__, "Plasticity.__init__(self, images_per_episode, dataset, random, ncomp, global_shape_length, n_actions)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_10Plasticity_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_10Plasticity_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_10Plasticity___init__};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_10Plasticity_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -4533,11 +4533,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.Plasticity.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.Plasticity.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(__pyx_self, __pyx_v_self, __pyx_v_images_per_episode, __pyx_v_dataset, __pyx_v_random, __pyx_v_ncomp, __pyx_v_global_shape_length, __pyx_v_n_actions);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(__pyx_self, __pyx_v_self, __pyx_v_images_per_episode, __pyx_v_dataset, __pyx_v_random, __pyx_v_ncomp, __pyx_v_global_shape_length, __pyx_v_n_actions);
 
   /* function exit code */
   {
@@ -4550,7 +4550,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_images_per_episode, PyObject *__pyx_v_dataset, PyObject *__pyx_v_random, PyObject *__pyx_v_ncomp, PyObject *__pyx_v_global_shape_length, PyObject *__pyx_v_n_actions) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_images_per_episode, PyObject *__pyx_v_dataset, PyObject *__pyx_v_random, PyObject *__pyx_v_ncomp, PyObject *__pyx_v_global_shape_length, PyObject *__pyx_v_n_actions) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4564,7 +4564,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":22
+  /* "AdaptiveDQN_RLEEGNET.py":22
  * class Plasticity(gym.Env):
  *     def __init__(self, images_per_episode, dataset, random, ncomp, global_shape_length, n_actions):
  *         super(Plasticity, self).__init__()             # <<<<<<<<<<<<<<
@@ -4611,7 +4611,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":23
+  /* "AdaptiveDQN_RLEEGNET.py":23
  *     def __init__(self, images_per_episode, dataset, random, ncomp, global_shape_length, n_actions):
  *         super(Plasticity, self).__init__()
  *         self.action_space = gym.spaces.Discrete(n_actions)             # <<<<<<<<<<<<<<
@@ -4651,7 +4651,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_action_space, __pyx_t_1) < 0) __PYX_ERR(0, 23, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":24
+  /* "AdaptiveDQN_RLEEGNET.py":24
  *         super(Plasticity, self).__init__()
  *         self.action_space = gym.spaces.Discrete(n_actions)
  *         self.observation_space = gym.spaces.Box(             # <<<<<<<<<<<<<<
@@ -4667,7 +4667,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":25
+  /* "AdaptiveDQN_RLEEGNET.py":25
  *         self.action_space = gym.spaces.Discrete(n_actions)
  *         self.observation_space = gym.spaces.Box(
  *             low=-np.inf, high=np.inf,             # <<<<<<<<<<<<<<
@@ -4694,7 +4694,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_high, __pyx_t_5) < 0) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":26
+  /* "AdaptiveDQN_RLEEGNET.py":26
  *         self.observation_space = gym.spaces.Box(
  *             low=-np.inf, high=np.inf,
  *             shape=(ncomp, global_shape_length),             # <<<<<<<<<<<<<<
@@ -4712,7 +4712,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_shape, __pyx_t_5) < 0) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":27
+  /* "AdaptiveDQN_RLEEGNET.py":27
  *             low=-np.inf, high=np.inf,
  *             shape=(ncomp, global_shape_length),
  *             dtype=np.float32             # <<<<<<<<<<<<<<
@@ -4727,7 +4727,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dtype, __pyx_t_2) < 0) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":24
+  /* "AdaptiveDQN_RLEEGNET.py":24
  *         super(Plasticity, self).__init__()
  *         self.action_space = gym.spaces.Discrete(n_actions)
  *         self.observation_space = gym.spaces.Box(             # <<<<<<<<<<<<<<
@@ -4741,7 +4741,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_observation_space, __pyx_t_2) < 0) __PYX_ERR(0, 24, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":29
+  /* "AdaptiveDQN_RLEEGNET.py":29
  *             dtype=np.float32
  *         )
  *         self.images_per_episode = images_per_episode             # <<<<<<<<<<<<<<
@@ -4750,7 +4750,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_images_per_episode, __pyx_v_images_per_episode) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":30
+  /* "AdaptiveDQN_RLEEGNET.py":30
  *         )
  *         self.images_per_episode = images_per_episode
  *         self.step_count = 0             # <<<<<<<<<<<<<<
@@ -4759,7 +4759,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_step_count, __pyx_int_0) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":31
+  /* "AdaptiveDQN_RLEEGNET.py":31
  *         self.images_per_episode = images_per_episode
  *         self.step_count = 0
  *         self.x, self.y = dataset             # <<<<<<<<<<<<<<
@@ -4815,7 +4815,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_y, __pyx_t_3) < 0) __PYX_ERR(0, 31, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":32
+  /* "AdaptiveDQN_RLEEGNET.py":32
  *         self.step_count = 0
  *         self.x, self.y = dataset
  *         self.random = random             # <<<<<<<<<<<<<<
@@ -4824,7 +4824,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_random, __pyx_v_random) < 0) __PYX_ERR(0, 32, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":33
+  /* "AdaptiveDQN_RLEEGNET.py":33
  *         self.x, self.y = dataset
  *         self.random = random
  *         self.dataset_idx = 0             # <<<<<<<<<<<<<<
@@ -4833,7 +4833,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_dataset_idx, __pyx_int_0) < 0) __PYX_ERR(0, 33, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":21
+  /* "AdaptiveDQN_RLEEGNET.py":21
  * 
  * class Plasticity(gym.Env):
  *     def __init__(self, images_per_episode, dataset, random, ncomp, global_shape_length, n_actions):             # <<<<<<<<<<<<<<
@@ -4849,7 +4849,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.Plasticity.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.Plasticity.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4857,7 +4857,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":35
+/* "AdaptiveDQN_RLEEGNET.py":35
  *         self.dataset_idx = 0
  * 
  *     def step(self, action):             # <<<<<<<<<<<<<<
@@ -4866,16 +4866,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity___init__(CYTH
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_3step(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_10Plasticity_3step(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step, "Plasticity.step(self, action)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_3step = {"step", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_3step, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_3step(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_10Plasticity_2step, "Plasticity.step(self, action)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_10Plasticity_3step = {"step", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_10Plasticity_3step, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_10Plasticity_2step};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_10Plasticity_3step(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -4960,11 +4960,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.Plasticity.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.Plasticity.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(__pyx_self, __pyx_v_self, __pyx_v_action);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(__pyx_self, __pyx_v_self, __pyx_v_action);
 
   /* function exit code */
   {
@@ -4977,7 +4977,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_action) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_action) {
   int __pyx_v_done;
   PyObject *__pyx_v_reward = NULL;
   PyObject *__pyx_v_obs = NULL;
@@ -4993,7 +4993,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("step", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":36
+  /* "AdaptiveDQN_RLEEGNET.py":36
  * 
  *     def step(self, action):
  *         done = False             # <<<<<<<<<<<<<<
@@ -5002,7 +5002,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_
  */
   __pyx_v_done = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":37
+  /* "AdaptiveDQN_RLEEGNET.py":37
  *     def step(self, action):
  *         done = False
  *         reward = self._calculate_reward(action)             # <<<<<<<<<<<<<<
@@ -5036,7 +5036,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_
   __pyx_v_reward = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":38
+  /* "AdaptiveDQN_RLEEGNET.py":38
  *         done = False
  *         reward = self._calculate_reward(action)
  *         obs = self._next_obs()             # <<<<<<<<<<<<<<
@@ -5070,7 +5070,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_
   __pyx_v_obs = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":39
+  /* "AdaptiveDQN_RLEEGNET.py":39
  *         reward = self._calculate_reward(action)
  *         obs = self._next_obs()
  *         self.step_count += 1             # <<<<<<<<<<<<<<
@@ -5085,7 +5085,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_step_count, __pyx_t_2) < 0) __PYX_ERR(0, 39, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":40
+  /* "AdaptiveDQN_RLEEGNET.py":40
  *         obs = self._next_obs()
  *         self.step_count += 1
  *         if self.step_count >= self.images_per_episode:             # <<<<<<<<<<<<<<
@@ -5103,7 +5103,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_5) {
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":41
+    /* "AdaptiveDQN_RLEEGNET.py":41
  *         self.step_count += 1
  *         if self.step_count >= self.images_per_episode:
  *             done = True             # <<<<<<<<<<<<<<
@@ -5112,7 +5112,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_
  */
     __pyx_v_done = 1;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":40
+    /* "AdaptiveDQN_RLEEGNET.py":40
  *         obs = self._next_obs()
  *         self.step_count += 1
  *         if self.step_count >= self.images_per_episode:             # <<<<<<<<<<<<<<
@@ -5121,7 +5121,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_
  */
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":42
+  /* "AdaptiveDQN_RLEEGNET.py":42
  *         if self.step_count >= self.images_per_episode:
  *             done = True
  *         return obs, reward, done, {}             # <<<<<<<<<<<<<<
@@ -5151,7 +5151,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":35
+  /* "AdaptiveDQN_RLEEGNET.py":35
  *         self.dataset_idx = 0
  * 
  *     def step(self, action):             # <<<<<<<<<<<<<<
@@ -5164,7 +5164,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.Plasticity.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.Plasticity.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_reward);
@@ -5174,7 +5174,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":44
+/* "AdaptiveDQN_RLEEGNET.py":44
  *         return obs, reward, done, {}
  * 
  *     def reset(self):             # <<<<<<<<<<<<<<
@@ -5183,16 +5183,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_2step(CYTHON_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_5reset(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_10Plasticity_5reset(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset, "Plasticity.reset(self)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_5reset = {"reset", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_5reset, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_5reset(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset, "Plasticity.reset(self)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_10Plasticity_5reset = {"reset", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_10Plasticity_5reset, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_10Plasticity_5reset(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -5262,11 +5262,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.Plasticity.reset", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.Plasticity.reset", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -5279,7 +5279,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5291,7 +5291,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset(CYTHON
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("reset", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":45
+  /* "AdaptiveDQN_RLEEGNET.py":45
  * 
  *     def reset(self):
  *         self.step_count = 0             # <<<<<<<<<<<<<<
@@ -5300,7 +5300,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset(CYTHON
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_step_count, __pyx_int_0) < 0) __PYX_ERR(0, 45, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":46
+  /* "AdaptiveDQN_RLEEGNET.py":46
  *     def reset(self):
  *         self.step_count = 0
  *         return self._next_obs()             # <<<<<<<<<<<<<<
@@ -5336,7 +5336,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset(CYTHON
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":44
+  /* "AdaptiveDQN_RLEEGNET.py":44
  *         return obs, reward, done, {}
  * 
  *     def reset(self):             # <<<<<<<<<<<<<<
@@ -5349,7 +5349,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset(CYTHON
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.Plasticity.reset", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.Plasticity.reset", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -5357,7 +5357,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset(CYTHON
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":48
+/* "AdaptiveDQN_RLEEGNET.py":48
  *         return self._next_obs()
  * 
  *     def _next_obs(self):             # <<<<<<<<<<<<<<
@@ -5366,16 +5366,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_4reset(CYTHON
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_7_next_obs(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_10Plasticity_7_next_obs(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs, "Plasticity._next_obs(self)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_7_next_obs = {"_next_obs", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_7_next_obs, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_7_next_obs(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs, "Plasticity._next_obs(self)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_10Plasticity_7_next_obs = {"_next_obs", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_10Plasticity_7_next_obs, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_10Plasticity_7_next_obs(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -5445,11 +5445,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.Plasticity._next_obs", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.Plasticity._next_obs", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -5462,7 +5462,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_next_obs_idx = NULL;
   PyObject *__pyx_v_obs = NULL;
   PyObject *__pyx_r = NULL;
@@ -5479,7 +5479,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CY
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_next_obs", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":49
+  /* "AdaptiveDQN_RLEEGNET.py":49
  * 
  *     def _next_obs(self):
  *         if self.random:             # <<<<<<<<<<<<<<
@@ -5492,7 +5492,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CY
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":50
+    /* "AdaptiveDQN_RLEEGNET.py":50
  *     def _next_obs(self):
  *         if self.random:
  *             next_obs_idx = random.randint(0, len(self.x) - 1)             # <<<<<<<<<<<<<<
@@ -5536,7 +5536,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CY
     __pyx_v_next_obs_idx = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":51
+    /* "AdaptiveDQN_RLEEGNET.py":51
  *         if self.random:
  *             next_obs_idx = random.randint(0, len(self.x) - 1)
  *             self.expected_action = int(self.y[next_obs_idx])             # <<<<<<<<<<<<<<
@@ -5554,7 +5554,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CY
     if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_expected_action, __pyx_t_1) < 0) __PYX_ERR(0, 51, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":52
+    /* "AdaptiveDQN_RLEEGNET.py":52
  *             next_obs_idx = random.randint(0, len(self.x) - 1)
  *             self.expected_action = int(self.y[next_obs_idx])
  *             obs = self.x[next_obs_idx]             # <<<<<<<<<<<<<<
@@ -5569,7 +5569,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CY
     __pyx_v_obs = __pyx_t_4;
     __pyx_t_4 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":49
+    /* "AdaptiveDQN_RLEEGNET.py":49
  * 
  *     def _next_obs(self):
  *         if self.random:             # <<<<<<<<<<<<<<
@@ -5579,7 +5579,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CY
     goto __pyx_L3;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":54
+  /* "AdaptiveDQN_RLEEGNET.py":54
  *             obs = self.x[next_obs_idx]
  *         else:
  *             obs = self.x[self.dataset_idx]             # <<<<<<<<<<<<<<
@@ -5598,7 +5598,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CY
     __pyx_v_obs = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":55
+    /* "AdaptiveDQN_RLEEGNET.py":55
  *         else:
  *             obs = self.x[self.dataset_idx]
  *             self.expected_action = int(self.y[self.dataset_idx])             # <<<<<<<<<<<<<<
@@ -5619,7 +5619,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CY
     if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_expected_action, __pyx_t_1) < 0) __PYX_ERR(0, 55, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":56
+    /* "AdaptiveDQN_RLEEGNET.py":56
  *             obs = self.x[self.dataset_idx]
  *             self.expected_action = int(self.y[self.dataset_idx])
  *             self.dataset_idx = (self.dataset_idx + 1) % (len(self.x))             # <<<<<<<<<<<<<<
@@ -5646,7 +5646,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CY
   }
   __pyx_L3:;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":57
+  /* "AdaptiveDQN_RLEEGNET.py":57
  *             self.expected_action = int(self.y[self.dataset_idx])
  *             self.dataset_idx = (self.dataset_idx + 1) % (len(self.x))
  *         return obs             # <<<<<<<<<<<<<<
@@ -5658,7 +5658,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CY
   __pyx_r = __pyx_v_obs;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":48
+  /* "AdaptiveDQN_RLEEGNET.py":48
  *         return self._next_obs()
  * 
  *     def _next_obs(self):             # <<<<<<<<<<<<<<
@@ -5672,7 +5672,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CY
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.Plasticity._next_obs", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.Plasticity._next_obs", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_next_obs_idx);
@@ -5682,7 +5682,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CY
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":59
+/* "AdaptiveDQN_RLEEGNET.py":59
  *         return obs
  * 
  *     def _calculate_reward(self, action):             # <<<<<<<<<<<<<<
@@ -5691,16 +5691,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_6_next_obs(CY
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_9_calculate_reward(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_10Plasticity_9_calculate_reward(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_8_calculate_reward, "Plasticity._calculate_reward(self, action)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_9_calculate_reward = {"_calculate_reward", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_9_calculate_reward, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_8_calculate_reward};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_9_calculate_reward(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_10Plasticity_8_calculate_reward, "Plasticity._calculate_reward(self, action)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_10Plasticity_9_calculate_reward = {"_calculate_reward", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_10Plasticity_9_calculate_reward, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_10Plasticity_8_calculate_reward};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_10Plasticity_9_calculate_reward(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -5785,11 +5785,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.Plasticity._calculate_reward", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.Plasticity._calculate_reward", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_8_calculate_reward(__pyx_self, __pyx_v_self, __pyx_v_action);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_10Plasticity_8_calculate_reward(__pyx_self, __pyx_v_self, __pyx_v_action);
 
   /* function exit code */
   {
@@ -5802,7 +5802,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_8_calculate_reward(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_action) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_10Plasticity_8_calculate_reward(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_action) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5814,7 +5814,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_8_calculate_r
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_calculate_reward", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":60
+  /* "AdaptiveDQN_RLEEGNET.py":60
  * 
  *     def _calculate_reward(self, action):
  *         return 1.0 if action == self.expected_action else -1.0             # <<<<<<<<<<<<<<
@@ -5839,7 +5839,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_8_calculate_r
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":59
+  /* "AdaptiveDQN_RLEEGNET.py":59
  *         return obs
  * 
  *     def _calculate_reward(self, action):             # <<<<<<<<<<<<<<
@@ -5852,7 +5852,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_8_calculate_r
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.Plasticity._calculate_reward", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.Plasticity._calculate_reward", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -5860,7 +5860,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_8_calculate_r
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":64
+/* "AdaptiveDQN_RLEEGNET.py":64
  * 
  * class CustomCallback(BaseCallback):
  *     def __init__(self, verbose=0):             # <<<<<<<<<<<<<<
@@ -5869,16 +5869,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_8_calculate_r
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_1__init__(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_14CustomCallback_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback___init__, "CustomCallback.__init__(self, verbose=0)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback___init__};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_1__init__(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_14CustomCallback___init__, "CustomCallback.__init__(self, verbose=0)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_14CustomCallback_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_14CustomCallback_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_14CustomCallback___init__};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_14CustomCallback_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -5964,11 +5964,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.CustomCallback.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.CustomCallback.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback___init__(__pyx_self, __pyx_v_self, __pyx_v_verbose);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_14CustomCallback___init__(__pyx_self, __pyx_v_self, __pyx_v_verbose);
 
   /* function exit code */
   {
@@ -5981,7 +5981,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_verbose) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_14CustomCallback___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_verbose) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5993,7 +5993,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback___init__(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":65
+  /* "AdaptiveDQN_RLEEGNET.py":65
  * class CustomCallback(BaseCallback):
  *     def __init__(self, verbose=0):
  *         super(CustomCallback, self).__init__(verbose)             # <<<<<<<<<<<<<<
@@ -6040,7 +6040,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback___init__(
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":64
+  /* "AdaptiveDQN_RLEEGNET.py":64
  * 
  * class CustomCallback(BaseCallback):
  *     def __init__(self, verbose=0):             # <<<<<<<<<<<<<<
@@ -6055,7 +6055,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback___init__(
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.CustomCallback.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.CustomCallback.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -6063,7 +6063,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback___init__(
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":67
+/* "AdaptiveDQN_RLEEGNET.py":67
  *         super(CustomCallback, self).__init__(verbose)
  * 
  *     def _on_step(self) -> bool:             # <<<<<<<<<<<<<<
@@ -6072,16 +6072,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback___init__(
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_3_on_step(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_14CustomCallback_3_on_step(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step, "CustomCallback._on_step(self) -> bool");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_3_on_step = {"_on_step", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_3_on_step, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_3_on_step(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step, "CustomCallback._on_step(self) -> bool");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_14CustomCallback_3_on_step = {"_on_step", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_14CustomCallback_3_on_step, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_14CustomCallback_3_on_step(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -6151,11 +6151,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.CustomCallback._on_step", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.CustomCallback._on_step", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -6168,7 +6168,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -6179,7 +6179,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_on_step", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":68
+  /* "AdaptiveDQN_RLEEGNET.py":68
  * 
  *     def _on_step(self) -> bool:
  *         if self.n_calls % 1000 == 0:             # <<<<<<<<<<<<<<
@@ -6195,7 +6195,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":69
+    /* "AdaptiveDQN_RLEEGNET.py":69
  *     def _on_step(self) -> bool:
  *         if self.n_calls % 1000 == 0:
  *             print(f"Step: {self.n_calls}")             # <<<<<<<<<<<<<<
@@ -6215,7 +6215,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":68
+    /* "AdaptiveDQN_RLEEGNET.py":68
  * 
  *     def _on_step(self) -> bool:
  *         if self.n_calls % 1000 == 0:             # <<<<<<<<<<<<<<
@@ -6224,7 +6224,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step
  */
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":70
+  /* "AdaptiveDQN_RLEEGNET.py":70
  *         if self.n_calls % 1000 == 0:
  *             print(f"Step: {self.n_calls}")
  *         return True             # <<<<<<<<<<<<<<
@@ -6236,7 +6236,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step
   __pyx_r = Py_True;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":67
+  /* "AdaptiveDQN_RLEEGNET.py":67
  *         super(CustomCallback, self).__init__(verbose)
  * 
  *     def _on_step(self) -> bool:             # <<<<<<<<<<<<<<
@@ -6248,7 +6248,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.CustomCallback._on_step", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.CustomCallback._on_step", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -6256,7 +6256,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":77
+/* "AdaptiveDQN_RLEEGNET.py":77
  *     """
  * 
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
@@ -6265,16 +6265,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_2_on_step
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_1__init__(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__, "KerasDQNPolicy.__init__(self, *args, **kwargs)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_1__init__(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__, "KerasDQNPolicy.__init__(self, *args, **kwargs)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -6358,11 +6358,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   __Pyx_DECREF(__pyx_v_args); __pyx_v_args = 0;
   __Pyx_DECREF(__pyx_v_kwargs); __pyx_v_kwargs = 0;
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.KerasDQNPolicy.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.KerasDQNPolicy.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(__pyx_self, __pyx_v_self, __pyx_v_args, __pyx_v_kwargs);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(__pyx_self, __pyx_v_self, __pyx_v_args, __pyx_v_kwargs);
 
   /* function exit code */
   __Pyx_DECREF(__pyx_v_args);
@@ -6377,7 +6377,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs) {
   PyObject *__pyx_v_required_params = NULL;
   PyObject *__pyx_v_param = NULL;
   PyObject *__pyx_v_ncomp = NULL;
@@ -6421,7 +6421,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":79
+  /* "AdaptiveDQN_RLEEGNET.py":79
  *     def __init__(self, *args, **kwargs):
  *         # Validate required parameters
  *         required_params = ["ncomp", "global_shape_length", "n_actions"]             # <<<<<<<<<<<<<<
@@ -6442,7 +6442,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __pyx_v_required_params = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":80
+  /* "AdaptiveDQN_RLEEGNET.py":80
  *         # Validate required parameters
  *         required_params = ["ncomp", "global_shape_length", "n_actions"]
  *         for param in required_params:             # <<<<<<<<<<<<<<
@@ -6468,7 +6468,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_XDECREF_SET(__pyx_v_param, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":81
+    /* "AdaptiveDQN_RLEEGNET.py":81
  *         required_params = ["ncomp", "global_shape_length", "n_actions"]
  *         for param in required_params:
  *             if param not in kwargs:             # <<<<<<<<<<<<<<
@@ -6478,7 +6478,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __pyx_t_4 = (__Pyx_PyDict_ContainsTF(__pyx_v_param, __pyx_v_kwargs, Py_NE)); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 81, __pyx_L1_error)
     if (unlikely(__pyx_t_4)) {
 
-      /* "src/AdaptiveDQN_RLEEGNET.py":82
+      /* "AdaptiveDQN_RLEEGNET.py":82
  *         for param in required_params:
  *             if param not in kwargs:
  *                 raise ValueError(f"Missing required parameter: {param}")             # <<<<<<<<<<<<<<
@@ -6497,7 +6497,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(0, 82, __pyx_L1_error)
 
-      /* "src/AdaptiveDQN_RLEEGNET.py":81
+      /* "AdaptiveDQN_RLEEGNET.py":81
  *         required_params = ["ncomp", "global_shape_length", "n_actions"]
  *         for param in required_params:
  *             if param not in kwargs:             # <<<<<<<<<<<<<<
@@ -6506,7 +6506,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
  */
     }
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":80
+    /* "AdaptiveDQN_RLEEGNET.py":80
  *         # Validate required parameters
  *         required_params = ["ncomp", "global_shape_length", "n_actions"]
  *         for param in required_params:             # <<<<<<<<<<<<<<
@@ -6516,7 +6516,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":85
+  /* "AdaptiveDQN_RLEEGNET.py":85
  * 
  *         # Pop your custom parameters out of kwargs before calling super
  *         ncomp = kwargs.pop("ncomp")             # <<<<<<<<<<<<<<
@@ -6528,7 +6528,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __pyx_v_ncomp = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":86
+  /* "AdaptiveDQN_RLEEGNET.py":86
  *         # Pop your custom parameters out of kwargs before calling super
  *         ncomp = kwargs.pop("ncomp")
  *         global_shape_length = kwargs.pop("global_shape_length")             # <<<<<<<<<<<<<<
@@ -6540,7 +6540,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __pyx_v_global_shape_length = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":87
+  /* "AdaptiveDQN_RLEEGNET.py":87
  *         ncomp = kwargs.pop("ncomp")
  *         global_shape_length = kwargs.pop("global_shape_length")
  *         n_actions = kwargs.pop("n_actions")             # <<<<<<<<<<<<<<
@@ -6552,7 +6552,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __pyx_v_n_actions = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":88
+  /* "AdaptiveDQN_RLEEGNET.py":88
  *         global_shape_length = kwargs.pop("global_shape_length")
  *         n_actions = kwargs.pop("n_actions")
  *         super().__init__(*args, **kwargs)             # <<<<<<<<<<<<<<
@@ -6584,7 +6584,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":90
+  /* "AdaptiveDQN_RLEEGNET.py":90
  *         super().__init__(*args, **kwargs)
  * 
  *         self.ncomp = ncomp             # <<<<<<<<<<<<<<
@@ -6593,7 +6593,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_ncomp, __pyx_v_ncomp) < 0) __PYX_ERR(0, 90, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":91
+  /* "AdaptiveDQN_RLEEGNET.py":91
  * 
  *         self.ncomp = ncomp
  *         self.global_shape_length = global_shape_length             # <<<<<<<<<<<<<<
@@ -6602,7 +6602,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_global_shape_length, __pyx_v_global_shape_length) < 0) __PYX_ERR(0, 91, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":92
+  /* "AdaptiveDQN_RLEEGNET.py":92
  *         self.ncomp = ncomp
  *         self.global_shape_length = global_shape_length
  *         self.n_actions = n_actions             # <<<<<<<<<<<<<<
@@ -6611,7 +6611,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_n_actions, __pyx_v_n_actions) < 0) __PYX_ERR(0, 92, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":95
+  /* "AdaptiveDQN_RLEEGNET.py":95
  * 
  *         # Build your Keras model
  *         self.keras_model = Sequential([             # <<<<<<<<<<<<<<
@@ -6621,7 +6621,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Sequential); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":96
+  /* "AdaptiveDQN_RLEEGNET.py":96
  *         # Build your Keras model
  *         self.keras_model = Sequential([
  *             Reshape((self.global_shape_length, self.ncomp)),             # <<<<<<<<<<<<<<
@@ -6666,7 +6666,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":97
+  /* "AdaptiveDQN_RLEEGNET.py":97
  *         self.keras_model = Sequential([
  *             Reshape((self.global_shape_length, self.ncomp)),
  *             BatchNormalization(),             # <<<<<<<<<<<<<<
@@ -6698,7 +6698,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":98
+  /* "AdaptiveDQN_RLEEGNET.py":98
  *             Reshape((self.global_shape_length, self.ncomp)),
  *             BatchNormalization(),
  *             Conv1D(32, kernel_size=3),             # <<<<<<<<<<<<<<
@@ -6715,7 +6715,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":99
+  /* "AdaptiveDQN_RLEEGNET.py":99
  *             BatchNormalization(),
  *             Conv1D(32, kernel_size=3),
  *             BatchNormalization(),             # <<<<<<<<<<<<<<
@@ -6747,7 +6747,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":100
+  /* "AdaptiveDQN_RLEEGNET.py":100
  *             Conv1D(32, kernel_size=3),
  *             BatchNormalization(),
  *             PReLU(),             # <<<<<<<<<<<<<<
@@ -6779,7 +6779,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":101
+  /* "AdaptiveDQN_RLEEGNET.py":101
  *             BatchNormalization(),
  *             PReLU(),
  *             MaxPooling1D(pool_size=2),             # <<<<<<<<<<<<<<
@@ -6796,7 +6796,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":102
+  /* "AdaptiveDQN_RLEEGNET.py":102
  *             PReLU(),
  *             MaxPooling1D(pool_size=2),
  *             SpatialDropout1D(0.1),             # <<<<<<<<<<<<<<
@@ -6828,7 +6828,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":103
+  /* "AdaptiveDQN_RLEEGNET.py":103
  *             MaxPooling1D(pool_size=2),
  *             SpatialDropout1D(0.1),
  *             Conv1D(64, kernel_size=3),             # <<<<<<<<<<<<<<
@@ -6845,7 +6845,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":104
+  /* "AdaptiveDQN_RLEEGNET.py":104
  *             SpatialDropout1D(0.1),
  *             Conv1D(64, kernel_size=3),
  *             BatchNormalization(),             # <<<<<<<<<<<<<<
@@ -6877,7 +6877,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":105
+  /* "AdaptiveDQN_RLEEGNET.py":105
  *             Conv1D(64, kernel_size=3),
  *             BatchNormalization(),
  *             PReLU(),             # <<<<<<<<<<<<<<
@@ -6909,7 +6909,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":106
+  /* "AdaptiveDQN_RLEEGNET.py":106
  *             BatchNormalization(),
  *             PReLU(),
  *             AveragePooling1D(pool_size=2),             # <<<<<<<<<<<<<<
@@ -6926,7 +6926,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
   __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":107
+  /* "AdaptiveDQN_RLEEGNET.py":107
  *             PReLU(),
  *             AveragePooling1D(pool_size=2),
  *             SpatialDropout1D(0.1),             # <<<<<<<<<<<<<<
@@ -6958,7 +6958,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":108
+  /* "AdaptiveDQN_RLEEGNET.py":108
  *             AveragePooling1D(pool_size=2),
  *             SpatialDropout1D(0.1),
  *             LSTM(             # <<<<<<<<<<<<<<
@@ -6968,7 +6968,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_n_s_LSTM); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_16);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":109
+  /* "AdaptiveDQN_RLEEGNET.py":109
  *             SpatialDropout1D(0.1),
  *             LSTM(
  *                 64, activation='tanh',             # <<<<<<<<<<<<<<
@@ -6979,7 +6979,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __Pyx_GOTREF(__pyx_t_19);
   if (PyDict_SetItem(__pyx_t_19, __pyx_n_s_activation, __pyx_n_u_tanh) < 0) __PYX_ERR(0, 109, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":110
+  /* "AdaptiveDQN_RLEEGNET.py":110
  *             LSTM(
  *                 64, activation='tanh',
  *                 recurrent_regularizer=l1_l2(l1=0.01, l2=0.01),             # <<<<<<<<<<<<<<
@@ -6999,7 +6999,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   if (PyDict_SetItem(__pyx_t_19, __pyx_n_s_recurrent_regularizer, __pyx_t_22) < 0) __PYX_ERR(0, 109, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_22); __pyx_t_22 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":111
+  /* "AdaptiveDQN_RLEEGNET.py":111
  *                 64, activation='tanh',
  *                 recurrent_regularizer=l1_l2(l1=0.01, l2=0.01),
  *                 return_sequences=True             # <<<<<<<<<<<<<<
@@ -7008,7 +7008,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
  */
   if (PyDict_SetItem(__pyx_t_19, __pyx_n_s_return_sequences, Py_True) < 0) __PYX_ERR(0, 109, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":108
+  /* "AdaptiveDQN_RLEEGNET.py":108
  *             AveragePooling1D(pool_size=2),
  *             SpatialDropout1D(0.1),
  *             LSTM(             # <<<<<<<<<<<<<<
@@ -7020,7 +7020,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
   __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":113
+  /* "AdaptiveDQN_RLEEGNET.py":113
  *                 return_sequences=True
  *             ),
  *             BatchNormalization(),             # <<<<<<<<<<<<<<
@@ -7052,7 +7052,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":114
+  /* "AdaptiveDQN_RLEEGNET.py":114
  *             ),
  *             BatchNormalization(),
  *             GlobalMaxPooling1D(),             # <<<<<<<<<<<<<<
@@ -7084,7 +7084,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_DECREF(__pyx_t_21); __pyx_t_21 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":115
+  /* "AdaptiveDQN_RLEEGNET.py":115
  *             BatchNormalization(),
  *             GlobalMaxPooling1D(),
  *             BatchNormalization(),             # <<<<<<<<<<<<<<
@@ -7116,7 +7116,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_DECREF(__pyx_t_20); __pyx_t_20 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":116
+  /* "AdaptiveDQN_RLEEGNET.py":116
  *             GlobalMaxPooling1D(),
  *             BatchNormalization(),
  *             Dense(64, activation='relu', kernel_regularizer=l1_l2(l1=0.01, l2=0.01)),             # <<<<<<<<<<<<<<
@@ -7145,7 +7145,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __Pyx_DECREF(__pyx_t_20); __pyx_t_20 = 0;
   __Pyx_DECREF(__pyx_t_23); __pyx_t_23 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":117
+  /* "AdaptiveDQN_RLEEGNET.py":117
  *             BatchNormalization(),
  *             Dense(64, activation='relu', kernel_regularizer=l1_l2(l1=0.01, l2=0.01)),
  *             BatchNormalization(),             # <<<<<<<<<<<<<<
@@ -7177,7 +7177,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_DECREF(__pyx_t_20); __pyx_t_20 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":118
+  /* "AdaptiveDQN_RLEEGNET.py":118
  *             Dense(64, activation='relu', kernel_regularizer=l1_l2(l1=0.01, l2=0.01)),
  *             BatchNormalization(),
  *             Dropout(0.1),             # <<<<<<<<<<<<<<
@@ -7209,7 +7209,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_DECREF(__pyx_t_25); __pyx_t_25 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":119
+  /* "AdaptiveDQN_RLEEGNET.py":119
  *             BatchNormalization(),
  *             Dropout(0.1),
  *             Dense(32, activation='relu'),             # <<<<<<<<<<<<<<
@@ -7226,7 +7226,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __Pyx_DECREF(__pyx_t_25); __pyx_t_25 = 0;
   __Pyx_DECREF(__pyx_t_24); __pyx_t_24 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":120
+  /* "AdaptiveDQN_RLEEGNET.py":120
  *             Dropout(0.1),
  *             Dense(32, activation='relu'),
  *             BatchNormalization(),             # <<<<<<<<<<<<<<
@@ -7258,7 +7258,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_DECREF(__pyx_t_25); __pyx_t_25 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":121
+  /* "AdaptiveDQN_RLEEGNET.py":121
  *             Dense(32, activation='relu'),
  *             BatchNormalization(),
  *             Dropout(0.1),             # <<<<<<<<<<<<<<
@@ -7290,7 +7290,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
     __Pyx_DECREF(__pyx_t_28); __pyx_t_28 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":122
+  /* "AdaptiveDQN_RLEEGNET.py":122
  *             BatchNormalization(),
  *             Dropout(0.1),
  *             Dense(self.n_actions, activation='linear')             # <<<<<<<<<<<<<<
@@ -7315,7 +7315,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __Pyx_DECREF(__pyx_t_30); __pyx_t_30 = 0;
   __Pyx_DECREF(__pyx_t_29); __pyx_t_29 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":95
+  /* "AdaptiveDQN_RLEEGNET.py":95
  * 
  *         # Build your Keras model
  *         self.keras_model = Sequential([             # <<<<<<<<<<<<<<
@@ -7419,7 +7419,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_keras_model, __pyx_t_5) < 0) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":77
+  /* "AdaptiveDQN_RLEEGNET.py":77
  *     """
  * 
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
@@ -7459,7 +7459,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   __Pyx_XDECREF(__pyx_t_29);
   __Pyx_XDECREF(__pyx_t_30);
   __Pyx_XDECREF(__pyx_t_31);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.KerasDQNPolicy.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.KerasDQNPolicy.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_required_params);
@@ -7472,7 +7472,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":125
+/* "AdaptiveDQN_RLEEGNET.py":125
  *         ])
  * 
  *     def q_values(self, obs: np.ndarray) -> np.ndarray:             # <<<<<<<<<<<<<<
@@ -7481,16 +7481,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy___init__(
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_3q_values(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_3q_values(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_2q_values, "KerasDQNPolicy.q_values(self, obs: np.ndarray) -> np.ndarray\n\n        Compute the Q-values using the internal Keras model.\n\n        :param obs: A (batch_size x *observation_shape*) array\n        :return: A (batch_size x n_actions) array of Q-values\n        ");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_3q_values = {"q_values", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_3q_values, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_2q_values};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_3q_values(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_2q_values, "KerasDQNPolicy.q_values(self, obs: np.ndarray) -> np.ndarray\n\n        Compute the Q-values using the internal Keras model.\n\n        :param obs: A (batch_size x *observation_shape*) array\n        :return: A (batch_size x n_actions) array of Q-values\n        ");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_3q_values = {"q_values", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_3q_values, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_2q_values};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_3q_values(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -7575,11 +7575,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.KerasDQNPolicy.q_values", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.KerasDQNPolicy.q_values", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_2q_values(__pyx_self, __pyx_v_self, __pyx_v_obs);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_2q_values(__pyx_self, __pyx_v_self, __pyx_v_obs);
 
   /* function exit code */
   {
@@ -7592,7 +7592,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_2q_values(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_obs) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_2q_values(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_obs) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -7604,7 +7604,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_2q_values
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("q_values", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":133
+  /* "AdaptiveDQN_RLEEGNET.py":133
  *         """
  *         # Make sure obs is the right shape, or do any conversions needed
  *         return self.keras_model.predict(obs)             # <<<<<<<<<<<<<<
@@ -7643,7 +7643,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_2q_values
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":125
+  /* "AdaptiveDQN_RLEEGNET.py":125
  *         ])
  * 
  *     def q_values(self, obs: np.ndarray) -> np.ndarray:             # <<<<<<<<<<<<<<
@@ -7656,7 +7656,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_2q_values
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.KerasDQNPolicy.q_values", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.KerasDQNPolicy.q_values", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -7664,7 +7664,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_2q_values
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":136
+/* "AdaptiveDQN_RLEEGNET.py":136
  * 
  * class AdaptiveDQNRLEEGNET:
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -7673,16 +7673,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_2q_values
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_1__init__(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___init__, "AdaptiveDQNRLEEGNET.__init__(self)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___init__};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_1__init__(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___init__, "AdaptiveDQNRLEEGNET.__init__(self)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_1__init__ = {"__init__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___init__};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -7752,11 +7752,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___init__(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___init__(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   {
@@ -7769,7 +7769,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -7781,7 +7781,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":137
+  /* "AdaptiveDQN_RLEEGNET.py":137
  * class AdaptiveDQNRLEEGNET:
  *     def __init__(self):
  *         self.ncomp = 4             # <<<<<<<<<<<<<<
@@ -7790,7 +7790,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_ncomp, __pyx_int_4) < 0) __PYX_ERR(0, 137, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":138
+  /* "AdaptiveDQN_RLEEGNET.py":138
  *     def __init__(self):
  *         self.ncomp = 4
  *         self.GLOBAL_SHAPE_LENGTH = None             # <<<<<<<<<<<<<<
@@ -7799,7 +7799,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_GLOBAL_SHAPE_LENGTH, Py_None) < 0) __PYX_ERR(0, 138, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":139
+  /* "AdaptiveDQN_RLEEGNET.py":139
  *         self.ncomp = 4
  *         self.GLOBAL_SHAPE_LENGTH = None
  *         self.raw = None             # <<<<<<<<<<<<<<
@@ -7808,7 +7808,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_raw, Py_None) < 0) __PYX_ERR(0, 139, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":140
+  /* "AdaptiveDQN_RLEEGNET.py":140
  *         self.GLOBAL_SHAPE_LENGTH = None
  *         self.raw = None
  *         self.events = None             # <<<<<<<<<<<<<<
@@ -7817,7 +7817,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_events, Py_None) < 0) __PYX_ERR(0, 140, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":141
+  /* "AdaptiveDQN_RLEEGNET.py":141
  *         self.raw = None
  *         self.events = None
  *         self.csp_filter_objects = {}             # <<<<<<<<<<<<<<
@@ -7829,7 +7829,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_csp_filter_objects, __pyx_t_1) < 0) __PYX_ERR(0, 141, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":142
+  /* "AdaptiveDQN_RLEEGNET.py":142
  *         self.events = None
  *         self.csp_filter_objects = {}
  *         self.csp_transformed_data = {}             # <<<<<<<<<<<<<<
@@ -7841,7 +7841,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_csp_transformed_data, __pyx_t_1) < 0) __PYX_ERR(0, 142, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":143
+  /* "AdaptiveDQN_RLEEGNET.py":143
  *         self.csp_filter_objects = {}
  *         self.csp_transformed_data = {}
  *         self.X_train = None             # <<<<<<<<<<<<<<
@@ -7850,7 +7850,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_X_train, Py_None) < 0) __PYX_ERR(0, 143, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":144
+  /* "AdaptiveDQN_RLEEGNET.py":144
  *         self.csp_transformed_data = {}
  *         self.X_train = None
  *         self.X_test = None             # <<<<<<<<<<<<<<
@@ -7859,7 +7859,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_X_test, Py_None) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":145
+  /* "AdaptiveDQN_RLEEGNET.py":145
  *         self.X_train = None
  *         self.X_test = None
  *         self.y_train = None             # <<<<<<<<<<<<<<
@@ -7868,7 +7868,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_y_train, Py_None) < 0) __PYX_ERR(0, 145, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":146
+  /* "AdaptiveDQN_RLEEGNET.py":146
  *         self.X_test = None
  *         self.y_train = None
  *         self.y_test = None             # <<<<<<<<<<<<<<
@@ -7877,7 +7877,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_y_test, Py_None) < 0) __PYX_ERR(0, 146, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":147
+  /* "AdaptiveDQN_RLEEGNET.py":147
  *         self.y_train = None
  *         self.y_test = None
  *         self.scaler = StandardScaler()             # <<<<<<<<<<<<<<
@@ -7911,7 +7911,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_scaler, __pyx_t_1) < 0) __PYX_ERR(0, 147, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":148
+  /* "AdaptiveDQN_RLEEGNET.py":148
  *         self.y_test = None
  *         self.scaler = StandardScaler()
  *         self.task_names = []             # <<<<<<<<<<<<<<
@@ -7923,7 +7923,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_task_names, __pyx_t_1) < 0) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":136
+  /* "AdaptiveDQN_RLEEGNET.py":136
  * 
  * class AdaptiveDQNRLEEGNET:
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -7938,7 +7938,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -7946,7 +7946,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":150
+/* "AdaptiveDQN_RLEEGNET.py":150
  *         self.task_names = []
  * 
  *     def _mean(self, x):             # <<<<<<<<<<<<<<
@@ -7955,16 +7955,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET___in
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_3_mean(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_3_mean(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_2_mean, "AdaptiveDQNRLEEGNET._mean(self, x)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_3_mean = {"_mean", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_3_mean, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_2_mean};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_3_mean(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_2_mean, "AdaptiveDQNRLEEGNET._mean(self, x)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_3_mean = {"_mean", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_3_mean, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_2_mean};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_3_mean(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -8049,11 +8049,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._mean", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._mean", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_2_mean(__pyx_self, __pyx_v_self, __pyx_v_x);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_2_mean(__pyx_self, __pyx_v_self, __pyx_v_x);
 
   /* function exit code */
   {
@@ -8066,7 +8066,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_2_mean(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_2_mean(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -8078,7 +8078,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_2_me
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_mean", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":151
+  /* "AdaptiveDQN_RLEEGNET.py":151
  * 
  *     def _mean(self, x):
  *         return np.mean(x, axis=-1).reshape(-1, 1)             # <<<<<<<<<<<<<<
@@ -8114,7 +8114,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_2_me
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":150
+  /* "AdaptiveDQN_RLEEGNET.py":150
  *         self.task_names = []
  * 
  *     def _mean(self, x):             # <<<<<<<<<<<<<<
@@ -8128,7 +8128,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_2_me
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._mean", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._mean", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -8136,7 +8136,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_2_me
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":153
+/* "AdaptiveDQN_RLEEGNET.py":153
  *         return np.mean(x, axis=-1).reshape(-1, 1)
  * 
  *     def _stddev(self, x):             # <<<<<<<<<<<<<<
@@ -8145,16 +8145,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_2_me
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_5_stddev(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_5_stddev(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_4_stddev, "AdaptiveDQNRLEEGNET._stddev(self, x)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_5_stddev = {"_stddev", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_5_stddev, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_4_stddev};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_5_stddev(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_4_stddev, "AdaptiveDQNRLEEGNET._stddev(self, x)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_5_stddev = {"_stddev", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_5_stddev, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_4_stddev};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_5_stddev(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -8239,11 +8239,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._stddev", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._stddev", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_4_stddev(__pyx_self, __pyx_v_self, __pyx_v_x);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_4_stddev(__pyx_self, __pyx_v_self, __pyx_v_x);
 
   /* function exit code */
   {
@@ -8256,7 +8256,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_4_stddev(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_4_stddev(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -8268,7 +8268,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_4_st
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_stddev", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":154
+  /* "AdaptiveDQN_RLEEGNET.py":154
  * 
  *     def _stddev(self, x):
  *         return np.std(x, axis=-1).reshape(-1, 1)             # <<<<<<<<<<<<<<
@@ -8304,7 +8304,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_4_st
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":153
+  /* "AdaptiveDQN_RLEEGNET.py":153
  *         return np.mean(x, axis=-1).reshape(-1, 1)
  * 
  *     def _stddev(self, x):             # <<<<<<<<<<<<<<
@@ -8318,7 +8318,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_4_st
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._stddev", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._stddev", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -8326,7 +8326,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_4_st
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":156
+/* "AdaptiveDQN_RLEEGNET.py":156
  *         return np.std(x, axis=-1).reshape(-1, 1)
  * 
  *     def _peaktopeak(self, x):             # <<<<<<<<<<<<<<
@@ -8335,16 +8335,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_4_st
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_7_peaktopeak(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_7_peaktopeak(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_6_peaktopeak, "AdaptiveDQNRLEEGNET._peaktopeak(self, x)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_7_peaktopeak = {"_peaktopeak", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_7_peaktopeak, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_6_peaktopeak};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_7_peaktopeak(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_6_peaktopeak, "AdaptiveDQNRLEEGNET._peaktopeak(self, x)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_7_peaktopeak = {"_peaktopeak", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_7_peaktopeak, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_6_peaktopeak};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_7_peaktopeak(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -8429,11 +8429,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._peaktopeak", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._peaktopeak", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_6_peaktopeak(__pyx_self, __pyx_v_self, __pyx_v_x);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_6_peaktopeak(__pyx_self, __pyx_v_self, __pyx_v_x);
 
   /* function exit code */
   {
@@ -8446,7 +8446,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_6_peaktopeak(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_6_peaktopeak(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -8458,7 +8458,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_6_pe
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_peaktopeak", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":157
+  /* "AdaptiveDQN_RLEEGNET.py":157
  * 
  *     def _peaktopeak(self, x):
  *         return np.ptp(x, axis=-1).reshape(-1, 1)             # <<<<<<<<<<<<<<
@@ -8494,7 +8494,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_6_pe
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":156
+  /* "AdaptiveDQN_RLEEGNET.py":156
  *         return np.std(x, axis=-1).reshape(-1, 1)
  * 
  *     def _peaktopeak(self, x):             # <<<<<<<<<<<<<<
@@ -8508,7 +8508,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_6_pe
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._peaktopeak", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._peaktopeak", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -8516,7 +8516,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_6_pe
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":159
+/* "AdaptiveDQN_RLEEGNET.py":159
  *         return np.ptp(x, axis=-1).reshape(-1, 1)
  * 
  *     def _variance(self, x):             # <<<<<<<<<<<<<<
@@ -8525,16 +8525,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_6_pe
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_9_variance(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_9_variance(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_8_variance, "AdaptiveDQNRLEEGNET._variance(self, x)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_9_variance = {"_variance", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_9_variance, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_8_variance};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_9_variance(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_8_variance, "AdaptiveDQNRLEEGNET._variance(self, x)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_9_variance = {"_variance", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_9_variance, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_8_variance};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_9_variance(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -8619,11 +8619,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._variance", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._variance", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_8_variance(__pyx_self, __pyx_v_self, __pyx_v_x);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_8_variance(__pyx_self, __pyx_v_self, __pyx_v_x);
 
   /* function exit code */
   {
@@ -8636,7 +8636,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_8_variance(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_8_variance(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -8648,7 +8648,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_8_va
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_variance", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":160
+  /* "AdaptiveDQN_RLEEGNET.py":160
  * 
  *     def _variance(self, x):
  *         return np.var(x, axis=-1).reshape(-1, 1)             # <<<<<<<<<<<<<<
@@ -8684,7 +8684,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_8_va
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":159
+  /* "AdaptiveDQN_RLEEGNET.py":159
  *         return np.ptp(x, axis=-1).reshape(-1, 1)
  * 
  *     def _variance(self, x):             # <<<<<<<<<<<<<<
@@ -8698,7 +8698,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_8_va
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._variance", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._variance", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -8706,7 +8706,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_8_va
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":162
+/* "AdaptiveDQN_RLEEGNET.py":162
  *         return np.var(x, axis=-1).reshape(-1, 1)
  * 
  *     def _rms(self, x):             # <<<<<<<<<<<<<<
@@ -8715,16 +8715,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_8_va
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_11_rms(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_11_rms(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_10_rms, "AdaptiveDQNRLEEGNET._rms(self, x)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_11_rms = {"_rms", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_11_rms, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_10_rms};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_11_rms(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_10_rms, "AdaptiveDQNRLEEGNET._rms(self, x)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_11_rms = {"_rms", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_11_rms, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_10_rms};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_11_rms(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -8809,11 +8809,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._rms", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._rms", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_10_rms(__pyx_self, __pyx_v_self, __pyx_v_x);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_10_rms(__pyx_self, __pyx_v_self, __pyx_v_x);
 
   /* function exit code */
   {
@@ -8826,7 +8826,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_10_rms(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_10_rms(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -8841,7 +8841,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_10_r
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_rms", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":163
+  /* "AdaptiveDQN_RLEEGNET.py":163
  * 
  *     def _rms(self, x):
  *         return np.sqrt(np.mean(x**2, axis=-1)).reshape(-1, 1)             # <<<<<<<<<<<<<<
@@ -8907,7 +8907,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_10_r
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":162
+  /* "AdaptiveDQN_RLEEGNET.py":162
  *         return np.var(x, axis=-1).reshape(-1, 1)
  * 
  *     def _rms(self, x):             # <<<<<<<<<<<<<<
@@ -8923,7 +8923,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_10_r
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._rms", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._rms", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -8931,7 +8931,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_10_r
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":165
+/* "AdaptiveDQN_RLEEGNET.py":165
  *         return np.sqrt(np.mean(x**2, axis=-1)).reshape(-1, 1)
  * 
  *     def _abs_diff_signal(self, x):             # <<<<<<<<<<<<<<
@@ -8940,16 +8940,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_10_r
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_13_abs_diff_signal(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_13_abs_diff_signal(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_12_abs_diff_signal, "AdaptiveDQNRLEEGNET._abs_diff_signal(self, x)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_13_abs_diff_signal = {"_abs_diff_signal", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_13_abs_diff_signal, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_12_abs_diff_signal};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_13_abs_diff_signal(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_12_abs_diff_signal, "AdaptiveDQNRLEEGNET._abs_diff_signal(self, x)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_13_abs_diff_signal = {"_abs_diff_signal", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_13_abs_diff_signal, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_12_abs_diff_signal};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_13_abs_diff_signal(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -9034,11 +9034,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._abs_diff_signal", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._abs_diff_signal", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_12_abs_diff_signal(__pyx_self, __pyx_v_self, __pyx_v_x);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_12_abs_diff_signal(__pyx_self, __pyx_v_self, __pyx_v_x);
 
   /* function exit code */
   {
@@ -9051,7 +9051,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_12_abs_diff_signal(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_12_abs_diff_signal(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -9067,7 +9067,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_12_a
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_abs_diff_signal", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":166
+  /* "AdaptiveDQN_RLEEGNET.py":166
  * 
  *     def _abs_diff_signal(self, x):
  *         return np.sum(np.abs(np.diff(x, axis=-1)), axis=-1).reshape(-1, 1)             # <<<<<<<<<<<<<<
@@ -9149,7 +9149,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_12_a
   __pyx_t_7 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":165
+  /* "AdaptiveDQN_RLEEGNET.py":165
  *         return np.sqrt(np.mean(x**2, axis=-1)).reshape(-1, 1)
  * 
  *     def _abs_diff_signal(self, x):             # <<<<<<<<<<<<<<
@@ -9166,7 +9166,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_12_a
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._abs_diff_signal", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._abs_diff_signal", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -9174,7 +9174,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_12_a
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":168
+/* "AdaptiveDQN_RLEEGNET.py":168
  *         return np.sum(np.abs(np.diff(x, axis=-1)), axis=-1).reshape(-1, 1)
  * 
  *     def _skewness(self, x):             # <<<<<<<<<<<<<<
@@ -9183,16 +9183,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_12_a
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_15_skewness(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_15_skewness(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_14_skewness, "AdaptiveDQNRLEEGNET._skewness(self, x)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_15_skewness = {"_skewness", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_15_skewness, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_14_skewness};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_15_skewness(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_14_skewness, "AdaptiveDQNRLEEGNET._skewness(self, x)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_15_skewness = {"_skewness", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_15_skewness, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_14_skewness};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_15_skewness(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -9277,11 +9277,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._skewness", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._skewness", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_14_skewness(__pyx_self, __pyx_v_self, __pyx_v_x);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_14_skewness(__pyx_self, __pyx_v_self, __pyx_v_x);
 
   /* function exit code */
   {
@@ -9294,7 +9294,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_14_skewness(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_14_skewness(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -9306,7 +9306,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_14_s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_skewness", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":169
+  /* "AdaptiveDQN_RLEEGNET.py":169
  * 
  *     def _skewness(self, x):
  *         return stats.skew(x, axis=-1).reshape(-1, 1)             # <<<<<<<<<<<<<<
@@ -9342,7 +9342,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_14_s
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":168
+  /* "AdaptiveDQN_RLEEGNET.py":168
  *         return np.sum(np.abs(np.diff(x, axis=-1)), axis=-1).reshape(-1, 1)
  * 
  *     def _skewness(self, x):             # <<<<<<<<<<<<<<
@@ -9356,7 +9356,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_14_s
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._skewness", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._skewness", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -9364,7 +9364,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_14_s
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":171
+/* "AdaptiveDQN_RLEEGNET.py":171
  *         return stats.skew(x, axis=-1).reshape(-1, 1)
  * 
  *     def _kurtosis(self, x):             # <<<<<<<<<<<<<<
@@ -9373,16 +9373,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_14_s
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_17_kurtosis(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_17_kurtosis(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_16_kurtosis, "AdaptiveDQNRLEEGNET._kurtosis(self, x)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_17_kurtosis = {"_kurtosis", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_17_kurtosis, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_16_kurtosis};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_17_kurtosis(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_16_kurtosis, "AdaptiveDQNRLEEGNET._kurtosis(self, x)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_17_kurtosis = {"_kurtosis", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_17_kurtosis, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_16_kurtosis};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_17_kurtosis(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -9467,11 +9467,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._kurtosis", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._kurtosis", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_16_kurtosis(__pyx_self, __pyx_v_self, __pyx_v_x);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_16_kurtosis(__pyx_self, __pyx_v_self, __pyx_v_x);
 
   /* function exit code */
   {
@@ -9484,7 +9484,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_16_kurtosis(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_16_kurtosis(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -9496,7 +9496,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_16_k
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_kurtosis", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":172
+  /* "AdaptiveDQN_RLEEGNET.py":172
  * 
  *     def _kurtosis(self, x):
  *         return stats.kurtosis(x, axis=-1).reshape(-1, 1)             # <<<<<<<<<<<<<<
@@ -9532,7 +9532,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_16_k
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":171
+  /* "AdaptiveDQN_RLEEGNET.py":171
  *         return stats.skew(x, axis=-1).reshape(-1, 1)
  * 
  *     def _kurtosis(self, x):             # <<<<<<<<<<<<<<
@@ -9546,7 +9546,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_16_k
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._kurtosis", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._kurtosis", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -9554,7 +9554,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_16_k
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":174
+/* "AdaptiveDQN_RLEEGNET.py":174
  *         return stats.kurtosis(x, axis=-1).reshape(-1, 1)
  * 
  *     def _concat_features(self, x):             # <<<<<<<<<<<<<<
@@ -9563,16 +9563,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_16_k
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_19_concat_features(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_19_concat_features(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_concat_features, "AdaptiveDQNRLEEGNET._concat_features(self, x)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_19_concat_features = {"_concat_features", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_19_concat_features, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_concat_features};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_19_concat_features(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_concat_features, "AdaptiveDQNRLEEGNET._concat_features(self, x)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_19_concat_features = {"_concat_features", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_19_concat_features, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_concat_features};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_19_concat_features(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -9657,11 +9657,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._concat_features", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._concat_features", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_concat_features(__pyx_self, __pyx_v_self, __pyx_v_x);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_concat_features(__pyx_self, __pyx_v_self, __pyx_v_x);
 
   /* function exit code */
   {
@@ -9674,7 +9674,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_concat_features(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_concat_features(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_v_features = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -9695,7 +9695,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_concat_features", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":175
+  /* "AdaptiveDQN_RLEEGNET.py":175
  * 
  *     def _concat_features(self, x):
  *         features = np.concatenate(             # <<<<<<<<<<<<<<
@@ -9708,7 +9708,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":177
+  /* "AdaptiveDQN_RLEEGNET.py":177
  *         features = np.concatenate(
  *             (
  *                 self._peaktopeak(x),             # <<<<<<<<<<<<<<
@@ -9740,7 +9740,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":178
+  /* "AdaptiveDQN_RLEEGNET.py":178
  *             (
  *                 self._peaktopeak(x),
  *                 self._rms(x),             # <<<<<<<<<<<<<<
@@ -9772,7 +9772,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":179
+  /* "AdaptiveDQN_RLEEGNET.py":179
  *                 self._peaktopeak(x),
  *                 self._rms(x),
  *                 self._abs_diff_signal(x),             # <<<<<<<<<<<<<<
@@ -9804,7 +9804,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":180
+  /* "AdaptiveDQN_RLEEGNET.py":180
  *                 self._rms(x),
  *                 self._abs_diff_signal(x),
  *                 self._skewness(x),             # <<<<<<<<<<<<<<
@@ -9836,7 +9836,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":181
+  /* "AdaptiveDQN_RLEEGNET.py":181
  *                 self._abs_diff_signal(x),
  *                 self._skewness(x),
  *                 self._kurtosis(x),             # <<<<<<<<<<<<<<
@@ -9868,7 +9868,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":182
+  /* "AdaptiveDQN_RLEEGNET.py":182
  *                 self._skewness(x),
  *                 self._kurtosis(x),
  *                 self._variance(x),             # <<<<<<<<<<<<<<
@@ -9900,7 +9900,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":183
+  /* "AdaptiveDQN_RLEEGNET.py":183
  *                 self._kurtosis(x),
  *                 self._variance(x),
  *                 self._mean(x),             # <<<<<<<<<<<<<<
@@ -9932,7 +9932,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":184
+  /* "AdaptiveDQN_RLEEGNET.py":184
  *                 self._variance(x),
  *                 self._mean(x),
  *                 self._stddev(x)             # <<<<<<<<<<<<<<
@@ -9964,7 +9964,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":177
+  /* "AdaptiveDQN_RLEEGNET.py":177
  *         features = np.concatenate(
  *             (
  *                 self._peaktopeak(x),             # <<<<<<<<<<<<<<
@@ -9998,7 +9998,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
   __pyx_t_9 = 0;
   __pyx_t_10 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":175
+  /* "AdaptiveDQN_RLEEGNET.py":175
  * 
  *     def _concat_features(self, x):
  *         features = np.concatenate(             # <<<<<<<<<<<<<<
@@ -10011,7 +10011,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
   if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_t_11)) __PYX_ERR(0, 175, __pyx_L1_error);
   __pyx_t_11 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":186
+  /* "AdaptiveDQN_RLEEGNET.py":186
  *                 self._stddev(x)
  *             ),
  *             axis=1             # <<<<<<<<<<<<<<
@@ -10022,7 +10022,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
   __Pyx_GOTREF(__pyx_t_11);
   if (PyDict_SetItem(__pyx_t_11, __pyx_n_s_axis, __pyx_int_1) < 0) __PYX_ERR(0, 186, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":175
+  /* "AdaptiveDQN_RLEEGNET.py":175
  * 
  *     def _concat_features(self, x):
  *         features = np.concatenate(             # <<<<<<<<<<<<<<
@@ -10037,7 +10037,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
   __pyx_v_features = __pyx_t_9;
   __pyx_t_9 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":188
+  /* "AdaptiveDQN_RLEEGNET.py":188
  *             axis=1
  *         )
  *         return features             # <<<<<<<<<<<<<<
@@ -10049,7 +10049,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
   __pyx_r = __pyx_v_features;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":174
+  /* "AdaptiveDQN_RLEEGNET.py":174
  *         return stats.kurtosis(x, axis=-1).reshape(-1, 1)
  * 
  *     def _concat_features(self, x):             # <<<<<<<<<<<<<<
@@ -10070,7 +10070,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_11);
   __Pyx_XDECREF(__pyx_t_12);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._concat_features", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._concat_features", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_features);
@@ -10079,7 +10079,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":190
+/* "AdaptiveDQN_RLEEGNET.py":190
  *         return features
  * 
  *     def _apply_cwt(self, data, scales, wavelet_name='morl'):             # <<<<<<<<<<<<<<
@@ -10088,16 +10088,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_18_c
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_21_apply_cwt(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_21_apply_cwt(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_apply_cwt, "AdaptiveDQNRLEEGNET._apply_cwt(self, data, scales, wavelet_name=u'morl')");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_21_apply_cwt = {"_apply_cwt", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_21_apply_cwt, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_apply_cwt};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_21_apply_cwt(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_apply_cwt, "AdaptiveDQNRLEEGNET._apply_cwt(self, data, scales, wavelet_name=u'morl')");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_21_apply_cwt = {"_apply_cwt", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_21_apply_cwt, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_apply_cwt};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_21_apply_cwt(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -10213,11 +10213,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._apply_cwt", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._apply_cwt", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_apply_cwt(__pyx_self, __pyx_v_self, __pyx_v_data, __pyx_v_scales, __pyx_v_wavelet_name);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_apply_cwt(__pyx_self, __pyx_v_self, __pyx_v_data, __pyx_v_scales, __pyx_v_wavelet_name);
 
   /* function exit code */
   {
@@ -10230,7 +10230,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_apply_cwt(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_data, PyObject *__pyx_v_scales, PyObject *__pyx_v_wavelet_name) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_apply_cwt(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_data, PyObject *__pyx_v_scales, PyObject *__pyx_v_wavelet_name) {
   PyObject *__pyx_v_cwt_coeffs = NULL;
   PyObject *__pyx_7genexpr__pyx_v_i = NULL;
   PyObject *__pyx_r = NULL;
@@ -10251,7 +10251,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_a
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_apply_cwt", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":191
+  /* "AdaptiveDQN_RLEEGNET.py":191
  * 
  *     def _apply_cwt(self, data, scales, wavelet_name='morl'):
  *         cwt_coeffs = np.array([pywt.cwt(data[i, :], scales, wavelet_name)[0]             # <<<<<<<<<<<<<<
@@ -10267,7 +10267,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_a
     __pyx_t_2 = PyList_New(0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 191, __pyx_L5_error)
     __Pyx_GOTREF(__pyx_t_2);
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":192
+    /* "AdaptiveDQN_RLEEGNET.py":192
  *     def _apply_cwt(self, data, scales, wavelet_name='morl'):
  *         cwt_coeffs = np.array([pywt.cwt(data[i, :], scales, wavelet_name)[0]
  *                               for i in range(data.shape[0])])             # <<<<<<<<<<<<<<
@@ -10338,7 +10338,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_a
       __Pyx_XDECREF_SET(__pyx_7genexpr__pyx_v_i, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "src/AdaptiveDQN_RLEEGNET.py":191
+      /* "AdaptiveDQN_RLEEGNET.py":191
  * 
  *     def _apply_cwt(self, data, scales, wavelet_name='morl'):
  *         cwt_coeffs = np.array([pywt.cwt(data[i, :], scales, wavelet_name)[0]             # <<<<<<<<<<<<<<
@@ -10390,7 +10390,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_a
       if (unlikely(__Pyx_ListComp_Append(__pyx_t_2, (PyObject*)__pyx_t_9))) __PYX_ERR(0, 191, __pyx_L5_error)
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-      /* "src/AdaptiveDQN_RLEEGNET.py":192
+      /* "AdaptiveDQN_RLEEGNET.py":192
  *     def _apply_cwt(self, data, scales, wavelet_name='morl'):
  *         cwt_coeffs = np.array([pywt.cwt(data[i, :], scales, wavelet_name)[0]
  *                               for i in range(data.shape[0])])             # <<<<<<<<<<<<<<
@@ -10432,7 +10432,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_a
   __pyx_v_cwt_coeffs = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":193
+  /* "AdaptiveDQN_RLEEGNET.py":193
  *         cwt_coeffs = np.array([pywt.cwt(data[i, :], scales, wavelet_name)[0]
  *                               for i in range(data.shape[0])])
  *         return cwt_coeffs             # <<<<<<<<<<<<<<
@@ -10444,7 +10444,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_a
   __pyx_r = __pyx_v_cwt_coeffs;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":190
+  /* "AdaptiveDQN_RLEEGNET.py":190
  *         return features
  * 
  *     def _apply_cwt(self, data, scales, wavelet_name='morl'):             # <<<<<<<<<<<<<<
@@ -10462,7 +10462,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_a
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._apply_cwt", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET._apply_cwt", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_cwt_coeffs);
@@ -10472,7 +10472,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_a
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":195
+/* "AdaptiveDQN_RLEEGNET.py":195
  *         return cwt_coeffs
  * 
  *     def featuresarray_load(self, data_array):             # <<<<<<<<<<<<<<
@@ -10481,16 +10481,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_20_a
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_23featuresarray_load(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_23featuresarray_load(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22featuresarray_load, "AdaptiveDQNRLEEGNET.featuresarray_load(self, data_array)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_23featuresarray_load = {"featuresarray_load", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_23featuresarray_load, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22featuresarray_load};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_23featuresarray_load(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22featuresarray_load, "AdaptiveDQNRLEEGNET.featuresarray_load(self, data_array)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_23featuresarray_load = {"featuresarray_load", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_23featuresarray_load, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22featuresarray_load};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_23featuresarray_load(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -10575,11 +10575,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.featuresarray_load", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.featuresarray_load", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22featuresarray_load(__pyx_self, __pyx_v_self, __pyx_v_data_array);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22featuresarray_load(__pyx_self, __pyx_v_self, __pyx_v_data_array);
 
   /* function exit code */
   {
@@ -10592,7 +10592,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22featuresarray_load(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_data_array) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22featuresarray_load(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_data_array) {
   PyObject *__pyx_v_features = NULL;
   long __pyx_v_fs;
   PyObject *__pyx_v_d = NULL;
@@ -10621,7 +10621,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("featuresarray_load", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":196
+  /* "AdaptiveDQN_RLEEGNET.py":196
  * 
  *     def featuresarray_load(self, data_array):
  *         features = []             # <<<<<<<<<<<<<<
@@ -10633,7 +10633,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
   __pyx_v_features = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":197
+  /* "AdaptiveDQN_RLEEGNET.py":197
  *     def featuresarray_load(self, data_array):
  *         features = []
  *         fs = 250             # <<<<<<<<<<<<<<
@@ -10642,7 +10642,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
  */
   __pyx_v_fs = 0xFA;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":198
+  /* "AdaptiveDQN_RLEEGNET.py":198
  *         features = []
  *         fs = 250
  *         for d in data_array:             # <<<<<<<<<<<<<<
@@ -10704,7 +10704,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
     __Pyx_XDECREF_SET(__pyx_v_d, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":199
+    /* "AdaptiveDQN_RLEEGNET.py":199
  *         fs = 250
  *         for d in data_array:
  *             alpha = mne.filter.filter_data(d, sfreq=fs, l_freq=8, h_freq=12, verbose=False)             # <<<<<<<<<<<<<<
@@ -10741,7 +10741,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
     __Pyx_XDECREF_SET(__pyx_v_alpha, __pyx_t_7);
     __pyx_t_7 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":200
+    /* "AdaptiveDQN_RLEEGNET.py":200
  *         for d in data_array:
  *             alpha = mne.filter.filter_data(d, sfreq=fs, l_freq=8, h_freq=12, verbose=False)
  *             beta = mne.filter.filter_data(d, sfreq=fs, l_freq=12, h_freq=30, verbose=False)             # <<<<<<<<<<<<<<
@@ -10778,7 +10778,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
     __Pyx_XDECREF_SET(__pyx_v_beta, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":202
+    /* "AdaptiveDQN_RLEEGNET.py":202
  *             beta = mne.filter.filter_data(d, sfreq=fs, l_freq=12, h_freq=30, verbose=False)
  * 
  *             alph_ftrs = self._concat_features(alpha)             # <<<<<<<<<<<<<<
@@ -10812,7 +10812,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
     __Pyx_XDECREF_SET(__pyx_v_alph_ftrs, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":203
+    /* "AdaptiveDQN_RLEEGNET.py":203
  * 
  *             alph_ftrs = self._concat_features(alpha)
  *             beta_ftrs = self._concat_features(beta)             # <<<<<<<<<<<<<<
@@ -10846,7 +10846,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
     __Pyx_XDECREF_SET(__pyx_v_beta_ftrs, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":205
+    /* "AdaptiveDQN_RLEEGNET.py":205
  *             beta_ftrs = self._concat_features(beta)
  * 
  *             _, p = scipy.signal.welch(beta, fs=fs, average='median', nfft=512)             # <<<<<<<<<<<<<<
@@ -10930,7 +10930,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
     __Pyx_XDECREF_SET(__pyx_v_p, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":206
+    /* "AdaptiveDQN_RLEEGNET.py":206
  * 
  *             _, p = scipy.signal.welch(beta, fs=fs, average='median', nfft=512)
  *             _, p2 = scipy.signal.welch(alpha, fs=fs, average='median', nfft=512)             # <<<<<<<<<<<<<<
@@ -11014,7 +11014,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
     __Pyx_XDECREF_SET(__pyx_v_p2, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":208
+    /* "AdaptiveDQN_RLEEGNET.py":208
  *             _, p2 = scipy.signal.welch(alpha, fs=fs, average='median', nfft=512)
  * 
  *             res = np.mean([alph_ftrs, beta_ftrs], axis=0)             # <<<<<<<<<<<<<<
@@ -11050,7 +11050,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
     __Pyx_XDECREF_SET(__pyx_v_res, __pyx_t_7);
     __pyx_t_7 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":209
+    /* "AdaptiveDQN_RLEEGNET.py":209
  * 
  *             res = np.mean([alph_ftrs, beta_ftrs], axis=0)
  *             res = np.concatenate((res, p, p2), axis=1)             # <<<<<<<<<<<<<<
@@ -11089,7 +11089,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
     __Pyx_DECREF_SET(__pyx_v_res, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":210
+    /* "AdaptiveDQN_RLEEGNET.py":210
  *             res = np.mean([alph_ftrs, beta_ftrs], axis=0)
  *             res = np.concatenate((res, p, p2), axis=1)
  *             features.append(res)             # <<<<<<<<<<<<<<
@@ -11098,7 +11098,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
  */
     __pyx_t_10 = __Pyx_PyList_Append(__pyx_v_features, __pyx_v_res); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 210, __pyx_L1_error)
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":198
+    /* "AdaptiveDQN_RLEEGNET.py":198
  *         features = []
  *         fs = 250
  *         for d in data_array:             # <<<<<<<<<<<<<<
@@ -11108,7 +11108,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":211
+  /* "AdaptiveDQN_RLEEGNET.py":211
  *             res = np.concatenate((res, p, p2), axis=1)
  *             features.append(res)
  *         return np.array(features)             # <<<<<<<<<<<<<<
@@ -11147,7 +11147,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":195
+  /* "AdaptiveDQN_RLEEGNET.py":195
  *         return cwt_coeffs
  * 
  *     def featuresarray_load(self, data_array):             # <<<<<<<<<<<<<<
@@ -11162,7 +11162,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.featuresarray_load", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.featuresarray_load", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_features);
@@ -11180,7 +11180,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":213
+/* "AdaptiveDQN_RLEEGNET.py":213
  *         return np.array(features)
  * 
  *     def setup_eeg(self, path='formatted_data/S03.fif'):             # <<<<<<<<<<<<<<
@@ -11189,16 +11189,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_22fe
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_25setup_eeg(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_25setup_eeg(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24setup_eeg, "AdaptiveDQNRLEEGNET.setup_eeg(self, path=u'formatted_data/S03.fif')");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_25setup_eeg = {"setup_eeg", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_25setup_eeg, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24setup_eeg};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_25setup_eeg(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24setup_eeg, "AdaptiveDQNRLEEGNET.setup_eeg(self, path=u'formatted_data/S03.fif')");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_25setup_eeg = {"setup_eeg", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_25setup_eeg, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24setup_eeg};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_25setup_eeg(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -11284,11 +11284,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.setup_eeg", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.setup_eeg", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24setup_eeg(__pyx_self, __pyx_v_self, __pyx_v_path);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24setup_eeg(__pyx_self, __pyx_v_self, __pyx_v_path);
 
   /* function exit code */
   {
@@ -11301,7 +11301,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24setup_eeg(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_path) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24setup_eeg(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_path) {
   PyObject *__pyx_v_ica = NULL;
   PyObject *__pyx_v_montage = NULL;
   PyObject *__pyx_r = NULL;
@@ -11317,7 +11317,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24se
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("setup_eeg", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":215
+  /* "AdaptiveDQN_RLEEGNET.py":215
  *     def setup_eeg(self, path='formatted_data/S03.fif'):
  * 
  *         self.raw = mne.io.read_raw_fif(path, preload=True)             # <<<<<<<<<<<<<<
@@ -11348,7 +11348,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24se
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_raw, __pyx_t_4) < 0) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":217
+  /* "AdaptiveDQN_RLEEGNET.py":217
  *         self.raw = mne.io.read_raw_fif(path, preload=True)
  * 
  *         ica = mne.preprocessing.ICA(n_components=len(self.raw.info['ch_names']),             # <<<<<<<<<<<<<<
@@ -11388,7 +11388,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24se
   __pyx_v_ica = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":219
+  /* "AdaptiveDQN_RLEEGNET.py":219
  *         ica = mne.preprocessing.ICA(n_components=len(self.raw.info['ch_names']),
  *                                   random_state=42, max_iter=1000)
  *         ica.fit(self.raw)             # <<<<<<<<<<<<<<
@@ -11424,7 +11424,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24se
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":220
+  /* "AdaptiveDQN_RLEEGNET.py":220
  *                                   random_state=42, max_iter=1000)
  *         ica.fit(self.raw)
  *         ica.apply(self.raw)             # <<<<<<<<<<<<<<
@@ -11460,7 +11460,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24se
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":222
+  /* "AdaptiveDQN_RLEEGNET.py":222
  *         ica.apply(self.raw)
  * 
  *         montage = mne.channels.make_standard_montage('standard_1020')             # <<<<<<<<<<<<<<
@@ -11500,7 +11500,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24se
   __pyx_v_montage = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":223
+  /* "AdaptiveDQN_RLEEGNET.py":223
  * 
  *         montage = mne.channels.make_standard_montage('standard_1020')
  *         self.raw.set_montage(montage)             # <<<<<<<<<<<<<<
@@ -11536,7 +11536,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24se
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":225
+  /* "AdaptiveDQN_RLEEGNET.py":225
  *         self.raw.set_montage(montage)
  * 
  *         self.events = mne.events_from_annotations(self.raw)             # <<<<<<<<<<<<<<
@@ -11576,7 +11576,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24se
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_events, __pyx_t_2) < 0) __PYX_ERR(0, 225, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":226
+  /* "AdaptiveDQN_RLEEGNET.py":226
  * 
  *         self.events = mne.events_from_annotations(self.raw)
  *         return self.raw, self.events             # <<<<<<<<<<<<<<
@@ -11600,7 +11600,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24se
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":213
+  /* "AdaptiveDQN_RLEEGNET.py":213
  *         return np.array(features)
  * 
  *     def setup_eeg(self, path='formatted_data/S03.fif'):             # <<<<<<<<<<<<<<
@@ -11614,7 +11614,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24se
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.setup_eeg", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.setup_eeg", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_ica);
@@ -11624,7 +11624,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24se
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":228
+/* "AdaptiveDQN_RLEEGNET.py":228
  *         return self.raw, self.events
  * 
  *     def process_epochs(self, event_ids=[1, 2, 3, 4, 5]):             # <<<<<<<<<<<<<<
@@ -11632,7 +11632,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_24se
  *         if not event_ids:
  */
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET___defaults__(CYTHON_UNUSED PyObject *__pyx_self) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET___defaults__(CYTHON_UNUSED PyObject *__pyx_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -11663,7 +11663,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET___defaults__(CYTHON_UNUSED
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.__defaults__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.__defaults__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -11672,16 +11672,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET___defaults__(CYTHON_UNUSED
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_27process_epochs(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_27process_epochs(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26process_epochs, "AdaptiveDQNRLEEGNET.process_epochs(self, event_ids=[1, 2, 3, 4, 5])");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_27process_epochs = {"process_epochs", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_27process_epochs, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26process_epochs};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_27process_epochs(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26process_epochs, "AdaptiveDQNRLEEGNET.process_epochs(self, event_ids=[1, 2, 3, 4, 5])");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_27process_epochs = {"process_epochs", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_27process_epochs, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26process_epochs};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_27process_epochs(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -11768,11 +11768,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.process_epochs", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.process_epochs", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26process_epochs(__pyx_self, __pyx_v_self, __pyx_v_event_ids);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26process_epochs(__pyx_self, __pyx_v_self, __pyx_v_event_ids);
 
   /* function exit code */
   {
@@ -11785,7 +11785,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26process_epochs(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_event_ids) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26process_epochs(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_event_ids) {
   PyObject *__pyx_v_all_epochs = NULL;
   PyObject *__pyx_v_X_all = NULL;
   PyObject *__pyx_v_event_ids_all = NULL;
@@ -11824,7 +11824,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("process_epochs", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":230
+  /* "AdaptiveDQN_RLEEGNET.py":230
  *     def process_epochs(self, event_ids=[1, 2, 3, 4, 5]):
  *         # Validate event_ids
  *         if not event_ids:             # <<<<<<<<<<<<<<
@@ -11835,7 +11835,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __pyx_t_2 = (!__pyx_t_1);
   if (unlikely(__pyx_t_2)) {
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":231
+    /* "AdaptiveDQN_RLEEGNET.py":231
  *         # Validate event_ids
  *         if not event_ids:
  *             raise ValueError("No event IDs provided")             # <<<<<<<<<<<<<<
@@ -11848,7 +11848,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(0, 231, __pyx_L1_error)
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":230
+    /* "AdaptiveDQN_RLEEGNET.py":230
  *     def process_epochs(self, event_ids=[1, 2, 3, 4, 5]):
  *         # Validate event_ids
  *         if not event_ids:             # <<<<<<<<<<<<<<
@@ -11857,7 +11857,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
  */
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":233
+  /* "AdaptiveDQN_RLEEGNET.py":233
  *             raise ValueError("No event IDs provided")
  * 
  *         all_epochs = mne.Epochs(self.raw, self.events[0], event_id=event_ids,             # <<<<<<<<<<<<<<
@@ -11890,7 +11890,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_tmin, __pyx_float_neg_0_5) < 0) __PYX_ERR(0, 233, __pyx_L1_error)
   if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_tmax, __pyx_float_5_5) < 0) __PYX_ERR(0, 233, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":234
+  /* "AdaptiveDQN_RLEEGNET.py":234
  * 
  *         all_epochs = mne.Epochs(self.raw, self.events[0], event_id=event_ids,
  *                               tmin=-0.5, tmax=5.5, baseline=(-0.5, 1), preload=True)             # <<<<<<<<<<<<<<
@@ -11900,7 +11900,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_baseline, __pyx_tuple__6) < 0) __PYX_ERR(0, 233, __pyx_L1_error)
   if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_preload, Py_True) < 0) __PYX_ERR(0, 233, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":233
+  /* "AdaptiveDQN_RLEEGNET.py":233
  *             raise ValueError("No event IDs provided")
  * 
  *         all_epochs = mne.Epochs(self.raw, self.events[0], event_id=event_ids,             # <<<<<<<<<<<<<<
@@ -11915,7 +11915,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __pyx_v_all_epochs = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":235
+  /* "AdaptiveDQN_RLEEGNET.py":235
  *         all_epochs = mne.Epochs(self.raw, self.events[0], event_id=event_ids,
  *                               tmin=-0.5, tmax=5.5, baseline=(-0.5, 1), preload=True)
  *         all_epochs.pick_types(meg=False, eeg=True)             # <<<<<<<<<<<<<<
@@ -11934,7 +11934,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":237
+  /* "AdaptiveDQN_RLEEGNET.py":237
  *         all_epochs.pick_types(meg=False, eeg=True)
  * 
  *         X_all = all_epochs.get_data()             # <<<<<<<<<<<<<<
@@ -11968,7 +11968,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __pyx_v_X_all = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":238
+  /* "AdaptiveDQN_RLEEGNET.py":238
  * 
  *         X_all = all_epochs.get_data()
  *         event_ids_all = all_epochs.events[:, -1]             # <<<<<<<<<<<<<<
@@ -11983,7 +11983,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __pyx_v_event_ids_all = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":240
+  /* "AdaptiveDQN_RLEEGNET.py":240
  *         event_ids_all = all_epochs.events[:, -1]
  * 
  *         self.ncomp = min(4, X_all.shape[1])             # <<<<<<<<<<<<<<
@@ -12018,7 +12018,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_ncomp, __pyx_t_5) < 0) __PYX_ERR(0, 240, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":241
+  /* "AdaptiveDQN_RLEEGNET.py":241
  * 
  *         self.ncomp = min(4, X_all.shape[1])
  *         print(f"Using {self.ncomp} components based on available channels")             # <<<<<<<<<<<<<<
@@ -12055,7 +12055,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":243
+  /* "AdaptiveDQN_RLEEGNET.py":243
  *         print(f"Using {self.ncomp} components based on available channels")
  * 
  *         for event_id in event_ids:             # <<<<<<<<<<<<<<
@@ -12117,7 +12117,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     __Pyx_XDECREF_SET(__pyx_v_event_id, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":244
+    /* "AdaptiveDQN_RLEEGNET.py":244
  * 
  *         for event_id in event_ids:
  *             y = (event_ids_all == event_id).astype(int)             # <<<<<<<<<<<<<<
@@ -12153,7 +12153,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     __Pyx_XDECREF_SET(__pyx_v_y, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":245
+    /* "AdaptiveDQN_RLEEGNET.py":245
  *         for event_id in event_ids:
  *             y = (event_ids_all == event_id).astype(int)
  *             if np.unique(y).size < 2:             # <<<<<<<<<<<<<<
@@ -12196,7 +12196,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if (__pyx_t_2) {
 
-      /* "src/AdaptiveDQN_RLEEGNET.py":246
+      /* "AdaptiveDQN_RLEEGNET.py":246
  *             y = (event_ids_all == event_id).astype(int)
  *             if np.unique(y).size < 2:
  *                 print(f"Skipping event_id {event_id}.")             # <<<<<<<<<<<<<<
@@ -12230,7 +12230,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "src/AdaptiveDQN_RLEEGNET.py":247
+      /* "AdaptiveDQN_RLEEGNET.py":247
  *             if np.unique(y).size < 2:
  *                 print(f"Skipping event_id {event_id}.")
  *                 continue             # <<<<<<<<<<<<<<
@@ -12239,7 +12239,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
  */
       goto __pyx_L4_continue;
 
-      /* "src/AdaptiveDQN_RLEEGNET.py":245
+      /* "AdaptiveDQN_RLEEGNET.py":245
  *         for event_id in event_ids:
  *             y = (event_ids_all == event_id).astype(int)
  *             if np.unique(y).size < 2:             # <<<<<<<<<<<<<<
@@ -12248,7 +12248,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
  */
     }
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":249
+    /* "AdaptiveDQN_RLEEGNET.py":249
  *                 continue
  * 
  *             csp = CSP(n_components=self.ncomp, norm_trace=False, transform_into='csp_space')             # <<<<<<<<<<<<<<
@@ -12272,7 +12272,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     __Pyx_XDECREF_SET(__pyx_v_csp, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":250
+    /* "AdaptiveDQN_RLEEGNET.py":250
  * 
  *             csp = CSP(n_components=self.ncomp, norm_trace=False, transform_into='csp_space')
  *             csp.fit(X_all, y)             # <<<<<<<<<<<<<<
@@ -12305,7 +12305,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":251
+    /* "AdaptiveDQN_RLEEGNET.py":251
  *             csp = CSP(n_components=self.ncomp, norm_trace=False, transform_into='csp_space')
  *             csp.fit(X_all, y)
  *             self.csp_transformed_data[event_id] = csp.transform(X_all)             # <<<<<<<<<<<<<<
@@ -12342,7 +12342,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":252
+    /* "AdaptiveDQN_RLEEGNET.py":252
  *             csp.fit(X_all, y)
  *             self.csp_transformed_data[event_id] = csp.transform(X_all)
  *             self.csp_filter_objects[event_id] = csp             # <<<<<<<<<<<<<<
@@ -12354,7 +12354,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     if (unlikely((PyObject_SetItem(__pyx_t_3, __pyx_v_event_id, __pyx_v_csp) < 0))) __PYX_ERR(0, 252, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":243
+    /* "AdaptiveDQN_RLEEGNET.py":243
  *         print(f"Using {self.ncomp} components based on available channels")
  * 
  *         for event_id in event_ids:             # <<<<<<<<<<<<<<
@@ -12365,7 +12365,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   }
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":254
+  /* "AdaptiveDQN_RLEEGNET.py":254
  *             self.csp_filter_objects[event_id] = csp
  * 
  *         joblib.dump(self.csp_filter_objects, 'C:\\NeuroSync\\csp_filters_ovr.pkl')             # <<<<<<<<<<<<<<
@@ -12404,7 +12404,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   }
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":255
+  /* "AdaptiveDQN_RLEEGNET.py":255
  * 
  *         joblib.dump(self.csp_filter_objects, 'C:\\NeuroSync\\csp_filters_ovr.pkl')
  *         print("CSP filters saved successfully.")             # <<<<<<<<<<<<<<
@@ -12415,7 +12415,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":256
+  /* "AdaptiveDQN_RLEEGNET.py":256
  *         joblib.dump(self.csp_filter_objects, 'C:\\NeuroSync\\csp_filters_ovr.pkl')
  *         print("CSP filters saved successfully.")
  *         n_trials = len(X_all)             # <<<<<<<<<<<<<<
@@ -12425,7 +12425,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __pyx_t_9 = PyObject_Length(__pyx_v_X_all); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 256, __pyx_L1_error)
   __pyx_v_n_trials = __pyx_t_9;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":257
+  /* "AdaptiveDQN_RLEEGNET.py":257
  *         print("CSP filters saved successfully.")
  *         n_trials = len(X_all)
  *         n_time_points = self.csp_transformed_data[1].shape[2]             # <<<<<<<<<<<<<<
@@ -12446,7 +12446,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __pyx_v_n_time_points = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":258
+  /* "AdaptiveDQN_RLEEGNET.py":258
  *         n_trials = len(X_all)
  *         n_time_points = self.csp_transformed_data[1].shape[2]
  *         combined_features = np.zeros((n_trials, self.ncomp, n_time_points))             # <<<<<<<<<<<<<<
@@ -12499,7 +12499,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __pyx_v_combined_features = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":260
+  /* "AdaptiveDQN_RLEEGNET.py":260
  *         combined_features = np.zeros((n_trials, self.ncomp, n_time_points))
  * 
  *         for i, label in enumerate(event_ids_all):             # <<<<<<<<<<<<<<
@@ -12570,7 +12570,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     __pyx_t_6 = __pyx_t_13;
     __pyx_t_13 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":261
+    /* "AdaptiveDQN_RLEEGNET.py":261
  * 
  *         for i, label in enumerate(event_ids_all):
  *             csp_features_for_label = self.csp_transformed_data.get(label, None)             # <<<<<<<<<<<<<<
@@ -12607,7 +12607,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     __Pyx_XDECREF_SET(__pyx_v_csp_features_for_label, __pyx_t_13);
     __pyx_t_13 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":262
+    /* "AdaptiveDQN_RLEEGNET.py":262
  *         for i, label in enumerate(event_ids_all):
  *             csp_features_for_label = self.csp_transformed_data.get(label, None)
  *             if csp_features_for_label is not None and i < len(csp_features_for_label):             # <<<<<<<<<<<<<<
@@ -12631,7 +12631,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     __pyx_L11_bool_binop_done:;
     if (__pyx_t_2) {
 
-      /* "src/AdaptiveDQN_RLEEGNET.py":263
+      /* "AdaptiveDQN_RLEEGNET.py":263
  *             csp_features_for_label = self.csp_transformed_data.get(label, None)
  *             if csp_features_for_label is not None and i < len(csp_features_for_label):
  *                 combined_features[i, :, :] = csp_features_for_label[i]             # <<<<<<<<<<<<<<
@@ -12655,7 +12655,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
       __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "src/AdaptiveDQN_RLEEGNET.py":262
+      /* "AdaptiveDQN_RLEEGNET.py":262
  *         for i, label in enumerate(event_ids_all):
  *             csp_features_for_label = self.csp_transformed_data.get(label, None)
  *             if csp_features_for_label is not None and i < len(csp_features_for_label):             # <<<<<<<<<<<<<<
@@ -12664,7 +12664,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
  */
     }
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":260
+    /* "AdaptiveDQN_RLEEGNET.py":260
  *         combined_features = np.zeros((n_trials, self.ncomp, n_time_points))
  * 
  *         for i, label in enumerate(event_ids_all):             # <<<<<<<<<<<<<<
@@ -12675,7 +12675,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":265
+  /* "AdaptiveDQN_RLEEGNET.py":265
  *                 combined_features[i, :, :] = csp_features_for_label[i]
  * 
  *         y = np.zeros((X_all.shape[0], len(event_ids)))             # <<<<<<<<<<<<<<
@@ -12729,7 +12729,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __Pyx_XDECREF_SET(__pyx_v_y, __pyx_t_6);
   __pyx_t_6 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":266
+  /* "AdaptiveDQN_RLEEGNET.py":266
  * 
  *         y = np.zeros((X_all.shape[0], len(event_ids)))
  *         for i, event_id in enumerate(event_ids):             # <<<<<<<<<<<<<<
@@ -12800,7 +12800,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     __pyx_t_6 = __pyx_t_4;
     __pyx_t_4 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":267
+    /* "AdaptiveDQN_RLEEGNET.py":267
  *         y = np.zeros((X_all.shape[0], len(event_ids)))
  *         for i, event_id in enumerate(event_ids):
  *             binary_labels = (event_ids_all == event_id).astype(int)             # <<<<<<<<<<<<<<
@@ -12836,7 +12836,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     __Pyx_XDECREF_SET(__pyx_v_binary_labels, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":268
+    /* "AdaptiveDQN_RLEEGNET.py":268
  *         for i, event_id in enumerate(event_ids):
  *             binary_labels = (event_ids_all == event_id).astype(int)
  *             y[:, i] = binary_labels             # <<<<<<<<<<<<<<
@@ -12854,7 +12854,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     if (unlikely((PyObject_SetItem(__pyx_v_y, __pyx_t_4, __pyx_v_binary_labels) < 0))) __PYX_ERR(0, 268, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":266
+    /* "AdaptiveDQN_RLEEGNET.py":266
  * 
  *         y = np.zeros((X_all.shape[0], len(event_ids)))
  *         for i, event_id in enumerate(event_ids):             # <<<<<<<<<<<<<<
@@ -12865,7 +12865,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":270
+  /* "AdaptiveDQN_RLEEGNET.py":270
  *             y[:, i] = binary_labels
  * 
  *         y_flattened = np.argmax(y, axis=1)             # <<<<<<<<<<<<<<
@@ -12893,7 +12893,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __pyx_v_y_flattened = __pyx_t_13;
   __pyx_t_13 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":271
+  /* "AdaptiveDQN_RLEEGNET.py":271
  * 
  *         y_flattened = np.argmax(y, axis=1)
  *         ftrs = self.featuresarray_load(combined_features)             # <<<<<<<<<<<<<<
@@ -12927,7 +12927,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __pyx_v_ftrs = __pyx_t_13;
   __pyx_t_13 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":273
+  /* "AdaptiveDQN_RLEEGNET.py":273
  *         ftrs = self.featuresarray_load(combined_features)
  * 
  *         self.GLOBAL_SHAPE_LENGTH = ftrs.shape[2]             # <<<<<<<<<<<<<<
@@ -12942,7 +12942,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_GLOBAL_SHAPE_LENGTH, __pyx_t_4) < 0) __PYX_ERR(0, 273, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":274
+  /* "AdaptiveDQN_RLEEGNET.py":274
  * 
  *         self.GLOBAL_SHAPE_LENGTH = ftrs.shape[2]
  *         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(             # <<<<<<<<<<<<<<
@@ -12952,7 +12952,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_train_test_split); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 274, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":275
+  /* "AdaptiveDQN_RLEEGNET.py":275
  *         self.GLOBAL_SHAPE_LENGTH = ftrs.shape[2]
  *         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(
  *             ftrs, y_flattened,             # <<<<<<<<<<<<<<
@@ -12968,7 +12968,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __Pyx_GIVEREF(__pyx_v_y_flattened);
   if (__Pyx_PyTuple_SET_ITEM(__pyx_t_13, 1, __pyx_v_y_flattened)) __PYX_ERR(0, 274, __pyx_L1_error);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":276
+  /* "AdaptiveDQN_RLEEGNET.py":276
  *         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(
  *             ftrs, y_flattened,
  *             test_size=0.2,             # <<<<<<<<<<<<<<
@@ -12980,7 +12980,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_test_size, __pyx_float_0_2) < 0) __PYX_ERR(0, 276, __pyx_L1_error)
   if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_random_state, __pyx_int_42) < 0) __PYX_ERR(0, 276, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":278
+  /* "AdaptiveDQN_RLEEGNET.py":278
  *             test_size=0.2,
  *             random_state=42,
  *             stratify=y_flattened             # <<<<<<<<<<<<<<
@@ -12989,7 +12989,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
  */
   if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_stratify, __pyx_v_y_flattened) < 0) __PYX_ERR(0, 276, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":274
+  /* "AdaptiveDQN_RLEEGNET.py":274
  * 
  *         self.GLOBAL_SHAPE_LENGTH = ftrs.shape[2]
  *         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(             # <<<<<<<<<<<<<<
@@ -13069,7 +13069,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_y_test, __pyx_t_3) < 0) __PYX_ERR(0, 274, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":281
+  /* "AdaptiveDQN_RLEEGNET.py":281
  *         )
  * 
  *         self.X_train = self.scaler.fit_transform(             # <<<<<<<<<<<<<<
@@ -13082,7 +13082,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __Pyx_GOTREF(__pyx_t_13);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":282
+  /* "AdaptiveDQN_RLEEGNET.py":282
  * 
  *         self.X_train = self.scaler.fit_transform(
  *             self.X_train.reshape(-1, self.X_train.shape[-1])).reshape(self.X_train.shape)             # <<<<<<<<<<<<<<
@@ -13180,7 +13180,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":281
+  /* "AdaptiveDQN_RLEEGNET.py":281
  *         )
  * 
  *         self.X_train = self.scaler.fit_transform(             # <<<<<<<<<<<<<<
@@ -13190,7 +13190,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_X_train, __pyx_t_5) < 0) __PYX_ERR(0, 281, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":283
+  /* "AdaptiveDQN_RLEEGNET.py":283
  *         self.X_train = self.scaler.fit_transform(
  *             self.X_train.reshape(-1, self.X_train.shape[-1])).reshape(self.X_train.shape)
  *         self.X_test = self.scaler.transform(             # <<<<<<<<<<<<<<
@@ -13203,7 +13203,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":284
+  /* "AdaptiveDQN_RLEEGNET.py":284
  *             self.X_train.reshape(-1, self.X_train.shape[-1])).reshape(self.X_train.shape)
  *         self.X_test = self.scaler.transform(
  *             self.X_test.reshape(-1, self.X_test.shape[-1])).reshape(self.X_test.shape)             # <<<<<<<<<<<<<<
@@ -13301,7 +13301,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":283
+  /* "AdaptiveDQN_RLEEGNET.py":283
  *         self.X_train = self.scaler.fit_transform(
  *             self.X_train.reshape(-1, self.X_train.shape[-1])).reshape(self.X_train.shape)
  *         self.X_test = self.scaler.transform(             # <<<<<<<<<<<<<<
@@ -13311,7 +13311,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_X_test, __pyx_t_5) < 0) __PYX_ERR(0, 283, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":285
+  /* "AdaptiveDQN_RLEEGNET.py":285
  *         self.X_test = self.scaler.transform(
  *             self.X_test.reshape(-1, self.X_test.shape[-1])).reshape(self.X_test.shape)
  *         joblib.dump(self.scaler, 'C:\\NeuroSync\\scaler.pkl')             # <<<<<<<<<<<<<<
@@ -13350,7 +13350,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   }
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":286
+  /* "AdaptiveDQN_RLEEGNET.py":286
  *             self.X_test.reshape(-1, self.X_test.shape[-1])).reshape(self.X_test.shape)
  *         joblib.dump(self.scaler, 'C:\\NeuroSync\\scaler.pkl')
  *         print("Scaler saved successfully.")             # <<<<<<<<<<<<<<
@@ -13361,7 +13361,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":287
+  /* "AdaptiveDQN_RLEEGNET.py":287
  *         joblib.dump(self.scaler, 'C:\\NeuroSync\\scaler.pkl')
  *         print("Scaler saved successfully.")
  *         print(f"Training samples per class: {np.bincount(self.y_train)}")             # <<<<<<<<<<<<<<
@@ -13409,7 +13409,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":288
+  /* "AdaptiveDQN_RLEEGNET.py":288
  *         print("Scaler saved successfully.")
  *         print(f"Training samples per class: {np.bincount(self.y_train)}")
  *         print(f"Testing samples per class: {np.bincount(self.y_test)}")             # <<<<<<<<<<<<<<
@@ -13457,7 +13457,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":290
+  /* "AdaptiveDQN_RLEEGNET.py":290
  *         print(f"Testing samples per class: {np.bincount(self.y_test)}")
  * 
  *         return self.X_train, self.X_test, self.y_train, self.y_test             # <<<<<<<<<<<<<<
@@ -13491,7 +13491,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __pyx_t_6 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":228
+  /* "AdaptiveDQN_RLEEGNET.py":228
  *         return self.raw, self.events
  * 
  *     def process_epochs(self, event_ids=[1, 2, 3, 4, 5]):             # <<<<<<<<<<<<<<
@@ -13508,7 +13508,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   __Pyx_XDECREF(__pyx_t_13);
   __Pyx_XDECREF(__pyx_t_14);
   __Pyx_XDECREF(__pyx_t_16);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.process_epochs", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.process_epochs", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_all_epochs);
@@ -13530,7 +13530,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
   return __pyx_r;
 }
 
-/* "src/AdaptiveDQN_RLEEGNET.py":293
+/* "AdaptiveDQN_RLEEGNET.py":293
  * 
  * 
  *     def setup_training(self, task_names):             # <<<<<<<<<<<<<<
@@ -13539,16 +13539,16 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_26pr
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_29setup_training(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_29setup_training(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28setup_training, "AdaptiveDQNRLEEGNET.setup_training(self, task_names)");
-static PyMethodDef __pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_29setup_training = {"setup_training", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_29setup_training, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28setup_training};
-static PyObject *__pyx_pw_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_29setup_training(PyObject *__pyx_self, 
+PyDoc_STRVAR(__pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28setup_training, "AdaptiveDQNRLEEGNET.setup_training(self, task_names)");
+static PyMethodDef __pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_29setup_training = {"setup_training", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_29setup_training, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28setup_training};
+static PyObject *__pyx_pw_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_29setup_training(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -13633,11 +13633,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.setup_training", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.setup_training", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28setup_training(__pyx_self, __pyx_v_self, __pyx_v_task_names);
+  __pyx_r = __pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28setup_training(__pyx_self, __pyx_v_self, __pyx_v_task_names);
 
   /* function exit code */
   {
@@ -13650,7 +13650,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28setup_training(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_task_names) {
+static PyObject *__pyx_pf_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28setup_training(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_task_names) {
   Py_ssize_t __pyx_v_n_actions;
   PyObject *__pyx_v_env = NULL;
   PyObject *__pyx_v_model = NULL;
@@ -13673,7 +13673,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("setup_training", 1);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":295
+  /* "AdaptiveDQN_RLEEGNET.py":295
  *     def setup_training(self, task_names):
  *         # Validate shapes and dimensions
  *         if len(task_names) != len(np.unique(self.y_train)):             # <<<<<<<<<<<<<<
@@ -13716,7 +13716,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   __pyx_t_8 = (__pyx_t_1 != __pyx_t_7);
   if (unlikely(__pyx_t_8)) {
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":296
+    /* "AdaptiveDQN_RLEEGNET.py":296
  *         # Validate shapes and dimensions
  *         if len(task_names) != len(np.unique(self.y_train)):
  *             raise ValueError(f"Number of tasks ({len(task_names)}) doesn't match number of classes in training data ({len(np.unique(self.y_train))})")             # <<<<<<<<<<<<<<
@@ -13794,7 +13794,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __PYX_ERR(0, 296, __pyx_L1_error)
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":295
+    /* "AdaptiveDQN_RLEEGNET.py":295
  *     def setup_training(self, task_names):
  *         # Validate shapes and dimensions
  *         if len(task_names) != len(np.unique(self.y_train)):             # <<<<<<<<<<<<<<
@@ -13803,7 +13803,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
  */
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":298
+  /* "AdaptiveDQN_RLEEGNET.py":298
  *             raise ValueError(f"Number of tasks ({len(task_names)}) doesn't match number of classes in training data ({len(np.unique(self.y_train))})")
  * 
  *         if self.X_train.shape[1] != self.ncomp:             # <<<<<<<<<<<<<<
@@ -13827,7 +13827,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   if (unlikely(__pyx_t_8)) {
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":299
+    /* "AdaptiveDQN_RLEEGNET.py":299
  * 
  *         if self.X_train.shape[1] != self.ncomp:
  *             raise ValueError(f"Training data shape ({self.X_train.shape[1]}) doesn't match number of components ({self.ncomp})")             # <<<<<<<<<<<<<<
@@ -13886,7 +13886,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __PYX_ERR(0, 299, __pyx_L1_error)
 
-    /* "src/AdaptiveDQN_RLEEGNET.py":298
+    /* "AdaptiveDQN_RLEEGNET.py":298
  *             raise ValueError(f"Number of tasks ({len(task_names)}) doesn't match number of classes in training data ({len(np.unique(self.y_train))})")
  * 
  *         if self.X_train.shape[1] != self.ncomp:             # <<<<<<<<<<<<<<
@@ -13895,7 +13895,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
  */
   }
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":301
+  /* "AdaptiveDQN_RLEEGNET.py":301
  *             raise ValueError(f"Training data shape ({self.X_train.shape[1]}) doesn't match number of components ({self.ncomp})")
  * 
  *         self.task_names = task_names             # <<<<<<<<<<<<<<
@@ -13904,7 +13904,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_task_names, __pyx_v_task_names) < 0) __PYX_ERR(0, 301, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":302
+  /* "AdaptiveDQN_RLEEGNET.py":302
  * 
  *         self.task_names = task_names
  *         n_actions = len(self.task_names)             # <<<<<<<<<<<<<<
@@ -13917,7 +13917,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_v_n_actions = __pyx_t_7;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":303
+  /* "AdaptiveDQN_RLEEGNET.py":303
  *         self.task_names = task_names
  *         n_actions = len(self.task_names)
  *         env = Plasticity(             # <<<<<<<<<<<<<<
@@ -13927,7 +13927,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_Plasticity); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 303, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":304
+  /* "AdaptiveDQN_RLEEGNET.py":304
  *         n_actions = len(self.task_names)
  *         env = Plasticity(
  *             images_per_episode=1,             # <<<<<<<<<<<<<<
@@ -13938,7 +13938,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   __Pyx_GOTREF(__pyx_t_4);
   if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_images_per_episode, __pyx_int_1) < 0) __PYX_ERR(0, 304, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":305
+  /* "AdaptiveDQN_RLEEGNET.py":305
  *         env = Plasticity(
  *             images_per_episode=1,
  *             dataset=(np.concatenate((self.X_train, self.X_test), axis=0), np.concatenate((self.y_train, self.y_test), axis=0)),             # <<<<<<<<<<<<<<
@@ -14016,7 +14016,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_dataset, __pyx_t_12) < 0) __PYX_ERR(0, 304, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":306
+  /* "AdaptiveDQN_RLEEGNET.py":306
  *             images_per_episode=1,
  *             dataset=(np.concatenate((self.X_train, self.X_test), axis=0), np.concatenate((self.y_train, self.y_test), axis=0)),
  *             random=True,             # <<<<<<<<<<<<<<
@@ -14025,7 +14025,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
  */
   if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_random, Py_True) < 0) __PYX_ERR(0, 304, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":307
+  /* "AdaptiveDQN_RLEEGNET.py":307
  *             dataset=(np.concatenate((self.X_train, self.X_test), axis=0), np.concatenate((self.y_train, self.y_test), axis=0)),
  *             random=True,
  *             ncomp=self.ncomp,             # <<<<<<<<<<<<<<
@@ -14037,7 +14037,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_ncomp, __pyx_t_12) < 0) __PYX_ERR(0, 304, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":308
+  /* "AdaptiveDQN_RLEEGNET.py":308
  *             random=True,
  *             ncomp=self.ncomp,
  *             global_shape_length=self.GLOBAL_SHAPE_LENGTH,             # <<<<<<<<<<<<<<
@@ -14049,7 +14049,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_global_shape_length, __pyx_t_12) < 0) __PYX_ERR(0, 304, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":309
+  /* "AdaptiveDQN_RLEEGNET.py":309
  *             ncomp=self.ncomp,
  *             global_shape_length=self.GLOBAL_SHAPE_LENGTH,
  *             n_actions=n_actions             # <<<<<<<<<<<<<<
@@ -14061,7 +14061,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_n_actions, __pyx_t_12) < 0) __PYX_ERR(0, 304, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":303
+  /* "AdaptiveDQN_RLEEGNET.py":303
  *         self.task_names = task_names
  *         n_actions = len(self.task_names)
  *         env = Plasticity(             # <<<<<<<<<<<<<<
@@ -14075,7 +14075,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   __pyx_v_env = __pyx_t_12;
   __pyx_t_12 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":311
+  /* "AdaptiveDQN_RLEEGNET.py":311
  *             n_actions=n_actions
  *         )
  *         model = DQN(             # <<<<<<<<<<<<<<
@@ -14085,7 +14085,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   __Pyx_GetModuleGlobalName(__pyx_t_12, __pyx_n_s_DQN); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 311, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_12);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":312
+  /* "AdaptiveDQN_RLEEGNET.py":312
  *         )
  *         model = DQN(
  *             KerasDQNPolicy,             # <<<<<<<<<<<<<<
@@ -14095,7 +14095,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_KerasDQNPolicy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 312, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":311
+  /* "AdaptiveDQN_RLEEGNET.py":311
  *             n_actions=n_actions
  *         )
  *         model = DQN(             # <<<<<<<<<<<<<<
@@ -14108,7 +14108,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4)) __PYX_ERR(0, 311, __pyx_L1_error);
   __pyx_t_4 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":313
+  /* "AdaptiveDQN_RLEEGNET.py":313
  *         model = DQN(
  *             KerasDQNPolicy,
  *             env=env,             # <<<<<<<<<<<<<<
@@ -14129,7 +14129,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_exploration_fraction, __pyx_float_0_1) < 0) __PYX_ERR(0, 313, __pyx_L1_error)
   if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_exploration_final_eps, __pyx_float_0_02) < 0) __PYX_ERR(0, 313, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":325
+  /* "AdaptiveDQN_RLEEGNET.py":325
  *             exploration_final_eps=0.02,
  *             policy_kwargs={
  *                 'ncomp': self.ncomp,             # <<<<<<<<<<<<<<
@@ -14143,7 +14143,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   if (PyDict_SetItem(__pyx_t_11, __pyx_n_u_ncomp, __pyx_t_2) < 0) __PYX_ERR(0, 325, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":326
+  /* "AdaptiveDQN_RLEEGNET.py":326
  *             policy_kwargs={
  *                 'ncomp': self.ncomp,
  *                 'global_shape_length': self.GLOBAL_SHAPE_LENGTH,             # <<<<<<<<<<<<<<
@@ -14155,7 +14155,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   if (PyDict_SetItem(__pyx_t_11, __pyx_n_u_global_shape_length, __pyx_t_2) < 0) __PYX_ERR(0, 325, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":327
+  /* "AdaptiveDQN_RLEEGNET.py":327
  *                 'ncomp': self.ncomp,
  *                 'global_shape_length': self.GLOBAL_SHAPE_LENGTH,
  *                 'n_actions': n_actions             # <<<<<<<<<<<<<<
@@ -14169,7 +14169,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_policy_kwargs, __pyx_t_11) < 0) __PYX_ERR(0, 313, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":311
+  /* "AdaptiveDQN_RLEEGNET.py":311
  *             n_actions=n_actions
  *         )
  *         model = DQN(             # <<<<<<<<<<<<<<
@@ -14184,7 +14184,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   __pyx_v_model = __pyx_t_11;
   __pyx_t_11 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":331
+  /* "AdaptiveDQN_RLEEGNET.py":331
  *         )
  * 
  *         return model, [CustomCallback()]             # <<<<<<<<<<<<<<
@@ -14233,7 +14233,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   __pyx_t_11 = 0;
   goto __pyx_L0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":293
+  /* "AdaptiveDQN_RLEEGNET.py":293
  * 
  * 
  *     def setup_training(self, task_names):             # <<<<<<<<<<<<<<
@@ -14250,7 +14250,7 @@ static PyObject *__pyx_pf_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_28se
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_11);
   __Pyx_XDECREF(__pyx_t_12);
-  __Pyx_AddTraceback("src.AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.setup_training", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("AdaptiveDQN_RLEEGNET.AdaptiveDQNRLEEGNET.setup_training", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_env);
@@ -14292,6 +14292,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_AdaptiveDQNRLEEGNET_process_epoc, __pyx_k_AdaptiveDQNRLEEGNET_process_epoc, sizeof(__pyx_k_AdaptiveDQNRLEEGNET_process_epoc), 0, 0, 1, 1},
     {&__pyx_n_s_AdaptiveDQNRLEEGNET_setup_eeg, __pyx_k_AdaptiveDQNRLEEGNET_setup_eeg, sizeof(__pyx_k_AdaptiveDQNRLEEGNET_setup_eeg), 0, 0, 1, 1},
     {&__pyx_n_s_AdaptiveDQNRLEEGNET_setup_traini, __pyx_k_AdaptiveDQNRLEEGNET_setup_traini, sizeof(__pyx_k_AdaptiveDQNRLEEGNET_setup_traini), 0, 0, 1, 1},
+    {&__pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_k_AdaptiveDQN_RLEEGNET, sizeof(__pyx_k_AdaptiveDQN_RLEEGNET), 0, 0, 1, 1},
     {&__pyx_n_s_AveragePooling1D, __pyx_k_AveragePooling1D, sizeof(__pyx_k_AveragePooling1D), 0, 0, 1, 1},
     {&__pyx_n_s_BaseCallback, __pyx_k_BaseCallback, sizeof(__pyx_k_BaseCallback), 0, 0, 1, 1},
     {&__pyx_n_s_BatchNormalization, __pyx_k_BatchNormalization, sizeof(__pyx_k_BatchNormalization), 0, 0, 1, 1},
@@ -14555,7 +14556,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_spaces, __pyx_k_spaces, sizeof(__pyx_k_spaces), 0, 0, 1, 1},
     {&__pyx_n_s_spec, __pyx_k_spec, sizeof(__pyx_k_spec), 0, 0, 1, 1},
     {&__pyx_n_s_sqrt, __pyx_k_sqrt, sizeof(__pyx_k_sqrt), 0, 0, 1, 1},
-    {&__pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_k_src_AdaptiveDQN_RLEEGNET, sizeof(__pyx_k_src_AdaptiveDQN_RLEEGNET), 0, 0, 1, 1},
     {&__pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_k_src_AdaptiveDQN_RLEEGNET_py, sizeof(__pyx_k_src_AdaptiveDQN_RLEEGNET_py), 0, 0, 1, 0},
     {&__pyx_n_s_stable_baselines3, __pyx_k_stable_baselines3, sizeof(__pyx_k_stable_baselines3), 0, 0, 1, 1},
     {&__pyx_n_s_stable_baselines3_common_callbac, __pyx_k_stable_baselines3_common_callbac, sizeof(__pyx_k_stable_baselines3_common_callbac), 0, 0, 1, 1},
@@ -14613,7 +14613,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":98
+  /* "AdaptiveDQN_RLEEGNET.py":98
  *             Reshape((self.global_shape_length, self.ncomp)),
  *             BatchNormalization(),
  *             Conv1D(32, kernel_size=3),             # <<<<<<<<<<<<<<
@@ -14624,7 +14624,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":103
+  /* "AdaptiveDQN_RLEEGNET.py":103
  *             MaxPooling1D(pool_size=2),
  *             SpatialDropout1D(0.1),
  *             Conv1D(64, kernel_size=3),             # <<<<<<<<<<<<<<
@@ -14635,7 +14635,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":151
+  /* "AdaptiveDQN_RLEEGNET.py":151
  * 
  *     def _mean(self, x):
  *         return np.mean(x, axis=-1).reshape(-1, 1)             # <<<<<<<<<<<<<<
@@ -14646,7 +14646,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":191
+  /* "AdaptiveDQN_RLEEGNET.py":191
  * 
  *     def _apply_cwt(self, data, scales, wavelet_name='morl'):
  *         cwt_coeffs = np.array([pywt.cwt(data[i, :], scales, wavelet_name)[0]             # <<<<<<<<<<<<<<
@@ -14657,7 +14657,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__4);
   __Pyx_GIVEREF(__pyx_slice__4);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":231
+  /* "AdaptiveDQN_RLEEGNET.py":231
  *         # Validate event_ids
  *         if not event_ids:
  *             raise ValueError("No event IDs provided")             # <<<<<<<<<<<<<<
@@ -14668,7 +14668,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":234
+  /* "AdaptiveDQN_RLEEGNET.py":234
  * 
  *         all_epochs = mne.Epochs(self.raw, self.events[0], event_id=event_ids,
  *                               tmin=-0.5, tmax=5.5, baseline=(-0.5, 1), preload=True)             # <<<<<<<<<<<<<<
@@ -14679,7 +14679,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":238
+  /* "AdaptiveDQN_RLEEGNET.py":238
  * 
  *         X_all = all_epochs.get_data()
  *         event_ids_all = all_epochs.events[:, -1]             # <<<<<<<<<<<<<<
@@ -14690,7 +14690,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":255
+  /* "AdaptiveDQN_RLEEGNET.py":255
  * 
  *         joblib.dump(self.csp_filter_objects, 'C:\\NeuroSync\\csp_filters_ovr.pkl')
  *         print("CSP filters saved successfully.")             # <<<<<<<<<<<<<<
@@ -14701,7 +14701,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":286
+  /* "AdaptiveDQN_RLEEGNET.py":286
  *             self.X_test.reshape(-1, self.X_test.shape[-1])).reshape(self.X_test.shape)
  *         joblib.dump(self.scaler, 'C:\\NeuroSync\\scaler.pkl')
  *         print("Scaler saved successfully.")             # <<<<<<<<<<<<<<
@@ -14712,7 +14712,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":6
+  /* "AdaptiveDQN_RLEEGNET.py":6
  * import gym
  * import pywt
  * import scipy.signal             # <<<<<<<<<<<<<<
@@ -14723,7 +14723,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__13);
   __Pyx_GIVEREF(__pyx_tuple__13);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":21
+  /* "AdaptiveDQN_RLEEGNET.py":21
  * 
  * class Plasticity(gym.Env):
  *     def __init__(self, images_per_episode, dataset, random, ncomp, global_shape_length, n_actions):             # <<<<<<<<<<<<<<
@@ -14735,7 +14735,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__14);
   __pyx_codeobj__15 = (PyObject*)__Pyx_PyCode_New(7, 0, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__14, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_init, 21, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__15)) __PYX_ERR(0, 21, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":35
+  /* "AdaptiveDQN_RLEEGNET.py":35
  *         self.dataset_idx = 0
  * 
  *     def step(self, action):             # <<<<<<<<<<<<<<
@@ -14747,7 +14747,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__16);
   __pyx_codeobj__17 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__16, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_step, 35, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__17)) __PYX_ERR(0, 35, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":44
+  /* "AdaptiveDQN_RLEEGNET.py":44
  *         return obs, reward, done, {}
  * 
  *     def reset(self):             # <<<<<<<<<<<<<<
@@ -14759,7 +14759,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__18);
   __pyx_codeobj__19 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__18, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_reset, 44, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__19)) __PYX_ERR(0, 44, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":48
+  /* "AdaptiveDQN_RLEEGNET.py":48
  *         return self._next_obs()
  * 
  *     def _next_obs(self):             # <<<<<<<<<<<<<<
@@ -14771,7 +14771,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__20);
   __pyx_codeobj__21 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_next_obs, 48, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__21)) __PYX_ERR(0, 48, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":59
+  /* "AdaptiveDQN_RLEEGNET.py":59
  *         return obs
  * 
  *     def _calculate_reward(self, action):             # <<<<<<<<<<<<<<
@@ -14783,7 +14783,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__22);
   __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_calculate_reward, 59, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) __PYX_ERR(0, 59, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":64
+  /* "AdaptiveDQN_RLEEGNET.py":64
  * 
  * class CustomCallback(BaseCallback):
  *     def __init__(self, verbose=0):             # <<<<<<<<<<<<<<
@@ -14798,7 +14798,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__26);
   __Pyx_GIVEREF(__pyx_tuple__26);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":67
+  /* "AdaptiveDQN_RLEEGNET.py":67
  *         super(CustomCallback, self).__init__(verbose)
  * 
  *     def _on_step(self) -> bool:             # <<<<<<<<<<<<<<
@@ -14807,7 +14807,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__27 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__18, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_on_step, 67, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__27)) __PYX_ERR(0, 67, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":77
+  /* "AdaptiveDQN_RLEEGNET.py":77
  *     """
  * 
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
@@ -14819,7 +14819,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__28);
   __pyx_codeobj__29 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 8, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS|CO_VARKEYWORDS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__28, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_init, 77, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__29)) __PYX_ERR(0, 77, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":125
+  /* "AdaptiveDQN_RLEEGNET.py":125
  *         ])
  * 
  *     def q_values(self, obs: np.ndarray) -> np.ndarray:             # <<<<<<<<<<<<<<
@@ -14831,7 +14831,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__30);
   __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_q_values, 125, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) __PYX_ERR(0, 125, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":136
+  /* "AdaptiveDQN_RLEEGNET.py":136
  * 
  * class AdaptiveDQNRLEEGNET:
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -14840,7 +14840,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__18, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_init, 136, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) __PYX_ERR(0, 136, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":150
+  /* "AdaptiveDQN_RLEEGNET.py":150
  *         self.task_names = []
  * 
  *     def _mean(self, x):             # <<<<<<<<<<<<<<
@@ -14852,7 +14852,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__33);
   __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_mean_2, 150, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) __PYX_ERR(0, 150, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":153
+  /* "AdaptiveDQN_RLEEGNET.py":153
  *         return np.mean(x, axis=-1).reshape(-1, 1)
  * 
  *     def _stddev(self, x):             # <<<<<<<<<<<<<<
@@ -14861,7 +14861,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_stddev, 153, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) __PYX_ERR(0, 153, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":156
+  /* "AdaptiveDQN_RLEEGNET.py":156
  *         return np.std(x, axis=-1).reshape(-1, 1)
  * 
  *     def _peaktopeak(self, x):             # <<<<<<<<<<<<<<
@@ -14870,7 +14870,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_peaktopeak, 156, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__36)) __PYX_ERR(0, 156, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":159
+  /* "AdaptiveDQN_RLEEGNET.py":159
  *         return np.ptp(x, axis=-1).reshape(-1, 1)
  * 
  *     def _variance(self, x):             # <<<<<<<<<<<<<<
@@ -14879,7 +14879,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_variance, 159, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) __PYX_ERR(0, 159, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":162
+  /* "AdaptiveDQN_RLEEGNET.py":162
  *         return np.var(x, axis=-1).reshape(-1, 1)
  * 
  *     def _rms(self, x):             # <<<<<<<<<<<<<<
@@ -14888,7 +14888,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__38 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_rms, 162, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__38)) __PYX_ERR(0, 162, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":165
+  /* "AdaptiveDQN_RLEEGNET.py":165
  *         return np.sqrt(np.mean(x**2, axis=-1)).reshape(-1, 1)
  * 
  *     def _abs_diff_signal(self, x):             # <<<<<<<<<<<<<<
@@ -14897,7 +14897,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_abs_diff_signal, 165, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 165, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":168
+  /* "AdaptiveDQN_RLEEGNET.py":168
  *         return np.sum(np.abs(np.diff(x, axis=-1)), axis=-1).reshape(-1, 1)
  * 
  *     def _skewness(self, x):             # <<<<<<<<<<<<<<
@@ -14906,7 +14906,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__40 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_skewness, 168, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__40)) __PYX_ERR(0, 168, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":171
+  /* "AdaptiveDQN_RLEEGNET.py":171
  *         return stats.skew(x, axis=-1).reshape(-1, 1)
  * 
  *     def _kurtosis(self, x):             # <<<<<<<<<<<<<<
@@ -14915,7 +14915,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_kurtosis_2, 171, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) __PYX_ERR(0, 171, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":174
+  /* "AdaptiveDQN_RLEEGNET.py":174
  *         return stats.kurtosis(x, axis=-1).reshape(-1, 1)
  * 
  *     def _concat_features(self, x):             # <<<<<<<<<<<<<<
@@ -14927,7 +14927,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__42);
   __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__42, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_concat_features, 174, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) __PYX_ERR(0, 174, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":190
+  /* "AdaptiveDQN_RLEEGNET.py":190
  *         return features
  * 
  *     def _apply_cwt(self, data, scales, wavelet_name='morl'):             # <<<<<<<<<<<<<<
@@ -14942,7 +14942,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__46);
   __Pyx_GIVEREF(__pyx_tuple__46);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":195
+  /* "AdaptiveDQN_RLEEGNET.py":195
  *         return cwt_coeffs
  * 
  *     def featuresarray_load(self, data_array):             # <<<<<<<<<<<<<<
@@ -14954,7 +14954,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__48);
   __pyx_codeobj__49 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 13, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__48, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_featuresarray_load, 195, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__49)) __PYX_ERR(0, 195, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":213
+  /* "AdaptiveDQN_RLEEGNET.py":213
  *         return np.array(features)
  * 
  *     def setup_eeg(self, path='formatted_data/S03.fif'):             # <<<<<<<<<<<<<<
@@ -14969,7 +14969,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__52);
   __Pyx_GIVEREF(__pyx_tuple__52);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":228
+  /* "AdaptiveDQN_RLEEGNET.py":228
  *         return self.raw, self.events
  * 
  *     def process_epochs(self, event_ids=[1, 2, 3, 4, 5]):             # <<<<<<<<<<<<<<
@@ -14981,7 +14981,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__53);
   __pyx_codeobj__54 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 17, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__53, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_AdaptiveDQN_RLEEGNET_py, __pyx_n_s_process_epochs, 228, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__54)) __PYX_ERR(0, 228, __pyx_L1_error)
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":293
+  /* "AdaptiveDQN_RLEEGNET.py":293
  * 
  * 
  *     def setup_training(self, task_names):             # <<<<<<<<<<<<<<
@@ -15362,14 +15362,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_src__AdaptiveDQN_RLEEGNET) {
+  if (__pyx_module_is_main_AdaptiveDQN_RLEEGNET) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "src.AdaptiveDQN_RLEEGNET")) {
-      if (unlikely((PyDict_SetItemString(modules, "src.AdaptiveDQN_RLEEGNET", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "AdaptiveDQN_RLEEGNET")) {
+      if (unlikely((PyDict_SetItemString(modules, "AdaptiveDQN_RLEEGNET", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -15390,7 +15390,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":1
+  /* "AdaptiveDQN_RLEEGNET.py":1
  * import joblib             # <<<<<<<<<<<<<<
  * import numpy as np
  * import mne
@@ -15400,7 +15400,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_joblib, __pyx_t_2) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":2
+  /* "AdaptiveDQN_RLEEGNET.py":2
  * import joblib
  * import numpy as np             # <<<<<<<<<<<<<<
  * import mne
@@ -15411,7 +15411,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_2) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":3
+  /* "AdaptiveDQN_RLEEGNET.py":3
  * import joblib
  * import numpy as np
  * import mne             # <<<<<<<<<<<<<<
@@ -15423,7 +15423,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_mne, __pyx_t_2) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":4
+  /* "AdaptiveDQN_RLEEGNET.py":4
  * import numpy as np
  * import mne
  * import gym             # <<<<<<<<<<<<<<
@@ -15435,7 +15435,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_gym, __pyx_t_2) < 0) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":5
+  /* "AdaptiveDQN_RLEEGNET.py":5
  * import mne
  * import gym
  * import pywt             # <<<<<<<<<<<<<<
@@ -15447,7 +15447,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pywt, __pyx_t_2) < 0) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":6
+  /* "AdaptiveDQN_RLEEGNET.py":6
  * import gym
  * import pywt
  * import scipy.signal             # <<<<<<<<<<<<<<
@@ -15459,7 +15459,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_scipy, __pyx_t_2) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":7
+  /* "AdaptiveDQN_RLEEGNET.py":7
  * import pywt
  * import scipy.signal
  * from scipy import stats             # <<<<<<<<<<<<<<
@@ -15480,7 +15480,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":8
+  /* "AdaptiveDQN_RLEEGNET.py":8
  * import scipy.signal
  * from scipy import stats
  * from keras.models import Sequential             # <<<<<<<<<<<<<<
@@ -15501,7 +15501,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":9
+  /* "AdaptiveDQN_RLEEGNET.py":9
  * from scipy import stats
  * from keras.models import Sequential
  * from keras.layers import Dense, PReLU, Conv1D, Dropout, SpatialDropout1D, MaxPooling1D             # <<<<<<<<<<<<<<
@@ -15557,7 +15557,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":10
+  /* "AdaptiveDQN_RLEEGNET.py":10
  * from keras.models import Sequential
  * from keras.layers import Dense, PReLU, Conv1D, Dropout, SpatialDropout1D, MaxPooling1D
  * from keras.layers import GlobalMaxPooling1D, Layer, AveragePooling1D, LSTM, Reshape, BatchNormalization             # <<<<<<<<<<<<<<
@@ -15613,7 +15613,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":11
+  /* "AdaptiveDQN_RLEEGNET.py":11
  * from keras.layers import Dense, PReLU, Conv1D, Dropout, SpatialDropout1D, MaxPooling1D
  * from keras.layers import GlobalMaxPooling1D, Layer, AveragePooling1D, LSTM, Reshape, BatchNormalization
  * from keras.regularizers import l1_l2             # <<<<<<<<<<<<<<
@@ -15634,7 +15634,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":12
+  /* "AdaptiveDQN_RLEEGNET.py":12
  * from keras.layers import GlobalMaxPooling1D, Layer, AveragePooling1D, LSTM, Reshape, BatchNormalization
  * from keras.regularizers import l1_l2
  * from sklearn.model_selection import train_test_split             # <<<<<<<<<<<<<<
@@ -15655,7 +15655,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":13
+  /* "AdaptiveDQN_RLEEGNET.py":13
  * from keras.regularizers import l1_l2
  * from sklearn.model_selection import train_test_split
  * from sklearn.preprocessing import StandardScaler             # <<<<<<<<<<<<<<
@@ -15676,7 +15676,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":14
+  /* "AdaptiveDQN_RLEEGNET.py":14
  * from sklearn.model_selection import train_test_split
  * from sklearn.preprocessing import StandardScaler
  * from mne.decoding import CSP             # <<<<<<<<<<<<<<
@@ -15697,7 +15697,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":15
+  /* "AdaptiveDQN_RLEEGNET.py":15
  * from sklearn.preprocessing import StandardScaler
  * from mne.decoding import CSP
  * from stable_baselines3.dqn.policies import DQNPolicy             # <<<<<<<<<<<<<<
@@ -15718,7 +15718,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":16
+  /* "AdaptiveDQN_RLEEGNET.py":16
  * from mne.decoding import CSP
  * from stable_baselines3.dqn.policies import DQNPolicy
  * from stable_baselines3 import DQN             # <<<<<<<<<<<<<<
@@ -15739,7 +15739,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":17
+  /* "AdaptiveDQN_RLEEGNET.py":17
  * from stable_baselines3.dqn.policies import DQNPolicy
  * from stable_baselines3 import DQN
  * from stable_baselines3.common.callbacks import BaseCallback, CheckpointCallback, EvalCallback             # <<<<<<<<<<<<<<
@@ -15774,7 +15774,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":18
+  /* "AdaptiveDQN_RLEEGNET.py":18
  * from stable_baselines3 import DQN
  * from stable_baselines3.common.callbacks import BaseCallback, CheckpointCallback, EvalCallback
  * import random             # <<<<<<<<<<<<<<
@@ -15786,7 +15786,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_random, __pyx_t_3) < 0) __PYX_ERR(0, 18, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":20
+  /* "AdaptiveDQN_RLEEGNET.py":20
  * import random
  * 
  * class Plasticity(gym.Env):             # <<<<<<<<<<<<<<
@@ -15807,74 +15807,74 @@ if (!__Pyx_RefNanny) {
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = __Pyx_CalculateMetaclass(NULL, __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_Py3MetaclassPrepare(__pyx_t_4, __pyx_t_2, __pyx_n_s_Plasticity, __pyx_n_s_Plasticity, (PyObject *) NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, (PyObject *) NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 20, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_Py3MetaclassPrepare(__pyx_t_4, __pyx_t_2, __pyx_n_s_Plasticity, __pyx_n_s_Plasticity, (PyObject *) NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, (PyObject *) NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__pyx_t_2 != __pyx_t_3) {
     if (unlikely((PyDict_SetItemString(__pyx_t_5, "__orig_bases__", __pyx_t_3) < 0))) __PYX_ERR(0, 20, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":21
+  /* "AdaptiveDQN_RLEEGNET.py":21
  * 
  * class Plasticity(gym.Env):
  *     def __init__(self, images_per_episode, dataset, random, ncomp, global_shape_length, n_actions):             # <<<<<<<<<<<<<<
  *         super(Plasticity, self).__init__()
  *         self.action_space = gym.spaces.Discrete(n_actions)
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_1__init__, 0, __pyx_n_s_Plasticity___init, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__15)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 21, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_10Plasticity_1__init__, 0, __pyx_n_s_Plasticity___init, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__15)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 21, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_5, __pyx_n_s_init, __pyx_t_3) < 0) __PYX_ERR(0, 21, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":35
+  /* "AdaptiveDQN_RLEEGNET.py":35
  *         self.dataset_idx = 0
  * 
  *     def step(self, action):             # <<<<<<<<<<<<<<
  *         done = False
  *         reward = self._calculate_reward(action)
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_3step, 0, __pyx_n_s_Plasticity_step, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__17)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 35, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_10Plasticity_3step, 0, __pyx_n_s_Plasticity_step, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__17)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 35, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_5, __pyx_n_s_step, __pyx_t_3) < 0) __PYX_ERR(0, 35, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":44
+  /* "AdaptiveDQN_RLEEGNET.py":44
  *         return obs, reward, done, {}
  * 
  *     def reset(self):             # <<<<<<<<<<<<<<
  *         self.step_count = 0
  *         return self._next_obs()
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_5reset, 0, __pyx_n_s_Plasticity_reset, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__19)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 44, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_10Plasticity_5reset, 0, __pyx_n_s_Plasticity_reset, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__19)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 44, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_5, __pyx_n_s_reset, __pyx_t_3) < 0) __PYX_ERR(0, 44, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":48
+  /* "AdaptiveDQN_RLEEGNET.py":48
  *         return self._next_obs()
  * 
  *     def _next_obs(self):             # <<<<<<<<<<<<<<
  *         if self.random:
  *             next_obs_idx = random.randint(0, len(self.x) - 1)
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_7_next_obs, 0, __pyx_n_s_Plasticity__next_obs, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__21)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 48, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_10Plasticity_7_next_obs, 0, __pyx_n_s_Plasticity__next_obs, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__21)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 48, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_5, __pyx_n_s_next_obs, __pyx_t_3) < 0) __PYX_ERR(0, 48, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":59
+  /* "AdaptiveDQN_RLEEGNET.py":59
  *         return obs
  * 
  *     def _calculate_reward(self, action):             # <<<<<<<<<<<<<<
  *         return 1.0 if action == self.expected_action else -1.0
  * 
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_10Plasticity_9_calculate_reward, 0, __pyx_n_s_Plasticity__calculate_reward, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__23)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 59, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_10Plasticity_9_calculate_reward, 0, __pyx_n_s_Plasticity__calculate_reward, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__23)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 59, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_5, __pyx_n_s_calculate_reward, __pyx_t_3) < 0) __PYX_ERR(0, 59, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":20
+  /* "AdaptiveDQN_RLEEGNET.py":20
  * import random
  * 
  * class Plasticity(gym.Env):             # <<<<<<<<<<<<<<
@@ -15889,7 +15889,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":63
+  /* "AdaptiveDQN_RLEEGNET.py":63
  * 
  * 
  * class CustomCallback(BaseCallback):             # <<<<<<<<<<<<<<
@@ -15907,27 +15907,27 @@ if (!__Pyx_RefNanny) {
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_5 = __Pyx_CalculateMetaclass(NULL, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_5, __pyx_t_2, __pyx_n_s_CustomCallback, __pyx_n_s_CustomCallback, (PyObject *) NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 63, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_5, __pyx_t_2, __pyx_n_s_CustomCallback, __pyx_n_s_CustomCallback, (PyObject *) NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__pyx_t_2 != __pyx_t_4) {
     if (unlikely((PyDict_SetItemString(__pyx_t_3, "__orig_bases__", __pyx_t_4) < 0))) __PYX_ERR(0, 63, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":64
+  /* "AdaptiveDQN_RLEEGNET.py":64
  * 
  * class CustomCallback(BaseCallback):
  *     def __init__(self, verbose=0):             # <<<<<<<<<<<<<<
  *         super(CustomCallback, self).__init__(verbose)
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_1__init__, 0, __pyx_n_s_CustomCallback___init, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__25)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 64, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_14CustomCallback_1__init__, 0, __pyx_n_s_CustomCallback___init, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__25)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 64, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_4, __pyx_tuple__26);
   if (__Pyx_SetNameInClass(__pyx_t_3, __pyx_n_s_init, __pyx_t_4) < 0) __PYX_ERR(0, 64, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":67
+  /* "AdaptiveDQN_RLEEGNET.py":67
  *         super(CustomCallback, self).__init__(verbose)
  * 
  *     def _on_step(self) -> bool:             # <<<<<<<<<<<<<<
@@ -15937,14 +15937,14 @@ if (!__Pyx_RefNanny) {
   __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_return, __pyx_n_s_bool) < 0) __PYX_ERR(0, 67, __pyx_L1_error)
-  __pyx_t_6 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_14CustomCallback_3_on_step, 0, __pyx_n_s_CustomCallback__on_step, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__27)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 67, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_14CustomCallback_3_on_step, 0, __pyx_n_s_CustomCallback__on_step, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__27)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_6, __pyx_t_4);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   if (__Pyx_SetNameInClass(__pyx_t_3, __pyx_n_s_on_step, __pyx_t_6) < 0) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":63
+  /* "AdaptiveDQN_RLEEGNET.py":63
  * 
  * 
  * class CustomCallback(BaseCallback):             # <<<<<<<<<<<<<<
@@ -15959,7 +15959,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":72
+  /* "AdaptiveDQN_RLEEGNET.py":72
  *         return True
  * 
  * class KerasDQNPolicy(DQNPolicy):             # <<<<<<<<<<<<<<
@@ -15977,7 +15977,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_CalculateMetaclass(NULL, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_6 = __Pyx_Py3MetaclassPrepare(__pyx_t_3, __pyx_t_2, __pyx_n_s_KerasDQNPolicy, __pyx_n_s_KerasDQNPolicy, (PyObject *) NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_kp_s_Top_level_class_so_that_cloudpi); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 72, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_Py3MetaclassPrepare(__pyx_t_3, __pyx_t_2, __pyx_n_s_KerasDQNPolicy, __pyx_n_s_KerasDQNPolicy, (PyObject *) NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_kp_s_Top_level_class_so_that_cloudpi); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   if (__pyx_t_2 != __pyx_t_5) {
     if (unlikely((PyDict_SetItemString(__pyx_t_6, "__orig_bases__", __pyx_t_5) < 0))) __PYX_ERR(0, 72, __pyx_L1_error)
@@ -15986,14 +15986,14 @@ if (!__Pyx_RefNanny) {
   __pyx_t_5 = PyList_New(0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":77
+  /* "AdaptiveDQN_RLEEGNET.py":77
  *     """
  * 
  *     def __init__(self, *args, **kwargs):             # <<<<<<<<<<<<<<
  *         # Validate required parameters
  *         required_params = ["ncomp", "global_shape_length", "n_actions"]
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_1__init__, 0, __pyx_n_s_KerasDQNPolicy___init, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__29)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 77, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_1__init__, 0, __pyx_n_s_KerasDQNPolicy___init, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__29)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 77, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_INCREF(__pyx_t_4);
   PyList_Append(__pyx_t_5, __pyx_t_4);
@@ -16001,7 +16001,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_init, __pyx_t_4) < 0) __PYX_ERR(0, 77, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":125
+  /* "AdaptiveDQN_RLEEGNET.py":125
  *         ])
  * 
  *     def q_values(self, obs: np.ndarray) -> np.ndarray:             # <<<<<<<<<<<<<<
@@ -16012,14 +16012,14 @@ if (!__Pyx_RefNanny) {
   __Pyx_GOTREF(__pyx_t_4);
   if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_obs, __pyx_kp_s_np_ndarray) < 0) __PYX_ERR(0, 125, __pyx_L1_error)
   if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_return, __pyx_kp_s_np_ndarray) < 0) __PYX_ERR(0, 125, __pyx_L1_error)
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_3q_values, 0, __pyx_n_s_KerasDQNPolicy_q_values, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__31)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 125, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_14KerasDQNPolicy_3q_values, 0, __pyx_n_s_KerasDQNPolicy_q_values, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__31)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 125, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_7, __pyx_t_4);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_q_values, __pyx_t_7) < 0) __PYX_ERR(0, 125, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":72
+  /* "AdaptiveDQN_RLEEGNET.py":72
  *         return True
  * 
  * class KerasDQNPolicy(DQNPolicy):             # <<<<<<<<<<<<<<
@@ -16036,182 +16036,182 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":135
+  /* "AdaptiveDQN_RLEEGNET.py":135
  *         return self.keras_model.predict(obs)
  * 
  * class AdaptiveDQNRLEEGNET:             # <<<<<<<<<<<<<<
  *     def __init__(self):
  *         self.ncomp = 4
  */
-  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_AdaptiveDQNRLEEGNET, __pyx_n_s_AdaptiveDQNRLEEGNET, (PyObject *) NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, (PyObject *) NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 135, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_AdaptiveDQNRLEEGNET, __pyx_n_s_AdaptiveDQNRLEEGNET, (PyObject *) NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, (PyObject *) NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 135, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":136
+  /* "AdaptiveDQN_RLEEGNET.py":136
  * 
  * class AdaptiveDQNRLEEGNET:
  *     def __init__(self):             # <<<<<<<<<<<<<<
  *         self.ncomp = 4
  *         self.GLOBAL_SHAPE_LENGTH = None
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_1__init__, 0, __pyx_n_s_AdaptiveDQNRLEEGNET___init, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__32)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 136, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_1__init__, 0, __pyx_n_s_AdaptiveDQNRLEEGNET___init, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__32)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 136, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_init, __pyx_t_3) < 0) __PYX_ERR(0, 136, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":150
+  /* "AdaptiveDQN_RLEEGNET.py":150
  *         self.task_names = []
  * 
  *     def _mean(self, x):             # <<<<<<<<<<<<<<
  *         return np.mean(x, axis=-1).reshape(-1, 1)
  * 
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_3_mean, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__mean, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__34)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 150, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_3_mean, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__mean, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__34)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_mean_2, __pyx_t_3) < 0) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":153
+  /* "AdaptiveDQN_RLEEGNET.py":153
  *         return np.mean(x, axis=-1).reshape(-1, 1)
  * 
  *     def _stddev(self, x):             # <<<<<<<<<<<<<<
  *         return np.std(x, axis=-1).reshape(-1, 1)
  * 
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_5_stddev, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__stddev, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__35)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 153, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_5_stddev, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__stddev, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__35)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 153, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_stddev, __pyx_t_3) < 0) __PYX_ERR(0, 153, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":156
+  /* "AdaptiveDQN_RLEEGNET.py":156
  *         return np.std(x, axis=-1).reshape(-1, 1)
  * 
  *     def _peaktopeak(self, x):             # <<<<<<<<<<<<<<
  *         return np.ptp(x, axis=-1).reshape(-1, 1)
  * 
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_7_peaktopeak, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__peaktopeak, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 156, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_7_peaktopeak, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__peaktopeak, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 156, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_peaktopeak, __pyx_t_3) < 0) __PYX_ERR(0, 156, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":159
+  /* "AdaptiveDQN_RLEEGNET.py":159
  *         return np.ptp(x, axis=-1).reshape(-1, 1)
  * 
  *     def _variance(self, x):             # <<<<<<<<<<<<<<
  *         return np.var(x, axis=-1).reshape(-1, 1)
  * 
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_9_variance, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__variance, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 159, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_9_variance, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__variance, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 159, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_variance, __pyx_t_3) < 0) __PYX_ERR(0, 159, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":162
+  /* "AdaptiveDQN_RLEEGNET.py":162
  *         return np.var(x, axis=-1).reshape(-1, 1)
  * 
  *     def _rms(self, x):             # <<<<<<<<<<<<<<
  *         return np.sqrt(np.mean(x**2, axis=-1)).reshape(-1, 1)
  * 
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_11_rms, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__rms, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__38)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 162, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_11_rms, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__rms, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__38)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 162, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_rms, __pyx_t_3) < 0) __PYX_ERR(0, 162, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":165
+  /* "AdaptiveDQN_RLEEGNET.py":165
  *         return np.sqrt(np.mean(x**2, axis=-1)).reshape(-1, 1)
  * 
  *     def _abs_diff_signal(self, x):             # <<<<<<<<<<<<<<
  *         return np.sum(np.abs(np.diff(x, axis=-1)), axis=-1).reshape(-1, 1)
  * 
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_13_abs_diff_signal, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__abs_diff_si, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__39)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 165, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_13_abs_diff_signal, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__abs_diff_si, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__39)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 165, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_abs_diff_signal, __pyx_t_3) < 0) __PYX_ERR(0, 165, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":168
+  /* "AdaptiveDQN_RLEEGNET.py":168
  *         return np.sum(np.abs(np.diff(x, axis=-1)), axis=-1).reshape(-1, 1)
  * 
  *     def _skewness(self, x):             # <<<<<<<<<<<<<<
  *         return stats.skew(x, axis=-1).reshape(-1, 1)
  * 
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_15_skewness, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__skewness, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 168, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_15_skewness, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__skewness, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 168, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_skewness, __pyx_t_3) < 0) __PYX_ERR(0, 168, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":171
+  /* "AdaptiveDQN_RLEEGNET.py":171
  *         return stats.skew(x, axis=-1).reshape(-1, 1)
  * 
  *     def _kurtosis(self, x):             # <<<<<<<<<<<<<<
  *         return stats.kurtosis(x, axis=-1).reshape(-1, 1)
  * 
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_17_kurtosis, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__kurtosis, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__41)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 171, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_17_kurtosis, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__kurtosis, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__41)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 171, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_kurtosis_2, __pyx_t_3) < 0) __PYX_ERR(0, 171, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":174
+  /* "AdaptiveDQN_RLEEGNET.py":174
  *         return stats.kurtosis(x, axis=-1).reshape(-1, 1)
  * 
  *     def _concat_features(self, x):             # <<<<<<<<<<<<<<
  *         features = np.concatenate(
  *             (
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_19_concat_features, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__concat_feat, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__43)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 174, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_19_concat_features, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__concat_feat, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__43)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 174, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_concat_features, __pyx_t_3) < 0) __PYX_ERR(0, 174, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":190
+  /* "AdaptiveDQN_RLEEGNET.py":190
  *         return features
  * 
  *     def _apply_cwt(self, data, scales, wavelet_name='morl'):             # <<<<<<<<<<<<<<
  *         cwt_coeffs = np.array([pywt.cwt(data[i, :], scales, wavelet_name)[0]
  *                               for i in range(data.shape[0])])
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_21_apply_cwt, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__apply_cwt, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__45)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 190, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_21_apply_cwt, 0, __pyx_n_s_AdaptiveDQNRLEEGNET__apply_cwt, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__45)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 190, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_tuple__46);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_apply_cwt, __pyx_t_3) < 0) __PYX_ERR(0, 190, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":195
+  /* "AdaptiveDQN_RLEEGNET.py":195
  *         return cwt_coeffs
  * 
  *     def featuresarray_load(self, data_array):             # <<<<<<<<<<<<<<
  *         features = []
  *         fs = 250
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_23featuresarray_load, 0, __pyx_n_s_AdaptiveDQNRLEEGNET_featuresarra, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__49)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 195, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_23featuresarray_load, 0, __pyx_n_s_AdaptiveDQNRLEEGNET_featuresarra, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__49)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 195, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_featuresarray_load, __pyx_t_3) < 0) __PYX_ERR(0, 195, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":213
+  /* "AdaptiveDQN_RLEEGNET.py":213
  *         return np.array(features)
  * 
  *     def setup_eeg(self, path='formatted_data/S03.fif'):             # <<<<<<<<<<<<<<
  * 
  *         self.raw = mne.io.read_raw_fif(path, preload=True)
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_25setup_eeg, 0, __pyx_n_s_AdaptiveDQNRLEEGNET_setup_eeg, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__51)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 213, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_25setup_eeg, 0, __pyx_n_s_AdaptiveDQNRLEEGNET_setup_eeg, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__51)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 213, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_tuple__52);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_setup_eeg, __pyx_t_3) < 0) __PYX_ERR(0, 213, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":228
+  /* "AdaptiveDQN_RLEEGNET.py":228
  *         return self.raw, self.events
  * 
  *     def process_epochs(self, event_ids=[1, 2, 3, 4, 5]):             # <<<<<<<<<<<<<<
  *         # Validate event_ids
  *         if not event_ids:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_27process_epochs, 0, __pyx_n_s_AdaptiveDQNRLEEGNET_process_epoc, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__54)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 228, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_27process_epochs, 0, __pyx_n_s_AdaptiveDQNRLEEGNET_process_epoc, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__54)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 228, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (!__Pyx_CyFunction_InitDefaults(__pyx_t_3, sizeof(__pyx_defaults), 1)) __PYX_ERR(0, 228, __pyx_L1_error)
   __pyx_t_6 = PyList_New(5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 228, __pyx_L1_error)
@@ -16234,23 +16234,23 @@ if (!__Pyx_RefNanny) {
   __Pyx_CyFunction_Defaults(__pyx_defaults, __pyx_t_3)->__pyx_arg_event_ids = __pyx_t_6;
   __Pyx_GIVEREF(__pyx_t_6);
   __pyx_t_6 = 0;
-  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_3, __pyx_pf_3src_20AdaptiveDQN_RLEEGNET___defaults__);
+  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_3, __pyx_pf_20AdaptiveDQN_RLEEGNET___defaults__);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_process_epochs, __pyx_t_3) < 0) __PYX_ERR(0, 228, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":293
+  /* "AdaptiveDQN_RLEEGNET.py":293
  * 
  * 
  *     def setup_training(self, task_names):             # <<<<<<<<<<<<<<
  *         # Validate shapes and dimensions
  *         if len(task_names) != len(np.unique(self.y_train)):
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3src_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_29setup_training, 0, __pyx_n_s_AdaptiveDQNRLEEGNET_setup_traini, NULL, __pyx_n_s_src_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__56)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 293, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_20AdaptiveDQN_RLEEGNET_19AdaptiveDQNRLEEGNET_29setup_training, 0, __pyx_n_s_AdaptiveDQNRLEEGNET_setup_traini, NULL, __pyx_n_s_AdaptiveDQN_RLEEGNET, __pyx_d, ((PyObject *)__pyx_codeobj__56)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 293, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_setup_training, __pyx_t_3) < 0) __PYX_ERR(0, 293, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":135
+  /* "AdaptiveDQN_RLEEGNET.py":135
  *         return self.keras_model.predict(obs)
  * 
  * class AdaptiveDQNRLEEGNET:             # <<<<<<<<<<<<<<
@@ -16263,7 +16263,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/AdaptiveDQN_RLEEGNET.py":1
+  /* "AdaptiveDQN_RLEEGNET.py":1
  * import joblib             # <<<<<<<<<<<<<<
  * import numpy as np
  * import mne
@@ -16285,7 +16285,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_7);
   if (__pyx_m) {
     if (__pyx_d && stringtab_initialized) {
-      __Pyx_AddTraceback("init src.AdaptiveDQN_RLEEGNET", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init AdaptiveDQN_RLEEGNET", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     #if !CYTHON_USE_MODULE_STATE
     Py_CLEAR(__pyx_m);
@@ -16299,7 +16299,7 @@ if (!__Pyx_RefNanny) {
     }
     #endif
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init src.AdaptiveDQN_RLEEGNET");
+    PyErr_SetString(PyExc_ImportError, "init AdaptiveDQN_RLEEGNET");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

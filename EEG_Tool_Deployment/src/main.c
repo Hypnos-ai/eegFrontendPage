@@ -3,12 +3,12 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "src.main",
+        "name": "main",
         "sources": [
             "src\\main.py"
         ]
     },
-    "module_name": "src.main"
+    "module_name": "main"
 }
 END: Cython Metadata */
 
@@ -1228,8 +1228,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__src__main
-#define __PYX_HAVE_API__src__main
+#define __PYX_HAVE__main
+#define __PYX_HAVE_API__main
 /* Early includes */
 #ifdef _OPENMP
 #include <omp.h>
@@ -2044,14 +2044,14 @@ static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 /* #### Code section: module_declarations ### */
 
-/* Module declarations from "src.main" */
+/* Module declarations from "main" */
 /* #### Code section: typeinfo ### */
 /* #### Code section: before_global_var ### */
-#define __Pyx_MODULE_NAME "src.main"
-extern int __pyx_module_is_main_src__main;
-int __pyx_module_is_main_src__main = 0;
+#define __Pyx_MODULE_NAME "main"
+extern int __pyx_module_is_main_main;
+int __pyx_module_is_main_main = 0;
 
-/* Implementation of "src.main" */
+/* Implementation of "main" */
 /* #### Code section: global_var ### */
 /* #### Code section: string_decls ### */
 static const char __pyx_k_[] = ".";
@@ -2071,7 +2071,6 @@ static const char __pyx_k_test[] = "__test__";
 static const char __pyx_k_import[] = "__import__";
 static const char __pyx_k_main_2[] = "main";
 static const char __pyx_k_window[] = "window";
-static const char __pyx_k_src_main[] = "src.main";
 static const char __pyx_k_MainWindow[] = "MainWindow";
 static const char __pyx_k_src_main_py[] = "src\\main.py";
 static const char __pyx_k_QApplication[] = "QApplication";
@@ -2081,7 +2080,7 @@ static const char __pyx_k_PyQt5_QtWidgets[] = "PyQt5.QtWidgets";
 static const char __pyx_k_asyncio_coroutines[] = "asyncio.coroutines";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 /* #### Code section: decls ### */
-static PyObject *__pyx_pf_3src_4main_main(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_pf_4main_main(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
 /* #### Code section: late_includes ### */
 /* #### Code section: module_state ### */
 typedef struct {
@@ -2133,7 +2132,6 @@ typedef struct {
   PyObject *__pyx_n_s_name;
   PyObject *__pyx_n_s_show;
   PyObject *__pyx_n_s_spec;
-  PyObject *__pyx_n_s_src_main;
   PyObject *__pyx_kp_s_src_main_py;
   PyObject *__pyx_n_s_sys;
   PyObject *__pyx_n_s_test;
@@ -2204,7 +2202,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_name);
   Py_CLEAR(clear_module_state->__pyx_n_s_show);
   Py_CLEAR(clear_module_state->__pyx_n_s_spec);
-  Py_CLEAR(clear_module_state->__pyx_n_s_src_main);
   Py_CLEAR(clear_module_state->__pyx_kp_s_src_main_py);
   Py_CLEAR(clear_module_state->__pyx_n_s_sys);
   Py_CLEAR(clear_module_state->__pyx_n_s_test);
@@ -2253,7 +2250,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_name);
   Py_VISIT(traverse_module_state->__pyx_n_s_show);
   Py_VISIT(traverse_module_state->__pyx_n_s_spec);
-  Py_VISIT(traverse_module_state->__pyx_n_s_src_main);
   Py_VISIT(traverse_module_state->__pyx_kp_s_src_main_py);
   Py_VISIT(traverse_module_state->__pyx_n_s_sys);
   Py_VISIT(traverse_module_state->__pyx_n_s_test);
@@ -2312,7 +2308,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_name __pyx_mstate_global->__pyx_n_s_name
 #define __pyx_n_s_show __pyx_mstate_global->__pyx_n_s_show
 #define __pyx_n_s_spec __pyx_mstate_global->__pyx_n_s_spec
-#define __pyx_n_s_src_main __pyx_mstate_global->__pyx_n_s_src_main
 #define __pyx_kp_s_src_main_py __pyx_mstate_global->__pyx_kp_s_src_main_py
 #define __pyx_n_s_sys __pyx_mstate_global->__pyx_n_s_sys
 #define __pyx_n_s_test __pyx_mstate_global->__pyx_n_s_test
@@ -2321,7 +2316,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_codeobj__4 __pyx_mstate_global->__pyx_codeobj__4
 /* #### Code section: module_code ### */
 
-/* "src/main.py":5
+/* "main.py":5
  * import sys
  * 
  * def main():             # <<<<<<<<<<<<<<
@@ -2330,23 +2325,23 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3src_4main_1main(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-PyDoc_STRVAR(__pyx_doc_3src_4main_main, "main()");
-static PyMethodDef __pyx_mdef_3src_4main_1main = {"main", (PyCFunction)__pyx_pw_3src_4main_1main, METH_NOARGS, __pyx_doc_3src_4main_main};
-static PyObject *__pyx_pw_3src_4main_1main(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_4main_1main(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+PyDoc_STRVAR(__pyx_doc_4main_main, "main()");
+static PyMethodDef __pyx_mdef_4main_1main = {"main", (PyCFunction)__pyx_pw_4main_1main, METH_NOARGS, __pyx_doc_4main_main};
+static PyObject *__pyx_pw_4main_1main(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("main (wrapper)", 0);
   __pyx_kwvalues = __Pyx_KwValues_VARARGS(__pyx_args, __pyx_nargs);
-  __pyx_r = __pyx_pf_3src_4main_main(__pyx_self);
+  __pyx_r = __pyx_pf_4main_main(__pyx_self);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3src_4main_main(CYTHON_UNUSED PyObject *__pyx_self) {
+static PyObject *__pyx_pf_4main_main(CYTHON_UNUSED PyObject *__pyx_self) {
   PyObject *__pyx_v_app = NULL;
   PyObject *__pyx_v_window = NULL;
   PyObject *__pyx_r = NULL;
@@ -2362,7 +2357,7 @@ static PyObject *__pyx_pf_3src_4main_main(CYTHON_UNUSED PyObject *__pyx_self) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("main", 1);
 
-  /* "src/main.py":6
+  /* "main.py":6
  * 
  * def main():
  *     app = QApplication(sys.argv)             # <<<<<<<<<<<<<<
@@ -2402,7 +2397,7 @@ static PyObject *__pyx_pf_3src_4main_main(CYTHON_UNUSED PyObject *__pyx_self) {
   __pyx_v_app = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "src/main.py":7
+  /* "main.py":7
  * def main():
  *     app = QApplication(sys.argv)
  *     window = MainWindow()             # <<<<<<<<<<<<<<
@@ -2436,7 +2431,7 @@ static PyObject *__pyx_pf_3src_4main_main(CYTHON_UNUSED PyObject *__pyx_self) {
   __pyx_v_window = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "src/main.py":8
+  /* "main.py":8
  *     app = QApplication(sys.argv)
  *     window = MainWindow()
  *     window.show()             # <<<<<<<<<<<<<<
@@ -2469,7 +2464,7 @@ static PyObject *__pyx_pf_3src_4main_main(CYTHON_UNUSED PyObject *__pyx_self) {
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/main.py":9
+  /* "main.py":9
  *     window = MainWindow()
  *     window.show()
  *     sys.exit(app.exec_())             # <<<<<<<<<<<<<<
@@ -2530,7 +2525,7 @@ static PyObject *__pyx_pf_3src_4main_main(CYTHON_UNUSED PyObject *__pyx_self) {
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "src/main.py":5
+  /* "main.py":5
  * import sys
  * 
  * def main():             # <<<<<<<<<<<<<<
@@ -2547,7 +2542,7 @@ static PyObject *__pyx_pf_3src_4main_main(CYTHON_UNUSED PyObject *__pyx_self) {
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("src.main.main", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("main.main", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_app);
@@ -2595,7 +2590,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_name, __pyx_k_name, sizeof(__pyx_k_name), 0, 0, 1, 1},
     {&__pyx_n_s_show, __pyx_k_show, sizeof(__pyx_k_show), 0, 0, 1, 1},
     {&__pyx_n_s_spec, __pyx_k_spec, sizeof(__pyx_k_spec), 0, 0, 1, 1},
-    {&__pyx_n_s_src_main, __pyx_k_src_main, sizeof(__pyx_k_src_main), 0, 0, 1, 1},
     {&__pyx_kp_s_src_main_py, __pyx_k_src_main_py, sizeof(__pyx_k_src_main_py), 0, 0, 1, 0},
     {&__pyx_n_s_sys, __pyx_k_sys, sizeof(__pyx_k_sys), 0, 0, 1, 1},
     {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
@@ -2614,7 +2608,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "src/main.py":5
+  /* "main.py":5
  * import sys
  * 
  * def main():             # <<<<<<<<<<<<<<
@@ -2962,14 +2956,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_src__main) {
+  if (__pyx_module_is_main_main) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "src.main")) {
-      if (unlikely((PyDict_SetItemString(modules, "src.main", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "main")) {
+      if (unlikely((PyDict_SetItemString(modules, "main", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -2990,7 +2984,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "src/main.py":1
+  /* "main.py":1
  * from PyQt5.QtWidgets import QApplication             # <<<<<<<<<<<<<<
  * from gui import MainWindow
  * import sys
@@ -3009,7 +3003,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "src/main.py":2
+  /* "main.py":2
  * from PyQt5.QtWidgets import QApplication
  * from gui import MainWindow             # <<<<<<<<<<<<<<
  * import sys
@@ -3029,7 +3023,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/main.py":3
+  /* "main.py":3
  * from PyQt5.QtWidgets import QApplication
  * from gui import MainWindow
  * import sys             # <<<<<<<<<<<<<<
@@ -3041,19 +3035,19 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sys, __pyx_t_2) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/main.py":5
+  /* "main.py":5
  * import sys
  * 
  * def main():             # <<<<<<<<<<<<<<
  *     app = QApplication(sys.argv)
  *     window = MainWindow()
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_3src_4main_1main, 0, __pyx_n_s_main_2, NULL, __pyx_n_s_src_main, __pyx_d, ((PyObject *)__pyx_codeobj__4)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 5, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_4main_1main, 0, __pyx_n_s_main_2, NULL, __pyx_n_s_main_2, __pyx_d, ((PyObject *)__pyx_codeobj__4)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_main_2, __pyx_t_2) < 0) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "src/main.py":11
+  /* "main.py":11
  *     sys.exit(app.exec_())
  * 
  * if __name__ == "__main__":             # <<<<<<<<<<<<<<
@@ -3066,7 +3060,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_4) {
 
-    /* "src/main.py":13
+    /* "main.py":13
  * if __name__ == "__main__":
  *     # This will only be called by the launcher after dependencies are installed
  *     main()             # <<<<<<<<<<<<<<
@@ -3078,7 +3072,7 @@ if (!__Pyx_RefNanny) {
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "src/main.py":11
+    /* "main.py":11
  *     sys.exit(app.exec_())
  * 
  * if __name__ == "__main__":             # <<<<<<<<<<<<<<
@@ -3087,7 +3081,7 @@ if (!__Pyx_RefNanny) {
  */
   }
 
-  /* "src/main.py":1
+  /* "main.py":1
  * from PyQt5.QtWidgets import QApplication             # <<<<<<<<<<<<<<
  * from gui import MainWindow
  * import sys
@@ -3105,7 +3099,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_3);
   if (__pyx_m) {
     if (__pyx_d && stringtab_initialized) {
-      __Pyx_AddTraceback("init src.main", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init main", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     #if !CYTHON_USE_MODULE_STATE
     Py_CLEAR(__pyx_m);
@@ -3119,7 +3113,7 @@ if (!__Pyx_RefNanny) {
     }
     #endif
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init src.main");
+    PyErr_SetString(PyExc_ImportError, "init main");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

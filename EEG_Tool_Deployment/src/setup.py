@@ -21,10 +21,7 @@ else:
 
 # Get version from __init__.py
 def get_version():
-    with open(os.path.join("src", "__init__.py"), "r") as f:
-        for line in f:
-            if line.startswith("__version__"):
-                return line.split("=")[1].strip().strip('"').strip("'")
+    
     return "0.1.0"
 
 # Read requirements from requirements.txt
