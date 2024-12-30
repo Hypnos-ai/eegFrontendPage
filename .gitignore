@@ -5,7 +5,7 @@ logs/
 models/
 frontend/node_modules/
 analysis_plots/
-
+installer_output/
 # Model code and sensitive files
 eeg_tool/src/AdaptiveDQN_RLEEGNET.py
 eeg_tool/src/__pycache__/
