@@ -11,6 +11,7 @@ eeg_tool/src/AdaptiveDQN_RLEEGNET.py
 eeg_tool/src/__pycache__/
 eeg_tool/src/models/
 eeg_venv/
+#kffifkfk
 *.pkl
 *.h5
 *.zip
