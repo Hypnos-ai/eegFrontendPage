@@ -1,2 +1,1 @@
-*.exe filter=lfs diff=lfs merge=lfs -text
 installer_output/NeuroSyncSetup.exe !text !filter !merge !diff
