@@ -17,17 +17,32 @@ DisableFinishedPage=no
 WizardStyle=modern
 
 [Files]
-Source: "C:\Users\ncvn\AppData\Local\Programs\Python\Python312\*"; DestDir: "{app}\Python"; Flags: ignoreversion recursesubdirs createallsubdirs
+; Python core files and DLLs (needed to create and use venv)
+Source: "C:\Users\ncvn\AppData\Local\Programs\Python\Python312\python.exe"; DestDir: "{app}\Python"; Flags: ignoreversion
+Source: "C:\Users\ncvn\AppData\Local\Programs\Python\Python312\pythonw.exe"; DestDir: "{app}\Python"; Flags: ignoreversion
+Source: "C:\Users\ncvn\AppData\Local\Programs\Python\Python312\python3.dll"; DestDir: "{app}\Python"; Flags: ignoreversion
+Source: "C:\Users\ncvn\AppData\Local\Programs\Python\Python312\python312.dll"; DestDir: "{app}\Python"; Flags: ignoreversion
+Source: "C:\Users\ncvn\AppData\Local\Programs\Python\Python312\vcruntime140.dll"; DestDir: "{app}\Python"; Flags: ignoreversion
+Source: "C:\Users\ncvn\AppData\Local\Programs\Python\Python312\vcruntime140_1.dll"; DestDir: "{app}\Python"; Flags: ignoreversion
+
+; Required DLLs
+Source: "C:\Users\ncvn\AppData\Local\Programs\Python\Python312\DLLs\*"; DestDir: "{app}\Python\DLLs"; Flags: ignoreversion recursesubdirs createallsubdirs
+
+; Only the necessary Lib modules for venv
+Source: "C:\Users\ncvn\AppData\Local\Programs\Python\Python312\Lib\venv\*"; DestDir: "{app}\Python\Lib\venv"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\ncvn\AppData\Local\Programs\Python\Python312\Lib\ensurepip\*"; DestDir: "{app}\Python\Lib\ensurepip"; Flags: ignoreversion recursesubdirs createallsubdirs
+
 Source: "eeg_tool_deployment\src\launcher.py"; DestDir: "{app}\src"; Flags: ignoreversion
 Source: "eeg_tool_deployment\src\main.py"; DestDir: "{app}\src"; Flags: ignoreversion
 Source: "eeg_tool_deployment\src\*.pyd"; DestDir: "{app}\src"; Flags: ignoreversion recursesubdirs
-Source: "eeg_tool_deployment\src\data\*"; DestDir: "C:\NeuroSync\data"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "eeg_tool_deployment\src\sample_data\*"; DestDir: "C:\NeuroSync\sample_data"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "eeg_tool_deployment\src\*.pkl"; DestDir: "C:\NeuroSync\"; Flags: ignoreversion
+Source: "eeg_tool_deployment\src\data\*"; DestDir: "{app}\data"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "eeg_tool_deployment\src\sample_data\*"; DestDir: "{app}\sample_data"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "eeg_tool_deployment\src\*.pkl"; DestDir: "{app}"; Flags: ignoreversion
 Source: "eeg_tool_deployment\requirements.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "eeg_tool_deployment\src\run_hidden.vbs"; DestDir: "{app}\src"; Flags: ignoreversion
 Source: "eeg_tool_deployment\src\NeuroSync.ico"; DestDir: "{app}"; Flags: ignoreversion
-Source: "eeg_tool_deployment\eeg_venv\*"; DestDir: "{app}\eeg_venv"; Flags: ignoreversion recursesubdirs createallsubdirs onlyifdoesntexist
+Source: "eeg_tool_deployment\src\run_hidden.vbs"; DestDir: "{app}\src"; Flags: ignoreversion
+
+
 
 [Icons]
 Name: "{group}\NeuroSync"; Filename: "{app}\eeg_venv\Scripts\python.exe"; Parameters: """{app}\src\launcher.py"""; WorkingDir: "{app}\src"; IconFilename: "{app}\NeuroSync.ico"
@@ -35,12 +50,18 @@ Name: "{userdesktop}\NeuroSync"; Filename: "{app}\eeg_venv\Scripts\python.exe"; 
 Name: "{group}\Uninstall NeuroSync"; Filename: "{uninstallexe}"
 
 [Run]
+; 1. Set environment variable
+Filename: "cmd.exe"; Parameters: "/C setx NEUROSYNC_PATH ""{app}"" /M"; Flags: runhidden waituntilterminated
+
+; 2. Create and setup Python environment
 Filename: "{app}\Python\python.exe"; Parameters: "-m venv ""{app}\eeg_venv"""; Flags: waituntilterminated
 Filename: "{app}\eeg_venv\Scripts\pip.exe"; Parameters: "install -r {app}\requirements.txt"; Flags: waituntilterminated
-Filename: "{app}\eeg_venv\Scripts\python.exe"; Parameters: """{app}\src\launcher.py"""; Description: "Launch NeuroSync"; Flags: postinstall nowait
+
+; 3. Generate VBS file
+;Filename: "{code:GenerateVBScript}"; Flags: runhidden waituntilterminated
+
+; 4. Launch application (optional at end of install)
+;Filename: "{app}\eeg_venv\Scripts\python.exe"; Parameters: """{app}\src\launcher.py"""; Description: "Launch NeuroSync"; Flags: postinstall nowait
 
 [UninstallDelete]
 Type: filesandordirs; Name: "{app}"
-Type: filesandordirs; Name: "C:\NeuroSync\data"
-Type: filesandordirs; Name: "C:\NeuroSync\sample_data"
-Type: filesandordirs; Name: "C:\NeuroSync\"

@@ -1538,7 +1538,8 @@ class MainWindow(QMainWindow):
         """Get list of available sample data files"""
         try:
             # Look specifically for S03.fif in the formatted subfolder of sample_data
-            sample_file = os.path.join("C:\\NeuroSync\\sample_data\\formatted", 'S03.fif')
+            sample_file = os.path.join(self.eeg_man.sample_dir, 'formatted', 'S03.fif')
+            #sample_file = os.path.join("C:\\NeuroSync\\sample_data\\formatted", 'S03.fif')
             
             # Debugging output to status message
             self.add_status_message(f"Checking for sample file at: {sample_file}")

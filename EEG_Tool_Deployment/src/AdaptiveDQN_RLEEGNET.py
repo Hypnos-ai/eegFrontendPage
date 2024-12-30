@@ -1,3 +1,4 @@
+import os
 import joblib
 import numpy as np
 import mne
@@ -146,6 +147,9 @@ class AdaptiveDQNRLEEGNET:
         self.y_test = None
         self.scaler = StandardScaler()
         self.task_names = []
+        self.base_path = os.getenv('NEUROSYNC_PATH', 'C:\\NeuroSync')
+        self.csp_filters_path = os.path.join(self.base_path, 'csp_filters_ovr.pkl')
+        self.scaler_path = os.path.join(self.base_path, 'scaler.pkl')
 
     def _mean(self, x):
         return np.mean(x, axis=-1).reshape(-1, 1)
@@ -251,7 +255,8 @@ class AdaptiveDQNRLEEGNET:
             self.csp_transformed_data[event_id] = csp.transform(X_all)
             self.csp_filter_objects[event_id] = csp
 
-        joblib.dump(self.csp_filter_objects, 'C:\\NeuroSync\\csp_filters_ovr.pkl')
+        #joblib.dump(self.csp_filter_objects, 'C:\\NeuroSync\\csp_filters_ovr.pkl')
+        joblib.dump(self.csp_filter_objects, self.csp_filters_path)
         print("CSP filters saved successfully.")
         n_trials = len(X_all)
         n_time_points = self.csp_transformed_data[1].shape[2]
@@ -282,7 +287,8 @@ class AdaptiveDQNRLEEGNET:
             self.X_train.reshape(-1, self.X_train.shape[-1])).reshape(self.X_train.shape)
         self.X_test = self.scaler.transform(
             self.X_test.reshape(-1, self.X_test.shape[-1])).reshape(self.X_test.shape)
-        joblib.dump(self.scaler, 'C:\\NeuroSync\\scaler.pkl')
+        # joblib.dump(self.scaler, 'C:\\NeuroSync\\scaler.pkl')
+        joblib.dump(self.scaler, self.scaler_path)
         print("Scaler saved successfully.")
         print(f"Training samples per class: {np.bincount(self.y_train)}")
         print(f"Testing samples per class: {np.bincount(self.y_test)}")

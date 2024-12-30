@@ -1552,7 +1552,7 @@ struct __pyx_obj_3gui___pyx_scope_struct_2_add_new_action {
 };
 
 
-/* "gui.py":1557
+/* "gui.py":1558
  *             return []
  * 
  *     def view_sample_data(self, index, *args):             # <<<<<<<<<<<<<<
@@ -1568,7 +1568,7 @@ struct __pyx_obj_3gui___pyx_scope_struct_3_view_sample_data {
 };
 
 
-/* "gui.py":1819
+/* "gui.py":1820
  *         self.update_timer.setInterval(interval)
  * 
  *     def train_dqn_model(self, *args):             # <<<<<<<<<<<<<<
@@ -1581,7 +1581,7 @@ struct __pyx_obj_3gui___pyx_scope_struct_4_train_dqn_model {
 };
 
 
-/* "gui.py":2006
+/* "gui.py":2007
  *             self.add_new_action(action_name, description, repetitions)
  * 
  *     def setup_channel_config(self, *args):             # <<<<<<<<<<<<<<
@@ -1594,7 +1594,7 @@ struct __pyx_obj_3gui___pyx_scope_struct_5_setup_channel_config {
 };
 
 
-/* "gui.py":2085
+/* "gui.py":2086
  *         self.update_plot_channels(self.channel_configs)
  * 
  *     def add_channel(self, name, layout, *args):             # <<<<<<<<<<<<<<
@@ -1608,7 +1608,7 @@ struct __pyx_obj_3gui___pyx_scope_struct_6_add_channel {
 };
 
 
-/* "gui.py":2228
+/* "gui.py":2229
  *         return self.default_channel_colors[color_index]
  * 
  *     def setup_action_buttons(self):             # <<<<<<<<<<<<<<
@@ -2589,8 +2589,8 @@ static const char __pyx_k__22[] = "...";
 static const char __pyx_k__23[] = "";
 static const char __pyx_k__27[] = "\303\227";
 static const char __pyx_k__28[] = "?";
-static const char __pyx_k__48[] = ".";
-static const char __pyx_k__49[] = "*";
+static const char __pyx_k__47[] = ".";
+static const char __pyx_k__48[] = "*";
 static const char __pyx_k_all[] = "all";
 static const char __pyx_k_buf[] = "buf";
 static const char __pyx_k_cid[] = "cid";
@@ -3419,7 +3419,6 @@ static const char __pyx_k_font_size_14px_color_ffffff_pad[] = "\n            fon
 static const char __pyx_k_font_size_14px_font_weight_bold[] = "font-size: 14px; font-weight: bold; color: #ff69b4;";
 static const char __pyx_k_font_size_16px_font_weight_bold[] = "\n            font-size: 16px;\n            font-weight: bold;\n            color: #ffffff;\n            padding: 10px;\n            background-color: #333333;\n            border-radius: 5px;\n            border: 1px solid #ff1493;\n        ";
 static const char __pyx_k_font_size_18px_font_weight_bold[] = "\n            font-size: 18px;\n            font-weight: bold;\n            color: #FF5722;\n            padding: 10px;\n            background-color: #333333;\n            border-radius: 5px;\n            border: 1px solid #ff1493;\n        ";
-static const char __pyx_k_C_NeuroSync_sample_data_formatte[] = "C:\\NeuroSync\\sample_data\\formatted";
 static const char __pyx_k_Error_Channel_names_must_be_uniq[] = "Error: Channel names must be unique and not empty";
 static const char __pyx_k_Error_applying_channel_configura[] = "Error applying channel configuration: ";
 static const char __pyx_k_Error_creating_visualization_pan[] = "Error creating visualization panel: ";
@@ -3626,7 +3625,6 @@ typedef struct {
   PyObject *__pyx_n_u_CPz;
   PyObject *__pyx_kp_u_CSP_Analysis_Results;
   PyObject *__pyx_kp_u_CSP_Pattern_for;
-  PyObject *__pyx_kp_u_C_NeuroSync_sample_data_formatte;
   PyObject *__pyx_kp_u_Callbacks;
   PyObject *__pyx_n_u_Channel;
   PyObject *__pyx_kp_u_Channel_Name;
@@ -3900,8 +3898,8 @@ typedef struct {
   PyObject *__pyx_kp_u__27;
   PyObject *__pyx_n_s__28;
   PyObject *__pyx_kp_u__28;
-  PyObject *__pyx_kp_u__48;
-  PyObject *__pyx_n_s__49;
+  PyObject *__pyx_kp_u__47;
+  PyObject *__pyx_n_s__48;
   PyObject *__pyx_n_s_a;
   PyObject *__pyx_n_s_accept;
   PyObject *__pyx_n_s_action_button_layout;
@@ -4575,113 +4573,112 @@ typedef struct {
   PyObject *__pyx_tuple__41;
   PyObject *__pyx_tuple__42;
   PyObject *__pyx_tuple__43;
-  PyObject *__pyx_tuple__44;
+  PyObject *__pyx_tuple__45;
   PyObject *__pyx_tuple__46;
-  PyObject *__pyx_tuple__47;
+  PyObject *__pyx_tuple__49;
   PyObject *__pyx_tuple__50;
   PyObject *__pyx_tuple__51;
-  PyObject *__pyx_tuple__52;
+  PyObject *__pyx_tuple__53;
   PyObject *__pyx_tuple__54;
-  PyObject *__pyx_tuple__55;
-  PyObject *__pyx_tuple__57;
-  PyObject *__pyx_tuple__59;
-  PyObject *__pyx_tuple__61;
-  PyObject *__pyx_tuple__63;
-  PyObject *__pyx_tuple__65;
-  PyObject *__pyx_tuple__67;
-  PyObject *__pyx_tuple__69;
-  PyObject *__pyx_tuple__71;
-  PyObject *__pyx_tuple__74;
-  PyObject *__pyx_tuple__76;
-  PyObject *__pyx_tuple__78;
-  PyObject *__pyx_tuple__80;
-  PyObject *__pyx_tuple__82;
-  PyObject *__pyx_tuple__84;
-  PyObject *__pyx_tuple__86;
-  PyObject *__pyx_tuple__88;
-  PyObject *__pyx_tuple__92;
-  PyObject *__pyx_tuple__95;
-  PyObject *__pyx_tuple__97;
-  PyObject *__pyx_tuple__99;
-  PyObject *__pyx_tuple__101;
-  PyObject *__pyx_tuple__103;
-  PyObject *__pyx_tuple__105;
-  PyObject *__pyx_tuple__107;
-  PyObject *__pyx_tuple__109;
+  PyObject *__pyx_tuple__56;
+  PyObject *__pyx_tuple__58;
+  PyObject *__pyx_tuple__60;
+  PyObject *__pyx_tuple__62;
+  PyObject *__pyx_tuple__64;
+  PyObject *__pyx_tuple__66;
+  PyObject *__pyx_tuple__68;
+  PyObject *__pyx_tuple__70;
+  PyObject *__pyx_tuple__73;
+  PyObject *__pyx_tuple__75;
+  PyObject *__pyx_tuple__77;
+  PyObject *__pyx_tuple__79;
+  PyObject *__pyx_tuple__81;
+  PyObject *__pyx_tuple__83;
+  PyObject *__pyx_tuple__85;
+  PyObject *__pyx_tuple__87;
+  PyObject *__pyx_tuple__91;
+  PyObject *__pyx_tuple__94;
+  PyObject *__pyx_tuple__96;
+  PyObject *__pyx_tuple__98;
+  PyObject *__pyx_tuple__100;
+  PyObject *__pyx_tuple__102;
+  PyObject *__pyx_tuple__104;
+  PyObject *__pyx_tuple__106;
+  PyObject *__pyx_tuple__108;
+  PyObject *__pyx_tuple__110;
   PyObject *__pyx_tuple__111;
-  PyObject *__pyx_tuple__112;
-  PyObject *__pyx_tuple__114;
-  PyObject *__pyx_tuple__116;
-  PyObject *__pyx_tuple__118;
-  PyObject *__pyx_tuple__120;
-  PyObject *__pyx_tuple__122;
-  PyObject *__pyx_tuple__124;
-  PyObject *__pyx_tuple__126;
-  PyObject *__pyx_tuple__128;
-  PyObject *__pyx_tuple__130;
-  PyObject *__pyx_tuple__132;
-  PyObject *__pyx_tuple__135;
-  PyObject *__pyx_tuple__137;
-  PyObject *__pyx_tuple__139;
-  PyObject *__pyx_tuple__141;
-  PyObject *__pyx_tuple__143;
-  PyObject *__pyx_tuple__145;
-  PyObject *__pyx_tuple__149;
-  PyObject *__pyx_tuple__151;
-  PyObject *__pyx_codeobj__45;
-  PyObject *__pyx_codeobj__53;
-  PyObject *__pyx_codeobj__56;
-  PyObject *__pyx_codeobj__58;
-  PyObject *__pyx_codeobj__60;
-  PyObject *__pyx_codeobj__62;
-  PyObject *__pyx_codeobj__64;
-  PyObject *__pyx_codeobj__66;
-  PyObject *__pyx_codeobj__68;
-  PyObject *__pyx_codeobj__70;
+  PyObject *__pyx_tuple__113;
+  PyObject *__pyx_tuple__115;
+  PyObject *__pyx_tuple__117;
+  PyObject *__pyx_tuple__119;
+  PyObject *__pyx_tuple__121;
+  PyObject *__pyx_tuple__123;
+  PyObject *__pyx_tuple__125;
+  PyObject *__pyx_tuple__127;
+  PyObject *__pyx_tuple__129;
+  PyObject *__pyx_tuple__131;
+  PyObject *__pyx_tuple__134;
+  PyObject *__pyx_tuple__136;
+  PyObject *__pyx_tuple__138;
+  PyObject *__pyx_tuple__140;
+  PyObject *__pyx_tuple__142;
+  PyObject *__pyx_tuple__144;
+  PyObject *__pyx_tuple__148;
+  PyObject *__pyx_tuple__150;
+  PyObject *__pyx_codeobj__44;
+  PyObject *__pyx_codeobj__52;
+  PyObject *__pyx_codeobj__55;
+  PyObject *__pyx_codeobj__57;
+  PyObject *__pyx_codeobj__59;
+  PyObject *__pyx_codeobj__61;
+  PyObject *__pyx_codeobj__63;
+  PyObject *__pyx_codeobj__65;
+  PyObject *__pyx_codeobj__67;
+  PyObject *__pyx_codeobj__69;
+  PyObject *__pyx_codeobj__71;
   PyObject *__pyx_codeobj__72;
-  PyObject *__pyx_codeobj__73;
-  PyObject *__pyx_codeobj__75;
-  PyObject *__pyx_codeobj__77;
-  PyObject *__pyx_codeobj__79;
-  PyObject *__pyx_codeobj__81;
-  PyObject *__pyx_codeobj__83;
-  PyObject *__pyx_codeobj__85;
-  PyObject *__pyx_codeobj__87;
+  PyObject *__pyx_codeobj__74;
+  PyObject *__pyx_codeobj__76;
+  PyObject *__pyx_codeobj__78;
+  PyObject *__pyx_codeobj__80;
+  PyObject *__pyx_codeobj__82;
+  PyObject *__pyx_codeobj__84;
+  PyObject *__pyx_codeobj__86;
+  PyObject *__pyx_codeobj__88;
   PyObject *__pyx_codeobj__89;
   PyObject *__pyx_codeobj__90;
-  PyObject *__pyx_codeobj__91;
+  PyObject *__pyx_codeobj__92;
   PyObject *__pyx_codeobj__93;
-  PyObject *__pyx_codeobj__94;
-  PyObject *__pyx_codeobj__96;
-  PyObject *__pyx_codeobj__98;
-  PyObject *__pyx_codeobj__100;
-  PyObject *__pyx_codeobj__102;
-  PyObject *__pyx_codeobj__104;
-  PyObject *__pyx_codeobj__106;
-  PyObject *__pyx_codeobj__108;
-  PyObject *__pyx_codeobj__110;
-  PyObject *__pyx_codeobj__113;
-  PyObject *__pyx_codeobj__115;
-  PyObject *__pyx_codeobj__117;
-  PyObject *__pyx_codeobj__119;
-  PyObject *__pyx_codeobj__121;
-  PyObject *__pyx_codeobj__123;
-  PyObject *__pyx_codeobj__125;
-  PyObject *__pyx_codeobj__127;
-  PyObject *__pyx_codeobj__129;
-  PyObject *__pyx_codeobj__131;
+  PyObject *__pyx_codeobj__95;
+  PyObject *__pyx_codeobj__97;
+  PyObject *__pyx_codeobj__99;
+  PyObject *__pyx_codeobj__101;
+  PyObject *__pyx_codeobj__103;
+  PyObject *__pyx_codeobj__105;
+  PyObject *__pyx_codeobj__107;
+  PyObject *__pyx_codeobj__109;
+  PyObject *__pyx_codeobj__112;
+  PyObject *__pyx_codeobj__114;
+  PyObject *__pyx_codeobj__116;
+  PyObject *__pyx_codeobj__118;
+  PyObject *__pyx_codeobj__120;
+  PyObject *__pyx_codeobj__122;
+  PyObject *__pyx_codeobj__124;
+  PyObject *__pyx_codeobj__126;
+  PyObject *__pyx_codeobj__128;
+  PyObject *__pyx_codeobj__130;
+  PyObject *__pyx_codeobj__132;
   PyObject *__pyx_codeobj__133;
-  PyObject *__pyx_codeobj__134;
-  PyObject *__pyx_codeobj__136;
-  PyObject *__pyx_codeobj__138;
-  PyObject *__pyx_codeobj__140;
-  PyObject *__pyx_codeobj__142;
-  PyObject *__pyx_codeobj__144;
+  PyObject *__pyx_codeobj__135;
+  PyObject *__pyx_codeobj__137;
+  PyObject *__pyx_codeobj__139;
+  PyObject *__pyx_codeobj__141;
+  PyObject *__pyx_codeobj__143;
+  PyObject *__pyx_codeobj__145;
   PyObject *__pyx_codeobj__146;
   PyObject *__pyx_codeobj__147;
-  PyObject *__pyx_codeobj__148;
-  PyObject *__pyx_codeobj__150;
-  PyObject *__pyx_codeobj__152;
+  PyObject *__pyx_codeobj__149;
+  PyObject *__pyx_codeobj__151;
 } __pyx_mstate;
 
 #if CYTHON_USE_MODULE_STATE
@@ -4788,7 +4785,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_u_CPz);
   Py_CLEAR(clear_module_state->__pyx_kp_u_CSP_Analysis_Results);
   Py_CLEAR(clear_module_state->__pyx_kp_u_CSP_Pattern_for);
-  Py_CLEAR(clear_module_state->__pyx_kp_u_C_NeuroSync_sample_data_formatte);
   Py_CLEAR(clear_module_state->__pyx_kp_u_Callbacks);
   Py_CLEAR(clear_module_state->__pyx_n_u_Channel);
   Py_CLEAR(clear_module_state->__pyx_kp_u_Channel_Name);
@@ -5062,8 +5058,8 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_u__27);
   Py_CLEAR(clear_module_state->__pyx_n_s__28);
   Py_CLEAR(clear_module_state->__pyx_kp_u__28);
-  Py_CLEAR(clear_module_state->__pyx_kp_u__48);
-  Py_CLEAR(clear_module_state->__pyx_n_s__49);
+  Py_CLEAR(clear_module_state->__pyx_kp_u__47);
+  Py_CLEAR(clear_module_state->__pyx_n_s__48);
   Py_CLEAR(clear_module_state->__pyx_n_s_a);
   Py_CLEAR(clear_module_state->__pyx_n_s_accept);
   Py_CLEAR(clear_module_state->__pyx_n_s_action_button_layout);
@@ -5737,113 +5733,112 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_tuple__41);
   Py_CLEAR(clear_module_state->__pyx_tuple__42);
   Py_CLEAR(clear_module_state->__pyx_tuple__43);
-  Py_CLEAR(clear_module_state->__pyx_tuple__44);
+  Py_CLEAR(clear_module_state->__pyx_tuple__45);
   Py_CLEAR(clear_module_state->__pyx_tuple__46);
-  Py_CLEAR(clear_module_state->__pyx_tuple__47);
+  Py_CLEAR(clear_module_state->__pyx_tuple__49);
   Py_CLEAR(clear_module_state->__pyx_tuple__50);
   Py_CLEAR(clear_module_state->__pyx_tuple__51);
-  Py_CLEAR(clear_module_state->__pyx_tuple__52);
+  Py_CLEAR(clear_module_state->__pyx_tuple__53);
   Py_CLEAR(clear_module_state->__pyx_tuple__54);
-  Py_CLEAR(clear_module_state->__pyx_tuple__55);
-  Py_CLEAR(clear_module_state->__pyx_tuple__57);
-  Py_CLEAR(clear_module_state->__pyx_tuple__59);
-  Py_CLEAR(clear_module_state->__pyx_tuple__61);
-  Py_CLEAR(clear_module_state->__pyx_tuple__63);
-  Py_CLEAR(clear_module_state->__pyx_tuple__65);
-  Py_CLEAR(clear_module_state->__pyx_tuple__67);
-  Py_CLEAR(clear_module_state->__pyx_tuple__69);
-  Py_CLEAR(clear_module_state->__pyx_tuple__71);
-  Py_CLEAR(clear_module_state->__pyx_tuple__74);
-  Py_CLEAR(clear_module_state->__pyx_tuple__76);
-  Py_CLEAR(clear_module_state->__pyx_tuple__78);
-  Py_CLEAR(clear_module_state->__pyx_tuple__80);
-  Py_CLEAR(clear_module_state->__pyx_tuple__82);
-  Py_CLEAR(clear_module_state->__pyx_tuple__84);
-  Py_CLEAR(clear_module_state->__pyx_tuple__86);
-  Py_CLEAR(clear_module_state->__pyx_tuple__88);
-  Py_CLEAR(clear_module_state->__pyx_tuple__92);
-  Py_CLEAR(clear_module_state->__pyx_tuple__95);
-  Py_CLEAR(clear_module_state->__pyx_tuple__97);
-  Py_CLEAR(clear_module_state->__pyx_tuple__99);
-  Py_CLEAR(clear_module_state->__pyx_tuple__101);
-  Py_CLEAR(clear_module_state->__pyx_tuple__103);
-  Py_CLEAR(clear_module_state->__pyx_tuple__105);
-  Py_CLEAR(clear_module_state->__pyx_tuple__107);
-  Py_CLEAR(clear_module_state->__pyx_tuple__109);
+  Py_CLEAR(clear_module_state->__pyx_tuple__56);
+  Py_CLEAR(clear_module_state->__pyx_tuple__58);
+  Py_CLEAR(clear_module_state->__pyx_tuple__60);
+  Py_CLEAR(clear_module_state->__pyx_tuple__62);
+  Py_CLEAR(clear_module_state->__pyx_tuple__64);
+  Py_CLEAR(clear_module_state->__pyx_tuple__66);
+  Py_CLEAR(clear_module_state->__pyx_tuple__68);
+  Py_CLEAR(clear_module_state->__pyx_tuple__70);
+  Py_CLEAR(clear_module_state->__pyx_tuple__73);
+  Py_CLEAR(clear_module_state->__pyx_tuple__75);
+  Py_CLEAR(clear_module_state->__pyx_tuple__77);
+  Py_CLEAR(clear_module_state->__pyx_tuple__79);
+  Py_CLEAR(clear_module_state->__pyx_tuple__81);
+  Py_CLEAR(clear_module_state->__pyx_tuple__83);
+  Py_CLEAR(clear_module_state->__pyx_tuple__85);
+  Py_CLEAR(clear_module_state->__pyx_tuple__87);
+  Py_CLEAR(clear_module_state->__pyx_tuple__91);
+  Py_CLEAR(clear_module_state->__pyx_tuple__94);
+  Py_CLEAR(clear_module_state->__pyx_tuple__96);
+  Py_CLEAR(clear_module_state->__pyx_tuple__98);
+  Py_CLEAR(clear_module_state->__pyx_tuple__100);
+  Py_CLEAR(clear_module_state->__pyx_tuple__102);
+  Py_CLEAR(clear_module_state->__pyx_tuple__104);
+  Py_CLEAR(clear_module_state->__pyx_tuple__106);
+  Py_CLEAR(clear_module_state->__pyx_tuple__108);
+  Py_CLEAR(clear_module_state->__pyx_tuple__110);
   Py_CLEAR(clear_module_state->__pyx_tuple__111);
-  Py_CLEAR(clear_module_state->__pyx_tuple__112);
-  Py_CLEAR(clear_module_state->__pyx_tuple__114);
-  Py_CLEAR(clear_module_state->__pyx_tuple__116);
-  Py_CLEAR(clear_module_state->__pyx_tuple__118);
-  Py_CLEAR(clear_module_state->__pyx_tuple__120);
-  Py_CLEAR(clear_module_state->__pyx_tuple__122);
-  Py_CLEAR(clear_module_state->__pyx_tuple__124);
-  Py_CLEAR(clear_module_state->__pyx_tuple__126);
-  Py_CLEAR(clear_module_state->__pyx_tuple__128);
-  Py_CLEAR(clear_module_state->__pyx_tuple__130);
-  Py_CLEAR(clear_module_state->__pyx_tuple__132);
-  Py_CLEAR(clear_module_state->__pyx_tuple__135);
-  Py_CLEAR(clear_module_state->__pyx_tuple__137);
-  Py_CLEAR(clear_module_state->__pyx_tuple__139);
-  Py_CLEAR(clear_module_state->__pyx_tuple__141);
-  Py_CLEAR(clear_module_state->__pyx_tuple__143);
-  Py_CLEAR(clear_module_state->__pyx_tuple__145);
-  Py_CLEAR(clear_module_state->__pyx_tuple__149);
-  Py_CLEAR(clear_module_state->__pyx_tuple__151);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__45);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__53);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__56);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__58);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__60);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__62);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__64);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__66);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__68);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__70);
+  Py_CLEAR(clear_module_state->__pyx_tuple__113);
+  Py_CLEAR(clear_module_state->__pyx_tuple__115);
+  Py_CLEAR(clear_module_state->__pyx_tuple__117);
+  Py_CLEAR(clear_module_state->__pyx_tuple__119);
+  Py_CLEAR(clear_module_state->__pyx_tuple__121);
+  Py_CLEAR(clear_module_state->__pyx_tuple__123);
+  Py_CLEAR(clear_module_state->__pyx_tuple__125);
+  Py_CLEAR(clear_module_state->__pyx_tuple__127);
+  Py_CLEAR(clear_module_state->__pyx_tuple__129);
+  Py_CLEAR(clear_module_state->__pyx_tuple__131);
+  Py_CLEAR(clear_module_state->__pyx_tuple__134);
+  Py_CLEAR(clear_module_state->__pyx_tuple__136);
+  Py_CLEAR(clear_module_state->__pyx_tuple__138);
+  Py_CLEAR(clear_module_state->__pyx_tuple__140);
+  Py_CLEAR(clear_module_state->__pyx_tuple__142);
+  Py_CLEAR(clear_module_state->__pyx_tuple__144);
+  Py_CLEAR(clear_module_state->__pyx_tuple__148);
+  Py_CLEAR(clear_module_state->__pyx_tuple__150);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__44);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__52);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__55);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__57);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__59);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__61);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__63);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__65);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__67);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__69);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__71);
   Py_CLEAR(clear_module_state->__pyx_codeobj__72);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__73);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__75);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__77);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__79);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__81);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__83);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__85);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__87);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__74);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__76);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__78);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__80);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__82);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__84);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__86);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__88);
   Py_CLEAR(clear_module_state->__pyx_codeobj__89);
   Py_CLEAR(clear_module_state->__pyx_codeobj__90);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__91);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__92);
   Py_CLEAR(clear_module_state->__pyx_codeobj__93);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__94);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__96);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__98);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__100);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__102);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__104);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__106);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__108);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__110);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__113);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__115);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__117);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__119);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__121);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__123);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__125);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__127);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__129);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__131);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__95);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__97);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__99);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__101);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__103);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__105);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__107);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__109);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__112);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__114);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__116);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__118);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__120);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__122);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__124);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__126);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__128);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__130);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__132);
   Py_CLEAR(clear_module_state->__pyx_codeobj__133);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__134);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__136);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__138);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__140);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__142);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__144);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__135);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__137);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__139);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__141);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__143);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__145);
   Py_CLEAR(clear_module_state->__pyx_codeobj__146);
   Py_CLEAR(clear_module_state->__pyx_codeobj__147);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__148);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__150);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__152);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__149);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__151);
   return 0;
 }
 #endif
@@ -5928,7 +5923,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_u_CPz);
   Py_VISIT(traverse_module_state->__pyx_kp_u_CSP_Analysis_Results);
   Py_VISIT(traverse_module_state->__pyx_kp_u_CSP_Pattern_for);
-  Py_VISIT(traverse_module_state->__pyx_kp_u_C_NeuroSync_sample_data_formatte);
   Py_VISIT(traverse_module_state->__pyx_kp_u_Callbacks);
   Py_VISIT(traverse_module_state->__pyx_n_u_Channel);
   Py_VISIT(traverse_module_state->__pyx_kp_u_Channel_Name);
@@ -6202,8 +6196,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_u__27);
   Py_VISIT(traverse_module_state->__pyx_n_s__28);
   Py_VISIT(traverse_module_state->__pyx_kp_u__28);
-  Py_VISIT(traverse_module_state->__pyx_kp_u__48);
-  Py_VISIT(traverse_module_state->__pyx_n_s__49);
+  Py_VISIT(traverse_module_state->__pyx_kp_u__47);
+  Py_VISIT(traverse_module_state->__pyx_n_s__48);
   Py_VISIT(traverse_module_state->__pyx_n_s_a);
   Py_VISIT(traverse_module_state->__pyx_n_s_accept);
   Py_VISIT(traverse_module_state->__pyx_n_s_action_button_layout);
@@ -6877,113 +6871,112 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_tuple__41);
   Py_VISIT(traverse_module_state->__pyx_tuple__42);
   Py_VISIT(traverse_module_state->__pyx_tuple__43);
-  Py_VISIT(traverse_module_state->__pyx_tuple__44);
+  Py_VISIT(traverse_module_state->__pyx_tuple__45);
   Py_VISIT(traverse_module_state->__pyx_tuple__46);
-  Py_VISIT(traverse_module_state->__pyx_tuple__47);
+  Py_VISIT(traverse_module_state->__pyx_tuple__49);
   Py_VISIT(traverse_module_state->__pyx_tuple__50);
   Py_VISIT(traverse_module_state->__pyx_tuple__51);
-  Py_VISIT(traverse_module_state->__pyx_tuple__52);
+  Py_VISIT(traverse_module_state->__pyx_tuple__53);
   Py_VISIT(traverse_module_state->__pyx_tuple__54);
-  Py_VISIT(traverse_module_state->__pyx_tuple__55);
-  Py_VISIT(traverse_module_state->__pyx_tuple__57);
-  Py_VISIT(traverse_module_state->__pyx_tuple__59);
-  Py_VISIT(traverse_module_state->__pyx_tuple__61);
-  Py_VISIT(traverse_module_state->__pyx_tuple__63);
-  Py_VISIT(traverse_module_state->__pyx_tuple__65);
-  Py_VISIT(traverse_module_state->__pyx_tuple__67);
-  Py_VISIT(traverse_module_state->__pyx_tuple__69);
-  Py_VISIT(traverse_module_state->__pyx_tuple__71);
-  Py_VISIT(traverse_module_state->__pyx_tuple__74);
-  Py_VISIT(traverse_module_state->__pyx_tuple__76);
-  Py_VISIT(traverse_module_state->__pyx_tuple__78);
-  Py_VISIT(traverse_module_state->__pyx_tuple__80);
-  Py_VISIT(traverse_module_state->__pyx_tuple__82);
-  Py_VISIT(traverse_module_state->__pyx_tuple__84);
-  Py_VISIT(traverse_module_state->__pyx_tuple__86);
-  Py_VISIT(traverse_module_state->__pyx_tuple__88);
-  Py_VISIT(traverse_module_state->__pyx_tuple__92);
-  Py_VISIT(traverse_module_state->__pyx_tuple__95);
-  Py_VISIT(traverse_module_state->__pyx_tuple__97);
-  Py_VISIT(traverse_module_state->__pyx_tuple__99);
-  Py_VISIT(traverse_module_state->__pyx_tuple__101);
-  Py_VISIT(traverse_module_state->__pyx_tuple__103);
-  Py_VISIT(traverse_module_state->__pyx_tuple__105);
-  Py_VISIT(traverse_module_state->__pyx_tuple__107);
-  Py_VISIT(traverse_module_state->__pyx_tuple__109);
+  Py_VISIT(traverse_module_state->__pyx_tuple__56);
+  Py_VISIT(traverse_module_state->__pyx_tuple__58);
+  Py_VISIT(traverse_module_state->__pyx_tuple__60);
+  Py_VISIT(traverse_module_state->__pyx_tuple__62);
+  Py_VISIT(traverse_module_state->__pyx_tuple__64);
+  Py_VISIT(traverse_module_state->__pyx_tuple__66);
+  Py_VISIT(traverse_module_state->__pyx_tuple__68);
+  Py_VISIT(traverse_module_state->__pyx_tuple__70);
+  Py_VISIT(traverse_module_state->__pyx_tuple__73);
+  Py_VISIT(traverse_module_state->__pyx_tuple__75);
+  Py_VISIT(traverse_module_state->__pyx_tuple__77);
+  Py_VISIT(traverse_module_state->__pyx_tuple__79);
+  Py_VISIT(traverse_module_state->__pyx_tuple__81);
+  Py_VISIT(traverse_module_state->__pyx_tuple__83);
+  Py_VISIT(traverse_module_state->__pyx_tuple__85);
+  Py_VISIT(traverse_module_state->__pyx_tuple__87);
+  Py_VISIT(traverse_module_state->__pyx_tuple__91);
+  Py_VISIT(traverse_module_state->__pyx_tuple__94);
+  Py_VISIT(traverse_module_state->__pyx_tuple__96);
+  Py_VISIT(traverse_module_state->__pyx_tuple__98);
+  Py_VISIT(traverse_module_state->__pyx_tuple__100);
+  Py_VISIT(traverse_module_state->__pyx_tuple__102);
+  Py_VISIT(traverse_module_state->__pyx_tuple__104);
+  Py_VISIT(traverse_module_state->__pyx_tuple__106);
+  Py_VISIT(traverse_module_state->__pyx_tuple__108);
+  Py_VISIT(traverse_module_state->__pyx_tuple__110);
   Py_VISIT(traverse_module_state->__pyx_tuple__111);
-  Py_VISIT(traverse_module_state->__pyx_tuple__112);
-  Py_VISIT(traverse_module_state->__pyx_tuple__114);
-  Py_VISIT(traverse_module_state->__pyx_tuple__116);
-  Py_VISIT(traverse_module_state->__pyx_tuple__118);
-  Py_VISIT(traverse_module_state->__pyx_tuple__120);
-  Py_VISIT(traverse_module_state->__pyx_tuple__122);
-  Py_VISIT(traverse_module_state->__pyx_tuple__124);
-  Py_VISIT(traverse_module_state->__pyx_tuple__126);
-  Py_VISIT(traverse_module_state->__pyx_tuple__128);
-  Py_VISIT(traverse_module_state->__pyx_tuple__130);
-  Py_VISIT(traverse_module_state->__pyx_tuple__132);
-  Py_VISIT(traverse_module_state->__pyx_tuple__135);
-  Py_VISIT(traverse_module_state->__pyx_tuple__137);
-  Py_VISIT(traverse_module_state->__pyx_tuple__139);
-  Py_VISIT(traverse_module_state->__pyx_tuple__141);
-  Py_VISIT(traverse_module_state->__pyx_tuple__143);
-  Py_VISIT(traverse_module_state->__pyx_tuple__145);
-  Py_VISIT(traverse_module_state->__pyx_tuple__149);
-  Py_VISIT(traverse_module_state->__pyx_tuple__151);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__45);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__53);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__56);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__58);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__60);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__62);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__64);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__66);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__68);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__70);
+  Py_VISIT(traverse_module_state->__pyx_tuple__113);
+  Py_VISIT(traverse_module_state->__pyx_tuple__115);
+  Py_VISIT(traverse_module_state->__pyx_tuple__117);
+  Py_VISIT(traverse_module_state->__pyx_tuple__119);
+  Py_VISIT(traverse_module_state->__pyx_tuple__121);
+  Py_VISIT(traverse_module_state->__pyx_tuple__123);
+  Py_VISIT(traverse_module_state->__pyx_tuple__125);
+  Py_VISIT(traverse_module_state->__pyx_tuple__127);
+  Py_VISIT(traverse_module_state->__pyx_tuple__129);
+  Py_VISIT(traverse_module_state->__pyx_tuple__131);
+  Py_VISIT(traverse_module_state->__pyx_tuple__134);
+  Py_VISIT(traverse_module_state->__pyx_tuple__136);
+  Py_VISIT(traverse_module_state->__pyx_tuple__138);
+  Py_VISIT(traverse_module_state->__pyx_tuple__140);
+  Py_VISIT(traverse_module_state->__pyx_tuple__142);
+  Py_VISIT(traverse_module_state->__pyx_tuple__144);
+  Py_VISIT(traverse_module_state->__pyx_tuple__148);
+  Py_VISIT(traverse_module_state->__pyx_tuple__150);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__44);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__52);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__55);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__57);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__59);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__61);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__63);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__65);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__67);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__69);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__71);
   Py_VISIT(traverse_module_state->__pyx_codeobj__72);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__73);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__75);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__77);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__79);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__81);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__83);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__85);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__87);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__74);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__76);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__78);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__80);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__82);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__84);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__86);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__88);
   Py_VISIT(traverse_module_state->__pyx_codeobj__89);
   Py_VISIT(traverse_module_state->__pyx_codeobj__90);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__91);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__92);
   Py_VISIT(traverse_module_state->__pyx_codeobj__93);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__94);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__96);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__98);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__100);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__102);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__104);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__106);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__108);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__110);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__113);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__115);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__117);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__119);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__121);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__123);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__125);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__127);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__129);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__131);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__95);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__97);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__99);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__101);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__103);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__105);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__107);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__109);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__112);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__114);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__116);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__118);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__120);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__122);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__124);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__126);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__128);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__130);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__132);
   Py_VISIT(traverse_module_state->__pyx_codeobj__133);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__134);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__136);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__138);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__140);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__142);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__144);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__135);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__137);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__139);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__141);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__143);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__145);
   Py_VISIT(traverse_module_state->__pyx_codeobj__146);
   Py_VISIT(traverse_module_state->__pyx_codeobj__147);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__148);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__150);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__152);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__149);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__151);
   return 0;
 }
 #endif
@@ -7078,7 +7071,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_u_CPz __pyx_mstate_global->__pyx_n_u_CPz
 #define __pyx_kp_u_CSP_Analysis_Results __pyx_mstate_global->__pyx_kp_u_CSP_Analysis_Results
 #define __pyx_kp_u_CSP_Pattern_for __pyx_mstate_global->__pyx_kp_u_CSP_Pattern_for
-#define __pyx_kp_u_C_NeuroSync_sample_data_formatte __pyx_mstate_global->__pyx_kp_u_C_NeuroSync_sample_data_formatte
 #define __pyx_kp_u_Callbacks __pyx_mstate_global->__pyx_kp_u_Callbacks
 #define __pyx_n_u_Channel __pyx_mstate_global->__pyx_n_u_Channel
 #define __pyx_kp_u_Channel_Name __pyx_mstate_global->__pyx_kp_u_Channel_Name
@@ -7352,8 +7344,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_u__27 __pyx_mstate_global->__pyx_kp_u__27
 #define __pyx_n_s__28 __pyx_mstate_global->__pyx_n_s__28
 #define __pyx_kp_u__28 __pyx_mstate_global->__pyx_kp_u__28
-#define __pyx_kp_u__48 __pyx_mstate_global->__pyx_kp_u__48
-#define __pyx_n_s__49 __pyx_mstate_global->__pyx_n_s__49
+#define __pyx_kp_u__47 __pyx_mstate_global->__pyx_kp_u__47
+#define __pyx_n_s__48 __pyx_mstate_global->__pyx_n_s__48
 #define __pyx_n_s_a __pyx_mstate_global->__pyx_n_s_a
 #define __pyx_n_s_accept __pyx_mstate_global->__pyx_n_s_accept
 #define __pyx_n_s_action_button_layout __pyx_mstate_global->__pyx_n_s_action_button_layout
@@ -8027,113 +8019,112 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_tuple__41 __pyx_mstate_global->__pyx_tuple__41
 #define __pyx_tuple__42 __pyx_mstate_global->__pyx_tuple__42
 #define __pyx_tuple__43 __pyx_mstate_global->__pyx_tuple__43
-#define __pyx_tuple__44 __pyx_mstate_global->__pyx_tuple__44
+#define __pyx_tuple__45 __pyx_mstate_global->__pyx_tuple__45
 #define __pyx_tuple__46 __pyx_mstate_global->__pyx_tuple__46
-#define __pyx_tuple__47 __pyx_mstate_global->__pyx_tuple__47
+#define __pyx_tuple__49 __pyx_mstate_global->__pyx_tuple__49
 #define __pyx_tuple__50 __pyx_mstate_global->__pyx_tuple__50
 #define __pyx_tuple__51 __pyx_mstate_global->__pyx_tuple__51
-#define __pyx_tuple__52 __pyx_mstate_global->__pyx_tuple__52
+#define __pyx_tuple__53 __pyx_mstate_global->__pyx_tuple__53
 #define __pyx_tuple__54 __pyx_mstate_global->__pyx_tuple__54
-#define __pyx_tuple__55 __pyx_mstate_global->__pyx_tuple__55
-#define __pyx_tuple__57 __pyx_mstate_global->__pyx_tuple__57
-#define __pyx_tuple__59 __pyx_mstate_global->__pyx_tuple__59
-#define __pyx_tuple__61 __pyx_mstate_global->__pyx_tuple__61
-#define __pyx_tuple__63 __pyx_mstate_global->__pyx_tuple__63
-#define __pyx_tuple__65 __pyx_mstate_global->__pyx_tuple__65
-#define __pyx_tuple__67 __pyx_mstate_global->__pyx_tuple__67
-#define __pyx_tuple__69 __pyx_mstate_global->__pyx_tuple__69
-#define __pyx_tuple__71 __pyx_mstate_global->__pyx_tuple__71
-#define __pyx_tuple__74 __pyx_mstate_global->__pyx_tuple__74
-#define __pyx_tuple__76 __pyx_mstate_global->__pyx_tuple__76
-#define __pyx_tuple__78 __pyx_mstate_global->__pyx_tuple__78
-#define __pyx_tuple__80 __pyx_mstate_global->__pyx_tuple__80
-#define __pyx_tuple__82 __pyx_mstate_global->__pyx_tuple__82
-#define __pyx_tuple__84 __pyx_mstate_global->__pyx_tuple__84
-#define __pyx_tuple__86 __pyx_mstate_global->__pyx_tuple__86
-#define __pyx_tuple__88 __pyx_mstate_global->__pyx_tuple__88
-#define __pyx_tuple__92 __pyx_mstate_global->__pyx_tuple__92
-#define __pyx_tuple__95 __pyx_mstate_global->__pyx_tuple__95
-#define __pyx_tuple__97 __pyx_mstate_global->__pyx_tuple__97
-#define __pyx_tuple__99 __pyx_mstate_global->__pyx_tuple__99
-#define __pyx_tuple__101 __pyx_mstate_global->__pyx_tuple__101
-#define __pyx_tuple__103 __pyx_mstate_global->__pyx_tuple__103
-#define __pyx_tuple__105 __pyx_mstate_global->__pyx_tuple__105
-#define __pyx_tuple__107 __pyx_mstate_global->__pyx_tuple__107
-#define __pyx_tuple__109 __pyx_mstate_global->__pyx_tuple__109
+#define __pyx_tuple__56 __pyx_mstate_global->__pyx_tuple__56
+#define __pyx_tuple__58 __pyx_mstate_global->__pyx_tuple__58
+#define __pyx_tuple__60 __pyx_mstate_global->__pyx_tuple__60
+#define __pyx_tuple__62 __pyx_mstate_global->__pyx_tuple__62
+#define __pyx_tuple__64 __pyx_mstate_global->__pyx_tuple__64
+#define __pyx_tuple__66 __pyx_mstate_global->__pyx_tuple__66
+#define __pyx_tuple__68 __pyx_mstate_global->__pyx_tuple__68
+#define __pyx_tuple__70 __pyx_mstate_global->__pyx_tuple__70
+#define __pyx_tuple__73 __pyx_mstate_global->__pyx_tuple__73
+#define __pyx_tuple__75 __pyx_mstate_global->__pyx_tuple__75
+#define __pyx_tuple__77 __pyx_mstate_global->__pyx_tuple__77
+#define __pyx_tuple__79 __pyx_mstate_global->__pyx_tuple__79
+#define __pyx_tuple__81 __pyx_mstate_global->__pyx_tuple__81
+#define __pyx_tuple__83 __pyx_mstate_global->__pyx_tuple__83
+#define __pyx_tuple__85 __pyx_mstate_global->__pyx_tuple__85
+#define __pyx_tuple__87 __pyx_mstate_global->__pyx_tuple__87
+#define __pyx_tuple__91 __pyx_mstate_global->__pyx_tuple__91
+#define __pyx_tuple__94 __pyx_mstate_global->__pyx_tuple__94
+#define __pyx_tuple__96 __pyx_mstate_global->__pyx_tuple__96
+#define __pyx_tuple__98 __pyx_mstate_global->__pyx_tuple__98
+#define __pyx_tuple__100 __pyx_mstate_global->__pyx_tuple__100
+#define __pyx_tuple__102 __pyx_mstate_global->__pyx_tuple__102
+#define __pyx_tuple__104 __pyx_mstate_global->__pyx_tuple__104
+#define __pyx_tuple__106 __pyx_mstate_global->__pyx_tuple__106
+#define __pyx_tuple__108 __pyx_mstate_global->__pyx_tuple__108
+#define __pyx_tuple__110 __pyx_mstate_global->__pyx_tuple__110
 #define __pyx_tuple__111 __pyx_mstate_global->__pyx_tuple__111
-#define __pyx_tuple__112 __pyx_mstate_global->__pyx_tuple__112
-#define __pyx_tuple__114 __pyx_mstate_global->__pyx_tuple__114
-#define __pyx_tuple__116 __pyx_mstate_global->__pyx_tuple__116
-#define __pyx_tuple__118 __pyx_mstate_global->__pyx_tuple__118
-#define __pyx_tuple__120 __pyx_mstate_global->__pyx_tuple__120
-#define __pyx_tuple__122 __pyx_mstate_global->__pyx_tuple__122
-#define __pyx_tuple__124 __pyx_mstate_global->__pyx_tuple__124
-#define __pyx_tuple__126 __pyx_mstate_global->__pyx_tuple__126
-#define __pyx_tuple__128 __pyx_mstate_global->__pyx_tuple__128
-#define __pyx_tuple__130 __pyx_mstate_global->__pyx_tuple__130
-#define __pyx_tuple__132 __pyx_mstate_global->__pyx_tuple__132
-#define __pyx_tuple__135 __pyx_mstate_global->__pyx_tuple__135
-#define __pyx_tuple__137 __pyx_mstate_global->__pyx_tuple__137
-#define __pyx_tuple__139 __pyx_mstate_global->__pyx_tuple__139
-#define __pyx_tuple__141 __pyx_mstate_global->__pyx_tuple__141
-#define __pyx_tuple__143 __pyx_mstate_global->__pyx_tuple__143
-#define __pyx_tuple__145 __pyx_mstate_global->__pyx_tuple__145
-#define __pyx_tuple__149 __pyx_mstate_global->__pyx_tuple__149
-#define __pyx_tuple__151 __pyx_mstate_global->__pyx_tuple__151
-#define __pyx_codeobj__45 __pyx_mstate_global->__pyx_codeobj__45
-#define __pyx_codeobj__53 __pyx_mstate_global->__pyx_codeobj__53
-#define __pyx_codeobj__56 __pyx_mstate_global->__pyx_codeobj__56
-#define __pyx_codeobj__58 __pyx_mstate_global->__pyx_codeobj__58
-#define __pyx_codeobj__60 __pyx_mstate_global->__pyx_codeobj__60
-#define __pyx_codeobj__62 __pyx_mstate_global->__pyx_codeobj__62
-#define __pyx_codeobj__64 __pyx_mstate_global->__pyx_codeobj__64
-#define __pyx_codeobj__66 __pyx_mstate_global->__pyx_codeobj__66
-#define __pyx_codeobj__68 __pyx_mstate_global->__pyx_codeobj__68
-#define __pyx_codeobj__70 __pyx_mstate_global->__pyx_codeobj__70
+#define __pyx_tuple__113 __pyx_mstate_global->__pyx_tuple__113
+#define __pyx_tuple__115 __pyx_mstate_global->__pyx_tuple__115
+#define __pyx_tuple__117 __pyx_mstate_global->__pyx_tuple__117
+#define __pyx_tuple__119 __pyx_mstate_global->__pyx_tuple__119
+#define __pyx_tuple__121 __pyx_mstate_global->__pyx_tuple__121
+#define __pyx_tuple__123 __pyx_mstate_global->__pyx_tuple__123
+#define __pyx_tuple__125 __pyx_mstate_global->__pyx_tuple__125
+#define __pyx_tuple__127 __pyx_mstate_global->__pyx_tuple__127
+#define __pyx_tuple__129 __pyx_mstate_global->__pyx_tuple__129
+#define __pyx_tuple__131 __pyx_mstate_global->__pyx_tuple__131
+#define __pyx_tuple__134 __pyx_mstate_global->__pyx_tuple__134
+#define __pyx_tuple__136 __pyx_mstate_global->__pyx_tuple__136
+#define __pyx_tuple__138 __pyx_mstate_global->__pyx_tuple__138
+#define __pyx_tuple__140 __pyx_mstate_global->__pyx_tuple__140
+#define __pyx_tuple__142 __pyx_mstate_global->__pyx_tuple__142
+#define __pyx_tuple__144 __pyx_mstate_global->__pyx_tuple__144
+#define __pyx_tuple__148 __pyx_mstate_global->__pyx_tuple__148
+#define __pyx_tuple__150 __pyx_mstate_global->__pyx_tuple__150
+#define __pyx_codeobj__44 __pyx_mstate_global->__pyx_codeobj__44
+#define __pyx_codeobj__52 __pyx_mstate_global->__pyx_codeobj__52
+#define __pyx_codeobj__55 __pyx_mstate_global->__pyx_codeobj__55
+#define __pyx_codeobj__57 __pyx_mstate_global->__pyx_codeobj__57
+#define __pyx_codeobj__59 __pyx_mstate_global->__pyx_codeobj__59
+#define __pyx_codeobj__61 __pyx_mstate_global->__pyx_codeobj__61
+#define __pyx_codeobj__63 __pyx_mstate_global->__pyx_codeobj__63
+#define __pyx_codeobj__65 __pyx_mstate_global->__pyx_codeobj__65
+#define __pyx_codeobj__67 __pyx_mstate_global->__pyx_codeobj__67
+#define __pyx_codeobj__69 __pyx_mstate_global->__pyx_codeobj__69
+#define __pyx_codeobj__71 __pyx_mstate_global->__pyx_codeobj__71
 #define __pyx_codeobj__72 __pyx_mstate_global->__pyx_codeobj__72
-#define __pyx_codeobj__73 __pyx_mstate_global->__pyx_codeobj__73
-#define __pyx_codeobj__75 __pyx_mstate_global->__pyx_codeobj__75
-#define __pyx_codeobj__77 __pyx_mstate_global->__pyx_codeobj__77
-#define __pyx_codeobj__79 __pyx_mstate_global->__pyx_codeobj__79
-#define __pyx_codeobj__81 __pyx_mstate_global->__pyx_codeobj__81
-#define __pyx_codeobj__83 __pyx_mstate_global->__pyx_codeobj__83
-#define __pyx_codeobj__85 __pyx_mstate_global->__pyx_codeobj__85
-#define __pyx_codeobj__87 __pyx_mstate_global->__pyx_codeobj__87
+#define __pyx_codeobj__74 __pyx_mstate_global->__pyx_codeobj__74
+#define __pyx_codeobj__76 __pyx_mstate_global->__pyx_codeobj__76
+#define __pyx_codeobj__78 __pyx_mstate_global->__pyx_codeobj__78
+#define __pyx_codeobj__80 __pyx_mstate_global->__pyx_codeobj__80
+#define __pyx_codeobj__82 __pyx_mstate_global->__pyx_codeobj__82
+#define __pyx_codeobj__84 __pyx_mstate_global->__pyx_codeobj__84
+#define __pyx_codeobj__86 __pyx_mstate_global->__pyx_codeobj__86
+#define __pyx_codeobj__88 __pyx_mstate_global->__pyx_codeobj__88
 #define __pyx_codeobj__89 __pyx_mstate_global->__pyx_codeobj__89
 #define __pyx_codeobj__90 __pyx_mstate_global->__pyx_codeobj__90
-#define __pyx_codeobj__91 __pyx_mstate_global->__pyx_codeobj__91
+#define __pyx_codeobj__92 __pyx_mstate_global->__pyx_codeobj__92
 #define __pyx_codeobj__93 __pyx_mstate_global->__pyx_codeobj__93
-#define __pyx_codeobj__94 __pyx_mstate_global->__pyx_codeobj__94
-#define __pyx_codeobj__96 __pyx_mstate_global->__pyx_codeobj__96
-#define __pyx_codeobj__98 __pyx_mstate_global->__pyx_codeobj__98
-#define __pyx_codeobj__100 __pyx_mstate_global->__pyx_codeobj__100
-#define __pyx_codeobj__102 __pyx_mstate_global->__pyx_codeobj__102
-#define __pyx_codeobj__104 __pyx_mstate_global->__pyx_codeobj__104
-#define __pyx_codeobj__106 __pyx_mstate_global->__pyx_codeobj__106
-#define __pyx_codeobj__108 __pyx_mstate_global->__pyx_codeobj__108
-#define __pyx_codeobj__110 __pyx_mstate_global->__pyx_codeobj__110
-#define __pyx_codeobj__113 __pyx_mstate_global->__pyx_codeobj__113
-#define __pyx_codeobj__115 __pyx_mstate_global->__pyx_codeobj__115
-#define __pyx_codeobj__117 __pyx_mstate_global->__pyx_codeobj__117
-#define __pyx_codeobj__119 __pyx_mstate_global->__pyx_codeobj__119
-#define __pyx_codeobj__121 __pyx_mstate_global->__pyx_codeobj__121
-#define __pyx_codeobj__123 __pyx_mstate_global->__pyx_codeobj__123
-#define __pyx_codeobj__125 __pyx_mstate_global->__pyx_codeobj__125
-#define __pyx_codeobj__127 __pyx_mstate_global->__pyx_codeobj__127
-#define __pyx_codeobj__129 __pyx_mstate_global->__pyx_codeobj__129
-#define __pyx_codeobj__131 __pyx_mstate_global->__pyx_codeobj__131
+#define __pyx_codeobj__95 __pyx_mstate_global->__pyx_codeobj__95
+#define __pyx_codeobj__97 __pyx_mstate_global->__pyx_codeobj__97
+#define __pyx_codeobj__99 __pyx_mstate_global->__pyx_codeobj__99
+#define __pyx_codeobj__101 __pyx_mstate_global->__pyx_codeobj__101
+#define __pyx_codeobj__103 __pyx_mstate_global->__pyx_codeobj__103
+#define __pyx_codeobj__105 __pyx_mstate_global->__pyx_codeobj__105
+#define __pyx_codeobj__107 __pyx_mstate_global->__pyx_codeobj__107
+#define __pyx_codeobj__109 __pyx_mstate_global->__pyx_codeobj__109
+#define __pyx_codeobj__112 __pyx_mstate_global->__pyx_codeobj__112
+#define __pyx_codeobj__114 __pyx_mstate_global->__pyx_codeobj__114
+#define __pyx_codeobj__116 __pyx_mstate_global->__pyx_codeobj__116
+#define __pyx_codeobj__118 __pyx_mstate_global->__pyx_codeobj__118
+#define __pyx_codeobj__120 __pyx_mstate_global->__pyx_codeobj__120
+#define __pyx_codeobj__122 __pyx_mstate_global->__pyx_codeobj__122
+#define __pyx_codeobj__124 __pyx_mstate_global->__pyx_codeobj__124
+#define __pyx_codeobj__126 __pyx_mstate_global->__pyx_codeobj__126
+#define __pyx_codeobj__128 __pyx_mstate_global->__pyx_codeobj__128
+#define __pyx_codeobj__130 __pyx_mstate_global->__pyx_codeobj__130
+#define __pyx_codeobj__132 __pyx_mstate_global->__pyx_codeobj__132
 #define __pyx_codeobj__133 __pyx_mstate_global->__pyx_codeobj__133
-#define __pyx_codeobj__134 __pyx_mstate_global->__pyx_codeobj__134
-#define __pyx_codeobj__136 __pyx_mstate_global->__pyx_codeobj__136
-#define __pyx_codeobj__138 __pyx_mstate_global->__pyx_codeobj__138
-#define __pyx_codeobj__140 __pyx_mstate_global->__pyx_codeobj__140
-#define __pyx_codeobj__142 __pyx_mstate_global->__pyx_codeobj__142
-#define __pyx_codeobj__144 __pyx_mstate_global->__pyx_codeobj__144
+#define __pyx_codeobj__135 __pyx_mstate_global->__pyx_codeobj__135
+#define __pyx_codeobj__137 __pyx_mstate_global->__pyx_codeobj__137
+#define __pyx_codeobj__139 __pyx_mstate_global->__pyx_codeobj__139
+#define __pyx_codeobj__141 __pyx_mstate_global->__pyx_codeobj__141
+#define __pyx_codeobj__143 __pyx_mstate_global->__pyx_codeobj__143
+#define __pyx_codeobj__145 __pyx_mstate_global->__pyx_codeobj__145
 #define __pyx_codeobj__146 __pyx_mstate_global->__pyx_codeobj__146
 #define __pyx_codeobj__147 __pyx_mstate_global->__pyx_codeobj__147
-#define __pyx_codeobj__148 __pyx_mstate_global->__pyx_codeobj__148
-#define __pyx_codeobj__150 __pyx_mstate_global->__pyx_codeobj__150
-#define __pyx_codeobj__152 __pyx_mstate_global->__pyx_codeobj__152
+#define __pyx_codeobj__149 __pyx_mstate_global->__pyx_codeobj__149
+#define __pyx_codeobj__151 __pyx_mstate_global->__pyx_codeobj__151
 /* #### Code section: module_code ### */
 
 /* "gui.py":24
@@ -39503,7 +39494,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_66get_sample_files(CYTHON_UNUSED PyO
  *         """Get list of available sample data files"""
  *         try:             # <<<<<<<<<<<<<<
  *             # Look specifically for S03.fif in the formatted subfolder of sample_data
- *             sample_file = os.path.join("C:\\NeuroSync\\sample_data\\formatted", 'S03.fif')
+ *             sample_file = os.path.join(self.eeg_man.sample_dir, 'formatted', 'S03.fif')
  */
   {
     __Pyx_PyThreadState_declare
@@ -39517,138 +39508,163 @@ static PyObject *__pyx_pf_3gui_10MainWindow_66get_sample_files(CYTHON_UNUSED PyO
       /* "gui.py":1541
  *         try:
  *             # Look specifically for S03.fif in the formatted subfolder of sample_data
- *             sample_file = os.path.join("C:\\NeuroSync\\sample_data\\formatted", 'S03.fif')             # <<<<<<<<<<<<<<
+ *             sample_file = os.path.join(self.eeg_man.sample_dir, 'formatted', 'S03.fif')             # <<<<<<<<<<<<<<
+ *             #sample_file = os.path.join("C:\\NeuroSync\\sample_data\\formatted", 'S03.fif')
  * 
- *             # Debugging output to status message
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_os); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1541, __pyx_L3_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_path); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1541, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_os); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1541, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_join); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1541, __pyx_L3_error)
-      __Pyx_GOTREF(__pyx_t_4);
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_path); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1541, __pyx_L3_error)
+      __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__30, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1541, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_join); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1541, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_v_sample_file = __pyx_t_5;
-      __pyx_t_5 = 0;
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1541, __pyx_L3_error)
+      __Pyx_GOTREF(__pyx_t_6);
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_sample_dir); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1541, __pyx_L3_error)
+      __Pyx_GOTREF(__pyx_t_7);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __pyx_t_6 = NULL;
+      __pyx_t_8 = 0;
+      #if CYTHON_UNPACK_METHODS
+      if (likely(PyMethod_Check(__pyx_t_5))) {
+        __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_5);
+        if (likely(__pyx_t_6)) {
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+          __Pyx_INCREF(__pyx_t_6);
+          __Pyx_INCREF(function);
+          __Pyx_DECREF_SET(__pyx_t_5, function);
+          __pyx_t_8 = 1;
+        }
+      }
+      #endif
+      {
+        PyObject *__pyx_callargs[4] = {__pyx_t_6, __pyx_t_7, __pyx_n_u_formatted, __pyx_kp_u_S03_fif};
+        __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_8, 3+__pyx_t_8);
+        __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+        __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1541, __pyx_L3_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      }
+      __pyx_v_sample_file = __pyx_t_4;
+      __pyx_t_4 = 0;
 
-      /* "gui.py":1544
+      /* "gui.py":1545
  * 
  *             # Debugging output to status message
  *             self.add_status_message(f"Checking for sample file at: {sample_file}")             # <<<<<<<<<<<<<<
  * 
  *             if os.path.exists(sample_file):
  */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1544, __pyx_L3_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_v_sample_file, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1544, __pyx_L3_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Checking_for_sample_file_at, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1544, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1545, __pyx_L3_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_v_sample_file, __pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1545, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = NULL;
+      __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Checking_for_sample_file_at, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1545, __pyx_L3_error)
+      __Pyx_GOTREF(__pyx_t_6);
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __pyx_t_7 = NULL;
       __pyx_t_8 = 0;
       #if CYTHON_UNPACK_METHODS
-      if (likely(PyMethod_Check(__pyx_t_4))) {
-        __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_4);
-        if (likely(__pyx_t_6)) {
-          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
-          __Pyx_INCREF(__pyx_t_6);
+      if (likely(PyMethod_Check(__pyx_t_5))) {
+        __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_5);
+        if (likely(__pyx_t_7)) {
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+          __Pyx_INCREF(__pyx_t_7);
           __Pyx_INCREF(function);
-          __Pyx_DECREF_SET(__pyx_t_4, function);
+          __Pyx_DECREF_SET(__pyx_t_5, function);
           __pyx_t_8 = 1;
         }
       }
       #endif
       {
-        PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_t_7};
-        __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
-        __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1544, __pyx_L3_error)
-        __Pyx_GOTREF(__pyx_t_5);
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_t_6};
+        __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
+        __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+        __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1545, __pyx_L3_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
-      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":1546
+      /* "gui.py":1547
  *             self.add_status_message(f"Checking for sample file at: {sample_file}")
  * 
  *             if os.path.exists(sample_file):             # <<<<<<<<<<<<<<
  *                 self.add_status_message("Sample file found.")
  *                 return [sample_file]
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_os); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1546, __pyx_L3_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_path); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1546, __pyx_L3_error)
-      __Pyx_GOTREF(__pyx_t_7);
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_exists); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1546, __pyx_L3_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = NULL;
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_os); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1547, __pyx_L3_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_path); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1547, __pyx_L3_error)
+      __Pyx_GOTREF(__pyx_t_6);
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_exists); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1547, __pyx_L3_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __pyx_t_6 = NULL;
       __pyx_t_8 = 0;
       #if CYTHON_UNPACK_METHODS
-      if (likely(PyMethod_Check(__pyx_t_4))) {
-        __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_4);
-        if (likely(__pyx_t_7)) {
-          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
-          __Pyx_INCREF(__pyx_t_7);
+      if (likely(PyMethod_Check(__pyx_t_5))) {
+        __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_5);
+        if (likely(__pyx_t_6)) {
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+          __Pyx_INCREF(__pyx_t_6);
           __Pyx_INCREF(function);
-          __Pyx_DECREF_SET(__pyx_t_4, function);
+          __Pyx_DECREF_SET(__pyx_t_5, function);
           __pyx_t_8 = 1;
         }
       }
       #endif
       {
-        PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_v_sample_file};
-        __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
-        __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1546, __pyx_L3_error)
-        __Pyx_GOTREF(__pyx_t_5);
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_v_sample_file};
+        __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
+        __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1547, __pyx_L3_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
-      __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 1546, __pyx_L3_error)
-      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 1547, __pyx_L3_error)
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (__pyx_t_9) {
 
-        /* "gui.py":1547
+        /* "gui.py":1548
  * 
  *             if os.path.exists(sample_file):
  *                 self.add_status_message("Sample file found.")             # <<<<<<<<<<<<<<
  *                 return [sample_file]
  *             else:
  */
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1547, __pyx_L3_error)
-        __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_7 = NULL;
+        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1548, __pyx_L3_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        __pyx_t_6 = NULL;
         __pyx_t_8 = 0;
         #if CYTHON_UNPACK_METHODS
-        if (likely(PyMethod_Check(__pyx_t_4))) {
-          __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_4);
-          if (likely(__pyx_t_7)) {
-            PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
-            __Pyx_INCREF(__pyx_t_7);
+        if (likely(PyMethod_Check(__pyx_t_5))) {
+          __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_5);
+          if (likely(__pyx_t_6)) {
+            PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+            __Pyx_INCREF(__pyx_t_6);
             __Pyx_INCREF(function);
-            __Pyx_DECREF_SET(__pyx_t_4, function);
+            __Pyx_DECREF_SET(__pyx_t_5, function);
             __pyx_t_8 = 1;
           }
         }
         #endif
         {
-          PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_kp_u_Sample_file_found};
-          __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
-          __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-          if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1547, __pyx_L3_error)
-          __Pyx_GOTREF(__pyx_t_5);
-          __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+          PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_kp_u_Sample_file_found};
+          __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
+          __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1548, __pyx_L3_error)
+          __Pyx_GOTREF(__pyx_t_4);
+          __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         }
-        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "gui.py":1548
+        /* "gui.py":1549
  *             if os.path.exists(sample_file):
  *                 self.add_status_message("Sample file found.")
  *                 return [sample_file]             # <<<<<<<<<<<<<<
@@ -39656,16 +39672,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_66get_sample_files(CYTHON_UNUSED PyO
  *                 self.add_status_message("Sample file not found.")
  */
         __Pyx_XDECREF(__pyx_r);
-        __pyx_t_5 = PyList_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1548, __pyx_L3_error)
-        __Pyx_GOTREF(__pyx_t_5);
+        __pyx_t_4 = PyList_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1549, __pyx_L3_error)
+        __Pyx_GOTREF(__pyx_t_4);
         __Pyx_INCREF(__pyx_v_sample_file);
         __Pyx_GIVEREF(__pyx_v_sample_file);
-        if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 0, __pyx_v_sample_file)) __PYX_ERR(0, 1548, __pyx_L3_error);
-        __pyx_r = __pyx_t_5;
-        __pyx_t_5 = 0;
+        if (__Pyx_PyList_SET_ITEM(__pyx_t_4, 0, __pyx_v_sample_file)) __PYX_ERR(0, 1549, __pyx_L3_error);
+        __pyx_r = __pyx_t_4;
+        __pyx_t_4 = 0;
         goto __pyx_L7_try_return;
 
-        /* "gui.py":1546
+        /* "gui.py":1547
  *             self.add_status_message(f"Checking for sample file at: {sample_file}")
  * 
  *             if os.path.exists(sample_file):             # <<<<<<<<<<<<<<
@@ -39674,7 +39690,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_66get_sample_files(CYTHON_UNUSED PyO
  */
       }
 
-      /* "gui.py":1550
+      /* "gui.py":1551
  *                 return [sample_file]
  *             else:
  *                 self.add_status_message("Sample file not found.")             # <<<<<<<<<<<<<<
@@ -39682,33 +39698,33 @@ static PyObject *__pyx_pf_3gui_10MainWindow_66get_sample_files(CYTHON_UNUSED PyO
  * 
  */
       /*else*/ {
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1550, __pyx_L3_error)
-        __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_7 = NULL;
+        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1551, __pyx_L3_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        __pyx_t_6 = NULL;
         __pyx_t_8 = 0;
         #if CYTHON_UNPACK_METHODS
-        if (likely(PyMethod_Check(__pyx_t_4))) {
-          __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_4);
-          if (likely(__pyx_t_7)) {
-            PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
-            __Pyx_INCREF(__pyx_t_7);
+        if (likely(PyMethod_Check(__pyx_t_5))) {
+          __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_5);
+          if (likely(__pyx_t_6)) {
+            PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+            __Pyx_INCREF(__pyx_t_6);
             __Pyx_INCREF(function);
-            __Pyx_DECREF_SET(__pyx_t_4, function);
+            __Pyx_DECREF_SET(__pyx_t_5, function);
             __pyx_t_8 = 1;
           }
         }
         #endif
         {
-          PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_kp_u_Sample_file_not_found};
-          __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
-          __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-          if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1550, __pyx_L3_error)
-          __Pyx_GOTREF(__pyx_t_5);
-          __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+          PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_kp_u_Sample_file_not_found};
+          __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
+          __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1551, __pyx_L3_error)
+          __Pyx_GOTREF(__pyx_t_4);
+          __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         }
-        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "gui.py":1551
+        /* "gui.py":1552
  *             else:
  *                 self.add_status_message("Sample file not found.")
  *                 return []             # <<<<<<<<<<<<<<
@@ -39716,10 +39732,10 @@ static PyObject *__pyx_pf_3gui_10MainWindow_66get_sample_files(CYTHON_UNUSED PyO
  *         except Exception as e:
  */
         __Pyx_XDECREF(__pyx_r);
-        __pyx_t_5 = PyList_New(0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1551, __pyx_L3_error)
-        __Pyx_GOTREF(__pyx_t_5);
-        __pyx_r = __pyx_t_5;
-        __pyx_t_5 = 0;
+        __pyx_t_4 = PyList_New(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1552, __pyx_L3_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __pyx_r = __pyx_t_4;
+        __pyx_t_4 = 0;
         goto __pyx_L7_try_return;
       }
 
@@ -39728,7 +39744,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_66get_sample_files(CYTHON_UNUSED PyO
  *         """Get list of available sample data files"""
  *         try:             # <<<<<<<<<<<<<<
  *             # Look specifically for S03.fif in the formatted subfolder of sample_data
- *             sample_file = os.path.join("C:\\NeuroSync\\sample_data\\formatted", 'S03.fif')
+ *             sample_file = os.path.join(self.eeg_man.sample_dir, 'formatted', 'S03.fif')
  */
     }
     __pyx_L3_error:;
@@ -39737,7 +39753,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_66get_sample_files(CYTHON_UNUSED PyO
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1553
+    /* "gui.py":1554
  *                 return []
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -39747,26 +39763,26 @@ static PyObject *__pyx_pf_3gui_10MainWindow_66get_sample_files(CYTHON_UNUSED PyO
     __pyx_t_10 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_10) {
       __Pyx_AddTraceback("gui.MainWindow.get_sample_files", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_4, &__pyx_t_7) < 0) __PYX_ERR(0, 1553, __pyx_L5_except_error)
-      __Pyx_XGOTREF(__pyx_t_5);
+      if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_5, &__pyx_t_6) < 0) __PYX_ERR(0, 1554, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_4);
-      __Pyx_XGOTREF(__pyx_t_7);
-      __Pyx_INCREF(__pyx_t_4);
-      __pyx_v_e = __pyx_t_4;
+      __Pyx_XGOTREF(__pyx_t_5);
+      __Pyx_XGOTREF(__pyx_t_6);
+      __Pyx_INCREF(__pyx_t_5);
+      __pyx_v_e = __pyx_t_5;
       /*try:*/ {
 
-        /* "gui.py":1554
+        /* "gui.py":1555
  * 
  *         except Exception as e:
  *             self.add_status_message(f"Error getting sample files: {e}")             # <<<<<<<<<<<<<<
  *             return []
  * 
  */
-        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1554, __pyx_L15_error)
+        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1555, __pyx_L15_error)
         __Pyx_GOTREF(__pyx_t_11);
-        __pyx_t_12 = __Pyx_PyObject_FormatSimple(__pyx_v_e, __pyx_empty_unicode); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1554, __pyx_L15_error)
+        __pyx_t_12 = __Pyx_PyObject_FormatSimple(__pyx_v_e, __pyx_empty_unicode); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1555, __pyx_L15_error)
         __Pyx_GOTREF(__pyx_t_12);
-        __pyx_t_13 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_getting_sample_files, __pyx_t_12); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 1554, __pyx_L15_error)
+        __pyx_t_13 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_getting_sample_files, __pyx_t_12); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 1555, __pyx_L15_error)
         __Pyx_GOTREF(__pyx_t_13);
         __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
         __pyx_t_12 = NULL;
@@ -39785,16 +39801,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_66get_sample_files(CYTHON_UNUSED PyO
         #endif
         {
           PyObject *__pyx_callargs[2] = {__pyx_t_12, __pyx_t_13};
-          __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_11, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
+          __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_11, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
           __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
           __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1554, __pyx_L15_error)
-          __Pyx_GOTREF(__pyx_t_6);
+          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1555, __pyx_L15_error)
+          __Pyx_GOTREF(__pyx_t_7);
           __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
         }
-        __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+        __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "gui.py":1555
+        /* "gui.py":1556
  *         except Exception as e:
  *             self.add_status_message(f"Error getting sample files: {e}")
  *             return []             # <<<<<<<<<<<<<<
@@ -39802,17 +39818,17 @@ static PyObject *__pyx_pf_3gui_10MainWindow_66get_sample_files(CYTHON_UNUSED PyO
  *     def view_sample_data(self, index, *args):
  */
         __Pyx_XDECREF(__pyx_r);
-        __pyx_t_6 = PyList_New(0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1555, __pyx_L15_error)
-        __Pyx_GOTREF(__pyx_t_6);
-        __pyx_r = __pyx_t_6;
-        __pyx_t_6 = 0;
+        __pyx_t_7 = PyList_New(0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1556, __pyx_L15_error)
+        __Pyx_GOTREF(__pyx_t_7);
+        __pyx_r = __pyx_t_7;
+        __pyx_t_7 = 0;
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+        __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         goto __pyx_L14_return;
       }
 
-      /* "gui.py":1553
+      /* "gui.py":1554
  *                 return []
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -39828,7 +39844,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_66get_sample_files(CYTHON_UNUSED PyO
           __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
           __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
           __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
-          __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+          __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
           if (PY_MAJOR_VERSION >= 3) __Pyx_ExceptionSwap(&__pyx_t_19, &__pyx_t_20, &__pyx_t_21);
           if ((PY_MAJOR_VERSION < 3) || unlikely(__Pyx_GetException(&__pyx_t_16, &__pyx_t_17, &__pyx_t_18) < 0)) __Pyx_ErrFetch(&__pyx_t_16, &__pyx_t_17, &__pyx_t_18);
           __Pyx_XGOTREF(__pyx_t_16);
@@ -39872,7 +39888,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_66get_sample_files(CYTHON_UNUSED PyO
  *         """Get list of available sample data files"""
  *         try:             # <<<<<<<<<<<<<<
  *             # Look specifically for S03.fif in the formatted subfolder of sample_data
- *             sample_file = os.path.join("C:\\NeuroSync\\sample_data\\formatted", 'S03.fif')
+ *             sample_file = os.path.join(self.eeg_man.sample_dir, 'formatted', 'S03.fif')
  */
     __pyx_L5_except_error:;
     __Pyx_XGIVEREF(__pyx_t_1);
@@ -39921,7 +39937,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_66get_sample_files(CYTHON_UNUSED PyO
   return __pyx_r;
 }
 
-/* "gui.py":1557
+/* "gui.py":1558
  *             return []
  * 
  *     def view_sample_data(self, index, *args):             # <<<<<<<<<<<<<<
@@ -39993,7 +40009,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1557, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1558, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
         CYTHON_FALLTHROUGH;
         case  1:
@@ -40001,15 +40017,15 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[1]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1557, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1558, __pyx_L3_error)
         else {
-          __Pyx_RaiseArgtupleInvalid("view_sample_data", 0, 2, 2, 1); __PYX_ERR(0, 1557, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("view_sample_data", 0, 2, 2, 1); __PYX_ERR(0, 1558, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
         const Py_ssize_t used_pos_args = (kwd_pos_args < 2) ? kwd_pos_args : 2;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "view_sample_data") < 0)) __PYX_ERR(0, 1557, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "view_sample_data") < 0)) __PYX_ERR(0, 1558, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs < 2)) {
       goto __pyx_L5_argtuple_error;
@@ -40022,7 +40038,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("view_sample_data", 0, 2, 2, __pyx_nargs); __PYX_ERR(0, 1557, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("view_sample_data", 0, 2, 2, __pyx_nargs); __PYX_ERR(0, 1558, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -40051,7 +40067,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-/* "gui.py":1624
+/* "gui.py":1625
  *             layout.addWidget(controls)
  * 
  *             def update_plot():             # <<<<<<<<<<<<<<
@@ -40110,16 +40126,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
   __pyx_outer_scope = (struct __pyx_obj_3gui___pyx_scope_struct_3_view_sample_data *) __Pyx_CyFunction_GetClosure(__pyx_self);
   __pyx_cur_scope = __pyx_outer_scope;
 
-  /* "gui.py":1625
+  /* "gui.py":1626
  * 
  *             def update_plot():
  *                 plt.close('all')             # <<<<<<<<<<<<<<
  * 
  *                 view_type = view_select.currentText()
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1625, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1626, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_close); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1625, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_close); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1626, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -40140,21 +40156,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_n_u_all};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1625, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1626, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":1627
+  /* "gui.py":1628
  *                 plt.close('all')
  * 
  *                 view_type = view_select.currentText()             # <<<<<<<<<<<<<<
  *                 if view_type == "Time Series":
  *                     raw.plot(
  */
-  if (unlikely(!__pyx_cur_scope->__pyx_v_view_select)) { __Pyx_RaiseClosureNameError("view_select"); __PYX_ERR(0, 1627, __pyx_L1_error) }
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_view_select, __pyx_n_s_currentText); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1627, __pyx_L1_error)
+  if (unlikely(!__pyx_cur_scope->__pyx_v_view_select)) { __Pyx_RaiseClosureNameError("view_select"); __PYX_ERR(0, 1628, __pyx_L1_error) }
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_view_select, __pyx_n_s_currentText); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1628, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_2 = NULL;
   __pyx_t_4 = 0;
@@ -40174,45 +40190,45 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1627, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1628, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
   __pyx_v_view_type = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gui.py":1628
+  /* "gui.py":1629
  * 
  *                 view_type = view_select.currentText()
  *                 if view_type == "Time Series":             # <<<<<<<<<<<<<<
  *                     raw.plot(
  *                         duration=duration_spin.value(),
  */
-  __pyx_t_5 = (__Pyx_PyUnicode_Equals(__pyx_v_view_type, __pyx_kp_u_Time_Series, Py_EQ)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1628, __pyx_L1_error)
+  __pyx_t_5 = (__Pyx_PyUnicode_Equals(__pyx_v_view_type, __pyx_kp_u_Time_Series, Py_EQ)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1629, __pyx_L1_error)
   if (__pyx_t_5) {
 
-    /* "gui.py":1629
+    /* "gui.py":1630
  *                 view_type = view_select.currentText()
  *                 if view_type == "Time Series":
  *                     raw.plot(             # <<<<<<<<<<<<<<
  *                         duration=duration_spin.value(),
  *                         scalings=dict(eeg=scale_spin.value() * 1e-6),
  */
-    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1629, __pyx_L1_error) }
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_plot); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1629, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1630, __pyx_L1_error) }
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_plot); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1630, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
 
-    /* "gui.py":1630
+    /* "gui.py":1631
  *                 if view_type == "Time Series":
  *                     raw.plot(
  *                         duration=duration_spin.value(),             # <<<<<<<<<<<<<<
  *                         scalings=dict(eeg=scale_spin.value() * 1e-6),
  *                         title='EEG Time Series',
  */
-    __pyx_t_3 = __Pyx_PyDict_NewPresized(6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1630, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyDict_NewPresized(6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1631, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1630, __pyx_L1_error) }
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1630, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1631, __pyx_L1_error) }
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1631, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_7 = NULL;
     __pyx_t_4 = 0;
@@ -40232,24 +40248,24 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_7, NULL};
       __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1630, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1631, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     }
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_duration, __pyx_t_2) < 0) __PYX_ERR(0, 1630, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_duration, __pyx_t_2) < 0) __PYX_ERR(0, 1631, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "gui.py":1631
+    /* "gui.py":1632
  *                     raw.plot(
  *                         duration=duration_spin.value(),
  *                         scalings=dict(eeg=scale_spin.value() * 1e-6),             # <<<<<<<<<<<<<<
  *                         title='EEG Time Series',
  *                         show=True,
  */
-    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1631, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1632, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    if (unlikely(!__pyx_cur_scope->__pyx_v_scale_spin)) { __Pyx_RaiseClosureNameError("scale_spin"); __PYX_ERR(0, 1631, __pyx_L1_error) }
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_scale_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1631, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_scale_spin)) { __Pyx_RaiseClosureNameError("scale_spin"); __PYX_ERR(0, 1632, __pyx_L1_error) }
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_scale_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1632, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __pyx_t_8 = NULL;
     __pyx_t_4 = 0;
@@ -40269,52 +40285,52 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_8, NULL};
       __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1631, __pyx_L1_error)
+      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1632, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     }
-    __pyx_t_7 = PyNumber_Multiply(__pyx_t_6, __pyx_float_1eneg_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1631, __pyx_L1_error)
+    __pyx_t_7 = PyNumber_Multiply(__pyx_t_6, __pyx_float_1eneg_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1632, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_eeg, __pyx_t_7) < 0) __PYX_ERR(0, 1631, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_eeg, __pyx_t_7) < 0) __PYX_ERR(0, 1632, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_scalings, __pyx_t_2) < 0) __PYX_ERR(0, 1630, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_scalings, __pyx_t_2) < 0) __PYX_ERR(0, 1631, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_title, __pyx_kp_u_EEG_Time_Series) < 0) __PYX_ERR(0, 1630, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_title, __pyx_kp_u_EEG_Time_Series) < 0) __PYX_ERR(0, 1631, __pyx_L1_error)
 
-    /* "gui.py":1633
+    /* "gui.py":1634
  *                         scalings=dict(eeg=scale_spin.value() * 1e-6),
  *                         title='EEG Time Series',
  *                         show=True,             # <<<<<<<<<<<<<<
  *                         block=False,
  *                         theme='dark'  # MNE's built-in dark theme
  */
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_show, Py_True) < 0) __PYX_ERR(0, 1630, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_show, Py_True) < 0) __PYX_ERR(0, 1631, __pyx_L1_error)
 
-    /* "gui.py":1634
+    /* "gui.py":1635
  *                         title='EEG Time Series',
  *                         show=True,
  *                         block=False,             # <<<<<<<<<<<<<<
  *                         theme='dark'  # MNE's built-in dark theme
  *                     )
  */
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_block, Py_False) < 0) __PYX_ERR(0, 1630, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_theme, __pyx_n_u_dark) < 0) __PYX_ERR(0, 1630, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_block, Py_False) < 0) __PYX_ERR(0, 1631, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_theme, __pyx_n_u_dark) < 0) __PYX_ERR(0, 1631, __pyx_L1_error)
 
-    /* "gui.py":1629
+    /* "gui.py":1630
  *                 view_type = view_select.currentText()
  *                 if view_type == "Time Series":
  *                     raw.plot(             # <<<<<<<<<<<<<<
  *                         duration=duration_spin.value(),
  *                         scalings=dict(eeg=scale_spin.value() * 1e-6),
  */
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1629, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1630, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "gui.py":1628
+    /* "gui.py":1629
  * 
  *                 view_type = view_select.currentText()
  *                 if view_type == "Time Series":             # <<<<<<<<<<<<<<
@@ -40324,104 +40340,104 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     goto __pyx_L3;
   }
 
-  /* "gui.py":1638
+  /* "gui.py":1639
  *                     )
  * 
  *                 elif view_type == "Power Spectrum":             # <<<<<<<<<<<<<<
  *                     fig = raw.plot_psd(
  *                         fmax=50,
  */
-  __pyx_t_5 = (__Pyx_PyUnicode_Equals(__pyx_v_view_type, __pyx_kp_u_Power_Spectrum, Py_EQ)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1638, __pyx_L1_error)
+  __pyx_t_5 = (__Pyx_PyUnicode_Equals(__pyx_v_view_type, __pyx_kp_u_Power_Spectrum, Py_EQ)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1639, __pyx_L1_error)
   if (__pyx_t_5) {
 
-    /* "gui.py":1639
+    /* "gui.py":1640
  * 
  *                 elif view_type == "Power Spectrum":
  *                     fig = raw.plot_psd(             # <<<<<<<<<<<<<<
  *                         fmax=50,
  *                         average=True,
  */
-    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1639, __pyx_L1_error) }
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_plot_psd); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1639, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1640, __pyx_L1_error) }
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_plot_psd); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1640, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
 
-    /* "gui.py":1640
+    /* "gui.py":1641
  *                 elif view_type == "Power Spectrum":
  *                     fig = raw.plot_psd(
  *                         fmax=50,             # <<<<<<<<<<<<<<
  *                         average=True,
  *                         show=False,
  */
-    __pyx_t_3 = __Pyx_PyDict_NewPresized(6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1640, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyDict_NewPresized(6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1641, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_fmax, __pyx_int_50) < 0) __PYX_ERR(0, 1640, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_fmax, __pyx_int_50) < 0) __PYX_ERR(0, 1641, __pyx_L1_error)
 
-    /* "gui.py":1641
+    /* "gui.py":1642
  *                     fig = raw.plot_psd(
  *                         fmax=50,
  *                         average=True,             # <<<<<<<<<<<<<<
  *                         show=False,
  *                         dB=True,
  */
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_average, Py_True) < 0) __PYX_ERR(0, 1640, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_average, Py_True) < 0) __PYX_ERR(0, 1641, __pyx_L1_error)
 
-    /* "gui.py":1642
+    /* "gui.py":1643
  *                         fmax=50,
  *                         average=True,
  *                         show=False,             # <<<<<<<<<<<<<<
  *                         dB=True,
  *                         estimate='power',
  */
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_show, Py_False) < 0) __PYX_ERR(0, 1640, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_show, Py_False) < 0) __PYX_ERR(0, 1641, __pyx_L1_error)
 
-    /* "gui.py":1643
+    /* "gui.py":1644
  *                         average=True,
  *                         show=False,
  *                         dB=True,             # <<<<<<<<<<<<<<
  *                         estimate='power',
  *                         picks='eeg'  # Explicitly specify EEG channels
  */
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dB, Py_True) < 0) __PYX_ERR(0, 1640, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_estimate, __pyx_n_u_power) < 0) __PYX_ERR(0, 1640, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_picks, __pyx_n_u_eeg) < 0) __PYX_ERR(0, 1640, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dB, Py_True) < 0) __PYX_ERR(0, 1641, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_estimate, __pyx_n_u_power) < 0) __PYX_ERR(0, 1641, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_picks, __pyx_n_u_eeg) < 0) __PYX_ERR(0, 1641, __pyx_L1_error)
 
-    /* "gui.py":1639
+    /* "gui.py":1640
  * 
  *                 elif view_type == "Power Spectrum":
  *                     fig = raw.plot_psd(             # <<<<<<<<<<<<<<
  *                         fmax=50,
  *                         average=True,
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1639, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1640, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_v_fig = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "gui.py":1648
+    /* "gui.py":1649
  *                     )
  *                     # Style the plot
  *                     ax = fig.axes[0]             # <<<<<<<<<<<<<<
  *                     ax.set_facecolor('black')
  *                     fig.patch.set_facecolor('black')
  */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_axes); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1648, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_axes); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1649, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = __Pyx_GetItemInt(__pyx_t_1, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1648, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_GetItemInt(__pyx_t_1, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1649, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_v_ax = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "gui.py":1649
+    /* "gui.py":1650
  *                     # Style the plot
  *                     ax = fig.axes[0]
  *                     ax.set_facecolor('black')             # <<<<<<<<<<<<<<
  *                     fig.patch.set_facecolor('black')
  *                     ax.tick_params(colors='white')
  */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1649, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1650, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_2 = NULL;
     __pyx_t_4 = 0;
@@ -40441,22 +40457,22 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_n_u_black};
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1649, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1650, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gui.py":1650
+    /* "gui.py":1651
  *                     ax = fig.axes[0]
  *                     ax.set_facecolor('black')
  *                     fig.patch.set_facecolor('black')             # <<<<<<<<<<<<<<
  *                     ax.tick_params(colors='white')
  *                     ax.xaxis.label.set_color('white')
  */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_patch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1650, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_patch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1651, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1650, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1651, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_1 = NULL;
@@ -40477,77 +40493,38 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_n_u_black};
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1650, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1651, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gui.py":1651
+    /* "gui.py":1652
  *                     ax.set_facecolor('black')
  *                     fig.patch.set_facecolor('black')
  *                     ax.tick_params(colors='white')             # <<<<<<<<<<<<<<
  *                     ax.xaxis.label.set_color('white')
  *                     ax.yaxis.label.set_color('white')
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_tick_params); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1651, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_tick_params); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1652, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1651, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1652, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_colors, __pyx_n_u_white) < 0) __PYX_ERR(0, 1651, __pyx_L1_error)
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1651, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_colors, __pyx_n_u_white) < 0) __PYX_ERR(0, 1652, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1652, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "gui.py":1652
+    /* "gui.py":1653
  *                     fig.patch.set_facecolor('black')
  *                     ax.tick_params(colors='white')
  *                     ax.xaxis.label.set_color('white')             # <<<<<<<<<<<<<<
  *                     ax.yaxis.label.set_color('white')
  *                     ax.title.set_color('white')
  */
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_xaxis); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1652, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_label); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1652, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_set_color); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1652, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = NULL;
-    __pyx_t_4 = 0;
-    #if CYTHON_UNPACK_METHODS
-    if (likely(PyMethod_Check(__pyx_t_2))) {
-      __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_2);
-      if (likely(__pyx_t_3)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-        __Pyx_INCREF(__pyx_t_3);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_2, function);
-        __pyx_t_4 = 1;
-      }
-    }
-    #endif
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_n_u_white};
-      __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
-      __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1652, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-
-    /* "gui.py":1653
- *                     ax.tick_params(colors='white')
- *                     ax.xaxis.label.set_color('white')
- *                     ax.yaxis.label.set_color('white')             # <<<<<<<<<<<<<<
- *                     ax.title.set_color('white')
- *                     ax.grid(True, alpha=0.2)  # Add grid for better readability
- */
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_yaxis); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1653, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_xaxis); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1653, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_label); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1653, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
@@ -40580,15 +40557,54 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
     /* "gui.py":1654
+ *                     ax.tick_params(colors='white')
+ *                     ax.xaxis.label.set_color('white')
+ *                     ax.yaxis.label.set_color('white')             # <<<<<<<<<<<<<<
+ *                     ax.title.set_color('white')
+ *                     ax.grid(True, alpha=0.2)  # Add grid for better readability
+ */
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_yaxis); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1654, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_label); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1654, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_set_color); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1654, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_3 = NULL;
+    __pyx_t_4 = 0;
+    #if CYTHON_UNPACK_METHODS
+    if (likely(PyMethod_Check(__pyx_t_2))) {
+      __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_2);
+      if (likely(__pyx_t_3)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
+        __Pyx_INCREF(__pyx_t_3);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_2, function);
+        __pyx_t_4 = 1;
+      }
+    }
+    #endif
+    {
+      PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_n_u_white};
+      __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
+      __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1654, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+    /* "gui.py":1655
  *                     ax.xaxis.label.set_color('white')
  *                     ax.yaxis.label.set_color('white')
  *                     ax.title.set_color('white')             # <<<<<<<<<<<<<<
  *                     ax.grid(True, alpha=0.2)  # Add grid for better readability
  *                     plt.show()
  */
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_title); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1654, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_title); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1655, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_set_color); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1654, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_set_color); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1655, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_2 = NULL;
@@ -40609,40 +40625,40 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_n_u_white};
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1654, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1655, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "gui.py":1655
+    /* "gui.py":1656
  *                     ax.yaxis.label.set_color('white')
  *                     ax.title.set_color('white')
  *                     ax.grid(True, alpha=0.2)  # Add grid for better readability             # <<<<<<<<<<<<<<
  *                     plt.show()
  * 
  */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_grid); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1655, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_grid); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1656, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1655, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1656, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_alpha, __pyx_float_0_2) < 0) __PYX_ERR(0, 1655, __pyx_L1_error)
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__31, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1655, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_alpha, __pyx_float_0_2) < 0) __PYX_ERR(0, 1656, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__30, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1656, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "gui.py":1656
+    /* "gui.py":1657
  *                     ax.title.set_color('white')
  *                     ax.grid(True, alpha=0.2)  # Add grid for better readability
  *                     plt.show()             # <<<<<<<<<<<<<<
  * 
  *                 elif view_type == "Butterfly":
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1656, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1657, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_show); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1656, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_show); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1657, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_3 = NULL;
@@ -40663,13 +40679,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
       __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1656, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1657, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "gui.py":1638
+    /* "gui.py":1639
  *                     )
  * 
  *                 elif view_type == "Power Spectrum":             # <<<<<<<<<<<<<<
@@ -40679,25 +40695,25 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     goto __pyx_L3;
   }
 
-  /* "gui.py":1658
+  /* "gui.py":1659
  *                     plt.show()
  * 
  *                 elif view_type == "Butterfly":             # <<<<<<<<<<<<<<
  *                     data = raw.get_data()
  *                     times = raw.times
  */
-  __pyx_t_5 = (__Pyx_PyUnicode_Equals(__pyx_v_view_type, __pyx_n_u_Butterfly, Py_EQ)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1658, __pyx_L1_error)
+  __pyx_t_5 = (__Pyx_PyUnicode_Equals(__pyx_v_view_type, __pyx_n_u_Butterfly, Py_EQ)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1659, __pyx_L1_error)
   if (__pyx_t_5) {
 
-    /* "gui.py":1659
+    /* "gui.py":1660
  * 
  *                 elif view_type == "Butterfly":
  *                     data = raw.get_data()             # <<<<<<<<<<<<<<
  *                     times = raw.times
  *                     plt.figure(figsize=(12, 6), facecolor='black')
  */
-    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1659, __pyx_L1_error) }
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_get_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1659, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1660, __pyx_L1_error) }
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_get_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1660, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_3 = NULL;
     __pyx_t_4 = 0;
@@ -40717,61 +40733,61 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
       __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1659, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1660, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
     __pyx_v_data = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "gui.py":1660
+    /* "gui.py":1661
  *                 elif view_type == "Butterfly":
  *                     data = raw.get_data()
  *                     times = raw.times             # <<<<<<<<<<<<<<
  *                     plt.figure(figsize=(12, 6), facecolor='black')
  *                     for i in range(data.shape[0]):
  */
-    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1660, __pyx_L1_error) }
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_times); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1660, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1661, __pyx_L1_error) }
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_times); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1661, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_v_times = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "gui.py":1661
+    /* "gui.py":1662
  *                     data = raw.get_data()
  *                     times = raw.times
  *                     plt.figure(figsize=(12, 6), facecolor='black')             # <<<<<<<<<<<<<<
  *                     for i in range(data.shape[0]):
  *                         plt.plot(times, data[i] * 1e6, linewidth=0.5,
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1661, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1662, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_figure); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1661, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_figure); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1662, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1661, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1662, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_figsize, __pyx_tuple__32) < 0) __PYX_ERR(0, 1661, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_facecolor, __pyx_n_u_black) < 0) __PYX_ERR(0, 1661, __pyx_L1_error)
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1661, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_figsize, __pyx_tuple__31) < 0) __PYX_ERR(0, 1662, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_facecolor, __pyx_n_u_black) < 0) __PYX_ERR(0, 1662, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1662, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gui.py":1662
+    /* "gui.py":1663
  *                     times = raw.times
  *                     plt.figure(figsize=(12, 6), facecolor='black')
  *                     for i in range(data.shape[0]):             # <<<<<<<<<<<<<<
  *                         plt.plot(times, data[i] * 1e6, linewidth=0.5,
  *                                 alpha=0.7, color=plt.cm.rainbow(i/data.shape[0]))
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_n_s_shape); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1662, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_n_s_shape); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1663, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_2 = __Pyx_GetItemInt(__pyx_t_3, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1662, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_GetItemInt(__pyx_t_3, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1663, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1662, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1663, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (likely(PyList_CheckExact(__pyx_t_3)) || PyTuple_CheckExact(__pyx_t_3)) {
@@ -40779,9 +40795,9 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       __pyx_t_9 = 0;
       __pyx_t_10 = NULL;
     } else {
-      __pyx_t_9 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1662, __pyx_L1_error)
+      __pyx_t_9 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1663, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_10 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_2); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1662, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_2); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1663, __pyx_L1_error)
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     for (;;) {
@@ -40790,28 +40806,28 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
           {
             Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_2);
             #if !CYTHON_ASSUME_SAFE_MACROS
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1662, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1663, __pyx_L1_error)
             #endif
             if (__pyx_t_9 >= __pyx_temp) break;
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_3 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_9); __Pyx_INCREF(__pyx_t_3); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1662, __pyx_L1_error)
+          __pyx_t_3 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_9); __Pyx_INCREF(__pyx_t_3); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1663, __pyx_L1_error)
           #else
-          __pyx_t_3 = __Pyx_PySequence_ITEM(__pyx_t_2, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1662, __pyx_L1_error)
+          __pyx_t_3 = __Pyx_PySequence_ITEM(__pyx_t_2, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1663, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_3);
           #endif
         } else {
           {
             Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_2);
             #if !CYTHON_ASSUME_SAFE_MACROS
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1662, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1663, __pyx_L1_error)
             #endif
             if (__pyx_t_9 >= __pyx_temp) break;
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_2, __pyx_t_9); __Pyx_INCREF(__pyx_t_3); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1662, __pyx_L1_error)
+          __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_2, __pyx_t_9); __Pyx_INCREF(__pyx_t_3); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1663, __pyx_L1_error)
           #else
-          __pyx_t_3 = __Pyx_PySequence_ITEM(__pyx_t_2, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1662, __pyx_L1_error)
+          __pyx_t_3 = __Pyx_PySequence_ITEM(__pyx_t_2, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1663, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_3);
           #endif
         }
@@ -40821,7 +40837,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
             if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-            else __PYX_ERR(0, 1662, __pyx_L1_error)
+            else __PYX_ERR(0, 1663, __pyx_L1_error)
           }
           break;
         }
@@ -40830,57 +40846,57 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "gui.py":1663
+      /* "gui.py":1664
  *                     plt.figure(figsize=(12, 6), facecolor='black')
  *                     for i in range(data.shape[0]):
  *                         plt.plot(times, data[i] * 1e6, linewidth=0.5,             # <<<<<<<<<<<<<<
  *                                 alpha=0.7, color=plt.cm.rainbow(i/data.shape[0]))
  *                     plt.xlabel('Time (s)', color='white')
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1663, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1664, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_plot); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1663, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_plot); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1664, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_v_data, __pyx_v_i); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1663, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_v_data, __pyx_v_i); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1664, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_7 = PyNumber_Multiply(__pyx_t_3, __pyx_float_1e6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1663, __pyx_L1_error)
+      __pyx_t_7 = PyNumber_Multiply(__pyx_t_3, __pyx_float_1e6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1664, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1663, __pyx_L1_error)
+      __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1664, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_INCREF(__pyx_v_times);
       __Pyx_GIVEREF(__pyx_v_times);
-      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_v_times)) __PYX_ERR(0, 1663, __pyx_L1_error);
+      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_v_times)) __PYX_ERR(0, 1664, __pyx_L1_error);
       __Pyx_GIVEREF(__pyx_t_7);
-      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_7)) __PYX_ERR(0, 1663, __pyx_L1_error);
+      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_7)) __PYX_ERR(0, 1664, __pyx_L1_error);
       __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1663, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1664, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_linewidth, __pyx_float_0_5) < 0) __PYX_ERR(0, 1663, __pyx_L1_error)
-      if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_alpha, __pyx_float_0_7) < 0) __PYX_ERR(0, 1663, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_linewidth, __pyx_float_0_5) < 0) __PYX_ERR(0, 1664, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_alpha, __pyx_float_0_7) < 0) __PYX_ERR(0, 1664, __pyx_L1_error)
 
-      /* "gui.py":1664
+      /* "gui.py":1665
  *                     for i in range(data.shape[0]):
  *                         plt.plot(times, data[i] * 1e6, linewidth=0.5,
  *                                 alpha=0.7, color=plt.cm.rainbow(i/data.shape[0]))             # <<<<<<<<<<<<<<
  *                     plt.xlabel('Time (s)', color='white')
  *                     plt.ylabel('Amplitude (V)', color='white')
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_plt); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1664, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_plt); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1665, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_cm); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1664, __pyx_L1_error)
+      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_cm); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1665, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_rainbow); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1664, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_rainbow); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1665, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_n_s_shape); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1664, __pyx_L1_error)
+      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_n_s_shape); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1665, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_12 = __Pyx_GetItemInt(__pyx_t_11, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1664, __pyx_L1_error)
+      __pyx_t_12 = __Pyx_GetItemInt(__pyx_t_11, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1665, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-      __pyx_t_11 = __Pyx_PyNumber_Divide(__pyx_v_i, __pyx_t_12); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1664, __pyx_L1_error)
+      __pyx_t_11 = __Pyx_PyNumber_Divide(__pyx_v_i, __pyx_t_12); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1665, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
       __pyx_t_12 = NULL;
@@ -40902,28 +40918,28 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
         __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_8, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
         __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1664, __pyx_L1_error)
+        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1665, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       }
-      if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_color, __pyx_t_6) < 0) __PYX_ERR(0, 1663, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_color, __pyx_t_6) < 0) __PYX_ERR(0, 1664, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "gui.py":1663
+      /* "gui.py":1664
  *                     plt.figure(figsize=(12, 6), facecolor='black')
  *                     for i in range(data.shape[0]):
  *                         plt.plot(times, data[i] * 1e6, linewidth=0.5,             # <<<<<<<<<<<<<<
  *                                 alpha=0.7, color=plt.cm.rainbow(i/data.shape[0]))
  *                     plt.xlabel('Time (s)', color='white')
  */
-      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1663, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1664, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "gui.py":1662
+      /* "gui.py":1663
  *                     times = raw.times
  *                     plt.figure(figsize=(12, 6), facecolor='black')
  *                     for i in range(data.shape[0]):             # <<<<<<<<<<<<<<
@@ -40933,100 +40949,100 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "gui.py":1665
+    /* "gui.py":1666
  *                         plt.plot(times, data[i] * 1e6, linewidth=0.5,
  *                                 alpha=0.7, color=plt.cm.rainbow(i/data.shape[0]))
  *                     plt.xlabel('Time (s)', color='white')             # <<<<<<<<<<<<<<
  *                     plt.ylabel('Amplitude (V)', color='white')
  *                     plt.title('EEG Butterfly Plot', color='white')
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1665, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1666, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_xlabel); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1665, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_xlabel); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1666, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1665, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1666, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_color, __pyx_n_u_white) < 0) __PYX_ERR(0, 1665, __pyx_L1_error)
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__33, __pyx_t_2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1665, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_color, __pyx_n_u_white) < 0) __PYX_ERR(0, 1666, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__32, __pyx_t_2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1666, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1666
+    /* "gui.py":1667
  *                                 alpha=0.7, color=plt.cm.rainbow(i/data.shape[0]))
  *                     plt.xlabel('Time (s)', color='white')
  *                     plt.ylabel('Amplitude (V)', color='white')             # <<<<<<<<<<<<<<
  *                     plt.title('EEG Butterfly Plot', color='white')
  *                     plt.grid(True, alpha=0.2)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_plt); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1666, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_plt); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1667, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_ylabel); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1666, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_ylabel); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1667, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1666, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1667, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_color, __pyx_n_u_white) < 0) __PYX_ERR(0, 1666, __pyx_L1_error)
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_tuple__34, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1666, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_color, __pyx_n_u_white) < 0) __PYX_ERR(0, 1667, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_tuple__33, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1667, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gui.py":1667
+    /* "gui.py":1668
  *                     plt.xlabel('Time (s)', color='white')
  *                     plt.ylabel('Amplitude (V)', color='white')
  *                     plt.title('EEG Butterfly Plot', color='white')             # <<<<<<<<<<<<<<
  *                     plt.grid(True, alpha=0.2)
  *                     ax = plt.gca()
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_plt); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1667, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_plt); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1668, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_title); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1667, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_title); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1668, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1667, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1668, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_color, __pyx_n_u_white) < 0) __PYX_ERR(0, 1667, __pyx_L1_error)
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_tuple__35, __pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1667, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_color, __pyx_n_u_white) < 0) __PYX_ERR(0, 1668, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_tuple__34, __pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1668, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "gui.py":1668
+    /* "gui.py":1669
  *                     plt.ylabel('Amplitude (V)', color='white')
  *                     plt.title('EEG Butterfly Plot', color='white')
  *                     plt.grid(True, alpha=0.2)             # <<<<<<<<<<<<<<
  *                     ax = plt.gca()
  *                     ax.set_facecolor('black')
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1668, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1669, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_grid); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1668, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_grid); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1669, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1668, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1669, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_alpha, __pyx_float_0_2) < 0) __PYX_ERR(0, 1668, __pyx_L1_error)
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__31, __pyx_t_2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1668, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_alpha, __pyx_float_0_2) < 0) __PYX_ERR(0, 1669, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__30, __pyx_t_2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1669, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1669
+    /* "gui.py":1670
  *                     plt.title('EEG Butterfly Plot', color='white')
  *                     plt.grid(True, alpha=0.2)
  *                     ax = plt.gca()             # <<<<<<<<<<<<<<
  *                     ax.set_facecolor('black')
  *                     ax.tick_params(colors='white')
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1669, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1670, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_gca); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1669, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_gca); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1670, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_2 = NULL;
@@ -41047,21 +41063,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1669, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1670, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     }
     __pyx_v_ax = __pyx_t_7;
     __pyx_t_7 = 0;
 
-    /* "gui.py":1670
+    /* "gui.py":1671
  *                     plt.grid(True, alpha=0.2)
  *                     ax = plt.gca()
  *                     ax.set_facecolor('black')             # <<<<<<<<<<<<<<
  *                     ax.tick_params(colors='white')
  *                     plt.show()
  */
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1670, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1671, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_2 = NULL;
     __pyx_t_4 = 0;
@@ -41081,40 +41097,40 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_n_u_black};
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1670, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1671, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1671
+    /* "gui.py":1672
  *                     ax = plt.gca()
  *                     ax.set_facecolor('black')
  *                     ax.tick_params(colors='white')             # <<<<<<<<<<<<<<
  *                     plt.show()
  * 
  */
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_tick_params); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1671, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_tick_params); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1672, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1671, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1672, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_colors, __pyx_n_u_white) < 0) __PYX_ERR(0, 1671, __pyx_L1_error)
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_empty_tuple, __pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1671, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_colors, __pyx_n_u_white) < 0) __PYX_ERR(0, 1672, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_empty_tuple, __pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1672, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "gui.py":1672
+    /* "gui.py":1673
  *                     ax.set_facecolor('black')
  *                     ax.tick_params(colors='white')
  *                     plt.show()             # <<<<<<<<<<<<<<
  * 
  *                 elif view_type == "Channel Spectra":
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_plt); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1672, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_plt); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1673, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_show); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1672, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_show); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1673, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = NULL;
@@ -41135,13 +41151,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
       __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1672, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1673, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "gui.py":1658
+    /* "gui.py":1659
  *                     plt.show()
  * 
  *                 elif view_type == "Butterfly":             # <<<<<<<<<<<<<<
@@ -41151,38 +41167,38 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     goto __pyx_L3;
   }
 
-  /* "gui.py":1674
+  /* "gui.py":1675
  *                     plt.show()
  * 
  *                 elif view_type == "Channel Spectra":             # <<<<<<<<<<<<<<
  *                     # Plot individual channel spectra
  *                     fig = raw.plot_psd_topo(
  */
-  __pyx_t_5 = (__Pyx_PyUnicode_Equals(__pyx_v_view_type, __pyx_kp_u_Channel_Spectra, Py_EQ)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1674, __pyx_L1_error)
+  __pyx_t_5 = (__Pyx_PyUnicode_Equals(__pyx_v_view_type, __pyx_kp_u_Channel_Spectra, Py_EQ)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1675, __pyx_L1_error)
   if (__pyx_t_5) {
 
-    /* "gui.py":1676
+    /* "gui.py":1677
  *                 elif view_type == "Channel Spectra":
  *                     # Plot individual channel spectra
  *                     fig = raw.plot_psd_topo(             # <<<<<<<<<<<<<<
  *                         tmax=duration_spin.value(),
  *                         fmax=50,
  */
-    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1676, __pyx_L1_error) }
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_plot_psd_topo); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1676, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1677, __pyx_L1_error) }
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_plot_psd_topo); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1677, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
 
-    /* "gui.py":1677
+    /* "gui.py":1678
  *                     # Plot individual channel spectra
  *                     fig = raw.plot_psd_topo(
  *                         tmax=duration_spin.value(),             # <<<<<<<<<<<<<<
  *                         fmax=50,
  *                         show=False
  */
-    __pyx_t_7 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1677, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1678, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1677, __pyx_L1_error) }
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1677, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1678, __pyx_L1_error) }
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1678, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_1 = NULL;
     __pyx_t_4 = 0;
@@ -41202,54 +41218,54 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_1, NULL};
       __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1677, __pyx_L1_error)
+      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1678, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     }
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_tmax, __pyx_t_6) < 0) __PYX_ERR(0, 1677, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_tmax, __pyx_t_6) < 0) __PYX_ERR(0, 1678, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_fmax, __pyx_int_50) < 0) __PYX_ERR(0, 1677, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_fmax, __pyx_int_50) < 0) __PYX_ERR(0, 1678, __pyx_L1_error)
 
-    /* "gui.py":1679
+    /* "gui.py":1680
  *                         tmax=duration_spin.value(),
  *                         fmax=50,
  *                         show=False             # <<<<<<<<<<<<<<
  *                     )
  *                     # Style the plot
  */
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_show, Py_False) < 0) __PYX_ERR(0, 1677, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_show, Py_False) < 0) __PYX_ERR(0, 1678, __pyx_L1_error)
 
-    /* "gui.py":1676
+    /* "gui.py":1677
  *                 elif view_type == "Channel Spectra":
  *                     # Plot individual channel spectra
  *                     fig = raw.plot_psd_topo(             # <<<<<<<<<<<<<<
  *                         tmax=duration_spin.value(),
  *                         fmax=50,
  */
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1676, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1677, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_v_fig = __pyx_t_6;
     __pyx_t_6 = 0;
 
-    /* "gui.py":1682
+    /* "gui.py":1683
  *                     )
  *                     # Style the plot
  *                     for ax in fig.axes:             # <<<<<<<<<<<<<<
  *                         ax.set_facecolor('black')
  *                         ax.tick_params(colors='white')
  */
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_axes); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1682, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_axes); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1683, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     if (likely(PyList_CheckExact(__pyx_t_6)) || PyTuple_CheckExact(__pyx_t_6)) {
       __pyx_t_7 = __pyx_t_6; __Pyx_INCREF(__pyx_t_7);
       __pyx_t_9 = 0;
       __pyx_t_10 = NULL;
     } else {
-      __pyx_t_9 = -1; __pyx_t_7 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1682, __pyx_L1_error)
+      __pyx_t_9 = -1; __pyx_t_7 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1683, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_10 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_7); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1682, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_7); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1683, __pyx_L1_error)
     }
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     for (;;) {
@@ -41258,28 +41274,28 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
           {
             Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_7);
             #if !CYTHON_ASSUME_SAFE_MACROS
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1682, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1683, __pyx_L1_error)
             #endif
             if (__pyx_t_9 >= __pyx_temp) break;
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_6 = PyList_GET_ITEM(__pyx_t_7, __pyx_t_9); __Pyx_INCREF(__pyx_t_6); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1682, __pyx_L1_error)
+          __pyx_t_6 = PyList_GET_ITEM(__pyx_t_7, __pyx_t_9); __Pyx_INCREF(__pyx_t_6); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1683, __pyx_L1_error)
           #else
-          __pyx_t_6 = __Pyx_PySequence_ITEM(__pyx_t_7, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1682, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PySequence_ITEM(__pyx_t_7, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1683, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
           #endif
         } else {
           {
             Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_7);
             #if !CYTHON_ASSUME_SAFE_MACROS
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1682, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1683, __pyx_L1_error)
             #endif
             if (__pyx_t_9 >= __pyx_temp) break;
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_6 = PyTuple_GET_ITEM(__pyx_t_7, __pyx_t_9); __Pyx_INCREF(__pyx_t_6); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1682, __pyx_L1_error)
+          __pyx_t_6 = PyTuple_GET_ITEM(__pyx_t_7, __pyx_t_9); __Pyx_INCREF(__pyx_t_6); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1683, __pyx_L1_error)
           #else
-          __pyx_t_6 = __Pyx_PySequence_ITEM(__pyx_t_7, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1682, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PySequence_ITEM(__pyx_t_7, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1683, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
           #endif
         }
@@ -41289,7 +41305,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
             if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-            else __PYX_ERR(0, 1682, __pyx_L1_error)
+            else __PYX_ERR(0, 1683, __pyx_L1_error)
           }
           break;
         }
@@ -41298,14 +41314,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       __Pyx_XDECREF_SET(__pyx_v_ax, __pyx_t_6);
       __pyx_t_6 = 0;
 
-      /* "gui.py":1683
+      /* "gui.py":1684
  *                     # Style the plot
  *                     for ax in fig.axes:
  *                         ax.set_facecolor('black')             # <<<<<<<<<<<<<<
  *                         ax.tick_params(colors='white')
  *                         ax.xaxis.label.set_color('white')
  */
-      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1683, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1684, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __pyx_t_3 = NULL;
       __pyx_t_4 = 0;
@@ -41325,77 +41341,38 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
         PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_n_u_black};
         __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1683, __pyx_L1_error)
+        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1684, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       }
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "gui.py":1684
+      /* "gui.py":1685
  *                     for ax in fig.axes:
  *                         ax.set_facecolor('black')
  *                         ax.tick_params(colors='white')             # <<<<<<<<<<<<<<
  *                         ax.xaxis.label.set_color('white')
  *                         ax.yaxis.label.set_color('white')
  */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_tick_params); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1684, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_tick_params); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1685, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1684, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1685, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_colors, __pyx_n_u_white) < 0) __PYX_ERR(0, 1684, __pyx_L1_error)
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1684, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_colors, __pyx_n_u_white) < 0) __PYX_ERR(0, 1685, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1685, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "gui.py":1685
+      /* "gui.py":1686
  *                         ax.set_facecolor('black')
  *                         ax.tick_params(colors='white')
  *                         ax.xaxis.label.set_color('white')             # <<<<<<<<<<<<<<
  *                         ax.yaxis.label.set_color('white')
  *                     fig.patch.set_facecolor('black')
  */
-      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_xaxis); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1685, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_label); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1685, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_set_color); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1685, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = NULL;
-      __pyx_t_4 = 0;
-      #if CYTHON_UNPACK_METHODS
-      if (likely(PyMethod_Check(__pyx_t_2))) {
-        __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_2);
-        if (likely(__pyx_t_6)) {
-          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-          __Pyx_INCREF(__pyx_t_6);
-          __Pyx_INCREF(function);
-          __Pyx_DECREF_SET(__pyx_t_2, function);
-          __pyx_t_4 = 1;
-        }
-      }
-      #endif
-      {
-        PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_n_u_white};
-        __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
-        __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1685, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_3);
-        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      }
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-
-      /* "gui.py":1686
- *                         ax.tick_params(colors='white')
- *                         ax.xaxis.label.set_color('white')
- *                         ax.yaxis.label.set_color('white')             # <<<<<<<<<<<<<<
- *                     fig.patch.set_facecolor('black')
- *                     plt.show()
- */
-      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_yaxis); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1686, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_xaxis); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1686, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_label); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1686, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
@@ -41427,7 +41404,46 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       }
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "gui.py":1682
+      /* "gui.py":1687
+ *                         ax.tick_params(colors='white')
+ *                         ax.xaxis.label.set_color('white')
+ *                         ax.yaxis.label.set_color('white')             # <<<<<<<<<<<<<<
+ *                     fig.patch.set_facecolor('black')
+ *                     plt.show()
+ */
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_yaxis); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1687, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_label); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1687, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_6);
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_set_color); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1687, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __pyx_t_6 = NULL;
+      __pyx_t_4 = 0;
+      #if CYTHON_UNPACK_METHODS
+      if (likely(PyMethod_Check(__pyx_t_2))) {
+        __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_2);
+        if (likely(__pyx_t_6)) {
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
+          __Pyx_INCREF(__pyx_t_6);
+          __Pyx_INCREF(function);
+          __Pyx_DECREF_SET(__pyx_t_2, function);
+          __pyx_t_4 = 1;
+        }
+      }
+      #endif
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_n_u_white};
+        __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
+        __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1687, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_3);
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      }
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+
+      /* "gui.py":1683
  *                     )
  *                     # Style the plot
  *                     for ax in fig.axes:             # <<<<<<<<<<<<<<
@@ -41437,16 +41453,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1687
+    /* "gui.py":1688
  *                         ax.xaxis.label.set_color('white')
  *                         ax.yaxis.label.set_color('white')
  *                     fig.patch.set_facecolor('black')             # <<<<<<<<<<<<<<
  *                     plt.show()
  * 
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_patch); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1687, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_patch); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1688, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1687, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1688, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_3 = NULL;
@@ -41467,22 +41483,22 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_n_u_black};
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1687, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1688, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1688
+    /* "gui.py":1689
  *                         ax.yaxis.label.set_color('white')
  *                     fig.patch.set_facecolor('black')
  *                     plt.show()             # <<<<<<<<<<<<<<
  * 
  *                 elif view_type == "ERP Image":
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1688, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1689, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_show); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1688, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_show); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1689, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_2 = NULL;
@@ -41503,13 +41519,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1688, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1689, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1674
+    /* "gui.py":1675
  *                     plt.show()
  * 
  *                 elif view_type == "Channel Spectra":             # <<<<<<<<<<<<<<
@@ -41519,62 +41535,62 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     goto __pyx_L3;
   }
 
-  /* "gui.py":1690
+  /* "gui.py":1691
  *                     plt.show()
  * 
  *                 elif view_type == "ERP Image":             # <<<<<<<<<<<<<<
  *                     # Create epochs from continuous data
  *                     events = mne.make_fixed_length_events(
  */
-  __pyx_t_5 = (__Pyx_PyUnicode_Equals(__pyx_v_view_type, __pyx_kp_u_ERP_Image, Py_EQ)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1690, __pyx_L1_error)
+  __pyx_t_5 = (__Pyx_PyUnicode_Equals(__pyx_v_view_type, __pyx_kp_u_ERP_Image, Py_EQ)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1691, __pyx_L1_error)
   if (__pyx_t_5) {
 
-    /* "gui.py":1692
+    /* "gui.py":1693
  *                 elif view_type == "ERP Image":
  *                     # Create epochs from continuous data
  *                     events = mne.make_fixed_length_events(             # <<<<<<<<<<<<<<
  *                         raw, duration=duration_spin.value()
  *                     )
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_mne); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1692, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_mne); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1693, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_make_fixed_length_events); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1692, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_make_fixed_length_events); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1693, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1693
+    /* "gui.py":1694
  *                     # Create epochs from continuous data
  *                     events = mne.make_fixed_length_events(
  *                         raw, duration=duration_spin.value()             # <<<<<<<<<<<<<<
  *                     )
  *                     epochs = mne.Epochs(
  */
-    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1693, __pyx_L1_error) }
+    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1694, __pyx_L1_error) }
 
-    /* "gui.py":1692
+    /* "gui.py":1693
  *                 elif view_type == "ERP Image":
  *                     # Create epochs from continuous data
  *                     events = mne.make_fixed_length_events(             # <<<<<<<<<<<<<<
  *                         raw, duration=duration_spin.value()
  *                     )
  */
-    __pyx_t_7 = PyTuple_New(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1692, __pyx_L1_error)
+    __pyx_t_7 = PyTuple_New(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1693, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_INCREF(__pyx_cur_scope->__pyx_v_raw);
     __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_raw);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_cur_scope->__pyx_v_raw)) __PYX_ERR(0, 1692, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_cur_scope->__pyx_v_raw)) __PYX_ERR(0, 1693, __pyx_L1_error);
 
-    /* "gui.py":1693
+    /* "gui.py":1694
  *                     # Create epochs from continuous data
  *                     events = mne.make_fixed_length_events(
  *                         raw, duration=duration_spin.value()             # <<<<<<<<<<<<<<
  *                     )
  *                     epochs = mne.Epochs(
  */
-    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1693, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1694, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1693, __pyx_L1_error) }
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1693, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1694, __pyx_L1_error) }
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1694, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_8 = NULL;
     __pyx_t_4 = 0;
@@ -41594,21 +41610,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_8, NULL};
       __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1693, __pyx_L1_error)
+      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1694, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
-    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_duration, __pyx_t_6) < 0) __PYX_ERR(0, 1693, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_duration, __pyx_t_6) < 0) __PYX_ERR(0, 1694, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gui.py":1692
+    /* "gui.py":1693
  *                 elif view_type == "ERP Image":
  *                     # Create epochs from continuous data
  *                     events = mne.make_fixed_length_events(             # <<<<<<<<<<<<<<
  *                         raw, duration=duration_spin.value()
  *                     )
  */
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1692, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1693, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
@@ -41616,56 +41632,56 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     __pyx_v_events = __pyx_t_6;
     __pyx_t_6 = 0;
 
-    /* "gui.py":1695
+    /* "gui.py":1696
  *                         raw, duration=duration_spin.value()
  *                     )
  *                     epochs = mne.Epochs(             # <<<<<<<<<<<<<<
  *                         raw, events, tmin=0, tmax=duration_spin.value(),
  *                         baseline=None, preload=True
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_mne); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1695, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_mne); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1696, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_Epochs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1695, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_Epochs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1696, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gui.py":1696
+    /* "gui.py":1697
  *                     )
  *                     epochs = mne.Epochs(
  *                         raw, events, tmin=0, tmax=duration_spin.value(),             # <<<<<<<<<<<<<<
  *                         baseline=None, preload=True
  *                     )
  */
-    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1696, __pyx_L1_error) }
+    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1697, __pyx_L1_error) }
 
-    /* "gui.py":1695
+    /* "gui.py":1696
  *                         raw, duration=duration_spin.value()
  *                     )
  *                     epochs = mne.Epochs(             # <<<<<<<<<<<<<<
  *                         raw, events, tmin=0, tmax=duration_spin.value(),
  *                         baseline=None, preload=True
  */
-    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1695, __pyx_L1_error)
+    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1696, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_INCREF(__pyx_cur_scope->__pyx_v_raw);
     __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_raw);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_cur_scope->__pyx_v_raw)) __PYX_ERR(0, 1695, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_cur_scope->__pyx_v_raw)) __PYX_ERR(0, 1696, __pyx_L1_error);
     __Pyx_INCREF(__pyx_v_events);
     __Pyx_GIVEREF(__pyx_v_events);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_v_events)) __PYX_ERR(0, 1695, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_v_events)) __PYX_ERR(0, 1696, __pyx_L1_error);
 
-    /* "gui.py":1696
+    /* "gui.py":1697
  *                     )
  *                     epochs = mne.Epochs(
  *                         raw, events, tmin=0, tmax=duration_spin.value(),             # <<<<<<<<<<<<<<
  *                         baseline=None, preload=True
  *                     )
  */
-    __pyx_t_7 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1696, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1697, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_tmin, __pyx_int_0) < 0) __PYX_ERR(0, 1696, __pyx_L1_error)
-    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1696, __pyx_L1_error) }
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1696, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_tmin, __pyx_int_0) < 0) __PYX_ERR(0, 1697, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1697, __pyx_L1_error) }
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1697, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_8 = NULL;
     __pyx_t_4 = 0;
@@ -41685,31 +41701,31 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_8, NULL};
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1696, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1697, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_tmax, __pyx_t_3) < 0) __PYX_ERR(0, 1696, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_tmax, __pyx_t_3) < 0) __PYX_ERR(0, 1697, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gui.py":1697
+    /* "gui.py":1698
  *                     epochs = mne.Epochs(
  *                         raw, events, tmin=0, tmax=duration_spin.value(),
  *                         baseline=None, preload=True             # <<<<<<<<<<<<<<
  *                     )
  * 
  */
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_baseline, Py_None) < 0) __PYX_ERR(0, 1696, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_preload, Py_True) < 0) __PYX_ERR(0, 1696, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_baseline, Py_None) < 0) __PYX_ERR(0, 1697, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_preload, Py_True) < 0) __PYX_ERR(0, 1697, __pyx_L1_error)
 
-    /* "gui.py":1695
+    /* "gui.py":1696
  *                         raw, duration=duration_spin.value()
  *                     )
  *                     epochs = mne.Epochs(             # <<<<<<<<<<<<<<
  *                         raw, events, tmin=0, tmax=duration_spin.value(),
  *                         baseline=None, preload=True
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_6, __pyx_t_7); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1695, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_6, __pyx_t_7); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1696, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -41717,63 +41733,63 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     __pyx_v_epochs = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "gui.py":1701
+    /* "gui.py":1702
  * 
  *                     # Plot ERP image with correct figure handling
  *                     fig = epochs.plot_image(             # <<<<<<<<<<<<<<
  *                         picks='eeg', combine='mean', show=False,
  *                         title='ERP Image'
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_epochs, __pyx_n_s_plot_image); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1701, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_epochs, __pyx_n_s_plot_image); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1702, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
 
-    /* "gui.py":1702
+    /* "gui.py":1703
  *                     # Plot ERP image with correct figure handling
  *                     fig = epochs.plot_image(
  *                         picks='eeg', combine='mean', show=False,             # <<<<<<<<<<<<<<
  *                         title='ERP Image'
  *                     )[0]  # Get the first figure from returned tuple
  */
-    __pyx_t_7 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1702, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1703, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_picks, __pyx_n_u_eeg) < 0) __PYX_ERR(0, 1702, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_combine, __pyx_n_u_mean) < 0) __PYX_ERR(0, 1702, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_show, Py_False) < 0) __PYX_ERR(0, 1702, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_title, __pyx_kp_u_ERP_Image) < 0) __PYX_ERR(0, 1702, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_picks, __pyx_n_u_eeg) < 0) __PYX_ERR(0, 1703, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_combine, __pyx_n_u_mean) < 0) __PYX_ERR(0, 1703, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_show, Py_False) < 0) __PYX_ERR(0, 1703, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_title, __pyx_kp_u_ERP_Image) < 0) __PYX_ERR(0, 1703, __pyx_L1_error)
 
-    /* "gui.py":1701
+    /* "gui.py":1702
  * 
  *                     # Plot ERP image with correct figure handling
  *                     fig = epochs.plot_image(             # <<<<<<<<<<<<<<
  *                         picks='eeg', combine='mean', show=False,
  *                         title='ERP Image'
  */
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1701, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1702, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1704
+    /* "gui.py":1705
  *                         picks='eeg', combine='mean', show=False,
  *                         title='ERP Image'
  *                     )[0]  # Get the first figure from returned tuple             # <<<<<<<<<<<<<<
  * 
  *                     # Style the plot
  */
-    __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_6, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1704, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_6, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1705, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_v_fig = __pyx_t_7;
     __pyx_t_7 = 0;
 
-    /* "gui.py":1707
+    /* "gui.py":1708
  * 
  *                     # Style the plot
  *                     fig.set_facecolor('black')             # <<<<<<<<<<<<<<
  *                     for ax in fig.get_axes():  # Use get_axes() instead of axes attribute
  *                         ax.set_facecolor('black')
  */
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1707, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1708, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_3 = NULL;
     __pyx_t_4 = 0;
@@ -41793,20 +41809,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_n_u_black};
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1707, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1708, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1708
+    /* "gui.py":1709
  *                     # Style the plot
  *                     fig.set_facecolor('black')
  *                     for ax in fig.get_axes():  # Use get_axes() instead of axes attribute             # <<<<<<<<<<<<<<
  *                         ax.set_facecolor('black')
  *                         ax.tick_params(colors='white')
  */
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_get_axes); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1708, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_get_axes); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1709, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_3 = NULL;
     __pyx_t_4 = 0;
@@ -41826,7 +41842,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1708, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1709, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     }
@@ -41835,9 +41851,9 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       __pyx_t_9 = 0;
       __pyx_t_10 = NULL;
     } else {
-      __pyx_t_9 = -1; __pyx_t_6 = PyObject_GetIter(__pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1708, __pyx_L1_error)
+      __pyx_t_9 = -1; __pyx_t_6 = PyObject_GetIter(__pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1709, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_10 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_6); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1708, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_6); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1709, __pyx_L1_error)
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     for (;;) {
@@ -41846,28 +41862,28 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
           {
             Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_6);
             #if !CYTHON_ASSUME_SAFE_MACROS
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1708, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1709, __pyx_L1_error)
             #endif
             if (__pyx_t_9 >= __pyx_temp) break;
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_7 = PyList_GET_ITEM(__pyx_t_6, __pyx_t_9); __Pyx_INCREF(__pyx_t_7); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1708, __pyx_L1_error)
+          __pyx_t_7 = PyList_GET_ITEM(__pyx_t_6, __pyx_t_9); __Pyx_INCREF(__pyx_t_7); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1709, __pyx_L1_error)
           #else
-          __pyx_t_7 = __Pyx_PySequence_ITEM(__pyx_t_6, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1708, __pyx_L1_error)
+          __pyx_t_7 = __Pyx_PySequence_ITEM(__pyx_t_6, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1709, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           #endif
         } else {
           {
             Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_6);
             #if !CYTHON_ASSUME_SAFE_MACROS
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1708, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1709, __pyx_L1_error)
             #endif
             if (__pyx_t_9 >= __pyx_temp) break;
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_7 = PyTuple_GET_ITEM(__pyx_t_6, __pyx_t_9); __Pyx_INCREF(__pyx_t_7); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1708, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_GET_ITEM(__pyx_t_6, __pyx_t_9); __Pyx_INCREF(__pyx_t_7); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1709, __pyx_L1_error)
           #else
-          __pyx_t_7 = __Pyx_PySequence_ITEM(__pyx_t_6, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1708, __pyx_L1_error)
+          __pyx_t_7 = __Pyx_PySequence_ITEM(__pyx_t_6, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1709, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           #endif
         }
@@ -41877,7 +41893,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
             if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-            else __PYX_ERR(0, 1708, __pyx_L1_error)
+            else __PYX_ERR(0, 1709, __pyx_L1_error)
           }
           break;
         }
@@ -41886,14 +41902,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       __Pyx_XDECREF_SET(__pyx_v_ax, __pyx_t_7);
       __pyx_t_7 = 0;
 
-      /* "gui.py":1709
+      /* "gui.py":1710
  *                     fig.set_facecolor('black')
  *                     for ax in fig.get_axes():  # Use get_axes() instead of axes attribute
  *                         ax.set_facecolor('black')             # <<<<<<<<<<<<<<
  *                         ax.tick_params(colors='white')
  *                         ax.xaxis.label.set_color('white')
  */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1709, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1710, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_2 = NULL;
       __pyx_t_4 = 0;
@@ -41913,77 +41929,38 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
         PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_n_u_black};
         __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
         __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1709, __pyx_L1_error)
+        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1710, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "gui.py":1710
+      /* "gui.py":1711
  *                     for ax in fig.get_axes():  # Use get_axes() instead of axes attribute
  *                         ax.set_facecolor('black')
  *                         ax.tick_params(colors='white')             # <<<<<<<<<<<<<<
  *                         ax.xaxis.label.set_color('white')
  *                         ax.yaxis.label.set_color('white')
  */
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_tick_params); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1710, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_tick_params); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1711, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1710, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1711, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_colors, __pyx_n_u_white) < 0) __PYX_ERR(0, 1710, __pyx_L1_error)
-      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1710, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_colors, __pyx_n_u_white) < 0) __PYX_ERR(0, 1711, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1711, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "gui.py":1711
+      /* "gui.py":1712
  *                         ax.set_facecolor('black')
  *                         ax.tick_params(colors='white')
  *                         ax.xaxis.label.set_color('white')             # <<<<<<<<<<<<<<
  *                         ax.yaxis.label.set_color('white')
  *                         ax.title.set_color('white')
  */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_xaxis); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1711, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_label); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1711, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_set_color); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1711, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = NULL;
-      __pyx_t_4 = 0;
-      #if CYTHON_UNPACK_METHODS
-      if (likely(PyMethod_Check(__pyx_t_3))) {
-        __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_3);
-        if (likely(__pyx_t_7)) {
-          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
-          __Pyx_INCREF(__pyx_t_7);
-          __Pyx_INCREF(function);
-          __Pyx_DECREF_SET(__pyx_t_3, function);
-          __pyx_t_4 = 1;
-        }
-      }
-      #endif
-      {
-        PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_n_u_white};
-        __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
-        __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1711, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_2);
-        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      }
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-      /* "gui.py":1712
- *                         ax.tick_params(colors='white')
- *                         ax.xaxis.label.set_color('white')
- *                         ax.yaxis.label.set_color('white')             # <<<<<<<<<<<<<<
- *                         ax.title.set_color('white')
- *                     plt.show()
- */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_yaxis); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1712, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_xaxis); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1712, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_label); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1712, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
@@ -42016,15 +41993,54 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
       /* "gui.py":1713
+ *                         ax.tick_params(colors='white')
+ *                         ax.xaxis.label.set_color('white')
+ *                         ax.yaxis.label.set_color('white')             # <<<<<<<<<<<<<<
+ *                         ax.title.set_color('white')
+ *                     plt.show()
+ */
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_yaxis); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1713, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_label); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1713, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_7);
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_set_color); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1713, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __pyx_t_7 = NULL;
+      __pyx_t_4 = 0;
+      #if CYTHON_UNPACK_METHODS
+      if (likely(PyMethod_Check(__pyx_t_3))) {
+        __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_3);
+        if (likely(__pyx_t_7)) {
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+          __Pyx_INCREF(__pyx_t_7);
+          __Pyx_INCREF(function);
+          __Pyx_DECREF_SET(__pyx_t_3, function);
+          __pyx_t_4 = 1;
+        }
+      }
+      #endif
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_n_u_white};
+        __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
+        __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1713, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
+        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      }
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+      /* "gui.py":1714
  *                         ax.xaxis.label.set_color('white')
  *                         ax.yaxis.label.set_color('white')
  *                         ax.title.set_color('white')             # <<<<<<<<<<<<<<
  *                     plt.show()
  * 
  */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_title); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1713, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_title); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1714, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_set_color); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1713, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_set_color); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1714, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __pyx_t_3 = NULL;
@@ -42045,13 +42061,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
         PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_n_u_white};
         __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1713, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1714, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       }
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "gui.py":1708
+      /* "gui.py":1709
  *                     # Style the plot
  *                     fig.set_facecolor('black')
  *                     for ax in fig.get_axes():  # Use get_axes() instead of axes attribute             # <<<<<<<<<<<<<<
@@ -42061,16 +42077,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     }
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gui.py":1714
+    /* "gui.py":1715
  *                         ax.yaxis.label.set_color('white')
  *                         ax.title.set_color('white')
  *                     plt.show()             # <<<<<<<<<<<<<<
  * 
  *                 elif view_type == "Evoked Array":
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1714, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1715, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_show); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1714, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_show); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1715, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_2 = NULL;
@@ -42091,13 +42107,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
       __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1714, __pyx_L1_error)
+      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1715, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     }
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gui.py":1690
+    /* "gui.py":1691
  *                     plt.show()
  * 
  *                 elif view_type == "ERP Image":             # <<<<<<<<<<<<<<
@@ -42107,62 +42123,62 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     goto __pyx_L3;
   }
 
-  /* "gui.py":1716
+  /* "gui.py":1717
  *                     plt.show()
  * 
  *                 elif view_type == "Evoked Array":             # <<<<<<<<<<<<<<
  *                     # Create epochs and compute evoked response
  *                     events = mne.make_fixed_length_events(
  */
-  __pyx_t_5 = (__Pyx_PyUnicode_Equals(__pyx_v_view_type, __pyx_kp_u_Evoked_Array, Py_EQ)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1716, __pyx_L1_error)
+  __pyx_t_5 = (__Pyx_PyUnicode_Equals(__pyx_v_view_type, __pyx_kp_u_Evoked_Array, Py_EQ)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1717, __pyx_L1_error)
   if (__pyx_t_5) {
 
-    /* "gui.py":1718
+    /* "gui.py":1719
  *                 elif view_type == "Evoked Array":
  *                     # Create epochs and compute evoked response
  *                     events = mne.make_fixed_length_events(             # <<<<<<<<<<<<<<
  *                         raw, duration=duration_spin.value()
  *                     )
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_mne); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1718, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_mne); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1719, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_make_fixed_length_events); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1718, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_make_fixed_length_events); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1719, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gui.py":1719
+    /* "gui.py":1720
  *                     # Create epochs and compute evoked response
  *                     events = mne.make_fixed_length_events(
  *                         raw, duration=duration_spin.value()             # <<<<<<<<<<<<<<
  *                     )
  *                     epochs = mne.Epochs(
  */
-    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1719, __pyx_L1_error) }
+    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1720, __pyx_L1_error) }
 
-    /* "gui.py":1718
+    /* "gui.py":1719
  *                 elif view_type == "Evoked Array":
  *                     # Create epochs and compute evoked response
  *                     events = mne.make_fixed_length_events(             # <<<<<<<<<<<<<<
  *                         raw, duration=duration_spin.value()
  *                     )
  */
-    __pyx_t_6 = PyTuple_New(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1718, __pyx_L1_error)
+    __pyx_t_6 = PyTuple_New(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1719, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_INCREF(__pyx_cur_scope->__pyx_v_raw);
     __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_raw);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_cur_scope->__pyx_v_raw)) __PYX_ERR(0, 1718, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_cur_scope->__pyx_v_raw)) __PYX_ERR(0, 1719, __pyx_L1_error);
 
-    /* "gui.py":1719
+    /* "gui.py":1720
  *                     # Create epochs and compute evoked response
  *                     events = mne.make_fixed_length_events(
  *                         raw, duration=duration_spin.value()             # <<<<<<<<<<<<<<
  *                     )
  *                     epochs = mne.Epochs(
  */
-    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1719, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1720, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1719, __pyx_L1_error) }
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1719, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1720, __pyx_L1_error) }
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1720, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_8 = NULL;
     __pyx_t_4 = 0;
@@ -42182,21 +42198,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_8, NULL};
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1719, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1720, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
-    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_duration, __pyx_t_3) < 0) __PYX_ERR(0, 1719, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_duration, __pyx_t_3) < 0) __PYX_ERR(0, 1720, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gui.py":1718
+    /* "gui.py":1719
  *                 elif view_type == "Evoked Array":
  *                     # Create epochs and compute evoked response
  *                     events = mne.make_fixed_length_events(             # <<<<<<<<<<<<<<
  *                         raw, duration=duration_spin.value()
  *                     )
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_6, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1718, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_6, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1719, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -42204,56 +42220,56 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     __pyx_v_events = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "gui.py":1721
+    /* "gui.py":1722
  *                         raw, duration=duration_spin.value()
  *                     )
  *                     epochs = mne.Epochs(             # <<<<<<<<<<<<<<
  *                         raw, events, tmin=0, tmax=duration_spin.value(),
  *                         baseline=None, preload=True
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_mne); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1721, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_mne); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1722, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Epochs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1721, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Epochs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1722, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gui.py":1722
+    /* "gui.py":1723
  *                     )
  *                     epochs = mne.Epochs(
  *                         raw, events, tmin=0, tmax=duration_spin.value(),             # <<<<<<<<<<<<<<
  *                         baseline=None, preload=True
  *                     )
  */
-    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1722, __pyx_L1_error) }
+    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1723, __pyx_L1_error) }
 
-    /* "gui.py":1721
+    /* "gui.py":1722
  *                         raw, duration=duration_spin.value()
  *                     )
  *                     epochs = mne.Epochs(             # <<<<<<<<<<<<<<
  *                         raw, events, tmin=0, tmax=duration_spin.value(),
  *                         baseline=None, preload=True
  */
-    __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1721, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1722, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(__pyx_cur_scope->__pyx_v_raw);
     __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_raw);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_cur_scope->__pyx_v_raw)) __PYX_ERR(0, 1721, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_cur_scope->__pyx_v_raw)) __PYX_ERR(0, 1722, __pyx_L1_error);
     __Pyx_INCREF(__pyx_v_events);
     __Pyx_GIVEREF(__pyx_v_events);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_v_events)) __PYX_ERR(0, 1721, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_v_events)) __PYX_ERR(0, 1722, __pyx_L1_error);
 
-    /* "gui.py":1722
+    /* "gui.py":1723
  *                     )
  *                     epochs = mne.Epochs(
  *                         raw, events, tmin=0, tmax=duration_spin.value(),             # <<<<<<<<<<<<<<
  *                         baseline=None, preload=True
  *                     )
  */
-    __pyx_t_6 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1722, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1723, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_tmin, __pyx_int_0) < 0) __PYX_ERR(0, 1722, __pyx_L1_error)
-    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1722, __pyx_L1_error) }
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1722, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_tmin, __pyx_int_0) < 0) __PYX_ERR(0, 1723, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1723, __pyx_L1_error) }
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1723, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_8 = NULL;
     __pyx_t_4 = 0;
@@ -42273,31 +42289,31 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_8, NULL};
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1722, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1723, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_tmax, __pyx_t_7) < 0) __PYX_ERR(0, 1722, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_tmax, __pyx_t_7) < 0) __PYX_ERR(0, 1723, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1723
+    /* "gui.py":1724
  *                     epochs = mne.Epochs(
  *                         raw, events, tmin=0, tmax=duration_spin.value(),
  *                         baseline=None, preload=True             # <<<<<<<<<<<<<<
  *                     )
  *                     evoked = epochs.average()
  */
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_baseline, Py_None) < 0) __PYX_ERR(0, 1722, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_preload, Py_True) < 0) __PYX_ERR(0, 1722, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_baseline, Py_None) < 0) __PYX_ERR(0, 1723, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_preload, Py_True) < 0) __PYX_ERR(0, 1723, __pyx_L1_error)
 
-    /* "gui.py":1721
+    /* "gui.py":1722
  *                         raw, duration=duration_spin.value()
  *                     )
  *                     epochs = mne.Epochs(             # <<<<<<<<<<<<<<
  *                         raw, events, tmin=0, tmax=duration_spin.value(),
  *                         baseline=None, preload=True
  */
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_3, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1721, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_3, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1722, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -42305,14 +42321,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     __pyx_v_epochs = __pyx_t_7;
     __pyx_t_7 = 0;
 
-    /* "gui.py":1725
+    /* "gui.py":1726
  *                         baseline=None, preload=True
  *                     )
  *                     evoked = epochs.average()             # <<<<<<<<<<<<<<
  * 
  *                     # Plot evoked data in various ways
  */
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_epochs, __pyx_n_s_average); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1725, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_epochs, __pyx_n_s_average); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1726, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_3 = NULL;
     __pyx_t_4 = 0;
@@ -42332,64 +42348,64 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1725, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1726, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     }
     __pyx_v_evoked = __pyx_t_7;
     __pyx_t_7 = 0;
 
-    /* "gui.py":1728
+    /* "gui.py":1729
  * 
  *                     # Plot evoked data in various ways
  *                     fig = plt.figure(figsize=(15, 10), facecolor='black')             # <<<<<<<<<<<<<<
  *                     gs = fig.add_gridspec(2, 2)
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_plt); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1728, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_plt); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1729, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_figure); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1728, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_figure); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1729, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1728, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1729, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_figsize, __pyx_tuple__36) < 0) __PYX_ERR(0, 1728, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_facecolor, __pyx_n_u_black) < 0) __PYX_ERR(0, 1728, __pyx_L1_error)
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_empty_tuple, __pyx_t_7); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1728, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_figsize, __pyx_tuple__35) < 0) __PYX_ERR(0, 1729, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_facecolor, __pyx_n_u_black) < 0) __PYX_ERR(0, 1729, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_empty_tuple, __pyx_t_7); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1729, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_v_fig = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "gui.py":1729
+    /* "gui.py":1730
  *                     # Plot evoked data in various ways
  *                     fig = plt.figure(figsize=(15, 10), facecolor='black')
  *                     gs = fig.add_gridspec(2, 2)             # <<<<<<<<<<<<<<
  * 
  *                     # 1. Joint plot (top left)
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_add_gridspec); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1729, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_add_gridspec); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1730, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__37, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1729, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__36, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1730, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_v_gs = __pyx_t_7;
     __pyx_t_7 = 0;
 
-    /* "gui.py":1732
+    /* "gui.py":1733
  * 
  *                     # 1. Joint plot (top left)
  *                     plt.subplot(gs[0, 0])             # <<<<<<<<<<<<<<
  *                     evoked.plot_joint(
  *                         times=[0.1, 0.2, 0.3],  # Show topomaps at these times
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1732, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1733, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_subplot); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1732, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_subplot); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1733, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_v_gs, __pyx_tuple__12); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1732, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_v_gs, __pyx_tuple__12); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1733, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_2 = NULL;
     __pyx_t_4 = 0;
@@ -42410,80 +42426,80 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1732, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1733, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1733
+    /* "gui.py":1734
  *                     # 1. Joint plot (top left)
  *                     plt.subplot(gs[0, 0])
  *                     evoked.plot_joint(             # <<<<<<<<<<<<<<
  *                         times=[0.1, 0.2, 0.3],  # Show topomaps at these times
  *                         show=False
  */
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_evoked, __pyx_n_s_plot_joint); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1733, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_evoked, __pyx_n_s_plot_joint); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1734, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
 
-    /* "gui.py":1734
+    /* "gui.py":1735
  *                     plt.subplot(gs[0, 0])
  *                     evoked.plot_joint(
  *                         times=[0.1, 0.2, 0.3],  # Show topomaps at these times             # <<<<<<<<<<<<<<
  *                         show=False
  *                     )
  */
-    __pyx_t_6 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1734, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1735, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_3 = PyList_New(3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1734, __pyx_L1_error)
+    __pyx_t_3 = PyList_New(3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1735, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(__pyx_float_0_1);
     __Pyx_GIVEREF(__pyx_float_0_1);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 0, __pyx_float_0_1)) __PYX_ERR(0, 1734, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 0, __pyx_float_0_1)) __PYX_ERR(0, 1735, __pyx_L1_error);
     __Pyx_INCREF(__pyx_float_0_2);
     __Pyx_GIVEREF(__pyx_float_0_2);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 1, __pyx_float_0_2)) __PYX_ERR(0, 1734, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 1, __pyx_float_0_2)) __PYX_ERR(0, 1735, __pyx_L1_error);
     __Pyx_INCREF(__pyx_float_0_3);
     __Pyx_GIVEREF(__pyx_float_0_3);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 2, __pyx_float_0_3)) __PYX_ERR(0, 1734, __pyx_L1_error);
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_times, __pyx_t_3) < 0) __PYX_ERR(0, 1734, __pyx_L1_error)
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 2, __pyx_float_0_3)) __PYX_ERR(0, 1735, __pyx_L1_error);
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_times, __pyx_t_3) < 0) __PYX_ERR(0, 1735, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gui.py":1735
+    /* "gui.py":1736
  *                     evoked.plot_joint(
  *                         times=[0.1, 0.2, 0.3],  # Show topomaps at these times
  *                         show=False             # <<<<<<<<<<<<<<
  *                     )
  * 
  */
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_show, Py_False) < 0) __PYX_ERR(0, 1734, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_show, Py_False) < 0) __PYX_ERR(0, 1735, __pyx_L1_error)
 
-    /* "gui.py":1733
+    /* "gui.py":1734
  *                     # 1. Joint plot (top left)
  *                     plt.subplot(gs[0, 0])
  *                     evoked.plot_joint(             # <<<<<<<<<<<<<<
  *                         times=[0.1, 0.2, 0.3],  # Show topomaps at these times
  *                         show=False
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_empty_tuple, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1733, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_empty_tuple, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1734, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gui.py":1739
+    /* "gui.py":1740
  * 
  *                     # 2. Topomap sequence (top right)
  *                     plt.subplot(gs[0, 1])             # <<<<<<<<<<<<<<
  *                     evoked.plot_topomap(
  *                         times=np.linspace(0, duration_spin.value(), 6),
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_plt); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1739, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_plt); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1740, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_subplot); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1739, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_subplot); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1740, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_v_gs, __pyx_tuple__38); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1739, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_v_gs, __pyx_tuple__37); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1740, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_2 = NULL;
     __pyx_t_4 = 0;
@@ -42504,38 +42520,38 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1739, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1740, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gui.py":1740
+    /* "gui.py":1741
  *                     # 2. Topomap sequence (top right)
  *                     plt.subplot(gs[0, 1])
  *                     evoked.plot_topomap(             # <<<<<<<<<<<<<<
  *                         times=np.linspace(0, duration_spin.value(), 6),
  *                         show=False
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_evoked, __pyx_n_s_plot_topomap); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1740, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_evoked, __pyx_n_s_plot_topomap); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1741, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
 
-    /* "gui.py":1741
+    /* "gui.py":1742
  *                     plt.subplot(gs[0, 1])
  *                     evoked.plot_topomap(
  *                         times=np.linspace(0, duration_spin.value(), 6),             # <<<<<<<<<<<<<<
  *                         show=False
  *                     )
  */
-    __pyx_t_7 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1741, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1742, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1741, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1742, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_linspace); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1741, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_linspace); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1742, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1741, __pyx_L1_error) }
-    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1741, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1742, __pyx_L1_error) }
+    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1742, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __pyx_t_11 = NULL;
     __pyx_t_4 = 0;
@@ -42555,7 +42571,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_11, NULL};
       __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_8, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1741, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1742, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     }
@@ -42578,48 +42594,48 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_4, 3+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1741, __pyx_L1_error)
+      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1742, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_times, __pyx_t_6) < 0) __PYX_ERR(0, 1741, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_times, __pyx_t_6) < 0) __PYX_ERR(0, 1742, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gui.py":1742
+    /* "gui.py":1743
  *                     evoked.plot_topomap(
  *                         times=np.linspace(0, duration_spin.value(), 6),
  *                         show=False             # <<<<<<<<<<<<<<
  *                     )
  * 
  */
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_show, Py_False) < 0) __PYX_ERR(0, 1741, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_show, Py_False) < 0) __PYX_ERR(0, 1742, __pyx_L1_error)
 
-    /* "gui.py":1740
+    /* "gui.py":1741
  *                     # 2. Topomap sequence (top right)
  *                     plt.subplot(gs[0, 1])
  *                     evoked.plot_topomap(             # <<<<<<<<<<<<<<
  *                         times=np.linspace(0, duration_spin.value(), 6),
  *                         show=False
  */
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1740, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1741, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gui.py":1746
+    /* "gui.py":1747
  * 
  *                     # 3. Butterfly plot (bottom left)
  *                     plt.subplot(gs[1, 0])             # <<<<<<<<<<<<<<
  *                     evoked.plot(spatial_colors=True, show=False)
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_plt); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1746, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_plt); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1747, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_subplot); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1746, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_subplot); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1747, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_v_gs, __pyx_tuple__39); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1746, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_v_gs, __pyx_tuple__38); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1747, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __pyx_t_1 = NULL;
     __pyx_t_4 = 0;
@@ -42640,44 +42656,44 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1746, __pyx_L1_error)
+      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1747, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     }
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gui.py":1747
+    /* "gui.py":1748
  *                     # 3. Butterfly plot (bottom left)
  *                     plt.subplot(gs[1, 0])
  *                     evoked.plot(spatial_colors=True, show=False)             # <<<<<<<<<<<<<<
  * 
  *                     # 4. GFP plot (bottom right)
  */
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_evoked, __pyx_n_s_plot); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1747, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_evoked, __pyx_n_s_plot); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1748, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_3 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1747, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1748, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_spatial_colors, Py_True) < 0) __PYX_ERR(0, 1747, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_show, Py_False) < 0) __PYX_ERR(0, 1747, __pyx_L1_error)
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1747, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_spatial_colors, Py_True) < 0) __PYX_ERR(0, 1748, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_show, Py_False) < 0) __PYX_ERR(0, 1748, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1748, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1750
+    /* "gui.py":1751
  * 
  *                     # 4. GFP plot (bottom right)
  *                     plt.subplot(gs[1, 1])             # <<<<<<<<<<<<<<
  *                     evoked.plot_image()
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1750, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1751, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_subplot); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1750, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_subplot); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1751, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_v_gs, __pyx_tuple__40); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1750, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_v_gs, __pyx_tuple__39); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1751, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_1 = NULL;
     __pyx_t_4 = 0;
@@ -42698,53 +42714,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1750, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-
-    /* "gui.py":1751
- *                     # 4. GFP plot (bottom right)
- *                     plt.subplot(gs[1, 1])
- *                     evoked.plot_image()             # <<<<<<<<<<<<<<
- * 
- *                     # Style all subplots
- */
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_evoked, __pyx_n_s_plot_image); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1751, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_3 = NULL;
-    __pyx_t_4 = 0;
-    #if CYTHON_UNPACK_METHODS
-    if (likely(PyMethod_Check(__pyx_t_6))) {
-      __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_6);
-      if (likely(__pyx_t_3)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
-        __Pyx_INCREF(__pyx_t_3);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_6, function);
-        __pyx_t_4 = 1;
-      }
-    }
-    #endif
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
-      __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
-      __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1751, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1754
+    /* "gui.py":1752
+ *                     # 4. GFP plot (bottom right)
+ *                     plt.subplot(gs[1, 1])
+ *                     evoked.plot_image()             # <<<<<<<<<<<<<<
  * 
  *                     # Style all subplots
- *                     for ax in fig.get_axes():             # <<<<<<<<<<<<<<
- *                         ax.set_facecolor('black')
- *                         ax.tick_params(colors='white')
  */
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_get_axes); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1754, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_evoked, __pyx_n_s_plot_image); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1752, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_3 = NULL;
     __pyx_t_4 = 0;
@@ -42764,7 +42747,40 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1754, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1752, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_7);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+
+    /* "gui.py":1755
+ * 
+ *                     # Style all subplots
+ *                     for ax in fig.get_axes():             # <<<<<<<<<<<<<<
+ *                         ax.set_facecolor('black')
+ *                         ax.tick_params(colors='white')
+ */
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_get_axes); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1755, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __pyx_t_3 = NULL;
+    __pyx_t_4 = 0;
+    #if CYTHON_UNPACK_METHODS
+    if (likely(PyMethod_Check(__pyx_t_6))) {
+      __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_6);
+      if (likely(__pyx_t_3)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
+        __Pyx_INCREF(__pyx_t_3);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_6, function);
+        __pyx_t_4 = 1;
+      }
+    }
+    #endif
+    {
+      PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
+      __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
+      __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1755, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     }
@@ -42773,9 +42789,9 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       __pyx_t_9 = 0;
       __pyx_t_10 = NULL;
     } else {
-      __pyx_t_9 = -1; __pyx_t_6 = PyObject_GetIter(__pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1754, __pyx_L1_error)
+      __pyx_t_9 = -1; __pyx_t_6 = PyObject_GetIter(__pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1755, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_10 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_6); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1754, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_6); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1755, __pyx_L1_error)
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     for (;;) {
@@ -42784,28 +42800,28 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
           {
             Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_6);
             #if !CYTHON_ASSUME_SAFE_MACROS
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1754, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1755, __pyx_L1_error)
             #endif
             if (__pyx_t_9 >= __pyx_temp) break;
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_7 = PyList_GET_ITEM(__pyx_t_6, __pyx_t_9); __Pyx_INCREF(__pyx_t_7); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1754, __pyx_L1_error)
+          __pyx_t_7 = PyList_GET_ITEM(__pyx_t_6, __pyx_t_9); __Pyx_INCREF(__pyx_t_7); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1755, __pyx_L1_error)
           #else
-          __pyx_t_7 = __Pyx_PySequence_ITEM(__pyx_t_6, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1754, __pyx_L1_error)
+          __pyx_t_7 = __Pyx_PySequence_ITEM(__pyx_t_6, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1755, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           #endif
         } else {
           {
             Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_6);
             #if !CYTHON_ASSUME_SAFE_MACROS
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1754, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1755, __pyx_L1_error)
             #endif
             if (__pyx_t_9 >= __pyx_temp) break;
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_7 = PyTuple_GET_ITEM(__pyx_t_6, __pyx_t_9); __Pyx_INCREF(__pyx_t_7); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1754, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_GET_ITEM(__pyx_t_6, __pyx_t_9); __Pyx_INCREF(__pyx_t_7); __pyx_t_9++; if (unlikely((0 < 0))) __PYX_ERR(0, 1755, __pyx_L1_error)
           #else
-          __pyx_t_7 = __Pyx_PySequence_ITEM(__pyx_t_6, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1754, __pyx_L1_error)
+          __pyx_t_7 = __Pyx_PySequence_ITEM(__pyx_t_6, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1755, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           #endif
         }
@@ -42815,7 +42831,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
             if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-            else __PYX_ERR(0, 1754, __pyx_L1_error)
+            else __PYX_ERR(0, 1755, __pyx_L1_error)
           }
           break;
         }
@@ -42824,14 +42840,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       __Pyx_XDECREF_SET(__pyx_v_ax, __pyx_t_7);
       __pyx_t_7 = 0;
 
-      /* "gui.py":1755
+      /* "gui.py":1756
  *                     # Style all subplots
  *                     for ax in fig.get_axes():
  *                         ax.set_facecolor('black')             # <<<<<<<<<<<<<<
  *                         ax.tick_params(colors='white')
  *                         ax.xaxis.label.set_color('white')
  */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1755, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_set_facecolor); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1756, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_1 = NULL;
       __pyx_t_4 = 0;
@@ -42851,77 +42867,38 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
         PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_n_u_black};
         __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
         __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1755, __pyx_L1_error)
+        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1756, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "gui.py":1756
+      /* "gui.py":1757
  *                     for ax in fig.get_axes():
  *                         ax.set_facecolor('black')
  *                         ax.tick_params(colors='white')             # <<<<<<<<<<<<<<
  *                         ax.xaxis.label.set_color('white')
  *                         ax.yaxis.label.set_color('white')
  */
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_tick_params); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1756, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_tick_params); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1757, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1756, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1757, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_colors, __pyx_n_u_white) < 0) __PYX_ERR(0, 1756, __pyx_L1_error)
-      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1756, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_colors, __pyx_n_u_white) < 0) __PYX_ERR(0, 1757, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1757, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "gui.py":1757
+      /* "gui.py":1758
  *                         ax.set_facecolor('black')
  *                         ax.tick_params(colors='white')
  *                         ax.xaxis.label.set_color('white')             # <<<<<<<<<<<<<<
  *                         ax.yaxis.label.set_color('white')
  *                         if ax.get_title():
  */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_xaxis); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1757, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_label); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1757, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_set_color); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1757, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = NULL;
-      __pyx_t_4 = 0;
-      #if CYTHON_UNPACK_METHODS
-      if (likely(PyMethod_Check(__pyx_t_3))) {
-        __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_3);
-        if (likely(__pyx_t_7)) {
-          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
-          __Pyx_INCREF(__pyx_t_7);
-          __Pyx_INCREF(function);
-          __Pyx_DECREF_SET(__pyx_t_3, function);
-          __pyx_t_4 = 1;
-        }
-      }
-      #endif
-      {
-        PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_n_u_white};
-        __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
-        __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1757, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
-        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      }
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-
-      /* "gui.py":1758
- *                         ax.tick_params(colors='white')
- *                         ax.xaxis.label.set_color('white')
- *                         ax.yaxis.label.set_color('white')             # <<<<<<<<<<<<<<
- *                         if ax.get_title():
- *                             ax.title.set_color('white')
- */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_yaxis); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1758, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_xaxis); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1758, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_label); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1758, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
@@ -42954,13 +42931,52 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
       /* "gui.py":1759
+ *                         ax.tick_params(colors='white')
+ *                         ax.xaxis.label.set_color('white')
+ *                         ax.yaxis.label.set_color('white')             # <<<<<<<<<<<<<<
+ *                         if ax.get_title():
+ *                             ax.title.set_color('white')
+ */
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_yaxis); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1759, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_label); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1759, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_7);
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_set_color); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1759, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __pyx_t_7 = NULL;
+      __pyx_t_4 = 0;
+      #if CYTHON_UNPACK_METHODS
+      if (likely(PyMethod_Check(__pyx_t_3))) {
+        __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_3);
+        if (likely(__pyx_t_7)) {
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+          __Pyx_INCREF(__pyx_t_7);
+          __Pyx_INCREF(function);
+          __Pyx_DECREF_SET(__pyx_t_3, function);
+          __pyx_t_4 = 1;
+        }
+      }
+      #endif
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_n_u_white};
+        __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
+        __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1759, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_1);
+        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      }
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+      /* "gui.py":1760
  *                         ax.xaxis.label.set_color('white')
  *                         ax.yaxis.label.set_color('white')
  *                         if ax.get_title():             # <<<<<<<<<<<<<<
  *                             ax.title.set_color('white')
  * 
  */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_get_title); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1759, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_get_title); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1760, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_7 = NULL;
       __pyx_t_4 = 0;
@@ -42980,24 +42996,24 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
         PyObject *__pyx_callargs[2] = {__pyx_t_7, NULL};
         __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1759, __pyx_L1_error)
+        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1760, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
-      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1759, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1760, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       if (__pyx_t_5) {
 
-        /* "gui.py":1760
+        /* "gui.py":1761
  *                         ax.yaxis.label.set_color('white')
  *                         if ax.get_title():
  *                             ax.title.set_color('white')             # <<<<<<<<<<<<<<
  * 
  *                     plt.tight_layout()
  */
-        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_title); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1760, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ax, __pyx_n_s_title); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1761, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_set_color); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1760, __pyx_L1_error)
+        __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_set_color); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1761, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         __pyx_t_3 = NULL;
@@ -43018,13 +43034,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
           PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_n_u_white};
           __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
           __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-          if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1760, __pyx_L1_error)
+          if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1761, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_1);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* "gui.py":1759
+        /* "gui.py":1760
  *                         ax.xaxis.label.set_color('white')
  *                         ax.yaxis.label.set_color('white')
  *                         if ax.get_title():             # <<<<<<<<<<<<<<
@@ -43033,7 +43049,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
  */
       }
 
-      /* "gui.py":1754
+      /* "gui.py":1755
  * 
  *                     # Style all subplots
  *                     for ax in fig.get_axes():             # <<<<<<<<<<<<<<
@@ -43043,16 +43059,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     }
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gui.py":1762
+    /* "gui.py":1763
  *                             ax.title.set_color('white')
  * 
  *                     plt.tight_layout()             # <<<<<<<<<<<<<<
  *                     plt.show()
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_plt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1762, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_plt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1763, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_tight_layout); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1762, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_tight_layout); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1763, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_1 = NULL;
@@ -43073,22 +43089,22 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_1, NULL};
       __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1762, __pyx_L1_error)
+      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1763, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     }
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gui.py":1763
+    /* "gui.py":1764
  * 
  *                     plt.tight_layout()
  *                     plt.show()             # <<<<<<<<<<<<<<
  * 
  *                 elif view_type == "Topographic Map":
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_plt); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1763, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_plt); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1764, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_show); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1763, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_show); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1764, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_7 = NULL;
@@ -43109,13 +43125,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_7, NULL};
       __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1763, __pyx_L1_error)
+      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1764, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gui.py":1716
+    /* "gui.py":1717
  *                     plt.show()
  * 
  *                 elif view_type == "Evoked Array":             # <<<<<<<<<<<<<<
@@ -43125,39 +43141,39 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     goto __pyx_L3;
   }
 
-  /* "gui.py":1765
+  /* "gui.py":1766
  *                     plt.show()
  * 
  *                 elif view_type == "Topographic Map":             # <<<<<<<<<<<<<<
  *                     # Create topographic map of signal power
  *                     data = raw.get_data(start=0,
  */
-  __pyx_t_5 = (__Pyx_PyUnicode_Equals(__pyx_v_view_type, __pyx_kp_u_Topographic_Map, Py_EQ)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1765, __pyx_L1_error)
+  __pyx_t_5 = (__Pyx_PyUnicode_Equals(__pyx_v_view_type, __pyx_kp_u_Topographic_Map, Py_EQ)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1766, __pyx_L1_error)
   if (__pyx_t_5) {
 
-    /* "gui.py":1767
+    /* "gui.py":1768
  *                 elif view_type == "Topographic Map":
  *                     # Create topographic map of signal power
  *                     data = raw.get_data(start=0,             # <<<<<<<<<<<<<<
  *                                       stop=int(duration_spin.value() * raw.info['sfreq']))
  *                     power = np.std(data, axis=1)  # Use standard deviation as power measure
  */
-    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1767, __pyx_L1_error) }
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_get_data); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1767, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1768, __pyx_L1_error) }
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_get_data); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1768, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1767, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1768, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_start, __pyx_int_0) < 0) __PYX_ERR(0, 1767, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_start, __pyx_int_0) < 0) __PYX_ERR(0, 1768, __pyx_L1_error)
 
-    /* "gui.py":1768
+    /* "gui.py":1769
  *                     # Create topographic map of signal power
  *                     data = raw.get_data(start=0,
  *                                       stop=int(duration_spin.value() * raw.info['sfreq']))             # <<<<<<<<<<<<<<
  *                     power = np.std(data, axis=1)  # Use standard deviation as power measure
  *                     mne.viz.plot_topomap(
  */
-    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1768, __pyx_L1_error) }
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1768, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_duration_spin)) { __Pyx_RaiseClosureNameError("duration_spin"); __PYX_ERR(0, 1769, __pyx_L1_error) }
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_value); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1769, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_2 = NULL;
     __pyx_t_4 = 0;
@@ -43177,61 +43193,61 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1768, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1769, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     }
-    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1768, __pyx_L1_error) }
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_info); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1768, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1769, __pyx_L1_error) }
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_info); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1769, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_2 = __Pyx_PyObject_Dict_GetItem(__pyx_t_3, __pyx_n_u_sfreq); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1768, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Dict_GetItem(__pyx_t_3, __pyx_n_u_sfreq); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1769, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyNumber_Multiply(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1768, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_Multiply(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1769, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyNumber_Int(__pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1768, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyNumber_Int(__pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1769, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_stop, __pyx_t_2) < 0) __PYX_ERR(0, 1767, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_stop, __pyx_t_2) < 0) __PYX_ERR(0, 1768, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "gui.py":1767
+    /* "gui.py":1768
  *                 elif view_type == "Topographic Map":
  *                     # Create topographic map of signal power
  *                     data = raw.get_data(start=0,             # <<<<<<<<<<<<<<
  *                                       stop=int(duration_spin.value() * raw.info['sfreq']))
  *                     power = np.std(data, axis=1)  # Use standard deviation as power measure
  */
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1767, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1768, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_v_data = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "gui.py":1769
+    /* "gui.py":1770
  *                     data = raw.get_data(start=0,
  *                                       stop=int(duration_spin.value() * raw.info['sfreq']))
  *                     power = np.std(data, axis=1)  # Use standard deviation as power measure             # <<<<<<<<<<<<<<
  *                     mne.viz.plot_topomap(
  *                         power, raw.info,
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1769, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1770, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_std); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1769, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_std); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1770, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1769, __pyx_L1_error)
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1770, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_data);
     __Pyx_GIVEREF(__pyx_v_data);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_data)) __PYX_ERR(0, 1769, __pyx_L1_error);
-    __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1769, __pyx_L1_error)
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_data)) __PYX_ERR(0, 1770, __pyx_L1_error);
+    __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1770, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_axis, __pyx_int_1) < 0) __PYX_ERR(0, 1769, __pyx_L1_error)
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1769, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_axis, __pyx_int_1) < 0) __PYX_ERR(0, 1770, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1770, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -43239,106 +43255,106 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
     __pyx_v_power = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "gui.py":1770
+    /* "gui.py":1771
  *                                       stop=int(duration_spin.value() * raw.info['sfreq']))
  *                     power = np.std(data, axis=1)  # Use standard deviation as power measure
  *                     mne.viz.plot_topomap(             # <<<<<<<<<<<<<<
  *                         power, raw.info,
  *                         cmap='RdBu_r',
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_mne); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1770, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_mne); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1771, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_viz); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1770, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_viz); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1771, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_plot_topomap); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1770, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_plot_topomap); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1771, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gui.py":1771
+    /* "gui.py":1772
  *                     power = np.std(data, axis=1)  # Use standard deviation as power measure
  *                     mne.viz.plot_topomap(
  *                         power, raw.info,             # <<<<<<<<<<<<<<
  *                         cmap='RdBu_r',
  *                         sensors=True,  # Show sensor locations instead of show_names
  */
-    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1771, __pyx_L1_error) }
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_info); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1771, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1772, __pyx_L1_error) }
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_info); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1772, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
 
-    /* "gui.py":1770
+    /* "gui.py":1771
  *                                       stop=int(duration_spin.value() * raw.info['sfreq']))
  *                     power = np.std(data, axis=1)  # Use standard deviation as power measure
  *                     mne.viz.plot_topomap(             # <<<<<<<<<<<<<<
  *                         power, raw.info,
  *                         cmap='RdBu_r',
  */
-    __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1770, __pyx_L1_error)
+    __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1771, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_power);
     __Pyx_GIVEREF(__pyx_v_power);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_power)) __PYX_ERR(0, 1770, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_power)) __PYX_ERR(0, 1771, __pyx_L1_error);
     __Pyx_GIVEREF(__pyx_t_6);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_6)) __PYX_ERR(0, 1770, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_6)) __PYX_ERR(0, 1771, __pyx_L1_error);
     __pyx_t_6 = 0;
 
-    /* "gui.py":1772
+    /* "gui.py":1773
  *                     mne.viz.plot_topomap(
  *                         power, raw.info,
  *                         cmap='RdBu_r',             # <<<<<<<<<<<<<<
  *                         sensors=True,  # Show sensor locations instead of show_names
  *                         names=raw.ch_names,  # Show channel names
  */
-    __pyx_t_6 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1772, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1773, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_cmap, __pyx_n_u_RdBu_r) < 0) __PYX_ERR(0, 1772, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_cmap, __pyx_n_u_RdBu_r) < 0) __PYX_ERR(0, 1773, __pyx_L1_error)
 
-    /* "gui.py":1773
+    /* "gui.py":1774
  *                         power, raw.info,
  *                         cmap='RdBu_r',
  *                         sensors=True,  # Show sensor locations instead of show_names             # <<<<<<<<<<<<<<
  *                         names=raw.ch_names,  # Show channel names
  *                         show=True
  */
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_sensors, Py_True) < 0) __PYX_ERR(0, 1772, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_sensors, Py_True) < 0) __PYX_ERR(0, 1773, __pyx_L1_error)
 
-    /* "gui.py":1774
+    /* "gui.py":1775
  *                         cmap='RdBu_r',
  *                         sensors=True,  # Show sensor locations instead of show_names
  *                         names=raw.ch_names,  # Show channel names             # <<<<<<<<<<<<<<
  *                         show=True
  *                     )
  */
-    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1774, __pyx_L1_error) }
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_ch_names); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1774, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_v_raw)) { __Pyx_RaiseClosureNameError("raw"); __PYX_ERR(0, 1775, __pyx_L1_error) }
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_raw, __pyx_n_s_ch_names); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1775, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_names, __pyx_t_1) < 0) __PYX_ERR(0, 1772, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_names, __pyx_t_1) < 0) __PYX_ERR(0, 1773, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "gui.py":1775
+    /* "gui.py":1776
  *                         sensors=True,  # Show sensor locations instead of show_names
  *                         names=raw.ch_names,  # Show channel names
  *                         show=True             # <<<<<<<<<<<<<<
  *                     )
  * 
  */
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_show, Py_True) < 0) __PYX_ERR(0, 1772, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_show, Py_True) < 0) __PYX_ERR(0, 1773, __pyx_L1_error)
 
-    /* "gui.py":1770
+    /* "gui.py":1771
  *                                       stop=int(duration_spin.value() * raw.info['sfreq']))
  *                     power = np.std(data, axis=1)  # Use standard deviation as power measure
  *                     mne.viz.plot_topomap(             # <<<<<<<<<<<<<<
  *                         power, raw.info,
  *                         cmap='RdBu_r',
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_2, __pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1770, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_2, __pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1771, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "gui.py":1765
+    /* "gui.py":1766
  *                     plt.show()
  * 
  *                 elif view_type == "Topographic Map":             # <<<<<<<<<<<<<<
@@ -43348,7 +43364,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
   }
   __pyx_L3:;
 
-  /* "gui.py":1624
+  /* "gui.py":1625
  *             layout.addWidget(controls)
  * 
  *             def update_plot():             # <<<<<<<<<<<<<<
@@ -43387,7 +43403,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(PyObj
   return __pyx_r;
 }
 
-/* "gui.py":1557
+/* "gui.py":1558
  *             return []
  * 
  *     def view_sample_data(self, index, *args):             # <<<<<<<<<<<<<<
@@ -43440,12 +43456,12 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
   if (unlikely(!__pyx_cur_scope)) {
     __pyx_cur_scope = ((struct __pyx_obj_3gui___pyx_scope_struct_3_view_sample_data *)Py_None);
     __Pyx_INCREF(Py_None);
-    __PYX_ERR(0, 1557, __pyx_L1_error)
+    __PYX_ERR(0, 1558, __pyx_L1_error)
   } else {
     __Pyx_GOTREF((PyObject *)__pyx_cur_scope);
   }
 
-  /* "gui.py":1559
+  /* "gui.py":1560
  *     def view_sample_data(self, index, *args):
  *         """View selected sample data file"""
  *         try:             # <<<<<<<<<<<<<<
@@ -43461,14 +43477,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "gui.py":1560
+      /* "gui.py":1561
  *         """View selected sample data file"""
  *         try:
  *             sample_files = self.get_sample_files()             # <<<<<<<<<<<<<<
  *             if not sample_files:
  *                 self.add_status_message("Sample data file not available")
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_get_sample_files); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1560, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_get_sample_files); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1561, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -43488,32 +43504,32 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1560, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1561, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __pyx_v_sample_files = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "gui.py":1561
+      /* "gui.py":1562
  *         try:
  *             sample_files = self.get_sample_files()
  *             if not sample_files:             # <<<<<<<<<<<<<<
  *                 self.add_status_message("Sample data file not available")
  *                 return
  */
-      __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_v_sample_files); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 1561, __pyx_L3_error)
+      __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_v_sample_files); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 1562, __pyx_L3_error)
       __pyx_t_9 = (!__pyx_t_8);
       if (__pyx_t_9) {
 
-        /* "gui.py":1562
+        /* "gui.py":1563
  *             sample_files = self.get_sample_files()
  *             if not sample_files:
  *                 self.add_status_message("Sample data file not available")             # <<<<<<<<<<<<<<
  *                 return
  * 
  */
-        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1562, __pyx_L3_error)
+        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1563, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __pyx_t_6 = NULL;
         __pyx_t_7 = 0;
@@ -43533,13 +43549,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
           PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_kp_u_Sample_data_file_not_available};
           __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1562, __pyx_L3_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1563, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_4);
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "gui.py":1563
+        /* "gui.py":1564
  *             if not sample_files:
  *                 self.add_status_message("Sample data file not available")
  *                 return             # <<<<<<<<<<<<<<
@@ -43550,7 +43566,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         __pyx_r = Py_None; __Pyx_INCREF(Py_None);
         goto __pyx_L7_try_return;
 
-        /* "gui.py":1561
+        /* "gui.py":1562
  *         try:
  *             sample_files = self.get_sample_files()
  *             if not sample_files:             # <<<<<<<<<<<<<<
@@ -43559,32 +43575,32 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
  */
       }
 
-      /* "gui.py":1567
+      /* "gui.py":1568
  *             # Load S03.fif
  *             #self.add_status_message(f"DEBUG setup_eeg: path = {sample_files[0]}")
  *             raw = mne.io.read_raw_fif(sample_files[0], preload=True)             # <<<<<<<<<<<<<<
  * 
  *             # Create a new window for the plot
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_mne); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1567, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_mne); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1568, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_io); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1567, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_io); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1568, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_read_raw_fif); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1567, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_read_raw_fif); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1568, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_sample_files, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1567, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_sample_files, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1568, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = PyTuple_New(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1567, __pyx_L3_error)
+      __pyx_t_6 = PyTuple_New(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1568, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GIVEREF(__pyx_t_5);
-      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_5)) __PYX_ERR(0, 1567, __pyx_L3_error);
+      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_5)) __PYX_ERR(0, 1568, __pyx_L3_error);
       __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1567, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1568, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_preload, Py_True) < 0) __PYX_ERR(0, 1567, __pyx_L3_error)
-      __pyx_t_10 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1567, __pyx_L3_error)
+      if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_preload, Py_True) < 0) __PYX_ERR(0, 1568, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1568, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -43593,14 +43609,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
       __pyx_cur_scope->__pyx_v_raw = __pyx_t_10;
       __pyx_t_10 = 0;
 
-      /* "gui.py":1570
+      /* "gui.py":1571
  * 
  *             # Create a new window for the plot
  *             plot_window = QWidget()             # <<<<<<<<<<<<<<
  *             plot_window.setWindowTitle(f"Sample Data Visualization - {sample_files[0]}")
  *             plot_window.setGeometry(200, 200, 1200, 800)
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_QWidget); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1570, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_QWidget); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1571, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -43620,28 +43636,28 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_10 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1570, __pyx_L3_error)
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1571, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_10);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __pyx_v_plot_window = __pyx_t_10;
       __pyx_t_10 = 0;
 
-      /* "gui.py":1571
+      /* "gui.py":1572
  *             # Create a new window for the plot
  *             plot_window = QWidget()
  *             plot_window.setWindowTitle(f"Sample Data Visualization - {sample_files[0]}")             # <<<<<<<<<<<<<<
  *             plot_window.setGeometry(200, 200, 1200, 800)
  *             layout = QVBoxLayout(plot_window)
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot_window, __pyx_n_s_setWindowTitle); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1571, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot_window, __pyx_n_s_setWindowTitle); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1572, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = __Pyx_GetItemInt(__pyx_v_sample_files, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1571, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_GetItemInt(__pyx_v_sample_files, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1572, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1571, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1572, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Sample_Data_Visualization, __pyx_t_4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1571, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Sample_Data_Visualization, __pyx_t_4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1572, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __pyx_t_4 = NULL;
@@ -43663,34 +43679,34 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         __pyx_t_10 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1571, __pyx_L3_error)
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1572, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_10);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
-      /* "gui.py":1572
+      /* "gui.py":1573
  *             plot_window = QWidget()
  *             plot_window.setWindowTitle(f"Sample Data Visualization - {sample_files[0]}")
  *             plot_window.setGeometry(200, 200, 1200, 800)             # <<<<<<<<<<<<<<
  *             layout = QVBoxLayout(plot_window)
  * 
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot_window, __pyx_n_s_setGeometry); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1572, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot_window, __pyx_n_s_setGeometry); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1573, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_tuple__41, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1572, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_tuple__40, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1573, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1573
+      /* "gui.py":1574
  *             plot_window.setWindowTitle(f"Sample Data Visualization - {sample_files[0]}")
  *             plot_window.setGeometry(200, 200, 1200, 800)
  *             layout = QVBoxLayout(plot_window)             # <<<<<<<<<<<<<<
  * 
  *             # Add controls
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QVBoxLayout); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1573, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QVBoxLayout); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1574, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -43710,21 +43726,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_v_plot_window};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1573, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1574, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __pyx_v_layout = __pyx_t_5;
       __pyx_t_5 = 0;
 
-      /* "gui.py":1576
+      /* "gui.py":1577
  * 
  *             # Add controls
  *             controls = QWidget()             # <<<<<<<<<<<<<<
  *             controls_layout = QHBoxLayout(controls)
  * 
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QWidget); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1576, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QWidget); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1577, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -43744,21 +43760,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1576, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1577, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __pyx_v_controls = __pyx_t_5;
       __pyx_t_5 = 0;
 
-      /* "gui.py":1577
+      /* "gui.py":1578
  *             # Add controls
  *             controls = QWidget()
  *             controls_layout = QHBoxLayout(controls)             # <<<<<<<<<<<<<<
  * 
  *             # View type selector
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QHBoxLayout); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1577, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QHBoxLayout); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1578, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -43778,21 +43794,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_v_controls};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1577, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1578, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __pyx_v_controls_layout = __pyx_t_5;
       __pyx_t_5 = 0;
 
-      /* "gui.py":1580
+      /* "gui.py":1581
  * 
  *             # View type selector
  *             view_label = QLabel("View Type:")             # <<<<<<<<<<<<<<
  *             view_select = QComboBox()
  *             view_select.addItems([
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QLabel); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1580, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QLabel); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1581, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -43812,21 +43828,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_kp_u_View_Type};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1580, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1581, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __pyx_v_view_label = __pyx_t_5;
       __pyx_t_5 = 0;
 
-      /* "gui.py":1581
+      /* "gui.py":1582
  *             # View type selector
  *             view_label = QLabel("View Type:")
  *             view_select = QComboBox()             # <<<<<<<<<<<<<<
  *             view_select.addItems([
  * 
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QComboBox); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1581, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QComboBox); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1582, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -43846,7 +43862,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1581, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1582, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
@@ -43854,29 +43870,29 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
       __pyx_cur_scope->__pyx_v_view_select = __pyx_t_5;
       __pyx_t_5 = 0;
 
-      /* "gui.py":1582
+      /* "gui.py":1583
  *             view_label = QLabel("View Type:")
  *             view_select = QComboBox()
  *             view_select.addItems([             # <<<<<<<<<<<<<<
  * 
  * 
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_view_select, __pyx_n_s_addItems); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1582, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_view_select, __pyx_n_s_addItems); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1583, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_6 = PyList_New(4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1582, __pyx_L3_error)
+      __pyx_t_6 = PyList_New(4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1583, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_INCREF(__pyx_n_u_Butterfly);
       __Pyx_GIVEREF(__pyx_n_u_Butterfly);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_6, 0, __pyx_n_u_Butterfly)) __PYX_ERR(0, 1582, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_6, 0, __pyx_n_u_Butterfly)) __PYX_ERR(0, 1583, __pyx_L3_error);
       __Pyx_INCREF(__pyx_kp_u_Channel_Spectra);
       __Pyx_GIVEREF(__pyx_kp_u_Channel_Spectra);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_6, 1, __pyx_kp_u_Channel_Spectra)) __PYX_ERR(0, 1582, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_6, 1, __pyx_kp_u_Channel_Spectra)) __PYX_ERR(0, 1583, __pyx_L3_error);
       __Pyx_INCREF(__pyx_kp_u_ERP_Image);
       __Pyx_GIVEREF(__pyx_kp_u_ERP_Image);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_6, 2, __pyx_kp_u_ERP_Image)) __PYX_ERR(0, 1582, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_6, 2, __pyx_kp_u_ERP_Image)) __PYX_ERR(0, 1583, __pyx_L3_error);
       __Pyx_INCREF(__pyx_kp_u_Topographic_Map);
       __Pyx_GIVEREF(__pyx_kp_u_Topographic_Map);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_6, 3, __pyx_kp_u_Topographic_Map)) __PYX_ERR(0, 1582, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_6, 3, __pyx_kp_u_Topographic_Map)) __PYX_ERR(0, 1583, __pyx_L3_error);
       __pyx_t_4 = NULL;
       __pyx_t_7 = 0;
       #if CYTHON_UNPACK_METHODS
@@ -43896,20 +43912,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1582, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1583, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1591
+      /* "gui.py":1592
  *                 "Topographic Map"
  *             ])
  *             controls_layout.addWidget(view_label)             # <<<<<<<<<<<<<<
  *             controls_layout.addWidget(view_select)
  * 
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_controls_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1591, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_controls_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1592, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -43929,20 +43945,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_v_view_label};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1591, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1592, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1592
+      /* "gui.py":1593
  *             ])
  *             controls_layout.addWidget(view_label)
  *             controls_layout.addWidget(view_select)             # <<<<<<<<<<<<<<
  * 
  *             # Scale spinner
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_controls_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1592, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_controls_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1593, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -43962,20 +43978,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_cur_scope->__pyx_v_view_select};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1592, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1593, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1595
+      /* "gui.py":1596
  * 
  *             # Scale spinner
  *             scale_label = QLabel("Scale (V):")             # <<<<<<<<<<<<<<
  *             scale_spin = QSpinBox()
  *             scale_spin.setRange(1, 1000)
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QLabel); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1595, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QLabel); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1596, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -43995,21 +44011,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_kp_u_Scale_V};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1595, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1596, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __pyx_v_scale_label = __pyx_t_5;
       __pyx_t_5 = 0;
 
-      /* "gui.py":1596
+      /* "gui.py":1597
  *             # Scale spinner
  *             scale_label = QLabel("Scale (V):")
  *             scale_spin = QSpinBox()             # <<<<<<<<<<<<<<
  *             scale_spin.setRange(1, 1000)
  *             scale_spin.setValue(50)
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QSpinBox); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1596, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QSpinBox); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1597, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -44029,7 +44045,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1596, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1597, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
@@ -44037,28 +44053,28 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
       __pyx_cur_scope->__pyx_v_scale_spin = __pyx_t_5;
       __pyx_t_5 = 0;
 
-      /* "gui.py":1597
+      /* "gui.py":1598
  *             scale_label = QLabel("Scale (V):")
  *             scale_spin = QSpinBox()
  *             scale_spin.setRange(1, 1000)             # <<<<<<<<<<<<<<
  *             scale_spin.setValue(50)
  *             controls_layout.addWidget(scale_label)
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_scale_spin, __pyx_n_s_setRange); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1597, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_scale_spin, __pyx_n_s_setRange); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1598, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_10 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_tuple__42, NULL); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1597, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_tuple__41, NULL); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1598, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
-      /* "gui.py":1598
+      /* "gui.py":1599
  *             scale_spin = QSpinBox()
  *             scale_spin.setRange(1, 1000)
  *             scale_spin.setValue(50)             # <<<<<<<<<<<<<<
  *             controls_layout.addWidget(scale_label)
  *             controls_layout.addWidget(scale_spin)
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_scale_spin, __pyx_n_s_setValue); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1598, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_scale_spin, __pyx_n_s_setValue); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1599, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -44078,20 +44094,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_int_50};
         __pyx_t_10 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1598, __pyx_L3_error)
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1599, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_10);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
-      /* "gui.py":1599
+      /* "gui.py":1600
  *             scale_spin.setRange(1, 1000)
  *             scale_spin.setValue(50)
  *             controls_layout.addWidget(scale_label)             # <<<<<<<<<<<<<<
  *             controls_layout.addWidget(scale_spin)
  * 
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_controls_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1599, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_controls_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1600, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -44111,20 +44127,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_v_scale_label};
         __pyx_t_10 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1599, __pyx_L3_error)
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1600, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_10);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
-      /* "gui.py":1600
+      /* "gui.py":1601
  *             scale_spin.setValue(50)
  *             controls_layout.addWidget(scale_label)
  *             controls_layout.addWidget(scale_spin)             # <<<<<<<<<<<<<<
  * 
  *             # Duration spinner
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_controls_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1600, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_controls_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1601, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -44144,20 +44160,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_cur_scope->__pyx_v_scale_spin};
         __pyx_t_10 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1600, __pyx_L3_error)
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1601, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_10);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
-      /* "gui.py":1603
+      /* "gui.py":1604
  * 
  *             # Duration spinner
  *             duration_label = QLabel("Window (s):")             # <<<<<<<<<<<<<<
  *             duration_spin = QSpinBox()
  *             duration_spin.setRange(1, 600)  # Allow up to 10 minutes
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_QLabel); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1603, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_QLabel); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1604, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -44177,21 +44193,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_kp_u_Window_s};
         __pyx_t_10 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1603, __pyx_L3_error)
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1604, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_10);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __pyx_v_duration_label = __pyx_t_10;
       __pyx_t_10 = 0;
 
-      /* "gui.py":1604
+      /* "gui.py":1605
  *             # Duration spinner
  *             duration_label = QLabel("Window (s):")
  *             duration_spin = QSpinBox()             # <<<<<<<<<<<<<<
  *             duration_spin.setRange(1, 600)  # Allow up to 10 minutes
  *             duration_spin.setValue(10)
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_QSpinBox); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1604, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_QSpinBox); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1605, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -44211,7 +44227,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_10 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1604, __pyx_L3_error)
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1605, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_10);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
@@ -44219,28 +44235,28 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
       __pyx_cur_scope->__pyx_v_duration_spin = __pyx_t_10;
       __pyx_t_10 = 0;
 
-      /* "gui.py":1605
+      /* "gui.py":1606
  *             duration_label = QLabel("Window (s):")
  *             duration_spin = QSpinBox()
  *             duration_spin.setRange(1, 600)  # Allow up to 10 minutes             # <<<<<<<<<<<<<<
  *             duration_spin.setValue(10)
  *             duration_spin.setKeyboardTracking(True)  # Enable keyboard input
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_setRange); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1605, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_setRange); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1606, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_tuple__43, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1605, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_tuple__42, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1606, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1606
+      /* "gui.py":1607
  *             duration_spin = QSpinBox()
  *             duration_spin.setRange(1, 600)  # Allow up to 10 minutes
  *             duration_spin.setValue(10)             # <<<<<<<<<<<<<<
  *             duration_spin.setKeyboardTracking(True)  # Enable keyboard input
  *             duration_spin.setButtonSymbols(QSpinBox.NoButtons)  # Remove arrow buttons
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_setValue); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1606, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_setValue); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1607, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -44260,20 +44276,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_int_10};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1606, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1607, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1607
+      /* "gui.py":1608
  *             duration_spin.setRange(1, 600)  # Allow up to 10 minutes
  *             duration_spin.setValue(10)
  *             duration_spin.setKeyboardTracking(True)  # Enable keyboard input             # <<<<<<<<<<<<<<
  *             duration_spin.setButtonSymbols(QSpinBox.NoButtons)  # Remove arrow buttons
  *             duration_spin.setStyleSheet("""
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_setKeyboardTracking); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1607, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_setKeyboardTracking); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1608, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -44293,24 +44309,24 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_6, Py_True};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1607, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1608, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1608
+      /* "gui.py":1609
  *             duration_spin.setValue(10)
  *             duration_spin.setKeyboardTracking(True)  # Enable keyboard input
  *             duration_spin.setButtonSymbols(QSpinBox.NoButtons)  # Remove arrow buttons             # <<<<<<<<<<<<<<
  *             duration_spin.setStyleSheet("""
  *                 QSpinBox {
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_setButtonSymbols); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1608, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_setButtonSymbols); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1609, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_QSpinBox); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1608, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_QSpinBox); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1609, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_NoButtons); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1608, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_NoButtons); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1609, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = NULL;
@@ -44332,20 +44348,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1608, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1609, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1609
+      /* "gui.py":1610
  *             duration_spin.setKeyboardTracking(True)  # Enable keyboard input
  *             duration_spin.setButtonSymbols(QSpinBox.NoButtons)  # Remove arrow buttons
  *             duration_spin.setStyleSheet("""             # <<<<<<<<<<<<<<
  *                 QSpinBox {
  *                     padding: 5px;
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_setStyleSheet); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1609, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_duration_spin, __pyx_n_s_setStyleSheet); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1610, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_4 = NULL;
       __pyx_t_7 = 0;
@@ -44365,20 +44381,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_kp_u_QSpinBox_padding_5px_width_60px};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1609, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1610, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1615
+      /* "gui.py":1616
  *                 }
  *             """)
  *             controls_layout.addWidget(duration_label)             # <<<<<<<<<<<<<<
  *             controls_layout.addWidget(duration_spin)
  * 
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_controls_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1615, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_controls_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1616, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_4 = NULL;
       __pyx_t_7 = 0;
@@ -44398,20 +44414,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_v_duration_label};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1615, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1616, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1616
+      /* "gui.py":1617
  *             """)
  *             controls_layout.addWidget(duration_label)
  *             controls_layout.addWidget(duration_spin)             # <<<<<<<<<<<<<<
  * 
  *             # Update button
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_controls_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1616, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_controls_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1617, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_4 = NULL;
       __pyx_t_7 = 0;
@@ -44431,20 +44447,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_cur_scope->__pyx_v_duration_spin};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1616, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1617, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1619
+      /* "gui.py":1620
  * 
  *             # Update button
  *             update_btn = QPushButton("Update Plot")             # <<<<<<<<<<<<<<
  *             controls_layout.addWidget(update_btn)
  * 
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QPushButton); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1619, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_QPushButton); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1620, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_4 = NULL;
       __pyx_t_7 = 0;
@@ -44464,21 +44480,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_kp_u_Update_Plot};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1619, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1620, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __pyx_v_update_btn = __pyx_t_5;
       __pyx_t_5 = 0;
 
-      /* "gui.py":1620
+      /* "gui.py":1621
  *             # Update button
  *             update_btn = QPushButton("Update Plot")
  *             controls_layout.addWidget(update_btn)             # <<<<<<<<<<<<<<
  * 
  *             layout.addWidget(controls)
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_controls_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1620, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_controls_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1621, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_4 = NULL;
       __pyx_t_7 = 0;
@@ -44498,20 +44514,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_v_update_btn};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1620, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1621, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1622
+      /* "gui.py":1623
  *             controls_layout.addWidget(update_btn)
  * 
  *             layout.addWidget(controls)             # <<<<<<<<<<<<<<
  * 
  *             def update_plot():
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1622, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1623, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_4 = NULL;
       __pyx_t_7 = 0;
@@ -44531,34 +44547,34 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_v_controls};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1622, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1623, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1624
+      /* "gui.py":1625
  *             layout.addWidget(controls)
  * 
  *             def update_plot():             # <<<<<<<<<<<<<<
  *                 plt.close('all')
  * 
  */
-      __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_16view_sample_data_1update_plot, 0, __pyx_n_s_MainWindow_view_sample_data_loca, ((PyObject*)__pyx_cur_scope), __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__45)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1624, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_16view_sample_data_1update_plot, 0, __pyx_n_s_MainWindow_view_sample_data_loca, ((PyObject*)__pyx_cur_scope), __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__44)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1625, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_v_update_plot = __pyx_t_5;
       __pyx_t_5 = 0;
 
-      /* "gui.py":1778
+      /* "gui.py":1779
  *                     )
  * 
  *             update_btn.clicked.connect(update_plot)             # <<<<<<<<<<<<<<
  * 
  *             # Initial plot
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_update_btn, __pyx_n_s_clicked); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1778, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_update_btn, __pyx_n_s_clicked); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1779, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_connect); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1778, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_connect); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1779, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __pyx_t_10 = NULL;
@@ -44579,64 +44595,31 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
         PyObject *__pyx_callargs[2] = {__pyx_t_10, __pyx_v_update_plot};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1778, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1779, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1781
+      /* "gui.py":1782
  * 
  *             # Initial plot
  *             update_plot()             # <<<<<<<<<<<<<<
  * 
  *             # Show window
  */
-      __pyx_t_5 = __pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(__pyx_v_update_plot); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1781, __pyx_L3_error)
+      __pyx_t_5 = __pyx_pf_3gui_10MainWindow_16view_sample_data_update_plot(__pyx_v_update_plot); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1782, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1784
+      /* "gui.py":1785
  * 
  *             # Show window
  *             plot_window.show()             # <<<<<<<<<<<<<<
  *             plot_window.raise_()
  *             plot_window.activateWindow()
  */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot_window, __pyx_n_s_show); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1784, __pyx_L3_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_10 = NULL;
-      __pyx_t_7 = 0;
-      #if CYTHON_UNPACK_METHODS
-      if (likely(PyMethod_Check(__pyx_t_4))) {
-        __pyx_t_10 = PyMethod_GET_SELF(__pyx_t_4);
-        if (likely(__pyx_t_10)) {
-          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
-          __Pyx_INCREF(__pyx_t_10);
-          __Pyx_INCREF(function);
-          __Pyx_DECREF_SET(__pyx_t_4, function);
-          __pyx_t_7 = 1;
-        }
-      }
-      #endif
-      {
-        PyObject *__pyx_callargs[2] = {__pyx_t_10, NULL};
-        __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
-        __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1784, __pyx_L3_error)
-        __Pyx_GOTREF(__pyx_t_5);
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      }
-      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-
-      /* "gui.py":1785
- *             # Show window
- *             plot_window.show()
- *             plot_window.raise_()             # <<<<<<<<<<<<<<
- *             plot_window.activateWindow()
- * 
- */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot_window, __pyx_n_s_raise); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1785, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot_window, __pyx_n_s_show); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1785, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_10 = NULL;
       __pyx_t_7 = 0;
@@ -44663,13 +44646,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
       /* "gui.py":1786
+ *             # Show window
  *             plot_window.show()
- *             plot_window.raise_()
- *             plot_window.activateWindow()             # <<<<<<<<<<<<<<
+ *             plot_window.raise_()             # <<<<<<<<<<<<<<
+ *             plot_window.activateWindow()
  * 
- *             # Store reference
  */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot_window, __pyx_n_s_activateWindow); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1786, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot_window, __pyx_n_s_raise); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1786, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_10 = NULL;
       __pyx_t_7 = 0;
@@ -44695,16 +44678,49 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1789
+      /* "gui.py":1787
+ *             plot_window.show()
+ *             plot_window.raise_()
+ *             plot_window.activateWindow()             # <<<<<<<<<<<<<<
+ * 
+ *             # Store reference
+ */
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot_window, __pyx_n_s_activateWindow); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1787, __pyx_L3_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __pyx_t_10 = NULL;
+      __pyx_t_7 = 0;
+      #if CYTHON_UNPACK_METHODS
+      if (likely(PyMethod_Check(__pyx_t_4))) {
+        __pyx_t_10 = PyMethod_GET_SELF(__pyx_t_4);
+        if (likely(__pyx_t_10)) {
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+          __Pyx_INCREF(__pyx_t_10);
+          __Pyx_INCREF(function);
+          __Pyx_DECREF_SET(__pyx_t_4, function);
+          __pyx_t_7 = 1;
+        }
+      }
+      #endif
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_10, NULL};
+        __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
+        __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1787, __pyx_L3_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      }
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+      /* "gui.py":1790
  * 
  *             # Store reference
  *             self._plot_window = plot_window             # <<<<<<<<<<<<<<
  * 
  *         except Exception as e:
  */
-      if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_plot_window, __pyx_v_plot_window) < 0) __PYX_ERR(0, 1789, __pyx_L3_error)
+      if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_plot_window, __pyx_v_plot_window) < 0) __PYX_ERR(0, 1790, __pyx_L3_error)
 
-      /* "gui.py":1559
+      /* "gui.py":1560
  *     def view_sample_data(self, index, *args):
  *         """View selected sample data file"""
  *         try:             # <<<<<<<<<<<<<<
@@ -44722,7 +44738,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gui.py":1791
+    /* "gui.py":1792
  *             self._plot_window = plot_window
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -44732,7 +44748,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
     __pyx_t_11 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_11) {
       __Pyx_AddTraceback("gui.MainWindow.view_sample_data", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_4, &__pyx_t_10) < 0) __PYX_ERR(0, 1791, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_4, &__pyx_t_10) < 0) __PYX_ERR(0, 1792, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_4);
       __Pyx_XGOTREF(__pyx_t_10);
@@ -44740,18 +44756,18 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
       __pyx_v_e = __pyx_t_4;
       /*try:*/ {
 
-        /* "gui.py":1792
+        /* "gui.py":1793
  * 
  *         except Exception as e:
  *             self.add_status_message(f"Error viewing sample data: {str(e)}")             # <<<<<<<<<<<<<<
  * 
  *     def apply_channel_config(self, *args):
  */
-        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1792, __pyx_L15_error)
+        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1793, __pyx_L15_error)
         __Pyx_GOTREF(__pyx_t_12);
-        __pyx_t_13 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 1792, __pyx_L15_error)
+        __pyx_t_13 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 1793, __pyx_L15_error)
         __Pyx_GOTREF(__pyx_t_13);
-        __pyx_t_14 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_viewing_sample_data, __pyx_t_13); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1792, __pyx_L15_error)
+        __pyx_t_14 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_viewing_sample_data, __pyx_t_13); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1793, __pyx_L15_error)
         __Pyx_GOTREF(__pyx_t_14);
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
         __pyx_t_13 = NULL;
@@ -44773,14 +44789,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
           __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_12, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
           __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1792, __pyx_L15_error)
+          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1793, __pyx_L15_error)
           __Pyx_GOTREF(__pyx_t_6);
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
         }
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
 
-      /* "gui.py":1791
+      /* "gui.py":1792
  *             self._plot_window = plot_window
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -44836,7 +44852,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
     }
     goto __pyx_L5_except_error;
 
-    /* "gui.py":1559
+    /* "gui.py":1560
  *     def view_sample_data(self, index, *args):
  *         """View selected sample data file"""
  *         try:             # <<<<<<<<<<<<<<
@@ -44863,7 +44879,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
     __pyx_L8_try_end:;
   }
 
-  /* "gui.py":1557
+  /* "gui.py":1558
  *             return []
  * 
  *     def view_sample_data(self, index, *args):             # <<<<<<<<<<<<<<
@@ -44902,7 +44918,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_68view_sample_data(CYTHON_UNUSED PyO
   return __pyx_r;
 }
 
-/* "gui.py":1794
+/* "gui.py":1795
  *             self.add_status_message(f"Error viewing sample data: {str(e)}")
  * 
  *     def apply_channel_config(self, *args):             # <<<<<<<<<<<<<<
@@ -44971,13 +44987,13 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1794, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1795, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
         const Py_ssize_t used_pos_args = (kwd_pos_args < 1) ? kwd_pos_args : 1;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "apply_channel_config") < 0)) __PYX_ERR(0, 1794, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "apply_channel_config") < 0)) __PYX_ERR(0, 1795, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs < 1)) {
       goto __pyx_L5_argtuple_error;
@@ -44988,7 +45004,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("apply_channel_config", 0, 1, 1, __pyx_nargs); __PYX_ERR(0, 1794, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("apply_channel_config", 0, 1, 1, __pyx_nargs); __PYX_ERR(0, 1795, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -45057,7 +45073,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("apply_channel_config", 1);
 
-  /* "gui.py":1796
+  /* "gui.py":1797
  *     def apply_channel_config(self, *args):
  *         """Apply channel configuration"""
  *         try:             # <<<<<<<<<<<<<<
@@ -45073,7 +45089,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "gui.py":1798
+      /* "gui.py":1799
  *         try:
  *             # Validate all names are unique and not empty
  *             new_names = [input.text().strip() for input in self.channel_names.values()]             # <<<<<<<<<<<<<<
@@ -45081,16 +45097,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
  *                 self.add_status_message("Error: Channel names must be unique and not empty")
  */
       { /* enter inner scope */
-        __pyx_t_4 = PyList_New(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1798, __pyx_L11_error)
+        __pyx_t_4 = PyList_New(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1799, __pyx_L11_error)
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_6 = 0;
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_names); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1798, __pyx_L11_error)
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_names); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1799, __pyx_L11_error)
         __Pyx_GOTREF(__pyx_t_9);
         if (unlikely(__pyx_t_9 == Py_None)) {
           PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "values");
-          __PYX_ERR(0, 1798, __pyx_L11_error)
+          __PYX_ERR(0, 1799, __pyx_L11_error)
         }
-        __pyx_t_10 = __Pyx_dict_iterator(__pyx_t_9, 0, __pyx_n_s_values, (&__pyx_t_7), (&__pyx_t_8)); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1798, __pyx_L11_error)
+        __pyx_t_10 = __Pyx_dict_iterator(__pyx_t_9, 0, __pyx_n_s_values, (&__pyx_t_7), (&__pyx_t_8)); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1799, __pyx_L11_error)
         __Pyx_GOTREF(__pyx_t_10);
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         __Pyx_XDECREF(__pyx_t_5);
@@ -45099,11 +45115,11 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
         while (1) {
           __pyx_t_11 = __Pyx_dict_iter_next(__pyx_t_5, __pyx_t_7, &__pyx_t_6, NULL, &__pyx_t_10, NULL, __pyx_t_8);
           if (unlikely(__pyx_t_11 == 0)) break;
-          if (unlikely(__pyx_t_11 == -1)) __PYX_ERR(0, 1798, __pyx_L11_error)
+          if (unlikely(__pyx_t_11 == -1)) __PYX_ERR(0, 1799, __pyx_L11_error)
           __Pyx_GOTREF(__pyx_t_10);
           __Pyx_XDECREF_SET(__pyx_8genexpr7__pyx_v_input, __pyx_t_10);
           __pyx_t_10 = 0;
-          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_8genexpr7__pyx_v_input, __pyx_n_s_text); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1798, __pyx_L11_error)
+          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_8genexpr7__pyx_v_input, __pyx_n_s_text); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1799, __pyx_L11_error)
           __Pyx_GOTREF(__pyx_t_12);
           __pyx_t_13 = NULL;
           __pyx_t_14 = 0;
@@ -45123,11 +45139,11 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
             PyObject *__pyx_callargs[2] = {__pyx_t_13, NULL};
             __pyx_t_9 = __Pyx_PyObject_FastCall(__pyx_t_12, __pyx_callargs+1-__pyx_t_14, 0+__pyx_t_14);
             __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
-            if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1798, __pyx_L11_error)
+            if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1799, __pyx_L11_error)
             __Pyx_GOTREF(__pyx_t_9);
             __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
           }
-          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_n_s_strip); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1798, __pyx_L11_error)
+          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_n_s_strip); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1799, __pyx_L11_error)
           __Pyx_GOTREF(__pyx_t_12);
           __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
           __pyx_t_9 = NULL;
@@ -45148,11 +45164,11 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
             PyObject *__pyx_callargs[2] = {__pyx_t_9, NULL};
             __pyx_t_10 = __Pyx_PyObject_FastCall(__pyx_t_12, __pyx_callargs+1-__pyx_t_14, 0+__pyx_t_14);
             __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-            if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1798, __pyx_L11_error)
+            if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1799, __pyx_L11_error)
             __Pyx_GOTREF(__pyx_t_10);
             __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
           }
-          if (unlikely(__Pyx_ListComp_Append(__pyx_t_4, (PyObject*)__pyx_t_10))) __PYX_ERR(0, 1798, __pyx_L11_error)
+          if (unlikely(__Pyx_ListComp_Append(__pyx_t_4, (PyObject*)__pyx_t_10))) __PYX_ERR(0, 1799, __pyx_L11_error)
           __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
         }
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -45166,37 +45182,37 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
       __pyx_v_new_names = ((PyObject*)__pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "gui.py":1799
+      /* "gui.py":1800
  *             # Validate all names are unique and not empty
  *             new_names = [input.text().strip() for input in self.channel_names.values()]
  *             if len(set(new_names)) != len(new_names) or '' in new_names:             # <<<<<<<<<<<<<<
  *                 self.add_status_message("Error: Channel names must be unique and not empty")
  *                 return
  */
-      __pyx_t_4 = PySet_New(__pyx_v_new_names); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1799, __pyx_L3_error)
+      __pyx_t_4 = PySet_New(__pyx_v_new_names); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1800, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_7 = __Pyx_PySet_GET_SIZE(__pyx_t_4); if (unlikely(__pyx_t_7 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1799, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PySet_GET_SIZE(__pyx_t_4); if (unlikely(__pyx_t_7 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1800, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_6 = __Pyx_PyList_GET_SIZE(__pyx_v_new_names); if (unlikely(__pyx_t_6 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1799, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyList_GET_SIZE(__pyx_v_new_names); if (unlikely(__pyx_t_6 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1800, __pyx_L3_error)
       __pyx_t_16 = (__pyx_t_7 != __pyx_t_6);
       if (!__pyx_t_16) {
       } else {
         __pyx_t_15 = __pyx_t_16;
         goto __pyx_L16_bool_binop_done;
       }
-      __pyx_t_16 = (__Pyx_PySequence_ContainsTF(__pyx_kp_u__23, __pyx_v_new_names, Py_EQ)); if (unlikely((__pyx_t_16 < 0))) __PYX_ERR(0, 1799, __pyx_L3_error)
+      __pyx_t_16 = (__Pyx_PySequence_ContainsTF(__pyx_kp_u__23, __pyx_v_new_names, Py_EQ)); if (unlikely((__pyx_t_16 < 0))) __PYX_ERR(0, 1800, __pyx_L3_error)
       __pyx_t_15 = __pyx_t_16;
       __pyx_L16_bool_binop_done:;
       if (__pyx_t_15) {
 
-        /* "gui.py":1800
+        /* "gui.py":1801
  *             new_names = [input.text().strip() for input in self.channel_names.values()]
  *             if len(set(new_names)) != len(new_names) or '' in new_names:
  *                 self.add_status_message("Error: Channel names must be unique and not empty")             # <<<<<<<<<<<<<<
  *                 return
  * 
  */
-        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1800, __pyx_L3_error)
+        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1801, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __pyx_t_10 = NULL;
         __pyx_t_14 = 0;
@@ -45216,13 +45232,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
           PyObject *__pyx_callargs[2] = {__pyx_t_10, __pyx_kp_u_Error_Channel_names_must_be_uniq};
           __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_14, 1+__pyx_t_14);
           __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1800, __pyx_L3_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1801, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_4);
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "gui.py":1801
+        /* "gui.py":1802
  *             if len(set(new_names)) != len(new_names) or '' in new_names:
  *                 self.add_status_message("Error: Channel names must be unique and not empty")
  *                 return             # <<<<<<<<<<<<<<
@@ -45233,7 +45249,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
         __pyx_r = Py_None; __Pyx_INCREF(Py_None);
         goto __pyx_L7_try_return;
 
-        /* "gui.py":1799
+        /* "gui.py":1800
  *             # Validate all names are unique and not empty
  *             new_names = [input.text().strip() for input in self.channel_names.values()]
  *             if len(set(new_names)) != len(new_names) or '' in new_names:             # <<<<<<<<<<<<<<
@@ -45242,7 +45258,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
  */
       }
 
-      /* "gui.py":1804
+      /* "gui.py":1805
  * 
  *             # Update plot titles and channel mapping
  *             for i, (original_name, input_widget) in enumerate(self.channel_names.items()):             # <<<<<<<<<<<<<<
@@ -45252,13 +45268,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
       __Pyx_INCREF(__pyx_int_0);
       __pyx_t_4 = __pyx_int_0;
       __pyx_t_6 = 0;
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_names); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1804, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_names); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1805, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       if (unlikely(__pyx_t_10 == Py_None)) {
         PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "items");
-        __PYX_ERR(0, 1804, __pyx_L3_error)
+        __PYX_ERR(0, 1805, __pyx_L3_error)
       }
-      __pyx_t_12 = __Pyx_dict_iterator(__pyx_t_10, 0, __pyx_n_s_items, (&__pyx_t_7), (&__pyx_t_8)); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1804, __pyx_L3_error)
+      __pyx_t_12 = __Pyx_dict_iterator(__pyx_t_10, 0, __pyx_n_s_items, (&__pyx_t_7), (&__pyx_t_8)); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1805, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_12);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __Pyx_XDECREF(__pyx_t_5);
@@ -45267,7 +45283,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
       while (1) {
         __pyx_t_11 = __Pyx_dict_iter_next(__pyx_t_5, __pyx_t_7, &__pyx_t_6, &__pyx_t_12, &__pyx_t_10, NULL, __pyx_t_8);
         if (unlikely(__pyx_t_11 == 0)) break;
-        if (unlikely(__pyx_t_11 == -1)) __PYX_ERR(0, 1804, __pyx_L3_error)
+        if (unlikely(__pyx_t_11 == -1)) __PYX_ERR(0, 1805, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_12);
         __Pyx_GOTREF(__pyx_t_10);
         __Pyx_XDECREF_SET(__pyx_v_original_name, __pyx_t_12);
@@ -45276,20 +45292,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
         __pyx_t_10 = 0;
         __Pyx_INCREF(__pyx_t_4);
         __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_4);
-        __pyx_t_10 = __Pyx_PyInt_AddObjC(__pyx_t_4, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1804, __pyx_L3_error)
+        __pyx_t_10 = __Pyx_PyInt_AddObjC(__pyx_t_4, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1805, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_10);
         __Pyx_DECREF(__pyx_t_4);
         __pyx_t_4 = __pyx_t_10;
         __pyx_t_10 = 0;
 
-        /* "gui.py":1805
+        /* "gui.py":1806
  *             # Update plot titles and channel mapping
  *             for i, (original_name, input_widget) in enumerate(self.channel_names.items()):
  *                 new_name = input_widget.text().strip()             # <<<<<<<<<<<<<<
  *                 plot = self.eeg_plot.getItem(i, 0)
  *                 plot.setTitle(new_name)
  */
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_input_widget, __pyx_n_s_text); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1805, __pyx_L3_error)
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_input_widget, __pyx_n_s_text); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1806, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_9);
         __pyx_t_13 = NULL;
         __pyx_t_14 = 0;
@@ -45309,11 +45325,11 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
           PyObject *__pyx_callargs[2] = {__pyx_t_13, NULL};
           __pyx_t_12 = __Pyx_PyObject_FastCall(__pyx_t_9, __pyx_callargs+1-__pyx_t_14, 0+__pyx_t_14);
           __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
-          if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1805, __pyx_L3_error)
+          if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1806, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_12);
           __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         }
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_n_s_strip); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1805, __pyx_L3_error)
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_n_s_strip); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1806, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_9);
         __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
         __pyx_t_12 = NULL;
@@ -45334,23 +45350,23 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
           PyObject *__pyx_callargs[2] = {__pyx_t_12, NULL};
           __pyx_t_10 = __Pyx_PyObject_FastCall(__pyx_t_9, __pyx_callargs+1-__pyx_t_14, 0+__pyx_t_14);
           __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
-          if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1805, __pyx_L3_error)
+          if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1806, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_10);
           __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         }
         __Pyx_XDECREF_SET(__pyx_v_new_name, __pyx_t_10);
         __pyx_t_10 = 0;
 
-        /* "gui.py":1806
+        /* "gui.py":1807
  *             for i, (original_name, input_widget) in enumerate(self.channel_names.items()):
  *                 new_name = input_widget.text().strip()
  *                 plot = self.eeg_plot.getItem(i, 0)             # <<<<<<<<<<<<<<
  *                 plot.setTitle(new_name)
  * 
  */
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_plot); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1806, __pyx_L3_error)
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_plot); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1807, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_9);
-        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_n_s_getItem); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1806, __pyx_L3_error)
+        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_n_s_getItem); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1807, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_12);
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         __pyx_t_9 = NULL;
@@ -45371,21 +45387,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
           PyObject *__pyx_callargs[3] = {__pyx_t_9, __pyx_v_i, __pyx_int_0};
           __pyx_t_10 = __Pyx_PyObject_FastCall(__pyx_t_12, __pyx_callargs+1-__pyx_t_14, 2+__pyx_t_14);
           __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-          if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1806, __pyx_L3_error)
+          if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1807, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_10);
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
         }
         __Pyx_XDECREF_SET(__pyx_v_plot, __pyx_t_10);
         __pyx_t_10 = 0;
 
-        /* "gui.py":1807
+        /* "gui.py":1808
  *                 new_name = input_widget.text().strip()
  *                 plot = self.eeg_plot.getItem(i, 0)
  *                 plot.setTitle(new_name)             # <<<<<<<<<<<<<<
  * 
  *             self.add_status_message("Channel configuration updated")
  */
-        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_setTitle); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1807, __pyx_L3_error)
+        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_setTitle); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1808, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_12);
         __pyx_t_9 = NULL;
         __pyx_t_14 = 0;
@@ -45405,7 +45421,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
           PyObject *__pyx_callargs[2] = {__pyx_t_9, __pyx_v_new_name};
           __pyx_t_10 = __Pyx_PyObject_FastCall(__pyx_t_12, __pyx_callargs+1-__pyx_t_14, 1+__pyx_t_14);
           __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-          if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1807, __pyx_L3_error)
+          if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1808, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_10);
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
         }
@@ -45414,14 +45430,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":1809
+      /* "gui.py":1810
  *                 plot.setTitle(new_name)
  * 
  *             self.add_status_message("Channel configuration updated")             # <<<<<<<<<<<<<<
  *         except Exception as e:
  *             self.add_status_message(f"Error applying channel configuration: {str(e)}")
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1809, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1810, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_10 = NULL;
       __pyx_t_14 = 0;
@@ -45441,13 +45457,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_10, __pyx_kp_u_Channel_configuration_updated};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_14, 1+__pyx_t_14);
         __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1809, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1810, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":1796
+      /* "gui.py":1797
  *     def apply_channel_config(self, *args):
  *         """Apply channel configuration"""
  *         try:             # <<<<<<<<<<<<<<
@@ -45467,7 +45483,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-    /* "gui.py":1810
+    /* "gui.py":1811
  * 
  *             self.add_status_message("Channel configuration updated")
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -45477,7 +45493,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
     __pyx_t_8 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_8) {
       __Pyx_AddTraceback("gui.MainWindow.apply_channel_config", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_5, &__pyx_t_10) < 0) __PYX_ERR(0, 1810, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_5, &__pyx_t_10) < 0) __PYX_ERR(0, 1811, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_4);
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_10);
@@ -45485,18 +45501,18 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
       __pyx_v_e = __pyx_t_5;
       /*try:*/ {
 
-        /* "gui.py":1811
+        /* "gui.py":1812
  *             self.add_status_message("Channel configuration updated")
  *         except Exception as e:
  *             self.add_status_message(f"Error applying channel configuration: {str(e)}")             # <<<<<<<<<<<<<<
  * 
  *     def update_plot_speed(self, *args):
  */
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1811, __pyx_L25_error)
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1812, __pyx_L25_error)
         __Pyx_GOTREF(__pyx_t_9);
-        __pyx_t_13 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 1811, __pyx_L25_error)
+        __pyx_t_13 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 1812, __pyx_L25_error)
         __Pyx_GOTREF(__pyx_t_13);
-        __pyx_t_17 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_applying_channel_configura, __pyx_t_13); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 1811, __pyx_L25_error)
+        __pyx_t_17 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_applying_channel_configura, __pyx_t_13); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 1812, __pyx_L25_error)
         __Pyx_GOTREF(__pyx_t_17);
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
         __pyx_t_13 = NULL;
@@ -45518,14 +45534,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
           __pyx_t_12 = __Pyx_PyObject_FastCall(__pyx_t_9, __pyx_callargs+1-__pyx_t_14, 1+__pyx_t_14);
           __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
           __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-          if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1811, __pyx_L25_error)
+          if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1812, __pyx_L25_error)
           __Pyx_GOTREF(__pyx_t_12);
           __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         }
         __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
       }
 
-      /* "gui.py":1810
+      /* "gui.py":1811
  * 
  *             self.add_status_message("Channel configuration updated")
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -45581,7 +45597,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
     }
     goto __pyx_L5_except_error;
 
-    /* "gui.py":1796
+    /* "gui.py":1797
  *     def apply_channel_config(self, *args):
  *         """Apply channel configuration"""
  *         try:             # <<<<<<<<<<<<<<
@@ -45608,7 +45624,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
     __pyx_L8_try_end:;
   }
 
-  /* "gui.py":1794
+  /* "gui.py":1795
  *             self.add_status_message(f"Error viewing sample data: {str(e)}")
  * 
  *     def apply_channel_config(self, *args):             # <<<<<<<<<<<<<<
@@ -45643,7 +45659,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_70apply_channel_config(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "gui.py":1813
+/* "gui.py":1814
  *             self.add_status_message(f"Error applying channel configuration: {str(e)}")
  * 
  *     def update_plot_speed(self, *args):             # <<<<<<<<<<<<<<
@@ -45712,13 +45728,13 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1813, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1814, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
         const Py_ssize_t used_pos_args = (kwd_pos_args < 1) ? kwd_pos_args : 1;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "update_plot_speed") < 0)) __PYX_ERR(0, 1813, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "update_plot_speed") < 0)) __PYX_ERR(0, 1814, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs < 1)) {
       goto __pyx_L5_argtuple_error;
@@ -45729,7 +45745,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("update_plot_speed", 0, 1, 1, __pyx_nargs); __PYX_ERR(0, 1813, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("update_plot_speed", 0, 1, 1, __pyx_nargs); __PYX_ERR(0, 1814, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -45772,16 +45788,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_72update_plot_speed(CYTHON_UNUSED Py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("update_plot_speed", 1);
 
-  /* "gui.py":1815
+  /* "gui.py":1816
  *     def update_plot_speed(self, *args):
  *         """Update the plot refresh rate"""
  *         speed = self.speed_slider.value()             # <<<<<<<<<<<<<<
  *         interval = int(1000 / speed)
  *         self.update_timer.setInterval(interval)
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_speed_slider); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1815, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_speed_slider); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1816, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_value); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1815, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_value); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1816, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -45802,38 +45818,38 @@ static PyObject *__pyx_pf_3gui_10MainWindow_72update_plot_speed(CYTHON_UNUSED Py
     PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1815, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1816, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
   __pyx_v_speed = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gui.py":1816
+  /* "gui.py":1817
  *         """Update the plot refresh rate"""
  *         speed = self.speed_slider.value()
  *         interval = int(1000 / speed)             # <<<<<<<<<<<<<<
  *         self.update_timer.setInterval(interval)
  * 
  */
-  __pyx_t_1 = __Pyx_PyNumber_Divide(__pyx_int_1000, __pyx_v_speed); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1816, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyNumber_Divide(__pyx_int_1000, __pyx_v_speed); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1817, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyNumber_Int(__pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1816, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyNumber_Int(__pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1817, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_interval = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "gui.py":1817
+  /* "gui.py":1818
  *         speed = self.speed_slider.value()
  *         interval = int(1000 / speed)
  *         self.update_timer.setInterval(interval)             # <<<<<<<<<<<<<<
  * 
  *     def train_dqn_model(self, *args):
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_update_timer); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1817, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_update_timer); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1818, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_setInterval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1817, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_setInterval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1818, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = NULL;
@@ -45854,13 +45870,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_72update_plot_speed(CYTHON_UNUSED Py
     PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_v_interval};
     __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1817, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1818, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":1813
+  /* "gui.py":1814
  *             self.add_status_message(f"Error applying channel configuration: {str(e)}")
  * 
  *     def update_plot_speed(self, *args):             # <<<<<<<<<<<<<<
@@ -45885,7 +45901,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_72update_plot_speed(CYTHON_UNUSED Py
   return __pyx_r;
 }
 
-/* "gui.py":1819
+/* "gui.py":1820
  *         self.update_timer.setInterval(interval)
  * 
  *     def train_dqn_model(self, *args):             # <<<<<<<<<<<<<<
@@ -45954,13 +45970,13 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1819, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1820, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
         const Py_ssize_t used_pos_args = (kwd_pos_args < 1) ? kwd_pos_args : 1;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "train_dqn_model") < 0)) __PYX_ERR(0, 1819, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "train_dqn_model") < 0)) __PYX_ERR(0, 1820, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs < 1)) {
       goto __pyx_L5_argtuple_error;
@@ -45971,7 +45987,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("train_dqn_model", 0, 1, 1, __pyx_nargs); __PYX_ERR(0, 1819, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("train_dqn_model", 0, 1, 1, __pyx_nargs); __PYX_ERR(0, 1820, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -46000,7 +46016,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-/* "gui.py":1854
+/* "gui.py":1855
  *             # Connect signals
  *             self.training_thread.progress.connect(
  *                 lambda msg: self.training_progress.append(msg)             # <<<<<<<<<<<<<<
@@ -46061,12 +46077,12 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1854, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1855, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda4") < 0)) __PYX_ERR(0, 1854, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda4") < 0)) __PYX_ERR(0, 1855, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs != 1)) {
       goto __pyx_L5_argtuple_error;
@@ -46077,7 +46093,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("lambda4", 1, 1, 1, __pyx_nargs); __PYX_ERR(0, 1854, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("lambda4", 1, 1, 1, __pyx_nargs); __PYX_ERR(0, 1855, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -46120,10 +46136,10 @@ static PyObject *__pyx_lambda_funcdef_lambda4(PyObject *__pyx_self, PyObject *__
   __pyx_outer_scope = (struct __pyx_obj_3gui___pyx_scope_struct_4_train_dqn_model *) __Pyx_CyFunction_GetClosure(__pyx_self);
   __pyx_cur_scope = __pyx_outer_scope;
   __Pyx_XDECREF(__pyx_r);
-  if (unlikely(!__pyx_cur_scope->__pyx_v_self)) { __Pyx_RaiseClosureNameError("self"); __PYX_ERR(0, 1854, __pyx_L1_error) }
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_progress); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1854, __pyx_L1_error)
+  if (unlikely(!__pyx_cur_scope->__pyx_v_self)) { __Pyx_RaiseClosureNameError("self"); __PYX_ERR(0, 1855, __pyx_L1_error) }
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_progress); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1855, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_append); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1854, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_append); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1855, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -46144,7 +46160,7 @@ static PyObject *__pyx_lambda_funcdef_lambda4(PyObject *__pyx_self, PyObject *__
     PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_v_msg};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1854, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1855, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
@@ -46165,7 +46181,7 @@ static PyObject *__pyx_lambda_funcdef_lambda4(PyObject *__pyx_self, PyObject *__
   return __pyx_r;
 }
 
-/* "gui.py":1857
+/* "gui.py":1858
  *             )
  *             self.training_thread.finished.connect(
  *                 lambda success, msg: self.handle_training_complete(success, msg)             # <<<<<<<<<<<<<<
@@ -46229,7 +46245,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1857, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1858, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
         CYTHON_FALLTHROUGH;
         case  1:
@@ -46237,14 +46253,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[1]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1857, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1858, __pyx_L3_error)
         else {
-          __Pyx_RaiseArgtupleInvalid("lambda5", 1, 2, 2, 1); __PYX_ERR(0, 1857, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("lambda5", 1, 2, 2, 1); __PYX_ERR(0, 1858, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda5") < 0)) __PYX_ERR(0, 1857, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda5") < 0)) __PYX_ERR(0, 1858, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs != 2)) {
       goto __pyx_L5_argtuple_error;
@@ -46257,7 +46273,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("lambda5", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 1857, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("lambda5", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 1858, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -46300,8 +46316,8 @@ static PyObject *__pyx_lambda_funcdef_lambda5(PyObject *__pyx_self, PyObject *__
   __pyx_outer_scope = (struct __pyx_obj_3gui___pyx_scope_struct_4_train_dqn_model *) __Pyx_CyFunction_GetClosure(__pyx_self);
   __pyx_cur_scope = __pyx_outer_scope;
   __Pyx_XDECREF(__pyx_r);
-  if (unlikely(!__pyx_cur_scope->__pyx_v_self)) { __Pyx_RaiseClosureNameError("self"); __PYX_ERR(0, 1857, __pyx_L1_error) }
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_handle_training_complete); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1857, __pyx_L1_error)
+  if (unlikely(!__pyx_cur_scope->__pyx_v_self)) { __Pyx_RaiseClosureNameError("self"); __PYX_ERR(0, 1858, __pyx_L1_error) }
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_handle_training_complete); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1858, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   __pyx_t_4 = 0;
@@ -46321,7 +46337,7 @@ static PyObject *__pyx_lambda_funcdef_lambda5(PyObject *__pyx_self, PyObject *__
     PyObject *__pyx_callargs[3] = {__pyx_t_3, __pyx_v_success, __pyx_v_msg};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 2+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1857, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1858, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
@@ -46342,7 +46358,7 @@ static PyObject *__pyx_lambda_funcdef_lambda5(PyObject *__pyx_self, PyObject *__
   return __pyx_r;
 }
 
-/* "gui.py":1819
+/* "gui.py":1820
  *         self.update_timer.setInterval(interval)
  * 
  *     def train_dqn_model(self, *args):             # <<<<<<<<<<<<<<
@@ -46390,7 +46406,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
   if (unlikely(!__pyx_cur_scope)) {
     __pyx_cur_scope = ((struct __pyx_obj_3gui___pyx_scope_struct_4_train_dqn_model *)Py_None);
     __Pyx_INCREF(Py_None);
-    __PYX_ERR(0, 1819, __pyx_L1_error)
+    __PYX_ERR(0, 1820, __pyx_L1_error)
   } else {
     __Pyx_GOTREF((PyObject *)__pyx_cur_scope);
   }
@@ -46398,7 +46414,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
   __Pyx_INCREF(__pyx_cur_scope->__pyx_v_self);
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_self);
 
-  /* "gui.py":1821
+  /* "gui.py":1822
  *     def train_dqn_model(self, *args):
  *         """Train DQN model on current session data"""
  *         try:             # <<<<<<<<<<<<<<
@@ -46414,36 +46430,36 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "gui.py":1822
+      /* "gui.py":1823
  *         """Train DQN model on current session data"""
  *         try:
  *             if self.eeg_man.current_session_num is None:             # <<<<<<<<<<<<<<
  *                 raise ValueError("No session selected. Please select a session first.")
  * 
  */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1822, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1823, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_current_session_num); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1822, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_current_session_num); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1823, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __pyx_t_6 = (__pyx_t_5 == Py_None);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       if (unlikely(__pyx_t_6)) {
 
-        /* "gui.py":1823
+        /* "gui.py":1824
  *         try:
  *             if self.eeg_man.current_session_num is None:
  *                 raise ValueError("No session selected. Please select a session first.")             # <<<<<<<<<<<<<<
  * 
  *             self.training_progress.clear()
  */
-        __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__46, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1823, __pyx_L3_error)
+        __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__45, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1824, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_Raise(__pyx_t_5, 0, 0, 0);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        __PYX_ERR(0, 1823, __pyx_L3_error)
+        __PYX_ERR(0, 1824, __pyx_L3_error)
 
-        /* "gui.py":1822
+        /* "gui.py":1823
  *         """Train DQN model on current session data"""
  *         try:
  *             if self.eeg_man.current_session_num is None:             # <<<<<<<<<<<<<<
@@ -46452,16 +46468,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
  */
       }
 
-      /* "gui.py":1825
+      /* "gui.py":1826
  *                 raise ValueError("No session selected. Please select a session first.")
  * 
  *             self.training_progress.clear()             # <<<<<<<<<<<<<<
  *             self.training_progress.append("Initializing DQN training...")
  * 
  */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_progress); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1825, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_progress); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1826, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_clear); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1825, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_clear); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1826, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __pyx_t_4 = NULL;
@@ -46482,32 +46498,32 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
         PyObject *__pyx_callargs[2] = {__pyx_t_4, NULL};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_8, 0+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1825, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1826, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1826
+      /* "gui.py":1827
  * 
  *             self.training_progress.clear()
  *             self.training_progress.append("Initializing DQN training...")             # <<<<<<<<<<<<<<
  * 
  *             # Initialize the model
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_progress); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1826, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_progress); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1827, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_9 = __Pyx_PyObject_Append(__pyx_t_5, __pyx_kp_u_Initializing_DQN_training); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(0, 1826, __pyx_L3_error)
+      __pyx_t_9 = __Pyx_PyObject_Append(__pyx_t_5, __pyx_kp_u_Initializing_DQN_training); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(0, 1827, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1829
+      /* "gui.py":1830
  * 
  *             # Initialize the model
  *             dqn_model = AdaptiveDQNRLEEGNET()             # <<<<<<<<<<<<<<
  * 
  *             # Handle sample data differently
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_AdaptiveDQNRLEEGNET); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1829, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_AdaptiveDQNRLEEGNET); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1830, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_4 = NULL;
       __pyx_t_8 = 0;
@@ -46527,47 +46543,47 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
         PyObject *__pyx_callargs[2] = {__pyx_t_4, NULL};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_8, 0+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1829, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1830, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       }
       __pyx_v_dqn_model = __pyx_t_5;
       __pyx_t_5 = 0;
 
-      /* "gui.py":1832
+      /* "gui.py":1833
  * 
  *             # Handle sample data differently
  *             if self.eeg_man.current_session_num == 0:  # Sample data             # <<<<<<<<<<<<<<
  *                 combined_file = os.path.join(self.eeg_man.sample_dir, 'formatted', 'S03.fif')
  *             else:
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1832, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1833, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_current_session_num); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1832, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_current_session_num); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1833, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_6 = (__Pyx_PyInt_BoolEqObjC(__pyx_t_7, __pyx_int_0, 0, 0)); if (unlikely((__pyx_t_6 < 0))) __PYX_ERR(0, 1832, __pyx_L3_error)
+      __pyx_t_6 = (__Pyx_PyInt_BoolEqObjC(__pyx_t_7, __pyx_int_0, 0, 0)); if (unlikely((__pyx_t_6 < 0))) __PYX_ERR(0, 1833, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       if (__pyx_t_6) {
 
-        /* "gui.py":1833
+        /* "gui.py":1834
  *             # Handle sample data differently
  *             if self.eeg_man.current_session_num == 0:  # Sample data
  *                 combined_file = os.path.join(self.eeg_man.sample_dir, 'formatted', 'S03.fif')             # <<<<<<<<<<<<<<
  *             else:
  *                 # Regular session - combine files first
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_os); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1833, __pyx_L3_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_os); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1834, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_path); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1833, __pyx_L3_error)
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_path); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1834, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_join); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1833, __pyx_L3_error)
+        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_join); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1834, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1833, __pyx_L3_error)
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1834, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_sample_dir); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1833, __pyx_L3_error)
+        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_sample_dir); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1834, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_10);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __pyx_t_4 = NULL;
@@ -46589,14 +46605,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
           __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_8, 3+__pyx_t_8);
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1833, __pyx_L3_error)
+          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1834, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_7);
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         }
         __pyx_v_combined_file = __pyx_t_7;
         __pyx_t_7 = 0;
 
-        /* "gui.py":1832
+        /* "gui.py":1833
  * 
  *             # Handle sample data differently
  *             if self.eeg_man.current_session_num == 0:  # Sample data             # <<<<<<<<<<<<<<
@@ -46606,7 +46622,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
         goto __pyx_L10;
       }
 
-      /* "gui.py":1836
+      /* "gui.py":1837
  *             else:
  *                 # Regular session - combine files first
  *                 self.training_progress.append("Combining FIF files...")             # <<<<<<<<<<<<<<
@@ -46614,12 +46630,12 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
  *                     combined_file = self.eeg_man.combine_fif_files()
  */
       /*else*/ {
-        __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_progress); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1836, __pyx_L3_error)
+        __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_progress); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1837, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_7);
-        __pyx_t_9 = __Pyx_PyObject_Append(__pyx_t_7, __pyx_kp_u_Combining_FIF_files); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(0, 1836, __pyx_L3_error)
+        __pyx_t_9 = __Pyx_PyObject_Append(__pyx_t_7, __pyx_kp_u_Combining_FIF_files); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(0, 1837, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "gui.py":1837
+        /* "gui.py":1838
  *                 # Regular session - combine files first
  *                 self.training_progress.append("Combining FIF files...")
  *                 try:             # <<<<<<<<<<<<<<
@@ -46635,16 +46651,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
           __Pyx_XGOTREF(__pyx_t_13);
           /*try:*/ {
 
-            /* "gui.py":1838
+            /* "gui.py":1839
  *                 self.training_progress.append("Combining FIF files...")
  *                 try:
  *                     combined_file = self.eeg_man.combine_fif_files()             # <<<<<<<<<<<<<<
  *                     self.training_progress.append("Files combined successfully")
  *                 except Exception as e:
  */
-            __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1838, __pyx_L11_error)
+            __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1839, __pyx_L11_error)
             __Pyx_GOTREF(__pyx_t_5);
-            __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_combine_fif_files); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1838, __pyx_L11_error)
+            __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_combine_fif_files); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1839, __pyx_L11_error)
             __Pyx_GOTREF(__pyx_t_10);
             __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
             __pyx_t_5 = NULL;
@@ -46665,26 +46681,26 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
               PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
               __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_8, 0+__pyx_t_8);
               __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-              if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1838, __pyx_L11_error)
+              if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1839, __pyx_L11_error)
               __Pyx_GOTREF(__pyx_t_7);
               __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
             }
             __pyx_v_combined_file = __pyx_t_7;
             __pyx_t_7 = 0;
 
-            /* "gui.py":1839
+            /* "gui.py":1840
  *                 try:
  *                     combined_file = self.eeg_man.combine_fif_files()
  *                     self.training_progress.append("Files combined successfully")             # <<<<<<<<<<<<<<
  *                 except Exception as e:
  *                     raise Exception(f"Error combining files: {str(e)}")
  */
-            __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_progress); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1839, __pyx_L11_error)
+            __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_progress); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1840, __pyx_L11_error)
             __Pyx_GOTREF(__pyx_t_7);
-            __pyx_t_9 = __Pyx_PyObject_Append(__pyx_t_7, __pyx_kp_u_Files_combined_successfully); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(0, 1839, __pyx_L11_error)
+            __pyx_t_9 = __Pyx_PyObject_Append(__pyx_t_7, __pyx_kp_u_Files_combined_successfully); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(0, 1840, __pyx_L11_error)
             __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-            /* "gui.py":1837
+            /* "gui.py":1838
  *                 # Regular session - combine files first
  *                 self.training_progress.append("Combining FIF files...")
  *                 try:             # <<<<<<<<<<<<<<
@@ -46702,7 +46718,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-          /* "gui.py":1840
+          /* "gui.py":1841
  *                     combined_file = self.eeg_man.combine_fif_files()
  *                     self.training_progress.append("Files combined successfully")
  *                 except Exception as e:             # <<<<<<<<<<<<<<
@@ -46712,7 +46728,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
           __pyx_t_14 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
           if (__pyx_t_14) {
             __Pyx_AddTraceback("gui.MainWindow.train_dqn_model", __pyx_clineno, __pyx_lineno, __pyx_filename);
-            if (__Pyx_GetException(&__pyx_t_7, &__pyx_t_10, &__pyx_t_5) < 0) __PYX_ERR(0, 1840, __pyx_L13_except_error)
+            if (__Pyx_GetException(&__pyx_t_7, &__pyx_t_10, &__pyx_t_5) < 0) __PYX_ERR(0, 1841, __pyx_L13_except_error)
             __Pyx_XGOTREF(__pyx_t_7);
             __Pyx_XGOTREF(__pyx_t_10);
             __Pyx_XGOTREF(__pyx_t_5);
@@ -46720,27 +46736,27 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
             __pyx_v_e = __pyx_t_10;
             /*try:*/ {
 
-              /* "gui.py":1841
+              /* "gui.py":1842
  *                     self.training_progress.append("Files combined successfully")
  *                 except Exception as e:
  *                     raise Exception(f"Error combining files: {str(e)}")             # <<<<<<<<<<<<<<
  * 
  *             # Create and start training thread
  */
-              __pyx_t_4 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1841, __pyx_L22_error)
+              __pyx_t_4 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1842, __pyx_L22_error)
               __Pyx_GOTREF(__pyx_t_4);
-              __pyx_t_15 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_combining_files, __pyx_t_4); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1841, __pyx_L22_error)
+              __pyx_t_15 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_combining_files, __pyx_t_4); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1842, __pyx_L22_error)
               __Pyx_GOTREF(__pyx_t_15);
               __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-              __pyx_t_4 = __Pyx_PyObject_CallOneArg(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])), __pyx_t_15); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1841, __pyx_L22_error)
+              __pyx_t_4 = __Pyx_PyObject_CallOneArg(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])), __pyx_t_15); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1842, __pyx_L22_error)
               __Pyx_GOTREF(__pyx_t_4);
               __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
               __Pyx_Raise(__pyx_t_4, 0, 0, 0);
               __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-              __PYX_ERR(0, 1841, __pyx_L22_error)
+              __PYX_ERR(0, 1842, __pyx_L22_error)
             }
 
-            /* "gui.py":1840
+            /* "gui.py":1841
  *                     combined_file = self.eeg_man.combine_fif_files()
  *                     self.training_progress.append("Files combined successfully")
  *                 except Exception as e:             # <<<<<<<<<<<<<<
@@ -46785,7 +46801,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
           }
           goto __pyx_L13_except_error;
 
-          /* "gui.py":1837
+          /* "gui.py":1838
  *                 # Regular session - combine files first
  *                 self.training_progress.append("Combining FIF files...")
  *                 try:             # <<<<<<<<<<<<<<
@@ -46803,119 +46819,119 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
       }
       __pyx_L10:;
 
-      /* "gui.py":1844
+      /* "gui.py":1845
  * 
  *             # Create and start training thread
  *             self.training_thread = TrainingThread(             # <<<<<<<<<<<<<<
  *                 dqn_model,
  *                 combined_file,
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_TrainingThread); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1844, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_TrainingThread); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1845, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
 
-      /* "gui.py":1847
+      /* "gui.py":1848
  *                 dqn_model,
  *                 combined_file,
  *                 self.eeg_man.processed_dir,             # <<<<<<<<<<<<<<
  *                 is_sample=(self.eeg_man.current_session_num == 0),
  *                 eeg_man=self.eeg_man
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1847, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1848, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_processed_dir); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1847, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_processed_dir); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1848, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
-      /* "gui.py":1844
+      /* "gui.py":1845
  * 
  *             # Create and start training thread
  *             self.training_thread = TrainingThread(             # <<<<<<<<<<<<<<
  *                 dqn_model,
  *                 combined_file,
  */
-      __pyx_t_10 = PyTuple_New(3); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1844, __pyx_L3_error)
+      __pyx_t_10 = PyTuple_New(3); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1845, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_INCREF(__pyx_v_dqn_model);
       __Pyx_GIVEREF(__pyx_v_dqn_model);
-      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_v_dqn_model)) __PYX_ERR(0, 1844, __pyx_L3_error);
+      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_v_dqn_model)) __PYX_ERR(0, 1845, __pyx_L3_error);
       __Pyx_INCREF(__pyx_v_combined_file);
       __Pyx_GIVEREF(__pyx_v_combined_file);
-      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 1, __pyx_v_combined_file)) __PYX_ERR(0, 1844, __pyx_L3_error);
+      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 1, __pyx_v_combined_file)) __PYX_ERR(0, 1845, __pyx_L3_error);
       __Pyx_GIVEREF(__pyx_t_7);
-      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 2, __pyx_t_7)) __PYX_ERR(0, 1844, __pyx_L3_error);
+      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 2, __pyx_t_7)) __PYX_ERR(0, 1845, __pyx_L3_error);
       __pyx_t_7 = 0;
 
-      /* "gui.py":1848
+      /* "gui.py":1849
  *                 combined_file,
  *                 self.eeg_man.processed_dir,
  *                 is_sample=(self.eeg_man.current_session_num == 0),             # <<<<<<<<<<<<<<
  *                 eeg_man=self.eeg_man
  *             )
  */
-      __pyx_t_7 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1848, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1849, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1848, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1849, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_current_session_num); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1848, __pyx_L3_error)
+      __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_current_session_num); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1849, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_15);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyInt_EqObjC(__pyx_t_15, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1848, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyInt_EqObjC(__pyx_t_15, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1849, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
-      if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_is_sample, __pyx_t_4) < 0) __PYX_ERR(0, 1848, __pyx_L3_error)
+      if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_is_sample, __pyx_t_4) < 0) __PYX_ERR(0, 1849, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":1849
+      /* "gui.py":1850
  *                 self.eeg_man.processed_dir,
  *                 is_sample=(self.eeg_man.current_session_num == 0),
  *                 eeg_man=self.eeg_man             # <<<<<<<<<<<<<<
  *             )
  * 
  */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1849, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1850, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
-      if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_eeg_man, __pyx_t_4) < 0) __PYX_ERR(0, 1848, __pyx_L3_error)
+      if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_eeg_man, __pyx_t_4) < 0) __PYX_ERR(0, 1849, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":1844
+      /* "gui.py":1845
  * 
  *             # Create and start training thread
  *             self.training_thread = TrainingThread(             # <<<<<<<<<<<<<<
  *                 dqn_model,
  *                 combined_file,
  */
-      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_10, __pyx_t_7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1844, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_10, __pyx_t_7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1845, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (__Pyx_PyObject_SetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_thread, __pyx_t_4) < 0) __PYX_ERR(0, 1844, __pyx_L3_error)
+      if (__Pyx_PyObject_SetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_thread, __pyx_t_4) < 0) __PYX_ERR(0, 1845, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":1853
+      /* "gui.py":1854
  * 
  *             # Connect signals
  *             self.training_thread.progress.connect(             # <<<<<<<<<<<<<<
  *                 lambda msg: self.training_progress.append(msg)
  *             )
  */
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_thread); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1853, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_thread); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1854, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_progress); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1853, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_progress); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1854, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_connect); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1853, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_connect); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1854, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
-      /* "gui.py":1854
+      /* "gui.py":1855
  *             # Connect signals
  *             self.training_thread.progress.connect(
  *                 lambda msg: self.training_progress.append(msg)             # <<<<<<<<<<<<<<
  *             )
  *             self.training_thread.finished.connect(
  */
-      __pyx_t_10 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_15train_dqn_model_lambda4, 0, __pyx_n_s_MainWindow_train_dqn_model_local, ((PyObject*)__pyx_cur_scope), __pyx_n_s_gui, __pyx_d, NULL); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1854, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_15train_dqn_model_lambda4, 0, __pyx_n_s_MainWindow_train_dqn_model_local, ((PyObject*)__pyx_cur_scope), __pyx_n_s_gui, __pyx_d, NULL); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1855, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_5 = NULL;
       __pyx_t_8 = 0;
@@ -46936,36 +46952,36 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1853, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1854, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":1856
+      /* "gui.py":1857
  *                 lambda msg: self.training_progress.append(msg)
  *             )
  *             self.training_thread.finished.connect(             # <<<<<<<<<<<<<<
  *                 lambda success, msg: self.handle_training_complete(success, msg)
  *             )
  */
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_thread); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1856, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_thread); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1857, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_finished); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1856, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_finished); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1857, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_connect); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1856, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_connect); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1857, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
-      /* "gui.py":1857
+      /* "gui.py":1858
  *             )
  *             self.training_thread.finished.connect(
  *                 lambda success, msg: self.handle_training_complete(success, msg)             # <<<<<<<<<<<<<<
  *             )
  * 
  */
-      __pyx_t_10 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_15train_dqn_model_1lambda5, 0, __pyx_n_s_MainWindow_train_dqn_model_local, ((PyObject*)__pyx_cur_scope), __pyx_n_s_gui, __pyx_d, NULL); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1857, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_15train_dqn_model_1lambda5, 0, __pyx_n_s_MainWindow_train_dqn_model_local, ((PyObject*)__pyx_cur_scope), __pyx_n_s_gui, __pyx_d, NULL); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1858, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_5 = NULL;
       __pyx_t_8 = 0;
@@ -46986,22 +47002,22 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1856, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1857, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":1861
+      /* "gui.py":1862
  * 
  *             # Disable train button while training
  *             self.train_dqn_btn.setEnabled(False)             # <<<<<<<<<<<<<<
  * 
  *             # Start training in background
  */
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_train_dqn_btn); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1861, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_train_dqn_btn); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1862, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_setEnabled); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1861, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_setEnabled); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1862, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __pyx_t_7 = NULL;
@@ -47022,22 +47038,22 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
         PyObject *__pyx_callargs[2] = {__pyx_t_7, Py_False};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1861, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1862, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":1864
+      /* "gui.py":1865
  * 
  *             # Start training in background
  *             self.training_thread.start()             # <<<<<<<<<<<<<<
  * 
  *         except Exception as e:
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_thread); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1864, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_thread); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1865, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_start); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1864, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_start); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1865, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __pyx_t_10 = NULL;
@@ -47058,13 +47074,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
         PyObject *__pyx_callargs[2] = {__pyx_t_10, NULL};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_8, 0+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1864, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1865, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":1821
+      /* "gui.py":1822
  *     def train_dqn_model(self, *args):
  *         """Train DQN model on current session data"""
  *         try:             # <<<<<<<<<<<<<<
@@ -47083,7 +47099,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1866
+    /* "gui.py":1867
  *             self.training_thread.start()
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -47093,7 +47109,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
     __pyx_t_16 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_16) {
       __Pyx_AddTraceback("gui.MainWindow.train_dqn_model", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_7, &__pyx_t_10) < 0) __PYX_ERR(0, 1866, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_7, &__pyx_t_10) < 0) __PYX_ERR(0, 1867, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_4);
       __Pyx_XGOTREF(__pyx_t_7);
       __Pyx_XGOTREF(__pyx_t_10);
@@ -47101,26 +47117,26 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
       __Pyx_XDECREF_SET(__pyx_v_e, __pyx_t_7);
       /*try:*/ {
 
-        /* "gui.py":1867
+        /* "gui.py":1868
  * 
  *         except Exception as e:
  *             self.training_progress.append(f"Training error: {str(e)}")             # <<<<<<<<<<<<<<
  * 
  *     def handle_training_complete(self, success, message, *args):
  */
-        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_progress); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1867, __pyx_L33_error)
+        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_training_progress); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1868, __pyx_L33_error)
         __Pyx_GOTREF(__pyx_t_5);
-        __pyx_t_15 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1867, __pyx_L33_error)
+        __pyx_t_15 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1868, __pyx_L33_error)
         __Pyx_GOTREF(__pyx_t_15);
-        __pyx_t_24 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Training_error, __pyx_t_15); if (unlikely(!__pyx_t_24)) __PYX_ERR(0, 1867, __pyx_L33_error)
+        __pyx_t_24 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Training_error, __pyx_t_15); if (unlikely(!__pyx_t_24)) __PYX_ERR(0, 1868, __pyx_L33_error)
         __Pyx_GOTREF(__pyx_t_24);
         __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
-        __pyx_t_9 = __Pyx_PyObject_Append(__pyx_t_5, __pyx_t_24); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(0, 1867, __pyx_L33_error)
+        __pyx_t_9 = __Pyx_PyObject_Append(__pyx_t_5, __pyx_t_24); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(0, 1868, __pyx_L33_error)
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_24); __pyx_t_24 = 0;
       }
 
-      /* "gui.py":1866
+      /* "gui.py":1867
  *             self.training_thread.start()
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -47175,7 +47191,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
     }
     goto __pyx_L5_except_error;
 
-    /* "gui.py":1821
+    /* "gui.py":1822
  *     def train_dqn_model(self, *args):
  *         """Train DQN model on current session data"""
  *         try:             # <<<<<<<<<<<<<<
@@ -47196,7 +47212,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
     __pyx_L8_try_end:;
   }
 
-  /* "gui.py":1819
+  /* "gui.py":1820
  *         self.update_timer.setInterval(interval)
  * 
  *     def train_dqn_model(self, *args):             # <<<<<<<<<<<<<<
@@ -47226,7 +47242,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_74train_dqn_model(CYTHON_UNUSED PyOb
   return __pyx_r;
 }
 
-/* "gui.py":1869
+/* "gui.py":1870
  *             self.training_progress.append(f"Training error: {str(e)}")
  * 
  *     def handle_training_complete(self, success, message, *args):             # <<<<<<<<<<<<<<
@@ -47301,7 +47317,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1869, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1870, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
         CYTHON_FALLTHROUGH;
         case  1:
@@ -47309,9 +47325,9 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[1]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1869, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1870, __pyx_L3_error)
         else {
-          __Pyx_RaiseArgtupleInvalid("handle_training_complete", 0, 3, 3, 1); __PYX_ERR(0, 1869, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("handle_training_complete", 0, 3, 3, 1); __PYX_ERR(0, 1870, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
@@ -47319,15 +47335,15 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[2]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1869, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1870, __pyx_L3_error)
         else {
-          __Pyx_RaiseArgtupleInvalid("handle_training_complete", 0, 3, 3, 2); __PYX_ERR(0, 1869, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("handle_training_complete", 0, 3, 3, 2); __PYX_ERR(0, 1870, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
         const Py_ssize_t used_pos_args = (kwd_pos_args < 3) ? kwd_pos_args : 3;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "handle_training_complete") < 0)) __PYX_ERR(0, 1869, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "handle_training_complete") < 0)) __PYX_ERR(0, 1870, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs < 3)) {
       goto __pyx_L5_argtuple_error;
@@ -47342,7 +47358,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("handle_training_complete", 0, 3, 3, __pyx_nargs); __PYX_ERR(0, 1869, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("handle_training_complete", 0, 3, 3, __pyx_nargs); __PYX_ERR(0, 1870, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -47385,28 +47401,28 @@ static PyObject *__pyx_pf_3gui_10MainWindow_76handle_training_complete(CYTHON_UN
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("handle_training_complete", 1);
 
-  /* "gui.py":1871
+  /* "gui.py":1872
  *     def handle_training_complete(self, success, message, *args):
  *         """Handle completion of training thread"""
  *         self.training_progress.append(message)             # <<<<<<<<<<<<<<
  *         self.train_dqn_btn.setEnabled(True)
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_training_progress); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1871, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_training_progress); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1872, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_Append(__pyx_t_1, __pyx_v_message); if (unlikely(__pyx_t_2 == ((int)-1))) __PYX_ERR(0, 1871, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Append(__pyx_t_1, __pyx_v_message); if (unlikely(__pyx_t_2 == ((int)-1))) __PYX_ERR(0, 1872, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":1872
+  /* "gui.py":1873
  *         """Handle completion of training thread"""
  *         self.training_progress.append(message)
  *         self.train_dqn_btn.setEnabled(True)             # <<<<<<<<<<<<<<
  * 
  *         if success:
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_train_dqn_btn); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1872, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_train_dqn_btn); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1873, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_setEnabled); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1872, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_setEnabled); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1873, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -47427,30 +47443,30 @@ static PyObject *__pyx_pf_3gui_10MainWindow_76handle_training_complete(CYTHON_UN
     PyObject *__pyx_callargs[2] = {__pyx_t_3, Py_True};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_5, 1+__pyx_t_5);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1872, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1873, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":1874
+  /* "gui.py":1875
  *         self.train_dqn_btn.setEnabled(True)
  * 
  *         if success:             # <<<<<<<<<<<<<<
  *             self.add_status_message("Training completed successfully")
  *         else:
  */
-  __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_v_success); if (unlikely((__pyx_t_6 < 0))) __PYX_ERR(0, 1874, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_v_success); if (unlikely((__pyx_t_6 < 0))) __PYX_ERR(0, 1875, __pyx_L1_error)
   if (__pyx_t_6) {
 
-    /* "gui.py":1875
+    /* "gui.py":1876
  * 
  *         if success:
  *             self.add_status_message("Training completed successfully")             # <<<<<<<<<<<<<<
  *         else:
  *             self.add_status_message("Training failed - check progress log for details")
  */
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1875, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1876, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_3 = NULL;
     __pyx_t_5 = 0;
@@ -47470,13 +47486,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_76handle_training_complete(CYTHON_UN
       PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_kp_u_Training_completed_successfully};
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_5, 1+__pyx_t_5);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1875, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1876, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "gui.py":1874
+    /* "gui.py":1875
  *         self.train_dqn_btn.setEnabled(True)
  * 
  *         if success:             # <<<<<<<<<<<<<<
@@ -47486,7 +47502,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_76handle_training_complete(CYTHON_UN
     goto __pyx_L3;
   }
 
-  /* "gui.py":1877
+  /* "gui.py":1878
  *             self.add_status_message("Training completed successfully")
  *         else:
  *             self.add_status_message("Training failed - check progress log for details")             # <<<<<<<<<<<<<<
@@ -47494,7 +47510,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_76handle_training_complete(CYTHON_UN
  *     def apply_filters(self, data, *args):
  */
   /*else*/ {
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1877, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1878, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_3 = NULL;
     __pyx_t_5 = 0;
@@ -47514,7 +47530,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_76handle_training_complete(CYTHON_UN
       PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_kp_u_Training_failed_check_progress_l};
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_5, 1+__pyx_t_5);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1877, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1878, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     }
@@ -47522,7 +47538,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_76handle_training_complete(CYTHON_UN
   }
   __pyx_L3:;
 
-  /* "gui.py":1869
+  /* "gui.py":1870
  *             self.training_progress.append(f"Training error: {str(e)}")
  * 
  *     def handle_training_complete(self, success, message, *args):             # <<<<<<<<<<<<<<
@@ -47545,7 +47561,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_76handle_training_complete(CYTHON_UN
   return __pyx_r;
 }
 
-/* "gui.py":1879
+/* "gui.py":1880
  *             self.add_status_message("Training failed - check progress log for details")
  * 
  *     def apply_filters(self, data, *args):             # <<<<<<<<<<<<<<
@@ -47617,7 +47633,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1879, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1880, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
         CYTHON_FALLTHROUGH;
         case  1:
@@ -47625,15 +47641,15 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[1]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1879, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1880, __pyx_L3_error)
         else {
-          __Pyx_RaiseArgtupleInvalid("apply_filters", 0, 2, 2, 1); __PYX_ERR(0, 1879, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("apply_filters", 0, 2, 2, 1); __PYX_ERR(0, 1880, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
         const Py_ssize_t used_pos_args = (kwd_pos_args < 2) ? kwd_pos_args : 2;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "apply_filters") < 0)) __PYX_ERR(0, 1879, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "apply_filters") < 0)) __PYX_ERR(0, 1880, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs < 2)) {
       goto __pyx_L5_argtuple_error;
@@ -47646,7 +47662,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("apply_filters", 0, 2, 2, __pyx_nargs); __PYX_ERR(0, 1879, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("apply_filters", 0, 2, 2, __pyx_nargs); __PYX_ERR(0, 1880, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -47726,7 +47742,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("apply_filters", 1);
 
-  /* "gui.py":1881
+  /* "gui.py":1882
  *     def apply_filters(self, data, *args):
  *         """Apply bandpass filter to EEG data with buffering"""
  *         try:             # <<<<<<<<<<<<<<
@@ -47742,16 +47758,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "gui.py":1883
+      /* "gui.py":1884
  *         try:
  *             # Get filter parameters from UI
  *             lowcut = self.lowcut.value()             # <<<<<<<<<<<<<<
  *             highcut = self.highcut.value()
  * 
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_lowcut); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1883, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_lowcut); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1884, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_value); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1883, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_value); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1884, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_t_5 = NULL;
@@ -47772,23 +47788,23 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
         PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1883, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1884, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
       __pyx_v_lowcut = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "gui.py":1884
+      /* "gui.py":1885
  *             # Get filter parameters from UI
  *             lowcut = self.lowcut.value()
  *             highcut = self.highcut.value()             # <<<<<<<<<<<<<<
  * 
  *             # Get sampling rate using board_id
  */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_highcut); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1884, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_highcut); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1885, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_value); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1884, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_value); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1885, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = NULL;
@@ -47809,26 +47825,26 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1884, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1885, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __pyx_v_highcut = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "gui.py":1887
+      /* "gui.py":1888
  * 
  *             # Get sampling rate using board_id
  *             board_id = self.eeg_man.board.get_board_id()             # <<<<<<<<<<<<<<
  *             fs = BoardShim.get_sampling_rate(board_id)
  * 
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1887, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1888, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_board); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1887, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_board); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1888, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_get_board_id); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1887, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_get_board_id); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1888, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = NULL;
@@ -47849,23 +47865,23 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1887, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1888, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __pyx_v_board_id = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "gui.py":1888
+      /* "gui.py":1889
  *             # Get sampling rate using board_id
  *             board_id = self.eeg_man.board.get_board_id()
  *             fs = BoardShim.get_sampling_rate(board_id)             # <<<<<<<<<<<<<<
  * 
  *             # Design Butterworth bandpass filter
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_BoardShim); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1888, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_BoardShim); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1889, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_get_sampling_rate); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1888, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_get_sampling_rate); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1889, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_t_5 = NULL;
@@ -47886,50 +47902,50 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
         PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_v_board_id};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1888, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1889, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
       __pyx_v_fs = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "gui.py":1891
+      /* "gui.py":1892
  * 
  *             # Design Butterworth bandpass filter
  *             nyq = 0.5 * fs             # <<<<<<<<<<<<<<
  *             low = lowcut / nyq
  *             high = highcut / nyq
  */
-      __pyx_t_4 = PyNumber_Multiply(__pyx_float_0_5, __pyx_v_fs); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1891, __pyx_L3_error)
+      __pyx_t_4 = PyNumber_Multiply(__pyx_float_0_5, __pyx_v_fs); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1892, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_v_nyq = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "gui.py":1892
+      /* "gui.py":1893
  *             # Design Butterworth bandpass filter
  *             nyq = 0.5 * fs
  *             low = lowcut / nyq             # <<<<<<<<<<<<<<
  *             high = highcut / nyq
  *             order = 4
  */
-      __pyx_t_4 = __Pyx_PyNumber_Divide(__pyx_v_lowcut, __pyx_v_nyq); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1892, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyNumber_Divide(__pyx_v_lowcut, __pyx_v_nyq); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1893, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_v_low = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "gui.py":1893
+      /* "gui.py":1894
  *             nyq = 0.5 * fs
  *             low = lowcut / nyq
  *             high = highcut / nyq             # <<<<<<<<<<<<<<
  *             order = 4
  *             b, a = butter(order, [low, high], btype='band')
  */
-      __pyx_t_4 = __Pyx_PyNumber_Divide(__pyx_v_highcut, __pyx_v_nyq); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1893, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyNumber_Divide(__pyx_v_highcut, __pyx_v_nyq); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1894, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_v_high = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "gui.py":1894
+      /* "gui.py":1895
  *             low = lowcut / nyq
  *             high = highcut / nyq
  *             order = 4             # <<<<<<<<<<<<<<
@@ -47938,37 +47954,37 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
  */
       __pyx_v_order = 4;
 
-      /* "gui.py":1895
+      /* "gui.py":1896
  *             high = highcut / nyq
  *             order = 4
  *             b, a = butter(order, [low, high], btype='band')             # <<<<<<<<<<<<<<
  * 
  *             filtered_data = np.zeros_like(data)
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_butter); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1895, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_butter); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1896, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_6 = __Pyx_PyInt_From_long(__pyx_v_order); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1895, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyInt_From_long(__pyx_v_order); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1896, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_5 = PyList_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1895, __pyx_L3_error)
+      __pyx_t_5 = PyList_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1896, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_INCREF(__pyx_v_low);
       __Pyx_GIVEREF(__pyx_v_low);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 0, __pyx_v_low)) __PYX_ERR(0, 1895, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 0, __pyx_v_low)) __PYX_ERR(0, 1896, __pyx_L3_error);
       __Pyx_INCREF(__pyx_v_high);
       __Pyx_GIVEREF(__pyx_v_high);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 1, __pyx_v_high)) __PYX_ERR(0, 1895, __pyx_L3_error);
-      __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1895, __pyx_L3_error)
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 1, __pyx_v_high)) __PYX_ERR(0, 1896, __pyx_L3_error);
+      __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1896, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_GIVEREF(__pyx_t_6);
-      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_6)) __PYX_ERR(0, 1895, __pyx_L3_error);
+      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_6)) __PYX_ERR(0, 1896, __pyx_L3_error);
       __Pyx_GIVEREF(__pyx_t_5);
-      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_8, 1, __pyx_t_5)) __PYX_ERR(0, 1895, __pyx_L3_error);
+      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_8, 1, __pyx_t_5)) __PYX_ERR(0, 1896, __pyx_L3_error);
       __pyx_t_6 = 0;
       __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1895, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1896, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_btype, __pyx_n_u_band) < 0) __PYX_ERR(0, 1895, __pyx_L3_error)
-      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_8, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1895, __pyx_L3_error)
+      if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_btype, __pyx_n_u_band) < 0) __PYX_ERR(0, 1896, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_8, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1896, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -47979,7 +47995,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
         if (unlikely(size != 2)) {
           if (size > 2) __Pyx_RaiseTooManyValuesError(2);
           else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-          __PYX_ERR(0, 1895, __pyx_L3_error)
+          __PYX_ERR(0, 1896, __pyx_L3_error)
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
         if (likely(PyTuple_CheckExact(sequence))) {
@@ -47992,15 +48008,15 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
         __Pyx_INCREF(__pyx_t_5);
         __Pyx_INCREF(__pyx_t_8);
         #else
-        __pyx_t_5 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1895, __pyx_L3_error)
+        __pyx_t_5 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1896, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
-        __pyx_t_8 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1895, __pyx_L3_error)
+        __pyx_t_8 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1896, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_8);
         #endif
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       } else {
         Py_ssize_t index = -1;
-        __pyx_t_4 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1895, __pyx_L3_error)
+        __pyx_t_4 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1896, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         __pyx_t_9 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_4);
@@ -48008,7 +48024,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
         __Pyx_GOTREF(__pyx_t_5);
         index = 1; __pyx_t_8 = __pyx_t_9(__pyx_t_4); if (unlikely(!__pyx_t_8)) goto __pyx_L9_unpacking_failed;
         __Pyx_GOTREF(__pyx_t_8);
-        if (__Pyx_IternextUnpackEndCheck(__pyx_t_9(__pyx_t_4), 2) < 0) __PYX_ERR(0, 1895, __pyx_L3_error)
+        if (__Pyx_IternextUnpackEndCheck(__pyx_t_9(__pyx_t_4), 2) < 0) __PYX_ERR(0, 1896, __pyx_L3_error)
         __pyx_t_9 = NULL;
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         goto __pyx_L10_unpacking_done;
@@ -48016,7 +48032,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __pyx_t_9 = NULL;
         if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-        __PYX_ERR(0, 1895, __pyx_L3_error)
+        __PYX_ERR(0, 1896, __pyx_L3_error)
         __pyx_L10_unpacking_done:;
       }
       __pyx_v_b = __pyx_t_5;
@@ -48024,16 +48040,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
       __pyx_v_a = __pyx_t_8;
       __pyx_t_8 = 0;
 
-      /* "gui.py":1897
+      /* "gui.py":1898
  *             b, a = butter(order, [low, high], btype='band')
  * 
  *             filtered_data = np.zeros_like(data)             # <<<<<<<<<<<<<<
  * 
  *             # Process each channel
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_np); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1897, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_np); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1898, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_zeros_like); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1897, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_zeros_like); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1898, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __pyx_t_8 = NULL;
@@ -48054,26 +48070,26 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
         PyObject *__pyx_callargs[2] = {__pyx_t_8, __pyx_v_data};
         __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1897, __pyx_L3_error)
+        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1898, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __pyx_v_filtered_data = __pyx_t_6;
       __pyx_t_6 = 0;
 
-      /* "gui.py":1900
+      /* "gui.py":1901
  * 
  *             # Process each channel
  *             for i in range(data.shape[0]):             # <<<<<<<<<<<<<<
  *                 # Initialize buffer for this channel if it doesn't exist
  *                 if i not in self.data_buffer:
  */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_n_s_shape); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1900, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_n_s_shape); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1901, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_6, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1900, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_6, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1901, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1900, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1901, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       if (likely(PyList_CheckExact(__pyx_t_6)) || PyTuple_CheckExact(__pyx_t_6)) {
@@ -48081,9 +48097,9 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
         __pyx_t_10 = 0;
         __pyx_t_11 = NULL;
       } else {
-        __pyx_t_10 = -1; __pyx_t_5 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1900, __pyx_L3_error)
+        __pyx_t_10 = -1; __pyx_t_5 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1901, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
-        __pyx_t_11 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_5); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1900, __pyx_L3_error)
+        __pyx_t_11 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_5); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1901, __pyx_L3_error)
       }
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       for (;;) {
@@ -48092,28 +48108,28 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
             {
               Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_5);
               #if !CYTHON_ASSUME_SAFE_MACROS
-              if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1900, __pyx_L3_error)
+              if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1901, __pyx_L3_error)
               #endif
               if (__pyx_t_10 >= __pyx_temp) break;
             }
             #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-            __pyx_t_6 = PyList_GET_ITEM(__pyx_t_5, __pyx_t_10); __Pyx_INCREF(__pyx_t_6); __pyx_t_10++; if (unlikely((0 < 0))) __PYX_ERR(0, 1900, __pyx_L3_error)
+            __pyx_t_6 = PyList_GET_ITEM(__pyx_t_5, __pyx_t_10); __Pyx_INCREF(__pyx_t_6); __pyx_t_10++; if (unlikely((0 < 0))) __PYX_ERR(0, 1901, __pyx_L3_error)
             #else
-            __pyx_t_6 = __Pyx_PySequence_ITEM(__pyx_t_5, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1900, __pyx_L3_error)
+            __pyx_t_6 = __Pyx_PySequence_ITEM(__pyx_t_5, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1901, __pyx_L3_error)
             __Pyx_GOTREF(__pyx_t_6);
             #endif
           } else {
             {
               Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_5);
               #if !CYTHON_ASSUME_SAFE_MACROS
-              if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1900, __pyx_L3_error)
+              if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1901, __pyx_L3_error)
               #endif
               if (__pyx_t_10 >= __pyx_temp) break;
             }
             #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-            __pyx_t_6 = PyTuple_GET_ITEM(__pyx_t_5, __pyx_t_10); __Pyx_INCREF(__pyx_t_6); __pyx_t_10++; if (unlikely((0 < 0))) __PYX_ERR(0, 1900, __pyx_L3_error)
+            __pyx_t_6 = PyTuple_GET_ITEM(__pyx_t_5, __pyx_t_10); __Pyx_INCREF(__pyx_t_6); __pyx_t_10++; if (unlikely((0 < 0))) __PYX_ERR(0, 1901, __pyx_L3_error)
             #else
-            __pyx_t_6 = __Pyx_PySequence_ITEM(__pyx_t_5, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1900, __pyx_L3_error)
+            __pyx_t_6 = __Pyx_PySequence_ITEM(__pyx_t_5, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1901, __pyx_L3_error)
             __Pyx_GOTREF(__pyx_t_6);
             #endif
           }
@@ -48123,7 +48139,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
             PyObject* exc_type = PyErr_Occurred();
             if (exc_type) {
               if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-              else __PYX_ERR(0, 1900, __pyx_L3_error)
+              else __PYX_ERR(0, 1901, __pyx_L3_error)
             }
             break;
           }
@@ -48132,35 +48148,35 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
         __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_6);
         __pyx_t_6 = 0;
 
-        /* "gui.py":1902
+        /* "gui.py":1903
  *             for i in range(data.shape[0]):
  *                 # Initialize buffer for this channel if it doesn't exist
  *                 if i not in self.data_buffer:             # <<<<<<<<<<<<<<
  *                     self.data_buffer[i] = []
  * 
  */
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1902, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1903, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_12 = (__Pyx_PySequence_ContainsTF(__pyx_v_i, __pyx_t_6, Py_NE)); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 1902, __pyx_L3_error)
+        __pyx_t_12 = (__Pyx_PySequence_ContainsTF(__pyx_v_i, __pyx_t_6, Py_NE)); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 1903, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         if (__pyx_t_12) {
 
-          /* "gui.py":1903
+          /* "gui.py":1904
  *                 # Initialize buffer for this channel if it doesn't exist
  *                 if i not in self.data_buffer:
  *                     self.data_buffer[i] = []             # <<<<<<<<<<<<<<
  * 
  *                 # Convert current data to list and extend buffer
  */
-          __pyx_t_6 = PyList_New(0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1903, __pyx_L3_error)
+          __pyx_t_6 = PyList_New(0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1904, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_6);
-          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1903, __pyx_L3_error)
+          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1904, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_8);
-          if (unlikely((PyObject_SetItem(__pyx_t_8, __pyx_v_i, __pyx_t_6) < 0))) __PYX_ERR(0, 1903, __pyx_L3_error)
+          if (unlikely((PyObject_SetItem(__pyx_t_8, __pyx_v_i, __pyx_t_6) < 0))) __PYX_ERR(0, 1904, __pyx_L3_error)
           __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-          /* "gui.py":1902
+          /* "gui.py":1903
  *             for i in range(data.shape[0]):
  *                 # Initialize buffer for this channel if it doesn't exist
  *                 if i not in self.data_buffer:             # <<<<<<<<<<<<<<
@@ -48169,16 +48185,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
  */
         }
 
-        /* "gui.py":1906
+        /* "gui.py":1907
  * 
  *                 # Convert current data to list and extend buffer
  *                 current_data = data[i].tolist()             # <<<<<<<<<<<<<<
  *                 self.data_buffer[i].extend(current_data)
  * 
  */
-        __pyx_t_8 = __Pyx_PyObject_GetItem(__pyx_v_data, __pyx_v_i); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1906, __pyx_L3_error)
+        __pyx_t_8 = __Pyx_PyObject_GetItem(__pyx_v_data, __pyx_v_i); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1907, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_8);
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_tolist); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1906, __pyx_L3_error)
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_tolist); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1907, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
         __pyx_t_8 = NULL;
@@ -48199,26 +48215,26 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
           PyObject *__pyx_callargs[2] = {__pyx_t_8, NULL};
           __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1906, __pyx_L3_error)
+          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1907, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_6);
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         }
         __Pyx_XDECREF_SET(__pyx_v_current_data, __pyx_t_6);
         __pyx_t_6 = 0;
 
-        /* "gui.py":1907
+        /* "gui.py":1908
  *                 # Convert current data to list and extend buffer
  *                 current_data = data[i].tolist()
  *                 self.data_buffer[i].extend(current_data)             # <<<<<<<<<<<<<<
  * 
  *                 # Keep only the last N points to prevent memory issues
  */
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1907, __pyx_L3_error)
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1908, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_8 = __Pyx_PyObject_GetItem(__pyx_t_4, __pyx_v_i); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1907, __pyx_L3_error)
+        __pyx_t_8 = __Pyx_PyObject_GetItem(__pyx_t_4, __pyx_v_i); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1908, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_8);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_extend); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1907, __pyx_L3_error)
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_extend); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1908, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
         __pyx_t_8 = NULL;
@@ -48239,74 +48255,74 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
           PyObject *__pyx_callargs[2] = {__pyx_t_8, __pyx_v_current_data};
           __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1907, __pyx_L3_error)
+          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1908, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_6);
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         }
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-        /* "gui.py":1910
+        /* "gui.py":1911
  * 
  *                 # Keep only the last N points to prevent memory issues
  *                 max_buffer = self.min_buffer_size * 2  # Keep twice what we need             # <<<<<<<<<<<<<<
  *                 if len(self.data_buffer[i]) > max_buffer:
  *                     self.data_buffer[i] = self.data_buffer[i][-max_buffer:]
  */
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_min_buffer_size); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1910, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_min_buffer_size); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1911, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_4 = __Pyx_PyInt_MultiplyObjC(__pyx_t_6, __pyx_int_2, 2, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1910, __pyx_L3_error)
+        __pyx_t_4 = __Pyx_PyInt_MultiplyObjC(__pyx_t_6, __pyx_int_2, 2, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1911, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         __Pyx_XDECREF_SET(__pyx_v_max_buffer, __pyx_t_4);
         __pyx_t_4 = 0;
 
-        /* "gui.py":1911
+        /* "gui.py":1912
  *                 # Keep only the last N points to prevent memory issues
  *                 max_buffer = self.min_buffer_size * 2  # Keep twice what we need
  *                 if len(self.data_buffer[i]) > max_buffer:             # <<<<<<<<<<<<<<
  *                     self.data_buffer[i] = self.data_buffer[i][-max_buffer:]
  * 
  */
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1911, __pyx_L3_error)
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1912, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_t_4, __pyx_v_i); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1911, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_t_4, __pyx_v_i); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1912, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_13 = PyObject_Length(__pyx_t_6); if (unlikely(__pyx_t_13 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1911, __pyx_L3_error)
+        __pyx_t_13 = PyObject_Length(__pyx_t_6); if (unlikely(__pyx_t_13 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1912, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-        __pyx_t_6 = PyInt_FromSsize_t(__pyx_t_13); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1911, __pyx_L3_error)
+        __pyx_t_6 = PyInt_FromSsize_t(__pyx_t_13); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1912, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_4 = PyObject_RichCompare(__pyx_t_6, __pyx_v_max_buffer, Py_GT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1911, __pyx_L3_error)
+        __pyx_t_4 = PyObject_RichCompare(__pyx_t_6, __pyx_v_max_buffer, Py_GT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1912, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-        __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 1911, __pyx_L3_error)
+        __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 1912, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         if (__pyx_t_12) {
 
-          /* "gui.py":1912
+          /* "gui.py":1913
  *                 max_buffer = self.min_buffer_size * 2  # Keep twice what we need
  *                 if len(self.data_buffer[i]) > max_buffer:
  *                     self.data_buffer[i] = self.data_buffer[i][-max_buffer:]             # <<<<<<<<<<<<<<
  * 
  *                 # Apply filter if we have enough data
  */
-          __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1912, __pyx_L3_error)
+          __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1913, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_4);
-          __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_t_4, __pyx_v_i); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1912, __pyx_L3_error)
+          __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_t_4, __pyx_v_i); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1913, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_6);
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-          __pyx_t_4 = PyNumber_Negative(__pyx_v_max_buffer); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1912, __pyx_L3_error)
+          __pyx_t_4 = PyNumber_Negative(__pyx_v_max_buffer); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1913, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_4);
-          __pyx_t_8 = __Pyx_PyObject_GetSlice(__pyx_t_6, 0, 0, &__pyx_t_4, NULL, NULL, 0, 0, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1912, __pyx_L3_error)
+          __pyx_t_8 = __Pyx_PyObject_GetSlice(__pyx_t_6, 0, 0, &__pyx_t_4, NULL, NULL, 0, 0, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1913, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_8);
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-          __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1912, __pyx_L3_error)
+          __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1913, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_4);
-          if (unlikely((PyObject_SetItem(__pyx_t_4, __pyx_v_i, __pyx_t_8) < 0))) __PYX_ERR(0, 1912, __pyx_L3_error)
+          if (unlikely((PyObject_SetItem(__pyx_t_4, __pyx_v_i, __pyx_t_8) < 0))) __PYX_ERR(0, 1913, __pyx_L3_error)
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-          /* "gui.py":1911
+          /* "gui.py":1912
  *                 # Keep only the last N points to prevent memory issues
  *                 max_buffer = self.min_buffer_size * 2  # Keep twice what we need
  *                 if len(self.data_buffer[i]) > max_buffer:             # <<<<<<<<<<<<<<
@@ -48315,48 +48331,48 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
  */
         }
 
-        /* "gui.py":1915
+        /* "gui.py":1916
  * 
  *                 # Apply filter if we have enough data
  *                 if len(self.data_buffer[i]) >= self.min_buffer_size:             # <<<<<<<<<<<<<<
  *                     # Filter the buffered data
  *                     filtered_buffer = filtfilt(b, a, np.array(self.data_buffer[i]))
  */
-        __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1915, __pyx_L3_error)
+        __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1916, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_8);
-        __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_t_8, __pyx_v_i); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1915, __pyx_L3_error)
+        __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_t_8, __pyx_v_i); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1916, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-        __pyx_t_13 = PyObject_Length(__pyx_t_4); if (unlikely(__pyx_t_13 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1915, __pyx_L3_error)
+        __pyx_t_13 = PyObject_Length(__pyx_t_4); if (unlikely(__pyx_t_13 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1916, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = PyInt_FromSsize_t(__pyx_t_13); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1915, __pyx_L3_error)
+        __pyx_t_4 = PyInt_FromSsize_t(__pyx_t_13); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1916, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_min_buffer_size); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1915, __pyx_L3_error)
+        __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_min_buffer_size); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1916, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_8);
-        __pyx_t_6 = PyObject_RichCompare(__pyx_t_4, __pyx_t_8, Py_GE); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1915, __pyx_L3_error)
+        __pyx_t_6 = PyObject_RichCompare(__pyx_t_4, __pyx_t_8, Py_GE); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1916, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-        __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 1915, __pyx_L3_error)
+        __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 1916, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         if (__pyx_t_12) {
 
-          /* "gui.py":1917
+          /* "gui.py":1918
  *                 if len(self.data_buffer[i]) >= self.min_buffer_size:
  *                     # Filter the buffered data
  *                     filtered_buffer = filtfilt(b, a, np.array(self.data_buffer[i]))             # <<<<<<<<<<<<<<
  * 
  *                     # Ensure the filtered data length matches the input data length
  */
-          __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_filtfilt); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1917, __pyx_L3_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_filtfilt); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1918, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_8);
-          __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_n_s_np); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1917, __pyx_L3_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_n_s_np); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1918, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_14);
-          __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_n_s_array); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1917, __pyx_L3_error)
+          __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_n_s_array); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1918, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_15);
           __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-          __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1917, __pyx_L3_error)
+          __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_data_buffer); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1918, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_14);
-          __pyx_t_16 = __Pyx_PyObject_GetItem(__pyx_t_14, __pyx_v_i); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 1917, __pyx_L3_error)
+          __pyx_t_16 = __Pyx_PyObject_GetItem(__pyx_t_14, __pyx_v_i); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 1918, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_16);
           __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
           __pyx_t_14 = NULL;
@@ -48378,7 +48394,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
             __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_15, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
             __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
             __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1917, __pyx_L3_error)
+            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1918, __pyx_L3_error)
             __Pyx_GOTREF(__pyx_t_4);
             __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
           }
@@ -48401,49 +48417,49 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
             __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_8, __pyx_callargs+1-__pyx_t_7, 3+__pyx_t_7);
             __Pyx_XDECREF(__pyx_t_15); __pyx_t_15 = 0;
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-            if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1917, __pyx_L3_error)
+            if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1918, __pyx_L3_error)
             __Pyx_GOTREF(__pyx_t_6);
             __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
           }
           __Pyx_XDECREF_SET(__pyx_v_filtered_buffer, __pyx_t_6);
           __pyx_t_6 = 0;
 
-          /* "gui.py":1920
+          /* "gui.py":1921
  * 
  *                     # Ensure the filtered data length matches the input data length
  *                     if len(filtered_buffer) >= len(current_data):             # <<<<<<<<<<<<<<
  *                         start_idx = len(filtered_buffer) - len(current_data)
  *                         filtered_data[i] = filtered_buffer[start_idx:]
  */
-          __pyx_t_13 = PyObject_Length(__pyx_v_filtered_buffer); if (unlikely(__pyx_t_13 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1920, __pyx_L3_error)
-          __pyx_t_17 = PyObject_Length(__pyx_v_current_data); if (unlikely(__pyx_t_17 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1920, __pyx_L3_error)
+          __pyx_t_13 = PyObject_Length(__pyx_v_filtered_buffer); if (unlikely(__pyx_t_13 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1921, __pyx_L3_error)
+          __pyx_t_17 = PyObject_Length(__pyx_v_current_data); if (unlikely(__pyx_t_17 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1921, __pyx_L3_error)
           __pyx_t_12 = (__pyx_t_13 >= __pyx_t_17);
           if (__pyx_t_12) {
 
-            /* "gui.py":1921
+            /* "gui.py":1922
  *                     # Ensure the filtered data length matches the input data length
  *                     if len(filtered_buffer) >= len(current_data):
  *                         start_idx = len(filtered_buffer) - len(current_data)             # <<<<<<<<<<<<<<
  *                         filtered_data[i] = filtered_buffer[start_idx:]
  *                     else:
  */
-            __pyx_t_17 = PyObject_Length(__pyx_v_filtered_buffer); if (unlikely(__pyx_t_17 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1921, __pyx_L3_error)
-            __pyx_t_13 = PyObject_Length(__pyx_v_current_data); if (unlikely(__pyx_t_13 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1921, __pyx_L3_error)
+            __pyx_t_17 = PyObject_Length(__pyx_v_filtered_buffer); if (unlikely(__pyx_t_17 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1922, __pyx_L3_error)
+            __pyx_t_13 = PyObject_Length(__pyx_v_current_data); if (unlikely(__pyx_t_13 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1922, __pyx_L3_error)
             __pyx_v_start_idx = (__pyx_t_17 - __pyx_t_13);
 
-            /* "gui.py":1922
+            /* "gui.py":1923
  *                     if len(filtered_buffer) >= len(current_data):
  *                         start_idx = len(filtered_buffer) - len(current_data)
  *                         filtered_data[i] = filtered_buffer[start_idx:]             # <<<<<<<<<<<<<<
  *                     else:
  *                         # If filtered data is shorter, use the unfiltered data
  */
-            __pyx_t_6 = __Pyx_PyObject_GetSlice(__pyx_v_filtered_buffer, __pyx_v_start_idx, 0, NULL, NULL, NULL, 1, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1922, __pyx_L3_error)
+            __pyx_t_6 = __Pyx_PyObject_GetSlice(__pyx_v_filtered_buffer, __pyx_v_start_idx, 0, NULL, NULL, NULL, 1, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1923, __pyx_L3_error)
             __Pyx_GOTREF(__pyx_t_6);
-            if (unlikely((PyObject_SetItem(__pyx_v_filtered_data, __pyx_v_i, __pyx_t_6) < 0))) __PYX_ERR(0, 1922, __pyx_L3_error)
+            if (unlikely((PyObject_SetItem(__pyx_v_filtered_data, __pyx_v_i, __pyx_t_6) < 0))) __PYX_ERR(0, 1923, __pyx_L3_error)
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-            /* "gui.py":1920
+            /* "gui.py":1921
  * 
  *                     # Ensure the filtered data length matches the input data length
  *                     if len(filtered_buffer) >= len(current_data):             # <<<<<<<<<<<<<<
@@ -48453,7 +48469,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
             goto __pyx_L16;
           }
 
-          /* "gui.py":1925
+          /* "gui.py":1926
  *                     else:
  *                         # If filtered data is shorter, use the unfiltered data
  *                         filtered_data[i] = data[i]             # <<<<<<<<<<<<<<
@@ -48461,14 +48477,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
  *                     # Not enough data yet, use unfiltered data
  */
           /*else*/ {
-            __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_v_data, __pyx_v_i); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1925, __pyx_L3_error)
+            __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_v_data, __pyx_v_i); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1926, __pyx_L3_error)
             __Pyx_GOTREF(__pyx_t_6);
-            if (unlikely((PyObject_SetItem(__pyx_v_filtered_data, __pyx_v_i, __pyx_t_6) < 0))) __PYX_ERR(0, 1925, __pyx_L3_error)
+            if (unlikely((PyObject_SetItem(__pyx_v_filtered_data, __pyx_v_i, __pyx_t_6) < 0))) __PYX_ERR(0, 1926, __pyx_L3_error)
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           }
           __pyx_L16:;
 
-          /* "gui.py":1915
+          /* "gui.py":1916
  * 
  *                 # Apply filter if we have enough data
  *                 if len(self.data_buffer[i]) >= self.min_buffer_size:             # <<<<<<<<<<<<<<
@@ -48478,7 +48494,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
           goto __pyx_L15;
         }
 
-        /* "gui.py":1928
+        /* "gui.py":1929
  *                 else:
  *                     # Not enough data yet, use unfiltered data
  *                     filtered_data[i] = data[i]             # <<<<<<<<<<<<<<
@@ -48486,14 +48502,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
  *             return filtered_data
  */
         /*else*/ {
-          __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_v_data, __pyx_v_i); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1928, __pyx_L3_error)
+          __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_v_data, __pyx_v_i); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1929, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_6);
-          if (unlikely((PyObject_SetItem(__pyx_v_filtered_data, __pyx_v_i, __pyx_t_6) < 0))) __PYX_ERR(0, 1928, __pyx_L3_error)
+          if (unlikely((PyObject_SetItem(__pyx_v_filtered_data, __pyx_v_i, __pyx_t_6) < 0))) __PYX_ERR(0, 1929, __pyx_L3_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         }
         __pyx_L15:;
 
-        /* "gui.py":1900
+        /* "gui.py":1901
  * 
  *             # Process each channel
  *             for i in range(data.shape[0]):             # <<<<<<<<<<<<<<
@@ -48503,7 +48519,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":1930
+      /* "gui.py":1931
  *                     filtered_data[i] = data[i]
  * 
  *             return filtered_data             # <<<<<<<<<<<<<<
@@ -48515,7 +48531,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
       __pyx_r = __pyx_v_filtered_data;
       goto __pyx_L7_try_return;
 
-      /* "gui.py":1881
+      /* "gui.py":1882
  *     def apply_filters(self, data, *args):
  *         """Apply bandpass filter to EEG data with buffering"""
  *         try:             # <<<<<<<<<<<<<<
@@ -48532,7 +48548,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* "gui.py":1932
+    /* "gui.py":1933
  *             return filtered_data
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -48542,7 +48558,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
     __pyx_t_18 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_18) {
       __Pyx_AddTraceback("gui.MainWindow.apply_filters", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_8) < 0) __PYX_ERR(0, 1932, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_8) < 0) __PYX_ERR(0, 1933, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_8);
@@ -48550,18 +48566,18 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
       __pyx_v_e = __pyx_t_6;
       /*try:*/ {
 
-        /* "gui.py":1933
+        /* "gui.py":1934
  * 
  *         except Exception as e:
  *             self.add_status_message(f"Error applying filters: {str(e)}")             # <<<<<<<<<<<<<<
  *             return data  # Return original data if filtering fails
  * 
  */
-        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1933, __pyx_L23_error)
+        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1934, __pyx_L23_error)
         __Pyx_GOTREF(__pyx_t_15);
-        __pyx_t_16 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 1933, __pyx_L23_error)
+        __pyx_t_16 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 1934, __pyx_L23_error)
         __Pyx_GOTREF(__pyx_t_16);
-        __pyx_t_14 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_applying_filters, __pyx_t_16); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1933, __pyx_L23_error)
+        __pyx_t_14 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_applying_filters, __pyx_t_16); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1934, __pyx_L23_error)
         __Pyx_GOTREF(__pyx_t_14);
         __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
         __pyx_t_16 = NULL;
@@ -48583,13 +48599,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
           __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_15, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_16); __pyx_t_16 = 0;
           __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1933, __pyx_L23_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1934, __pyx_L23_error)
           __Pyx_GOTREF(__pyx_t_4);
           __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "gui.py":1934
+        /* "gui.py":1935
  *         except Exception as e:
  *             self.add_status_message(f"Error applying filters: {str(e)}")
  *             return data  # Return original data if filtering fails             # <<<<<<<<<<<<<<
@@ -48605,7 +48621,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
         goto __pyx_L22_return;
       }
 
-      /* "gui.py":1932
+      /* "gui.py":1933
  *             return filtered_data
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -48660,7 +48676,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
     }
     goto __pyx_L5_except_error;
 
-    /* "gui.py":1881
+    /* "gui.py":1882
  *     def apply_filters(self, data, *args):
  *         """Apply bandpass filter to EEG data with buffering"""
  *         try:             # <<<<<<<<<<<<<<
@@ -48687,7 +48703,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
     goto __pyx_L0;
   }
 
-  /* "gui.py":1879
+  /* "gui.py":1880
  *             self.add_status_message("Training failed - check progress log for details")
  * 
  *     def apply_filters(self, data, *args):             # <<<<<<<<<<<<<<
@@ -48727,7 +48743,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_78apply_filters(CYTHON_UNUSED PyObje
   return __pyx_r;
 }
 
-/* "gui.py":1936
+/* "gui.py":1937
  *             return data  # Return original data if filtering fails
  * 
  *     def stop_recording(self, *args):             # <<<<<<<<<<<<<<
@@ -48796,13 +48812,13 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1936, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1937, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
         const Py_ssize_t used_pos_args = (kwd_pos_args < 1) ? kwd_pos_args : 1;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "stop_recording") < 0)) __PYX_ERR(0, 1936, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "stop_recording") < 0)) __PYX_ERR(0, 1937, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs < 1)) {
       goto __pyx_L5_argtuple_error;
@@ -48813,7 +48829,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("stop_recording", 0, 1, 1, __pyx_nargs); __PYX_ERR(0, 1936, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("stop_recording", 0, 1, 1, __pyx_nargs); __PYX_ERR(0, 1937, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -48854,16 +48870,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_80stop_recording(CYTHON_UNUSED PyObj
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("stop_recording", 1);
 
-  /* "gui.py":1938
+  /* "gui.py":1939
  *     def stop_recording(self, *args):
  *         """Stop current recording"""
  *         self.recording_timer.stop()             # <<<<<<<<<<<<<<
  *         self.eeg_man.stop_recording()
  *         self.start_recording_btn.setEnabled(True)
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_recording_timer); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1938, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_recording_timer); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1939, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_stop); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1938, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_stop); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1939, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -48884,22 +48900,22 @@ static PyObject *__pyx_pf_3gui_10MainWindow_80stop_recording(CYTHON_UNUSED PyObj
     PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1938, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1939, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":1939
+  /* "gui.py":1940
  *         """Stop current recording"""
  *         self.recording_timer.stop()
  *         self.eeg_man.stop_recording()             # <<<<<<<<<<<<<<
  *         self.start_recording_btn.setEnabled(True)
  *         self.stop_recording_btn.setEnabled(False)
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1939, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1940, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_stop_recording); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1939, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_stop_recording); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1940, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -48920,22 +48936,22 @@ static PyObject *__pyx_pf_3gui_10MainWindow_80stop_recording(CYTHON_UNUSED PyObj
     PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1939, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1940, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":1940
+  /* "gui.py":1941
  *         self.recording_timer.stop()
  *         self.eeg_man.stop_recording()
  *         self.start_recording_btn.setEnabled(True)             # <<<<<<<<<<<<<<
  *         self.stop_recording_btn.setEnabled(False)
  *         self.start_break()  # Start break after recording stops
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_start_recording_btn); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1940, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_start_recording_btn); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1941, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_setEnabled); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1940, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_setEnabled); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1941, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -48956,22 +48972,22 @@ static PyObject *__pyx_pf_3gui_10MainWindow_80stop_recording(CYTHON_UNUSED PyObj
     PyObject *__pyx_callargs[2] = {__pyx_t_2, Py_True};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1940, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1941, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":1941
+  /* "gui.py":1942
  *         self.eeg_man.stop_recording()
  *         self.start_recording_btn.setEnabled(True)
  *         self.stop_recording_btn.setEnabled(False)             # <<<<<<<<<<<<<<
  *         self.start_break()  # Start break after recording stops
  *         self.add_status_message("Recording stopped")
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_stop_recording_btn); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1941, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_stop_recording_btn); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1942, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_setEnabled); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1941, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_setEnabled); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1942, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -48992,20 +49008,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_80stop_recording(CYTHON_UNUSED PyObj
     PyObject *__pyx_callargs[2] = {__pyx_t_3, Py_False};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1941, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1942, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":1942
+  /* "gui.py":1943
  *         self.start_recording_btn.setEnabled(True)
  *         self.stop_recording_btn.setEnabled(False)
  *         self.start_break()  # Start break after recording stops             # <<<<<<<<<<<<<<
  *         self.add_status_message("Recording stopped")
  * 
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_start_break); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1942, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_start_break); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1943, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   __pyx_t_4 = 0;
@@ -49025,20 +49041,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_80stop_recording(CYTHON_UNUSED PyObj
     PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1942, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1943, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":1943
+  /* "gui.py":1944
  *         self.stop_recording_btn.setEnabled(False)
  *         self.start_break()  # Start break after recording stops
  *         self.add_status_message("Recording stopped")             # <<<<<<<<<<<<<<
  * 
  *     def load_sample_as_session(self, *args):
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1943, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1944, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   __pyx_t_4 = 0;
@@ -49058,13 +49074,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_80stop_recording(CYTHON_UNUSED PyObj
     PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_kp_u_Recording_stopped};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1943, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1944, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":1936
+  /* "gui.py":1937
  *             return data  # Return original data if filtering fails
  * 
  *     def stop_recording(self, *args):             # <<<<<<<<<<<<<<
@@ -49087,7 +49103,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_80stop_recording(CYTHON_UNUSED PyObj
   return __pyx_r;
 }
 
-/* "gui.py":1945
+/* "gui.py":1946
  *         self.add_status_message("Recording stopped")
  * 
  *     def load_sample_as_session(self, *args):             # <<<<<<<<<<<<<<
@@ -49156,13 +49172,13 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1945, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1946, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
         const Py_ssize_t used_pos_args = (kwd_pos_args < 1) ? kwd_pos_args : 1;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "load_sample_as_session") < 0)) __PYX_ERR(0, 1945, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "load_sample_as_session") < 0)) __PYX_ERR(0, 1946, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs < 1)) {
       goto __pyx_L5_argtuple_error;
@@ -49173,7 +49189,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("load_sample_as_session", 0, 1, 1, __pyx_nargs); __PYX_ERR(0, 1945, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("load_sample_as_session", 0, 1, 1, __pyx_nargs); __PYX_ERR(0, 1946, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -49235,7 +49251,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("load_sample_as_session", 1);
 
-  /* "gui.py":1947
+  /* "gui.py":1948
  *     def load_sample_as_session(self, *args):
  *         """Load and train on sample data"""
  *         try:             # <<<<<<<<<<<<<<
@@ -49251,24 +49267,24 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "gui.py":1949
+      /* "gui.py":1950
  *         try:
  *             # Get path to S03.fif in sample_data
  *             sample_file = os.path.join(self.eeg_man.sample_dir, 'formatted', 'S03.fif')             # <<<<<<<<<<<<<<
  *             if not os.path.exists(sample_file):
  *                 self.add_status_message("Sample data (S03.fif) not found")
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_os); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1949, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_os); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1950, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_path); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1949, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_path); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1950, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_join); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1949, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_join); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1950, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1949, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1950, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_sample_dir); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1949, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_sample_dir); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1950, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = NULL;
@@ -49290,26 +49306,26 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_8, 3+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1949, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1950, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __pyx_v_sample_file = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "gui.py":1950
+      /* "gui.py":1951
  *             # Get path to S03.fif in sample_data
  *             sample_file = os.path.join(self.eeg_man.sample_dir, 'formatted', 'S03.fif')
  *             if not os.path.exists(sample_file):             # <<<<<<<<<<<<<<
  *                 self.add_status_message("Sample data (S03.fif) not found")
  *                 return
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_os); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1950, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_os); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1951, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_path); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1950, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_path); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1951, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_exists); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1950, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_exists); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1951, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __pyx_t_7 = NULL;
@@ -49330,23 +49346,23 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
         PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_v_sample_file};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1950, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1951, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
-      __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 1950, __pyx_L3_error)
+      __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 1951, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __pyx_t_10 = (!__pyx_t_9);
       if (__pyx_t_10) {
 
-        /* "gui.py":1951
+        /* "gui.py":1952
  *             sample_file = os.path.join(self.eeg_man.sample_dir, 'formatted', 'S03.fif')
  *             if not os.path.exists(sample_file):
  *                 self.add_status_message("Sample data (S03.fif) not found")             # <<<<<<<<<<<<<<
  *                 return
  * 
  */
-        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1951, __pyx_L3_error)
+        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1952, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __pyx_t_7 = NULL;
         __pyx_t_8 = 0;
@@ -49366,13 +49382,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
           PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_kp_u_Sample_data_S03_fif_not_found};
           __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1951, __pyx_L3_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1952, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_4);
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "gui.py":1952
+        /* "gui.py":1953
  *             if not os.path.exists(sample_file):
  *                 self.add_status_message("Sample data (S03.fif) not found")
  *                 return             # <<<<<<<<<<<<<<
@@ -49383,7 +49399,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
         __pyx_r = Py_None; __Pyx_INCREF(Py_None);
         goto __pyx_L7_try_return;
 
-        /* "gui.py":1950
+        /* "gui.py":1951
  *             # Get path to S03.fif in sample_data
  *             sample_file = os.path.join(self.eeg_man.sample_dir, 'formatted', 'S03.fif')
  *             if not os.path.exists(sample_file):             # <<<<<<<<<<<<<<
@@ -49392,30 +49408,30 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
  */
       }
 
-      /* "gui.py":1956
+      /* "gui.py":1957
  *             # Load the sample data directly
  *             #self.add_status_message(f"DEBUG setup_eeg: path = {sample_file}")
  *             raw = mne.io.read_raw_fif(sample_file, preload=True)             # <<<<<<<<<<<<<<
  *             self.eeg_man.raw_data = raw
  * 
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_mne); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1956, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_mne); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1957, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_io); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1956, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_io); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1957, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_read_raw_fif); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1956, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_read_raw_fif); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1957, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1956, __pyx_L3_error)
+      __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1957, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_INCREF(__pyx_v_sample_file);
       __Pyx_GIVEREF(__pyx_v_sample_file);
-      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_v_sample_file)) __PYX_ERR(0, 1956, __pyx_L3_error);
-      __pyx_t_7 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1956, __pyx_L3_error)
+      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_v_sample_file)) __PYX_ERR(0, 1957, __pyx_L3_error);
+      __pyx_t_7 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1957, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
-      if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_preload, Py_True) < 0) __PYX_ERR(0, 1956, __pyx_L3_error)
-      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_5, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1956, __pyx_L3_error)
+      if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_preload, Py_True) < 0) __PYX_ERR(0, 1957, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_5, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1957, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -49423,131 +49439,131 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
       __pyx_v_raw = __pyx_t_6;
       __pyx_t_6 = 0;
 
-      /* "gui.py":1957
+      /* "gui.py":1958
  *             #self.add_status_message(f"DEBUG setup_eeg: path = {sample_file}")
  *             raw = mne.io.read_raw_fif(sample_file, preload=True)
  *             self.eeg_man.raw_data = raw             # <<<<<<<<<<<<<<
  * 
  *             # Set default actions for sample data
  */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1957, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1958, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
-      if (__Pyx_PyObject_SetAttrStr(__pyx_t_6, __pyx_n_s_raw_data, __pyx_v_raw) < 0) __PYX_ERR(0, 1957, __pyx_L3_error)
+      if (__Pyx_PyObject_SetAttrStr(__pyx_t_6, __pyx_n_s_raw_data, __pyx_v_raw) < 0) __PYX_ERR(0, 1958, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "gui.py":1961
+      /* "gui.py":1962
  *             # Set default actions for sample data
  *             self.eeg_man.task_names = {
  *                 "Right_Hand": ["Right Hand Movement", 21],             # <<<<<<<<<<<<<<
  *                 "Left_Hand": ["Left Hand Movement", 21],
  *                 "Blinking": ["Blinking", 21],
  */
-      __pyx_t_6 = __Pyx_PyDict_NewPresized(5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1961, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyDict_NewPresized(5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1962, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = PyList_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1961, __pyx_L3_error)
+      __pyx_t_7 = PyList_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1962, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_INCREF(__pyx_kp_u_Right_Hand_Movement);
       __Pyx_GIVEREF(__pyx_kp_u_Right_Hand_Movement);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_kp_u_Right_Hand_Movement)) __PYX_ERR(0, 1961, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_kp_u_Right_Hand_Movement)) __PYX_ERR(0, 1962, __pyx_L3_error);
       __Pyx_INCREF(__pyx_int_21);
       __Pyx_GIVEREF(__pyx_int_21);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 1, __pyx_int_21)) __PYX_ERR(0, 1961, __pyx_L3_error);
-      if (PyDict_SetItem(__pyx_t_6, __pyx_n_u_Right_Hand, __pyx_t_7) < 0) __PYX_ERR(0, 1961, __pyx_L3_error)
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 1, __pyx_int_21)) __PYX_ERR(0, 1962, __pyx_L3_error);
+      if (PyDict_SetItem(__pyx_t_6, __pyx_n_u_Right_Hand, __pyx_t_7) < 0) __PYX_ERR(0, 1962, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "gui.py":1962
+      /* "gui.py":1963
  *             self.eeg_man.task_names = {
  *                 "Right_Hand": ["Right Hand Movement", 21],
  *                 "Left_Hand": ["Left Hand Movement", 21],             # <<<<<<<<<<<<<<
  *                 "Blinking": ["Blinking", 21],
  *                 "Jaw_Clenching": ["Jaw Clenching", 21],
  */
-      __pyx_t_7 = PyList_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1962, __pyx_L3_error)
+      __pyx_t_7 = PyList_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1963, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_INCREF(__pyx_kp_u_Left_Hand_Movement);
       __Pyx_GIVEREF(__pyx_kp_u_Left_Hand_Movement);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_kp_u_Left_Hand_Movement)) __PYX_ERR(0, 1962, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_kp_u_Left_Hand_Movement)) __PYX_ERR(0, 1963, __pyx_L3_error);
       __Pyx_INCREF(__pyx_int_21);
       __Pyx_GIVEREF(__pyx_int_21);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 1, __pyx_int_21)) __PYX_ERR(0, 1962, __pyx_L3_error);
-      if (PyDict_SetItem(__pyx_t_6, __pyx_n_u_Left_Hand, __pyx_t_7) < 0) __PYX_ERR(0, 1961, __pyx_L3_error)
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 1, __pyx_int_21)) __PYX_ERR(0, 1963, __pyx_L3_error);
+      if (PyDict_SetItem(__pyx_t_6, __pyx_n_u_Left_Hand, __pyx_t_7) < 0) __PYX_ERR(0, 1962, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "gui.py":1963
+      /* "gui.py":1964
  *                 "Right_Hand": ["Right Hand Movement", 21],
  *                 "Left_Hand": ["Left Hand Movement", 21],
  *                 "Blinking": ["Blinking", 21],             # <<<<<<<<<<<<<<
  *                 "Jaw_Clenching": ["Jaw Clenching", 21],
  *                 "Relax": ["Relax", 21]
  */
-      __pyx_t_7 = PyList_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1963, __pyx_L3_error)
+      __pyx_t_7 = PyList_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1964, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_INCREF(__pyx_n_u_Blinking);
       __Pyx_GIVEREF(__pyx_n_u_Blinking);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_n_u_Blinking)) __PYX_ERR(0, 1963, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_n_u_Blinking)) __PYX_ERR(0, 1964, __pyx_L3_error);
       __Pyx_INCREF(__pyx_int_21);
       __Pyx_GIVEREF(__pyx_int_21);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 1, __pyx_int_21)) __PYX_ERR(0, 1963, __pyx_L3_error);
-      if (PyDict_SetItem(__pyx_t_6, __pyx_n_u_Blinking, __pyx_t_7) < 0) __PYX_ERR(0, 1961, __pyx_L3_error)
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 1, __pyx_int_21)) __PYX_ERR(0, 1964, __pyx_L3_error);
+      if (PyDict_SetItem(__pyx_t_6, __pyx_n_u_Blinking, __pyx_t_7) < 0) __PYX_ERR(0, 1962, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "gui.py":1964
+      /* "gui.py":1965
  *                 "Left_Hand": ["Left Hand Movement", 21],
  *                 "Blinking": ["Blinking", 21],
  *                 "Jaw_Clenching": ["Jaw Clenching", 21],             # <<<<<<<<<<<<<<
  *                 "Relax": ["Relax", 21]
  *             }
  */
-      __pyx_t_7 = PyList_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1964, __pyx_L3_error)
+      __pyx_t_7 = PyList_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1965, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_INCREF(__pyx_kp_u_Jaw_Clenching_2);
       __Pyx_GIVEREF(__pyx_kp_u_Jaw_Clenching_2);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_kp_u_Jaw_Clenching_2)) __PYX_ERR(0, 1964, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_kp_u_Jaw_Clenching_2)) __PYX_ERR(0, 1965, __pyx_L3_error);
       __Pyx_INCREF(__pyx_int_21);
       __Pyx_GIVEREF(__pyx_int_21);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 1, __pyx_int_21)) __PYX_ERR(0, 1964, __pyx_L3_error);
-      if (PyDict_SetItem(__pyx_t_6, __pyx_n_u_Jaw_Clenching, __pyx_t_7) < 0) __PYX_ERR(0, 1961, __pyx_L3_error)
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 1, __pyx_int_21)) __PYX_ERR(0, 1965, __pyx_L3_error);
+      if (PyDict_SetItem(__pyx_t_6, __pyx_n_u_Jaw_Clenching, __pyx_t_7) < 0) __PYX_ERR(0, 1962, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "gui.py":1965
+      /* "gui.py":1966
  *                 "Blinking": ["Blinking", 21],
  *                 "Jaw_Clenching": ["Jaw Clenching", 21],
  *                 "Relax": ["Relax", 21]             # <<<<<<<<<<<<<<
  *             }
  * 
  */
-      __pyx_t_7 = PyList_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1965, __pyx_L3_error)
+      __pyx_t_7 = PyList_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1966, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_INCREF(__pyx_n_u_Relax);
       __Pyx_GIVEREF(__pyx_n_u_Relax);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_n_u_Relax)) __PYX_ERR(0, 1965, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_n_u_Relax)) __PYX_ERR(0, 1966, __pyx_L3_error);
       __Pyx_INCREF(__pyx_int_21);
       __Pyx_GIVEREF(__pyx_int_21);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 1, __pyx_int_21)) __PYX_ERR(0, 1965, __pyx_L3_error);
-      if (PyDict_SetItem(__pyx_t_6, __pyx_n_u_Relax, __pyx_t_7) < 0) __PYX_ERR(0, 1961, __pyx_L3_error)
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 1, __pyx_int_21)) __PYX_ERR(0, 1966, __pyx_L3_error);
+      if (PyDict_SetItem(__pyx_t_6, __pyx_n_u_Relax, __pyx_t_7) < 0) __PYX_ERR(0, 1962, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "gui.py":1960
+      /* "gui.py":1961
  * 
  *             # Set default actions for sample data
  *             self.eeg_man.task_names = {             # <<<<<<<<<<<<<<
  *                 "Right_Hand": ["Right Hand Movement", 21],
  *                 "Left_Hand": ["Left Hand Movement", 21],
  */
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1960, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1961, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
-      if (__Pyx_PyObject_SetAttrStr(__pyx_t_7, __pyx_n_s_task_names, __pyx_t_6) < 0) __PYX_ERR(0, 1960, __pyx_L3_error)
+      if (__Pyx_PyObject_SetAttrStr(__pyx_t_7, __pyx_n_s_task_names, __pyx_t_6) < 0) __PYX_ERR(0, 1961, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "gui.py":1969
+      /* "gui.py":1970
  * 
  *             # Populate channels and actions
  *             self.populate_channels_and_actions()             # <<<<<<<<<<<<<<
  * 
  *             # Set as current session and enable analysis
  */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_populate_channels_and_actions); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1969, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_populate_channels_and_actions); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1970, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_5 = NULL;
       __pyx_t_8 = 0;
@@ -49567,34 +49583,34 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
         PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
         __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_8, 0+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1969, __pyx_L3_error)
+        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1970, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "gui.py":1972
+      /* "gui.py":1973
  * 
  *             # Set as current session and enable analysis
  *             self.eeg_man.current_session_num = 0  # Use 0 to indicate sample data             # <<<<<<<<<<<<<<
  *             self.analyze_btn.setEnabled(True)
  *             self.add_status_message("Loaded sample data (S03.fif)")
  */
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1972, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1973, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
-      if (__Pyx_PyObject_SetAttrStr(__pyx_t_7, __pyx_n_s_current_session_num, __pyx_int_0) < 0) __PYX_ERR(0, 1972, __pyx_L3_error)
+      if (__Pyx_PyObject_SetAttrStr(__pyx_t_7, __pyx_n_s_current_session_num, __pyx_int_0) < 0) __PYX_ERR(0, 1973, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "gui.py":1973
+      /* "gui.py":1974
  *             # Set as current session and enable analysis
  *             self.eeg_man.current_session_num = 0  # Use 0 to indicate sample data
  *             self.analyze_btn.setEnabled(True)             # <<<<<<<<<<<<<<
  *             self.add_status_message("Loaded sample data (S03.fif)")
  * 
  */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_analyze_btn); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1973, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_analyze_btn); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1974, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_setEnabled); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1973, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_setEnabled); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1974, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = NULL;
@@ -49615,20 +49631,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
         PyObject *__pyx_callargs[2] = {__pyx_t_6, Py_True};
         __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1973, __pyx_L3_error)
+        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1974, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "gui.py":1974
+      /* "gui.py":1975
  *             self.eeg_man.current_session_num = 0  # Use 0 to indicate sample data
  *             self.analyze_btn.setEnabled(True)
  *             self.add_status_message("Loaded sample data (S03.fif)")             # <<<<<<<<<<<<<<
  * 
  *             # Update UI to show sample data is selected
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1974, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1975, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_8 = 0;
@@ -49648,20 +49664,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_kp_u_Loaded_sample_data_S03_fif};
         __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1974, __pyx_L3_error)
+        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1975, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "gui.py":1977
+      /* "gui.py":1978
  * 
  *             # Update UI to show sample data is selected
  *             self.update_session_buttons()             # <<<<<<<<<<<<<<
  * 
  *         except Exception as e:
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_update_session_buttons); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1977, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_update_session_buttons); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1978, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_8 = 0;
@@ -49681,13 +49697,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_8, 0+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1977, __pyx_L3_error)
+        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1978, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "gui.py":1947
+      /* "gui.py":1948
  *     def load_sample_as_session(self, *args):
  *         """Load and train on sample data"""
  *         try:             # <<<<<<<<<<<<<<
@@ -49705,7 +49721,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":1979
+    /* "gui.py":1980
  *             self.update_session_buttons()
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -49715,7 +49731,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
     __pyx_t_11 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_11) {
       __Pyx_AddTraceback("gui.MainWindow.load_sample_as_session", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_7, &__pyx_t_5, &__pyx_t_6) < 0) __PYX_ERR(0, 1979, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_7, &__pyx_t_5, &__pyx_t_6) < 0) __PYX_ERR(0, 1980, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_7);
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
@@ -49723,18 +49739,18 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
       __pyx_v_e = __pyx_t_5;
       /*try:*/ {
 
-        /* "gui.py":1980
+        /* "gui.py":1981
  * 
  *         except Exception as e:
  *             self.add_status_message(f"Error loading sample data: {str(e)}")             # <<<<<<<<<<<<<<
  * 
  *     def populate_channels_and_actions(self):
  */
-        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1980, __pyx_L15_error)
+        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1981, __pyx_L15_error)
         __Pyx_GOTREF(__pyx_t_12);
-        __pyx_t_13 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 1980, __pyx_L15_error)
+        __pyx_t_13 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 1981, __pyx_L15_error)
         __Pyx_GOTREF(__pyx_t_13);
-        __pyx_t_14 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_loading_sample_data, __pyx_t_13); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1980, __pyx_L15_error)
+        __pyx_t_14 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_loading_sample_data, __pyx_t_13); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1981, __pyx_L15_error)
         __Pyx_GOTREF(__pyx_t_14);
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
         __pyx_t_13 = NULL;
@@ -49756,14 +49772,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
           __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_12, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
           __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
           __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1980, __pyx_L15_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1981, __pyx_L15_error)
           __Pyx_GOTREF(__pyx_t_4);
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
 
-      /* "gui.py":1979
+      /* "gui.py":1980
  *             self.update_session_buttons()
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -49819,7 +49835,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
     }
     goto __pyx_L5_except_error;
 
-    /* "gui.py":1947
+    /* "gui.py":1948
  *     def load_sample_as_session(self, *args):
  *         """Load and train on sample data"""
  *         try:             # <<<<<<<<<<<<<<
@@ -49846,7 +49862,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
     __pyx_L8_try_end:;
   }
 
-  /* "gui.py":1945
+  /* "gui.py":1946
  *         self.add_status_message("Recording stopped")
  * 
  *     def load_sample_as_session(self, *args):             # <<<<<<<<<<<<<<
@@ -49876,7 +49892,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_82load_sample_as_session(CYTHON_UNUS
   return __pyx_r;
 }
 
-/* "gui.py":1982
+/* "gui.py":1983
  *             self.add_status_message(f"Error loading sample data: {str(e)}")
  * 
  *     def populate_channels_and_actions(self):             # <<<<<<<<<<<<<<
@@ -49938,12 +49954,12 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1982, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1983, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "populate_channels_and_actions") < 0)) __PYX_ERR(0, 1982, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "populate_channels_and_actions") < 0)) __PYX_ERR(0, 1983, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs != 1)) {
       goto __pyx_L5_argtuple_error;
@@ -49954,7 +49970,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("populate_channels_and_actions", 1, 1, 1, __pyx_nargs); __PYX_ERR(0, 1982, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("populate_channels_and_actions", 1, 1, 1, __pyx_nargs); __PYX_ERR(0, 1983, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -50007,7 +50023,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("populate_channels_and_actions", 1);
 
-  /* "gui.py":1985
+  /* "gui.py":1986
  *         """Populate channels and actions for the current session"""
  *         # Clear existing channels
  *         while self.channel_list_layout.count():             # <<<<<<<<<<<<<<
@@ -50015,9 +50031,9 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
  *             if item.widget():
  */
   while (1) {
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_list_layout); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1985, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_list_layout); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1986, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_count); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1985, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_count); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1986, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_2 = NULL;
@@ -50038,24 +50054,24 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
       PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1985, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1986, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     }
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1985, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1986, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (!__pyx_t_5) break;
 
-    /* "gui.py":1986
+    /* "gui.py":1987
  *         # Clear existing channels
  *         while self.channel_list_layout.count():
  *             item = self.channel_list_layout.takeAt(0)             # <<<<<<<<<<<<<<
  *             if item.widget():
  *                 item.widget().deleteLater()
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_list_layout); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1986, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_list_layout); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1987, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_takeAt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1986, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_takeAt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1987, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_3 = NULL;
@@ -50076,21 +50092,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
       PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_int_0};
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1986, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1987, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
     __Pyx_XDECREF_SET(__pyx_v_item, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "gui.py":1987
+    /* "gui.py":1988
  *         while self.channel_list_layout.count():
  *             item = self.channel_list_layout.takeAt(0)
  *             if item.widget():             # <<<<<<<<<<<<<<
  *                 item.widget().deleteLater()
  *         self.channel_configs.clear()
  */
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_item, __pyx_n_s_widget); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1987, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_item, __pyx_n_s_widget); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1988, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_3 = NULL;
     __pyx_t_4 = 0;
@@ -50110,22 +50126,22 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
       PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1987, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1988, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1987, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1988, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (__pyx_t_5) {
 
-      /* "gui.py":1988
+      /* "gui.py":1989
  *             item = self.channel_list_layout.takeAt(0)
  *             if item.widget():
  *                 item.widget().deleteLater()             # <<<<<<<<<<<<<<
  *         self.channel_configs.clear()
  * 
  */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_item, __pyx_n_s_widget); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1988, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_item, __pyx_n_s_widget); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1989, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_6 = NULL;
       __pyx_t_4 = 0;
@@ -50145,11 +50161,11 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1988, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1989, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_deleteLater); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1988, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_deleteLater); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1989, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __pyx_t_2 = NULL;
@@ -50170,13 +50186,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
         PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
         __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
         __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1988, __pyx_L1_error)
+        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1989, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "gui.py":1987
+      /* "gui.py":1988
  *         while self.channel_list_layout.count():
  *             item = self.channel_list_layout.takeAt(0)
  *             if item.widget():             # <<<<<<<<<<<<<<
@@ -50186,16 +50202,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
     }
   }
 
-  /* "gui.py":1989
+  /* "gui.py":1990
  *             if item.widget():
  *                 item.widget().deleteLater()
  *         self.channel_configs.clear()             # <<<<<<<<<<<<<<
  * 
  *         # Add channels
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1989, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1990, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_clear); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1989, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_clear); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1990, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -50216,22 +50232,22 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
     PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1989, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1990, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":1992
+  /* "gui.py":1993
  * 
  *         # Add channels
  *         for channel in self.eeg_man.channel_names:             # <<<<<<<<<<<<<<
  *             self.add_channel(channel, self.channel_list_layout)
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1992, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1993, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_channel_names); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1992, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_channel_names); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1993, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (likely(PyList_CheckExact(__pyx_t_2)) || PyTuple_CheckExact(__pyx_t_2)) {
@@ -50239,9 +50255,9 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
     __pyx_t_7 = 0;
     __pyx_t_8 = NULL;
   } else {
-    __pyx_t_7 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1992, __pyx_L1_error)
+    __pyx_t_7 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1993, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_8 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1992, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1993, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   for (;;) {
@@ -50250,28 +50266,28 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
         {
           Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_1);
           #if !CYTHON_ASSUME_SAFE_MACROS
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1992, __pyx_L1_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1993, __pyx_L1_error)
           #endif
           if (__pyx_t_7 >= __pyx_temp) break;
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_2 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_7); __Pyx_INCREF(__pyx_t_2); __pyx_t_7++; if (unlikely((0 < 0))) __PYX_ERR(0, 1992, __pyx_L1_error)
+        __pyx_t_2 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_7); __Pyx_INCREF(__pyx_t_2); __pyx_t_7++; if (unlikely((0 < 0))) __PYX_ERR(0, 1993, __pyx_L1_error)
         #else
-        __pyx_t_2 = __Pyx_PySequence_ITEM(__pyx_t_1, __pyx_t_7); __pyx_t_7++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1992, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PySequence_ITEM(__pyx_t_1, __pyx_t_7); __pyx_t_7++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1993, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         #endif
       } else {
         {
           Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_1);
           #if !CYTHON_ASSUME_SAFE_MACROS
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1992, __pyx_L1_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 1993, __pyx_L1_error)
           #endif
           if (__pyx_t_7 >= __pyx_temp) break;
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_2 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_7); __Pyx_INCREF(__pyx_t_2); __pyx_t_7++; if (unlikely((0 < 0))) __PYX_ERR(0, 1992, __pyx_L1_error)
+        __pyx_t_2 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_7); __Pyx_INCREF(__pyx_t_2); __pyx_t_7++; if (unlikely((0 < 0))) __PYX_ERR(0, 1993, __pyx_L1_error)
         #else
-        __pyx_t_2 = __Pyx_PySequence_ITEM(__pyx_t_1, __pyx_t_7); __pyx_t_7++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1992, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PySequence_ITEM(__pyx_t_1, __pyx_t_7); __pyx_t_7++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1993, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         #endif
       }
@@ -50281,7 +50297,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 1992, __pyx_L1_error)
+          else __PYX_ERR(0, 1993, __pyx_L1_error)
         }
         break;
       }
@@ -50290,16 +50306,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
     __Pyx_XDECREF_SET(__pyx_v_channel, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "gui.py":1993
+    /* "gui.py":1994
  *         # Add channels
  *         for channel in self.eeg_man.channel_names:
  *             self.add_channel(channel, self.channel_list_layout)             # <<<<<<<<<<<<<<
  * 
  *         # Clear existing actions
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_channel); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1993, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_channel); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1994, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_list_layout); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1993, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_list_layout); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1994, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_9 = NULL;
     __pyx_t_4 = 0;
@@ -50320,13 +50336,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
       __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 2+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1993, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1994, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "gui.py":1992
+    /* "gui.py":1993
  * 
  *         # Add channels
  *         for channel in self.eeg_man.channel_names:             # <<<<<<<<<<<<<<
@@ -50336,7 +50352,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":1996
+  /* "gui.py":1997
  * 
  *         # Clear existing actions
  *         while self.action_list_layout.count():             # <<<<<<<<<<<<<<
@@ -50344,9 +50360,9 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
  *             if item.widget():
  */
   while (1) {
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_action_list_layout); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1996, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_action_list_layout); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1997, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_count); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1996, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_count); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1997, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_2 = NULL;
@@ -50367,24 +50383,24 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
       PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1996, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1997, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     }
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1996, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1997, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (!__pyx_t_5) break;
 
-    /* "gui.py":1997
+    /* "gui.py":1998
  *         # Clear existing actions
  *         while self.action_list_layout.count():
  *             item = self.action_list_layout.takeAt(0)             # <<<<<<<<<<<<<<
  *             if item.widget():
  *                 item.widget().deleteLater()
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_action_list_layout); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1997, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_action_list_layout); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1998, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_takeAt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1997, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_takeAt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1998, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_3 = NULL;
@@ -50405,21 +50421,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
       PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_int_0};
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1997, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1998, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
     __Pyx_XDECREF_SET(__pyx_v_item, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "gui.py":1998
+    /* "gui.py":1999
  *         while self.action_list_layout.count():
  *             item = self.action_list_layout.takeAt(0)
  *             if item.widget():             # <<<<<<<<<<<<<<
  *                 item.widget().deleteLater()
  *         self.action_inputs.clear()
  */
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_item, __pyx_n_s_widget); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1998, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_item, __pyx_n_s_widget); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1999, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_3 = NULL;
     __pyx_t_4 = 0;
@@ -50439,22 +50455,22 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
       PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1998, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1999, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1998, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 1999, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (__pyx_t_5) {
 
-      /* "gui.py":1999
+      /* "gui.py":2000
  *             item = self.action_list_layout.takeAt(0)
  *             if item.widget():
  *                 item.widget().deleteLater()             # <<<<<<<<<<<<<<
  *         self.action_inputs.clear()
  * 
  */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_item, __pyx_n_s_widget); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1999, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_item, __pyx_n_s_widget); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2000, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_6 = NULL;
       __pyx_t_4 = 0;
@@ -50474,11 +50490,11 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1999, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2000, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_deleteLater); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1999, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_deleteLater); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2000, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __pyx_t_2 = NULL;
@@ -50499,13 +50515,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
         PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
         __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
         __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1999, __pyx_L1_error)
+        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2000, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "gui.py":1998
+      /* "gui.py":1999
  *         while self.action_list_layout.count():
  *             item = self.action_list_layout.takeAt(0)
  *             if item.widget():             # <<<<<<<<<<<<<<
@@ -50515,16 +50531,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
     }
   }
 
-  /* "gui.py":2000
+  /* "gui.py":2001
  *             if item.widget():
  *                 item.widget().deleteLater()
  *         self.action_inputs.clear()             # <<<<<<<<<<<<<<
  * 
  *         # Add actions
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_action_inputs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2000, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_action_inputs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2001, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_clear); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2000, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_clear); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2001, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -50545,13 +50561,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
     PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2000, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2001, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":2003
+  /* "gui.py":2004
  * 
  *         # Add actions
  *         for action_name, (description, repetitions) in self.eeg_man.task_names.items():             # <<<<<<<<<<<<<<
@@ -50559,16 +50575,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
  * 
  */
   __pyx_t_7 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2003, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2004, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_task_names); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2003, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_task_names); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2004, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_3 == Py_None)) {
     PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "items");
-    __PYX_ERR(0, 2003, __pyx_L1_error)
+    __PYX_ERR(0, 2004, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_dict_iterator(__pyx_t_3, 0, __pyx_n_s_items, (&__pyx_t_10), (&__pyx_t_11)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2003, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_dict_iterator(__pyx_t_3, 0, __pyx_n_s_items, (&__pyx_t_10), (&__pyx_t_11)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2004, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_XDECREF(__pyx_t_1);
@@ -50577,7 +50593,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
   while (1) {
     __pyx_t_12 = __Pyx_dict_iter_next(__pyx_t_1, __pyx_t_10, &__pyx_t_7, &__pyx_t_2, &__pyx_t_3, NULL, __pyx_t_11);
     if (unlikely(__pyx_t_12 == 0)) break;
-    if (unlikely(__pyx_t_12 == -1)) __PYX_ERR(0, 2003, __pyx_L1_error)
+    if (unlikely(__pyx_t_12 == -1)) __PYX_ERR(0, 2004, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_XDECREF_SET(__pyx_v_action_name, __pyx_t_2);
@@ -50588,7 +50604,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
       if (unlikely(size != 2)) {
         if (size > 2) __Pyx_RaiseTooManyValuesError(2);
         else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-        __PYX_ERR(0, 2003, __pyx_L1_error)
+        __PYX_ERR(0, 2004, __pyx_L1_error)
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
@@ -50601,15 +50617,15 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
       __Pyx_INCREF(__pyx_t_2);
       __Pyx_INCREF(__pyx_t_6);
       #else
-      __pyx_t_2 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2003, __pyx_L1_error)
+      __pyx_t_2 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2004, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_6 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2003, __pyx_L1_error)
+      __pyx_t_6 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2004, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       #endif
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     } else {
       Py_ssize_t index = -1;
-      __pyx_t_9 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 2003, __pyx_L1_error)
+      __pyx_t_9 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 2004, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __pyx_t_13 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_9);
@@ -50617,7 +50633,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
       __Pyx_GOTREF(__pyx_t_2);
       index = 1; __pyx_t_6 = __pyx_t_13(__pyx_t_9); if (unlikely(!__pyx_t_6)) goto __pyx_L14_unpacking_failed;
       __Pyx_GOTREF(__pyx_t_6);
-      if (__Pyx_IternextUnpackEndCheck(__pyx_t_13(__pyx_t_9), 2) < 0) __PYX_ERR(0, 2003, __pyx_L1_error)
+      if (__Pyx_IternextUnpackEndCheck(__pyx_t_13(__pyx_t_9), 2) < 0) __PYX_ERR(0, 2004, __pyx_L1_error)
       __pyx_t_13 = NULL;
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       goto __pyx_L15_unpacking_done;
@@ -50625,7 +50641,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       __pyx_t_13 = NULL;
       if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-      __PYX_ERR(0, 2003, __pyx_L1_error)
+      __PYX_ERR(0, 2004, __pyx_L1_error)
       __pyx_L15_unpacking_done:;
     }
     __Pyx_XDECREF_SET(__pyx_v_description, __pyx_t_2);
@@ -50633,14 +50649,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
     __Pyx_XDECREF_SET(__pyx_v_repetitions, __pyx_t_6);
     __pyx_t_6 = 0;
 
-    /* "gui.py":2004
+    /* "gui.py":2005
  *         # Add actions
  *         for action_name, (description, repetitions) in self.eeg_man.task_names.items():
  *             self.add_new_action(action_name, description, repetitions)             # <<<<<<<<<<<<<<
  * 
  *     def setup_channel_config(self, *args):
  */
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_new_action); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2004, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_new_action); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2005, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_2 = NULL;
     __pyx_t_4 = 0;
@@ -50660,7 +50676,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
       PyObject *__pyx_callargs[4] = {__pyx_t_2, __pyx_v_action_name, __pyx_v_description, __pyx_v_repetitions};
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_4, 3+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2004, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2005, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     }
@@ -50668,7 +50684,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":1982
+  /* "gui.py":1983
  *             self.add_status_message(f"Error loading sample data: {str(e)}")
  * 
  *     def populate_channels_and_actions(self):             # <<<<<<<<<<<<<<
@@ -50698,7 +50714,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_84populate_channels_and_actions(CYTH
   return __pyx_r;
 }
 
-/* "gui.py":2006
+/* "gui.py":2007
  *             self.add_new_action(action_name, description, repetitions)
  * 
  *     def setup_channel_config(self, *args):             # <<<<<<<<<<<<<<
@@ -50767,13 +50783,13 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2006, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2007, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
         const Py_ssize_t used_pos_args = (kwd_pos_args < 1) ? kwd_pos_args : 1;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "setup_channel_config") < 0)) __PYX_ERR(0, 2006, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "setup_channel_config") < 0)) __PYX_ERR(0, 2007, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs < 1)) {
       goto __pyx_L5_argtuple_error;
@@ -50784,7 +50800,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("setup_channel_config", 0, 1, 1, __pyx_nargs); __PYX_ERR(0, 2006, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("setup_channel_config", 0, 1, 1, __pyx_nargs); __PYX_ERR(0, 2007, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -50813,7 +50829,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-/* "gui.py":2058
+/* "gui.py":2059
  *             # Add channel button with more visible styling
  *             add_btn = QPushButton("+ Add New Channel")
  *             add_btn.clicked.connect(lambda: self.add_channel_and_update(f"Channel_{len(self.channel_configs) + 1}"))             # <<<<<<<<<<<<<<
@@ -50855,17 +50871,17 @@ static PyObject *__pyx_lambda_funcdef_lambda6(PyObject *__pyx_self) {
   __pyx_outer_scope = (struct __pyx_obj_3gui___pyx_scope_struct_5_setup_channel_config *) __Pyx_CyFunction_GetClosure(__pyx_self);
   __pyx_cur_scope = __pyx_outer_scope;
   __Pyx_XDECREF(__pyx_r);
-  if (unlikely(!__pyx_cur_scope->__pyx_v_self)) { __Pyx_RaiseClosureNameError("self"); __PYX_ERR(0, 2058, __pyx_L1_error) }
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_add_channel_and_update); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2058, __pyx_L1_error)
+  if (unlikely(!__pyx_cur_scope->__pyx_v_self)) { __Pyx_RaiseClosureNameError("self"); __PYX_ERR(0, 2059, __pyx_L1_error) }
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_add_channel_and_update); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2059, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (unlikely(!__pyx_cur_scope->__pyx_v_self)) { __Pyx_RaiseClosureNameError("self"); __PYX_ERR(0, 2058, __pyx_L1_error) }
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2058, __pyx_L1_error)
+  if (unlikely(!__pyx_cur_scope->__pyx_v_self)) { __Pyx_RaiseClosureNameError("self"); __PYX_ERR(0, 2059, __pyx_L1_error) }
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2059, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = PyObject_Length(__pyx_t_3); if (unlikely(__pyx_t_4 == ((Py_ssize_t)-1))) __PYX_ERR(0, 2058, __pyx_L1_error)
+  __pyx_t_4 = PyObject_Length(__pyx_t_3); if (unlikely(__pyx_t_4 == ((Py_ssize_t)-1))) __PYX_ERR(0, 2059, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyUnicode_From_Py_ssize_t((__pyx_t_4 + 1), 0, ' ', 'd'); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2058, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyUnicode_From_Py_ssize_t((__pyx_t_4 + 1), 0, ' ', 'd'); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2059, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyUnicode_Concat(__pyx_n_u_Channel, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2058, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyUnicode_Concat(__pyx_n_u_Channel, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2059, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -50887,7 +50903,7 @@ static PyObject *__pyx_lambda_funcdef_lambda6(PyObject *__pyx_self) {
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_6, 1+__pyx_t_6);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2058, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2059, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
@@ -50909,7 +50925,7 @@ static PyObject *__pyx_lambda_funcdef_lambda6(PyObject *__pyx_self) {
   return __pyx_r;
 }
 
-/* "gui.py":2006
+/* "gui.py":2007
  *             self.add_new_action(action_name, description, repetitions)
  * 
  *     def setup_channel_config(self, *args):             # <<<<<<<<<<<<<<
@@ -50962,7 +50978,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
   if (unlikely(!__pyx_cur_scope)) {
     __pyx_cur_scope = ((struct __pyx_obj_3gui___pyx_scope_struct_5_setup_channel_config *)Py_None);
     __Pyx_INCREF(Py_None);
-    __PYX_ERR(0, 2006, __pyx_L1_error)
+    __PYX_ERR(0, 2007, __pyx_L1_error)
   } else {
     __Pyx_GOTREF((PyObject *)__pyx_cur_scope);
   }
@@ -50970,7 +50986,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
   __Pyx_INCREF(__pyx_cur_scope->__pyx_v_self);
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_self);
 
-  /* "gui.py":2008
+  /* "gui.py":2009
  *     def setup_channel_config(self, *args):
  *         """Setup channel configuration UI with UUID-based channels"""
  *         try:             # <<<<<<<<<<<<<<
@@ -50986,14 +51002,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "gui.py":2009
+      /* "gui.py":2010
  *         """Setup channel configuration UI with UUID-based channels"""
  *         try:
  *             channel_group = QGroupBox("EEG Channels")             # <<<<<<<<<<<<<<
  *             channel_layout = QVBoxLayout(channel_group)
  * 
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_QGroupBox); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2009, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_QGroupBox); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2010, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -51013,21 +51029,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_kp_u_EEG_Channels};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2009, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2010, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __pyx_v_channel_group = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "gui.py":2010
+      /* "gui.py":2011
  *         try:
  *             channel_group = QGroupBox("EEG Channels")
  *             channel_layout = QVBoxLayout(channel_group)             # <<<<<<<<<<<<<<
  * 
  *             # Add header with better styling
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_QVBoxLayout); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2010, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_QVBoxLayout); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2011, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -51047,21 +51063,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_v_channel_group};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2010, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2011, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __pyx_v_channel_layout = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "gui.py":2013
+      /* "gui.py":2014
  * 
  *             # Add header with better styling
  *             header = QWidget()             # <<<<<<<<<<<<<<
  *             header_layout = QHBoxLayout(header)
  *             header_layout.setContentsMargins(5, 5, 5, 5)
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_QWidget); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2013, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_QWidget); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2014, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -51081,21 +51097,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2013, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2014, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __pyx_v_header = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "gui.py":2014
+      /* "gui.py":2015
  *             # Add header with better styling
  *             header = QWidget()
  *             header_layout = QHBoxLayout(header)             # <<<<<<<<<<<<<<
  *             header_layout.setContentsMargins(5, 5, 5, 5)
  * 
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_QHBoxLayout); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2014, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_QHBoxLayout); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2015, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -51115,55 +51131,55 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_v_header};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2014, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2015, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __pyx_v_header_layout = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "gui.py":2015
+      /* "gui.py":2016
  *             header = QWidget()
  *             header_layout = QHBoxLayout(header)
  *             header_layout.setContentsMargins(5, 5, 5, 5)             # <<<<<<<<<<<<<<
  * 
  *             # Style the headers
  */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_header_layout, __pyx_n_s_setContentsMargins); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2015, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_header_layout, __pyx_n_s_setContentsMargins); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2016, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2015, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2016, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":2018
+      /* "gui.py":2019
  * 
  *             # Style the headers
  *             for label_text in ["Channel Name", "Enable", "Actions"]:             # <<<<<<<<<<<<<<
  *                 label = QLabel(label_text)
  *                 label.setStyleSheet("""
  */
-      __pyx_t_5 = __pyx_tuple__47; __Pyx_INCREF(__pyx_t_5);
+      __pyx_t_5 = __pyx_tuple__46; __Pyx_INCREF(__pyx_t_5);
       __pyx_t_8 = 0;
       for (;;) {
         if (__pyx_t_8 >= 3) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_4 = PyTuple_GET_ITEM(__pyx_t_5, __pyx_t_8); __Pyx_INCREF(__pyx_t_4); __pyx_t_8++; if (unlikely((0 < 0))) __PYX_ERR(0, 2018, __pyx_L3_error)
+        __pyx_t_4 = PyTuple_GET_ITEM(__pyx_t_5, __pyx_t_8); __Pyx_INCREF(__pyx_t_4); __pyx_t_8++; if (unlikely((0 < 0))) __PYX_ERR(0, 2019, __pyx_L3_error)
         #else
-        __pyx_t_4 = __Pyx_PySequence_ITEM(__pyx_t_5, __pyx_t_8); __pyx_t_8++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2018, __pyx_L3_error)
+        __pyx_t_4 = __Pyx_PySequence_ITEM(__pyx_t_5, __pyx_t_8); __pyx_t_8++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2019, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         #endif
         __Pyx_XDECREF_SET(__pyx_v_label_text, ((PyObject*)__pyx_t_4));
         __pyx_t_4 = 0;
 
-        /* "gui.py":2019
+        /* "gui.py":2020
  *             # Style the headers
  *             for label_text in ["Channel Name", "Enable", "Actions"]:
  *                 label = QLabel(label_text)             # <<<<<<<<<<<<<<
  *                 label.setStyleSheet("""
  *                     QLabel {
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_QLabel); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2019, __pyx_L3_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_QLabel); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2020, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
         __pyx_t_9 = NULL;
         __pyx_t_7 = 0;
@@ -51183,21 +51199,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
           PyObject *__pyx_callargs[2] = {__pyx_t_9, __pyx_v_label_text};
           __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2019, __pyx_L3_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2020, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_4);
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         }
         __Pyx_XDECREF_SET(__pyx_v_label, __pyx_t_4);
         __pyx_t_4 = 0;
 
-        /* "gui.py":2020
+        /* "gui.py":2021
  *             for label_text in ["Channel Name", "Enable", "Actions"]:
  *                 label = QLabel(label_text)
  *                 label.setStyleSheet("""             # <<<<<<<<<<<<<<
  *                     QLabel {
  *                         color: #ff69b4;
  */
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_label, __pyx_n_s_setStyleSheet); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2020, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_label, __pyx_n_s_setStyleSheet); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2021, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
         __pyx_t_9 = NULL;
         __pyx_t_7 = 0;
@@ -51217,20 +51233,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
           PyObject *__pyx_callargs[2] = {__pyx_t_9, __pyx_kp_u_QLabel_color_ff69b4_font_weight};
           __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2020, __pyx_L3_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2021, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_4);
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "gui.py":2027
+        /* "gui.py":2028
  *                     }
  *                 """)
  *                 header_layout.addWidget(label)             # <<<<<<<<<<<<<<
  *             channel_layout.addWidget(header)
  * 
  */
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_header_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2027, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_header_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2028, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
         __pyx_t_9 = NULL;
         __pyx_t_7 = 0;
@@ -51250,13 +51266,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
           PyObject *__pyx_callargs[2] = {__pyx_t_9, __pyx_v_label};
           __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2027, __pyx_L3_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2028, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_4);
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "gui.py":2018
+        /* "gui.py":2019
  * 
  *             # Style the headers
  *             for label_text in ["Channel Name", "Enable", "Actions"]:             # <<<<<<<<<<<<<<
@@ -51266,14 +51282,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":2028
+      /* "gui.py":2029
  *                 """)
  *                 header_layout.addWidget(label)
  *             channel_layout.addWidget(header)             # <<<<<<<<<<<<<<
  * 
  *             # Channel list container with scroll
  */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_channel_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2028, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_channel_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2029, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -51293,20 +51309,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_v_header};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2028, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2029, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":2031
+      /* "gui.py":2032
  * 
  *             # Channel list container with scroll
  *             scroll = QScrollArea()             # <<<<<<<<<<<<<<
  *             scroll.setWidgetResizable(True)
  *             scroll.setStyleSheet("""
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_QScrollArea); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2031, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_QScrollArea); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2032, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -51326,21 +51342,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2031, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2032, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
       __pyx_v_scroll = __pyx_t_5;
       __pyx_t_5 = 0;
 
-      /* "gui.py":2032
+      /* "gui.py":2033
  *             # Channel list container with scroll
  *             scroll = QScrollArea()
  *             scroll.setWidgetResizable(True)             # <<<<<<<<<<<<<<
  *             scroll.setStyleSheet("""
  *                 QScrollArea {
  */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_scroll, __pyx_n_s_setWidgetResizable); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2032, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_scroll, __pyx_n_s_setWidgetResizable); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2033, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -51360,20 +51376,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_6, Py_True};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2032, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2033, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":2033
+      /* "gui.py":2034
  *             scroll = QScrollArea()
  *             scroll.setWidgetResizable(True)
  *             scroll.setStyleSheet("""             # <<<<<<<<<<<<<<
  *                 QScrollArea {
  *                     border: 1px solid #666;
  */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_scroll, __pyx_n_s_setStyleSheet); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2033, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_scroll, __pyx_n_s_setStyleSheet); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2034, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -51393,20 +51409,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_kp_u_QScrollArea_border_1px_solid_66};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2033, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2034, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":2041
+      /* "gui.py":2042
  *             """)
  * 
  *             scroll_widget = QWidget()             # <<<<<<<<<<<<<<
  *             self.channel_list_layout = QVBoxLayout(scroll_widget)
  *             self.channel_list_layout.setSpacing(5)
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_QWidget); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2041, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_QWidget); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2042, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -51426,21 +51442,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2041, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2042, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
       __pyx_v_scroll_widget = __pyx_t_5;
       __pyx_t_5 = 0;
 
-      /* "gui.py":2042
+      /* "gui.py":2043
  * 
  *             scroll_widget = QWidget()
  *             self.channel_list_layout = QVBoxLayout(scroll_widget)             # <<<<<<<<<<<<<<
  *             self.channel_list_layout.setSpacing(5)
  *             self.channel_list_layout.setContentsMargins(5, 5, 5, 5)
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_QVBoxLayout); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2042, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_QVBoxLayout); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2043, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -51460,23 +51476,23 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_v_scroll_widget};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2042, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2043, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
-      if (__Pyx_PyObject_SetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_list_layout, __pyx_t_5) < 0) __PYX_ERR(0, 2042, __pyx_L3_error)
+      if (__Pyx_PyObject_SetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_list_layout, __pyx_t_5) < 0) __PYX_ERR(0, 2043, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":2043
+      /* "gui.py":2044
  *             scroll_widget = QWidget()
  *             self.channel_list_layout = QVBoxLayout(scroll_widget)
  *             self.channel_list_layout.setSpacing(5)             # <<<<<<<<<<<<<<
  *             self.channel_list_layout.setContentsMargins(5, 5, 5, 5)
  *             scroll.setWidget(scroll_widget)
  */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_list_layout); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2043, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_list_layout); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2044, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_setSpacing); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2043, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_setSpacing); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2044, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __pyx_t_4 = NULL;
@@ -51497,37 +51513,37 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_int_5};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2043, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2044, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":2044
+      /* "gui.py":2045
  *             self.channel_list_layout = QVBoxLayout(scroll_widget)
  *             self.channel_list_layout.setSpacing(5)
  *             self.channel_list_layout.setContentsMargins(5, 5, 5, 5)             # <<<<<<<<<<<<<<
  *             scroll.setWidget(scroll_widget)
  *             channel_layout.addWidget(scroll)
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_list_layout); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2044, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_list_layout); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2045, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_setContentsMargins); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2044, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_setContentsMargins); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2045, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2044, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2045, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":2045
+      /* "gui.py":2046
  *             self.channel_list_layout.setSpacing(5)
  *             self.channel_list_layout.setContentsMargins(5, 5, 5, 5)
  *             scroll.setWidget(scroll_widget)             # <<<<<<<<<<<<<<
  *             channel_layout.addWidget(scroll)
  * 
  */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_scroll, __pyx_n_s_setWidget); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2045, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_scroll, __pyx_n_s_setWidget); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2046, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_4 = NULL;
       __pyx_t_7 = 0;
@@ -51547,20 +51563,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_v_scroll_widget};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2045, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2046, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":2046
+      /* "gui.py":2047
  *             self.channel_list_layout.setContentsMargins(5, 5, 5, 5)
  *             scroll.setWidget(scroll_widget)
  *             channel_layout.addWidget(scroll)             # <<<<<<<<<<<<<<
  * 
  *             # Add default channels
  */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_channel_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2046, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_channel_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2047, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_4 = NULL;
       __pyx_t_7 = 0;
@@ -51580,43 +51596,43 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_v_scroll};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2046, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2047, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":2049
+      /* "gui.py":2050
  * 
  *             # Add default channels
  *             default_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']             # <<<<<<<<<<<<<<
  *             for channel in default_channels:
  *                 self.add_channel(channel, self.channel_list_layout)
  */
-      __pyx_t_5 = PyList_New(6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2049, __pyx_L3_error)
+      __pyx_t_5 = PyList_New(6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2050, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_INCREF(__pyx_n_u_FCz);
       __Pyx_GIVEREF(__pyx_n_u_FCz);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 0, __pyx_n_u_FCz)) __PYX_ERR(0, 2049, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 0, __pyx_n_u_FCz)) __PYX_ERR(0, 2050, __pyx_L3_error);
       __Pyx_INCREF(__pyx_n_u_C3);
       __Pyx_GIVEREF(__pyx_n_u_C3);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 1, __pyx_n_u_C3)) __PYX_ERR(0, 2049, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 1, __pyx_n_u_C3)) __PYX_ERR(0, 2050, __pyx_L3_error);
       __Pyx_INCREF(__pyx_n_u_Cz);
       __Pyx_GIVEREF(__pyx_n_u_Cz);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 2, __pyx_n_u_Cz)) __PYX_ERR(0, 2049, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 2, __pyx_n_u_Cz)) __PYX_ERR(0, 2050, __pyx_L3_error);
       __Pyx_INCREF(__pyx_n_u_CPz);
       __Pyx_GIVEREF(__pyx_n_u_CPz);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 3, __pyx_n_u_CPz)) __PYX_ERR(0, 2049, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 3, __pyx_n_u_CPz)) __PYX_ERR(0, 2050, __pyx_L3_error);
       __Pyx_INCREF(__pyx_n_u_C2);
       __Pyx_GIVEREF(__pyx_n_u_C2);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 4, __pyx_n_u_C2)) __PYX_ERR(0, 2049, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 4, __pyx_n_u_C2)) __PYX_ERR(0, 2050, __pyx_L3_error);
       __Pyx_INCREF(__pyx_n_u_C4);
       __Pyx_GIVEREF(__pyx_n_u_C4);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 5, __pyx_n_u_C4)) __PYX_ERR(0, 2049, __pyx_L3_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 5, __pyx_n_u_C4)) __PYX_ERR(0, 2050, __pyx_L3_error);
       __pyx_v_default_channels = ((PyObject*)__pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "gui.py":2050
+      /* "gui.py":2051
  *             # Add default channels
  *             default_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
  *             for channel in default_channels:             # <<<<<<<<<<<<<<
@@ -51629,29 +51645,29 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         {
           Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_5);
           #if !CYTHON_ASSUME_SAFE_MACROS
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 2050, __pyx_L3_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 2051, __pyx_L3_error)
           #endif
           if (__pyx_t_8 >= __pyx_temp) break;
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_6 = PyList_GET_ITEM(__pyx_t_5, __pyx_t_8); __Pyx_INCREF(__pyx_t_6); __pyx_t_8++; if (unlikely((0 < 0))) __PYX_ERR(0, 2050, __pyx_L3_error)
+        __pyx_t_6 = PyList_GET_ITEM(__pyx_t_5, __pyx_t_8); __Pyx_INCREF(__pyx_t_6); __pyx_t_8++; if (unlikely((0 < 0))) __PYX_ERR(0, 2051, __pyx_L3_error)
         #else
-        __pyx_t_6 = __Pyx_PySequence_ITEM(__pyx_t_5, __pyx_t_8); __pyx_t_8++; if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2050, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PySequence_ITEM(__pyx_t_5, __pyx_t_8); __pyx_t_8++; if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2051, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
         #endif
         __Pyx_XDECREF_SET(__pyx_v_channel, __pyx_t_6);
         __pyx_t_6 = 0;
 
-        /* "gui.py":2051
+        /* "gui.py":2052
  *             default_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
  *             for channel in default_channels:
  *                 self.add_channel(channel, self.channel_list_layout)             # <<<<<<<<<<<<<<
  * 
  *             # Force initial plot update after adding default channels
  */
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_add_channel); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2051, __pyx_L3_error)
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_add_channel); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2052, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_list_layout); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 2051, __pyx_L3_error)
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_list_layout); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 2052, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_9);
         __pyx_t_10 = NULL;
         __pyx_t_7 = 0;
@@ -51672,13 +51688,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
           __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 2+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
           __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2051, __pyx_L3_error)
+          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2052, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_6);
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         }
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-        /* "gui.py":2050
+        /* "gui.py":2051
  *             # Add default channels
  *             default_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
  *             for channel in default_channels:             # <<<<<<<<<<<<<<
@@ -51688,16 +51704,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":2054
+      /* "gui.py":2055
  * 
  *             # Force initial plot update after adding default channels
  *             self.update_plot_channels(self.channel_configs)             # <<<<<<<<<<<<<<
  * 
  *             # Add channel button with more visible styling
  */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_update_plot_channels); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2054, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_update_plot_channels); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2055, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2054, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2055, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_9 = NULL;
       __pyx_t_7 = 0;
@@ -51718,20 +51734,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2054, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2055, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":2057
+      /* "gui.py":2058
  * 
  *             # Add channel button with more visible styling
  *             add_btn = QPushButton("+ Add New Channel")             # <<<<<<<<<<<<<<
  *             add_btn.clicked.connect(lambda: self.add_channel_and_update(f"Channel_{len(self.channel_configs) + 1}"))
  *             add_btn.setStyleSheet("""
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_QPushButton); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2057, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_QPushButton); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2058, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_4 = NULL;
       __pyx_t_7 = 0;
@@ -51751,26 +51767,26 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_kp_u_Add_New_Channel};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2057, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2058, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
       __pyx_v_add_btn = __pyx_t_5;
       __pyx_t_5 = 0;
 
-      /* "gui.py":2058
+      /* "gui.py":2059
  *             # Add channel button with more visible styling
  *             add_btn = QPushButton("+ Add New Channel")
  *             add_btn.clicked.connect(lambda: self.add_channel_and_update(f"Channel_{len(self.channel_configs) + 1}"))             # <<<<<<<<<<<<<<
  *             add_btn.setStyleSheet("""
  *                 QPushButton {
  */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_add_btn, __pyx_n_s_clicked); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2058, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_add_btn, __pyx_n_s_clicked); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2059, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_connect); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2058, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_connect); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2059, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_20setup_channel_config_lambda6, 0, __pyx_n_s_MainWindow_setup_channel_config, ((PyObject*)__pyx_cur_scope), __pyx_n_s_gui, __pyx_d, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2058, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_20setup_channel_config_lambda6, 0, __pyx_n_s_MainWindow_setup_channel_config, ((PyObject*)__pyx_cur_scope), __pyx_n_s_gui, __pyx_d, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2059, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_9 = NULL;
       __pyx_t_7 = 0;
@@ -51791,20 +51807,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2058, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2059, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":2059
+      /* "gui.py":2060
  *             add_btn = QPushButton("+ Add New Channel")
  *             add_btn.clicked.connect(lambda: self.add_channel_and_update(f"Channel_{len(self.channel_configs) + 1}"))
  *             add_btn.setStyleSheet("""             # <<<<<<<<<<<<<<
  *                 QPushButton {
  *                     background: #4CAF50;
  */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_add_btn, __pyx_n_s_setStyleSheet); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2059, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_add_btn, __pyx_n_s_setStyleSheet); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2060, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -51824,20 +51840,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_kp_u_QPushButton_background_4CAF50_c};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2059, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2060, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":2073
+      /* "gui.py":2074
  *                 }
  *             """)
  *             channel_layout.addWidget(add_btn)             # <<<<<<<<<<<<<<
  * 
  *             return channel_group
  */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_channel_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2073, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_channel_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2074, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -51857,13 +51873,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_v_add_btn};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2073, __pyx_L3_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2074, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gui.py":2075
+      /* "gui.py":2076
  *             channel_layout.addWidget(add_btn)
  * 
  *             return channel_group             # <<<<<<<<<<<<<<
@@ -51875,7 +51891,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
       __pyx_r = __pyx_v_channel_group;
       goto __pyx_L7_try_return;
 
-      /* "gui.py":2008
+      /* "gui.py":2009
  *     def setup_channel_config(self, *args):
  *         """Setup channel configuration UI with UUID-based channels"""
  *         try:             # <<<<<<<<<<<<<<
@@ -51890,7 +51906,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-    /* "gui.py":2077
+    /* "gui.py":2078
  *             return channel_group
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -51900,7 +51916,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
     __pyx_t_11 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_11) {
       __Pyx_AddTraceback("gui.MainWindow.setup_channel_config", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_4, &__pyx_t_6) < 0) __PYX_ERR(0, 2077, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_4, &__pyx_t_6) < 0) __PYX_ERR(0, 2078, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_4);
       __Pyx_XGOTREF(__pyx_t_6);
@@ -51908,18 +51924,18 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
       __pyx_v_e = __pyx_t_4;
       /*try:*/ {
 
-        /* "gui.py":2078
+        /* "gui.py":2079
  * 
  *         except Exception as e:
  *             self.add_status_message(f"Error setting up channel config: {str(e)}")             # <<<<<<<<<<<<<<
  * 
  *     def add_channel_and_update(self, name, *args):
  */
-        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 2078, __pyx_L20_error)
+        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 2079, __pyx_L20_error)
         __Pyx_GOTREF(__pyx_t_10);
-        __pyx_t_12 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 2078, __pyx_L20_error)
+        __pyx_t_12 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 2079, __pyx_L20_error)
         __Pyx_GOTREF(__pyx_t_12);
-        __pyx_t_13 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_setting_up_channel_config, __pyx_t_12); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2078, __pyx_L20_error)
+        __pyx_t_13 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_setting_up_channel_config, __pyx_t_12); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2079, __pyx_L20_error)
         __Pyx_GOTREF(__pyx_t_13);
         __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
         __pyx_t_12 = NULL;
@@ -51941,14 +51957,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
           __pyx_t_9 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
           __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-          if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 2078, __pyx_L20_error)
+          if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 2079, __pyx_L20_error)
           __Pyx_GOTREF(__pyx_t_9);
           __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
         }
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       }
 
-      /* "gui.py":2077
+      /* "gui.py":2078
  *             return channel_group
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -52004,7 +52020,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
     }
     goto __pyx_L5_except_error;
 
-    /* "gui.py":2008
+    /* "gui.py":2009
  *     def setup_channel_config(self, *args):
  *         """Setup channel configuration UI with UUID-based channels"""
  *         try:             # <<<<<<<<<<<<<<
@@ -52030,7 +52046,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
     __Pyx_ExceptionReset(__pyx_t_1, __pyx_t_2, __pyx_t_3);
   }
 
-  /* "gui.py":2006
+  /* "gui.py":2007
  *             self.add_new_action(action_name, description, repetitions)
  * 
  *     def setup_channel_config(self, *args):             # <<<<<<<<<<<<<<
@@ -52070,7 +52086,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_86setup_channel_config(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "gui.py":2080
+/* "gui.py":2081
  *             self.add_status_message(f"Error setting up channel config: {str(e)}")
  * 
  *     def add_channel_and_update(self, name, *args):             # <<<<<<<<<<<<<<
@@ -52142,7 +52158,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2080, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2081, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
         CYTHON_FALLTHROUGH;
         case  1:
@@ -52150,15 +52166,15 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[1]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2080, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2081, __pyx_L3_error)
         else {
-          __Pyx_RaiseArgtupleInvalid("add_channel_and_update", 0, 2, 2, 1); __PYX_ERR(0, 2080, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("add_channel_and_update", 0, 2, 2, 1); __PYX_ERR(0, 2081, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
         const Py_ssize_t used_pos_args = (kwd_pos_args < 2) ? kwd_pos_args : 2;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "add_channel_and_update") < 0)) __PYX_ERR(0, 2080, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "add_channel_and_update") < 0)) __PYX_ERR(0, 2081, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs < 2)) {
       goto __pyx_L5_argtuple_error;
@@ -52171,7 +52187,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("add_channel_and_update", 0, 2, 2, __pyx_nargs); __PYX_ERR(0, 2080, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("add_channel_and_update", 0, 2, 2, __pyx_nargs); __PYX_ERR(0, 2081, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -52213,16 +52229,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_88add_channel_and_update(CYTHON_UNUS
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("add_channel_and_update", 1);
 
-  /* "gui.py":2082
+  /* "gui.py":2083
  *     def add_channel_and_update(self, name, *args):
  *         """Add a channel and update plots"""
  *         self.add_channel(name, self.channel_list_layout)             # <<<<<<<<<<<<<<
  *         self.update_plot_channels(self.channel_configs)
  * 
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_channel); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2082, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_channel); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2083, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_list_layout); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2082, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_list_layout); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2083, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_4 = NULL;
   __pyx_t_5 = 0;
@@ -52243,22 +52259,22 @@ static PyObject *__pyx_pf_3gui_10MainWindow_88add_channel_and_update(CYTHON_UNUS
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_5, 2+__pyx_t_5);
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2082, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2083, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":2083
+  /* "gui.py":2084
  *         """Add a channel and update plots"""
  *         self.add_channel(name, self.channel_list_layout)
  *         self.update_plot_channels(self.channel_configs)             # <<<<<<<<<<<<<<
  * 
  *     def add_channel(self, name, layout, *args):
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_update_plot_channels); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2083, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_update_plot_channels); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2084, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2083, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2084, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_4 = NULL;
   __pyx_t_5 = 0;
@@ -52279,13 +52295,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_88add_channel_and_update(CYTHON_UNUS
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_5, 1+__pyx_t_5);
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2083, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2084, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":2080
+  /* "gui.py":2081
  *             self.add_status_message(f"Error setting up channel config: {str(e)}")
  * 
  *     def add_channel_and_update(self, name, *args):             # <<<<<<<<<<<<<<
@@ -52309,7 +52325,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_88add_channel_and_update(CYTHON_UNUS
   return __pyx_r;
 }
 
-/* "gui.py":2085
+/* "gui.py":2086
  *         self.update_plot_channels(self.channel_configs)
  * 
  *     def add_channel(self, name, layout, *args):             # <<<<<<<<<<<<<<
@@ -52384,7 +52400,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2085, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2086, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
         CYTHON_FALLTHROUGH;
         case  1:
@@ -52392,9 +52408,9 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[1]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2085, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2086, __pyx_L3_error)
         else {
-          __Pyx_RaiseArgtupleInvalid("add_channel", 0, 3, 3, 1); __PYX_ERR(0, 2085, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("add_channel", 0, 3, 3, 1); __PYX_ERR(0, 2086, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
@@ -52402,15 +52418,15 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[2]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2085, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2086, __pyx_L3_error)
         else {
-          __Pyx_RaiseArgtupleInvalid("add_channel", 0, 3, 3, 2); __PYX_ERR(0, 2085, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("add_channel", 0, 3, 3, 2); __PYX_ERR(0, 2086, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
         const Py_ssize_t used_pos_args = (kwd_pos_args < 3) ? kwd_pos_args : 3;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "add_channel") < 0)) __PYX_ERR(0, 2085, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "add_channel") < 0)) __PYX_ERR(0, 2086, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs < 3)) {
       goto __pyx_L5_argtuple_error;
@@ -52425,7 +52441,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("add_channel", 0, 3, 3, __pyx_nargs); __PYX_ERR(0, 2085, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("add_channel", 0, 3, 3, __pyx_nargs); __PYX_ERR(0, 2086, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -52454,7 +52470,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-/* "gui.py":2112
+/* "gui.py":2113
  *         delete_btn = QPushButton("")
  *         delete_btn.setFixedWidth(30)
  *         delete_btn.clicked.connect(lambda: self.delete_channel(channel_id))             # <<<<<<<<<<<<<<
@@ -52494,10 +52510,10 @@ static PyObject *__pyx_lambda_funcdef_lambda7(PyObject *__pyx_self) {
   __pyx_outer_scope = (struct __pyx_obj_3gui___pyx_scope_struct_6_add_channel *) __Pyx_CyFunction_GetClosure(__pyx_self);
   __pyx_cur_scope = __pyx_outer_scope;
   __Pyx_XDECREF(__pyx_r);
-  if (unlikely(!__pyx_cur_scope->__pyx_v_self)) { __Pyx_RaiseClosureNameError("self"); __PYX_ERR(0, 2112, __pyx_L1_error) }
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_delete_channel); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2112, __pyx_L1_error)
+  if (unlikely(!__pyx_cur_scope->__pyx_v_self)) { __Pyx_RaiseClosureNameError("self"); __PYX_ERR(0, 2113, __pyx_L1_error) }
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_delete_channel); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2113, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (unlikely(!__pyx_cur_scope->__pyx_v_channel_id)) { __Pyx_RaiseClosureNameError("channel_id"); __PYX_ERR(0, 2112, __pyx_L1_error) }
+  if (unlikely(!__pyx_cur_scope->__pyx_v_channel_id)) { __Pyx_RaiseClosureNameError("channel_id"); __PYX_ERR(0, 2113, __pyx_L1_error) }
   __pyx_t_3 = NULL;
   __pyx_t_4 = 0;
   #if CYTHON_UNPACK_METHODS
@@ -52516,7 +52532,7 @@ static PyObject *__pyx_lambda_funcdef_lambda7(PyObject *__pyx_self) {
     PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_cur_scope->__pyx_v_channel_id};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2112, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2113, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
@@ -52537,7 +52553,7 @@ static PyObject *__pyx_lambda_funcdef_lambda7(PyObject *__pyx_self) {
   return __pyx_r;
 }
 
-/* "gui.py":2085
+/* "gui.py":2086
  *         self.update_plot_channels(self.channel_configs)
  * 
  *     def add_channel(self, name, layout, *args):             # <<<<<<<<<<<<<<
@@ -52575,7 +52591,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
   if (unlikely(!__pyx_cur_scope)) {
     __pyx_cur_scope = ((struct __pyx_obj_3gui___pyx_scope_struct_6_add_channel *)Py_None);
     __Pyx_INCREF(Py_None);
-    __PYX_ERR(0, 2085, __pyx_L1_error)
+    __PYX_ERR(0, 2086, __pyx_L1_error)
   } else {
     __Pyx_GOTREF((PyObject *)__pyx_cur_scope);
   }
@@ -52583,7 +52599,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
   __Pyx_INCREF(__pyx_cur_scope->__pyx_v_self);
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_self);
 
-  /* "gui.py":2088
+  /* "gui.py":2089
  *         """Add a new channel"""
  *         # Check if channel already exists
  *         if name in [data['input'].text().strip() for data in self.channel_configs.values()]:             # <<<<<<<<<<<<<<
@@ -52591,16 +52607,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
  * 
  */
   { /* enter inner scope */
-    __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2088, __pyx_L6_error)
+    __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2089, __pyx_L6_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_3 = 0;
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2088, __pyx_L6_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2089, __pyx_L6_error)
     __Pyx_GOTREF(__pyx_t_6);
     if (unlikely(__pyx_t_6 == Py_None)) {
       PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "values");
-      __PYX_ERR(0, 2088, __pyx_L6_error)
+      __PYX_ERR(0, 2089, __pyx_L6_error)
     }
-    __pyx_t_7 = __Pyx_dict_iterator(__pyx_t_6, 0, __pyx_n_s_values, (&__pyx_t_4), (&__pyx_t_5)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2088, __pyx_L6_error)
+    __pyx_t_7 = __Pyx_dict_iterator(__pyx_t_6, 0, __pyx_n_s_values, (&__pyx_t_4), (&__pyx_t_5)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2089, __pyx_L6_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_XDECREF(__pyx_t_2);
@@ -52609,13 +52625,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     while (1) {
       __pyx_t_8 = __Pyx_dict_iter_next(__pyx_t_2, __pyx_t_4, &__pyx_t_3, NULL, &__pyx_t_7, NULL, __pyx_t_5);
       if (unlikely(__pyx_t_8 == 0)) break;
-      if (unlikely(__pyx_t_8 == -1)) __PYX_ERR(0, 2088, __pyx_L6_error)
+      if (unlikely(__pyx_t_8 == -1)) __PYX_ERR(0, 2089, __pyx_L6_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_XDECREF_SET(__pyx_8genexpr8__pyx_v_data, __pyx_t_7);
       __pyx_t_7 = 0;
-      __pyx_t_9 = __Pyx_PyObject_Dict_GetItem(__pyx_8genexpr8__pyx_v_data, __pyx_n_u_input); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 2088, __pyx_L6_error)
+      __pyx_t_9 = __Pyx_PyObject_Dict_GetItem(__pyx_8genexpr8__pyx_v_data, __pyx_n_u_input); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 2089, __pyx_L6_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_n_s_text); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 2088, __pyx_L6_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_n_s_text); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 2089, __pyx_L6_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       __pyx_t_9 = NULL;
@@ -52636,11 +52652,11 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
         PyObject *__pyx_callargs[2] = {__pyx_t_9, NULL};
         __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_11, 0+__pyx_t_11);
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2088, __pyx_L6_error)
+        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2089, __pyx_L6_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_strip); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 2088, __pyx_L6_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_strip); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 2089, __pyx_L6_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = NULL;
@@ -52661,11 +52677,11 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_11, 0+__pyx_t_11);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2088, __pyx_L6_error)
+        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2089, __pyx_L6_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       }
-      if (unlikely(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_t_7))) __PYX_ERR(0, 2088, __pyx_L6_error)
+      if (unlikely(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_t_7))) __PYX_ERR(0, 2089, __pyx_L6_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -52676,11 +52692,11 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     goto __pyx_L1_error;
     __pyx_L9_exit_scope:;
   } /* exit inner scope */
-  __pyx_t_12 = (__Pyx_PySequence_ContainsTF(__pyx_v_name, __pyx_t_1, Py_EQ)); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 2088, __pyx_L1_error)
+  __pyx_t_12 = (__Pyx_PySequence_ContainsTF(__pyx_v_name, __pyx_t_1, Py_EQ)); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 2089, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_12) {
 
-    /* "gui.py":2089
+    /* "gui.py":2090
  *         # Check if channel already exists
  *         if name in [data['input'].text().strip() for data in self.channel_configs.values()]:
  *             return  # Do not add duplicate channels             # <<<<<<<<<<<<<<
@@ -52691,7 +52707,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "gui.py":2088
+    /* "gui.py":2089
  *         """Add a new channel"""
  *         # Check if channel already exists
  *         if name in [data['input'].text().strip() for data in self.channel_configs.values()]:             # <<<<<<<<<<<<<<
@@ -52700,14 +52716,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
  */
   }
 
-  /* "gui.py":2092
+  /* "gui.py":2093
  * 
  *         # Create channel row
  *         channel_row = QWidget()             # <<<<<<<<<<<<<<
  *         row_layout = QHBoxLayout(channel_row)
  *         row_layout.setContentsMargins(5, 5, 5, 5)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_QWidget); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2092, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_QWidget); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2093, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_7 = NULL;
   __pyx_t_11 = 0;
@@ -52727,21 +52743,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     PyObject *__pyx_callargs[2] = {__pyx_t_7, NULL};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_11, 0+__pyx_t_11);
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2092, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2093, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __pyx_v_channel_row = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gui.py":2093
+  /* "gui.py":2094
  *         # Create channel row
  *         channel_row = QWidget()
  *         row_layout = QHBoxLayout(channel_row)             # <<<<<<<<<<<<<<
  *         row_layout.setContentsMargins(5, 5, 5, 5)
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_QHBoxLayout); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2093, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_QHBoxLayout); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2094, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_7 = NULL;
   __pyx_t_11 = 0;
@@ -52761,37 +52777,37 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_v_channel_row};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2093, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2094, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __pyx_v_row_layout = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gui.py":2094
+  /* "gui.py":2095
  *         channel_row = QWidget()
  *         row_layout = QHBoxLayout(channel_row)
  *         row_layout.setContentsMargins(5, 5, 5, 5)             # <<<<<<<<<<<<<<
  * 
  *         # Generate UUID for channel
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_row_layout, __pyx_n_s_setContentsMargins); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2094, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_row_layout, __pyx_n_s_setContentsMargins); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2095, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2094, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2095, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gui.py":2097
+  /* "gui.py":2098
  * 
  *         # Generate UUID for channel
  *         channel_id = str(uuid.uuid4())             # <<<<<<<<<<<<<<
  * 
  *         # Create name input
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_uuid); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2097, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_uuid); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2098, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_uuid4); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2097, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_uuid4); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2098, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = NULL;
@@ -52812,25 +52828,25 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     PyObject *__pyx_callargs[2] = {__pyx_t_1, NULL};
     __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_11, 0+__pyx_t_11);
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2097, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2098, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   }
-  __pyx_t_7 = __Pyx_PyObject_Unicode(__pyx_t_2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2097, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_Unicode(__pyx_t_2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2098, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_GIVEREF(__pyx_t_7);
   __pyx_cur_scope->__pyx_v_channel_id = __pyx_t_7;
   __pyx_t_7 = 0;
 
-  /* "gui.py":2100
+  /* "gui.py":2101
  * 
  *         # Create name input
  *         name_input = QLineEdit(name)             # <<<<<<<<<<<<<<
  *         name_input.setPlaceholderText("Channel name")
  *         row_layout.addWidget(name_input)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_QLineEdit); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_QLineEdit); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2101, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_1 = NULL;
   __pyx_t_11 = 0;
@@ -52850,21 +52866,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_v_name};
     __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2100, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2101, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __pyx_v_name_input = __pyx_t_7;
   __pyx_t_7 = 0;
 
-  /* "gui.py":2101
+  /* "gui.py":2102
  *         # Create name input
  *         name_input = QLineEdit(name)
  *         name_input.setPlaceholderText("Channel name")             # <<<<<<<<<<<<<<
  *         row_layout.addWidget(name_input)
  * 
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_name_input, __pyx_n_s_setPlaceholderText); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2101, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_name_input, __pyx_n_s_setPlaceholderText); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2102, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_1 = NULL;
   __pyx_t_11 = 0;
@@ -52884,20 +52900,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_kp_u_Channel_name};
     __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2101, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "gui.py":2102
+  /* "gui.py":2103
  *         name_input = QLineEdit(name)
  *         name_input.setPlaceholderText("Channel name")
  *         row_layout.addWidget(name_input)             # <<<<<<<<<<<<<<
  * 
  *         # Create enable/disable checkbox
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_row_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_row_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2103, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_1 = NULL;
   __pyx_t_11 = 0;
@@ -52917,20 +52933,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_v_name_input};
     __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2102, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2103, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "gui.py":2105
+  /* "gui.py":2106
  * 
  *         # Create enable/disable checkbox
  *         enable_box = QCheckBox("Enable")             # <<<<<<<<<<<<<<
  *         enable_box.setChecked(True)
  *         row_layout.addWidget(enable_box)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_QCheckBox); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2105, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_QCheckBox); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2106, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_1 = NULL;
   __pyx_t_11 = 0;
@@ -52950,21 +52966,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_n_u_Enable};
     __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2105, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2106, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __pyx_v_enable_box = __pyx_t_7;
   __pyx_t_7 = 0;
 
-  /* "gui.py":2106
+  /* "gui.py":2107
  *         # Create enable/disable checkbox
  *         enable_box = QCheckBox("Enable")
  *         enable_box.setChecked(True)             # <<<<<<<<<<<<<<
  *         row_layout.addWidget(enable_box)
  * 
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_enable_box, __pyx_n_s_setChecked); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2106, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_enable_box, __pyx_n_s_setChecked); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2107, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_1 = NULL;
   __pyx_t_11 = 0;
@@ -52984,20 +53000,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     PyObject *__pyx_callargs[2] = {__pyx_t_1, Py_True};
     __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2106, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2107, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "gui.py":2107
+  /* "gui.py":2108
  *         enable_box = QCheckBox("Enable")
  *         enable_box.setChecked(True)
  *         row_layout.addWidget(enable_box)             # <<<<<<<<<<<<<<
  * 
  *         # Create delete button
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_row_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2107, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_row_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_1 = NULL;
   __pyx_t_11 = 0;
@@ -53017,20 +53033,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_v_enable_box};
     __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2107, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2108, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "gui.py":2110
+  /* "gui.py":2111
  * 
  *         # Create delete button
  *         delete_btn = QPushButton("")             # <<<<<<<<<<<<<<
  *         delete_btn.setFixedWidth(30)
  *         delete_btn.clicked.connect(lambda: self.delete_channel(channel_id))
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_QPushButton); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2110, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_QPushButton); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2111, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_1 = NULL;
   __pyx_t_11 = 0;
@@ -53050,21 +53066,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_kp_u__27};
     __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2110, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2111, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __pyx_v_delete_btn = __pyx_t_7;
   __pyx_t_7 = 0;
 
-  /* "gui.py":2111
+  /* "gui.py":2112
  *         # Create delete button
  *         delete_btn = QPushButton("")
  *         delete_btn.setFixedWidth(30)             # <<<<<<<<<<<<<<
  *         delete_btn.clicked.connect(lambda: self.delete_channel(channel_id))
  *         row_layout.addWidget(delete_btn)
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_delete_btn, __pyx_n_s_setFixedWidth); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2111, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_delete_btn, __pyx_n_s_setFixedWidth); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_1 = NULL;
   __pyx_t_11 = 0;
@@ -53084,25 +53100,25 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_int_30};
     __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2111, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2112, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "gui.py":2112
+  /* "gui.py":2113
  *         delete_btn = QPushButton("")
  *         delete_btn.setFixedWidth(30)
  *         delete_btn.clicked.connect(lambda: self.delete_channel(channel_id))             # <<<<<<<<<<<<<<
  *         row_layout.addWidget(delete_btn)
  * 
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_delete_btn, __pyx_n_s_clicked); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2112, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_delete_btn, __pyx_n_s_clicked); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2113, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_connect); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2112, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_connect); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2113, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_11add_channel_lambda7, 0, __pyx_n_s_MainWindow_add_channel_locals_la, ((PyObject*)__pyx_cur_scope), __pyx_n_s_gui, __pyx_d, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2112, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_11add_channel_lambda7, 0, __pyx_n_s_MainWindow_add_channel_locals_la, ((PyObject*)__pyx_cur_scope), __pyx_n_s_gui, __pyx_d, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2113, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_10 = NULL;
   __pyx_t_11 = 0;
@@ -53123,20 +53139,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
     __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2112, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2113, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   }
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "gui.py":2113
+  /* "gui.py":2114
  *         delete_btn.setFixedWidth(30)
  *         delete_btn.clicked.connect(lambda: self.delete_channel(channel_id))
  *         row_layout.addWidget(delete_btn)             # <<<<<<<<<<<<<<
  * 
  *         # Store channel config
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_row_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2113, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_row_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = NULL;
   __pyx_t_11 = 0;
@@ -53156,71 +53172,71 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_v_delete_btn};
     __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2113, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2114, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   }
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "gui.py":2117
+  /* "gui.py":2118
  *         # Store channel config
  *         self.channel_configs[channel_id] = {
  *             'widget': channel_row,             # <<<<<<<<<<<<<<
  *             'input': name_input,
  *             'enable': enable_box,
  */
-  __pyx_t_7 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2117, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_t_7, __pyx_n_u_widget, __pyx_v_channel_row) < 0) __PYX_ERR(0, 2117, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_n_u_widget, __pyx_v_channel_row) < 0) __PYX_ERR(0, 2118, __pyx_L1_error)
 
-  /* "gui.py":2118
+  /* "gui.py":2119
  *         self.channel_configs[channel_id] = {
  *             'widget': channel_row,
  *             'input': name_input,             # <<<<<<<<<<<<<<
  *             'enable': enable_box,
  *             'name': name
  */
-  if (PyDict_SetItem(__pyx_t_7, __pyx_n_u_input, __pyx_v_name_input) < 0) __PYX_ERR(0, 2117, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_n_u_input, __pyx_v_name_input) < 0) __PYX_ERR(0, 2118, __pyx_L1_error)
 
-  /* "gui.py":2119
+  /* "gui.py":2120
  *             'widget': channel_row,
  *             'input': name_input,
  *             'enable': enable_box,             # <<<<<<<<<<<<<<
  *             'name': name
  *         }
  */
-  if (PyDict_SetItem(__pyx_t_7, __pyx_n_u_enable, __pyx_v_enable_box) < 0) __PYX_ERR(0, 2117, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_n_u_enable, __pyx_v_enable_box) < 0) __PYX_ERR(0, 2118, __pyx_L1_error)
 
-  /* "gui.py":2120
+  /* "gui.py":2121
  *             'input': name_input,
  *             'enable': enable_box,
  *             'name': name             # <<<<<<<<<<<<<<
  *         }
  * 
  */
-  if (PyDict_SetItem(__pyx_t_7, __pyx_n_u_name, __pyx_v_name) < 0) __PYX_ERR(0, 2117, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_n_u_name, __pyx_v_name) < 0) __PYX_ERR(0, 2118, __pyx_L1_error)
 
-  /* "gui.py":2116
+  /* "gui.py":2117
  * 
  *         # Store channel config
  *         self.channel_configs[channel_id] = {             # <<<<<<<<<<<<<<
  *             'widget': channel_row,
  *             'input': name_input,
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2116, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2117, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (unlikely((PyObject_SetItem(__pyx_t_1, __pyx_cur_scope->__pyx_v_channel_id, __pyx_t_7) < 0))) __PYX_ERR(0, 2116, __pyx_L1_error)
+  if (unlikely((PyObject_SetItem(__pyx_t_1, __pyx_cur_scope->__pyx_v_channel_id, __pyx_t_7) < 0))) __PYX_ERR(0, 2117, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "gui.py":2124
+  /* "gui.py":2125
  * 
  *         # Add to layout
  *         layout.addWidget(channel_row)             # <<<<<<<<<<<<<<
  * 
  *     def delete_channel(self, channel_id, *args):
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2124, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_layout, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2125, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = NULL;
   __pyx_t_11 = 0;
@@ -53240,13 +53256,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
     PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_v_channel_row};
     __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2124, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2125, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   }
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "gui.py":2085
+  /* "gui.py":2086
  *         self.update_plot_channels(self.channel_configs)
  * 
  *     def add_channel(self, name, layout, *args):             # <<<<<<<<<<<<<<
@@ -53279,7 +53295,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_90add_channel(CYTHON_UNUSED PyObject
   return __pyx_r;
 }
 
-/* "gui.py":2126
+/* "gui.py":2127
  *         layout.addWidget(channel_row)
  * 
  *     def delete_channel(self, channel_id, *args):             # <<<<<<<<<<<<<<
@@ -53351,7 +53367,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2126, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2127, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
         CYTHON_FALLTHROUGH;
         case  1:
@@ -53359,15 +53375,15 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[1]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2126, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2127, __pyx_L3_error)
         else {
-          __Pyx_RaiseArgtupleInvalid("delete_channel", 0, 2, 2, 1); __PYX_ERR(0, 2126, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("delete_channel", 0, 2, 2, 1); __PYX_ERR(0, 2127, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
         const Py_ssize_t used_pos_args = (kwd_pos_args < 2) ? kwd_pos_args : 2;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "delete_channel") < 0)) __PYX_ERR(0, 2126, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "delete_channel") < 0)) __PYX_ERR(0, 2127, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs < 2)) {
       goto __pyx_L5_argtuple_error;
@@ -53380,7 +53396,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("delete_channel", 0, 2, 2, __pyx_nargs); __PYX_ERR(0, 2126, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("delete_channel", 0, 2, 2, __pyx_nargs); __PYX_ERR(0, 2127, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -53426,66 +53442,66 @@ static PyObject *__pyx_pf_3gui_10MainWindow_92delete_channel(CYTHON_UNUSED PyObj
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("delete_channel", 1);
 
-  /* "gui.py":2128
+  /* "gui.py":2129
  *     def delete_channel(self, channel_id, *args):
  *         """Delete a channel by UUID"""
  *         if channel_id in self.channel_configs:             # <<<<<<<<<<<<<<
  *             channel_data = self.channel_configs[channel_id]
  *             widget = channel_data['widget']
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2128, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2129, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_v_channel_id, __pyx_t_1, Py_EQ)); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 2128, __pyx_L1_error)
+  __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_v_channel_id, __pyx_t_1, Py_EQ)); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 2129, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
-    /* "gui.py":2129
+    /* "gui.py":2130
  *         """Delete a channel by UUID"""
  *         if channel_id in self.channel_configs:
  *             channel_data = self.channel_configs[channel_id]             # <<<<<<<<<<<<<<
  *             widget = channel_data['widget']
  *             name = channel_data['name']
  */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2129, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2130, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_t_1, __pyx_v_channel_id); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2129, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_t_1, __pyx_v_channel_id); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2130, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_v_channel_data = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "gui.py":2130
+    /* "gui.py":2131
  *         if channel_id in self.channel_configs:
  *             channel_data = self.channel_configs[channel_id]
  *             widget = channel_data['widget']             # <<<<<<<<<<<<<<
  *             name = channel_data['name']
  * 
  */
-    __pyx_t_3 = __Pyx_PyObject_Dict_GetItem(__pyx_v_channel_data, __pyx_n_u_widget); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2130, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Dict_GetItem(__pyx_v_channel_data, __pyx_n_u_widget); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2131, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_v_widget = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "gui.py":2131
+    /* "gui.py":2132
  *             channel_data = self.channel_configs[channel_id]
  *             widget = channel_data['widget']
  *             name = channel_data['name']             # <<<<<<<<<<<<<<
  * 
  *             # Remove widget and delete
  */
-    __pyx_t_3 = __Pyx_PyObject_Dict_GetItem(__pyx_v_channel_data, __pyx_n_u_name); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2131, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Dict_GetItem(__pyx_v_channel_data, __pyx_n_u_name); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2132, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_v_name = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "gui.py":2134
+    /* "gui.py":2135
  * 
  *             # Remove widget and delete
  *             widget.setParent(None)             # <<<<<<<<<<<<<<
  *             widget.deleteLater()
  * 
  */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_widget, __pyx_n_s_setParent); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2134, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_widget, __pyx_n_s_setParent); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2135, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_4 = NULL;
     __pyx_t_5 = 0;
@@ -53505,20 +53521,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_92delete_channel(CYTHON_UNUSED PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_4, Py_None};
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_5, 1+__pyx_t_5);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2134, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2135, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gui.py":2135
+    /* "gui.py":2136
  *             # Remove widget and delete
  *             widget.setParent(None)
  *             widget.deleteLater()             # <<<<<<<<<<<<<<
  * 
  *             # Remove from configs
  */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_widget, __pyx_n_s_deleteLater); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2135, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_widget, __pyx_n_s_deleteLater); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2136, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_4 = NULL;
     __pyx_t_5 = 0;
@@ -53538,36 +53554,36 @@ static PyObject *__pyx_pf_3gui_10MainWindow_92delete_channel(CYTHON_UNUSED PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_4, NULL};
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_5, 0+__pyx_t_5);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2135, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2136, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gui.py":2138
+    /* "gui.py":2139
  * 
  *             # Remove from configs
  *             del self.channel_configs[channel_id]             # <<<<<<<<<<<<<<
  * 
  *             self.add_status_message(f"Removed channel: {name}")
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2138, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2139, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    if (unlikely((PyObject_DelItem(__pyx_t_3, __pyx_v_channel_id) < 0))) __PYX_ERR(0, 2138, __pyx_L1_error)
+    if (unlikely((PyObject_DelItem(__pyx_t_3, __pyx_v_channel_id) < 0))) __PYX_ERR(0, 2139, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gui.py":2140
+    /* "gui.py":2141
  *             del self.channel_configs[channel_id]
  * 
  *             self.add_status_message(f"Removed channel: {name}")             # <<<<<<<<<<<<<<
  *             self.update_channel_config()
  * 
  */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2140, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2141, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_v_name, __pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2140, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_v_name, __pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2141, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Removed_channel, __pyx_t_4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2140, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Removed_channel, __pyx_t_4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2141, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_4 = NULL;
@@ -53589,20 +53605,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_92delete_channel(CYTHON_UNUSED PyObj
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_5, 1+__pyx_t_5);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2140, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2141, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gui.py":2141
+    /* "gui.py":2142
  * 
  *             self.add_status_message(f"Removed channel: {name}")
  *             self.update_channel_config()             # <<<<<<<<<<<<<<
  * 
  *     def update_channel_config(self, *args):
  */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_update_channel_config); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2141, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_update_channel_config); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2142, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_6 = NULL;
     __pyx_t_5 = 0;
@@ -53622,13 +53638,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_92delete_channel(CYTHON_UNUSED PyObj
       PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_5, 0+__pyx_t_5);
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2141, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2142, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gui.py":2128
+    /* "gui.py":2129
  *     def delete_channel(self, channel_id, *args):
  *         """Delete a channel by UUID"""
  *         if channel_id in self.channel_configs:             # <<<<<<<<<<<<<<
@@ -53637,7 +53653,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_92delete_channel(CYTHON_UNUSED PyObj
  */
   }
 
-  /* "gui.py":2126
+  /* "gui.py":2127
  *         layout.addWidget(channel_row)
  * 
  *     def delete_channel(self, channel_id, *args):             # <<<<<<<<<<<<<<
@@ -53664,7 +53680,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_92delete_channel(CYTHON_UNUSED PyObj
   return __pyx_r;
 }
 
-/* "gui.py":2143
+/* "gui.py":2144
  *             self.update_channel_config()
  * 
  *     def update_channel_config(self, *args):             # <<<<<<<<<<<<<<
@@ -53733,13 +53749,13 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2143, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2144, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
         const Py_ssize_t used_pos_args = (kwd_pos_args < 1) ? kwd_pos_args : 1;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "update_channel_config") < 0)) __PYX_ERR(0, 2143, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "update_channel_config") < 0)) __PYX_ERR(0, 2144, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs < 1)) {
       goto __pyx_L5_argtuple_error;
@@ -53750,7 +53766,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("update_channel_config", 0, 1, 1, __pyx_nargs); __PYX_ERR(0, 2143, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("update_channel_config", 0, 1, 1, __pyx_nargs); __PYX_ERR(0, 2144, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -53808,7 +53824,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_94update_channel_config(CYTHON_UNUSE
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("update_channel_config", 1);
 
-  /* "gui.py":2145
+  /* "gui.py":2146
  *     def update_channel_config(self, *args):
  *         """Update EEG manager with current channel configuration"""
  *         try:             # <<<<<<<<<<<<<<
@@ -53824,16 +53840,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_94update_channel_config(CYTHON_UNUSE
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "gui.py":2147
+      /* "gui.py":2148
  *         try:
  *             # Update plots first
  *             self.update_plot_channels(self.channel_configs)             # <<<<<<<<<<<<<<
  * 
  *             # Emit signal that channels have changed
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_update_plot_channels); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2147, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_update_plot_channels); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2148, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2147, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_configs); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2148, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_7 = NULL;
       __pyx_t_8 = 0;
@@ -53854,20 +53870,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_94update_channel_config(CYTHON_UNUSE
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2147, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2148, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":2150
+      /* "gui.py":2151
  * 
  *             # Emit signal that channels have changed
  *             self.add_status_message("Channel configuration updated")             # <<<<<<<<<<<<<<
  * 
  *         except Exception as e:
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2150, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2151, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_8 = 0;
@@ -53887,13 +53903,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_94update_channel_config(CYTHON_UNUSE
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_kp_u_Channel_configuration_updated};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2150, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2151, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":2145
+      /* "gui.py":2146
  *     def update_channel_config(self, *args):
  *         """Update EEG manager with current channel configuration"""
  *         try:             # <<<<<<<<<<<<<<
@@ -53911,7 +53927,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_94update_channel_config(CYTHON_UNUSE
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gui.py":2152
+    /* "gui.py":2153
  *             self.add_status_message("Channel configuration updated")
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -53921,7 +53937,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_94update_channel_config(CYTHON_UNUSE
     __pyx_t_9 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_9) {
       __Pyx_AddTraceback("gui.MainWindow.update_channel_config", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_5, &__pyx_t_6) < 0) __PYX_ERR(0, 2152, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_5, &__pyx_t_6) < 0) __PYX_ERR(0, 2153, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_4);
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
@@ -53929,18 +53945,18 @@ static PyObject *__pyx_pf_3gui_10MainWindow_94update_channel_config(CYTHON_UNUSE
       __pyx_v_e = __pyx_t_5;
       /*try:*/ {
 
-        /* "gui.py":2153
+        /* "gui.py":2154
  * 
  *         except Exception as e:
  *             self.add_status_message(f"Error updating channel config: {str(e)}")             # <<<<<<<<<<<<<<
  * 
  *     def update_plot_channels(self, enabled_channels, *args):
  */
-        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 2153, __pyx_L14_error)
+        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 2154, __pyx_L14_error)
         __Pyx_GOTREF(__pyx_t_10);
-        __pyx_t_11 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2153, __pyx_L14_error)
+        __pyx_t_11 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2154, __pyx_L14_error)
         __Pyx_GOTREF(__pyx_t_11);
-        __pyx_t_12 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_updating_channel_config, __pyx_t_11); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 2153, __pyx_L14_error)
+        __pyx_t_12 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_updating_channel_config, __pyx_t_11); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 2154, __pyx_L14_error)
         __Pyx_GOTREF(__pyx_t_12);
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
         __pyx_t_11 = NULL;
@@ -53962,14 +53978,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_94update_channel_config(CYTHON_UNUSE
           __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
           __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2153, __pyx_L14_error)
+          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 2154, __pyx_L14_error)
           __Pyx_GOTREF(__pyx_t_7);
           __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
         }
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       }
 
-      /* "gui.py":2152
+      /* "gui.py":2153
  *             self.add_status_message("Channel configuration updated")
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -54025,7 +54041,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_94update_channel_config(CYTHON_UNUSE
     }
     goto __pyx_L5_except_error;
 
-    /* "gui.py":2145
+    /* "gui.py":2146
  *     def update_channel_config(self, *args):
  *         """Update EEG manager with current channel configuration"""
  *         try:             # <<<<<<<<<<<<<<
@@ -54046,7 +54062,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_94update_channel_config(CYTHON_UNUSE
     __pyx_L8_try_end:;
   }
 
-  /* "gui.py":2143
+  /* "gui.py":2144
  *             self.update_channel_config()
  * 
  *     def update_channel_config(self, *args):             # <<<<<<<<<<<<<<
@@ -54074,7 +54090,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_94update_channel_config(CYTHON_UNUSE
   return __pyx_r;
 }
 
-/* "gui.py":2155
+/* "gui.py":2156
  *             self.add_status_message(f"Error updating channel config: {str(e)}")
  * 
  *     def update_plot_channels(self, enabled_channels, *args):             # <<<<<<<<<<<<<<
@@ -54146,7 +54162,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2155, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2156, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
         CYTHON_FALLTHROUGH;
         case  1:
@@ -54154,15 +54170,15 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[1]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2155, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2156, __pyx_L3_error)
         else {
-          __Pyx_RaiseArgtupleInvalid("update_plot_channels", 0, 2, 2, 1); __PYX_ERR(0, 2155, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("update_plot_channels", 0, 2, 2, 1); __PYX_ERR(0, 2156, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
         const Py_ssize_t used_pos_args = (kwd_pos_args < 2) ? kwd_pos_args : 2;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "update_plot_channels") < 0)) __PYX_ERR(0, 2155, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "update_plot_channels") < 0)) __PYX_ERR(0, 2156, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs < 2)) {
       goto __pyx_L5_argtuple_error;
@@ -54175,7 +54191,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("update_plot_channels", 0, 2, 2, __pyx_nargs); __PYX_ERR(0, 2155, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("update_plot_channels", 0, 2, 2, __pyx_nargs); __PYX_ERR(0, 2156, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -54250,7 +54266,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
   __Pyx_RefNannySetupContext("update_plot_channels", 0);
   __Pyx_INCREF(__pyx_v_enabled_channels);
 
-  /* "gui.py":2157
+  /* "gui.py":2158
  *     def update_plot_channels(self, enabled_channels, *args):
  *         """Update plot display based on enabled channels"""
  *         try:             # <<<<<<<<<<<<<<
@@ -54266,16 +54282,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "gui.py":2159
+      /* "gui.py":2160
  *         try:
  *             # Clear existing plots
  *             self.eeg_plot.clear()             # <<<<<<<<<<<<<<
  *             self.eeg_curves = []
  *             self.plot_items.clear()
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_plot); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2159, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_plot); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2160, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_clear); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2159, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_clear); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2160, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_t_5 = NULL;
@@ -54296,34 +54312,34 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2159, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2160, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":2160
+      /* "gui.py":2161
  *             # Clear existing plots
  *             self.eeg_plot.clear()
  *             self.eeg_curves = []             # <<<<<<<<<<<<<<
  *             self.plot_items.clear()
  * 
  */
-      __pyx_t_4 = PyList_New(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2160, __pyx_L3_error)
+      __pyx_t_4 = PyList_New(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2161, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
-      if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_eeg_curves, __pyx_t_4) < 0) __PYX_ERR(0, 2160, __pyx_L3_error)
+      if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_eeg_curves, __pyx_t_4) < 0) __PYX_ERR(0, 2161, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":2161
+      /* "gui.py":2162
  *             self.eeg_plot.clear()
  *             self.eeg_curves = []
  *             self.plot_items.clear()             # <<<<<<<<<<<<<<
  * 
  *             # Get enabled channels
  */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_plot_items); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2161, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_plot_items); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2162, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_clear); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2161, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_clear); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2162, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = NULL;
@@ -54344,13 +54360,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2161, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2162, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":2164
+      /* "gui.py":2165
  * 
  *             # Get enabled channels
  *             enabled_channels = {             # <<<<<<<<<<<<<<
@@ -54358,10 +54374,10 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
  *                 if data['enable'].isChecked()
  */
       { /* enter inner scope */
-        __pyx_t_4 = PyDict_New(); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2164, __pyx_L11_error)
+        __pyx_t_4 = PyDict_New(); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2165, __pyx_L11_error)
         __Pyx_GOTREF(__pyx_t_4);
 
-        /* "gui.py":2165
+        /* "gui.py":2166
  *             # Get enabled channels
  *             enabled_channels = {
  *                 cid: data for cid, data in enabled_channels.items()             # <<<<<<<<<<<<<<
@@ -54371,9 +54387,9 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
         __pyx_t_8 = 0;
         if (unlikely(__pyx_v_enabled_channels == Py_None)) {
           PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "items");
-          __PYX_ERR(0, 2165, __pyx_L11_error)
+          __PYX_ERR(0, 2166, __pyx_L11_error)
         }
-        __pyx_t_6 = __Pyx_dict_iterator(__pyx_v_enabled_channels, 0, __pyx_n_s_items, (&__pyx_t_9), (&__pyx_t_10)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2165, __pyx_L11_error)
+        __pyx_t_6 = __Pyx_dict_iterator(__pyx_v_enabled_channels, 0, __pyx_n_s_items, (&__pyx_t_9), (&__pyx_t_10)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2166, __pyx_L11_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_XDECREF(__pyx_t_5);
         __pyx_t_5 = __pyx_t_6;
@@ -54381,7 +54397,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
         while (1) {
           __pyx_t_12 = __Pyx_dict_iter_next(__pyx_t_5, __pyx_t_9, &__pyx_t_8, &__pyx_t_6, &__pyx_t_11, NULL, __pyx_t_10);
           if (unlikely(__pyx_t_12 == 0)) break;
-          if (unlikely(__pyx_t_12 == -1)) __PYX_ERR(0, 2165, __pyx_L11_error)
+          if (unlikely(__pyx_t_12 == -1)) __PYX_ERR(0, 2166, __pyx_L11_error)
           __Pyx_GOTREF(__pyx_t_6);
           __Pyx_GOTREF(__pyx_t_11);
           __Pyx_XDECREF_SET(__pyx_8genexpr9__pyx_v_cid, __pyx_t_6);
@@ -54389,16 +54405,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
           __Pyx_XDECREF_SET(__pyx_8genexpr9__pyx_v_data, __pyx_t_11);
           __pyx_t_11 = 0;
 
-          /* "gui.py":2166
+          /* "gui.py":2167
  *             enabled_channels = {
  *                 cid: data for cid, data in enabled_channels.items()
  *                 if data['enable'].isChecked()             # <<<<<<<<<<<<<<
  *             }
  * 
  */
-          __pyx_t_6 = __Pyx_PyObject_Dict_GetItem(__pyx_8genexpr9__pyx_v_data, __pyx_n_u_enable); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2166, __pyx_L11_error)
+          __pyx_t_6 = __Pyx_PyObject_Dict_GetItem(__pyx_8genexpr9__pyx_v_data, __pyx_n_u_enable); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2167, __pyx_L11_error)
           __Pyx_GOTREF(__pyx_t_6);
-          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_isChecked); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2166, __pyx_L11_error)
+          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_isChecked); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2167, __pyx_L11_error)
           __Pyx_GOTREF(__pyx_t_13);
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __pyx_t_6 = NULL;
@@ -54419,24 +54435,24 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
             PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
             __pyx_t_11 = __Pyx_PyObject_FastCall(__pyx_t_13, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
             __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-            if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2166, __pyx_L11_error)
+            if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2167, __pyx_L11_error)
             __Pyx_GOTREF(__pyx_t_11);
             __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
           }
-          __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely((__pyx_t_14 < 0))) __PYX_ERR(0, 2166, __pyx_L11_error)
+          __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely((__pyx_t_14 < 0))) __PYX_ERR(0, 2167, __pyx_L11_error)
           __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
           if (__pyx_t_14) {
 
-            /* "gui.py":2165
+            /* "gui.py":2166
  *             # Get enabled channels
  *             enabled_channels = {
  *                 cid: data for cid, data in enabled_channels.items()             # <<<<<<<<<<<<<<
  *                 if data['enable'].isChecked()
  *             }
  */
-            if (unlikely(PyDict_SetItem(__pyx_t_4, (PyObject*)__pyx_8genexpr9__pyx_v_cid, (PyObject*)__pyx_8genexpr9__pyx_v_data))) __PYX_ERR(0, 2165, __pyx_L11_error)
+            if (unlikely(PyDict_SetItem(__pyx_t_4, (PyObject*)__pyx_8genexpr9__pyx_v_cid, (PyObject*)__pyx_8genexpr9__pyx_v_data))) __PYX_ERR(0, 2166, __pyx_L11_error)
 
-            /* "gui.py":2166
+            /* "gui.py":2167
  *             enabled_channels = {
  *                 cid: data for cid, data in enabled_channels.items()
  *                 if data['enable'].isChecked()             # <<<<<<<<<<<<<<
@@ -54458,7 +54474,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
       __Pyx_DECREF_SET(__pyx_v_enabled_channels, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "gui.py":2170
+      /* "gui.py":2171
  * 
  *             # Create new plots for enabled channels
  *             for i, (channel_id, data) in enumerate(enabled_channels.items()):             # <<<<<<<<<<<<<<
@@ -54468,7 +54484,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
       __Pyx_INCREF(__pyx_int_0);
       __pyx_t_4 = __pyx_int_0;
       __pyx_t_9 = 0;
-      __pyx_t_11 = __Pyx_dict_iterator(__pyx_v_enabled_channels, 0, __pyx_n_s_items, (&__pyx_t_8), (&__pyx_t_10)); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2170, __pyx_L3_error)
+      __pyx_t_11 = __Pyx_dict_iterator(__pyx_v_enabled_channels, 0, __pyx_n_s_items, (&__pyx_t_8), (&__pyx_t_10)); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2171, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_11);
       __Pyx_XDECREF(__pyx_t_5);
       __pyx_t_5 = __pyx_t_11;
@@ -54476,7 +54492,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
       while (1) {
         __pyx_t_12 = __Pyx_dict_iter_next(__pyx_t_5, __pyx_t_8, &__pyx_t_9, &__pyx_t_11, &__pyx_t_13, NULL, __pyx_t_10);
         if (unlikely(__pyx_t_12 == 0)) break;
-        if (unlikely(__pyx_t_12 == -1)) __PYX_ERR(0, 2170, __pyx_L3_error)
+        if (unlikely(__pyx_t_12 == -1)) __PYX_ERR(0, 2171, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_11);
         __Pyx_GOTREF(__pyx_t_13);
         __Pyx_XDECREF_SET(__pyx_v_channel_id, __pyx_t_11);
@@ -54485,22 +54501,22 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
         __pyx_t_13 = 0;
         __Pyx_INCREF(__pyx_t_4);
         __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_4);
-        __pyx_t_13 = __Pyx_PyInt_AddObjC(__pyx_t_4, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2170, __pyx_L3_error)
+        __pyx_t_13 = __Pyx_PyInt_AddObjC(__pyx_t_4, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2171, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_13);
         __Pyx_DECREF(__pyx_t_4);
         __pyx_t_4 = __pyx_t_13;
         __pyx_t_13 = 0;
 
-        /* "gui.py":2171
+        /* "gui.py":2172
  *             # Create new plots for enabled channels
  *             for i, (channel_id, data) in enumerate(enabled_channels.items()):
  *                 name = data['input'].text().strip()             # <<<<<<<<<<<<<<
  *                 if not name:
  *                     continue
  */
-        __pyx_t_6 = __Pyx_PyObject_Dict_GetItem(__pyx_v_data, __pyx_n_u_input); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2171, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PyObject_Dict_GetItem(__pyx_v_data, __pyx_n_u_input); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2172, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_text); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2171, __pyx_L3_error)
+        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_text); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2172, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_15);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         __pyx_t_6 = NULL;
@@ -54521,11 +54537,11 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
           PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
           __pyx_t_11 = __Pyx_PyObject_FastCall(__pyx_t_15, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2171, __pyx_L3_error)
+          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2172, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_11);
           __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
         }
-        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_strip); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2171, __pyx_L3_error)
+        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_strip); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2172, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_15);
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
         __pyx_t_11 = NULL;
@@ -54546,25 +54562,25 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
           PyObject *__pyx_callargs[2] = {__pyx_t_11, NULL};
           __pyx_t_13 = __Pyx_PyObject_FastCall(__pyx_t_15, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
-          if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2171, __pyx_L3_error)
+          if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2172, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_13);
           __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
         }
         __Pyx_XDECREF_SET(__pyx_v_name, __pyx_t_13);
         __pyx_t_13 = 0;
 
-        /* "gui.py":2172
+        /* "gui.py":2173
  *             for i, (channel_id, data) in enumerate(enabled_channels.items()):
  *                 name = data['input'].text().strip()
  *                 if not name:             # <<<<<<<<<<<<<<
  *                     continue
  * 
  */
-        __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_v_name); if (unlikely((__pyx_t_14 < 0))) __PYX_ERR(0, 2172, __pyx_L3_error)
+        __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_v_name); if (unlikely((__pyx_t_14 < 0))) __PYX_ERR(0, 2173, __pyx_L3_error)
         __pyx_t_16 = (!__pyx_t_14);
         if (__pyx_t_16) {
 
-          /* "gui.py":2173
+          /* "gui.py":2174
  *                 name = data['input'].text().strip()
  *                 if not name:
  *                     continue             # <<<<<<<<<<<<<<
@@ -54573,7 +54589,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
  */
           goto __pyx_L16_continue;
 
-          /* "gui.py":2172
+          /* "gui.py":2173
  *             for i, (channel_id, data) in enumerate(enabled_channels.items()):
  *                 name = data['input'].text().strip()
  *                 if not name:             # <<<<<<<<<<<<<<
@@ -54582,79 +54598,79 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
  */
         }
 
-        /* "gui.py":2176
+        /* "gui.py":2177
  * 
  *                 # Create plot
  *                 plot = self.eeg_plot.addPlot(row=i, col=0)             # <<<<<<<<<<<<<<
  *                 plot.setTitle(name, color='#ff69b4')
  *                 plot.setLabel('left', "V", color='#ffffff')
  */
-        __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_plot); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2176, __pyx_L3_error)
+        __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_plot); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2177, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_13);
-        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_n_s_addPlot); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2176, __pyx_L3_error)
+        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_n_s_addPlot); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2177, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_15);
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-        __pyx_t_13 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2176, __pyx_L3_error)
+        __pyx_t_13 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2177, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_13);
-        if (PyDict_SetItem(__pyx_t_13, __pyx_n_s_row, __pyx_v_i) < 0) __PYX_ERR(0, 2176, __pyx_L3_error)
-        if (PyDict_SetItem(__pyx_t_13, __pyx_n_s_col, __pyx_int_0) < 0) __PYX_ERR(0, 2176, __pyx_L3_error)
-        __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_15, __pyx_empty_tuple, __pyx_t_13); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2176, __pyx_L3_error)
+        if (PyDict_SetItem(__pyx_t_13, __pyx_n_s_row, __pyx_v_i) < 0) __PYX_ERR(0, 2177, __pyx_L3_error)
+        if (PyDict_SetItem(__pyx_t_13, __pyx_n_s_col, __pyx_int_0) < 0) __PYX_ERR(0, 2177, __pyx_L3_error)
+        __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_15, __pyx_empty_tuple, __pyx_t_13); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2177, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_11);
         __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
         __Pyx_XDECREF_SET(__pyx_v_plot, __pyx_t_11);
         __pyx_t_11 = 0;
 
-        /* "gui.py":2177
+        /* "gui.py":2178
  *                 # Create plot
  *                 plot = self.eeg_plot.addPlot(row=i, col=0)
  *                 plot.setTitle(name, color='#ff69b4')             # <<<<<<<<<<<<<<
  *                 plot.setLabel('left', "V", color='#ffffff')
  * 
  */
-        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_setTitle); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2177, __pyx_L3_error)
+        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_setTitle); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2178, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_11);
-        __pyx_t_13 = PyTuple_New(1); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2177, __pyx_L3_error)
+        __pyx_t_13 = PyTuple_New(1); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2178, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_13);
         __Pyx_INCREF(__pyx_v_name);
         __Pyx_GIVEREF(__pyx_v_name);
-        if (__Pyx_PyTuple_SET_ITEM(__pyx_t_13, 0, __pyx_v_name)) __PYX_ERR(0, 2177, __pyx_L3_error);
-        __pyx_t_15 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2177, __pyx_L3_error)
+        if (__Pyx_PyTuple_SET_ITEM(__pyx_t_13, 0, __pyx_v_name)) __PYX_ERR(0, 2178, __pyx_L3_error);
+        __pyx_t_15 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2178, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_15);
-        if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_color, __pyx_kp_u_ff69b4) < 0) __PYX_ERR(0, 2177, __pyx_L3_error)
-        __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_t_13, __pyx_t_15); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2177, __pyx_L3_error)
+        if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_color, __pyx_kp_u_ff69b4) < 0) __PYX_ERR(0, 2178, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_t_13, __pyx_t_15); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2178, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
         __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-        /* "gui.py":2178
+        /* "gui.py":2179
  *                 plot = self.eeg_plot.addPlot(row=i, col=0)
  *                 plot.setTitle(name, color='#ff69b4')
  *                 plot.setLabel('left', "V", color='#ffffff')             # <<<<<<<<<<<<<<
  * 
  *                 # Style the plot
  */
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_setLabel); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2178, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_setLabel); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2179, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_15 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2178, __pyx_L3_error)
+        __pyx_t_15 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2179, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_15);
-        if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_color, __pyx_kp_u_ffffff) < 0) __PYX_ERR(0, 2178, __pyx_L3_error)
-        __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__10, __pyx_t_15); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2178, __pyx_L3_error)
+        if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_color, __pyx_kp_u_ffffff) < 0) __PYX_ERR(0, 2179, __pyx_L3_error)
+        __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__10, __pyx_t_15); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2179, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_13);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
 
-        /* "gui.py":2181
+        /* "gui.py":2182
  * 
  *                 # Style the plot
  *                 plot.getAxis('left').setPen('#ffffff')             # <<<<<<<<<<<<<<
  *                 plot.getAxis('bottom').setPen('#ffffff')
  *                 plot.showGrid(x=True, y=True, alpha=0.3)
  */
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_getAxis); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2181, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_getAxis); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2182, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
         __pyx_t_11 = NULL;
         __pyx_t_7 = 0;
@@ -54674,11 +54690,11 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
           PyObject *__pyx_callargs[2] = {__pyx_t_11, __pyx_n_u_left};
           __pyx_t_15 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
-          if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2181, __pyx_L3_error)
+          if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2182, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_15);
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         }
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_15, __pyx_n_s_setPen); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2181, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_15, __pyx_n_s_setPen); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2182, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
         __pyx_t_15 = NULL;
@@ -54699,20 +54715,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
           PyObject *__pyx_callargs[2] = {__pyx_t_15, __pyx_kp_u_ffffff};
           __pyx_t_13 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_15); __pyx_t_15 = 0;
-          if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2181, __pyx_L3_error)
+          if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2182, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_13);
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         }
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
 
-        /* "gui.py":2182
+        /* "gui.py":2183
  *                 # Style the plot
  *                 plot.getAxis('left').setPen('#ffffff')
  *                 plot.getAxis('bottom').setPen('#ffffff')             # <<<<<<<<<<<<<<
  *                 plot.showGrid(x=True, y=True, alpha=0.3)
  * 
  */
-        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_getAxis); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2182, __pyx_L3_error)
+        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_getAxis); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2183, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_15);
         __pyx_t_11 = NULL;
         __pyx_t_7 = 0;
@@ -54732,11 +54748,11 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
           PyObject *__pyx_callargs[2] = {__pyx_t_11, __pyx_n_u_bottom};
           __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_15, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
-          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2182, __pyx_L3_error)
+          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2183, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_6);
           __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
         }
-        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_setPen); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2182, __pyx_L3_error)
+        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_setPen); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2183, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_15);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         __pyx_t_6 = NULL;
@@ -54757,67 +54773,67 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
           PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_kp_u_ffffff};
           __pyx_t_13 = __Pyx_PyObject_FastCall(__pyx_t_15, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-          if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2182, __pyx_L3_error)
+          if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2183, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_13);
           __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
         }
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
 
-        /* "gui.py":2183
+        /* "gui.py":2184
  *                 plot.getAxis('left').setPen('#ffffff')
  *                 plot.getAxis('bottom').setPen('#ffffff')
  *                 plot.showGrid(x=True, y=True, alpha=0.3)             # <<<<<<<<<<<<<<
  * 
  *                 # Show x-axis only on bottom plot
  */
-        __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_showGrid); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2183, __pyx_L3_error)
+        __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_showGrid); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2184, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_13);
-        __pyx_t_15 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2183, __pyx_L3_error)
+        __pyx_t_15 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2184, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_15);
-        if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_x, Py_True) < 0) __PYX_ERR(0, 2183, __pyx_L3_error)
-        if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_y, Py_True) < 0) __PYX_ERR(0, 2183, __pyx_L3_error)
-        if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_alpha, __pyx_float_0_3) < 0) __PYX_ERR(0, 2183, __pyx_L3_error)
-        __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_empty_tuple, __pyx_t_15); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2183, __pyx_L3_error)
+        if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_x, Py_True) < 0) __PYX_ERR(0, 2184, __pyx_L3_error)
+        if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_y, Py_True) < 0) __PYX_ERR(0, 2184, __pyx_L3_error)
+        if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_alpha, __pyx_float_0_3) < 0) __PYX_ERR(0, 2184, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_empty_tuple, __pyx_t_15); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2184, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
         __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-        /* "gui.py":2186
+        /* "gui.py":2187
  * 
  *                 # Show x-axis only on bottom plot
  *                 if i == len(enabled_channels) - 1:             # <<<<<<<<<<<<<<
  *                     plot.setLabel('bottom', "Samples", color='#ffffff')
  *                 else:
  */
-        __pyx_t_17 = PyObject_Length(__pyx_v_enabled_channels); if (unlikely(__pyx_t_17 == ((Py_ssize_t)-1))) __PYX_ERR(0, 2186, __pyx_L3_error)
-        __pyx_t_6 = PyInt_FromSsize_t((__pyx_t_17 - 1)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2186, __pyx_L3_error)
+        __pyx_t_17 = PyObject_Length(__pyx_v_enabled_channels); if (unlikely(__pyx_t_17 == ((Py_ssize_t)-1))) __PYX_ERR(0, 2187, __pyx_L3_error)
+        __pyx_t_6 = PyInt_FromSsize_t((__pyx_t_17 - 1)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2187, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_15 = PyObject_RichCompare(__pyx_v_i, __pyx_t_6, Py_EQ); __Pyx_XGOTREF(__pyx_t_15); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2186, __pyx_L3_error)
+        __pyx_t_15 = PyObject_RichCompare(__pyx_v_i, __pyx_t_6, Py_EQ); __Pyx_XGOTREF(__pyx_t_15); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2187, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-        __pyx_t_16 = __Pyx_PyObject_IsTrue(__pyx_t_15); if (unlikely((__pyx_t_16 < 0))) __PYX_ERR(0, 2186, __pyx_L3_error)
+        __pyx_t_16 = __Pyx_PyObject_IsTrue(__pyx_t_15); if (unlikely((__pyx_t_16 < 0))) __PYX_ERR(0, 2187, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
         if (__pyx_t_16) {
 
-          /* "gui.py":2187
+          /* "gui.py":2188
  *                 # Show x-axis only on bottom plot
  *                 if i == len(enabled_channels) - 1:
  *                     plot.setLabel('bottom', "Samples", color='#ffffff')             # <<<<<<<<<<<<<<
  *                 else:
  *                     plot.getAxis('bottom').hide()
  */
-          __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_setLabel); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2187, __pyx_L3_error)
+          __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_setLabel); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2188, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_15);
-          __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2187, __pyx_L3_error)
+          __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2188, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_6);
-          if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_color, __pyx_kp_u_ffffff) < 0) __PYX_ERR(0, 2187, __pyx_L3_error)
-          __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_15, __pyx_tuple__11, __pyx_t_6); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2187, __pyx_L3_error)
+          if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_color, __pyx_kp_u_ffffff) < 0) __PYX_ERR(0, 2188, __pyx_L3_error)
+          __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_15, __pyx_tuple__11, __pyx_t_6); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2188, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_13);
           __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
 
-          /* "gui.py":2186
+          /* "gui.py":2187
  * 
  *                 # Show x-axis only on bottom plot
  *                 if i == len(enabled_channels) - 1:             # <<<<<<<<<<<<<<
@@ -54827,7 +54843,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
           goto __pyx_L19;
         }
 
-        /* "gui.py":2189
+        /* "gui.py":2190
  *                     plot.setLabel('bottom', "Samples", color='#ffffff')
  *                 else:
  *                     plot.getAxis('bottom').hide()             # <<<<<<<<<<<<<<
@@ -54835,7 +54851,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
  *                 # Add curve with channel color
  */
         /*else*/ {
-          __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_getAxis); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2189, __pyx_L3_error)
+          __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_getAxis); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2190, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_15);
           __pyx_t_11 = NULL;
           __pyx_t_7 = 0;
@@ -54855,11 +54871,11 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
             PyObject *__pyx_callargs[2] = {__pyx_t_11, __pyx_n_u_bottom};
             __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_15, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
             __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
-            if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2189, __pyx_L3_error)
+            if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2190, __pyx_L3_error)
             __Pyx_GOTREF(__pyx_t_6);
             __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
           }
-          __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_hide); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2189, __pyx_L3_error)
+          __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_hide); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2190, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_15);
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __pyx_t_6 = NULL;
@@ -54880,7 +54896,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
             PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
             __pyx_t_13 = __Pyx_PyObject_FastCall(__pyx_t_15, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
             __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-            if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2189, __pyx_L3_error)
+            if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2190, __pyx_L3_error)
             __Pyx_GOTREF(__pyx_t_13);
             __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
           }
@@ -54888,18 +54904,18 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
         }
         __pyx_L19:;
 
-        /* "gui.py":2192
+        /* "gui.py":2193
  * 
  *                 # Add curve with channel color
  *                 curve = plot.plot(pen=self.get_channel_color(name))             # <<<<<<<<<<<<<<
  *                 self.eeg_curves.append(curve)
  * 
  */
-        __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_plot); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2192, __pyx_L3_error)
+        __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_plot); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2193, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_13);
-        __pyx_t_15 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2192, __pyx_L3_error)
+        __pyx_t_15 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2193, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_15);
-        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_get_channel_color); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2192, __pyx_L3_error)
+        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_get_channel_color); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2193, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_11);
         __pyx_t_18 = NULL;
         __pyx_t_7 = 0;
@@ -54919,58 +54935,58 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
           PyObject *__pyx_callargs[2] = {__pyx_t_18, __pyx_v_name};
           __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_11, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
-          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2192, __pyx_L3_error)
+          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2193, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_6);
           __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
         }
-        if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_pen, __pyx_t_6) < 0) __PYX_ERR(0, 2192, __pyx_L3_error)
+        if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_pen, __pyx_t_6) < 0) __PYX_ERR(0, 2193, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-        __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_empty_tuple, __pyx_t_15); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2192, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_empty_tuple, __pyx_t_15); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2193, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
         __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
         __Pyx_XDECREF_SET(__pyx_v_curve, __pyx_t_6);
         __pyx_t_6 = 0;
 
-        /* "gui.py":2193
+        /* "gui.py":2194
  *                 # Add curve with channel color
  *                 curve = plot.plot(pen=self.get_channel_color(name))
  *                 self.eeg_curves.append(curve)             # <<<<<<<<<<<<<<
  * 
  *                 # Link x-axis to first plot
  */
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_curves); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2193, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_curves); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2194, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_19 = __Pyx_PyObject_Append(__pyx_t_6, __pyx_v_curve); if (unlikely(__pyx_t_19 == ((int)-1))) __PYX_ERR(0, 2193, __pyx_L3_error)
+        __pyx_t_19 = __Pyx_PyObject_Append(__pyx_t_6, __pyx_v_curve); if (unlikely(__pyx_t_19 == ((int)-1))) __PYX_ERR(0, 2194, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-        /* "gui.py":2196
+        /* "gui.py":2197
  * 
  *                 # Link x-axis to first plot
  *                 if i > 0:             # <<<<<<<<<<<<<<
  *                     plot.setXLink(self.eeg_plot.getItem(0, 0))
  * 
  */
-        __pyx_t_6 = PyObject_RichCompare(__pyx_v_i, __pyx_int_0, Py_GT); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2196, __pyx_L3_error)
-        __pyx_t_16 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely((__pyx_t_16 < 0))) __PYX_ERR(0, 2196, __pyx_L3_error)
+        __pyx_t_6 = PyObject_RichCompare(__pyx_v_i, __pyx_int_0, Py_GT); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2197, __pyx_L3_error)
+        __pyx_t_16 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely((__pyx_t_16 < 0))) __PYX_ERR(0, 2197, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         if (__pyx_t_16) {
 
-          /* "gui.py":2197
+          /* "gui.py":2198
  *                 # Link x-axis to first plot
  *                 if i > 0:
  *                     plot.setXLink(self.eeg_plot.getItem(0, 0))             # <<<<<<<<<<<<<<
  * 
  *                 # Store plot reference
  */
-          __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_setXLink); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2197, __pyx_L3_error)
+          __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_plot, __pyx_n_s_setXLink); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2198, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_15);
-          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_plot); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2197, __pyx_L3_error)
+          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_plot); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2198, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_13);
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_n_s_getItem); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2197, __pyx_L3_error)
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_n_s_getItem); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2198, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_11);
           __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-          __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_tuple__12, NULL); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2197, __pyx_L3_error)
+          __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_tuple__12, NULL); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2198, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_13);
           __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
           __pyx_t_11 = NULL;
@@ -54992,13 +55008,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
             __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_15, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
             __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
             __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-            if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2197, __pyx_L3_error)
+            if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2198, __pyx_L3_error)
             __Pyx_GOTREF(__pyx_t_6);
             __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
           }
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-          /* "gui.py":2196
+          /* "gui.py":2197
  * 
  *                 # Link x-axis to first plot
  *                 if i > 0:             # <<<<<<<<<<<<<<
@@ -55007,36 +55023,36 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
  */
         }
 
-        /* "gui.py":2201
+        /* "gui.py":2202
  *                 # Store plot reference
  *                 self.plot_items[channel_id] = {
  *                     'plot': plot,             # <<<<<<<<<<<<<<
  *                     'curve': curve
  *                 }
  */
-        __pyx_t_6 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2201, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2202, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
-        if (PyDict_SetItem(__pyx_t_6, __pyx_n_u_plot, __pyx_v_plot) < 0) __PYX_ERR(0, 2201, __pyx_L3_error)
+        if (PyDict_SetItem(__pyx_t_6, __pyx_n_u_plot, __pyx_v_plot) < 0) __PYX_ERR(0, 2202, __pyx_L3_error)
 
-        /* "gui.py":2202
+        /* "gui.py":2203
  *                 self.plot_items[channel_id] = {
  *                     'plot': plot,
  *                     'curve': curve             # <<<<<<<<<<<<<<
  *                 }
  * 
  */
-        if (PyDict_SetItem(__pyx_t_6, __pyx_n_u_curve, __pyx_v_curve) < 0) __PYX_ERR(0, 2201, __pyx_L3_error)
+        if (PyDict_SetItem(__pyx_t_6, __pyx_n_u_curve, __pyx_v_curve) < 0) __PYX_ERR(0, 2202, __pyx_L3_error)
 
-        /* "gui.py":2200
+        /* "gui.py":2201
  * 
  *                 # Store plot reference
  *                 self.plot_items[channel_id] = {             # <<<<<<<<<<<<<<
  *                     'plot': plot,
  *                     'curve': curve
  */
-        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_plot_items); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2200, __pyx_L3_error)
+        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_plot_items); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2201, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_15);
-        if (unlikely((PyObject_SetItem(__pyx_t_15, __pyx_v_channel_id, __pyx_t_6) < 0))) __PYX_ERR(0, 2200, __pyx_L3_error)
+        if (unlikely((PyObject_SetItem(__pyx_t_15, __pyx_v_channel_id, __pyx_t_6) < 0))) __PYX_ERR(0, 2201, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         __pyx_L16_continue:;
@@ -55044,7 +55060,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":2206
+      /* "gui.py":2207
  * 
  *             # Update EEG manager
  *             channel_names = [             # <<<<<<<<<<<<<<
@@ -55052,10 +55068,10 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
  *                 for data in enabled_channels.values()
  */
       { /* enter inner scope */
-        __pyx_t_4 = PyList_New(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2206, __pyx_L23_error)
+        __pyx_t_4 = PyList_New(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2207, __pyx_L23_error)
         __Pyx_GOTREF(__pyx_t_4);
 
-        /* "gui.py":2208
+        /* "gui.py":2209
  *             channel_names = [
  *                 data['input'].text().strip()
  *                 for data in enabled_channels.values()             # <<<<<<<<<<<<<<
@@ -55063,7 +55079,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
  *             self.eeg_man.update_channels(channel_names)
  */
         __pyx_t_8 = 0;
-        __pyx_t_6 = __Pyx_dict_iterator(__pyx_v_enabled_channels, 0, __pyx_n_s_values, (&__pyx_t_9), (&__pyx_t_10)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2208, __pyx_L23_error)
+        __pyx_t_6 = __Pyx_dict_iterator(__pyx_v_enabled_channels, 0, __pyx_n_s_values, (&__pyx_t_9), (&__pyx_t_10)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2209, __pyx_L23_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_XDECREF(__pyx_t_5);
         __pyx_t_5 = __pyx_t_6;
@@ -55071,21 +55087,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
         while (1) {
           __pyx_t_12 = __Pyx_dict_iter_next(__pyx_t_5, __pyx_t_9, &__pyx_t_8, NULL, &__pyx_t_6, NULL, __pyx_t_10);
           if (unlikely(__pyx_t_12 == 0)) break;
-          if (unlikely(__pyx_t_12 == -1)) __PYX_ERR(0, 2208, __pyx_L23_error)
+          if (unlikely(__pyx_t_12 == -1)) __PYX_ERR(0, 2209, __pyx_L23_error)
           __Pyx_GOTREF(__pyx_t_6);
           __Pyx_XDECREF_SET(__pyx_9genexpr10__pyx_v_data, __pyx_t_6);
           __pyx_t_6 = 0;
 
-          /* "gui.py":2207
+          /* "gui.py":2208
  *             # Update EEG manager
  *             channel_names = [
  *                 data['input'].text().strip()             # <<<<<<<<<<<<<<
  *                 for data in enabled_channels.values()
  *             ]
  */
-          __pyx_t_13 = __Pyx_PyObject_Dict_GetItem(__pyx_9genexpr10__pyx_v_data, __pyx_n_u_input); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2207, __pyx_L23_error)
+          __pyx_t_13 = __Pyx_PyObject_Dict_GetItem(__pyx_9genexpr10__pyx_v_data, __pyx_n_u_input); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2208, __pyx_L23_error)
           __Pyx_GOTREF(__pyx_t_13);
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_n_s_text); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2207, __pyx_L23_error)
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_n_s_text); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2208, __pyx_L23_error)
           __Pyx_GOTREF(__pyx_t_11);
           __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
           __pyx_t_13 = NULL;
@@ -55106,11 +55122,11 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
             PyObject *__pyx_callargs[2] = {__pyx_t_13, NULL};
             __pyx_t_15 = __Pyx_PyObject_FastCall(__pyx_t_11, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
             __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
-            if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2207, __pyx_L23_error)
+            if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2208, __pyx_L23_error)
             __Pyx_GOTREF(__pyx_t_15);
             __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
           }
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_15, __pyx_n_s_strip); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2207, __pyx_L23_error)
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_15, __pyx_n_s_strip); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2208, __pyx_L23_error)
           __Pyx_GOTREF(__pyx_t_11);
           __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
           __pyx_t_15 = NULL;
@@ -55131,11 +55147,11 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
             PyObject *__pyx_callargs[2] = {__pyx_t_15, NULL};
             __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_11, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
             __Pyx_XDECREF(__pyx_t_15); __pyx_t_15 = 0;
-            if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2207, __pyx_L23_error)
+            if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2208, __pyx_L23_error)
             __Pyx_GOTREF(__pyx_t_6);
             __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
           }
-          if (unlikely(__Pyx_ListComp_Append(__pyx_t_4, (PyObject*)__pyx_t_6))) __PYX_ERR(0, 2206, __pyx_L23_error)
+          if (unlikely(__Pyx_ListComp_Append(__pyx_t_4, (PyObject*)__pyx_t_6))) __PYX_ERR(0, 2207, __pyx_L23_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         }
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -55149,16 +55165,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
       __pyx_v_channel_names = ((PyObject*)__pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "gui.py":2210
+      /* "gui.py":2211
  *                 for data in enabled_channels.values()
  *             ]
  *             self.eeg_man.update_channels(channel_names)             # <<<<<<<<<<<<<<
  * 
  *             # Force layout update
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2210, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_man); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2211, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_update_channels); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2210, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_update_channels); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2211, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_t_5 = NULL;
@@ -55179,22 +55195,22 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_v_channel_names};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2210, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2211, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":2213
+      /* "gui.py":2214
  * 
  *             # Force layout update
  *             self.eeg_plot.updateGeometry()             # <<<<<<<<<<<<<<
  * 
  *         except Exception as e:
  */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_plot); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2213, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_eeg_plot); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 2214, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_updateGeometry); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2213, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_updateGeometry); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2214, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = NULL;
@@ -55215,13 +55231,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2213, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 2214, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "gui.py":2157
+      /* "gui.py":2158
  *     def update_plot_channels(self, enabled_channels, *args):
  *         """Update plot display based on enabled channels"""
  *         try:             # <<<<<<<<<<<<<<
@@ -55242,7 +55258,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gui.py":2215
+    /* "gui.py":2216
  *             self.eeg_plot.updateGeometry()
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -55252,7 +55268,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
     __pyx_t_10 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_10) {
       __Pyx_AddTraceback("gui.MainWindow.update_plot_channels", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_5, &__pyx_t_6) < 0) __PYX_ERR(0, 2215, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_5, &__pyx_t_6) < 0) __PYX_ERR(0, 2216, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_4);
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
@@ -55260,18 +55276,18 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
       __pyx_v_e = __pyx_t_5;
       /*try:*/ {
 
-        /* "gui.py":2216
+        /* "gui.py":2217
  * 
  *         except Exception as e:
  *             self.add_status_message(f"Error updating plots: {str(e)}")             # <<<<<<<<<<<<<<
  * 
  *     def get_channel_color(self, channel_name, *args):
  */
-        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2216, __pyx_L32_error)
+        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_add_status_message); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 2217, __pyx_L32_error)
         __Pyx_GOTREF(__pyx_t_15);
-        __pyx_t_13 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2216, __pyx_L32_error)
+        __pyx_t_13 = __Pyx_PyObject_Unicode(__pyx_v_e); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 2217, __pyx_L32_error)
         __Pyx_GOTREF(__pyx_t_13);
-        __pyx_t_18 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_updating_plots, __pyx_t_13); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 2216, __pyx_L32_error)
+        __pyx_t_18 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_updating_plots, __pyx_t_13); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 2217, __pyx_L32_error)
         __Pyx_GOTREF(__pyx_t_18);
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
         __pyx_t_13 = NULL;
@@ -55293,14 +55309,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
           __pyx_t_11 = __Pyx_PyObject_FastCall(__pyx_t_15, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
           __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2216, __pyx_L32_error)
+          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 2217, __pyx_L32_error)
           __Pyx_GOTREF(__pyx_t_11);
           __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
         }
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       }
 
-      /* "gui.py":2215
+      /* "gui.py":2216
  *             self.eeg_plot.updateGeometry()
  * 
  *         except Exception as e:             # <<<<<<<<<<<<<<
@@ -55356,7 +55372,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
     }
     goto __pyx_L5_except_error;
 
-    /* "gui.py":2157
+    /* "gui.py":2158
  *     def update_plot_channels(self, enabled_channels, *args):
  *         """Update plot display based on enabled channels"""
  *         try:             # <<<<<<<<<<<<<<
@@ -55377,7 +55393,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
     __pyx_L8_try_end:;
   }
 
-  /* "gui.py":2155
+  /* "gui.py":2156
  *             self.add_status_message(f"Error updating channel config: {str(e)}")
  * 
  *     def update_plot_channels(self, enabled_channels, *args):             # <<<<<<<<<<<<<<
@@ -55416,7 +55432,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_96update_plot_channels(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "gui.py":2218
+/* "gui.py":2219
  *             self.add_status_message(f"Error updating plots: {str(e)}")
  * 
  *     def get_channel_color(self, channel_name, *args):             # <<<<<<<<<<<<<<
@@ -55488,7 +55504,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2218, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2219, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
         CYTHON_FALLTHROUGH;
         case  1:
@@ -55496,15 +55512,15 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[1]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2218, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2219, __pyx_L3_error)
         else {
-          __Pyx_RaiseArgtupleInvalid("get_channel_color", 0, 2, 2, 1); __PYX_ERR(0, 2218, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("get_channel_color", 0, 2, 2, 1); __PYX_ERR(0, 2219, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
         const Py_ssize_t used_pos_args = (kwd_pos_args < 2) ? kwd_pos_args : 2;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "get_channel_color") < 0)) __PYX_ERR(0, 2218, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, used_pos_args, "get_channel_color") < 0)) __PYX_ERR(0, 2219, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs < 2)) {
       goto __pyx_L5_argtuple_error;
@@ -55517,7 +55533,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("get_channel_color", 0, 2, 2, __pyx_nargs); __PYX_ERR(0, 2218, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("get_channel_color", 0, 2, 2, __pyx_nargs); __PYX_ERR(0, 2219, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -55560,20 +55576,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_98get_channel_color(CYTHON_UNUSED Py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_channel_color", 1);
 
-  /* "gui.py":2221
+  /* "gui.py":2222
  *         """Get color for a channel, with fallback to default colors"""
  *         # First check if channel has a specific color
  *         if channel_name in self.channel_colors:             # <<<<<<<<<<<<<<
  *             return self.channel_colors[channel_name]
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_colors); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2221, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_colors); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2222, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_v_channel_name, __pyx_t_1, Py_EQ)); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 2221, __pyx_L1_error)
+  __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_v_channel_name, __pyx_t_1, Py_EQ)); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 2222, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
-    /* "gui.py":2222
+    /* "gui.py":2223
  *         # First check if channel has a specific color
  *         if channel_name in self.channel_colors:
  *             return self.channel_colors[channel_name]             # <<<<<<<<<<<<<<
@@ -55581,16 +55597,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_98get_channel_color(CYTHON_UNUSED Py
  *         # If not, assign a color from the default list based on channel name hash
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_colors); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2222, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_channel_colors); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2223, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_t_1, __pyx_v_channel_name); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2222, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_t_1, __pyx_v_channel_name); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2223, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_r = __pyx_t_3;
     __pyx_t_3 = 0;
     goto __pyx_L0;
 
-    /* "gui.py":2221
+    /* "gui.py":2222
  *         """Get color for a channel, with fallback to default colors"""
  *         # First check if channel has a specific color
  *         if channel_name in self.channel_colors:             # <<<<<<<<<<<<<<
@@ -55599,21 +55615,21 @@ static PyObject *__pyx_pf_3gui_10MainWindow_98get_channel_color(CYTHON_UNUSED Py
  */
   }
 
-  /* "gui.py":2225
+  /* "gui.py":2226
  * 
  *         # If not, assign a color from the default list based on channel name hash
  *         color_index = hash(channel_name) % len(self.default_channel_colors)             # <<<<<<<<<<<<<<
  *         return self.default_channel_colors[color_index]
  * 
  */
-  __pyx_t_4 = PyObject_Hash(__pyx_v_channel_name); if (unlikely(__pyx_t_4 == ((Py_hash_t)-1))) __PYX_ERR(0, 2225, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_default_channel_colors); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2225, __pyx_L1_error)
+  __pyx_t_4 = PyObject_Hash(__pyx_v_channel_name); if (unlikely(__pyx_t_4 == ((Py_hash_t)-1))) __PYX_ERR(0, 2226, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_default_channel_colors); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2226, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = PyObject_Length(__pyx_t_3); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 2225, __pyx_L1_error)
+  __pyx_t_5 = PyObject_Length(__pyx_t_3); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 2226, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_color_index = (__pyx_t_4 % __pyx_t_5);
 
-  /* "gui.py":2226
+  /* "gui.py":2227
  *         # If not, assign a color from the default list based on channel name hash
  *         color_index = hash(channel_name) % len(self.default_channel_colors)
  *         return self.default_channel_colors[color_index]             # <<<<<<<<<<<<<<
@@ -55621,16 +55637,16 @@ static PyObject *__pyx_pf_3gui_10MainWindow_98get_channel_color(CYTHON_UNUSED Py
  *     def setup_action_buttons(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_default_channel_colors); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2226, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_default_channel_colors); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2227, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_3, __pyx_v_color_index, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2226, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_3, __pyx_v_color_index, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2227, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gui.py":2218
+  /* "gui.py":2219
  *             self.add_status_message(f"Error updating plots: {str(e)}")
  * 
  *     def get_channel_color(self, channel_name, *args):             # <<<<<<<<<<<<<<
@@ -55650,7 +55666,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_98get_channel_color(CYTHON_UNUSED Py
   return __pyx_r;
 }
 
-/* "gui.py":2228
+/* "gui.py":2229
  *         return self.default_channel_colors[color_index]
  * 
  *     def setup_action_buttons(self):             # <<<<<<<<<<<<<<
@@ -55712,12 +55728,12 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2228, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 2229, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "setup_action_buttons") < 0)) __PYX_ERR(0, 2228, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "setup_action_buttons") < 0)) __PYX_ERR(0, 2229, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs != 1)) {
       goto __pyx_L5_argtuple_error;
@@ -55728,7 +55744,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("setup_action_buttons", 1, 1, 1, __pyx_nargs); __PYX_ERR(0, 2228, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("setup_action_buttons", 1, 1, 1, __pyx_nargs); __PYX_ERR(0, 2229, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -55755,7 +55771,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-/* "gui.py":2231
+/* "gui.py":2232
  *         """Setup buttons for adding and managing actions"""
  *         add_action_btn = QPushButton("Add Action")
  *         add_action_btn.clicked.connect(lambda: self.add_new_action(             # <<<<<<<<<<<<<<
@@ -55796,42 +55812,42 @@ static PyObject *__pyx_lambda_funcdef_lambda8(PyObject *__pyx_self) {
   __pyx_outer_scope = (struct __pyx_obj_3gui___pyx_scope_struct_7_setup_action_buttons *) __Pyx_CyFunction_GetClosure(__pyx_self);
   __pyx_cur_scope = __pyx_outer_scope;
   __Pyx_XDECREF(__pyx_r);
-  if (unlikely(!__pyx_cur_scope->__pyx_v_self)) { __Pyx_RaiseClosureNameError("self"); __PYX_ERR(0, 2231, __pyx_L1_error) }
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_add_new_action); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2231, __pyx_L1_error)
+  if (unlikely(!__pyx_cur_scope->__pyx_v_self)) { __Pyx_RaiseClosureNameError("self"); __PYX_ERR(0, 2232, __pyx_L1_error) }
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_add_new_action); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2232, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
 
-  /* "gui.py":2232
+  /* "gui.py":2233
  *         add_action_btn = QPushButton("Add Action")
  *         add_action_btn.clicked.connect(lambda: self.add_new_action(
  *             action_name=f"Action {len(self.action_inputs) + 1}",             # <<<<<<<<<<<<<<
  *             description="New Action",
  *             repetitions=1
  */
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2232, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2233, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (unlikely(!__pyx_cur_scope->__pyx_v_self)) { __Pyx_RaiseClosureNameError("self"); __PYX_ERR(0, 2232, __pyx_L1_error) }
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_action_inputs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2232, __pyx_L1_error)
+  if (unlikely(!__pyx_cur_scope->__pyx_v_self)) { __Pyx_RaiseClosureNameError("self"); __PYX_ERR(0, 2233, __pyx_L1_error) }
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_action_inputs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2233, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = PyObject_Length(__pyx_t_3); if (unlikely(__pyx_t_4 == ((Py_ssize_t)-1))) __PYX_ERR(0, 2232, __pyx_L1_error)
+  __pyx_t_4 = PyObject_Length(__pyx_t_3); if (unlikely(__pyx_t_4 == ((Py_ssize_t)-1))) __PYX_ERR(0, 2233, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyUnicode_From_Py_ssize_t((__pyx_t_4 + 1), 0, ' ', 'd'); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2232, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyUnicode_From_Py_ssize_t((__pyx_t_4 + 1), 0, ' ', 'd'); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2233, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Action, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2232, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Action, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2233, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_action_name, __pyx_t_5) < 0) __PYX_ERR(0, 2232, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_action_name, __pyx_t_5) < 0) __PYX_ERR(0, 2233, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_description, __pyx_kp_u_New_Action) < 0) __PYX_ERR(0, 2232, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_repetitions, __pyx_int_1) < 0) __PYX_ERR(0, 2232, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_description, __pyx_kp_u_New_Action) < 0) __PYX_ERR(0, 2233, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_repetitions, __pyx_int_1) < 0) __PYX_ERR(0, 2233, __pyx_L1_error)
 
-  /* "gui.py":2231
+  /* "gui.py":2232
  *         """Setup buttons for adding and managing actions"""
  *         add_action_btn = QPushButton("Add Action")
  *         add_action_btn.clicked.connect(lambda: self.add_new_action(             # <<<<<<<<<<<<<<
  *             action_name=f"Action {len(self.action_inputs) + 1}",
  *             description="New Action",
  */
-  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2231, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 2232, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -55853,7 +55869,7 @@ static PyObject *__pyx_lambda_funcdef_lambda8(PyObject *__pyx_self) {
   return __pyx_r;
 }
 
-/* "gui.py":2228
+/* "gui.py":2229
  *         return self.default_channel_colors[color_index]
  * 
  *     def setup_action_buttons(self):             # <<<<<<<<<<<<<<
@@ -55879,7 +55895,7 @@ static PyObject *__pyx_pf_3gui_10MainWindow_100setup_action_buttons(CYTHON_UNUSE
   if (unlikely(!__pyx_cur_scope)) {
     __pyx_cur_scope = ((struct __pyx_obj_3gui___pyx_scope_struct_7_setup_action_buttons *)Py_None);
     __Pyx_INCREF(Py_None);
-    __PYX_ERR(0, 2228, __pyx_L1_error)
+    __PYX_ERR(0, 2229, __pyx_L1_error)
   } else {
     __Pyx_GOTREF((PyObject *)__pyx_cur_scope);
   }
@@ -55887,14 +55903,14 @@ static PyObject *__pyx_pf_3gui_10MainWindow_100setup_action_buttons(CYTHON_UNUSE
   __Pyx_INCREF(__pyx_cur_scope->__pyx_v_self);
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_self);
 
-  /* "gui.py":2230
+  /* "gui.py":2231
  *     def setup_action_buttons(self):
  *         """Setup buttons for adding and managing actions"""
  *         add_action_btn = QPushButton("Add Action")             # <<<<<<<<<<<<<<
  *         add_action_btn.clicked.connect(lambda: self.add_new_action(
  *             action_name=f"Action {len(self.action_inputs) + 1}",
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_QPushButton); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2230, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_QPushButton); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2231, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   __pyx_t_4 = 0;
@@ -55914,26 +55930,26 @@ static PyObject *__pyx_pf_3gui_10MainWindow_100setup_action_buttons(CYTHON_UNUSE
     PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_kp_u_Add_Action};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2230, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2231, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __pyx_v_add_action_btn = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gui.py":2231
+  /* "gui.py":2232
  *         """Setup buttons for adding and managing actions"""
  *         add_action_btn = QPushButton("Add Action")
  *         add_action_btn.clicked.connect(lambda: self.add_new_action(             # <<<<<<<<<<<<<<
  *             action_name=f"Action {len(self.action_inputs) + 1}",
  *             description="New Action",
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_add_action_btn, __pyx_n_s_clicked); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2231, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_add_action_btn, __pyx_n_s_clicked); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2232, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_connect); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2231, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_connect); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2232, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_20setup_action_buttons_lambda8, 0, __pyx_n_s_MainWindow_setup_action_buttons, ((PyObject*)__pyx_cur_scope), __pyx_n_s_gui, __pyx_d, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2231, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_20setup_action_buttons_lambda8, 0, __pyx_n_s_MainWindow_setup_action_buttons, ((PyObject*)__pyx_cur_scope), __pyx_n_s_gui, __pyx_d, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2232, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_5 = NULL;
   __pyx_t_4 = 0;
@@ -55954,20 +55970,20 @@ static PyObject *__pyx_pf_3gui_10MainWindow_100setup_action_buttons(CYTHON_UNUSE
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2231, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2232, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":2236
+  /* "gui.py":2237
  *             repetitions=1
  *         ))
  *         self.action_button_layout.addWidget(add_action_btn)             # <<<<<<<<<<<<<<
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_action_button_layout); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2236, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_self, __pyx_n_s_action_button_layout); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2237, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2236, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_addWidget); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2237, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -55988,13 +56004,13 @@ static PyObject *__pyx_pf_3gui_10MainWindow_100setup_action_buttons(CYTHON_UNUSE
     PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_v_add_action_btn};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2236, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2237, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gui.py":2228
+  /* "gui.py":2229
  *         return self.default_channel_colors[color_index]
  * 
  *     def setup_action_buttons(self):             # <<<<<<<<<<<<<<
@@ -57518,7 +57534,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_u_CPz, __pyx_k_CPz, sizeof(__pyx_k_CPz), 0, 1, 0, 1},
     {&__pyx_kp_u_CSP_Analysis_Results, __pyx_k_CSP_Analysis_Results, sizeof(__pyx_k_CSP_Analysis_Results), 0, 1, 0, 0},
     {&__pyx_kp_u_CSP_Pattern_for, __pyx_k_CSP_Pattern_for, sizeof(__pyx_k_CSP_Pattern_for), 0, 1, 0, 0},
-    {&__pyx_kp_u_C_NeuroSync_sample_data_formatte, __pyx_k_C_NeuroSync_sample_data_formatte, sizeof(__pyx_k_C_NeuroSync_sample_data_formatte), 0, 1, 0, 0},
     {&__pyx_kp_u_Callbacks, __pyx_k_Callbacks, sizeof(__pyx_k_Callbacks), 0, 1, 0, 0},
     {&__pyx_n_u_Channel, __pyx_k_Channel, sizeof(__pyx_k_Channel), 0, 1, 0, 1},
     {&__pyx_kp_u_Channel_Name, __pyx_k_Channel_Name, sizeof(__pyx_k_Channel_Name), 0, 1, 0, 0},
@@ -57792,8 +57807,8 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_u__27, __pyx_k__27, sizeof(__pyx_k__27), 0, 1, 0, 0},
     {&__pyx_n_s__28, __pyx_k__28, sizeof(__pyx_k__28), 0, 0, 1, 1},
     {&__pyx_kp_u__28, __pyx_k__28, sizeof(__pyx_k__28), 0, 1, 0, 0},
-    {&__pyx_kp_u__48, __pyx_k__48, sizeof(__pyx_k__48), 0, 1, 0, 0},
-    {&__pyx_n_s__49, __pyx_k__49, sizeof(__pyx_k__49), 0, 0, 1, 1},
+    {&__pyx_kp_u__47, __pyx_k__47, sizeof(__pyx_k__47), 0, 1, 0, 0},
+    {&__pyx_n_s__48, __pyx_k__48, sizeof(__pyx_k__48), 0, 0, 1, 1},
     {&__pyx_n_s_a, __pyx_k_a, sizeof(__pyx_k_a), 0, 0, 1, 1},
     {&__pyx_n_s_accept, __pyx_k_accept, sizeof(__pyx_k_accept), 0, 0, 1, 1},
     {&__pyx_n_s_action_button_layout, __pyx_k_action_button_layout, sizeof(__pyx_k_action_button_layout), 0, 0, 1, 1},
@@ -58641,193 +58656,182 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__29);
   __Pyx_GIVEREF(__pyx_slice__29);
 
-  /* "gui.py":1541
- *         try:
- *             # Look specifically for S03.fif in the formatted subfolder of sample_data
- *             sample_file = os.path.join("C:\\NeuroSync\\sample_data\\formatted", 'S03.fif')             # <<<<<<<<<<<<<<
- * 
- *             # Debugging output to status message
- */
-  __pyx_tuple__30 = PyTuple_Pack(2, __pyx_kp_u_C_NeuroSync_sample_data_formatte, __pyx_kp_u_S03_fif); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(0, 1541, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__30);
-  __Pyx_GIVEREF(__pyx_tuple__30);
-
-  /* "gui.py":1655
+  /* "gui.py":1656
  *                     ax.yaxis.label.set_color('white')
  *                     ax.title.set_color('white')
  *                     ax.grid(True, alpha=0.2)  # Add grid for better readability             # <<<<<<<<<<<<<<
  *                     plt.show()
  * 
  */
-  __pyx_tuple__31 = PyTuple_Pack(1, Py_True); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(0, 1655, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__31);
-  __Pyx_GIVEREF(__pyx_tuple__31);
+  __pyx_tuple__30 = PyTuple_Pack(1, Py_True); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(0, 1656, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__30);
+  __Pyx_GIVEREF(__pyx_tuple__30);
 
-  /* "gui.py":1661
+  /* "gui.py":1662
  *                     data = raw.get_data()
  *                     times = raw.times
  *                     plt.figure(figsize=(12, 6), facecolor='black')             # <<<<<<<<<<<<<<
  *                     for i in range(data.shape[0]):
  *                         plt.plot(times, data[i] * 1e6, linewidth=0.5,
  */
-  __pyx_tuple__32 = PyTuple_Pack(2, __pyx_int_12, __pyx_int_6); if (unlikely(!__pyx_tuple__32)) __PYX_ERR(0, 1661, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__32);
-  __Pyx_GIVEREF(__pyx_tuple__32);
+  __pyx_tuple__31 = PyTuple_Pack(2, __pyx_int_12, __pyx_int_6); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(0, 1662, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__31);
+  __Pyx_GIVEREF(__pyx_tuple__31);
 
-  /* "gui.py":1665
+  /* "gui.py":1666
  *                         plt.plot(times, data[i] * 1e6, linewidth=0.5,
  *                                 alpha=0.7, color=plt.cm.rainbow(i/data.shape[0]))
  *                     plt.xlabel('Time (s)', color='white')             # <<<<<<<<<<<<<<
  *                     plt.ylabel('Amplitude (V)', color='white')
  *                     plt.title('EEG Butterfly Plot', color='white')
  */
-  __pyx_tuple__33 = PyTuple_Pack(1, __pyx_kp_u_Time_s); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(0, 1665, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__33);
-  __Pyx_GIVEREF(__pyx_tuple__33);
+  __pyx_tuple__32 = PyTuple_Pack(1, __pyx_kp_u_Time_s); if (unlikely(!__pyx_tuple__32)) __PYX_ERR(0, 1666, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__32);
+  __Pyx_GIVEREF(__pyx_tuple__32);
 
-  /* "gui.py":1666
+  /* "gui.py":1667
  *                                 alpha=0.7, color=plt.cm.rainbow(i/data.shape[0]))
  *                     plt.xlabel('Time (s)', color='white')
  *                     plt.ylabel('Amplitude (V)', color='white')             # <<<<<<<<<<<<<<
  *                     plt.title('EEG Butterfly Plot', color='white')
  *                     plt.grid(True, alpha=0.2)
  */
-  __pyx_tuple__34 = PyTuple_Pack(1, __pyx_kp_u_Amplitude_V); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(0, 1666, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__34);
-  __Pyx_GIVEREF(__pyx_tuple__34);
+  __pyx_tuple__33 = PyTuple_Pack(1, __pyx_kp_u_Amplitude_V); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(0, 1667, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__33);
+  __Pyx_GIVEREF(__pyx_tuple__33);
 
-  /* "gui.py":1667
+  /* "gui.py":1668
  *                     plt.xlabel('Time (s)', color='white')
  *                     plt.ylabel('Amplitude (V)', color='white')
  *                     plt.title('EEG Butterfly Plot', color='white')             # <<<<<<<<<<<<<<
  *                     plt.grid(True, alpha=0.2)
  *                     ax = plt.gca()
  */
-  __pyx_tuple__35 = PyTuple_Pack(1, __pyx_kp_u_EEG_Butterfly_Plot); if (unlikely(!__pyx_tuple__35)) __PYX_ERR(0, 1667, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__35);
-  __Pyx_GIVEREF(__pyx_tuple__35);
+  __pyx_tuple__34 = PyTuple_Pack(1, __pyx_kp_u_EEG_Butterfly_Plot); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(0, 1668, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__34);
+  __Pyx_GIVEREF(__pyx_tuple__34);
 
-  /* "gui.py":1728
+  /* "gui.py":1729
  * 
  *                     # Plot evoked data in various ways
  *                     fig = plt.figure(figsize=(15, 10), facecolor='black')             # <<<<<<<<<<<<<<
  *                     gs = fig.add_gridspec(2, 2)
  * 
  */
-  __pyx_tuple__36 = PyTuple_Pack(2, __pyx_int_15, __pyx_int_10); if (unlikely(!__pyx_tuple__36)) __PYX_ERR(0, 1728, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__36);
-  __Pyx_GIVEREF(__pyx_tuple__36);
+  __pyx_tuple__35 = PyTuple_Pack(2, __pyx_int_15, __pyx_int_10); if (unlikely(!__pyx_tuple__35)) __PYX_ERR(0, 1729, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__35);
+  __Pyx_GIVEREF(__pyx_tuple__35);
 
-  /* "gui.py":1729
+  /* "gui.py":1730
  *                     # Plot evoked data in various ways
  *                     fig = plt.figure(figsize=(15, 10), facecolor='black')
  *                     gs = fig.add_gridspec(2, 2)             # <<<<<<<<<<<<<<
  * 
  *                     # 1. Joint plot (top left)
  */
-  __pyx_tuple__37 = PyTuple_Pack(2, __pyx_int_2, __pyx_int_2); if (unlikely(!__pyx_tuple__37)) __PYX_ERR(0, 1729, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__37);
-  __Pyx_GIVEREF(__pyx_tuple__37);
+  __pyx_tuple__36 = PyTuple_Pack(2, __pyx_int_2, __pyx_int_2); if (unlikely(!__pyx_tuple__36)) __PYX_ERR(0, 1730, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__36);
+  __Pyx_GIVEREF(__pyx_tuple__36);
 
-  /* "gui.py":1739
+  /* "gui.py":1740
  * 
  *                     # 2. Topomap sequence (top right)
  *                     plt.subplot(gs[0, 1])             # <<<<<<<<<<<<<<
  *                     evoked.plot_topomap(
  *                         times=np.linspace(0, duration_spin.value(), 6),
  */
-  __pyx_tuple__38 = PyTuple_Pack(2, __pyx_int_0, __pyx_int_1); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(0, 1739, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__38);
-  __Pyx_GIVEREF(__pyx_tuple__38);
+  __pyx_tuple__37 = PyTuple_Pack(2, __pyx_int_0, __pyx_int_1); if (unlikely(!__pyx_tuple__37)) __PYX_ERR(0, 1740, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__37);
+  __Pyx_GIVEREF(__pyx_tuple__37);
 
-  /* "gui.py":1746
+  /* "gui.py":1747
  * 
  *                     # 3. Butterfly plot (bottom left)
  *                     plt.subplot(gs[1, 0])             # <<<<<<<<<<<<<<
  *                     evoked.plot(spatial_colors=True, show=False)
  * 
  */
-  __pyx_tuple__39 = PyTuple_Pack(2, __pyx_int_1, __pyx_int_0); if (unlikely(!__pyx_tuple__39)) __PYX_ERR(0, 1746, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__39);
-  __Pyx_GIVEREF(__pyx_tuple__39);
+  __pyx_tuple__38 = PyTuple_Pack(2, __pyx_int_1, __pyx_int_0); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(0, 1747, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__38);
+  __Pyx_GIVEREF(__pyx_tuple__38);
 
-  /* "gui.py":1750
+  /* "gui.py":1751
  * 
  *                     # 4. GFP plot (bottom right)
  *                     plt.subplot(gs[1, 1])             # <<<<<<<<<<<<<<
  *                     evoked.plot_image()
  * 
  */
-  __pyx_tuple__40 = PyTuple_Pack(2, __pyx_int_1, __pyx_int_1); if (unlikely(!__pyx_tuple__40)) __PYX_ERR(0, 1750, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__40);
-  __Pyx_GIVEREF(__pyx_tuple__40);
+  __pyx_tuple__39 = PyTuple_Pack(2, __pyx_int_1, __pyx_int_1); if (unlikely(!__pyx_tuple__39)) __PYX_ERR(0, 1751, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__39);
+  __Pyx_GIVEREF(__pyx_tuple__39);
 
-  /* "gui.py":1572
+  /* "gui.py":1573
  *             plot_window = QWidget()
  *             plot_window.setWindowTitle(f"Sample Data Visualization - {sample_files[0]}")
  *             plot_window.setGeometry(200, 200, 1200, 800)             # <<<<<<<<<<<<<<
  *             layout = QVBoxLayout(plot_window)
  * 
  */
-  __pyx_tuple__41 = PyTuple_Pack(4, __pyx_int_200, __pyx_int_200, __pyx_int_1200, __pyx_int_800); if (unlikely(!__pyx_tuple__41)) __PYX_ERR(0, 1572, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__41);
-  __Pyx_GIVEREF(__pyx_tuple__41);
+  __pyx_tuple__40 = PyTuple_Pack(4, __pyx_int_200, __pyx_int_200, __pyx_int_1200, __pyx_int_800); if (unlikely(!__pyx_tuple__40)) __PYX_ERR(0, 1573, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__40);
+  __Pyx_GIVEREF(__pyx_tuple__40);
 
-  /* "gui.py":1597
+  /* "gui.py":1598
  *             scale_label = QLabel("Scale (V):")
  *             scale_spin = QSpinBox()
  *             scale_spin.setRange(1, 1000)             # <<<<<<<<<<<<<<
  *             scale_spin.setValue(50)
  *             controls_layout.addWidget(scale_label)
  */
-  __pyx_tuple__42 = PyTuple_Pack(2, __pyx_int_1, __pyx_int_1000); if (unlikely(!__pyx_tuple__42)) __PYX_ERR(0, 1597, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__42);
-  __Pyx_GIVEREF(__pyx_tuple__42);
+  __pyx_tuple__41 = PyTuple_Pack(2, __pyx_int_1, __pyx_int_1000); if (unlikely(!__pyx_tuple__41)) __PYX_ERR(0, 1598, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__41);
+  __Pyx_GIVEREF(__pyx_tuple__41);
 
-  /* "gui.py":1605
+  /* "gui.py":1606
  *             duration_label = QLabel("Window (s):")
  *             duration_spin = QSpinBox()
  *             duration_spin.setRange(1, 600)  # Allow up to 10 minutes             # <<<<<<<<<<<<<<
  *             duration_spin.setValue(10)
  *             duration_spin.setKeyboardTracking(True)  # Enable keyboard input
  */
-  __pyx_tuple__43 = PyTuple_Pack(2, __pyx_int_1, __pyx_int_600); if (unlikely(!__pyx_tuple__43)) __PYX_ERR(0, 1605, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__43);
-  __Pyx_GIVEREF(__pyx_tuple__43);
+  __pyx_tuple__42 = PyTuple_Pack(2, __pyx_int_1, __pyx_int_600); if (unlikely(!__pyx_tuple__42)) __PYX_ERR(0, 1606, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__42);
+  __Pyx_GIVEREF(__pyx_tuple__42);
 
-  /* "gui.py":1624
+  /* "gui.py":1625
  *             layout.addWidget(controls)
  * 
  *             def update_plot():             # <<<<<<<<<<<<<<
  *                 plt.close('all')
  * 
  */
-  __pyx_tuple__44 = PyTuple_Pack(11, __pyx_n_s_view_type, __pyx_n_s_fig, __pyx_n_s_ax, __pyx_n_s_data, __pyx_n_s_times, __pyx_n_s_i, __pyx_n_s_events, __pyx_n_s_epochs, __pyx_n_s_evoked, __pyx_n_s_gs, __pyx_n_s_power); if (unlikely(!__pyx_tuple__44)) __PYX_ERR(0, 1624, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__44);
-  __Pyx_GIVEREF(__pyx_tuple__44);
-  __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 11, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__44, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_plot, 1624, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) __PYX_ERR(0, 1624, __pyx_L1_error)
+  __pyx_tuple__43 = PyTuple_Pack(11, __pyx_n_s_view_type, __pyx_n_s_fig, __pyx_n_s_ax, __pyx_n_s_data, __pyx_n_s_times, __pyx_n_s_i, __pyx_n_s_events, __pyx_n_s_epochs, __pyx_n_s_evoked, __pyx_n_s_gs, __pyx_n_s_power); if (unlikely(!__pyx_tuple__43)) __PYX_ERR(0, 1625, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__43);
+  __Pyx_GIVEREF(__pyx_tuple__43);
+  __pyx_codeobj__44 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 11, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__43, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_plot, 1625, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__44)) __PYX_ERR(0, 1625, __pyx_L1_error)
 
-  /* "gui.py":1823
+  /* "gui.py":1824
  *         try:
  *             if self.eeg_man.current_session_num is None:
  *                 raise ValueError("No session selected. Please select a session first.")             # <<<<<<<<<<<<<<
  * 
  *             self.training_progress.clear()
  */
-  __pyx_tuple__46 = PyTuple_Pack(1, __pyx_kp_u_No_session_selected_Please_selec); if (unlikely(!__pyx_tuple__46)) __PYX_ERR(0, 1823, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__46);
-  __Pyx_GIVEREF(__pyx_tuple__46);
+  __pyx_tuple__45 = PyTuple_Pack(1, __pyx_kp_u_No_session_selected_Please_selec); if (unlikely(!__pyx_tuple__45)) __PYX_ERR(0, 1824, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__45);
+  __Pyx_GIVEREF(__pyx_tuple__45);
 
-  /* "gui.py":2018
+  /* "gui.py":2019
  * 
  *             # Style the headers
  *             for label_text in ["Channel Name", "Enable", "Actions"]:             # <<<<<<<<<<<<<<
  *                 label = QLabel(label_text)
  *                 label.setStyleSheet("""
  */
-  __pyx_tuple__47 = PyTuple_Pack(3, __pyx_kp_u_Channel_Name, __pyx_n_u_Enable, __pyx_n_u_Actions); if (unlikely(!__pyx_tuple__47)) __PYX_ERR(0, 2018, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__47);
-  __Pyx_GIVEREF(__pyx_tuple__47);
+  __pyx_tuple__46 = PyTuple_Pack(3, __pyx_kp_u_Channel_Name, __pyx_n_u_Enable, __pyx_n_u_Actions); if (unlikely(!__pyx_tuple__46)) __PYX_ERR(0, 2019, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__46);
+  __Pyx_GIVEREF(__pyx_tuple__46);
 
   /* "gui.py":8
  * import mne
@@ -58836,9 +58840,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * from PyQt5.QtGui import QPixmap, QFont, QPalette, QColor
  * from brainflow.board_shim import BoardShim, BoardIds
  */
-  __pyx_tuple__50 = PyTuple_Pack(2, __pyx_n_s_matplotlib, __pyx_n_s_pyplot); if (unlikely(!__pyx_tuple__50)) __PYX_ERR(0, 8, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__50);
-  __Pyx_GIVEREF(__pyx_tuple__50);
+  __pyx_tuple__49 = PyTuple_Pack(2, __pyx_n_s_matplotlib, __pyx_n_s_pyplot); if (unlikely(!__pyx_tuple__49)) __PYX_ERR(0, 8, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__49);
+  __Pyx_GIVEREF(__pyx_tuple__49);
 
   /* "gui.py":15
  * from stable_baselines3.common.callbacks import BaseCallback
@@ -58847,9 +58851,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * from session_config import SessionConfig
  * from pathlib import Path
  */
-  __pyx_tuple__51 = PyTuple_Pack(2, __pyx_n_s_scipy, __pyx_n_s_signal); if (unlikely(!__pyx_tuple__51)) __PYX_ERR(0, 15, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__51);
-  __Pyx_GIVEREF(__pyx_tuple__51);
+  __pyx_tuple__50 = PyTuple_Pack(2, __pyx_n_s_scipy, __pyx_n_s_signal); if (unlikely(!__pyx_tuple__50)) __PYX_ERR(0, 15, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__50);
+  __Pyx_GIVEREF(__pyx_tuple__50);
 
   /* "gui.py":24
  *     progress = pyqtSignal(str)  # Signal for progress updates
@@ -58858,13 +58862,13 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *                  is_sample=False):
  *         super().__init__()
  */
-  __pyx_tuple__52 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_dqn_model, __pyx_n_s_combined_file, __pyx_n_s_processed_dir, __pyx_n_s_eeg_man, __pyx_n_s_is_sample); if (unlikely(!__pyx_tuple__52)) __PYX_ERR(0, 24, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__52);
-  __Pyx_GIVEREF(__pyx_tuple__52);
-  __pyx_codeobj__53 = (PyObject*)__Pyx_PyCode_New(6, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__52, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_init, 24, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__53)) __PYX_ERR(0, 24, __pyx_L1_error)
-  __pyx_tuple__54 = PyTuple_Pack(1, ((PyObject *)Py_False)); if (unlikely(!__pyx_tuple__54)) __PYX_ERR(0, 24, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__54);
-  __Pyx_GIVEREF(__pyx_tuple__54);
+  __pyx_tuple__51 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_dqn_model, __pyx_n_s_combined_file, __pyx_n_s_processed_dir, __pyx_n_s_eeg_man, __pyx_n_s_is_sample); if (unlikely(!__pyx_tuple__51)) __PYX_ERR(0, 24, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__51);
+  __Pyx_GIVEREF(__pyx_tuple__51);
+  __pyx_codeobj__52 = (PyObject*)__Pyx_PyCode_New(6, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__51, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_init, 24, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__52)) __PYX_ERR(0, 24, __pyx_L1_error)
+  __pyx_tuple__53 = PyTuple_Pack(1, ((PyObject *)Py_False)); if (unlikely(!__pyx_tuple__53)) __PYX_ERR(0, 24, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__53);
+  __Pyx_GIVEREF(__pyx_tuple__53);
 
   /* "gui.py":33
  *         self.eeg_man = eeg_man
@@ -58873,10 +58877,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         try:
  *             # Validate task names before training
  */
-  __pyx_tuple__55 = PyTuple_Pack(12, __pyx_n_s_self, __pyx_n_s_raw, __pyx_n_s_events, __pyx_n_s_X_train, __pyx_n_s_X_test, __pyx_n_s_y_train, __pyx_n_s_y_test, __pyx_n_s_task_names, __pyx_n_s_model, __pyx_n_s_callbacks, __pyx_n_s_model_path, __pyx_n_s_e); if (unlikely(!__pyx_tuple__55)) __PYX_ERR(0, 33, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__55);
-  __Pyx_GIVEREF(__pyx_tuple__55);
-  __pyx_codeobj__56 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 12, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__55, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_run, 33, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__56)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __pyx_tuple__54 = PyTuple_Pack(12, __pyx_n_s_self, __pyx_n_s_raw, __pyx_n_s_events, __pyx_n_s_X_train, __pyx_n_s_X_test, __pyx_n_s_y_train, __pyx_n_s_y_test, __pyx_n_s_task_names, __pyx_n_s_model, __pyx_n_s_callbacks, __pyx_n_s_model_path, __pyx_n_s_e); if (unlikely(!__pyx_tuple__54)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__54);
+  __Pyx_GIVEREF(__pyx_tuple__54);
+  __pyx_codeobj__55 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 12, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__54, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_run, 33, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__55)) __PYX_ERR(0, 33, __pyx_L1_error)
 
   /* "gui.py":80
  * 
@@ -58885,10 +58889,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         super().__init__()
  * 
  */
-  __pyx_tuple__57 = PyTuple_Pack(11, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_main_widget, __pyx_n_s_layout, __pyx_n_s_control_panel, __pyx_n_s_right_panel, __pyx_n_s_right_layout, __pyx_n_s_viz_panel, __pyx_n_s_status_group, __pyx_n_s_status_layout, __pyx_n_s_i); if (unlikely(!__pyx_tuple__57)) __PYX_ERR(0, 80, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__57);
-  __Pyx_GIVEREF(__pyx_tuple__57);
-  __pyx_codeobj__58 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 11, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__57, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_init, 80, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__58)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_tuple__56 = PyTuple_Pack(11, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_main_widget, __pyx_n_s_layout, __pyx_n_s_control_panel, __pyx_n_s_right_panel, __pyx_n_s_right_layout, __pyx_n_s_viz_panel, __pyx_n_s_status_group, __pyx_n_s_status_layout, __pyx_n_s_i); if (unlikely(!__pyx_tuple__56)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__56);
+  __Pyx_GIVEREF(__pyx_tuple__56);
+  __pyx_codeobj__57 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 11, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__56, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_init, 80, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__57)) __PYX_ERR(0, 80, __pyx_L1_error)
 
   /* "gui.py":222
  *         self.min_buffer_size = 30  # Minimum points needed (3 * order + 3)
@@ -58897,10 +58901,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         # Create a QScrollArea for vertical scrolling only
  *         scroll = QScrollArea()
  */
-  __pyx_tuple__59 = PyTuple_Pack(53, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_scroll, __pyx_n_s_panel, __pyx_n_s_layout, __pyx_n_s_connection_group, __pyx_n_s_connection_layout, __pyx_n_s_status_group, __pyx_n_s_status_layout, __pyx_n_s_sequence_frame, __pyx_n_s_sequence_layout, __pyx_n_s_sequence_label, __pyx_n_s_session_group, __pyx_n_s_session_layout, __pyx_n_s_new_session_widget, __pyx_n_s_new_session_layout, __pyx_n_s_button_widget, __pyx_n_s_button_layout, __pyx_n_s_action_group, __pyx_n_s_action_layout, __pyx_n_s_timing_widget, __pyx_n_s_timing_layout, __pyx_n_s_reps_widget, __pyx_n_s_reps_layout, __pyx_n_s_break_widget, __pyx_n_s_break_layout, __pyx_n_s_record_time_widget, __pyx_n_s_record_time_layout, __pyx_n_s_action_list_widget, __pyx_n_s_add_action_btn, __pyx_n_s_channel_group, __pyx_n_s_analysis_group, __pyx_n_s_analysis_layout, __pyx_n_s_training_group, __pyx_n_s_training_layout, __pyx_n_s_mode_widget, __pyx_n_s_mode_layout, __pyx_n_s_sample_group, __pyx_n_s_sample_layout, __pyx_n_s_sample_label, __pyx_n_s_sample_selector, __pyx_n_s_sample_files, __pyx_n_s_sample_buttons, __pyx_n_s_sample_buttons_layout, __pyx_n_s_view_sample_btn, __pyx_n_s_load_sample_btn, __pyx_n_s_signal_group, __pyx_n_s_signal_layout, __pyx_n_s_speed_widget, __pyx_n_s_speed_layout, __pyx_n_s_filter_widget, __pyx_n_s_filter_layout, __pyx_n_s_i); if (unlikely(!__pyx_tuple__59)) __PYX_ERR(0, 222, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__59);
-  __Pyx_GIVEREF(__pyx_tuple__59);
-  __pyx_codeobj__60 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 53, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__59, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_create_control_panel, 222, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__60)) __PYX_ERR(0, 222, __pyx_L1_error)
+  __pyx_tuple__58 = PyTuple_Pack(53, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_scroll, __pyx_n_s_panel, __pyx_n_s_layout, __pyx_n_s_connection_group, __pyx_n_s_connection_layout, __pyx_n_s_status_group, __pyx_n_s_status_layout, __pyx_n_s_sequence_frame, __pyx_n_s_sequence_layout, __pyx_n_s_sequence_label, __pyx_n_s_session_group, __pyx_n_s_session_layout, __pyx_n_s_new_session_widget, __pyx_n_s_new_session_layout, __pyx_n_s_button_widget, __pyx_n_s_button_layout, __pyx_n_s_action_group, __pyx_n_s_action_layout, __pyx_n_s_timing_widget, __pyx_n_s_timing_layout, __pyx_n_s_reps_widget, __pyx_n_s_reps_layout, __pyx_n_s_break_widget, __pyx_n_s_break_layout, __pyx_n_s_record_time_widget, __pyx_n_s_record_time_layout, __pyx_n_s_action_list_widget, __pyx_n_s_add_action_btn, __pyx_n_s_channel_group, __pyx_n_s_analysis_group, __pyx_n_s_analysis_layout, __pyx_n_s_training_group, __pyx_n_s_training_layout, __pyx_n_s_mode_widget, __pyx_n_s_mode_layout, __pyx_n_s_sample_group, __pyx_n_s_sample_layout, __pyx_n_s_sample_label, __pyx_n_s_sample_selector, __pyx_n_s_sample_files, __pyx_n_s_sample_buttons, __pyx_n_s_sample_buttons_layout, __pyx_n_s_view_sample_btn, __pyx_n_s_load_sample_btn, __pyx_n_s_signal_group, __pyx_n_s_signal_layout, __pyx_n_s_speed_widget, __pyx_n_s_speed_layout, __pyx_n_s_filter_widget, __pyx_n_s_filter_layout, __pyx_n_s_i); if (unlikely(!__pyx_tuple__58)) __PYX_ERR(0, 222, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__58);
+  __Pyx_GIVEREF(__pyx_tuple__58);
+  __pyx_codeobj__59 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 53, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__58, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_create_control_panel, 222, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__59)) __PYX_ERR(0, 222, __pyx_L1_error)
 
   /* "gui.py":722
  *         return scroll
@@ -58909,10 +58913,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Create the visualization panel with plots"""
  *         try:
  */
-  __pyx_tuple__61 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_viz_panel, __pyx_n_s_layout, __pyx_n_s_e); if (unlikely(!__pyx_tuple__61)) __PYX_ERR(0, 722, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__61);
-  __Pyx_GIVEREF(__pyx_tuple__61);
-  __pyx_codeobj__62 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__61, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_create_visualization_panel, 722, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__62)) __PYX_ERR(0, 722, __pyx_L1_error)
+  __pyx_tuple__60 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_viz_panel, __pyx_n_s_layout, __pyx_n_s_e); if (unlikely(!__pyx_tuple__60)) __PYX_ERR(0, 722, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__60);
+  __Pyx_GIVEREF(__pyx_tuple__60);
+  __pyx_codeobj__61 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__60, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_create_visualization_panel, 722, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__61)) __PYX_ERR(0, 722, __pyx_L1_error)
 
   /* "gui.py":750
  *             return QWidget()
@@ -58921,10 +58925,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Update plot display based on enabled channels"""
  *         try:
  */
-  __pyx_tuple__63 = PyTuple_Pack(14, __pyx_n_s_self, __pyx_n_s_enabled_channels, __pyx_n_s_args, __pyx_n_s_i, __pyx_n_s_channel_id, __pyx_n_s_data, __pyx_n_s_name, __pyx_n_s_plot, __pyx_n_s_curve, __pyx_n_s_channel_names, __pyx_n_s_e, __pyx_n_s_cid, __pyx_n_s_data, __pyx_n_s_data); if (unlikely(!__pyx_tuple__63)) __PYX_ERR(0, 750, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__63);
-  __Pyx_GIVEREF(__pyx_tuple__63);
-  __pyx_codeobj__64 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 14, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__63, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_plot_channels, 750, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__64)) __PYX_ERR(0, 750, __pyx_L1_error)
+  __pyx_tuple__62 = PyTuple_Pack(14, __pyx_n_s_self, __pyx_n_s_enabled_channels, __pyx_n_s_args, __pyx_n_s_i, __pyx_n_s_channel_id, __pyx_n_s_data, __pyx_n_s_name, __pyx_n_s_plot, __pyx_n_s_curve, __pyx_n_s_channel_names, __pyx_n_s_e, __pyx_n_s_cid, __pyx_n_s_data, __pyx_n_s_data); if (unlikely(!__pyx_tuple__62)) __PYX_ERR(0, 750, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__62);
+  __Pyx_GIVEREF(__pyx_tuple__62);
+  __pyx_codeobj__63 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 14, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__62, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_plot_channels, 750, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__63)) __PYX_ERR(0, 750, __pyx_L1_error)
 
   /* "gui.py":813
  *             self.add_status_message(f"Error updating plots: {str(e)}")
@@ -58933,10 +58937,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Update EEG manager with current channel configuration"""
  *         try:
  */
-  __pyx_tuple__65 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_e); if (unlikely(!__pyx_tuple__65)) __PYX_ERR(0, 813, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__65);
-  __Pyx_GIVEREF(__pyx_tuple__65);
-  __pyx_codeobj__66 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__65, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_channel_config, 813, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__66)) __PYX_ERR(0, 813, __pyx_L1_error)
+  __pyx_tuple__64 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_e); if (unlikely(!__pyx_tuple__64)) __PYX_ERR(0, 813, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__64);
+  __Pyx_GIVEREF(__pyx_tuple__64);
+  __pyx_codeobj__65 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__64, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_channel_config, 813, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__65)) __PYX_ERR(0, 813, __pyx_L1_error)
 
   /* "gui.py":825
  *             self.add_status_message(f"Error updating channel config: {str(e)}")
@@ -58945,10 +58949,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Handle window resize events"""
  *         super().resizeEvent(event)
  */
-  __pyx_tuple__67 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_event, __pyx_n_s_args); if (unlikely(!__pyx_tuple__67)) __PYX_ERR(0, 825, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__67);
-  __Pyx_GIVEREF(__pyx_tuple__67);
-  __pyx_codeobj__68 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__67, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_resizeEvent, 825, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__68)) __PYX_ERR(0, 825, __pyx_L1_error)
+  __pyx_tuple__66 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_event, __pyx_n_s_args); if (unlikely(!__pyx_tuple__66)) __PYX_ERR(0, 825, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__66);
+  __Pyx_GIVEREF(__pyx_tuple__66);
+  __pyx_codeobj__67 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__66, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_resizeEvent, 825, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__67)) __PYX_ERR(0, 825, __pyx_L1_error)
 
   /* "gui.py":832
  *             self.eeg_plot.updateGeometry()
@@ -58957,10 +58961,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         self.status_text.append(f"{message}")
  * 
  */
-  __pyx_tuple__69 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_message, __pyx_n_s_args); if (unlikely(!__pyx_tuple__69)) __PYX_ERR(0, 832, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__69);
-  __Pyx_GIVEREF(__pyx_tuple__69);
-  __pyx_codeobj__70 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__69, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_add_status_message, 832, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__70)) __PYX_ERR(0, 832, __pyx_L1_error)
+  __pyx_tuple__68 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_message, __pyx_n_s_args); if (unlikely(!__pyx_tuple__68)) __PYX_ERR(0, 832, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__68);
+  __Pyx_GIVEREF(__pyx_tuple__68);
+  __pyx_codeobj__69 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__68, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_add_status_message, 832, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__69)) __PYX_ERR(0, 832, __pyx_L1_error)
 
   /* "gui.py":835
  *         self.status_text.append(f"{message}")
@@ -58969,10 +58973,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Start a new recording session"""
  *         try:
  */
-  __pyx_tuple__71 = PyTuple_Pack(9, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_session_num, __pyx_n_s_config, __pyx_n_s_updated_tasks, __pyx_n_s_key, __pyx_n_s_data, __pyx_n_s_action_name, __pyx_n_s_e); if (unlikely(!__pyx_tuple__71)) __PYX_ERR(0, 835, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__71);
-  __Pyx_GIVEREF(__pyx_tuple__71);
-  __pyx_codeobj__72 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 9, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__71, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_start_session, 835, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__72)) __PYX_ERR(0, 835, __pyx_L1_error)
+  __pyx_tuple__70 = PyTuple_Pack(9, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_session_num, __pyx_n_s_config, __pyx_n_s_updated_tasks, __pyx_n_s_key, __pyx_n_s_data, __pyx_n_s_action_name, __pyx_n_s_e); if (unlikely(!__pyx_tuple__70)) __PYX_ERR(0, 835, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__70);
+  __Pyx_GIVEREF(__pyx_tuple__70);
+  __pyx_codeobj__71 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 9, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__70, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_start_session, 835, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__71)) __PYX_ERR(0, 835, __pyx_L1_error)
 
   /* "gui.py":870
  *             self.add_status_message(f"Error starting session: {str(e)}")
@@ -58981,7 +58985,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Stop current session"""
  *         try:
  */
-  __pyx_codeobj__73 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__65, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_stop_session, 870, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__73)) __PYX_ERR(0, 870, __pyx_L1_error)
+  __pyx_codeobj__72 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__64, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_stop_session, 870, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__72)) __PYX_ERR(0, 870, __pyx_L1_error)
 
   /* "gui.py":896
  *             self.add_status_message(f"Error stopping session: {str(e)}")
@@ -58990,10 +58994,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         task = self.eeg_man.get_next_task()
  *         if task:
  */
-  __pyx_tuple__74 = PyTuple_Pack(11, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_task, __pyx_n_s_task_name, __pyx_n_s_instruction, __pyx_n_s_current, __pyx_n_s_total, __pyx_n_s_sequence_text, __pyx_n_s_remaining_tasks, __pyx_n_s_i, __pyx_n_s_instr); if (unlikely(!__pyx_tuple__74)) __PYX_ERR(0, 896, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__74);
-  __Pyx_GIVEREF(__pyx_tuple__74);
-  __pyx_codeobj__75 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 11, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__74, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_get_next_task, 896, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__75)) __PYX_ERR(0, 896, __pyx_L1_error)
+  __pyx_tuple__73 = PyTuple_Pack(11, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_task, __pyx_n_s_task_name, __pyx_n_s_instruction, __pyx_n_s_current, __pyx_n_s_total, __pyx_n_s_sequence_text, __pyx_n_s_remaining_tasks, __pyx_n_s_i, __pyx_n_s_instr); if (unlikely(!__pyx_tuple__73)) __PYX_ERR(0, 896, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__73);
+  __Pyx_GIVEREF(__pyx_tuple__73);
+  __pyx_codeobj__74 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 11, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__73, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_get_next_task, 896, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__74)) __PYX_ERR(0, 896, __pyx_L1_error)
 
   /* "gui.py":923
  *             self.stop_session()
@@ -59002,10 +59006,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Update real-time EEG plot"""
  *         try:
  */
-  __pyx_tuple__76 = PyTuple_Pack(8, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_data, __pyx_n_s_filtered_data, __pyx_n_s_data_idx, __pyx_n_s_channel_id, __pyx_n_s_channel_data, __pyx_n_s_e); if (unlikely(!__pyx_tuple__76)) __PYX_ERR(0, 923, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__76);
-  __Pyx_GIVEREF(__pyx_tuple__76);
-  __pyx_codeobj__77 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 8, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__76, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_plots, 923, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__77)) __PYX_ERR(0, 923, __pyx_L1_error)
+  __pyx_tuple__75 = PyTuple_Pack(8, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_data, __pyx_n_s_filtered_data, __pyx_n_s_data_idx, __pyx_n_s_channel_id, __pyx_n_s_channel_data, __pyx_n_s_e); if (unlikely(!__pyx_tuple__75)) __PYX_ERR(0, 923, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__75);
+  __Pyx_GIVEREF(__pyx_tuple__75);
+  __pyx_codeobj__76 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 8, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__75, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_plots, 923, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__76)) __PYX_ERR(0, 923, __pyx_L1_error)
 
   /* "gui.py":943
  *             print(f"Error updating plots: {e}")
@@ -59014,10 +59018,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Analyze the current session using CSP"""
  *         try:
  */
-  __pyx_tuple__78 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_patterns, __pyx_n_s_class_names, __pyx_n_s_e); if (unlikely(!__pyx_tuple__78)) __PYX_ERR(0, 943, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__78);
-  __Pyx_GIVEREF(__pyx_tuple__78);
-  __pyx_codeobj__79 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__78, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_analyze_session, 943, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__79)) __PYX_ERR(0, 943, __pyx_L1_error)
+  __pyx_tuple__77 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_patterns, __pyx_n_s_class_names, __pyx_n_s_e); if (unlikely(!__pyx_tuple__77)) __PYX_ERR(0, 943, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__77);
+  __Pyx_GIVEREF(__pyx_tuple__77);
+  __pyx_codeobj__78 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__77, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_analyze_session, 943, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__78)) __PYX_ERR(0, 943, __pyx_L1_error)
 
   /* "gui.py":968
  *             self.add_status_message(f"Error analyzing session: {str(e)}")
@@ -59026,10 +59030,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Get channel positions in 2D for topographic plotting"""
  *         # Standard 10-20 positions for our channels
  */
-  __pyx_tuple__80 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_positions); if (unlikely(!__pyx_tuple__80)) __PYX_ERR(0, 968, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__80);
-  __Pyx_GIVEREF(__pyx_tuple__80);
-  __pyx_codeobj__81 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__80, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_get_channel_positions, 968, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__81)) __PYX_ERR(0, 968, __pyx_L1_error)
+  __pyx_tuple__79 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_positions); if (unlikely(!__pyx_tuple__79)) __PYX_ERR(0, 968, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__79);
+  __Pyx_GIVEREF(__pyx_tuple__79);
+  __pyx_codeobj__80 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__79, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_get_channel_positions, 968, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__80)) __PYX_ERR(0, 968, __pyx_L1_error)
 
   /* "gui.py":981
  *         return positions
@@ -59038,10 +59042,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         # Create a new window
  *         analysis_window = QWidget()
  */
-  __pyx_tuple__82 = PyTuple_Pack(16, __pyx_n_s_self, __pyx_n_s_patterns, __pyx_n_s_class_names, __pyx_n_s_args, __pyx_n_s_analysis_window_2, __pyx_n_s_layout, __pyx_n_s_fig, __pyx_n_s_axes, __pyx_n_s_i, __pyx_n_s_pattern, __pyx_n_s_class_name, __pyx_n_s_ax, __pyx_n_s_buf, __pyx_n_s_pixmap, __pyx_n_s_label, __pyx_n_s_scroll); if (unlikely(!__pyx_tuple__82)) __PYX_ERR(0, 981, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__82);
-  __Pyx_GIVEREF(__pyx_tuple__82);
-  __pyx_codeobj__83 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 16, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__82, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_display_csp_patterns, 981, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__83)) __PYX_ERR(0, 981, __pyx_L1_error)
+  __pyx_tuple__81 = PyTuple_Pack(16, __pyx_n_s_self, __pyx_n_s_patterns, __pyx_n_s_class_names, __pyx_n_s_args, __pyx_n_s_analysis_window_2, __pyx_n_s_layout, __pyx_n_s_fig, __pyx_n_s_axes, __pyx_n_s_i, __pyx_n_s_pattern, __pyx_n_s_class_name, __pyx_n_s_ax, __pyx_n_s_buf, __pyx_n_s_pixmap, __pyx_n_s_label, __pyx_n_s_scroll); if (unlikely(!__pyx_tuple__81)) __PYX_ERR(0, 981, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__81);
+  __Pyx_GIVEREF(__pyx_tuple__81);
+  __pyx_codeobj__82 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 16, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__81, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_display_csp_patterns, 981, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__82)) __PYX_ERR(0, 981, __pyx_L1_error)
 
   /* "gui.py":1032
  *         self._analysis_window = analysis_window
@@ -59050,10 +59054,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Handle countdown before recording"""
  *         self.countdown_remaining -= 1
  */
-  __pyx_tuple__84 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_args); if (unlikely(!__pyx_tuple__84)) __PYX_ERR(0, 1032, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__84);
-  __Pyx_GIVEREF(__pyx_tuple__84);
-  __pyx_codeobj__85 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__84, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_countdown_timeout, 1032, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__85)) __PYX_ERR(0, 1032, __pyx_L1_error)
+  __pyx_tuple__83 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_args); if (unlikely(!__pyx_tuple__83)) __PYX_ERR(0, 1032, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__83);
+  __Pyx_GIVEREF(__pyx_tuple__83);
+  __pyx_codeobj__84 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__83, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_countdown_timeout, 1032, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__84)) __PYX_ERR(0, 1032, __pyx_L1_error)
 
   /* "gui.py":1041
  *             self.start_recording()
@@ -59062,10 +59066,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Start recording current task"""
  *         if self.eeg_man.start_recording():
  */
-  __pyx_tuple__86 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__86)) __PYX_ERR(0, 1041, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__86);
-  __Pyx_GIVEREF(__pyx_tuple__86);
-  __pyx_codeobj__87 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__86, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_start_recording, 1041, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__87)) __PYX_ERR(0, 1041, __pyx_L1_error)
+  __pyx_tuple__85 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__85)) __PYX_ERR(0, 1041, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__85);
+  __Pyx_GIVEREF(__pyx_tuple__85);
+  __pyx_codeobj__86 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__85, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_start_recording, 1041, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__86)) __PYX_ERR(0, 1041, __pyx_L1_error)
 
   /* "gui.py":1050
  *             self.add_status_message("Recording started")
@@ -59074,10 +59078,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Handle recording timer"""
  *         self.time_remaining -= 1
  */
-  __pyx_tuple__88 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_total_tasks, __pyx_n_s_current_task, __pyx_n_s_progress); if (unlikely(!__pyx_tuple__88)) __PYX_ERR(0, 1050, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__88);
-  __Pyx_GIVEREF(__pyx_tuple__88);
-  __pyx_codeobj__89 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__88, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_recording_timeout, 1050, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__89)) __PYX_ERR(0, 1050, __pyx_L1_error)
+  __pyx_tuple__87 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_total_tasks, __pyx_n_s_current_task, __pyx_n_s_progress); if (unlikely(!__pyx_tuple__87)) __PYX_ERR(0, 1050, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__87);
+  __Pyx_GIVEREF(__pyx_tuple__87);
+  __pyx_codeobj__88 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__87, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_recording_timeout, 1050, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__88)) __PYX_ERR(0, 1050, __pyx_L1_error)
 
   /* "gui.py":1077
  *             self.start_break()
@@ -59086,7 +59090,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Start break between tasks"""
  *         self.time_remaining = self.break_duration.value()  # Use configured break duration
  */
-  __pyx_codeobj__90 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__84, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_start_break, 1077, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__90)) __PYX_ERR(0, 1077, __pyx_L1_error)
+  __pyx_codeobj__89 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__83, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_start_break, 1077, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__89)) __PYX_ERR(0, 1077, __pyx_L1_error)
 
   /* "gui.py":1083
  *         self.add_status_message("Break started")
@@ -59095,7 +59099,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Handle break timer"""
  *         self.time_remaining -= 1
  */
-  __pyx_codeobj__91 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__84, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_break_timeout, 1083, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__91)) __PYX_ERR(0, 1083, __pyx_L1_error)
+  __pyx_codeobj__90 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__83, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_break_timeout, 1083, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__90)) __PYX_ERR(0, 1083, __pyx_L1_error)
 
   /* "gui.py":1092
  *             self.get_next_task()
@@ -59104,10 +59108,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Toggle board connection state"""
  *         if not self.eeg_man.is_streaming:
  */
-  __pyx_tuple__92 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_port); if (unlikely(!__pyx_tuple__92)) __PYX_ERR(0, 1092, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__92);
-  __Pyx_GIVEREF(__pyx_tuple__92);
-  __pyx_codeobj__93 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__92, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_toggle_board_connection, 1092, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__93)) __PYX_ERR(0, 1092, __pyx_L1_error)
+  __pyx_tuple__91 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_port); if (unlikely(!__pyx_tuple__91)) __PYX_ERR(0, 1092, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__91);
+  __Pyx_GIVEREF(__pyx_tuple__91);
+  __pyx_codeobj__92 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__91, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_toggle_board_connection, 1092, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__92)) __PYX_ERR(0, 1092, __pyx_L1_error)
 
   /* "gui.py":1108
  *                 self.add_status_message("Failed to disconnect board")
@@ -59116,7 +59120,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Handle application close"""
  *         if self.eeg_man.is_streaming:
  */
-  __pyx_codeobj__94 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__67, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_closeEvent, 1108, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__94)) __PYX_ERR(0, 1108, __pyx_L1_error)
+  __pyx_codeobj__93 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__66, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_closeEvent, 1108, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__93)) __PYX_ERR(0, 1108, __pyx_L1_error)
 
   /* "gui.py":1114
  *         event.accept()
@@ -59125,10 +59129,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Update which channels are visible in the plot"""
  *         for i, (channel, checkbox) in enumerate(self.channel_checkboxes.items()):
  */
-  __pyx_tuple__95 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_i, __pyx_n_s_channel, __pyx_n_s_checkbox, __pyx_n_s_plot); if (unlikely(!__pyx_tuple__95)) __PYX_ERR(0, 1114, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__95);
-  __Pyx_GIVEREF(__pyx_tuple__95);
-  __pyx_codeobj__96 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__95, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_channel_visibility, 1114, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__96)) __PYX_ERR(0, 1114, __pyx_L1_error)
+  __pyx_tuple__94 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_i, __pyx_n_s_channel, __pyx_n_s_checkbox, __pyx_n_s_plot); if (unlikely(!__pyx_tuple__94)) __PYX_ERR(0, 1114, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__94);
+  __Pyx_GIVEREF(__pyx_tuple__94);
+  __pyx_codeobj__95 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__94, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_channel_visibility, 1114, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__95)) __PYX_ERR(0, 1114, __pyx_L1_error)
 
   /* "gui.py":1123
  *             plot.setVisible(checkbox.isChecked())
@@ -59137,10 +59141,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Update the list of session buttons"""
  *         # Clear existing buttons
  */
-  __pyx_tuple__97 = PyTuple_Pack(16, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_item, __pyx_n_s_widget, __pyx_n_s_f, __pyx_n_s_content, __pyx_n_s_sessions, __pyx_n_s_delete_all_btn, __pyx_n_s_sessions_label, __pyx_n_s_session, __pyx_n_s_session_container, __pyx_n_s_container_layout, __pyx_n_s_session_btn, __pyx_n_s_delete_btn, __pyx_n_s_e, __pyx_n_s_x); if (unlikely(!__pyx_tuple__97)) __PYX_ERR(0, 1123, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__97);
-  __Pyx_GIVEREF(__pyx_tuple__97);
-  __pyx_codeobj__98 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 16, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__97, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_session_buttons, 1123, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__98)) __PYX_ERR(0, 1123, __pyx_L1_error)
+  __pyx_tuple__96 = PyTuple_Pack(16, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_item, __pyx_n_s_widget, __pyx_n_s_f, __pyx_n_s_content, __pyx_n_s_sessions, __pyx_n_s_delete_all_btn, __pyx_n_s_sessions_label, __pyx_n_s_session, __pyx_n_s_session_container, __pyx_n_s_container_layout, __pyx_n_s_session_btn, __pyx_n_s_delete_btn, __pyx_n_s_e, __pyx_n_s_x); if (unlikely(!__pyx_tuple__96)) __PYX_ERR(0, 1123, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__96);
+  __Pyx_GIVEREF(__pyx_tuple__96);
+  __pyx_codeobj__97 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 16, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__96, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_session_buttons, 1123, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__97)) __PYX_ERR(0, 1123, __pyx_L1_error)
 
   /* "gui.py":1225
  *             print(f"Error loading sessions: {e}")
@@ -59149,10 +59153,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Delete a session"""
  *         try:
  */
-  __pyx_tuple__99 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_args, __pyx_n_s_msg_box, __pyx_n_s_e); if (unlikely(!__pyx_tuple__99)) __PYX_ERR(0, 1225, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__99);
-  __Pyx_GIVEREF(__pyx_tuple__99);
-  __pyx_codeobj__100 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__99, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_delete_session, 1225, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__100)) __PYX_ERR(0, 1225, __pyx_L1_error)
+  __pyx_tuple__98 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_args, __pyx_n_s_msg_box, __pyx_n_s_e); if (unlikely(!__pyx_tuple__98)) __PYX_ERR(0, 1225, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__98);
+  __Pyx_GIVEREF(__pyx_tuple__98);
+  __pyx_codeobj__99 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__98, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_delete_session, 1225, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__99)) __PYX_ERR(0, 1225, __pyx_L1_error)
 
   /* "gui.py":1274
  *             self.add_status_message(f"Error deleting session: {str(e)}")
@@ -59161,10 +59165,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Delete all sessions"""
  *         try:
  */
-  __pyx_tuple__101 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_msg_box, __pyx_n_s_e); if (unlikely(!__pyx_tuple__101)) __PYX_ERR(0, 1274, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__101);
-  __Pyx_GIVEREF(__pyx_tuple__101);
-  __pyx_codeobj__102 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__101, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_delete_all_sessions, 1274, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__102)) __PYX_ERR(0, 1274, __pyx_L1_error)
+  __pyx_tuple__100 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_msg_box, __pyx_n_s_e); if (unlikely(!__pyx_tuple__100)) __PYX_ERR(0, 1274, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__100);
+  __Pyx_GIVEREF(__pyx_tuple__100);
+  __pyx_codeobj__101 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__100, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_delete_all_sessions, 1274, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__101)) __PYX_ERR(0, 1274, __pyx_L1_error)
 
   /* "gui.py":1320
  *             self.add_status_message(f"Error deleting all sessions: {str(e)}")
@@ -59173,10 +59177,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Select an existing session for analysis"""
  *         self.eeg_man.current_session_num = session_num
  */
-  __pyx_tuple__103 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_args); if (unlikely(!__pyx_tuple__103)) __PYX_ERR(0, 1320, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__103);
-  __Pyx_GIVEREF(__pyx_tuple__103);
-  __pyx_codeobj__104 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__103, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_select_session, 1320, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__104)) __PYX_ERR(0, 1320, __pyx_L1_error)
+  __pyx_tuple__102 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_args); if (unlikely(!__pyx_tuple__102)) __PYX_ERR(0, 1320, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__102);
+  __Pyx_GIVEREF(__pyx_tuple__102);
+  __pyx_codeobj__103 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__102, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_select_session, 1320, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__103)) __PYX_ERR(0, 1320, __pyx_L1_error)
 
   /* "gui.py":1330
  *         self.load_session_configuration(session_num)
@@ -59185,10 +59189,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Load configuration for specific session"""
  *         config = SessionConfig.load(session_num)
  */
-  __pyx_tuple__105 = PyTuple_Pack(9, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_args, __pyx_n_s_config, __pyx_n_s_item, __pyx_n_s_action_key, __pyx_n_s_action_data, __pyx_n_s_channel_id, __pyx_n_s_channel_data); if (unlikely(!__pyx_tuple__105)) __PYX_ERR(0, 1330, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__105);
-  __Pyx_GIVEREF(__pyx_tuple__105);
-  __pyx_codeobj__106 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 9, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__105, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_load_session_configuration, 1330, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__106)) __PYX_ERR(0, 1330, __pyx_L1_error)
+  __pyx_tuple__104 = PyTuple_Pack(9, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_args, __pyx_n_s_config, __pyx_n_s_item, __pyx_n_s_action_key, __pyx_n_s_action_data, __pyx_n_s_channel_id, __pyx_n_s_channel_data); if (unlikely(!__pyx_tuple__104)) __PYX_ERR(0, 1330, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__104);
+  __Pyx_GIVEREF(__pyx_tuple__104);
+  __pyx_codeobj__105 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 9, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__104, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_load_session_configuration, 1330, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__105)) __PYX_ERR(0, 1330, __pyx_L1_error)
 
   /* "gui.py":1377
  *             )
@@ -59197,10 +59201,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Save current configuration"""
  *         config = SessionConfig()
  */
-  __pyx_tuple__107 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_config, __pyx_n_s_action_key, __pyx_n_s_data, __pyx_n_s_channel_id, __pyx_n_s_data); if (unlikely(!__pyx_tuple__107)) __PYX_ERR(0, 1377, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__107);
-  __Pyx_GIVEREF(__pyx_tuple__107);
-  __pyx_codeobj__108 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__107, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_save_current_configuration, 1377, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__108)) __PYX_ERR(0, 1377, __pyx_L1_error)
+  __pyx_tuple__106 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_config, __pyx_n_s_action_key, __pyx_n_s_data, __pyx_n_s_channel_id, __pyx_n_s_data); if (unlikely(!__pyx_tuple__106)) __PYX_ERR(0, 1377, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__106);
+  __Pyx_GIVEREF(__pyx_tuple__106);
+  __pyx_codeobj__107 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__106, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_save_current_configuration, 1377, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__107)) __PYX_ERR(0, 1377, __pyx_L1_error)
 
   /* "gui.py":1406
  *         return config
@@ -59209,13 +59213,13 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         self,
  *         checked=False,
  */
-  __pyx_tuple__109 = PyTuple_Pack(12, __pyx_n_s_self, __pyx_n_s_checked, __pyx_n_s_action_name, __pyx_n_s_description, __pyx_n_s_repetitions, __pyx_n_s_args, __pyx_n_s_action_row, __pyx_n_s_row_layout, __pyx_n_s_action_id, __pyx_n_s_name_input, __pyx_n_s_delete_btn, __pyx_n_s_data); if (unlikely(!__pyx_tuple__109)) __PYX_ERR(0, 1406, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__109);
-  __Pyx_GIVEREF(__pyx_tuple__109);
-  __pyx_codeobj__110 = (PyObject*)__Pyx_PyCode_New(5, 0, 0, 12, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__109, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_add_new_action, 1406, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__110)) __PYX_ERR(0, 1406, __pyx_L1_error)
-  __pyx_tuple__111 = PyTuple_Pack(4, ((PyObject *)Py_False), Py_None, ((PyObject*)__pyx_kp_u_Perform_Default_Action), ((PyObject *)__pyx_int_1)); if (unlikely(!__pyx_tuple__111)) __PYX_ERR(0, 1406, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__111);
-  __Pyx_GIVEREF(__pyx_tuple__111);
+  __pyx_tuple__108 = PyTuple_Pack(12, __pyx_n_s_self, __pyx_n_s_checked, __pyx_n_s_action_name, __pyx_n_s_description, __pyx_n_s_repetitions, __pyx_n_s_args, __pyx_n_s_action_row, __pyx_n_s_row_layout, __pyx_n_s_action_id, __pyx_n_s_name_input, __pyx_n_s_delete_btn, __pyx_n_s_data); if (unlikely(!__pyx_tuple__108)) __PYX_ERR(0, 1406, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__108);
+  __Pyx_GIVEREF(__pyx_tuple__108);
+  __pyx_codeobj__109 = (PyObject*)__Pyx_PyCode_New(5, 0, 0, 12, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__108, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_add_new_action, 1406, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__109)) __PYX_ERR(0, 1406, __pyx_L1_error)
+  __pyx_tuple__110 = PyTuple_Pack(4, ((PyObject *)Py_False), Py_None, ((PyObject*)__pyx_kp_u_Perform_Default_Action), ((PyObject *)__pyx_int_1)); if (unlikely(!__pyx_tuple__110)) __PYX_ERR(0, 1406, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__110);
+  __Pyx_GIVEREF(__pyx_tuple__110);
 
   /* "gui.py":1456
  *         self.add_status_message(f"Added action: {action_name}")
@@ -59224,10 +59228,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Delete an action by its UUID"""
  *         if action_id in self.action_inputs:
  */
-  __pyx_tuple__112 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_action_id, __pyx_n_s_args, __pyx_n_s_action_data, __pyx_n_s_widget, __pyx_n_s_display_name); if (unlikely(!__pyx_tuple__112)) __PYX_ERR(0, 1456, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__112);
-  __Pyx_GIVEREF(__pyx_tuple__112);
-  __pyx_codeobj__113 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__112, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_delete_action, 1456, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__113)) __PYX_ERR(0, 1456, __pyx_L1_error)
+  __pyx_tuple__111 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_action_id, __pyx_n_s_args, __pyx_n_s_action_data, __pyx_n_s_widget, __pyx_n_s_display_name); if (unlikely(!__pyx_tuple__111)) __PYX_ERR(0, 1456, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__111);
+  __Pyx_GIVEREF(__pyx_tuple__111);
+  __pyx_codeobj__112 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__111, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_delete_action, 1456, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__112)) __PYX_ERR(0, 1456, __pyx_L1_error)
 
   /* "gui.py":1475
  *             self.update_eeg_man_tasks()
@@ -59236,10 +59240,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Update EEG manager with current tasks"""
  *         updated_tasks = {}
  */
-  __pyx_tuple__114 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_updated_tasks, __pyx_n_s_action_id, __pyx_n_s_data, __pyx_n_s_action_name); if (unlikely(!__pyx_tuple__114)) __PYX_ERR(0, 1475, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__114);
-  __Pyx_GIVEREF(__pyx_tuple__114);
-  __pyx_codeobj__115 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__114, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_eeg_man_tasks, 1475, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__115)) __PYX_ERR(0, 1475, __pyx_L1_error)
+  __pyx_tuple__113 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_updated_tasks, __pyx_n_s_action_id, __pyx_n_s_data, __pyx_n_s_action_name); if (unlikely(!__pyx_tuple__113)) __PYX_ERR(0, 1475, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__113);
+  __Pyx_GIVEREF(__pyx_tuple__113);
+  __pyx_codeobj__114 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__113, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_eeg_man_tasks, 1475, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__114)) __PYX_ERR(0, 1475, __pyx_L1_error)
 
   /* "gui.py":1490
  *         self.eeg_man.task_names = updated_tasks
@@ -59248,10 +59252,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Renumber actions after deletion"""
  *         new_inputs = {}
  */
-  __pyx_tuple__116 = PyTuple_Pack(8, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_new_inputs, __pyx_n_s_current_num, __pyx_n_s_old_key, __pyx_n_s_data, __pyx_n_s_new_key, __pyx_n_s_new_name); if (unlikely(!__pyx_tuple__116)) __PYX_ERR(0, 1490, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__116);
-  __Pyx_GIVEREF(__pyx_tuple__116);
-  __pyx_codeobj__117 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 8, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__116, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_renumber_actions, 1490, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__117)) __PYX_ERR(0, 1490, __pyx_L1_error)
+  __pyx_tuple__115 = PyTuple_Pack(8, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_new_inputs, __pyx_n_s_current_num, __pyx_n_s_old_key, __pyx_n_s_data, __pyx_n_s_new_key, __pyx_n_s_new_name); if (unlikely(!__pyx_tuple__115)) __PYX_ERR(0, 1490, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__115);
+  __Pyx_GIVEREF(__pyx_tuple__115);
+  __pyx_codeobj__116 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 8, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__115, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_renumber_actions, 1490, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__116)) __PYX_ERR(0, 1490, __pyx_L1_error)
 
   /* "gui.py":1509
  *         self.action_inputs = new_inputs
@@ -59260,10 +59264,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Load and apply the most recent configuration"""
  *         config = SessionConfig.load_last_config()
  */
-  __pyx_tuple__118 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_config, __pyx_n_s_action_key, __pyx_n_s_action_data); if (unlikely(!__pyx_tuple__118)) __PYX_ERR(0, 1509, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__118);
-  __Pyx_GIVEREF(__pyx_tuple__118);
-  __pyx_codeobj__119 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__118, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_load_last_configuration, 1509, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__119)) __PYX_ERR(0, 1509, __pyx_L1_error)
+  __pyx_tuple__117 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_config, __pyx_n_s_action_key, __pyx_n_s_action_data); if (unlikely(!__pyx_tuple__117)) __PYX_ERR(0, 1509, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__117);
+  __Pyx_GIVEREF(__pyx_tuple__117);
+  __pyx_codeobj__118 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__117, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_load_last_configuration, 1509, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__118)) __PYX_ERR(0, 1509, __pyx_L1_error)
 
   /* "gui.py":1537
  *             )
@@ -59272,205 +59276,205 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Get list of available sample data files"""
  *         try:
  */
-  __pyx_tuple__120 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_sample_file, __pyx_n_s_e); if (unlikely(!__pyx_tuple__120)) __PYX_ERR(0, 1537, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__120);
-  __Pyx_GIVEREF(__pyx_tuple__120);
-  __pyx_codeobj__121 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__120, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_get_sample_files, 1537, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__121)) __PYX_ERR(0, 1537, __pyx_L1_error)
+  __pyx_tuple__119 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_sample_file, __pyx_n_s_e); if (unlikely(!__pyx_tuple__119)) __PYX_ERR(0, 1537, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__119);
+  __Pyx_GIVEREF(__pyx_tuple__119);
+  __pyx_codeobj__120 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__119, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_get_sample_files, 1537, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__120)) __PYX_ERR(0, 1537, __pyx_L1_error)
 
-  /* "gui.py":1557
+  /* "gui.py":1558
  *             return []
  * 
  *     def view_sample_data(self, index, *args):             # <<<<<<<<<<<<<<
  *         """View selected sample data file"""
  *         try:
  */
-  __pyx_tuple__122 = PyTuple_Pack(19, __pyx_n_s_self, __pyx_n_s_index, __pyx_n_s_args, __pyx_n_s_sample_files, __pyx_n_s_raw, __pyx_n_s_plot_window_2, __pyx_n_s_layout, __pyx_n_s_controls, __pyx_n_s_controls_layout, __pyx_n_s_view_label, __pyx_n_s_view_select, __pyx_n_s_scale_label, __pyx_n_s_scale_spin, __pyx_n_s_duration_label, __pyx_n_s_duration_spin, __pyx_n_s_update_btn, __pyx_n_s_update_plot, __pyx_n_s_update_plot, __pyx_n_s_e); if (unlikely(!__pyx_tuple__122)) __PYX_ERR(0, 1557, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__122);
-  __Pyx_GIVEREF(__pyx_tuple__122);
-  __pyx_codeobj__123 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 19, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__122, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_view_sample_data, 1557, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__123)) __PYX_ERR(0, 1557, __pyx_L1_error)
+  __pyx_tuple__121 = PyTuple_Pack(19, __pyx_n_s_self, __pyx_n_s_index, __pyx_n_s_args, __pyx_n_s_sample_files, __pyx_n_s_raw, __pyx_n_s_plot_window_2, __pyx_n_s_layout, __pyx_n_s_controls, __pyx_n_s_controls_layout, __pyx_n_s_view_label, __pyx_n_s_view_select, __pyx_n_s_scale_label, __pyx_n_s_scale_spin, __pyx_n_s_duration_label, __pyx_n_s_duration_spin, __pyx_n_s_update_btn, __pyx_n_s_update_plot, __pyx_n_s_update_plot, __pyx_n_s_e); if (unlikely(!__pyx_tuple__121)) __PYX_ERR(0, 1558, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__121);
+  __Pyx_GIVEREF(__pyx_tuple__121);
+  __pyx_codeobj__122 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 19, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__121, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_view_sample_data, 1558, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__122)) __PYX_ERR(0, 1558, __pyx_L1_error)
 
-  /* "gui.py":1794
+  /* "gui.py":1795
  *             self.add_status_message(f"Error viewing sample data: {str(e)}")
  * 
  *     def apply_channel_config(self, *args):             # <<<<<<<<<<<<<<
  *         """Apply channel configuration"""
  *         try:
  */
-  __pyx_tuple__124 = PyTuple_Pack(10, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_new_names, __pyx_n_s_i, __pyx_n_s_original_name, __pyx_n_s_input_widget, __pyx_n_s_new_name, __pyx_n_s_plot, __pyx_n_s_e, __pyx_n_s_input); if (unlikely(!__pyx_tuple__124)) __PYX_ERR(0, 1794, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__124);
-  __Pyx_GIVEREF(__pyx_tuple__124);
-  __pyx_codeobj__125 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__124, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_apply_channel_config, 1794, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__125)) __PYX_ERR(0, 1794, __pyx_L1_error)
+  __pyx_tuple__123 = PyTuple_Pack(10, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_new_names, __pyx_n_s_i, __pyx_n_s_original_name, __pyx_n_s_input_widget, __pyx_n_s_new_name, __pyx_n_s_plot, __pyx_n_s_e, __pyx_n_s_input); if (unlikely(!__pyx_tuple__123)) __PYX_ERR(0, 1795, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__123);
+  __Pyx_GIVEREF(__pyx_tuple__123);
+  __pyx_codeobj__124 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__123, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_apply_channel_config, 1795, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__124)) __PYX_ERR(0, 1795, __pyx_L1_error)
 
-  /* "gui.py":1813
+  /* "gui.py":1814
  *             self.add_status_message(f"Error applying channel configuration: {str(e)}")
  * 
  *     def update_plot_speed(self, *args):             # <<<<<<<<<<<<<<
  *         """Update the plot refresh rate"""
  *         speed = self.speed_slider.value()
  */
-  __pyx_tuple__126 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_speed, __pyx_n_s_interval); if (unlikely(!__pyx_tuple__126)) __PYX_ERR(0, 1813, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__126);
-  __Pyx_GIVEREF(__pyx_tuple__126);
-  __pyx_codeobj__127 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__126, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_plot_speed, 1813, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__127)) __PYX_ERR(0, 1813, __pyx_L1_error)
+  __pyx_tuple__125 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_speed, __pyx_n_s_interval); if (unlikely(!__pyx_tuple__125)) __PYX_ERR(0, 1814, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__125);
+  __Pyx_GIVEREF(__pyx_tuple__125);
+  __pyx_codeobj__126 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__125, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_plot_speed, 1814, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__126)) __PYX_ERR(0, 1814, __pyx_L1_error)
 
-  /* "gui.py":1819
+  /* "gui.py":1820
  *         self.update_timer.setInterval(interval)
  * 
  *     def train_dqn_model(self, *args):             # <<<<<<<<<<<<<<
  *         """Train DQN model on current session data"""
  *         try:
  */
-  __pyx_tuple__128 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_dqn_model, __pyx_n_s_combined_file, __pyx_n_s_e); if (unlikely(!__pyx_tuple__128)) __PYX_ERR(0, 1819, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__128);
-  __Pyx_GIVEREF(__pyx_tuple__128);
-  __pyx_codeobj__129 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__128, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_train_dqn_model, 1819, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__129)) __PYX_ERR(0, 1819, __pyx_L1_error)
+  __pyx_tuple__127 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_dqn_model, __pyx_n_s_combined_file, __pyx_n_s_e); if (unlikely(!__pyx_tuple__127)) __PYX_ERR(0, 1820, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__127);
+  __Pyx_GIVEREF(__pyx_tuple__127);
+  __pyx_codeobj__128 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__127, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_train_dqn_model, 1820, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__128)) __PYX_ERR(0, 1820, __pyx_L1_error)
 
-  /* "gui.py":1869
+  /* "gui.py":1870
  *             self.training_progress.append(f"Training error: {str(e)}")
  * 
  *     def handle_training_complete(self, success, message, *args):             # <<<<<<<<<<<<<<
  *         """Handle completion of training thread"""
  *         self.training_progress.append(message)
  */
-  __pyx_tuple__130 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_success, __pyx_n_s_message, __pyx_n_s_args); if (unlikely(!__pyx_tuple__130)) __PYX_ERR(0, 1869, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__130);
-  __Pyx_GIVEREF(__pyx_tuple__130);
-  __pyx_codeobj__131 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__130, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_handle_training_complete, 1869, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__131)) __PYX_ERR(0, 1869, __pyx_L1_error)
+  __pyx_tuple__129 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_success, __pyx_n_s_message, __pyx_n_s_args); if (unlikely(!__pyx_tuple__129)) __PYX_ERR(0, 1870, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__129);
+  __Pyx_GIVEREF(__pyx_tuple__129);
+  __pyx_codeobj__130 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__129, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_handle_training_complete, 1870, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__130)) __PYX_ERR(0, 1870, __pyx_L1_error)
 
-  /* "gui.py":1879
+  /* "gui.py":1880
  *             self.add_status_message("Training failed - check progress log for details")
  * 
  *     def apply_filters(self, data, *args):             # <<<<<<<<<<<<<<
  *         """Apply bandpass filter to EEG data with buffering"""
  *         try:
  */
-  __pyx_tuple__132 = PyTuple_Pack(20, __pyx_n_s_self, __pyx_n_s_data, __pyx_n_s_args, __pyx_n_s_lowcut, __pyx_n_s_highcut, __pyx_n_s_board_id, __pyx_n_s_fs, __pyx_n_s_nyq, __pyx_n_s_low, __pyx_n_s_high, __pyx_n_s_order, __pyx_n_s_b, __pyx_n_s_a, __pyx_n_s_filtered_data, __pyx_n_s_i, __pyx_n_s_current_data, __pyx_n_s_max_buffer, __pyx_n_s_filtered_buffer, __pyx_n_s_start_idx, __pyx_n_s_e); if (unlikely(!__pyx_tuple__132)) __PYX_ERR(0, 1879, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__132);
-  __Pyx_GIVEREF(__pyx_tuple__132);
-  __pyx_codeobj__133 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 20, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__132, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_apply_filters, 1879, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__133)) __PYX_ERR(0, 1879, __pyx_L1_error)
+  __pyx_tuple__131 = PyTuple_Pack(20, __pyx_n_s_self, __pyx_n_s_data, __pyx_n_s_args, __pyx_n_s_lowcut, __pyx_n_s_highcut, __pyx_n_s_board_id, __pyx_n_s_fs, __pyx_n_s_nyq, __pyx_n_s_low, __pyx_n_s_high, __pyx_n_s_order, __pyx_n_s_b, __pyx_n_s_a, __pyx_n_s_filtered_data, __pyx_n_s_i, __pyx_n_s_current_data, __pyx_n_s_max_buffer, __pyx_n_s_filtered_buffer, __pyx_n_s_start_idx, __pyx_n_s_e); if (unlikely(!__pyx_tuple__131)) __PYX_ERR(0, 1880, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__131);
+  __Pyx_GIVEREF(__pyx_tuple__131);
+  __pyx_codeobj__132 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 20, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__131, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_apply_filters, 1880, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__132)) __PYX_ERR(0, 1880, __pyx_L1_error)
 
-  /* "gui.py":1936
+  /* "gui.py":1937
  *             return data  # Return original data if filtering fails
  * 
  *     def stop_recording(self, *args):             # <<<<<<<<<<<<<<
  *         """Stop current recording"""
  *         self.recording_timer.stop()
  */
-  __pyx_codeobj__134 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__84, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_stop_recording, 1936, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__134)) __PYX_ERR(0, 1936, __pyx_L1_error)
+  __pyx_codeobj__133 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__83, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_stop_recording, 1937, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__133)) __PYX_ERR(0, 1937, __pyx_L1_error)
 
-  /* "gui.py":1945
+  /* "gui.py":1946
  *         self.add_status_message("Recording stopped")
  * 
  *     def load_sample_as_session(self, *args):             # <<<<<<<<<<<<<<
  *         """Load and train on sample data"""
  *         try:
  */
-  __pyx_tuple__135 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_sample_file, __pyx_n_s_raw, __pyx_n_s_e); if (unlikely(!__pyx_tuple__135)) __PYX_ERR(0, 1945, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__135);
-  __Pyx_GIVEREF(__pyx_tuple__135);
-  __pyx_codeobj__136 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__135, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_load_sample_as_session, 1945, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__136)) __PYX_ERR(0, 1945, __pyx_L1_error)
+  __pyx_tuple__134 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_sample_file, __pyx_n_s_raw, __pyx_n_s_e); if (unlikely(!__pyx_tuple__134)) __PYX_ERR(0, 1946, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__134);
+  __Pyx_GIVEREF(__pyx_tuple__134);
+  __pyx_codeobj__135 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__134, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_load_sample_as_session, 1946, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__135)) __PYX_ERR(0, 1946, __pyx_L1_error)
 
-  /* "gui.py":1982
+  /* "gui.py":1983
  *             self.add_status_message(f"Error loading sample data: {str(e)}")
  * 
  *     def populate_channels_and_actions(self):             # <<<<<<<<<<<<<<
  *         """Populate channels and actions for the current session"""
  *         # Clear existing channels
  */
-  __pyx_tuple__137 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_item, __pyx_n_s_channel, __pyx_n_s_action_name, __pyx_n_s_description, __pyx_n_s_repetitions); if (unlikely(!__pyx_tuple__137)) __PYX_ERR(0, 1982, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__137);
-  __Pyx_GIVEREF(__pyx_tuple__137);
-  __pyx_codeobj__138 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__137, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_populate_channels_and_actions, 1982, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__138)) __PYX_ERR(0, 1982, __pyx_L1_error)
+  __pyx_tuple__136 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_item, __pyx_n_s_channel, __pyx_n_s_action_name, __pyx_n_s_description, __pyx_n_s_repetitions); if (unlikely(!__pyx_tuple__136)) __PYX_ERR(0, 1983, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__136);
+  __Pyx_GIVEREF(__pyx_tuple__136);
+  __pyx_codeobj__137 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__136, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_populate_channels_and_actions, 1983, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__137)) __PYX_ERR(0, 1983, __pyx_L1_error)
 
-  /* "gui.py":2006
+  /* "gui.py":2007
  *             self.add_new_action(action_name, description, repetitions)
  * 
  *     def setup_channel_config(self, *args):             # <<<<<<<<<<<<<<
  *         """Setup channel configuration UI with UUID-based channels"""
  *         try:
  */
-  __pyx_tuple__139 = PyTuple_Pack(14, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_channel_group, __pyx_n_s_channel_layout, __pyx_n_s_header, __pyx_n_s_header_layout, __pyx_n_s_label_text, __pyx_n_s_label, __pyx_n_s_scroll, __pyx_n_s_scroll_widget, __pyx_n_s_default_channels, __pyx_n_s_channel, __pyx_n_s_add_btn, __pyx_n_s_e); if (unlikely(!__pyx_tuple__139)) __PYX_ERR(0, 2006, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__139);
-  __Pyx_GIVEREF(__pyx_tuple__139);
-  __pyx_codeobj__140 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 14, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__139, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_setup_channel_config, 2006, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__140)) __PYX_ERR(0, 2006, __pyx_L1_error)
+  __pyx_tuple__138 = PyTuple_Pack(14, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_channel_group, __pyx_n_s_channel_layout, __pyx_n_s_header, __pyx_n_s_header_layout, __pyx_n_s_label_text, __pyx_n_s_label, __pyx_n_s_scroll, __pyx_n_s_scroll_widget, __pyx_n_s_default_channels, __pyx_n_s_channel, __pyx_n_s_add_btn, __pyx_n_s_e); if (unlikely(!__pyx_tuple__138)) __PYX_ERR(0, 2007, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__138);
+  __Pyx_GIVEREF(__pyx_tuple__138);
+  __pyx_codeobj__139 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 14, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__138, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_setup_channel_config, 2007, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__139)) __PYX_ERR(0, 2007, __pyx_L1_error)
 
-  /* "gui.py":2080
+  /* "gui.py":2081
  *             self.add_status_message(f"Error setting up channel config: {str(e)}")
  * 
  *     def add_channel_and_update(self, name, *args):             # <<<<<<<<<<<<<<
  *         """Add a channel and update plots"""
  *         self.add_channel(name, self.channel_list_layout)
  */
-  __pyx_tuple__141 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_name, __pyx_n_s_args); if (unlikely(!__pyx_tuple__141)) __PYX_ERR(0, 2080, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__141);
-  __Pyx_GIVEREF(__pyx_tuple__141);
-  __pyx_codeobj__142 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__141, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_add_channel_and_update, 2080, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__142)) __PYX_ERR(0, 2080, __pyx_L1_error)
+  __pyx_tuple__140 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_name, __pyx_n_s_args); if (unlikely(!__pyx_tuple__140)) __PYX_ERR(0, 2081, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__140);
+  __Pyx_GIVEREF(__pyx_tuple__140);
+  __pyx_codeobj__141 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__140, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_add_channel_and_update, 2081, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__141)) __PYX_ERR(0, 2081, __pyx_L1_error)
 
-  /* "gui.py":2085
+  /* "gui.py":2086
  *         self.update_plot_channels(self.channel_configs)
  * 
  *     def add_channel(self, name, layout, *args):             # <<<<<<<<<<<<<<
  *         """Add a new channel"""
  *         # Check if channel already exists
  */
-  __pyx_tuple__143 = PyTuple_Pack(11, __pyx_n_s_self, __pyx_n_s_name, __pyx_n_s_layout, __pyx_n_s_args, __pyx_n_s_channel_row, __pyx_n_s_row_layout, __pyx_n_s_channel_id, __pyx_n_s_name_input, __pyx_n_s_enable_box, __pyx_n_s_delete_btn, __pyx_n_s_data); if (unlikely(!__pyx_tuple__143)) __PYX_ERR(0, 2085, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__143);
-  __Pyx_GIVEREF(__pyx_tuple__143);
-  __pyx_codeobj__144 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 11, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__143, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_add_channel, 2085, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__144)) __PYX_ERR(0, 2085, __pyx_L1_error)
+  __pyx_tuple__142 = PyTuple_Pack(11, __pyx_n_s_self, __pyx_n_s_name, __pyx_n_s_layout, __pyx_n_s_args, __pyx_n_s_channel_row, __pyx_n_s_row_layout, __pyx_n_s_channel_id, __pyx_n_s_name_input, __pyx_n_s_enable_box, __pyx_n_s_delete_btn, __pyx_n_s_data); if (unlikely(!__pyx_tuple__142)) __PYX_ERR(0, 2086, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__142);
+  __Pyx_GIVEREF(__pyx_tuple__142);
+  __pyx_codeobj__143 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 11, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__142, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_add_channel, 2086, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__143)) __PYX_ERR(0, 2086, __pyx_L1_error)
 
-  /* "gui.py":2126
+  /* "gui.py":2127
  *         layout.addWidget(channel_row)
  * 
  *     def delete_channel(self, channel_id, *args):             # <<<<<<<<<<<<<<
  *         """Delete a channel by UUID"""
  *         if channel_id in self.channel_configs:
  */
-  __pyx_tuple__145 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_channel_id, __pyx_n_s_args, __pyx_n_s_channel_data, __pyx_n_s_widget, __pyx_n_s_name); if (unlikely(!__pyx_tuple__145)) __PYX_ERR(0, 2126, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__145);
-  __Pyx_GIVEREF(__pyx_tuple__145);
-  __pyx_codeobj__146 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__145, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_delete_channel, 2126, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__146)) __PYX_ERR(0, 2126, __pyx_L1_error)
+  __pyx_tuple__144 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_channel_id, __pyx_n_s_args, __pyx_n_s_channel_data, __pyx_n_s_widget, __pyx_n_s_name); if (unlikely(!__pyx_tuple__144)) __PYX_ERR(0, 2127, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__144);
+  __Pyx_GIVEREF(__pyx_tuple__144);
+  __pyx_codeobj__145 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__144, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_delete_channel, 2127, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__145)) __PYX_ERR(0, 2127, __pyx_L1_error)
 
-  /* "gui.py":2143
+  /* "gui.py":2144
  *             self.update_channel_config()
  * 
  *     def update_channel_config(self, *args):             # <<<<<<<<<<<<<<
  *         """Update EEG manager with current channel configuration"""
  *         try:
  */
-  __pyx_codeobj__147 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__65, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_channel_config, 2143, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__147)) __PYX_ERR(0, 2143, __pyx_L1_error)
+  __pyx_codeobj__146 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__64, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_channel_config, 2144, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__146)) __PYX_ERR(0, 2144, __pyx_L1_error)
 
-  /* "gui.py":2155
+  /* "gui.py":2156
  *             self.add_status_message(f"Error updating channel config: {str(e)}")
  * 
  *     def update_plot_channels(self, enabled_channels, *args):             # <<<<<<<<<<<<<<
  *         """Update plot display based on enabled channels"""
  *         try:
  */
-  __pyx_codeobj__148 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 14, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__63, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_plot_channels, 2155, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__148)) __PYX_ERR(0, 2155, __pyx_L1_error)
+  __pyx_codeobj__147 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 14, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__62, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_update_plot_channels, 2156, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__147)) __PYX_ERR(0, 2156, __pyx_L1_error)
 
-  /* "gui.py":2218
+  /* "gui.py":2219
  *             self.add_status_message(f"Error updating plots: {str(e)}")
  * 
  *     def get_channel_color(self, channel_name, *args):             # <<<<<<<<<<<<<<
  *         """Get color for a channel, with fallback to default colors"""
  *         # First check if channel has a specific color
  */
-  __pyx_tuple__149 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_channel_name, __pyx_n_s_args, __pyx_n_s_color_index); if (unlikely(!__pyx_tuple__149)) __PYX_ERR(0, 2218, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__149);
-  __Pyx_GIVEREF(__pyx_tuple__149);
-  __pyx_codeobj__150 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__149, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_get_channel_color, 2218, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__150)) __PYX_ERR(0, 2218, __pyx_L1_error)
+  __pyx_tuple__148 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_channel_name, __pyx_n_s_args, __pyx_n_s_color_index); if (unlikely(!__pyx_tuple__148)) __PYX_ERR(0, 2219, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__148);
+  __Pyx_GIVEREF(__pyx_tuple__148);
+  __pyx_codeobj__149 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__148, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_get_channel_color, 2219, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__149)) __PYX_ERR(0, 2219, __pyx_L1_error)
 
-  /* "gui.py":2228
+  /* "gui.py":2229
  *         return self.default_channel_colors[color_index]
  * 
  *     def setup_action_buttons(self):             # <<<<<<<<<<<<<<
  *         """Setup buttons for adding and managing actions"""
  *         add_action_btn = QPushButton("Add Action")
  */
-  __pyx_tuple__151 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_add_action_btn); if (unlikely(!__pyx_tuple__151)) __PYX_ERR(0, 2228, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__151);
-  __Pyx_GIVEREF(__pyx_tuple__151);
-  __pyx_codeobj__152 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__151, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_setup_action_buttons, 2228, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__152)) __PYX_ERR(0, 2228, __pyx_L1_error)
+  __pyx_tuple__150 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_add_action_btn); if (unlikely(!__pyx_tuple__150)) __PYX_ERR(0, 2229, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__150);
+  __Pyx_GIVEREF(__pyx_tuple__150);
+  __pyx_codeobj__151 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__150, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gui_py, __pyx_n_s_setup_action_buttons, 2229, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__151)) __PYX_ERR(0, 2229, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -59628,15 +59632,15 @@ static int __Pyx_modinit_type_init_code(void) {
   }
   #endif
   #if CYTHON_USE_TYPE_SPECS
-  __pyx_ptype_3gui___pyx_scope_struct_3_view_sample_data = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_3gui___pyx_scope_struct_3_view_sample_data_spec, NULL); if (unlikely(!__pyx_ptype_3gui___pyx_scope_struct_3_view_sample_data)) __PYX_ERR(0, 1557, __pyx_L1_error)
-  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_3gui___pyx_scope_struct_3_view_sample_data_spec, __pyx_ptype_3gui___pyx_scope_struct_3_view_sample_data) < 0) __PYX_ERR(0, 1557, __pyx_L1_error)
+  __pyx_ptype_3gui___pyx_scope_struct_3_view_sample_data = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_3gui___pyx_scope_struct_3_view_sample_data_spec, NULL); if (unlikely(!__pyx_ptype_3gui___pyx_scope_struct_3_view_sample_data)) __PYX_ERR(0, 1558, __pyx_L1_error)
+  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_3gui___pyx_scope_struct_3_view_sample_data_spec, __pyx_ptype_3gui___pyx_scope_struct_3_view_sample_data) < 0) __PYX_ERR(0, 1558, __pyx_L1_error)
   #else
   __pyx_ptype_3gui___pyx_scope_struct_3_view_sample_data = &__pyx_type_3gui___pyx_scope_struct_3_view_sample_data;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
   #endif
   #if !CYTHON_USE_TYPE_SPECS
-  if (__Pyx_PyType_Ready(__pyx_ptype_3gui___pyx_scope_struct_3_view_sample_data) < 0) __PYX_ERR(0, 1557, __pyx_L1_error)
+  if (__Pyx_PyType_Ready(__pyx_ptype_3gui___pyx_scope_struct_3_view_sample_data) < 0) __PYX_ERR(0, 1558, __pyx_L1_error)
   #endif
   #if PY_MAJOR_VERSION < 3
   __pyx_ptype_3gui___pyx_scope_struct_3_view_sample_data->tp_print = 0;
@@ -59647,15 +59651,15 @@ static int __Pyx_modinit_type_init_code(void) {
   }
   #endif
   #if CYTHON_USE_TYPE_SPECS
-  __pyx_ptype_3gui___pyx_scope_struct_4_train_dqn_model = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_3gui___pyx_scope_struct_4_train_dqn_model_spec, NULL); if (unlikely(!__pyx_ptype_3gui___pyx_scope_struct_4_train_dqn_model)) __PYX_ERR(0, 1819, __pyx_L1_error)
-  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_3gui___pyx_scope_struct_4_train_dqn_model_spec, __pyx_ptype_3gui___pyx_scope_struct_4_train_dqn_model) < 0) __PYX_ERR(0, 1819, __pyx_L1_error)
+  __pyx_ptype_3gui___pyx_scope_struct_4_train_dqn_model = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_3gui___pyx_scope_struct_4_train_dqn_model_spec, NULL); if (unlikely(!__pyx_ptype_3gui___pyx_scope_struct_4_train_dqn_model)) __PYX_ERR(0, 1820, __pyx_L1_error)
+  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_3gui___pyx_scope_struct_4_train_dqn_model_spec, __pyx_ptype_3gui___pyx_scope_struct_4_train_dqn_model) < 0) __PYX_ERR(0, 1820, __pyx_L1_error)
   #else
   __pyx_ptype_3gui___pyx_scope_struct_4_train_dqn_model = &__pyx_type_3gui___pyx_scope_struct_4_train_dqn_model;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
   #endif
   #if !CYTHON_USE_TYPE_SPECS
-  if (__Pyx_PyType_Ready(__pyx_ptype_3gui___pyx_scope_struct_4_train_dqn_model) < 0) __PYX_ERR(0, 1819, __pyx_L1_error)
+  if (__Pyx_PyType_Ready(__pyx_ptype_3gui___pyx_scope_struct_4_train_dqn_model) < 0) __PYX_ERR(0, 1820, __pyx_L1_error)
   #endif
   #if PY_MAJOR_VERSION < 3
   __pyx_ptype_3gui___pyx_scope_struct_4_train_dqn_model->tp_print = 0;
@@ -59666,15 +59670,15 @@ static int __Pyx_modinit_type_init_code(void) {
   }
   #endif
   #if CYTHON_USE_TYPE_SPECS
-  __pyx_ptype_3gui___pyx_scope_struct_5_setup_channel_config = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_3gui___pyx_scope_struct_5_setup_channel_config_spec, NULL); if (unlikely(!__pyx_ptype_3gui___pyx_scope_struct_5_setup_channel_config)) __PYX_ERR(0, 2006, __pyx_L1_error)
-  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_3gui___pyx_scope_struct_5_setup_channel_config_spec, __pyx_ptype_3gui___pyx_scope_struct_5_setup_channel_config) < 0) __PYX_ERR(0, 2006, __pyx_L1_error)
+  __pyx_ptype_3gui___pyx_scope_struct_5_setup_channel_config = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_3gui___pyx_scope_struct_5_setup_channel_config_spec, NULL); if (unlikely(!__pyx_ptype_3gui___pyx_scope_struct_5_setup_channel_config)) __PYX_ERR(0, 2007, __pyx_L1_error)
+  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_3gui___pyx_scope_struct_5_setup_channel_config_spec, __pyx_ptype_3gui___pyx_scope_struct_5_setup_channel_config) < 0) __PYX_ERR(0, 2007, __pyx_L1_error)
   #else
   __pyx_ptype_3gui___pyx_scope_struct_5_setup_channel_config = &__pyx_type_3gui___pyx_scope_struct_5_setup_channel_config;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
   #endif
   #if !CYTHON_USE_TYPE_SPECS
-  if (__Pyx_PyType_Ready(__pyx_ptype_3gui___pyx_scope_struct_5_setup_channel_config) < 0) __PYX_ERR(0, 2006, __pyx_L1_error)
+  if (__Pyx_PyType_Ready(__pyx_ptype_3gui___pyx_scope_struct_5_setup_channel_config) < 0) __PYX_ERR(0, 2007, __pyx_L1_error)
   #endif
   #if PY_MAJOR_VERSION < 3
   __pyx_ptype_3gui___pyx_scope_struct_5_setup_channel_config->tp_print = 0;
@@ -59685,15 +59689,15 @@ static int __Pyx_modinit_type_init_code(void) {
   }
   #endif
   #if CYTHON_USE_TYPE_SPECS
-  __pyx_ptype_3gui___pyx_scope_struct_6_add_channel = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_3gui___pyx_scope_struct_6_add_channel_spec, NULL); if (unlikely(!__pyx_ptype_3gui___pyx_scope_struct_6_add_channel)) __PYX_ERR(0, 2085, __pyx_L1_error)
-  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_3gui___pyx_scope_struct_6_add_channel_spec, __pyx_ptype_3gui___pyx_scope_struct_6_add_channel) < 0) __PYX_ERR(0, 2085, __pyx_L1_error)
+  __pyx_ptype_3gui___pyx_scope_struct_6_add_channel = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_3gui___pyx_scope_struct_6_add_channel_spec, NULL); if (unlikely(!__pyx_ptype_3gui___pyx_scope_struct_6_add_channel)) __PYX_ERR(0, 2086, __pyx_L1_error)
+  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_3gui___pyx_scope_struct_6_add_channel_spec, __pyx_ptype_3gui___pyx_scope_struct_6_add_channel) < 0) __PYX_ERR(0, 2086, __pyx_L1_error)
   #else
   __pyx_ptype_3gui___pyx_scope_struct_6_add_channel = &__pyx_type_3gui___pyx_scope_struct_6_add_channel;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
   #endif
   #if !CYTHON_USE_TYPE_SPECS
-  if (__Pyx_PyType_Ready(__pyx_ptype_3gui___pyx_scope_struct_6_add_channel) < 0) __PYX_ERR(0, 2085, __pyx_L1_error)
+  if (__Pyx_PyType_Ready(__pyx_ptype_3gui___pyx_scope_struct_6_add_channel) < 0) __PYX_ERR(0, 2086, __pyx_L1_error)
   #endif
   #if PY_MAJOR_VERSION < 3
   __pyx_ptype_3gui___pyx_scope_struct_6_add_channel->tp_print = 0;
@@ -59704,15 +59708,15 @@ static int __Pyx_modinit_type_init_code(void) {
   }
   #endif
   #if CYTHON_USE_TYPE_SPECS
-  __pyx_ptype_3gui___pyx_scope_struct_7_setup_action_buttons = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_3gui___pyx_scope_struct_7_setup_action_buttons_spec, NULL); if (unlikely(!__pyx_ptype_3gui___pyx_scope_struct_7_setup_action_buttons)) __PYX_ERR(0, 2228, __pyx_L1_error)
-  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_3gui___pyx_scope_struct_7_setup_action_buttons_spec, __pyx_ptype_3gui___pyx_scope_struct_7_setup_action_buttons) < 0) __PYX_ERR(0, 2228, __pyx_L1_error)
+  __pyx_ptype_3gui___pyx_scope_struct_7_setup_action_buttons = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_3gui___pyx_scope_struct_7_setup_action_buttons_spec, NULL); if (unlikely(!__pyx_ptype_3gui___pyx_scope_struct_7_setup_action_buttons)) __PYX_ERR(0, 2229, __pyx_L1_error)
+  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_3gui___pyx_scope_struct_7_setup_action_buttons_spec, __pyx_ptype_3gui___pyx_scope_struct_7_setup_action_buttons) < 0) __PYX_ERR(0, 2229, __pyx_L1_error)
   #else
   __pyx_ptype_3gui___pyx_scope_struct_7_setup_action_buttons = &__pyx_type_3gui___pyx_scope_struct_7_setup_action_buttons;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
   #endif
   #if !CYTHON_USE_TYPE_SPECS
-  if (__Pyx_PyType_Ready(__pyx_ptype_3gui___pyx_scope_struct_7_setup_action_buttons) < 0) __PYX_ERR(0, 2228, __pyx_L1_error)
+  if (__Pyx_PyType_Ready(__pyx_ptype_3gui___pyx_scope_struct_7_setup_action_buttons) < 0) __PYX_ERR(0, 2229, __pyx_L1_error)
   #endif
   #if PY_MAJOR_VERSION < 3
   __pyx_ptype_3gui___pyx_scope_struct_7_setup_action_buttons->tp_print = 0;
@@ -60287,7 +60291,7 @@ if (!__Pyx_RefNanny) {
  * from PyQt5.QtGui import QPixmap, QFont, QPalette, QColor
  * from brainflow.board_shim import BoardShim, BoardIds
  */
-  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_n_s_matplotlib_pyplot, __pyx_tuple__50); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 8, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_n_s_matplotlib_pyplot, __pyx_tuple__49); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_plt, __pyx_t_2) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -60633,12 +60637,12 @@ if (!__Pyx_RefNanny) {
  *                  is_sample=False):
  *         super().__init__()
  */
-  __pyx_t_6 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_14TrainingThread_1__init__, 0, __pyx_n_s_TrainingThread___init, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__53)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 24, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_14TrainingThread_1__init__, 0, __pyx_n_s_TrainingThread___init, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__52)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 24, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_INCREF(__pyx_t_6);
   PyList_Append(__pyx_t_3, __pyx_t_6);
   __Pyx_GIVEREF(__pyx_t_6);
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_6, __pyx_tuple__54);
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_6, __pyx_tuple__53);
   if (__Pyx_SetNameInClass(__pyx_t_5, __pyx_n_s_init, __pyx_t_6) < 0) __PYX_ERR(0, 24, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
@@ -60649,7 +60653,7 @@ if (!__Pyx_RefNanny) {
  *         try:
  *             # Validate task names before training
  */
-  __pyx_t_6 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_14TrainingThread_3run, 0, __pyx_n_s_TrainingThread_run, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__56)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_14TrainingThread_3run, 0, __pyx_n_s_TrainingThread_run, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__55)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 33, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   if (__Pyx_SetNameInClass(__pyx_t_5, __pyx_n_s_run, __pyx_t_6) < 0) __PYX_ERR(0, 33, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -60705,7 +60709,7 @@ if (!__Pyx_RefNanny) {
  *         super().__init__()
  * 
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_1__init__, 0, __pyx_n_s_MainWindow___init, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__58)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_1__init__, 0, __pyx_n_s_MainWindow___init, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__57)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 80, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_INCREF(__pyx_t_3);
   PyList_Append(__pyx_t_4, __pyx_t_3);
@@ -60720,7 +60724,7 @@ if (!__Pyx_RefNanny) {
  *         # Create a QScrollArea for vertical scrolling only
  *         scroll = QScrollArea()
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_3create_control_panel, 0, __pyx_n_s_MainWindow_create_control_panel_2, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__60)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 222, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_3create_control_panel, 0, __pyx_n_s_MainWindow_create_control_panel_2, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__59)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 222, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_create_control_panel, __pyx_t_3) < 0) __PYX_ERR(0, 222, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60732,7 +60736,7 @@ if (!__Pyx_RefNanny) {
  *         """Create the visualization panel with plots"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_5create_visualization_panel, 0, __pyx_n_s_MainWindow_create_visualization, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__62)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 722, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_5create_visualization_panel, 0, __pyx_n_s_MainWindow_create_visualization, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__61)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 722, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_create_visualization_panel, __pyx_t_3) < 0) __PYX_ERR(0, 722, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60744,7 +60748,7 @@ if (!__Pyx_RefNanny) {
  *         """Update plot display based on enabled channels"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_7update_plot_channels, 0, __pyx_n_s_MainWindow_update_plot_channels, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__64)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 750, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_7update_plot_channels, 0, __pyx_n_s_MainWindow_update_plot_channels, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__63)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 750, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_update_plot_channels, __pyx_t_3) < 0) __PYX_ERR(0, 750, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60756,7 +60760,7 @@ if (!__Pyx_RefNanny) {
  *         """Update EEG manager with current channel configuration"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_9update_channel_config, 0, __pyx_n_s_MainWindow_update_channel_config, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__66)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 813, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_9update_channel_config, 0, __pyx_n_s_MainWindow_update_channel_config, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__65)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 813, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_update_channel_config, __pyx_t_3) < 0) __PYX_ERR(0, 813, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60768,7 +60772,7 @@ if (!__Pyx_RefNanny) {
  *         """Handle window resize events"""
  *         super().resizeEvent(event)
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_11resizeEvent, 0, __pyx_n_s_MainWindow_resizeEvent, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__68)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 825, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_11resizeEvent, 0, __pyx_n_s_MainWindow_resizeEvent, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__67)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 825, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_INCREF(__pyx_t_3);
   PyList_Append(__pyx_t_4, __pyx_t_3);
@@ -60783,7 +60787,7 @@ if (!__Pyx_RefNanny) {
  *         self.status_text.append(f"{message}")
  * 
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_13add_status_message, 0, __pyx_n_s_MainWindow_add_status_message, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__70)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 832, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_13add_status_message, 0, __pyx_n_s_MainWindow_add_status_message, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__69)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 832, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_add_status_message, __pyx_t_3) < 0) __PYX_ERR(0, 832, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60795,7 +60799,7 @@ if (!__Pyx_RefNanny) {
  *         """Start a new recording session"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_15start_session, 0, __pyx_n_s_MainWindow_start_session, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__72)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 835, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_15start_session, 0, __pyx_n_s_MainWindow_start_session, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__71)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 835, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_start_session, __pyx_t_3) < 0) __PYX_ERR(0, 835, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60807,7 +60811,7 @@ if (!__Pyx_RefNanny) {
  *         """Stop current session"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_17stop_session, 0, __pyx_n_s_MainWindow_stop_session, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__73)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 870, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_17stop_session, 0, __pyx_n_s_MainWindow_stop_session, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__72)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 870, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_stop_session, __pyx_t_3) < 0) __PYX_ERR(0, 870, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60819,7 +60823,7 @@ if (!__Pyx_RefNanny) {
  *         task = self.eeg_man.get_next_task()
  *         if task:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_19get_next_task, 0, __pyx_n_s_MainWindow_get_next_task, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__75)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 896, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_19get_next_task, 0, __pyx_n_s_MainWindow_get_next_task, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__74)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 896, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_get_next_task, __pyx_t_3) < 0) __PYX_ERR(0, 896, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60831,7 +60835,7 @@ if (!__Pyx_RefNanny) {
  *         """Update real-time EEG plot"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_21update_plots, 0, __pyx_n_s_MainWindow_update_plots, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__77)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 923, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_21update_plots, 0, __pyx_n_s_MainWindow_update_plots, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__76)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 923, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_update_plots, __pyx_t_3) < 0) __PYX_ERR(0, 923, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60843,7 +60847,7 @@ if (!__Pyx_RefNanny) {
  *         """Analyze the current session using CSP"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_23analyze_session, 0, __pyx_n_s_MainWindow_analyze_session, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__79)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 943, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_23analyze_session, 0, __pyx_n_s_MainWindow_analyze_session, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__78)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 943, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_analyze_session, __pyx_t_3) < 0) __PYX_ERR(0, 943, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60855,7 +60859,7 @@ if (!__Pyx_RefNanny) {
  *         """Get channel positions in 2D for topographic plotting"""
  *         # Standard 10-20 positions for our channels
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_25get_channel_positions, 0, __pyx_n_s_MainWindow_get_channel_positions, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__81)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 968, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_25get_channel_positions, 0, __pyx_n_s_MainWindow_get_channel_positions, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__80)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 968, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_get_channel_positions, __pyx_t_3) < 0) __PYX_ERR(0, 968, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60867,7 +60871,7 @@ if (!__Pyx_RefNanny) {
  *         # Create a new window
  *         analysis_window = QWidget()
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_27display_csp_patterns, 0, __pyx_n_s_MainWindow_display_csp_patterns, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__83)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 981, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_27display_csp_patterns, 0, __pyx_n_s_MainWindow_display_csp_patterns, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__82)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 981, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_display_csp_patterns, __pyx_t_3) < 0) __PYX_ERR(0, 981, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60879,7 +60883,7 @@ if (!__Pyx_RefNanny) {
  *         """Handle countdown before recording"""
  *         self.countdown_remaining -= 1
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_29countdown_timeout, 0, __pyx_n_s_MainWindow_countdown_timeout, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__85)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1032, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_29countdown_timeout, 0, __pyx_n_s_MainWindow_countdown_timeout, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__84)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1032, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_countdown_timeout, __pyx_t_3) < 0) __PYX_ERR(0, 1032, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60891,7 +60895,7 @@ if (!__Pyx_RefNanny) {
  *         """Start recording current task"""
  *         if self.eeg_man.start_recording():
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_31start_recording, 0, __pyx_n_s_MainWindow_start_recording, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__87)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1041, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_31start_recording, 0, __pyx_n_s_MainWindow_start_recording, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__86)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1041, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_start_recording, __pyx_t_3) < 0) __PYX_ERR(0, 1041, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60903,7 +60907,7 @@ if (!__Pyx_RefNanny) {
  *         """Handle recording timer"""
  *         self.time_remaining -= 1
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_33recording_timeout, 0, __pyx_n_s_MainWindow_recording_timeout, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__89)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1050, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_33recording_timeout, 0, __pyx_n_s_MainWindow_recording_timeout, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__88)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1050, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_recording_timeout, __pyx_t_3) < 0) __PYX_ERR(0, 1050, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60915,7 +60919,7 @@ if (!__Pyx_RefNanny) {
  *         """Start break between tasks"""
  *         self.time_remaining = self.break_duration.value()  # Use configured break duration
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_35start_break, 0, __pyx_n_s_MainWindow_start_break, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__90)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1077, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_35start_break, 0, __pyx_n_s_MainWindow_start_break, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__89)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1077, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_start_break, __pyx_t_3) < 0) __PYX_ERR(0, 1077, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60927,7 +60931,7 @@ if (!__Pyx_RefNanny) {
  *         """Handle break timer"""
  *         self.time_remaining -= 1
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_37break_timeout, 0, __pyx_n_s_MainWindow_break_timeout, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__91)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1083, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_37break_timeout, 0, __pyx_n_s_MainWindow_break_timeout, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__90)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1083, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_break_timeout, __pyx_t_3) < 0) __PYX_ERR(0, 1083, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60939,7 +60943,7 @@ if (!__Pyx_RefNanny) {
  *         """Toggle board connection state"""
  *         if not self.eeg_man.is_streaming:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_39toggle_board_connection, 0, __pyx_n_s_MainWindow_toggle_board_connecti, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__93)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1092, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_39toggle_board_connection, 0, __pyx_n_s_MainWindow_toggle_board_connecti, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__92)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1092, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_toggle_board_connection, __pyx_t_3) < 0) __PYX_ERR(0, 1092, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60951,7 +60955,7 @@ if (!__Pyx_RefNanny) {
  *         """Handle application close"""
  *         if self.eeg_man.is_streaming:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_41closeEvent, 0, __pyx_n_s_MainWindow_closeEvent, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__94)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1108, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_41closeEvent, 0, __pyx_n_s_MainWindow_closeEvent, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__93)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_closeEvent, __pyx_t_3) < 0) __PYX_ERR(0, 1108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60963,7 +60967,7 @@ if (!__Pyx_RefNanny) {
  *         """Update which channels are visible in the plot"""
  *         for i, (channel, checkbox) in enumerate(self.channel_checkboxes.items()):
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_43update_channel_visibility, 0, __pyx_n_s_MainWindow_update_channel_visibi, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__96)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1114, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_43update_channel_visibility, 0, __pyx_n_s_MainWindow_update_channel_visibi, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__95)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_update_channel_visibility, __pyx_t_3) < 0) __PYX_ERR(0, 1114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60975,7 +60979,7 @@ if (!__Pyx_RefNanny) {
  *         """Update the list of session buttons"""
  *         # Clear existing buttons
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_45update_session_buttons, 0, __pyx_n_s_MainWindow_update_session_button_2, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__98)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1123, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_45update_session_buttons, 0, __pyx_n_s_MainWindow_update_session_button_2, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__97)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1123, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_update_session_buttons, __pyx_t_3) < 0) __PYX_ERR(0, 1123, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60987,7 +60991,7 @@ if (!__Pyx_RefNanny) {
  *         """Delete a session"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_47delete_session, 0, __pyx_n_s_MainWindow_delete_session, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__100)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1225, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_47delete_session, 0, __pyx_n_s_MainWindow_delete_session, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__99)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1225, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_delete_session, __pyx_t_3) < 0) __PYX_ERR(0, 1225, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -60999,7 +61003,7 @@ if (!__Pyx_RefNanny) {
  *         """Delete all sessions"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_49delete_all_sessions, 0, __pyx_n_s_MainWindow_delete_all_sessions, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__102)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1274, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_49delete_all_sessions, 0, __pyx_n_s_MainWindow_delete_all_sessions, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__101)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1274, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_delete_all_sessions, __pyx_t_3) < 0) __PYX_ERR(0, 1274, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -61011,7 +61015,7 @@ if (!__Pyx_RefNanny) {
  *         """Select an existing session for analysis"""
  *         self.eeg_man.current_session_num = session_num
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_51select_session, 0, __pyx_n_s_MainWindow_select_session, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__104)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1320, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_51select_session, 0, __pyx_n_s_MainWindow_select_session, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__103)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1320, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_select_session, __pyx_t_3) < 0) __PYX_ERR(0, 1320, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -61023,7 +61027,7 @@ if (!__Pyx_RefNanny) {
  *         """Load configuration for specific session"""
  *         config = SessionConfig.load(session_num)
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_53load_session_configuration, 0, __pyx_n_s_MainWindow_load_session_configur, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__106)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1330, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_53load_session_configuration, 0, __pyx_n_s_MainWindow_load_session_configur, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__105)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1330, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_load_session_configuration, __pyx_t_3) < 0) __PYX_ERR(0, 1330, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -61035,7 +61039,7 @@ if (!__Pyx_RefNanny) {
  *         """Save current configuration"""
  *         config = SessionConfig()
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_55save_current_configuration, 0, __pyx_n_s_MainWindow_save_current_configur, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__108)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1377, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_55save_current_configuration, 0, __pyx_n_s_MainWindow_save_current_configur, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__107)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1377, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_save_current_configuration, __pyx_t_3) < 0) __PYX_ERR(0, 1377, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -61047,9 +61051,9 @@ if (!__Pyx_RefNanny) {
  *         self,
  *         checked=False,
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_57add_new_action, 0, __pyx_n_s_MainWindow_add_new_action, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__110)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1406, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_57add_new_action, 0, __pyx_n_s_MainWindow_add_new_action, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__109)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1406, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_tuple__111);
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_tuple__110);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_add_new_action, __pyx_t_3) < 0) __PYX_ERR(0, 1406, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
@@ -61060,7 +61064,7 @@ if (!__Pyx_RefNanny) {
  *         """Delete an action by its UUID"""
  *         if action_id in self.action_inputs:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_59delete_action, 0, __pyx_n_s_MainWindow_delete_action, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__113)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1456, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_59delete_action, 0, __pyx_n_s_MainWindow_delete_action, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__112)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1456, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_delete_action, __pyx_t_3) < 0) __PYX_ERR(0, 1456, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -61072,7 +61076,7 @@ if (!__Pyx_RefNanny) {
  *         """Update EEG manager with current tasks"""
  *         updated_tasks = {}
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_61update_eeg_man_tasks, 0, __pyx_n_s_MainWindow_update_eeg_man_tasks, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__115)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1475, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_61update_eeg_man_tasks, 0, __pyx_n_s_MainWindow_update_eeg_man_tasks, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__114)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1475, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_update_eeg_man_tasks, __pyx_t_3) < 0) __PYX_ERR(0, 1475, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -61084,7 +61088,7 @@ if (!__Pyx_RefNanny) {
  *         """Renumber actions after deletion"""
  *         new_inputs = {}
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_63renumber_actions, 0, __pyx_n_s_MainWindow_renumber_actions, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__117)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1490, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_63renumber_actions, 0, __pyx_n_s_MainWindow_renumber_actions, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__116)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1490, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_renumber_actions, __pyx_t_3) < 0) __PYX_ERR(0, 1490, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -61096,7 +61100,7 @@ if (!__Pyx_RefNanny) {
  *         """Load and apply the most recent configuration"""
  *         config = SessionConfig.load_last_config()
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_65load_last_configuration, 0, __pyx_n_s_MainWindow_load_last_configurati, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__119)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1509, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_65load_last_configuration, 0, __pyx_n_s_MainWindow_load_last_configurati, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__118)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1509, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_load_last_configuration, __pyx_t_3) < 0) __PYX_ERR(0, 1509, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -61108,213 +61112,213 @@ if (!__Pyx_RefNanny) {
  *         """Get list of available sample data files"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_67get_sample_files, 0, __pyx_n_s_MainWindow_get_sample_files, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__121)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1537, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_67get_sample_files, 0, __pyx_n_s_MainWindow_get_sample_files, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__120)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1537, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_get_sample_files, __pyx_t_3) < 0) __PYX_ERR(0, 1537, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":1557
+  /* "gui.py":1558
  *             return []
  * 
  *     def view_sample_data(self, index, *args):             # <<<<<<<<<<<<<<
  *         """View selected sample data file"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_69view_sample_data, 0, __pyx_n_s_MainWindow_view_sample_data, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__123)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1557, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_69view_sample_data, 0, __pyx_n_s_MainWindow_view_sample_data, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__122)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1558, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_view_sample_data, __pyx_t_3) < 0) __PYX_ERR(0, 1557, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_view_sample_data, __pyx_t_3) < 0) __PYX_ERR(0, 1558, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":1794
+  /* "gui.py":1795
  *             self.add_status_message(f"Error viewing sample data: {str(e)}")
  * 
  *     def apply_channel_config(self, *args):             # <<<<<<<<<<<<<<
  *         """Apply channel configuration"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_71apply_channel_config, 0, __pyx_n_s_MainWindow_apply_channel_config, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__125)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1794, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_71apply_channel_config, 0, __pyx_n_s_MainWindow_apply_channel_config, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__124)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1795, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_apply_channel_config, __pyx_t_3) < 0) __PYX_ERR(0, 1794, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_apply_channel_config, __pyx_t_3) < 0) __PYX_ERR(0, 1795, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":1813
+  /* "gui.py":1814
  *             self.add_status_message(f"Error applying channel configuration: {str(e)}")
  * 
  *     def update_plot_speed(self, *args):             # <<<<<<<<<<<<<<
  *         """Update the plot refresh rate"""
  *         speed = self.speed_slider.value()
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_73update_plot_speed, 0, __pyx_n_s_MainWindow_update_plot_speed, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__127)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1813, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_73update_plot_speed, 0, __pyx_n_s_MainWindow_update_plot_speed, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__126)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1814, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_update_plot_speed, __pyx_t_3) < 0) __PYX_ERR(0, 1813, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_update_plot_speed, __pyx_t_3) < 0) __PYX_ERR(0, 1814, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":1819
+  /* "gui.py":1820
  *         self.update_timer.setInterval(interval)
  * 
  *     def train_dqn_model(self, *args):             # <<<<<<<<<<<<<<
  *         """Train DQN model on current session data"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_75train_dqn_model, 0, __pyx_n_s_MainWindow_train_dqn_model, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__129)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1819, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_75train_dqn_model, 0, __pyx_n_s_MainWindow_train_dqn_model, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__128)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1820, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_train_dqn_model, __pyx_t_3) < 0) __PYX_ERR(0, 1819, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_train_dqn_model, __pyx_t_3) < 0) __PYX_ERR(0, 1820, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":1869
+  /* "gui.py":1870
  *             self.training_progress.append(f"Training error: {str(e)}")
  * 
  *     def handle_training_complete(self, success, message, *args):             # <<<<<<<<<<<<<<
  *         """Handle completion of training thread"""
  *         self.training_progress.append(message)
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_77handle_training_complete, 0, __pyx_n_s_MainWindow_handle_training_compl, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__131)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1869, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_77handle_training_complete, 0, __pyx_n_s_MainWindow_handle_training_compl, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__130)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1870, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_handle_training_complete, __pyx_t_3) < 0) __PYX_ERR(0, 1869, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_handle_training_complete, __pyx_t_3) < 0) __PYX_ERR(0, 1870, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":1879
+  /* "gui.py":1880
  *             self.add_status_message("Training failed - check progress log for details")
  * 
  *     def apply_filters(self, data, *args):             # <<<<<<<<<<<<<<
  *         """Apply bandpass filter to EEG data with buffering"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_79apply_filters, 0, __pyx_n_s_MainWindow_apply_filters, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__133)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1879, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_79apply_filters, 0, __pyx_n_s_MainWindow_apply_filters, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__132)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1880, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_apply_filters, __pyx_t_3) < 0) __PYX_ERR(0, 1879, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_apply_filters, __pyx_t_3) < 0) __PYX_ERR(0, 1880, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":1936
+  /* "gui.py":1937
  *             return data  # Return original data if filtering fails
  * 
  *     def stop_recording(self, *args):             # <<<<<<<<<<<<<<
  *         """Stop current recording"""
  *         self.recording_timer.stop()
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_81stop_recording, 0, __pyx_n_s_MainWindow_stop_recording, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__134)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1936, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_81stop_recording, 0, __pyx_n_s_MainWindow_stop_recording, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__133)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1937, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_stop_recording, __pyx_t_3) < 0) __PYX_ERR(0, 1936, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_stop_recording, __pyx_t_3) < 0) __PYX_ERR(0, 1937, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":1945
+  /* "gui.py":1946
  *         self.add_status_message("Recording stopped")
  * 
  *     def load_sample_as_session(self, *args):             # <<<<<<<<<<<<<<
  *         """Load and train on sample data"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_83load_sample_as_session, 0, __pyx_n_s_MainWindow_load_sample_as_sessio, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__136)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1945, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_83load_sample_as_session, 0, __pyx_n_s_MainWindow_load_sample_as_sessio, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__135)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1946, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_load_sample_as_session, __pyx_t_3) < 0) __PYX_ERR(0, 1945, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_load_sample_as_session, __pyx_t_3) < 0) __PYX_ERR(0, 1946, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":1982
+  /* "gui.py":1983
  *             self.add_status_message(f"Error loading sample data: {str(e)}")
  * 
  *     def populate_channels_and_actions(self):             # <<<<<<<<<<<<<<
  *         """Populate channels and actions for the current session"""
  *         # Clear existing channels
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_85populate_channels_and_actions, 0, __pyx_n_s_MainWindow_populate_channels_and, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__138)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1982, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_85populate_channels_and_actions, 0, __pyx_n_s_MainWindow_populate_channels_and, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__137)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1983, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_populate_channels_and_actions, __pyx_t_3) < 0) __PYX_ERR(0, 1982, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_populate_channels_and_actions, __pyx_t_3) < 0) __PYX_ERR(0, 1983, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":2006
+  /* "gui.py":2007
  *             self.add_new_action(action_name, description, repetitions)
  * 
  *     def setup_channel_config(self, *args):             # <<<<<<<<<<<<<<
  *         """Setup channel configuration UI with UUID-based channels"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_87setup_channel_config, 0, __pyx_n_s_MainWindow_setup_channel_config_2, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__140)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2006, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_87setup_channel_config, 0, __pyx_n_s_MainWindow_setup_channel_config_2, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__139)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2007, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_setup_channel_config, __pyx_t_3) < 0) __PYX_ERR(0, 2006, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_setup_channel_config, __pyx_t_3) < 0) __PYX_ERR(0, 2007, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":2080
+  /* "gui.py":2081
  *             self.add_status_message(f"Error setting up channel config: {str(e)}")
  * 
  *     def add_channel_and_update(self, name, *args):             # <<<<<<<<<<<<<<
  *         """Add a channel and update plots"""
  *         self.add_channel(name, self.channel_list_layout)
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_89add_channel_and_update, 0, __pyx_n_s_MainWindow_add_channel_and_updat, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__142)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2080, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_89add_channel_and_update, 0, __pyx_n_s_MainWindow_add_channel_and_updat, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__141)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2081, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_add_channel_and_update, __pyx_t_3) < 0) __PYX_ERR(0, 2080, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_add_channel_and_update, __pyx_t_3) < 0) __PYX_ERR(0, 2081, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":2085
+  /* "gui.py":2086
  *         self.update_plot_channels(self.channel_configs)
  * 
  *     def add_channel(self, name, layout, *args):             # <<<<<<<<<<<<<<
  *         """Add a new channel"""
  *         # Check if channel already exists
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_91add_channel, 0, __pyx_n_s_MainWindow_add_channel, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__144)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2085, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_91add_channel, 0, __pyx_n_s_MainWindow_add_channel, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__143)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2086, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_add_channel, __pyx_t_3) < 0) __PYX_ERR(0, 2085, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_add_channel, __pyx_t_3) < 0) __PYX_ERR(0, 2086, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":2126
+  /* "gui.py":2127
  *         layout.addWidget(channel_row)
  * 
  *     def delete_channel(self, channel_id, *args):             # <<<<<<<<<<<<<<
  *         """Delete a channel by UUID"""
  *         if channel_id in self.channel_configs:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_93delete_channel, 0, __pyx_n_s_MainWindow_delete_channel, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__146)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2126, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_93delete_channel, 0, __pyx_n_s_MainWindow_delete_channel, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__145)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2127, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_delete_channel, __pyx_t_3) < 0) __PYX_ERR(0, 2126, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_delete_channel, __pyx_t_3) < 0) __PYX_ERR(0, 2127, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":2143
+  /* "gui.py":2144
  *             self.update_channel_config()
  * 
  *     def update_channel_config(self, *args):             # <<<<<<<<<<<<<<
  *         """Update EEG manager with current channel configuration"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_95update_channel_config, 0, __pyx_n_s_MainWindow_update_channel_config, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__147)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2143, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_95update_channel_config, 0, __pyx_n_s_MainWindow_update_channel_config, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__146)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2144, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_update_channel_config, __pyx_t_3) < 0) __PYX_ERR(0, 2143, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_update_channel_config, __pyx_t_3) < 0) __PYX_ERR(0, 2144, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":2155
+  /* "gui.py":2156
  *             self.add_status_message(f"Error updating channel config: {str(e)}")
  * 
  *     def update_plot_channels(self, enabled_channels, *args):             # <<<<<<<<<<<<<<
  *         """Update plot display based on enabled channels"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_97update_plot_channels, 0, __pyx_n_s_MainWindow_update_plot_channels, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__148)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2155, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_97update_plot_channels, 0, __pyx_n_s_MainWindow_update_plot_channels, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__147)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2156, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_update_plot_channels, __pyx_t_3) < 0) __PYX_ERR(0, 2155, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_update_plot_channels, __pyx_t_3) < 0) __PYX_ERR(0, 2156, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":2218
+  /* "gui.py":2219
  *             self.add_status_message(f"Error updating plots: {str(e)}")
  * 
  *     def get_channel_color(self, channel_name, *args):             # <<<<<<<<<<<<<<
  *         """Get color for a channel, with fallback to default colors"""
  *         # First check if channel has a specific color
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_99get_channel_color, 0, __pyx_n_s_MainWindow_get_channel_color, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__150)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2218, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_99get_channel_color, 0, __pyx_n_s_MainWindow_get_channel_color, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__149)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_get_channel_color, __pyx_t_3) < 0) __PYX_ERR(0, 2218, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_get_channel_color, __pyx_t_3) < 0) __PYX_ERR(0, 2219, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gui.py":2228
+  /* "gui.py":2229
  *         return self.default_channel_colors[color_index]
  * 
  *     def setup_action_buttons(self):             # <<<<<<<<<<<<<<
  *         """Setup buttons for adding and managing actions"""
  *         add_action_btn = QPushButton("Add Action")
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_101setup_action_buttons, 0, __pyx_n_s_MainWindow_setup_action_buttons_2, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__152)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2228, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_3gui_10MainWindow_101setup_action_buttons, 0, __pyx_n_s_MainWindow_setup_action_buttons_2, NULL, __pyx_n_s_gui, __pyx_d, ((PyObject *)__pyx_codeobj__151)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 2229, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_setup_action_buttons, __pyx_t_3) < 0) __PYX_ERR(0, 2228, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_setup_action_buttons, __pyx_t_3) < 0) __PYX_ERR(0, 2229, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
   /* "gui.py":79
@@ -65931,7 +65935,7 @@ static PyObject* __Pyx_ImportFrom(PyObject* module, PyObject* name) {
         if (unlikely(!module_name_str)) { goto modbad; }
         module_name = PyUnicode_FromString(module_name_str);
         if (unlikely(!module_name)) { goto modbad; }
-        module_dot = PyUnicode_Concat(module_name, __pyx_kp_u__48);
+        module_dot = PyUnicode_Concat(module_name, __pyx_kp_u__47);
         if (unlikely(!module_dot)) { goto modbad; }
         full_name = PyUnicode_Concat(module_dot, name);
         if (unlikely(!full_name)) { goto modbad; }
@@ -66039,7 +66043,7 @@ static PyObject *__Pyx_ImportDottedModule_WalkParts(PyObject *module, PyObject *
 #endif
 static PyObject *__Pyx__ImportDottedModule(PyObject *name, PyObject *parts_tuple) {
 #if PY_MAJOR_VERSION < 3
-    PyObject *module, *from_list, *star = __pyx_n_s__49;
+    PyObject *module, *from_list, *star = __pyx_n_s__48;
     CYTHON_UNUSED_VAR(parts_tuple);
     from_list = PyList_New(1);
     if (unlikely(!from_list))

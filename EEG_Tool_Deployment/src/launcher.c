@@ -2133,11 +2133,10 @@ static PyObject *__pyx_builtin_print;
 /* #### Code section: string_decls ### */
 static const char __pyx_k_e[] = "e";
 static const char __pyx_k__2[] = "*";
-static const char __pyx_k__6[] = "?";
+static const char __pyx_k__5[] = "?";
 static const char __pyx_k_ex[] = "ex";
 static const char __pyx_k_os[] = "os";
 static const char __pyx_k_run[] = "run";
-static const char __pyx_k_src[] = "src";
 static const char __pyx_k_sys[] = "sys";
 static const char __pyx_k_argv[] = "argv";
 static const char __pyx_k_exit[] = "exit";
@@ -2154,7 +2153,6 @@ static const char __pyx_k_import[] = "__import__";
 static const char __pyx_k_main_2[] = "main";
 static const char __pyx_k_dirname[] = "dirname";
 static const char __pyx_k_launcher[] = "launcher";
-static const char __pyx_k_src_main[] = "src.main";
 static const char __pyx_k_vbs_path[] = "vbs_path";
 static const char __pyx_k_subprocess[] = "subprocess";
 static const char __pyx_k_wscript_exe[] = "wscript.exe";
@@ -2207,7 +2205,7 @@ typedef struct {
   PyObject *__pyx_kp_u_Unexpected_error;
   PyObject *__pyx_kp_u_VBScript_executed_successfully;
   PyObject *__pyx_n_s__2;
-  PyObject *__pyx_n_s__6;
+  PyObject *__pyx_n_s__5;
   PyObject *__pyx_n_s_argv;
   PyObject *__pyx_n_s_asyncio_coroutines;
   PyObject *__pyx_n_s_check;
@@ -2233,9 +2231,7 @@ typedef struct {
   PyObject *__pyx_kp_u_run_hidden_vbs;
   PyObject *__pyx_n_s_run_vbs_script;
   PyObject *__pyx_n_s_spec;
-  PyObject *__pyx_n_s_src;
   PyObject *__pyx_kp_s_src_launcher_py;
-  PyObject *__pyx_n_s_src_main;
   PyObject *__pyx_n_s_subprocess;
   PyObject *__pyx_n_s_sys;
   PyObject *__pyx_n_s_test;
@@ -2244,8 +2240,7 @@ typedef struct {
   PyObject *__pyx_int_1;
   PyObject *__pyx_tuple_;
   PyObject *__pyx_tuple__3;
-  PyObject *__pyx_tuple__4;
-  PyObject *__pyx_codeobj__5;
+  PyObject *__pyx_codeobj__4;
 } __pyx_mstate;
 
 #if CYTHON_USE_MODULE_STATE
@@ -2294,7 +2289,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_u_Unexpected_error);
   Py_CLEAR(clear_module_state->__pyx_kp_u_VBScript_executed_successfully);
   Py_CLEAR(clear_module_state->__pyx_n_s__2);
-  Py_CLEAR(clear_module_state->__pyx_n_s__6);
+  Py_CLEAR(clear_module_state->__pyx_n_s__5);
   Py_CLEAR(clear_module_state->__pyx_n_s_argv);
   Py_CLEAR(clear_module_state->__pyx_n_s_asyncio_coroutines);
   Py_CLEAR(clear_module_state->__pyx_n_s_check);
@@ -2320,9 +2315,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_u_run_hidden_vbs);
   Py_CLEAR(clear_module_state->__pyx_n_s_run_vbs_script);
   Py_CLEAR(clear_module_state->__pyx_n_s_spec);
-  Py_CLEAR(clear_module_state->__pyx_n_s_src);
   Py_CLEAR(clear_module_state->__pyx_kp_s_src_launcher_py);
-  Py_CLEAR(clear_module_state->__pyx_n_s_src_main);
   Py_CLEAR(clear_module_state->__pyx_n_s_subprocess);
   Py_CLEAR(clear_module_state->__pyx_n_s_sys);
   Py_CLEAR(clear_module_state->__pyx_n_s_test);
@@ -2331,8 +2324,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_int_1);
   Py_CLEAR(clear_module_state->__pyx_tuple_);
   Py_CLEAR(clear_module_state->__pyx_tuple__3);
-  Py_CLEAR(clear_module_state->__pyx_tuple__4);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__5);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__4);
   return 0;
 }
 #endif
@@ -2359,7 +2351,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_u_Unexpected_error);
   Py_VISIT(traverse_module_state->__pyx_kp_u_VBScript_executed_successfully);
   Py_VISIT(traverse_module_state->__pyx_n_s__2);
-  Py_VISIT(traverse_module_state->__pyx_n_s__6);
+  Py_VISIT(traverse_module_state->__pyx_n_s__5);
   Py_VISIT(traverse_module_state->__pyx_n_s_argv);
   Py_VISIT(traverse_module_state->__pyx_n_s_asyncio_coroutines);
   Py_VISIT(traverse_module_state->__pyx_n_s_check);
@@ -2385,9 +2377,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_u_run_hidden_vbs);
   Py_VISIT(traverse_module_state->__pyx_n_s_run_vbs_script);
   Py_VISIT(traverse_module_state->__pyx_n_s_spec);
-  Py_VISIT(traverse_module_state->__pyx_n_s_src);
   Py_VISIT(traverse_module_state->__pyx_kp_s_src_launcher_py);
-  Py_VISIT(traverse_module_state->__pyx_n_s_src_main);
   Py_VISIT(traverse_module_state->__pyx_n_s_subprocess);
   Py_VISIT(traverse_module_state->__pyx_n_s_sys);
   Py_VISIT(traverse_module_state->__pyx_n_s_test);
@@ -2396,8 +2386,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_int_1);
   Py_VISIT(traverse_module_state->__pyx_tuple_);
   Py_VISIT(traverse_module_state->__pyx_tuple__3);
-  Py_VISIT(traverse_module_state->__pyx_tuple__4);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__5);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__4);
   return 0;
 }
 #endif
@@ -2434,7 +2423,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_u_Unexpected_error __pyx_mstate_global->__pyx_kp_u_Unexpected_error
 #define __pyx_kp_u_VBScript_executed_successfully __pyx_mstate_global->__pyx_kp_u_VBScript_executed_successfully
 #define __pyx_n_s__2 __pyx_mstate_global->__pyx_n_s__2
-#define __pyx_n_s__6 __pyx_mstate_global->__pyx_n_s__6
+#define __pyx_n_s__5 __pyx_mstate_global->__pyx_n_s__5
 #define __pyx_n_s_argv __pyx_mstate_global->__pyx_n_s_argv
 #define __pyx_n_s_asyncio_coroutines __pyx_mstate_global->__pyx_n_s_asyncio_coroutines
 #define __pyx_n_s_check __pyx_mstate_global->__pyx_n_s_check
@@ -2460,9 +2449,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_u_run_hidden_vbs __pyx_mstate_global->__pyx_kp_u_run_hidden_vbs
 #define __pyx_n_s_run_vbs_script __pyx_mstate_global->__pyx_n_s_run_vbs_script
 #define __pyx_n_s_spec __pyx_mstate_global->__pyx_n_s_spec
-#define __pyx_n_s_src __pyx_mstate_global->__pyx_n_s_src
 #define __pyx_kp_s_src_launcher_py __pyx_mstate_global->__pyx_kp_s_src_launcher_py
-#define __pyx_n_s_src_main __pyx_mstate_global->__pyx_n_s_src_main
 #define __pyx_n_s_subprocess __pyx_mstate_global->__pyx_n_s_subprocess
 #define __pyx_n_s_sys __pyx_mstate_global->__pyx_n_s_sys
 #define __pyx_n_s_test __pyx_mstate_global->__pyx_n_s_test
@@ -2471,13 +2458,12 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_int_1 __pyx_mstate_global->__pyx_int_1
 #define __pyx_tuple_ __pyx_mstate_global->__pyx_tuple_
 #define __pyx_tuple__3 __pyx_mstate_global->__pyx_tuple__3
-#define __pyx_tuple__4 __pyx_mstate_global->__pyx_tuple__4
-#define __pyx_codeobj__5 __pyx_mstate_global->__pyx_codeobj__5
+#define __pyx_codeobj__4 __pyx_mstate_global->__pyx_codeobj__4
 /* #### Code section: module_code ### */
 
 /* "launcher.py":5
  * import sys
- * import src.main
+ * import main
  * def run_vbs_script():             # <<<<<<<<<<<<<<
  *     # Path to the VBScript file
  *     vbs_path = os.path.join(os.path.dirname(sys.argv[0]), "run_hidden.vbs")
@@ -3012,7 +2998,7 @@ static PyObject *__pyx_pf_8launcher_run_vbs_script(CYTHON_UNUSED PyObject *__pyx
 
   /* "launcher.py":5
  * import sys
- * import src.main
+ * import main
  * def run_vbs_script():             # <<<<<<<<<<<<<<
  *     # Path to the VBScript file
  *     vbs_path = os.path.join(os.path.dirname(sys.argv[0]), "run_hidden.vbs")
@@ -3061,7 +3047,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_u_Unexpected_error, __pyx_k_Unexpected_error, sizeof(__pyx_k_Unexpected_error), 0, 1, 0, 0},
     {&__pyx_kp_u_VBScript_executed_successfully, __pyx_k_VBScript_executed_successfully, sizeof(__pyx_k_VBScript_executed_successfully), 0, 1, 0, 0},
     {&__pyx_n_s__2, __pyx_k__2, sizeof(__pyx_k__2), 0, 0, 1, 1},
-    {&__pyx_n_s__6, __pyx_k__6, sizeof(__pyx_k__6), 0, 0, 1, 1},
+    {&__pyx_n_s__5, __pyx_k__5, sizeof(__pyx_k__5), 0, 0, 1, 1},
     {&__pyx_n_s_argv, __pyx_k_argv, sizeof(__pyx_k_argv), 0, 0, 1, 1},
     {&__pyx_n_s_asyncio_coroutines, __pyx_k_asyncio_coroutines, sizeof(__pyx_k_asyncio_coroutines), 0, 0, 1, 1},
     {&__pyx_n_s_check, __pyx_k_check, sizeof(__pyx_k_check), 0, 0, 1, 1},
@@ -3087,9 +3073,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_u_run_hidden_vbs, __pyx_k_run_hidden_vbs, sizeof(__pyx_k_run_hidden_vbs), 0, 1, 0, 0},
     {&__pyx_n_s_run_vbs_script, __pyx_k_run_vbs_script, sizeof(__pyx_k_run_vbs_script), 0, 0, 1, 1},
     {&__pyx_n_s_spec, __pyx_k_spec, sizeof(__pyx_k_spec), 0, 0, 1, 1},
-    {&__pyx_n_s_src, __pyx_k_src, sizeof(__pyx_k_src), 0, 0, 1, 1},
     {&__pyx_kp_s_src_launcher_py, __pyx_k_src_launcher_py, sizeof(__pyx_k_src_launcher_py), 0, 0, 1, 0},
-    {&__pyx_n_s_src_main, __pyx_k_src_main, sizeof(__pyx_k_src_main), 0, 0, 1, 1},
     {&__pyx_n_s_subprocess, __pyx_k_subprocess, sizeof(__pyx_k_subprocess), 0, 0, 1, 1},
     {&__pyx_n_s_sys, __pyx_k_sys, sizeof(__pyx_k_sys), 0, 0, 1, 1},
     {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
@@ -3123,28 +3107,17 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "launcher.py":4
- * import subprocess
- * import sys
- * import src.main             # <<<<<<<<<<<<<<
- * def run_vbs_script():
- *     # Path to the VBScript file
- */
-  __pyx_tuple__3 = PyTuple_Pack(2, __pyx_n_s_src, __pyx_n_s_main_2); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__3);
-  __Pyx_GIVEREF(__pyx_tuple__3);
-
   /* "launcher.py":5
  * import sys
- * import src.main
+ * import main
  * def run_vbs_script():             # <<<<<<<<<<<<<<
  *     # Path to the VBScript file
  *     vbs_path = os.path.join(os.path.dirname(sys.argv[0]), "run_hidden.vbs")
  */
-  __pyx_tuple__4 = PyTuple_Pack(3, __pyx_n_s_vbs_path, __pyx_n_s_e, __pyx_n_s_ex); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(0, 5, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__4);
-  __Pyx_GIVEREF(__pyx_tuple__4);
-  __pyx_codeobj__5 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__4, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_launcher_py, __pyx_n_s_run_vbs_script, 5, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__5)) __PYX_ERR(0, 5, __pyx_L1_error)
+  __pyx_tuple__3 = PyTuple_Pack(3, __pyx_n_s_vbs_path, __pyx_n_s_e, __pyx_n_s_ex); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__3);
+  __Pyx_GIVEREF(__pyx_tuple__3);
+  __pyx_codeobj__4 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__3, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_launcher_py, __pyx_n_s_run_vbs_script, 5, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__4)) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -3525,7 +3498,7 @@ if (!__Pyx_RefNanny) {
  * import os
  * import subprocess             # <<<<<<<<<<<<<<
  * import sys
- * import src.main
+ * import main
  */
   __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_n_s_subprocess, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -3536,7 +3509,7 @@ if (!__Pyx_RefNanny) {
  * import os
  * import subprocess
  * import sys             # <<<<<<<<<<<<<<
- * import src.main
+ * import main
  * def run_vbs_script():
  */
   __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_n_s_sys, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 3, __pyx_L1_error)
@@ -3547,23 +3520,23 @@ if (!__Pyx_RefNanny) {
   /* "launcher.py":4
  * import subprocess
  * import sys
- * import src.main             # <<<<<<<<<<<<<<
+ * import main             # <<<<<<<<<<<<<<
  * def run_vbs_script():
  *     # Path to the VBScript file
  */
-  __pyx_t_2 = __Pyx_Import(__pyx_n_s_src_main, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 4, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_n_s_main_2, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_src, __pyx_t_2) < 0) __PYX_ERR(0, 4, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_main_2, __pyx_t_2) < 0) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "launcher.py":5
  * import sys
- * import src.main
+ * import main
  * def run_vbs_script():             # <<<<<<<<<<<<<<
  *     # Path to the VBScript file
  *     vbs_path = os.path.join(os.path.dirname(sys.argv[0]), "run_hidden.vbs")
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_8launcher_1run_vbs_script, 0, __pyx_n_s_run_vbs_script, NULL, __pyx_n_s_launcher, __pyx_d, ((PyObject *)__pyx_codeobj__5)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 5, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_8launcher_1run_vbs_script, 0, __pyx_n_s_run_vbs_script, NULL, __pyx_n_s_launcher, __pyx_d, ((PyObject *)__pyx_codeobj__4)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_run_vbs_script, __pyx_t_2) < 0) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -6678,7 +6651,7 @@ __Pyx_PyType_GetName(PyTypeObject* tp)
     if (unlikely(name == NULL) || unlikely(!PyUnicode_Check(name))) {
         PyErr_Clear();
         Py_XDECREF(name);
-        name = __Pyx_NewRef(__pyx_n_s__6);
+        name = __Pyx_NewRef(__pyx_n_s__5);
     }
     return name;
 }
