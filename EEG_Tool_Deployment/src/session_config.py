@@ -10,6 +10,7 @@ class SessionConfig:
         self.lowcut = 0.5
         self.highcut = 45.0
         self.channel_configs = {}  # Add this line to store channel configurations
+        self.base_path = os.getenv('NEUROSYNC_PATH', 'C:\\NeuroSync')
 
     def to_dict(self):
         """
@@ -43,7 +44,7 @@ class SessionConfig:
 
     def save(self, session_num):
         """Save configuration to file (as a dict)."""
-        config_dir = os.path.join('C:\\NeuroSync\\data', 'configs')
+        config_dir = os.path.join(self.base_path, 'data', 'configs')
         os.makedirs(config_dir, exist_ok=True)
         
         filename = os.path.join(config_dir, f'session{session_num}_config.pkl')
@@ -51,9 +52,9 @@ class SessionConfig:
             pickle.dump(self.to_dict(), f)
     
     @staticmethod
-    def load(session_num):
+    def load(session_num, base_path=os.getenv('NEUROSYNC_PATH', 'C:\\NeuroSync')):
         """Load configuration from file and rebuild the SessionConfig object."""
-        config_dir = os.path.join('C:\\NeuroSync\\data', 'configs')
+        config_dir = os.path.join(base_path, 'data', 'configs')
         filename = os.path.join(config_dir, f'session{session_num}_config.pkl')
         
         if os.path.exists(filename):
@@ -63,9 +64,9 @@ class SessionConfig:
         return None
 
     @staticmethod
-    def load_last_config():
+    def load_last_config(base_path=os.getenv('NEUROSYNC_PATH', 'C:\\NeuroSync')):
         """Load most recent configuration."""
-        config_dir = os.path.join('C:\\NeuroSync\\data', 'configs')
+        config_dir = os.path.join(base_path, 'data', 'configs')
         if not os.path.exists(config_dir):
             return None
 
