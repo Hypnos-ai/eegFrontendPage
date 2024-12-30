@@ -8,7 +8,7 @@ OutputBaseFilename=NeuroSyncSetup
 Compression=lzma2/max
 SolidCompression=true
 PrivilegesRequired=admin
-MinVersion=10.0
+MinVersion=6.1
 OutputDir=installer_output
 DisableProgramGroupPage=yes
 DisableWelcomePage=yes
@@ -28,9 +28,7 @@ Source: "C:\Users\ncvn\AppData\Local\Programs\Python\Python312\vcruntime140_1.dl
 ; Required DLLs
 Source: "C:\Users\ncvn\AppData\Local\Programs\Python\Python312\DLLs\*"; DestDir: "{app}\Python\DLLs"; Flags: ignoreversion recursesubdirs createallsubdirs
 
-; Only the necessary Lib modules for venv
-Source: "C:\Users\ncvn\AppData\Local\Programs\Python\Python312\Lib\venv\*"; DestDir: "{app}\Python\Lib\venv"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\ncvn\AppData\Local\Programs\Python\Python312\Lib\ensurepip\*"; DestDir: "{app}\Python\Lib\ensurepip"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\ncvn\AppData\Local\Programs\Python\Python312\Lib\*"; DestDir: "{app}\Python\Lib"; Flags: recursesubdirs createallsubdirs ignoreversion; Excludes: "site-packages\*"
 
 Source: "eeg_tool_deployment\src\launcher.py"; DestDir: "{app}\src"; Flags: ignoreversion
 Source: "eeg_tool_deployment\src\main.py"; DestDir: "{app}\src"; Flags: ignoreversion
