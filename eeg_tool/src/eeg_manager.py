@@ -78,9 +78,6 @@ class EEGManager:
         # Data storage
         self.raw_data = None
         
-        # API setup
-        self.api_url = "your-vercel-deployment-url/api"
-        
     def _get_next_session_number(self):
         """Determine the next available session number from annotations file"""
         try:
@@ -651,32 +648,7 @@ class EEGManager:
         
         return output_file
 
-    def save_session_data(self, session_num, data):
-        """Save session data to remote storage"""
-        try:
-            response = requests.post(
-                f"{self.api_url}/session_data",
-                json={
-                    'session_num': session_num,
-                    'session_data': base64.b64encode(data).decode()
-                }
-            )
-            response.raise_for_status()
-            return True
-        except Exception as e:
-            print(f"Error saving session data: {e}")
-            return False
-    
-    def load_session_data(self, session_num):
-        """Load session data from remote storage"""
-        try:
-            response = requests.get(f"{self.api_url}/session_data/{session_num}")
-            response.raise_for_status()
-            data = response.json()
-            return base64.b64decode(data['session_data'])
-        except Exception as e:
-            print(f"Error loading session data: {e}")
-            return None
+
 
     def get_sample_files(self):
         """Get list of available sample data files"""
