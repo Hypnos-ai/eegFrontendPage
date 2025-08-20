@@ -51,6 +51,7 @@ Name: "{group}\Uninstall NeuroSync"; Filename: "{uninstallexe}"
 ; 1. Set environment variable
 Filename: "cmd.exe"; Parameters: "/C setx NEUROSYNC_PATH ""{app}"" /M"; Flags: runhidden waituntilterminated
 
+
 ; 2. Create and setup Python environment
 Filename: "{app}\Python\python.exe"; Parameters: "-m venv ""{app}\eeg_venv"""; Flags: waituntilterminated
 Filename: "{app}\eeg_venv\Scripts\pip.exe"; Parameters: "install -r {app}\requirements.txt"; Flags: waituntilterminated
@@ -61,5 +62,9 @@ Filename: "{app}\eeg_venv\Scripts\pip.exe"; Parameters: "install -r {app}\requir
 ; 4. Launch application (optional at end of install)
 ;Filename: "{app}\eeg_venv\Scripts\python.exe"; Parameters: """{app}\src\launcher.py"""; Description: "Launch NeuroSync"; Flags: postinstall nowait
 
+[UninstallRun]
+Filename: "cmd.exe"; Parameters: "/C setx NEUROSYNC_PATH \""\"" /M"; Flags: runhidden waituntilterminated
+Filename: "cmd.exe"; Parameters: "/C setx NEUROSYNC_PATH \""\""; Flags: runhidden waituntilterminated
 [UninstallDelete]
 Type: filesandordirs; Name: "{app}"
+

@@ -21,15 +21,19 @@ class EEGManager:
         print(os.path.dirname(__file__))
 
         # File management
-        #base_dir = "C:\\NeuroSync"
-        base_dir = os.getenv('NEUROSYNC_PATH', 'C:\\NeuroSync')
+        base_dir = "C:\\NeuroSync"
+        #base_dir = os.getenv('NEUROSYNC_PATH', 'C:\\NeuroSync')
         self.data_dir = os.path.join(base_dir, 'data')
         self.raw_dir = os.path.join(self.data_dir, 'raw')
         self.processed_dir = os.path.join(self.data_dir, 'processed')
         self.formatted_dir = os.path.join(self.data_dir, 'formatted')
         self.annotation_file = os.path.join(self.data_dir, 'annotations.txt')
         self.sample_dir = os.path.join(base_dir, 'sample_data')
-        
+        print(f"Data directory: '{self.data_dir}'")
+        print(f"Raw directory: '{self.raw_dir}'")
+        print(f"Processed directory: '{self.processed_dir}'")
+        print(f"Formatted directory: '{self.formatted_dir}'")
+
         # Ensure the formatted directory exists
         self.formatted_sample_dir = os.path.join(self.sample_dir, 'formatted')
         

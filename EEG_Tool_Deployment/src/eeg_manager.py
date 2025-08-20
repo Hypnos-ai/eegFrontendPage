@@ -21,8 +21,8 @@ class EEGManager:
         print(os.path.dirname(__file__))
 
         # File management
-        #base_dir = "C:\\NeuroSync"
-        base_dir = os.getenv('NEUROSYNC_PATH', 'C:\\NeuroSync')
+        base_dir = "C:\\NeuroSync"
+        #base_dir = os.getenv('NEUROSYNC_PATH', 'C:\\NeuroSync')
         self.data_dir = os.path.join(base_dir, 'data')
         self.raw_dir = os.path.join(self.data_dir, 'raw')
         self.processed_dir = os.path.join(self.data_dir, 'processed')

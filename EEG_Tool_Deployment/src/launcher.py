@@ -20,6 +20,6 @@ def run_vbs_script():
         print(f"Unexpected error: {ex}")
 
 if __name__ == "__main__":
-    run_vbs_script()
-    #main.main()
+    #run_vbs_script()
+    main.main()
     

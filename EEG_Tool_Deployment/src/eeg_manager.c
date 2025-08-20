@@ -2385,6 +2385,7 @@ static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_sum;
 /* #### Code section: string_decls ### */
+static const char __pyx_k_[] = "";
 static const char __pyx_k_X[] = "X";
 static const char __pyx_k_a[] = "a+";
 static const char __pyx_k_e[] = "e";
@@ -2437,9 +2438,8 @@ static const char __pyx_k_T6[] = "T6";
 static const char __pyx_k_T7[] = "T7";
 static const char __pyx_k_T8[] = "T8";
 static const char __pyx_k_T9[] = "T9";
-static const char __pyx_k__2[] = "";
-static const char __pyx_k__4[] = "\n";
-static const char __pyx_k__8[] = "_";
+static const char __pyx_k__3[] = "\n";
+static const char __pyx_k__7[] = "_";
 static const char __pyx_k_io[] = "io";
 static const char __pyx_k_np[] = "np";
 static const char __pyx_k_os[] = "os";
@@ -2484,13 +2484,13 @@ static const char __pyx_k_T10[] = "T10";
 static const char __pyx_k_TP7[] = "TP7";
 static const char __pyx_k_TP8[] = "TP8";
 static const char __pyx_k_TP9[] = "TP9";
-static const char __pyx_k__13[] = ":";
-static const char __pyx_k__21[] = "*";
-static const char __pyx_k__23[] = "_____________________________________________\n";
-static const char __pyx_k__25[] = "  - ";
-static const char __pyx_k__27[] = ": ";
-static const char __pyx_k__30[] = ".";
-static const char __pyx_k__84[] = "?";
+static const char __pyx_k__12[] = ":";
+static const char __pyx_k__20[] = "*";
+static const char __pyx_k__22[] = "_____________________________________________\n";
+static const char __pyx_k__24[] = "  - ";
+static const char __pyx_k__26[] = ": ";
+static const char __pyx_k__29[] = ".";
+static const char __pyx_k__83[] = "?";
 static const char __pyx_k_csp[] = "csp";
 static const char __pyx_k_doc[] = "__doc__";
 static const char __pyx_k_eeg[] = "eeg";
@@ -2574,7 +2574,6 @@ static const char __pyx_k_events[] = "events";
 static const char __pyx_k_exists[] = "exists";
 static const char __pyx_k_extend[] = "extend";
 static const char __pyx_k_file_2[] = "file";
-static const char __pyx_k_getenv[] = "getenv";
 static const char __pyx_k_import[] = "__import__";
 static const char __pyx_k_module[] = "__module__";
 static const char __pyx_k_name_2[] = "__name__";
@@ -2714,7 +2713,6 @@ static const char __pyx_k_task_duration[] = "task_duration";
 static const char __pyx_k_task_sequence[] = "task_sequence";
 static const char __pyx_k_unique_events[] = "unique_events";
 static const char __pyx_k_Error_deleting[] = "Error deleting ";
-static const char __pyx_k_NEUROSYNC_PATH[] = "NEUROSYNC_PATH";
 static const char __pyx_k_VALID_CHANNELS[] = "VALID_CHANNELS";
 static const char __pyx_k_break_duration[] = "break_duration";
 static const char __pyx_k_channel_states[] = "channel_states";
@@ -2888,6 +2886,7 @@ typedef struct {
   #endif
   #if CYTHON_USE_MODULE_STATE
   #endif
+  PyObject *__pyx_kp_u_;
   PyObject *__pyx_n_u_A1;
   PyObject *__pyx_n_u_A2;
   PyObject *__pyx_n_u_AF3;
@@ -3003,7 +3002,6 @@ typedef struct {
   PyObject *__pyx_kp_u_Loading;
   PyObject *__pyx_n_u_M1;
   PyObject *__pyx_n_u_M2;
-  PyObject *__pyx_n_u_NEUROSYNC_PATH;
   PyObject *__pyx_kp_u_No_FIF_files_found;
   PyObject *__pyx_kp_u_No_FIF_files_found_for_current_s;
   PyObject *__pyx_kp_u_No_channels_enabled_skipping_sav;
@@ -3063,16 +3061,15 @@ typedef struct {
   PyObject *__pyx_n_s_VALID_CHANNELS;
   PyObject *__pyx_n_s_ValueError;
   PyObject *__pyx_n_s_X;
-  PyObject *__pyx_kp_u__13;
-  PyObject *__pyx_kp_u__2;
-  PyObject *__pyx_n_s__21;
-  PyObject *__pyx_n_u__23;
-  PyObject *__pyx_kp_u__25;
-  PyObject *__pyx_kp_u__27;
-  PyObject *__pyx_kp_u__30;
-  PyObject *__pyx_kp_u__4;
-  PyObject *__pyx_n_u__8;
-  PyObject *__pyx_n_s__84;
+  PyObject *__pyx_kp_u__12;
+  PyObject *__pyx_n_s__20;
+  PyObject *__pyx_n_u__22;
+  PyObject *__pyx_kp_u__24;
+  PyObject *__pyx_kp_u__26;
+  PyObject *__pyx_kp_u__29;
+  PyObject *__pyx_kp_u__3;
+  PyObject *__pyx_n_u__7;
+  PyObject *__pyx_n_s__83;
   PyObject *__pyx_kp_u_a;
   PyObject *__pyx_n_s_all_channels;
   PyObject *__pyx_n_s_all_descriptions;
@@ -3178,7 +3175,6 @@ typedef struct {
   PyObject *__pyx_n_s_get_next_task;
   PyObject *__pyx_n_s_get_sample_files;
   PyObject *__pyx_n_s_get_sampling_rate;
-  PyObject *__pyx_n_s_getenv;
   PyObject *__pyx_n_u_hand;
   PyObject *__pyx_n_s_i;
   PyObject *__pyx_n_s_idx;
@@ -3355,80 +3351,79 @@ typedef struct {
   PyObject *__pyx_int_21;
   PyObject *__pyx_int_250;
   PyObject *__pyx_int_neg_1;
-  PyObject *__pyx_tuple_;
-  PyObject *__pyx_tuple__3;
+  PyObject *__pyx_slice__9;
+  PyObject *__pyx_tuple__2;
+  PyObject *__pyx_tuple__4;
   PyObject *__pyx_tuple__5;
   PyObject *__pyx_tuple__6;
-  PyObject *__pyx_tuple__7;
-  PyObject *__pyx_tuple__9;
-  PyObject *__pyx_slice__10;
-  PyObject *__pyx_slice__17;
-  PyObject *__pyx_slice__19;
+  PyObject *__pyx_tuple__8;
+  PyObject *__pyx_slice__16;
+  PyObject *__pyx_slice__18;
+  PyObject *__pyx_tuple__10;
   PyObject *__pyx_tuple__11;
-  PyObject *__pyx_tuple__12;
+  PyObject *__pyx_tuple__13;
   PyObject *__pyx_tuple__14;
   PyObject *__pyx_tuple__15;
-  PyObject *__pyx_tuple__16;
-  PyObject *__pyx_tuple__18;
-  PyObject *__pyx_tuple__20;
-  PyObject *__pyx_tuple__22;
-  PyObject *__pyx_tuple__24;
-  PyObject *__pyx_tuple__26;
+  PyObject *__pyx_tuple__17;
+  PyObject *__pyx_tuple__19;
+  PyObject *__pyx_tuple__21;
+  PyObject *__pyx_tuple__23;
+  PyObject *__pyx_tuple__25;
+  PyObject *__pyx_tuple__27;
   PyObject *__pyx_tuple__28;
-  PyObject *__pyx_tuple__29;
-  PyObject *__pyx_tuple__31;
-  PyObject *__pyx_tuple__33;
-  PyObject *__pyx_tuple__35;
+  PyObject *__pyx_tuple__30;
+  PyObject *__pyx_tuple__32;
+  PyObject *__pyx_tuple__34;
+  PyObject *__pyx_tuple__36;
   PyObject *__pyx_tuple__37;
-  PyObject *__pyx_tuple__38;
-  PyObject *__pyx_tuple__40;
-  PyObject *__pyx_tuple__42;
-  PyObject *__pyx_tuple__44;
-  PyObject *__pyx_tuple__46;
-  PyObject *__pyx_tuple__48;
-  PyObject *__pyx_tuple__50;
-  PyObject *__pyx_tuple__52;
-  PyObject *__pyx_tuple__54;
-  PyObject *__pyx_tuple__56;
-  PyObject *__pyx_tuple__58;
-  PyObject *__pyx_tuple__60;
-  PyObject *__pyx_tuple__62;
-  PyObject *__pyx_tuple__64;
-  PyObject *__pyx_tuple__66;
-  PyObject *__pyx_tuple__68;
-  PyObject *__pyx_tuple__70;
-  PyObject *__pyx_tuple__72;
-  PyObject *__pyx_tuple__74;
-  PyObject *__pyx_tuple__76;
-  PyObject *__pyx_tuple__78;
-  PyObject *__pyx_tuple__80;
-  PyObject *__pyx_tuple__82;
-  PyObject *__pyx_codeobj__32;
-  PyObject *__pyx_codeobj__34;
-  PyObject *__pyx_codeobj__36;
-  PyObject *__pyx_codeobj__39;
-  PyObject *__pyx_codeobj__41;
-  PyObject *__pyx_codeobj__43;
-  PyObject *__pyx_codeobj__45;
-  PyObject *__pyx_codeobj__47;
-  PyObject *__pyx_codeobj__49;
-  PyObject *__pyx_codeobj__51;
-  PyObject *__pyx_codeobj__53;
-  PyObject *__pyx_codeobj__55;
-  PyObject *__pyx_codeobj__57;
-  PyObject *__pyx_codeobj__59;
-  PyObject *__pyx_codeobj__61;
-  PyObject *__pyx_codeobj__63;
-  PyObject *__pyx_codeobj__65;
-  PyObject *__pyx_codeobj__67;
-  PyObject *__pyx_codeobj__69;
-  PyObject *__pyx_codeobj__71;
-  PyObject *__pyx_codeobj__73;
-  PyObject *__pyx_codeobj__75;
-  PyObject *__pyx_codeobj__77;
-  PyObject *__pyx_codeobj__79;
-  PyObject *__pyx_codeobj__81;
-  PyObject *__pyx_codeobj__83;
+  PyObject *__pyx_tuple__39;
+  PyObject *__pyx_tuple__41;
+  PyObject *__pyx_tuple__43;
+  PyObject *__pyx_tuple__45;
+  PyObject *__pyx_tuple__47;
+  PyObject *__pyx_tuple__49;
+  PyObject *__pyx_tuple__51;
+  PyObject *__pyx_tuple__53;
+  PyObject *__pyx_tuple__55;
+  PyObject *__pyx_tuple__57;
+  PyObject *__pyx_tuple__59;
+  PyObject *__pyx_tuple__61;
+  PyObject *__pyx_tuple__63;
+  PyObject *__pyx_tuple__65;
+  PyObject *__pyx_tuple__67;
+  PyObject *__pyx_tuple__69;
+  PyObject *__pyx_tuple__71;
+  PyObject *__pyx_tuple__73;
+  PyObject *__pyx_tuple__75;
+  PyObject *__pyx_tuple__77;
+  PyObject *__pyx_tuple__79;
+  PyObject *__pyx_tuple__81;
+  PyObject *__pyx_codeobj__31;
+  PyObject *__pyx_codeobj__33;
+  PyObject *__pyx_codeobj__35;
+  PyObject *__pyx_codeobj__38;
+  PyObject *__pyx_codeobj__40;
+  PyObject *__pyx_codeobj__42;
+  PyObject *__pyx_codeobj__44;
+  PyObject *__pyx_codeobj__46;
+  PyObject *__pyx_codeobj__48;
+  PyObject *__pyx_codeobj__50;
+  PyObject *__pyx_codeobj__52;
+  PyObject *__pyx_codeobj__54;
+  PyObject *__pyx_codeobj__56;
+  PyObject *__pyx_codeobj__58;
+  PyObject *__pyx_codeobj__60;
+  PyObject *__pyx_codeobj__62;
+  PyObject *__pyx_codeobj__64;
+  PyObject *__pyx_codeobj__66;
+  PyObject *__pyx_codeobj__68;
+  PyObject *__pyx_codeobj__70;
+  PyObject *__pyx_codeobj__72;
+  PyObject *__pyx_codeobj__74;
+  PyObject *__pyx_codeobj__76;
+  PyObject *__pyx_codeobj__78;
+  PyObject *__pyx_codeobj__80;
+  PyObject *__pyx_codeobj__82;
 } __pyx_mstate;
 
 #if CYTHON_USE_MODULE_STATE
@@ -3471,6 +3466,7 @@ static int __pyx_m_clear(PyObject *m) {
   #ifdef __Pyx_FusedFunction_USED
   Py_CLEAR(clear_module_state->__pyx_FusedFunctionType);
   #endif
+  Py_CLEAR(clear_module_state->__pyx_kp_u_);
   Py_CLEAR(clear_module_state->__pyx_n_u_A1);
   Py_CLEAR(clear_module_state->__pyx_n_u_A2);
   Py_CLEAR(clear_module_state->__pyx_n_u_AF3);
@@ -3586,7 +3582,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_u_Loading);
   Py_CLEAR(clear_module_state->__pyx_n_u_M1);
   Py_CLEAR(clear_module_state->__pyx_n_u_M2);
-  Py_CLEAR(clear_module_state->__pyx_n_u_NEUROSYNC_PATH);
   Py_CLEAR(clear_module_state->__pyx_kp_u_No_FIF_files_found);
   Py_CLEAR(clear_module_state->__pyx_kp_u_No_FIF_files_found_for_current_s);
   Py_CLEAR(clear_module_state->__pyx_kp_u_No_channels_enabled_skipping_sav);
@@ -3646,16 +3641,15 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_VALID_CHANNELS);
   Py_CLEAR(clear_module_state->__pyx_n_s_ValueError);
   Py_CLEAR(clear_module_state->__pyx_n_s_X);
-  Py_CLEAR(clear_module_state->__pyx_kp_u__13);
-  Py_CLEAR(clear_module_state->__pyx_kp_u__2);
-  Py_CLEAR(clear_module_state->__pyx_n_s__21);
-  Py_CLEAR(clear_module_state->__pyx_n_u__23);
-  Py_CLEAR(clear_module_state->__pyx_kp_u__25);
-  Py_CLEAR(clear_module_state->__pyx_kp_u__27);
-  Py_CLEAR(clear_module_state->__pyx_kp_u__30);
-  Py_CLEAR(clear_module_state->__pyx_kp_u__4);
-  Py_CLEAR(clear_module_state->__pyx_n_u__8);
-  Py_CLEAR(clear_module_state->__pyx_n_s__84);
+  Py_CLEAR(clear_module_state->__pyx_kp_u__12);
+  Py_CLEAR(clear_module_state->__pyx_n_s__20);
+  Py_CLEAR(clear_module_state->__pyx_n_u__22);
+  Py_CLEAR(clear_module_state->__pyx_kp_u__24);
+  Py_CLEAR(clear_module_state->__pyx_kp_u__26);
+  Py_CLEAR(clear_module_state->__pyx_kp_u__29);
+  Py_CLEAR(clear_module_state->__pyx_kp_u__3);
+  Py_CLEAR(clear_module_state->__pyx_n_u__7);
+  Py_CLEAR(clear_module_state->__pyx_n_s__83);
   Py_CLEAR(clear_module_state->__pyx_kp_u_a);
   Py_CLEAR(clear_module_state->__pyx_n_s_all_channels);
   Py_CLEAR(clear_module_state->__pyx_n_s_all_descriptions);
@@ -3761,7 +3755,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_get_next_task);
   Py_CLEAR(clear_module_state->__pyx_n_s_get_sample_files);
   Py_CLEAR(clear_module_state->__pyx_n_s_get_sampling_rate);
-  Py_CLEAR(clear_module_state->__pyx_n_s_getenv);
   Py_CLEAR(clear_module_state->__pyx_n_u_hand);
   Py_CLEAR(clear_module_state->__pyx_n_s_i);
   Py_CLEAR(clear_module_state->__pyx_n_s_idx);
@@ -3938,80 +3931,79 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_int_21);
   Py_CLEAR(clear_module_state->__pyx_int_250);
   Py_CLEAR(clear_module_state->__pyx_int_neg_1);
-  Py_CLEAR(clear_module_state->__pyx_tuple_);
-  Py_CLEAR(clear_module_state->__pyx_tuple__3);
+  Py_CLEAR(clear_module_state->__pyx_slice__9);
+  Py_CLEAR(clear_module_state->__pyx_tuple__2);
+  Py_CLEAR(clear_module_state->__pyx_tuple__4);
   Py_CLEAR(clear_module_state->__pyx_tuple__5);
   Py_CLEAR(clear_module_state->__pyx_tuple__6);
-  Py_CLEAR(clear_module_state->__pyx_tuple__7);
-  Py_CLEAR(clear_module_state->__pyx_tuple__9);
-  Py_CLEAR(clear_module_state->__pyx_slice__10);
-  Py_CLEAR(clear_module_state->__pyx_slice__17);
-  Py_CLEAR(clear_module_state->__pyx_slice__19);
+  Py_CLEAR(clear_module_state->__pyx_tuple__8);
+  Py_CLEAR(clear_module_state->__pyx_slice__16);
+  Py_CLEAR(clear_module_state->__pyx_slice__18);
+  Py_CLEAR(clear_module_state->__pyx_tuple__10);
   Py_CLEAR(clear_module_state->__pyx_tuple__11);
-  Py_CLEAR(clear_module_state->__pyx_tuple__12);
+  Py_CLEAR(clear_module_state->__pyx_tuple__13);
   Py_CLEAR(clear_module_state->__pyx_tuple__14);
   Py_CLEAR(clear_module_state->__pyx_tuple__15);
-  Py_CLEAR(clear_module_state->__pyx_tuple__16);
-  Py_CLEAR(clear_module_state->__pyx_tuple__18);
-  Py_CLEAR(clear_module_state->__pyx_tuple__20);
-  Py_CLEAR(clear_module_state->__pyx_tuple__22);
-  Py_CLEAR(clear_module_state->__pyx_tuple__24);
-  Py_CLEAR(clear_module_state->__pyx_tuple__26);
+  Py_CLEAR(clear_module_state->__pyx_tuple__17);
+  Py_CLEAR(clear_module_state->__pyx_tuple__19);
+  Py_CLEAR(clear_module_state->__pyx_tuple__21);
+  Py_CLEAR(clear_module_state->__pyx_tuple__23);
+  Py_CLEAR(clear_module_state->__pyx_tuple__25);
+  Py_CLEAR(clear_module_state->__pyx_tuple__27);
   Py_CLEAR(clear_module_state->__pyx_tuple__28);
-  Py_CLEAR(clear_module_state->__pyx_tuple__29);
-  Py_CLEAR(clear_module_state->__pyx_tuple__31);
-  Py_CLEAR(clear_module_state->__pyx_tuple__33);
-  Py_CLEAR(clear_module_state->__pyx_tuple__35);
+  Py_CLEAR(clear_module_state->__pyx_tuple__30);
+  Py_CLEAR(clear_module_state->__pyx_tuple__32);
+  Py_CLEAR(clear_module_state->__pyx_tuple__34);
+  Py_CLEAR(clear_module_state->__pyx_tuple__36);
   Py_CLEAR(clear_module_state->__pyx_tuple__37);
-  Py_CLEAR(clear_module_state->__pyx_tuple__38);
-  Py_CLEAR(clear_module_state->__pyx_tuple__40);
-  Py_CLEAR(clear_module_state->__pyx_tuple__42);
-  Py_CLEAR(clear_module_state->__pyx_tuple__44);
-  Py_CLEAR(clear_module_state->__pyx_tuple__46);
-  Py_CLEAR(clear_module_state->__pyx_tuple__48);
-  Py_CLEAR(clear_module_state->__pyx_tuple__50);
-  Py_CLEAR(clear_module_state->__pyx_tuple__52);
-  Py_CLEAR(clear_module_state->__pyx_tuple__54);
-  Py_CLEAR(clear_module_state->__pyx_tuple__56);
-  Py_CLEAR(clear_module_state->__pyx_tuple__58);
-  Py_CLEAR(clear_module_state->__pyx_tuple__60);
-  Py_CLEAR(clear_module_state->__pyx_tuple__62);
-  Py_CLEAR(clear_module_state->__pyx_tuple__64);
-  Py_CLEAR(clear_module_state->__pyx_tuple__66);
-  Py_CLEAR(clear_module_state->__pyx_tuple__68);
-  Py_CLEAR(clear_module_state->__pyx_tuple__70);
-  Py_CLEAR(clear_module_state->__pyx_tuple__72);
-  Py_CLEAR(clear_module_state->__pyx_tuple__74);
-  Py_CLEAR(clear_module_state->__pyx_tuple__76);
-  Py_CLEAR(clear_module_state->__pyx_tuple__78);
-  Py_CLEAR(clear_module_state->__pyx_tuple__80);
-  Py_CLEAR(clear_module_state->__pyx_tuple__82);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__32);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__34);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__36);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__39);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__41);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__43);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__45);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__47);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__49);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__51);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__53);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__55);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__57);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__59);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__61);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__63);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__65);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__67);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__69);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__71);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__73);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__75);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__77);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__79);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__81);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__83);
+  Py_CLEAR(clear_module_state->__pyx_tuple__39);
+  Py_CLEAR(clear_module_state->__pyx_tuple__41);
+  Py_CLEAR(clear_module_state->__pyx_tuple__43);
+  Py_CLEAR(clear_module_state->__pyx_tuple__45);
+  Py_CLEAR(clear_module_state->__pyx_tuple__47);
+  Py_CLEAR(clear_module_state->__pyx_tuple__49);
+  Py_CLEAR(clear_module_state->__pyx_tuple__51);
+  Py_CLEAR(clear_module_state->__pyx_tuple__53);
+  Py_CLEAR(clear_module_state->__pyx_tuple__55);
+  Py_CLEAR(clear_module_state->__pyx_tuple__57);
+  Py_CLEAR(clear_module_state->__pyx_tuple__59);
+  Py_CLEAR(clear_module_state->__pyx_tuple__61);
+  Py_CLEAR(clear_module_state->__pyx_tuple__63);
+  Py_CLEAR(clear_module_state->__pyx_tuple__65);
+  Py_CLEAR(clear_module_state->__pyx_tuple__67);
+  Py_CLEAR(clear_module_state->__pyx_tuple__69);
+  Py_CLEAR(clear_module_state->__pyx_tuple__71);
+  Py_CLEAR(clear_module_state->__pyx_tuple__73);
+  Py_CLEAR(clear_module_state->__pyx_tuple__75);
+  Py_CLEAR(clear_module_state->__pyx_tuple__77);
+  Py_CLEAR(clear_module_state->__pyx_tuple__79);
+  Py_CLEAR(clear_module_state->__pyx_tuple__81);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__31);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__33);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__35);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__38);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__40);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__42);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__44);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__46);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__48);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__50);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__52);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__54);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__56);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__58);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__60);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__62);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__64);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__66);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__68);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__70);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__72);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__74);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__76);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__78);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__80);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__82);
   return 0;
 }
 #endif
@@ -4032,6 +4024,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   #ifdef __Pyx_FusedFunction_USED
   Py_VISIT(traverse_module_state->__pyx_FusedFunctionType);
   #endif
+  Py_VISIT(traverse_module_state->__pyx_kp_u_);
   Py_VISIT(traverse_module_state->__pyx_n_u_A1);
   Py_VISIT(traverse_module_state->__pyx_n_u_A2);
   Py_VISIT(traverse_module_state->__pyx_n_u_AF3);
@@ -4147,7 +4140,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_u_Loading);
   Py_VISIT(traverse_module_state->__pyx_n_u_M1);
   Py_VISIT(traverse_module_state->__pyx_n_u_M2);
-  Py_VISIT(traverse_module_state->__pyx_n_u_NEUROSYNC_PATH);
   Py_VISIT(traverse_module_state->__pyx_kp_u_No_FIF_files_found);
   Py_VISIT(traverse_module_state->__pyx_kp_u_No_FIF_files_found_for_current_s);
   Py_VISIT(traverse_module_state->__pyx_kp_u_No_channels_enabled_skipping_sav);
@@ -4207,16 +4199,15 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_VALID_CHANNELS);
   Py_VISIT(traverse_module_state->__pyx_n_s_ValueError);
   Py_VISIT(traverse_module_state->__pyx_n_s_X);
-  Py_VISIT(traverse_module_state->__pyx_kp_u__13);
-  Py_VISIT(traverse_module_state->__pyx_kp_u__2);
-  Py_VISIT(traverse_module_state->__pyx_n_s__21);
-  Py_VISIT(traverse_module_state->__pyx_n_u__23);
-  Py_VISIT(traverse_module_state->__pyx_kp_u__25);
-  Py_VISIT(traverse_module_state->__pyx_kp_u__27);
-  Py_VISIT(traverse_module_state->__pyx_kp_u__30);
-  Py_VISIT(traverse_module_state->__pyx_kp_u__4);
-  Py_VISIT(traverse_module_state->__pyx_n_u__8);
-  Py_VISIT(traverse_module_state->__pyx_n_s__84);
+  Py_VISIT(traverse_module_state->__pyx_kp_u__12);
+  Py_VISIT(traverse_module_state->__pyx_n_s__20);
+  Py_VISIT(traverse_module_state->__pyx_n_u__22);
+  Py_VISIT(traverse_module_state->__pyx_kp_u__24);
+  Py_VISIT(traverse_module_state->__pyx_kp_u__26);
+  Py_VISIT(traverse_module_state->__pyx_kp_u__29);
+  Py_VISIT(traverse_module_state->__pyx_kp_u__3);
+  Py_VISIT(traverse_module_state->__pyx_n_u__7);
+  Py_VISIT(traverse_module_state->__pyx_n_s__83);
   Py_VISIT(traverse_module_state->__pyx_kp_u_a);
   Py_VISIT(traverse_module_state->__pyx_n_s_all_channels);
   Py_VISIT(traverse_module_state->__pyx_n_s_all_descriptions);
@@ -4322,7 +4313,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_get_next_task);
   Py_VISIT(traverse_module_state->__pyx_n_s_get_sample_files);
   Py_VISIT(traverse_module_state->__pyx_n_s_get_sampling_rate);
-  Py_VISIT(traverse_module_state->__pyx_n_s_getenv);
   Py_VISIT(traverse_module_state->__pyx_n_u_hand);
   Py_VISIT(traverse_module_state->__pyx_n_s_i);
   Py_VISIT(traverse_module_state->__pyx_n_s_idx);
@@ -4499,80 +4489,79 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_int_21);
   Py_VISIT(traverse_module_state->__pyx_int_250);
   Py_VISIT(traverse_module_state->__pyx_int_neg_1);
-  Py_VISIT(traverse_module_state->__pyx_tuple_);
-  Py_VISIT(traverse_module_state->__pyx_tuple__3);
+  Py_VISIT(traverse_module_state->__pyx_slice__9);
+  Py_VISIT(traverse_module_state->__pyx_tuple__2);
+  Py_VISIT(traverse_module_state->__pyx_tuple__4);
   Py_VISIT(traverse_module_state->__pyx_tuple__5);
   Py_VISIT(traverse_module_state->__pyx_tuple__6);
-  Py_VISIT(traverse_module_state->__pyx_tuple__7);
-  Py_VISIT(traverse_module_state->__pyx_tuple__9);
-  Py_VISIT(traverse_module_state->__pyx_slice__10);
-  Py_VISIT(traverse_module_state->__pyx_slice__17);
-  Py_VISIT(traverse_module_state->__pyx_slice__19);
+  Py_VISIT(traverse_module_state->__pyx_tuple__8);
+  Py_VISIT(traverse_module_state->__pyx_slice__16);
+  Py_VISIT(traverse_module_state->__pyx_slice__18);
+  Py_VISIT(traverse_module_state->__pyx_tuple__10);
   Py_VISIT(traverse_module_state->__pyx_tuple__11);
-  Py_VISIT(traverse_module_state->__pyx_tuple__12);
+  Py_VISIT(traverse_module_state->__pyx_tuple__13);
   Py_VISIT(traverse_module_state->__pyx_tuple__14);
   Py_VISIT(traverse_module_state->__pyx_tuple__15);
-  Py_VISIT(traverse_module_state->__pyx_tuple__16);
-  Py_VISIT(traverse_module_state->__pyx_tuple__18);
-  Py_VISIT(traverse_module_state->__pyx_tuple__20);
-  Py_VISIT(traverse_module_state->__pyx_tuple__22);
-  Py_VISIT(traverse_module_state->__pyx_tuple__24);
-  Py_VISIT(traverse_module_state->__pyx_tuple__26);
+  Py_VISIT(traverse_module_state->__pyx_tuple__17);
+  Py_VISIT(traverse_module_state->__pyx_tuple__19);
+  Py_VISIT(traverse_module_state->__pyx_tuple__21);
+  Py_VISIT(traverse_module_state->__pyx_tuple__23);
+  Py_VISIT(traverse_module_state->__pyx_tuple__25);
+  Py_VISIT(traverse_module_state->__pyx_tuple__27);
   Py_VISIT(traverse_module_state->__pyx_tuple__28);
-  Py_VISIT(traverse_module_state->__pyx_tuple__29);
-  Py_VISIT(traverse_module_state->__pyx_tuple__31);
-  Py_VISIT(traverse_module_state->__pyx_tuple__33);
-  Py_VISIT(traverse_module_state->__pyx_tuple__35);
+  Py_VISIT(traverse_module_state->__pyx_tuple__30);
+  Py_VISIT(traverse_module_state->__pyx_tuple__32);
+  Py_VISIT(traverse_module_state->__pyx_tuple__34);
+  Py_VISIT(traverse_module_state->__pyx_tuple__36);
   Py_VISIT(traverse_module_state->__pyx_tuple__37);
-  Py_VISIT(traverse_module_state->__pyx_tuple__38);
-  Py_VISIT(traverse_module_state->__pyx_tuple__40);
-  Py_VISIT(traverse_module_state->__pyx_tuple__42);
-  Py_VISIT(traverse_module_state->__pyx_tuple__44);
-  Py_VISIT(traverse_module_state->__pyx_tuple__46);
-  Py_VISIT(traverse_module_state->__pyx_tuple__48);
-  Py_VISIT(traverse_module_state->__pyx_tuple__50);
-  Py_VISIT(traverse_module_state->__pyx_tuple__52);
-  Py_VISIT(traverse_module_state->__pyx_tuple__54);
-  Py_VISIT(traverse_module_state->__pyx_tuple__56);
-  Py_VISIT(traverse_module_state->__pyx_tuple__58);
-  Py_VISIT(traverse_module_state->__pyx_tuple__60);
-  Py_VISIT(traverse_module_state->__pyx_tuple__62);
-  Py_VISIT(traverse_module_state->__pyx_tuple__64);
-  Py_VISIT(traverse_module_state->__pyx_tuple__66);
-  Py_VISIT(traverse_module_state->__pyx_tuple__68);
-  Py_VISIT(traverse_module_state->__pyx_tuple__70);
-  Py_VISIT(traverse_module_state->__pyx_tuple__72);
-  Py_VISIT(traverse_module_state->__pyx_tuple__74);
-  Py_VISIT(traverse_module_state->__pyx_tuple__76);
-  Py_VISIT(traverse_module_state->__pyx_tuple__78);
-  Py_VISIT(traverse_module_state->__pyx_tuple__80);
-  Py_VISIT(traverse_module_state->__pyx_tuple__82);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__32);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__34);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__36);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__39);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__41);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__43);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__45);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__47);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__49);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__51);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__53);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__55);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__57);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__59);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__61);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__63);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__65);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__67);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__69);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__71);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__73);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__75);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__77);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__79);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__81);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__83);
+  Py_VISIT(traverse_module_state->__pyx_tuple__39);
+  Py_VISIT(traverse_module_state->__pyx_tuple__41);
+  Py_VISIT(traverse_module_state->__pyx_tuple__43);
+  Py_VISIT(traverse_module_state->__pyx_tuple__45);
+  Py_VISIT(traverse_module_state->__pyx_tuple__47);
+  Py_VISIT(traverse_module_state->__pyx_tuple__49);
+  Py_VISIT(traverse_module_state->__pyx_tuple__51);
+  Py_VISIT(traverse_module_state->__pyx_tuple__53);
+  Py_VISIT(traverse_module_state->__pyx_tuple__55);
+  Py_VISIT(traverse_module_state->__pyx_tuple__57);
+  Py_VISIT(traverse_module_state->__pyx_tuple__59);
+  Py_VISIT(traverse_module_state->__pyx_tuple__61);
+  Py_VISIT(traverse_module_state->__pyx_tuple__63);
+  Py_VISIT(traverse_module_state->__pyx_tuple__65);
+  Py_VISIT(traverse_module_state->__pyx_tuple__67);
+  Py_VISIT(traverse_module_state->__pyx_tuple__69);
+  Py_VISIT(traverse_module_state->__pyx_tuple__71);
+  Py_VISIT(traverse_module_state->__pyx_tuple__73);
+  Py_VISIT(traverse_module_state->__pyx_tuple__75);
+  Py_VISIT(traverse_module_state->__pyx_tuple__77);
+  Py_VISIT(traverse_module_state->__pyx_tuple__79);
+  Py_VISIT(traverse_module_state->__pyx_tuple__81);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__31);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__33);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__35);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__38);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__40);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__42);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__44);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__46);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__48);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__50);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__52);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__54);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__56);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__58);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__60);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__62);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__64);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__66);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__68);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__70);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__72);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__74);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__76);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__78);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__80);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__82);
   return 0;
 }
 #endif
@@ -4603,6 +4592,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #endif
 #if CYTHON_USE_MODULE_STATE
 #endif
+#define __pyx_kp_u_ __pyx_mstate_global->__pyx_kp_u_
 #define __pyx_n_u_A1 __pyx_mstate_global->__pyx_n_u_A1
 #define __pyx_n_u_A2 __pyx_mstate_global->__pyx_n_u_A2
 #define __pyx_n_u_AF3 __pyx_mstate_global->__pyx_n_u_AF3
@@ -4718,7 +4708,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_u_Loading __pyx_mstate_global->__pyx_kp_u_Loading
 #define __pyx_n_u_M1 __pyx_mstate_global->__pyx_n_u_M1
 #define __pyx_n_u_M2 __pyx_mstate_global->__pyx_n_u_M2
-#define __pyx_n_u_NEUROSYNC_PATH __pyx_mstate_global->__pyx_n_u_NEUROSYNC_PATH
 #define __pyx_kp_u_No_FIF_files_found __pyx_mstate_global->__pyx_kp_u_No_FIF_files_found
 #define __pyx_kp_u_No_FIF_files_found_for_current_s __pyx_mstate_global->__pyx_kp_u_No_FIF_files_found_for_current_s
 #define __pyx_kp_u_No_channels_enabled_skipping_sav __pyx_mstate_global->__pyx_kp_u_No_channels_enabled_skipping_sav
@@ -4778,16 +4767,15 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_VALID_CHANNELS __pyx_mstate_global->__pyx_n_s_VALID_CHANNELS
 #define __pyx_n_s_ValueError __pyx_mstate_global->__pyx_n_s_ValueError
 #define __pyx_n_s_X __pyx_mstate_global->__pyx_n_s_X
-#define __pyx_kp_u__13 __pyx_mstate_global->__pyx_kp_u__13
-#define __pyx_kp_u__2 __pyx_mstate_global->__pyx_kp_u__2
-#define __pyx_n_s__21 __pyx_mstate_global->__pyx_n_s__21
-#define __pyx_n_u__23 __pyx_mstate_global->__pyx_n_u__23
-#define __pyx_kp_u__25 __pyx_mstate_global->__pyx_kp_u__25
-#define __pyx_kp_u__27 __pyx_mstate_global->__pyx_kp_u__27
-#define __pyx_kp_u__30 __pyx_mstate_global->__pyx_kp_u__30
-#define __pyx_kp_u__4 __pyx_mstate_global->__pyx_kp_u__4
-#define __pyx_n_u__8 __pyx_mstate_global->__pyx_n_u__8
-#define __pyx_n_s__84 __pyx_mstate_global->__pyx_n_s__84
+#define __pyx_kp_u__12 __pyx_mstate_global->__pyx_kp_u__12
+#define __pyx_n_s__20 __pyx_mstate_global->__pyx_n_s__20
+#define __pyx_n_u__22 __pyx_mstate_global->__pyx_n_u__22
+#define __pyx_kp_u__24 __pyx_mstate_global->__pyx_kp_u__24
+#define __pyx_kp_u__26 __pyx_mstate_global->__pyx_kp_u__26
+#define __pyx_kp_u__29 __pyx_mstate_global->__pyx_kp_u__29
+#define __pyx_kp_u__3 __pyx_mstate_global->__pyx_kp_u__3
+#define __pyx_n_u__7 __pyx_mstate_global->__pyx_n_u__7
+#define __pyx_n_s__83 __pyx_mstate_global->__pyx_n_s__83
 #define __pyx_kp_u_a __pyx_mstate_global->__pyx_kp_u_a
 #define __pyx_n_s_all_channels __pyx_mstate_global->__pyx_n_s_all_channels
 #define __pyx_n_s_all_descriptions __pyx_mstate_global->__pyx_n_s_all_descriptions
@@ -4893,7 +4881,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_get_next_task __pyx_mstate_global->__pyx_n_s_get_next_task
 #define __pyx_n_s_get_sample_files __pyx_mstate_global->__pyx_n_s_get_sample_files
 #define __pyx_n_s_get_sampling_rate __pyx_mstate_global->__pyx_n_s_get_sampling_rate
-#define __pyx_n_s_getenv __pyx_mstate_global->__pyx_n_s_getenv
 #define __pyx_n_u_hand __pyx_mstate_global->__pyx_n_u_hand
 #define __pyx_n_s_i __pyx_mstate_global->__pyx_n_s_i
 #define __pyx_n_s_idx __pyx_mstate_global->__pyx_n_s_idx
@@ -5070,80 +5057,79 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_int_21 __pyx_mstate_global->__pyx_int_21
 #define __pyx_int_250 __pyx_mstate_global->__pyx_int_250
 #define __pyx_int_neg_1 __pyx_mstate_global->__pyx_int_neg_1
-#define __pyx_tuple_ __pyx_mstate_global->__pyx_tuple_
-#define __pyx_tuple__3 __pyx_mstate_global->__pyx_tuple__3
+#define __pyx_slice__9 __pyx_mstate_global->__pyx_slice__9
+#define __pyx_tuple__2 __pyx_mstate_global->__pyx_tuple__2
+#define __pyx_tuple__4 __pyx_mstate_global->__pyx_tuple__4
 #define __pyx_tuple__5 __pyx_mstate_global->__pyx_tuple__5
 #define __pyx_tuple__6 __pyx_mstate_global->__pyx_tuple__6
-#define __pyx_tuple__7 __pyx_mstate_global->__pyx_tuple__7
-#define __pyx_tuple__9 __pyx_mstate_global->__pyx_tuple__9
-#define __pyx_slice__10 __pyx_mstate_global->__pyx_slice__10
-#define __pyx_slice__17 __pyx_mstate_global->__pyx_slice__17
-#define __pyx_slice__19 __pyx_mstate_global->__pyx_slice__19
+#define __pyx_tuple__8 __pyx_mstate_global->__pyx_tuple__8
+#define __pyx_slice__16 __pyx_mstate_global->__pyx_slice__16
+#define __pyx_slice__18 __pyx_mstate_global->__pyx_slice__18
+#define __pyx_tuple__10 __pyx_mstate_global->__pyx_tuple__10
 #define __pyx_tuple__11 __pyx_mstate_global->__pyx_tuple__11
-#define __pyx_tuple__12 __pyx_mstate_global->__pyx_tuple__12
+#define __pyx_tuple__13 __pyx_mstate_global->__pyx_tuple__13
 #define __pyx_tuple__14 __pyx_mstate_global->__pyx_tuple__14
 #define __pyx_tuple__15 __pyx_mstate_global->__pyx_tuple__15
-#define __pyx_tuple__16 __pyx_mstate_global->__pyx_tuple__16
-#define __pyx_tuple__18 __pyx_mstate_global->__pyx_tuple__18
-#define __pyx_tuple__20 __pyx_mstate_global->__pyx_tuple__20
-#define __pyx_tuple__22 __pyx_mstate_global->__pyx_tuple__22
-#define __pyx_tuple__24 __pyx_mstate_global->__pyx_tuple__24
-#define __pyx_tuple__26 __pyx_mstate_global->__pyx_tuple__26
+#define __pyx_tuple__17 __pyx_mstate_global->__pyx_tuple__17
+#define __pyx_tuple__19 __pyx_mstate_global->__pyx_tuple__19
+#define __pyx_tuple__21 __pyx_mstate_global->__pyx_tuple__21
+#define __pyx_tuple__23 __pyx_mstate_global->__pyx_tuple__23
+#define __pyx_tuple__25 __pyx_mstate_global->__pyx_tuple__25
+#define __pyx_tuple__27 __pyx_mstate_global->__pyx_tuple__27
 #define __pyx_tuple__28 __pyx_mstate_global->__pyx_tuple__28
-#define __pyx_tuple__29 __pyx_mstate_global->__pyx_tuple__29
-#define __pyx_tuple__31 __pyx_mstate_global->__pyx_tuple__31
-#define __pyx_tuple__33 __pyx_mstate_global->__pyx_tuple__33
-#define __pyx_tuple__35 __pyx_mstate_global->__pyx_tuple__35
+#define __pyx_tuple__30 __pyx_mstate_global->__pyx_tuple__30
+#define __pyx_tuple__32 __pyx_mstate_global->__pyx_tuple__32
+#define __pyx_tuple__34 __pyx_mstate_global->__pyx_tuple__34
+#define __pyx_tuple__36 __pyx_mstate_global->__pyx_tuple__36
 #define __pyx_tuple__37 __pyx_mstate_global->__pyx_tuple__37
-#define __pyx_tuple__38 __pyx_mstate_global->__pyx_tuple__38
-#define __pyx_tuple__40 __pyx_mstate_global->__pyx_tuple__40
-#define __pyx_tuple__42 __pyx_mstate_global->__pyx_tuple__42
-#define __pyx_tuple__44 __pyx_mstate_global->__pyx_tuple__44
-#define __pyx_tuple__46 __pyx_mstate_global->__pyx_tuple__46
-#define __pyx_tuple__48 __pyx_mstate_global->__pyx_tuple__48
-#define __pyx_tuple__50 __pyx_mstate_global->__pyx_tuple__50
-#define __pyx_tuple__52 __pyx_mstate_global->__pyx_tuple__52
-#define __pyx_tuple__54 __pyx_mstate_global->__pyx_tuple__54
-#define __pyx_tuple__56 __pyx_mstate_global->__pyx_tuple__56
-#define __pyx_tuple__58 __pyx_mstate_global->__pyx_tuple__58
-#define __pyx_tuple__60 __pyx_mstate_global->__pyx_tuple__60
-#define __pyx_tuple__62 __pyx_mstate_global->__pyx_tuple__62
-#define __pyx_tuple__64 __pyx_mstate_global->__pyx_tuple__64
-#define __pyx_tuple__66 __pyx_mstate_global->__pyx_tuple__66
-#define __pyx_tuple__68 __pyx_mstate_global->__pyx_tuple__68
-#define __pyx_tuple__70 __pyx_mstate_global->__pyx_tuple__70
-#define __pyx_tuple__72 __pyx_mstate_global->__pyx_tuple__72
-#define __pyx_tuple__74 __pyx_mstate_global->__pyx_tuple__74
-#define __pyx_tuple__76 __pyx_mstate_global->__pyx_tuple__76
-#define __pyx_tuple__78 __pyx_mstate_global->__pyx_tuple__78
-#define __pyx_tuple__80 __pyx_mstate_global->__pyx_tuple__80
-#define __pyx_tuple__82 __pyx_mstate_global->__pyx_tuple__82
-#define __pyx_codeobj__32 __pyx_mstate_global->__pyx_codeobj__32
-#define __pyx_codeobj__34 __pyx_mstate_global->__pyx_codeobj__34
-#define __pyx_codeobj__36 __pyx_mstate_global->__pyx_codeobj__36
-#define __pyx_codeobj__39 __pyx_mstate_global->__pyx_codeobj__39
-#define __pyx_codeobj__41 __pyx_mstate_global->__pyx_codeobj__41
-#define __pyx_codeobj__43 __pyx_mstate_global->__pyx_codeobj__43
-#define __pyx_codeobj__45 __pyx_mstate_global->__pyx_codeobj__45
-#define __pyx_codeobj__47 __pyx_mstate_global->__pyx_codeobj__47
-#define __pyx_codeobj__49 __pyx_mstate_global->__pyx_codeobj__49
-#define __pyx_codeobj__51 __pyx_mstate_global->__pyx_codeobj__51
-#define __pyx_codeobj__53 __pyx_mstate_global->__pyx_codeobj__53
-#define __pyx_codeobj__55 __pyx_mstate_global->__pyx_codeobj__55
-#define __pyx_codeobj__57 __pyx_mstate_global->__pyx_codeobj__57
-#define __pyx_codeobj__59 __pyx_mstate_global->__pyx_codeobj__59
-#define __pyx_codeobj__61 __pyx_mstate_global->__pyx_codeobj__61
-#define __pyx_codeobj__63 __pyx_mstate_global->__pyx_codeobj__63
-#define __pyx_codeobj__65 __pyx_mstate_global->__pyx_codeobj__65
-#define __pyx_codeobj__67 __pyx_mstate_global->__pyx_codeobj__67
-#define __pyx_codeobj__69 __pyx_mstate_global->__pyx_codeobj__69
-#define __pyx_codeobj__71 __pyx_mstate_global->__pyx_codeobj__71
-#define __pyx_codeobj__73 __pyx_mstate_global->__pyx_codeobj__73
-#define __pyx_codeobj__75 __pyx_mstate_global->__pyx_codeobj__75
-#define __pyx_codeobj__77 __pyx_mstate_global->__pyx_codeobj__77
-#define __pyx_codeobj__79 __pyx_mstate_global->__pyx_codeobj__79
-#define __pyx_codeobj__81 __pyx_mstate_global->__pyx_codeobj__81
-#define __pyx_codeobj__83 __pyx_mstate_global->__pyx_codeobj__83
+#define __pyx_tuple__39 __pyx_mstate_global->__pyx_tuple__39
+#define __pyx_tuple__41 __pyx_mstate_global->__pyx_tuple__41
+#define __pyx_tuple__43 __pyx_mstate_global->__pyx_tuple__43
+#define __pyx_tuple__45 __pyx_mstate_global->__pyx_tuple__45
+#define __pyx_tuple__47 __pyx_mstate_global->__pyx_tuple__47
+#define __pyx_tuple__49 __pyx_mstate_global->__pyx_tuple__49
+#define __pyx_tuple__51 __pyx_mstate_global->__pyx_tuple__51
+#define __pyx_tuple__53 __pyx_mstate_global->__pyx_tuple__53
+#define __pyx_tuple__55 __pyx_mstate_global->__pyx_tuple__55
+#define __pyx_tuple__57 __pyx_mstate_global->__pyx_tuple__57
+#define __pyx_tuple__59 __pyx_mstate_global->__pyx_tuple__59
+#define __pyx_tuple__61 __pyx_mstate_global->__pyx_tuple__61
+#define __pyx_tuple__63 __pyx_mstate_global->__pyx_tuple__63
+#define __pyx_tuple__65 __pyx_mstate_global->__pyx_tuple__65
+#define __pyx_tuple__67 __pyx_mstate_global->__pyx_tuple__67
+#define __pyx_tuple__69 __pyx_mstate_global->__pyx_tuple__69
+#define __pyx_tuple__71 __pyx_mstate_global->__pyx_tuple__71
+#define __pyx_tuple__73 __pyx_mstate_global->__pyx_tuple__73
+#define __pyx_tuple__75 __pyx_mstate_global->__pyx_tuple__75
+#define __pyx_tuple__77 __pyx_mstate_global->__pyx_tuple__77
+#define __pyx_tuple__79 __pyx_mstate_global->__pyx_tuple__79
+#define __pyx_tuple__81 __pyx_mstate_global->__pyx_tuple__81
+#define __pyx_codeobj__31 __pyx_mstate_global->__pyx_codeobj__31
+#define __pyx_codeobj__33 __pyx_mstate_global->__pyx_codeobj__33
+#define __pyx_codeobj__35 __pyx_mstate_global->__pyx_codeobj__35
+#define __pyx_codeobj__38 __pyx_mstate_global->__pyx_codeobj__38
+#define __pyx_codeobj__40 __pyx_mstate_global->__pyx_codeobj__40
+#define __pyx_codeobj__42 __pyx_mstate_global->__pyx_codeobj__42
+#define __pyx_codeobj__44 __pyx_mstate_global->__pyx_codeobj__44
+#define __pyx_codeobj__46 __pyx_mstate_global->__pyx_codeobj__46
+#define __pyx_codeobj__48 __pyx_mstate_global->__pyx_codeobj__48
+#define __pyx_codeobj__50 __pyx_mstate_global->__pyx_codeobj__50
+#define __pyx_codeobj__52 __pyx_mstate_global->__pyx_codeobj__52
+#define __pyx_codeobj__54 __pyx_mstate_global->__pyx_codeobj__54
+#define __pyx_codeobj__56 __pyx_mstate_global->__pyx_codeobj__56
+#define __pyx_codeobj__58 __pyx_mstate_global->__pyx_codeobj__58
+#define __pyx_codeobj__60 __pyx_mstate_global->__pyx_codeobj__60
+#define __pyx_codeobj__62 __pyx_mstate_global->__pyx_codeobj__62
+#define __pyx_codeobj__64 __pyx_mstate_global->__pyx_codeobj__64
+#define __pyx_codeobj__66 __pyx_mstate_global->__pyx_codeobj__66
+#define __pyx_codeobj__68 __pyx_mstate_global->__pyx_codeobj__68
+#define __pyx_codeobj__70 __pyx_mstate_global->__pyx_codeobj__70
+#define __pyx_codeobj__72 __pyx_mstate_global->__pyx_codeobj__72
+#define __pyx_codeobj__74 __pyx_mstate_global->__pyx_codeobj__74
+#define __pyx_codeobj__76 __pyx_mstate_global->__pyx_codeobj__76
+#define __pyx_codeobj__78 __pyx_mstate_global->__pyx_codeobj__78
+#define __pyx_codeobj__80 __pyx_mstate_global->__pyx_codeobj__80
+#define __pyx_codeobj__82 __pyx_mstate_global->__pyx_codeobj__82
 /* #### Code section: module_code ### */
 
 /* "eeg_manager.py":12
@@ -5391,27 +5377,19 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED PyOb
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "eeg_manager.py":25
+  /* "eeg_manager.py":24
+ * 
  *         # File management
- *         #base_dir = "C:\\NeuroSync"
- *         base_dir = os.getenv('NEUROSYNC_PATH', 'C:\\NeuroSync')             # <<<<<<<<<<<<<<
+ *         base_dir = "C:\\NeuroSync"             # <<<<<<<<<<<<<<
+ *         #base_dir = os.getenv('NEUROSYNC_PATH', 'C:\\NeuroSync')
  *         self.data_dir = os.path.join(base_dir, 'data')
- *         self.raw_dir = os.path.join(self.data_dir, 'raw')
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_os); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 25, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_getenv); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 25, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 25, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_v_base_dir = __pyx_t_2;
-  __pyx_t_2 = 0;
+  __Pyx_INCREF(__pyx_kp_u_C_NeuroSync);
+  __pyx_v_base_dir = __pyx_kp_u_C_NeuroSync;
 
   /* "eeg_manager.py":26
- *         #base_dir = "C:\\NeuroSync"
- *         base_dir = os.getenv('NEUROSYNC_PATH', 'C:\\NeuroSync')
+ *         base_dir = "C:\\NeuroSync"
+ *         #base_dir = os.getenv('NEUROSYNC_PATH', 'C:\\NeuroSync')
  *         self.data_dir = os.path.join(base_dir, 'data')             # <<<<<<<<<<<<<<
  *         self.raw_dir = os.path.join(self.data_dir, 'raw')
  *         self.processed_dir = os.path.join(self.data_dir, 'processed')
@@ -5450,7 +5428,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED PyOb
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "eeg_manager.py":27
- *         base_dir = os.getenv('NEUROSYNC_PATH', 'C:\\NeuroSync')
+ *         #base_dir = os.getenv('NEUROSYNC_PATH', 'C:\\NeuroSync')
  *         self.data_dir = os.path.join(base_dir, 'data')
  *         self.raw_dir = os.path.join(self.data_dir, 'raw')             # <<<<<<<<<<<<<<
  *         self.processed_dir = os.path.join(self.data_dir, 'processed')
@@ -5915,7 +5893,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED PyOb
             }
             #endif
             {
-              PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_kp_u__2};
+              PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_kp_u_};
               __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
               __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
               if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 43, __pyx_L11_error)
@@ -5989,7 +5967,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager___init__(CYTHON_UNUSED PyOb
       /*finally:*/ {
         /*normal exit:*/{
           if (__pyx_t_10) {
-            __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_tuple__3, NULL);
+            __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_tuple__2, NULL);
             __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
             if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 42, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_13);
@@ -6720,7 +6698,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_2_get_next_session_number(C
                 }
                 #endif
                 {
-                  PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_kp_u__4};
+                  PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_kp_u__3};
                   __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
                   __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
                   if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 89, __pyx_L22_error)
@@ -6852,7 +6830,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_2_get_next_session_number(C
  */
                     __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_7genexpr__pyx_v_x, __pyx_n_s_replace); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L22_error)
                     __Pyx_GOTREF(__pyx_t_4);
-                    __pyx_t_17 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 88, __pyx_L22_error)
+                    __pyx_t_17 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 88, __pyx_L22_error)
                     __Pyx_GOTREF(__pyx_t_17);
                     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
                     __pyx_t_4 = __Pyx_PyNumber_Int(__pyx_t_17); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L22_error)
@@ -6983,7 +6961,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_2_get_next_session_number(C
         /*finally:*/ {
           /*normal exit:*/{
             if (__pyx_t_11) {
-              __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_tuple__3, NULL);
+              __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_tuple__2, NULL);
               __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
               if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 86, __pyx_L3_error)
               __Pyx_GOTREF(__pyx_t_14);
@@ -6995,7 +6973,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_2_get_next_session_number(C
             __pyx_t_14 = __pyx_r;
             __pyx_r = 0;
             if (__pyx_t_11) {
-              __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_tuple__3, NULL);
+              __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_tuple__2, NULL);
               __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
               if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 86, __pyx_L3_error)
               __Pyx_GOTREF(__pyx_t_13);
@@ -7572,7 +7550,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_4initialize_board(CYTHON_UN
  *             return True
  *         except Exception as e:
  */
-      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 108, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 108, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
@@ -8038,7 +8016,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_6stop_stream(CYTHON_UNUSED 
  *                 return True
  *             except Exception as e:
  */
-        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 123, __pyx_L6_error)
+        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 123, __pyx_L6_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
@@ -8688,10 +8666,10 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_8initialize_session(CYTHON_
           __Pyx_GIVEREF(__pyx_t_8);
           PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_8);
           __pyx_t_8 = 0;
-          __Pyx_INCREF(__pyx_kp_u__4);
+          __Pyx_INCREF(__pyx_kp_u__3);
           __pyx_t_3 += 1;
-          __Pyx_GIVEREF(__pyx_kp_u__4);
-          PyTuple_SET_ITEM(__pyx_t_6, 2, __pyx_kp_u__4);
+          __Pyx_GIVEREF(__pyx_kp_u__3);
+          PyTuple_SET_ITEM(__pyx_t_6, 2, __pyx_kp_u__3);
           __pyx_t_8 = __Pyx_PyUnicode_Join(__pyx_t_6, 3, __pyx_t_3, __pyx_t_16); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 145, __pyx_L11_error)
           __Pyx_GOTREF(__pyx_t_8);
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -8785,7 +8763,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_8initialize_session(CYTHON_
     /*finally:*/ {
       /*normal exit:*/{
         if (__pyx_t_12) {
-          __pyx_t_15 = __Pyx_PyObject_Call(__pyx_t_12, __pyx_tuple__3, NULL);
+          __pyx_t_15 = __Pyx_PyObject_Call(__pyx_t_12, __pyx_tuple__2, NULL);
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
           if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 144, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_15);
@@ -9403,7 +9381,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_12start_recording(CYTHON_UN
               }
               #endif
               {
-                PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_n_u__8};
+                PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_n_u__7};
                 __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, 1+__pyx_t_6);
                 __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
                 if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 168, __pyx_L11_error)
@@ -9504,7 +9482,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_12start_recording(CYTHON_UN
               __Pyx_GOTREF(__pyx_t_4);
               __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_v_task, __pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 173, __pyx_L11_error)
               __Pyx_GOTREF(__pyx_t_2);
-              __pyx_t_8 = __Pyx_PyUnicode_ConcatInPlace(__pyx_t_2, __pyx_kp_u__4); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 173, __pyx_L11_error)
+              __pyx_t_8 = __Pyx_PyUnicode_ConcatInPlace(__pyx_t_2, __pyx_kp_u__3); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 173, __pyx_L11_error)
               __Pyx_GOTREF(__pyx_t_8);
               __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
               __pyx_t_2 = NULL;
@@ -9596,7 +9574,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_12start_recording(CYTHON_UN
         /*finally:*/ {
           /*normal exit:*/{
             if (__pyx_t_7) {
-              __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_tuple__3, NULL);
+              __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_tuple__2, NULL);
               __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
               if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 167, __pyx_L1_error)
               __Pyx_GOTREF(__pyx_t_11);
@@ -9913,7 +9891,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_14stop_recording(CYTHON_UNU
  *                 return
  *             eeg_data = data[enabled_channels, :]
  */
-      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 187, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 187, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -9949,9 +9927,9 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_14stop_recording(CYTHON_UNU
     __Pyx_INCREF(__pyx_v_enabled_channels);
     __Pyx_GIVEREF(__pyx_v_enabled_channels);
     if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_enabled_channels)) __PYX_ERR(0, 189, __pyx_L1_error);
-    __Pyx_INCREF(__pyx_slice__10);
-    __Pyx_GIVEREF(__pyx_slice__10);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_slice__10)) __PYX_ERR(0, 189, __pyx_L1_error);
+    __Pyx_INCREF(__pyx_slice__9);
+    __Pyx_GIVEREF(__pyx_slice__9);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_slice__9)) __PYX_ERR(0, 189, __pyx_L1_error);
     __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_v_data, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 189, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -10689,10 +10667,10 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_16save_to_fif(CYTHON_UNUSED
   __Pyx_GIVEREF(__pyx_t_13);
   PyTuple_SET_ITEM(__pyx_t_7, 1, __pyx_t_13);
   __pyx_t_13 = 0;
-  __Pyx_INCREF(__pyx_n_u__8);
+  __Pyx_INCREF(__pyx_n_u__7);
   __pyx_t_5 += 1;
-  __Pyx_GIVEREF(__pyx_n_u__8);
-  PyTuple_SET_ITEM(__pyx_t_7, 2, __pyx_n_u__8);
+  __Pyx_GIVEREF(__pyx_n_u__7);
+  PyTuple_SET_ITEM(__pyx_t_7, 2, __pyx_n_u__7);
   __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 221, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_time); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 221, __pyx_L1_error)
@@ -11254,7 +11232,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_18_read_annotations_file(CY
         /*finally:*/ {
           /*normal exit:*/{
             if (__pyx_t_11) {
-              __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_tuple__3, NULL);
+              __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_tuple__2, NULL);
               __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
               if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 232, __pyx_L3_error)
               __Pyx_GOTREF(__pyx_t_14);
@@ -11448,7 +11426,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_18_read_annotations_file(CY
         }
         #endif
         {
-          PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_n_u__8};
+          PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_n_u__7};
           __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
           if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 241, __pyx_L3_error)
@@ -12022,7 +12000,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_20analyze_session(CYTHON_UN
  * 
  *                 # Parse sample annotations file
  */
-          __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 259, __pyx_L3_error)
+          __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 259, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_5);
           __Pyx_Raise(__pyx_t_5, 0, 0, 0);
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -12301,7 +12279,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_20analyze_session(CYTHON_UN
                   }
                   #endif
                   {
-                    PyObject *__pyx_callargs[2] = {__pyx_t_8, __pyx_n_u__8};
+                    PyObject *__pyx_callargs[2] = {__pyx_t_8, __pyx_n_u__7};
                     __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_9, 1+__pyx_t_9);
                     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
                     if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 270, __pyx_L15_error)
@@ -12495,7 +12473,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_20analyze_session(CYTHON_UN
                       }
                       #endif
                       {
-                        PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_n_u__8};
+                        PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_n_u__7};
                         __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_8, __pyx_callargs+1-__pyx_t_9, 1+__pyx_t_9);
                         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
                         if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 278, __pyx_L15_error)
@@ -12617,7 +12595,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_20analyze_session(CYTHON_UN
           /*finally:*/ {
             /*normal exit:*/{
               if (__pyx_t_11) {
-                __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_tuple__3, NULL);
+                __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_tuple__2, NULL);
                 __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
                 if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 262, __pyx_L3_error)
                 __Pyx_GOTREF(__pyx_t_14);
@@ -12700,7 +12678,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_20analyze_session(CYTHON_UN
  *             print(f"\nTasks from annotations file for session {session_num}:")
  *             print(tasks)
  */
-        __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__12, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 285, __pyx_L3_error)
+        __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 285, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_Raise(__pyx_t_6, 0, 0, 0);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -12737,10 +12715,10 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_20analyze_session(CYTHON_UN
       __Pyx_GIVEREF(__pyx_t_8);
       PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_8);
       __pyx_t_8 = 0;
-      __Pyx_INCREF(__pyx_kp_u__13);
+      __Pyx_INCREF(__pyx_kp_u__12);
       __pyx_t_15 += 1;
-      __Pyx_GIVEREF(__pyx_kp_u__13);
-      PyTuple_SET_ITEM(__pyx_t_6, 2, __pyx_kp_u__13);
+      __Pyx_GIVEREF(__pyx_kp_u__12);
+      PyTuple_SET_ITEM(__pyx_t_6, 2, __pyx_kp_u__12);
       __pyx_t_8 = __Pyx_PyUnicode_Join(__pyx_t_6, 3, __pyx_t_15, __pyx_t_20); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 286, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -12863,7 +12841,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_20analyze_session(CYTHON_UN
  *                 self.raw_data = mne.io.read_raw_fif(sample_file, preload=True)
  *             else:
  */
-          __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__14, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 293, __pyx_L3_error)
+          __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__13, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 293, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_6);
           __Pyx_Raise(__pyx_t_6, 0, 0, 0);
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -13272,7 +13250,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_20analyze_session(CYTHON_UN
  * 
  *                     # Load and combine all files
  */
-            __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__15, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 305, __pyx_L3_error)
+            __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__14, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 305, __pyx_L3_error)
             __Pyx_GOTREF(__pyx_t_8);
             __Pyx_Raise(__pyx_t_8, 0, 0, 0);
             __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -13810,7 +13788,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_20analyze_session(CYTHON_UN
       __pyx_t_8 = __pyx_int_0;
       __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_epochs, __pyx_n_s_events); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 337, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_t_5, __pyx_tuple__16); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 337, __pyx_L3_error)
+      __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_t_5, __pyx_tuple__15); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 337, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       if (likely(PyList_CheckExact(__pyx_t_7)) || PyTuple_CheckExact(__pyx_t_7)) {
@@ -14869,7 +14847,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_24get_enabled_channels(CYTH
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
-  __pyx_t_3 = __Pyx_PyObject_GetSlice(__pyx_t_1, 0, 6, NULL, NULL, &__pyx_slice__17, 0, 1, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 375, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetSlice(__pyx_t_1, 0, 6, NULL, NULL, &__pyx_slice__16, 0, 1, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 375, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_eeg_channels = __pyx_t_3;
@@ -15478,8 +15456,8 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_28validate_channel_name(CYT
  *         # Convert to proper case (first letter capital, rest lowercase)
  */
     __Pyx_XDECREF(__pyx_r);
-    __Pyx_INCREF(__pyx_tuple__18);
-    __pyx_r = __pyx_tuple__18;
+    __Pyx_INCREF(__pyx_tuple__17);
+    __pyx_r = __pyx_tuple__17;
     goto __pyx_L0;
 
     /* "eeg_manager.py":414
@@ -15525,7 +15503,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_28validate_channel_name(CYT
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
-  __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_v_name, 1, 0, NULL, NULL, &__pyx_slice__19, 1, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_v_name, 1, 0, NULL, NULL, &__pyx_slice__18, 1, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 418, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_lower); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 418, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
@@ -15583,8 +15561,8 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_28validate_channel_name(CYT
  *         # Check if it follows 10-20 naming pattern but isn't in our list
  */
     __Pyx_XDECREF(__pyx_r);
-    __Pyx_INCREF(__pyx_tuple__20);
-    __pyx_r = __pyx_tuple__20;
+    __Pyx_INCREF(__pyx_tuple__19);
+    __pyx_r = __pyx_tuple__19;
     goto __pyx_L0;
 
     /* "eeg_manager.py":420
@@ -15662,8 +15640,8 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_28validate_channel_name(CYT
  *         return False, f"Channel name '{name}' is not a standard 10-20 system position"
  */
     __Pyx_XDECREF(__pyx_r);
-    __Pyx_INCREF(__pyx_tuple__22);
-    __pyx_r = __pyx_tuple__22;
+    __Pyx_INCREF(__pyx_tuple__21);
+    __pyx_r = __pyx_tuple__21;
     goto __pyx_L0;
 
     /* "eeg_manager.py":426
@@ -16051,9 +16029,9 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_30get_current_data(CYTHON_U
       __Pyx_INCREF(__pyx_v_enabled_channels);
       __Pyx_GIVEREF(__pyx_v_enabled_channels);
       if (__Pyx_PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_v_enabled_channels)) __PYX_ERR(0, 439, __pyx_L1_error);
-      __Pyx_INCREF(__pyx_slice__10);
-      __Pyx_GIVEREF(__pyx_slice__10);
-      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_slice__10)) __PYX_ERR(0, 439, __pyx_L1_error);
+      __Pyx_INCREF(__pyx_slice__9);
+      __Pyx_GIVEREF(__pyx_slice__9);
+      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_slice__9)) __PYX_ERR(0, 439, __pyx_L1_error);
       __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_v_data, __pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 439, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -16384,7 +16362,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_32stop_session(CYTHON_UNUSE
           }
           #endif
           {
-            PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_n_u__23};
+            PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_n_u__22};
             __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_5, 1+__pyx_t_5);
             __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
             if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 449, __pyx_L8_error)
@@ -16457,7 +16435,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_32stop_session(CYTHON_UNUSE
     /*finally:*/ {
       /*normal exit:*/{
         if (__pyx_t_6) {
-          __pyx_t_10 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL);
+          __pyx_t_10 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__2, NULL);
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 448, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_10);
@@ -16694,7 +16672,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_34combine_fif_files(CYTHON_
  * 
  *         # First, get all raw FIF files for current session
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__24, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 459, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__23, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 459, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -16955,7 +16933,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_34combine_fif_files(CYTHON_
  */
     __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_v_f, __pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 467, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_5 = __Pyx_PyUnicode_Concat(__pyx_kp_u__25, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 467, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyUnicode_Concat(__pyx_kp_u__24, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 467, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 467, __pyx_L1_error)
@@ -16991,7 +16969,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_34combine_fif_files(CYTHON_
  * 
  *         raw_combined = None
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__26, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 470, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__25, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 470, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -17599,7 +17577,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_34combine_fif_files(CYTHON_
       }
       #endif
       {
-        PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_n_u__8};
+        PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_n_u__7};
         __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 505, __pyx_L1_error)
@@ -18292,10 +18270,10 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_38delete_session(CYTHON_UNU
     __Pyx_GIVEREF(__pyx_t_2);
     PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_2);
     __pyx_t_2 = 0;
-    __Pyx_INCREF(__pyx_n_u__8);
+    __Pyx_INCREF(__pyx_n_u__7);
     __pyx_t_8 += 1;
-    __Pyx_GIVEREF(__pyx_n_u__8);
-    PyTuple_SET_ITEM(__pyx_t_1, 2, __pyx_n_u__8);
+    __Pyx_GIVEREF(__pyx_n_u__7);
+    PyTuple_SET_ITEM(__pyx_t_1, 2, __pyx_n_u__7);
     __pyx_t_2 = __Pyx_PyUnicode_Join(__pyx_t_1, 3, __pyx_t_8, __pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 531, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -18995,7 +18973,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_38delete_session(CYTHON_UNU
       /*finally:*/ {
         /*normal exit:*/{
           if (__pyx_t_14) {
-            __pyx_t_17 = __Pyx_PyObject_Call(__pyx_t_14, __pyx_tuple__3, NULL);
+            __pyx_t_17 = __Pyx_PyObject_Call(__pyx_t_14, __pyx_tuple__2, NULL);
             __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
             if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 546, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_17);
@@ -19205,7 +19183,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_38delete_session(CYTHON_UNU
               }
               #endif
               {
-                PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_n_u__8};
+                PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_n_u__7};
                 __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_5, 1+__pyx_t_5);
                 __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
                 if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 555, __pyx_L34_error)
@@ -19365,7 +19343,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_38delete_session(CYTHON_UNU
       /*finally:*/ {
         /*normal exit:*/{
           if (__pyx_t_14) {
-            __pyx_t_15 = __Pyx_PyObject_Call(__pyx_t_14, __pyx_tuple__3, NULL);
+            __pyx_t_15 = __Pyx_PyObject_Call(__pyx_t_14, __pyx_tuple__2, NULL);
             __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
             if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 550, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_15);
@@ -19844,10 +19822,10 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_40delete_all_sessions(CYTHO
             __Pyx_GIVEREF(__pyx_t_17);
             PyTuple_SET_ITEM(__pyx_t_14, 1, __pyx_t_17);
             __pyx_t_17 = 0;
-            __Pyx_INCREF(__pyx_kp_u__27);
+            __Pyx_INCREF(__pyx_kp_u__26);
             __pyx_t_15 += 2;
-            __Pyx_GIVEREF(__pyx_kp_u__27);
-            PyTuple_SET_ITEM(__pyx_t_14, 2, __pyx_kp_u__27);
+            __Pyx_GIVEREF(__pyx_kp_u__26);
+            PyTuple_SET_ITEM(__pyx_t_14, 2, __pyx_kp_u__26);
             __pyx_t_17 = __Pyx_PyObject_FormatSimple(__pyx_v_e, __pyx_empty_unicode); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 569, __pyx_L20_error)
             __Pyx_GOTREF(__pyx_t_17);
             __pyx_t_16 = (__Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_17) > __pyx_t_16) ? __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_17) : __pyx_t_16;
@@ -20045,7 +20023,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_40delete_all_sessions(CYTHO
           }
           #endif
           {
-            PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_kp_u__2};
+            PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_kp_u_};
             __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_6, 1+__pyx_t_6);
             __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
             if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 573, __pyx_L32_error)
@@ -20121,7 +20099,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_40delete_all_sessions(CYTHO
     /*finally:*/ {
       /*normal exit:*/{
         if (__pyx_t_12) {
-          __pyx_t_25 = __Pyx_PyObject_Call(__pyx_t_12, __pyx_tuple__3, NULL);
+          __pyx_t_25 = __Pyx_PyObject_Call(__pyx_t_12, __pyx_tuple__2, NULL);
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
           if (unlikely(!__pyx_t_25)) __PYX_ERR(0, 572, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_25);
@@ -20342,7 +20320,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_42combine_all_fif_files(CYT
  * 
  *         # Get all raw FIF files
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__28, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 581, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__27, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 581, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -20554,7 +20532,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_42combine_all_fif_files(CYT
  */
     __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_v_f, __pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 588, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_5 = __Pyx_PyUnicode_Concat(__pyx_kp_u__25, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 588, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyUnicode_Concat(__pyx_kp_u__24, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 588, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 588, __pyx_L1_error)
@@ -20590,7 +20568,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_42combine_all_fif_files(CYT
  * 
  *         raw_combined = None
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__29, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 591, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__28, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 591, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -20722,7 +20700,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_42combine_all_fif_files(CYT
       }
       #endif
       {
-        PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_n_u__8};
+        PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_n_u__7};
         __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
         if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 603, __pyx_L17_error)
@@ -20735,7 +20713,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_42combine_all_fif_files(CYT
       __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_replace); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 603, __pyx_L17_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 603, __pyx_L17_error)
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 603, __pyx_L17_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __pyx_t_3 = __Pyx_PyNumber_Int(__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 603, __pyx_L17_error)
@@ -21083,7 +21061,7 @@ static PyObject *__pyx_pf_11eeg_manager_10EEGManager_42combine_all_fif_files(CYT
         }
         #endif
         {
-          PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_n_u__8};
+          PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_n_u__7};
           __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 620, __pyx_L1_error)
@@ -23622,6 +23600,7 @@ static PyMethodDef __pyx_methods[] = {
 
 static int __Pyx_CreateStringTabAndInitStrings(void) {
   __Pyx_StringTabEntry __pyx_string_tab[] = {
+    {&__pyx_kp_u_, __pyx_k_, sizeof(__pyx_k_), 0, 1, 0, 0},
     {&__pyx_n_u_A1, __pyx_k_A1, sizeof(__pyx_k_A1), 0, 1, 0, 1},
     {&__pyx_n_u_A2, __pyx_k_A2, sizeof(__pyx_k_A2), 0, 1, 0, 1},
     {&__pyx_n_u_AF3, __pyx_k_AF3, sizeof(__pyx_k_AF3), 0, 1, 0, 1},
@@ -23737,7 +23716,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_u_Loading, __pyx_k_Loading, sizeof(__pyx_k_Loading), 0, 1, 0, 0},
     {&__pyx_n_u_M1, __pyx_k_M1, sizeof(__pyx_k_M1), 0, 1, 0, 1},
     {&__pyx_n_u_M2, __pyx_k_M2, sizeof(__pyx_k_M2), 0, 1, 0, 1},
-    {&__pyx_n_u_NEUROSYNC_PATH, __pyx_k_NEUROSYNC_PATH, sizeof(__pyx_k_NEUROSYNC_PATH), 0, 1, 0, 1},
     {&__pyx_kp_u_No_FIF_files_found, __pyx_k_No_FIF_files_found, sizeof(__pyx_k_No_FIF_files_found), 0, 1, 0, 0},
     {&__pyx_kp_u_No_FIF_files_found_for_current_s, __pyx_k_No_FIF_files_found_for_current_s, sizeof(__pyx_k_No_FIF_files_found_for_current_s), 0, 1, 0, 0},
     {&__pyx_kp_u_No_channels_enabled_skipping_sav, __pyx_k_No_channels_enabled_skipping_sav, sizeof(__pyx_k_No_channels_enabled_skipping_sav), 0, 1, 0, 0},
@@ -23797,16 +23775,15 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_VALID_CHANNELS, __pyx_k_VALID_CHANNELS, sizeof(__pyx_k_VALID_CHANNELS), 0, 0, 1, 1},
     {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
     {&__pyx_n_s_X, __pyx_k_X, sizeof(__pyx_k_X), 0, 0, 1, 1},
-    {&__pyx_kp_u__13, __pyx_k__13, sizeof(__pyx_k__13), 0, 1, 0, 0},
-    {&__pyx_kp_u__2, __pyx_k__2, sizeof(__pyx_k__2), 0, 1, 0, 0},
-    {&__pyx_n_s__21, __pyx_k__21, sizeof(__pyx_k__21), 0, 0, 1, 1},
-    {&__pyx_n_u__23, __pyx_k__23, sizeof(__pyx_k__23), 0, 1, 0, 1},
-    {&__pyx_kp_u__25, __pyx_k__25, sizeof(__pyx_k__25), 0, 1, 0, 0},
-    {&__pyx_kp_u__27, __pyx_k__27, sizeof(__pyx_k__27), 0, 1, 0, 0},
-    {&__pyx_kp_u__30, __pyx_k__30, sizeof(__pyx_k__30), 0, 1, 0, 0},
-    {&__pyx_kp_u__4, __pyx_k__4, sizeof(__pyx_k__4), 0, 1, 0, 0},
-    {&__pyx_n_u__8, __pyx_k__8, sizeof(__pyx_k__8), 0, 1, 0, 1},
-    {&__pyx_n_s__84, __pyx_k__84, sizeof(__pyx_k__84), 0, 0, 1, 1},
+    {&__pyx_kp_u__12, __pyx_k__12, sizeof(__pyx_k__12), 0, 1, 0, 0},
+    {&__pyx_n_s__20, __pyx_k__20, sizeof(__pyx_k__20), 0, 0, 1, 1},
+    {&__pyx_n_u__22, __pyx_k__22, sizeof(__pyx_k__22), 0, 1, 0, 1},
+    {&__pyx_kp_u__24, __pyx_k__24, sizeof(__pyx_k__24), 0, 1, 0, 0},
+    {&__pyx_kp_u__26, __pyx_k__26, sizeof(__pyx_k__26), 0, 1, 0, 0},
+    {&__pyx_kp_u__29, __pyx_k__29, sizeof(__pyx_k__29), 0, 1, 0, 0},
+    {&__pyx_kp_u__3, __pyx_k__3, sizeof(__pyx_k__3), 0, 1, 0, 0},
+    {&__pyx_n_u__7, __pyx_k__7, sizeof(__pyx_k__7), 0, 1, 0, 1},
+    {&__pyx_n_s__83, __pyx_k__83, sizeof(__pyx_k__83), 0, 0, 1, 1},
     {&__pyx_kp_u_a, __pyx_k_a, sizeof(__pyx_k_a), 0, 1, 0, 0},
     {&__pyx_n_s_all_channels, __pyx_k_all_channels, sizeof(__pyx_k_all_channels), 0, 0, 1, 1},
     {&__pyx_n_s_all_descriptions, __pyx_k_all_descriptions, sizeof(__pyx_k_all_descriptions), 0, 0, 1, 1},
@@ -23912,7 +23889,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_get_next_task, __pyx_k_get_next_task, sizeof(__pyx_k_get_next_task), 0, 0, 1, 1},
     {&__pyx_n_s_get_sample_files, __pyx_k_get_sample_files, sizeof(__pyx_k_get_sample_files), 0, 0, 1, 1},
     {&__pyx_n_s_get_sampling_rate, __pyx_k_get_sampling_rate, sizeof(__pyx_k_get_sampling_rate), 0, 0, 1, 1},
-    {&__pyx_n_s_getenv, __pyx_k_getenv, sizeof(__pyx_k_getenv), 0, 0, 1, 1},
     {&__pyx_n_u_hand, __pyx_k_hand, sizeof(__pyx_k_hand), 0, 1, 0, 1},
     {&__pyx_n_s_i, __pyx_k_i, sizeof(__pyx_k_i), 0, 0, 1, 1},
     {&__pyx_n_s_idx, __pyx_k_idx, sizeof(__pyx_k_idx), 0, 0, 1, 1},
@@ -24098,17 +24074,6 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "eeg_manager.py":25
- *         # File management
- *         #base_dir = "C:\\NeuroSync"
- *         base_dir = os.getenv('NEUROSYNC_PATH', 'C:\\NeuroSync')             # <<<<<<<<<<<<<<
- *         self.data_dir = os.path.join(base_dir, 'data')
- *         self.raw_dir = os.path.join(self.data_dir, 'raw')
- */
-  __pyx_tuple_ = PyTuple_Pack(2, __pyx_n_u_NEUROSYNC_PATH, __pyx_kp_u_C_NeuroSync); if (unlikely(!__pyx_tuple_)) __PYX_ERR(0, 25, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple_);
-  __Pyx_GIVEREF(__pyx_tuple_);
-
   /* "eeg_manager.py":42
  *         # Create empty annotation file if it doesn't exist
  *         if not os.path.exists(self.annotation_file):
@@ -24116,9 +24081,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *                 f.write('')
  * 
  */
-  __pyx_tuple__3 = PyTuple_Pack(3, Py_None, Py_None, Py_None); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 42, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__3);
-  __Pyx_GIVEREF(__pyx_tuple__3);
+  __pyx_tuple__2 = PyTuple_Pack(3, Py_None, Py_None, Py_None); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(0, 42, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__2);
+  __Pyx_GIVEREF(__pyx_tuple__2);
 
   /* "eeg_manager.py":88
  *             with open(self.annotation_file, 'r') as f:
@@ -24127,9 +24092,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *                           for x in content.split('\n')
  *                           if x.strip().startswith('session')]
  */
-  __pyx_tuple__5 = PyTuple_Pack(2, __pyx_n_u_session, __pyx_kp_u__2); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__5);
-  __Pyx_GIVEREF(__pyx_tuple__5);
+  __pyx_tuple__4 = PyTuple_Pack(2, __pyx_n_u_session, __pyx_kp_u_); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__4);
+  __Pyx_GIVEREF(__pyx_tuple__4);
 
   /* "eeg_manager.py":108
  *             self.board.start_stream()
@@ -24138,9 +24103,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *             return True
  *         except Exception as e:
  */
-  __pyx_tuple__6 = PyTuple_Pack(1, __pyx_kp_u_Board_initialized_successfully); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(0, 108, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__6);
-  __Pyx_GIVEREF(__pyx_tuple__6);
+  __pyx_tuple__5 = PyTuple_Pack(1, __pyx_kp_u_Board_initialized_successfully); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 108, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__5);
+  __Pyx_GIVEREF(__pyx_tuple__5);
 
   /* "eeg_manager.py":123
  *                 self.board = None
@@ -24149,9 +24114,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *                 return True
  *             except Exception as e:
  */
-  __pyx_tuple__7 = PyTuple_Pack(1, __pyx_kp_u_Board_streaming_stopped); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 123, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__7);
-  __Pyx_GIVEREF(__pyx_tuple__7);
+  __pyx_tuple__6 = PyTuple_Pack(1, __pyx_kp_u_Board_streaming_stopped); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(0, 123, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__6);
+  __Pyx_GIVEREF(__pyx_tuple__6);
 
   /* "eeg_manager.py":187
  *             enabled_channels = self.get_enabled_channels()
@@ -24160,9 +24125,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *                 return
  *             eeg_data = data[enabled_channels, :]
  */
-  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_u_No_channels_enabled_skipping_sav); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(0, 187, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__9);
-  __Pyx_GIVEREF(__pyx_tuple__9);
+  __pyx_tuple__8 = PyTuple_Pack(1, __pyx_kp_u_No_channels_enabled_skipping_sav); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(0, 187, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__8);
+  __Pyx_GIVEREF(__pyx_tuple__8);
 
   /* "eeg_manager.py":189
  *                 print("No channels enabled, skipping save")
@@ -24171,9 +24136,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *             # Save as FIF file
  */
-  __pyx_slice__10 = PySlice_New(Py_None, Py_None, Py_None); if (unlikely(!__pyx_slice__10)) __PYX_ERR(0, 189, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_slice__10);
-  __Pyx_GIVEREF(__pyx_slice__10);
+  __pyx_slice__9 = PySlice_New(Py_None, Py_None, Py_None); if (unlikely(!__pyx_slice__9)) __PYX_ERR(0, 189, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_slice__9);
+  __Pyx_GIVEREF(__pyx_slice__9);
 
   /* "eeg_manager.py":259
  *                 sample_annotations = os.path.join(self.sample_dir, 'annotations.txt')
@@ -24182,9 +24147,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *                 # Parse sample annotations file
  */
-  __pyx_tuple__11 = PyTuple_Pack(1, __pyx_kp_u_Sample_annotations_file_not_foun); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(0, 259, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__11);
-  __Pyx_GIVEREF(__pyx_tuple__11);
+  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_u_Sample_annotations_file_not_foun); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(0, 259, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__10);
+  __Pyx_GIVEREF(__pyx_tuple__10);
 
   /* "eeg_manager.py":285
  * 
@@ -24193,9 +24158,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *             print(f"\nTasks from annotations file for session {session_num}:")
  *             print(tasks)
  */
-  __pyx_tuple__12 = PyTuple_Pack(1, __pyx_kp_u_No_tasks_found_for_this_session); if (unlikely(!__pyx_tuple__12)) __PYX_ERR(0, 285, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__12);
-  __Pyx_GIVEREF(__pyx_tuple__12);
+  __pyx_tuple__11 = PyTuple_Pack(1, __pyx_kp_u_No_tasks_found_for_this_session); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(0, 285, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__11);
+  __Pyx_GIVEREF(__pyx_tuple__11);
 
   /* "eeg_manager.py":293
  *                 sample_file = os.path.join(self.sample_dir, 'formatted', 'S03.fif')
@@ -24204,9 +24169,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *                 self.raw_data = mne.io.read_raw_fif(sample_file, preload=True)
  *             else:
  */
-  __pyx_tuple__14 = PyTuple_Pack(1, __pyx_kp_u_Sample_data_file_S03_fif_not_fou); if (unlikely(!__pyx_tuple__14)) __PYX_ERR(0, 293, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__14);
-  __Pyx_GIVEREF(__pyx_tuple__14);
+  __pyx_tuple__13 = PyTuple_Pack(1, __pyx_kp_u_Sample_data_file_S03_fif_not_fou); if (unlikely(!__pyx_tuple__13)) __PYX_ERR(0, 293, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__13);
+  __Pyx_GIVEREF(__pyx_tuple__13);
 
   /* "eeg_manager.py":305
  *                                       if f'session{session_num}' in f and f.endswith('_raw.fif')])
@@ -24215,9 +24180,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *                     # Load and combine all files
  */
-  __pyx_tuple__15 = PyTuple_Pack(1, __pyx_kp_u_No_recording_files_found_for_thi); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(0, 305, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__15);
-  __Pyx_GIVEREF(__pyx_tuple__15);
+  __pyx_tuple__14 = PyTuple_Pack(1, __pyx_kp_u_No_recording_files_found_for_thi); if (unlikely(!__pyx_tuple__14)) __PYX_ERR(0, 305, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__14);
+  __Pyx_GIVEREF(__pyx_tuple__14);
 
   /* "eeg_manager.py":337
  * 
@@ -24226,9 +24191,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *                 event_name = None
  *                 for name, value in event_id.items():
  */
-  __pyx_tuple__16 = PyTuple_Pack(2, __pyx_slice__10, __pyx_int_neg_1); if (unlikely(!__pyx_tuple__16)) __PYX_ERR(0, 337, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__16);
-  __Pyx_GIVEREF(__pyx_tuple__16);
+  __pyx_tuple__15 = PyTuple_Pack(2, __pyx_slice__9, __pyx_int_neg_1); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(0, 337, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__15);
+  __Pyx_GIVEREF(__pyx_tuple__15);
 
   /* "eeg_manager.py":375
  *         """Get list of enabled channel indices"""
@@ -24237,9 +24202,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         return [ch_idx for i, ch_idx in enumerate(eeg_channels)
  *                 if self.channel_states[all_channels[i]]]
  */
-  __pyx_slice__17 = PySlice_New(Py_None, __pyx_int_6, Py_None); if (unlikely(!__pyx_slice__17)) __PYX_ERR(0, 375, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_slice__17);
-  __Pyx_GIVEREF(__pyx_slice__17);
+  __pyx_slice__16 = PySlice_New(Py_None, __pyx_int_6, Py_None); if (unlikely(!__pyx_slice__16)) __PYX_ERR(0, 375, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_slice__16);
+  __Pyx_GIVEREF(__pyx_slice__16);
 
   /* "eeg_manager.py":415
  *         name = name.strip()
@@ -24248,9 +24213,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         # Convert to proper case (first letter capital, rest lowercase)
  */
-  __pyx_tuple__18 = PyTuple_Pack(2, Py_False, __pyx_kp_u_Channel_name_cannot_be_empty); if (unlikely(!__pyx_tuple__18)) __PYX_ERR(0, 415, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__18);
-  __Pyx_GIVEREF(__pyx_tuple__18);
+  __pyx_tuple__17 = PyTuple_Pack(2, Py_False, __pyx_kp_u_Channel_name_cannot_be_empty); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(0, 415, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__17);
+  __Pyx_GIVEREF(__pyx_tuple__17);
 
   /* "eeg_manager.py":418
  * 
@@ -24259,9 +24224,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         if formatted_name in EEGManager.VALID_CHANNELS:
  */
-  __pyx_slice__19 = PySlice_New(__pyx_int_1, Py_None, Py_None); if (unlikely(!__pyx_slice__19)) __PYX_ERR(0, 418, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_slice__19);
-  __Pyx_GIVEREF(__pyx_slice__19);
+  __pyx_slice__18 = PySlice_New(__pyx_int_1, Py_None, Py_None); if (unlikely(!__pyx_slice__18)) __PYX_ERR(0, 418, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_slice__18);
+  __Pyx_GIVEREF(__pyx_slice__18);
 
   /* "eeg_manager.py":421
  * 
@@ -24270,9 +24235,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         # Check if it follows 10-20 naming pattern but isn't in our list
  */
-  __pyx_tuple__20 = PyTuple_Pack(2, Py_True, __pyx_kp_u__2); if (unlikely(!__pyx_tuple__20)) __PYX_ERR(0, 421, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__20);
-  __Pyx_GIVEREF(__pyx_tuple__20);
+  __pyx_tuple__19 = PyTuple_Pack(2, Py_True, __pyx_kp_u_); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(0, 421, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__19);
+  __Pyx_GIVEREF(__pyx_tuple__19);
 
   /* "eeg_manager.py":427
  *         pattern = r'^[A-Za-z]+\d*$'
@@ -24281,9 +24246,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         return False, f"Channel name '{name}' is not a standard 10-20 system position"
  */
-  __pyx_tuple__22 = PyTuple_Pack(2, Py_False, __pyx_kp_u_Invalid_channel_name_format); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(0, 427, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__22);
-  __Pyx_GIVEREF(__pyx_tuple__22);
+  __pyx_tuple__21 = PyTuple_Pack(2, Py_False, __pyx_kp_u_Invalid_channel_name_format); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(0, 427, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__21);
+  __Pyx_GIVEREF(__pyx_tuple__21);
 
   /* "eeg_manager.py":459
  *     def combine_fif_files(self):
@@ -24292,9 +24257,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         # First, get all raw FIF files for current session
  */
-  __pyx_tuple__24 = PyTuple_Pack(1, __pyx_kp_u_Starting_File_Combination_Proce); if (unlikely(!__pyx_tuple__24)) __PYX_ERR(0, 459, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__24);
-  __Pyx_GIVEREF(__pyx_tuple__24);
+  __pyx_tuple__23 = PyTuple_Pack(1, __pyx_kp_u_Starting_File_Combination_Proce); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(0, 459, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__23);
+  __Pyx_GIVEREF(__pyx_tuple__23);
 
   /* "eeg_manager.py":470
  * 
@@ -24303,9 +24268,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         raw_combined = None
  */
-  __pyx_tuple__26 = PyTuple_Pack(1, __pyx_kp_u_No_FIF_files_found_for_current_s); if (unlikely(!__pyx_tuple__26)) __PYX_ERR(0, 470, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__26);
-  __Pyx_GIVEREF(__pyx_tuple__26);
+  __pyx_tuple__25 = PyTuple_Pack(1, __pyx_kp_u_No_FIF_files_found_for_current_s); if (unlikely(!__pyx_tuple__25)) __PYX_ERR(0, 470, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__25);
+  __Pyx_GIVEREF(__pyx_tuple__25);
 
   /* "eeg_manager.py":581
  *     def combine_all_fif_files(self):
@@ -24314,9 +24279,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         # Get all raw FIF files
  */
-  __pyx_tuple__28 = PyTuple_Pack(1, __pyx_kp_u_Starting_All_Sessions_File_Comb); if (unlikely(!__pyx_tuple__28)) __PYX_ERR(0, 581, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__28);
-  __Pyx_GIVEREF(__pyx_tuple__28);
+  __pyx_tuple__27 = PyTuple_Pack(1, __pyx_kp_u_Starting_All_Sessions_File_Comb); if (unlikely(!__pyx_tuple__27)) __PYX_ERR(0, 581, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__27);
+  __Pyx_GIVEREF(__pyx_tuple__27);
 
   /* "eeg_manager.py":591
  * 
@@ -24325,9 +24290,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         raw_combined = None
  */
-  __pyx_tuple__29 = PyTuple_Pack(1, __pyx_kp_u_No_FIF_files_found); if (unlikely(!__pyx_tuple__29)) __PYX_ERR(0, 591, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__29);
-  __Pyx_GIVEREF(__pyx_tuple__29);
+  __pyx_tuple__28 = PyTuple_Pack(1, __pyx_kp_u_No_FIF_files_found); if (unlikely(!__pyx_tuple__28)) __PYX_ERR(0, 591, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__28);
+  __Pyx_GIVEREF(__pyx_tuple__28);
 
   /* "eeg_manager.py":12
  * 
@@ -24336,10 +24301,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         # Board setup
  *         self.board = None
  */
-  __pyx_tuple__31 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_base_dir, __pyx_n_s_directory, __pyx_n_s_f); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(0, 12, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__31);
-  __Pyx_GIVEREF(__pyx_tuple__31);
-  __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_init, 12, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) __PYX_ERR(0, 12, __pyx_L1_error)
+  __pyx_tuple__30 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_base_dir, __pyx_n_s_directory, __pyx_n_s_f); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(0, 12, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__30);
+  __Pyx_GIVEREF(__pyx_tuple__30);
+  __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_init, 12, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) __PYX_ERR(0, 12, __pyx_L1_error)
 
   /* "eeg_manager.py":80
  *         self.api_url = "your-vercel-deployment-url/api"
@@ -24348,10 +24313,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Determine the next available session number from annotations file"""
  *         try:
  */
-  __pyx_tuple__33 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_f, __pyx_n_s_content, __pyx_n_s_sessions, __pyx_n_s_e, __pyx_n_s_x); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(0, 80, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__33);
-  __Pyx_GIVEREF(__pyx_tuple__33);
-  __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_next_session_number, 80, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_tuple__32 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_f, __pyx_n_s_content, __pyx_n_s_sessions, __pyx_n_s_e, __pyx_n_s_x); if (unlikely(!__pyx_tuple__32)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__32);
+  __Pyx_GIVEREF(__pyx_tuple__32);
+  __pyx_codeobj__33 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_next_session_number, 80, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__33)) __PYX_ERR(0, 80, __pyx_L1_error)
 
   /* "eeg_manager.py":96
  *             return 1
@@ -24360,13 +24325,13 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Initialize OpenBCI board"""
  *         try:
  */
-  __pyx_tuple__35 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_port, __pyx_n_s_params, __pyx_n_s_e); if (unlikely(!__pyx_tuple__35)) __PYX_ERR(0, 96, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__35);
-  __Pyx_GIVEREF(__pyx_tuple__35);
-  __pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__35, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_initialize_board, 96, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__36)) __PYX_ERR(0, 96, __pyx_L1_error)
-  __pyx_tuple__37 = PyTuple_Pack(1, ((PyObject*)__pyx_n_u_COM9)); if (unlikely(!__pyx_tuple__37)) __PYX_ERR(0, 96, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__37);
-  __Pyx_GIVEREF(__pyx_tuple__37);
+  __pyx_tuple__34 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_port, __pyx_n_s_params, __pyx_n_s_e); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__34);
+  __Pyx_GIVEREF(__pyx_tuple__34);
+  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_initialize_board, 96, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_tuple__36 = PyTuple_Pack(1, ((PyObject*)__pyx_n_u_COM9)); if (unlikely(!__pyx_tuple__36)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__36);
+  __Pyx_GIVEREF(__pyx_tuple__36);
 
   /* "eeg_manager.py":115
  *             return False
@@ -24375,10 +24340,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Stop board streaming"""
  *         if self.board and self.is_streaming:
  */
-  __pyx_tuple__38 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_e); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(0, 115, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__38);
-  __Pyx_GIVEREF(__pyx_tuple__38);
-  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_stop_stream, 115, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 115, __pyx_L1_error)
+  __pyx_tuple__37 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_e); if (unlikely(!__pyx_tuple__37)) __PYX_ERR(0, 115, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__37);
+  __Pyx_GIVEREF(__pyx_tuple__37);
+  __pyx_codeobj__38 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__37, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_stop_stream, 115, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__38)) __PYX_ERR(0, 115, __pyx_L1_error)
 
   /* "eeg_manager.py":130
  *         return True
@@ -24387,10 +24352,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Initialize a new recording session"""
  *         self.current_session_num = session_num
  */
-  __pyx_tuple__40 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_task_name, __pyx_n_s_instruction, __pyx_n_s_count, __pyx_n_s_f); if (unlikely(!__pyx_tuple__40)) __PYX_ERR(0, 130, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__40);
-  __Pyx_GIVEREF(__pyx_tuple__40);
-  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_initialize_session, 130, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) __PYX_ERR(0, 130, __pyx_L1_error)
+  __pyx_tuple__39 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_task_name, __pyx_n_s_instruction, __pyx_n_s_count, __pyx_n_s_f); if (unlikely(!__pyx_tuple__39)) __PYX_ERR(0, 130, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__39);
+  __Pyx_GIVEREF(__pyx_tuple__39);
+  __pyx_codeobj__40 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__39, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_initialize_session, 130, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__40)) __PYX_ERR(0, 130, __pyx_L1_error)
 
   /* "eeg_manager.py":149
  *         return True
@@ -24399,10 +24364,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Get next task in sequence"""
  *         if self.current_task_index < len(self.task_sequence):
  */
-  __pyx_tuple__42 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_task); if (unlikely(!__pyx_tuple__42)) __PYX_ERR(0, 149, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__42);
-  __Pyx_GIVEREF(__pyx_tuple__42);
-  __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__42, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_next_task, 149, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) __PYX_ERR(0, 149, __pyx_L1_error)
+  __pyx_tuple__41 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_task); if (unlikely(!__pyx_tuple__41)) __PYX_ERR(0, 149, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__41);
+  __Pyx_GIVEREF(__pyx_tuple__41);
+  __pyx_codeobj__42 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_next_task, 149, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__42)) __PYX_ERR(0, 149, __pyx_L1_error)
 
   /* "eeg_manager.py":157
  *         return None
@@ -24411,10 +24376,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Start recording current task"""
  *         if self.board and self.is_streaming:
  */
-  __pyx_tuple__44 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_task_name, __pyx_n_s_f, __pyx_n_s_task); if (unlikely(!__pyx_tuple__44)) __PYX_ERR(0, 157, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__44);
-  __Pyx_GIVEREF(__pyx_tuple__44);
-  __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__44, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_start_recording, 157, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) __PYX_ERR(0, 157, __pyx_L1_error)
+  __pyx_tuple__43 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_task_name, __pyx_n_s_f, __pyx_n_s_task); if (unlikely(!__pyx_tuple__43)) __PYX_ERR(0, 157, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__43);
+  __Pyx_GIVEREF(__pyx_tuple__43);
+  __pyx_codeobj__44 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__43, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_start_recording, 157, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__44)) __PYX_ERR(0, 157, __pyx_L1_error)
 
   /* "eeg_manager.py":178
  *         return False
@@ -24423,10 +24388,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Stop recording and save data"""
  *         if self.is_recording:
  */
-  __pyx_tuple__46 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_data, __pyx_n_s_enabled_channels, __pyx_n_s_eeg_data); if (unlikely(!__pyx_tuple__46)) __PYX_ERR(0, 178, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__46);
-  __Pyx_GIVEREF(__pyx_tuple__46);
-  __pyx_codeobj__47 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__46, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_stop_recording, 178, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__47)) __PYX_ERR(0, 178, __pyx_L1_error)
+  __pyx_tuple__45 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_data, __pyx_n_s_enabled_channels, __pyx_n_s_eeg_data); if (unlikely(!__pyx_tuple__45)) __PYX_ERR(0, 178, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__45);
+  __Pyx_GIVEREF(__pyx_tuple__45);
+  __pyx_codeobj__46 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__45, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_stop_recording, 178, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__46)) __PYX_ERR(0, 178, __pyx_L1_error)
 
   /* "eeg_manager.py":194
  *             self.save_to_fif(eeg_data)
@@ -24435,10 +24400,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Save EEG data as FIF file"""
  *         # Only use names of enabled channels
  */
-  __pyx_tuple__48 = PyTuple_Pack(12, __pyx_n_s_self, __pyx_n_s_eeg_data, __pyx_n_s_all_channels, __pyx_n_s_enabled_indices, __pyx_n_s_ch_names, __pyx_n_s_i, __pyx_n_s_ch_idx, __pyx_n_s_sfreq, __pyx_n_s_info, __pyx_n_s_raw, __pyx_n_s_montage, __pyx_n_s_filename); if (unlikely(!__pyx_tuple__48)) __PYX_ERR(0, 194, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__48);
-  __Pyx_GIVEREF(__pyx_tuple__48);
-  __pyx_codeobj__49 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 12, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__48, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_save_to_fif, 194, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__49)) __PYX_ERR(0, 194, __pyx_L1_error)
+  __pyx_tuple__47 = PyTuple_Pack(12, __pyx_n_s_self, __pyx_n_s_eeg_data, __pyx_n_s_all_channels, __pyx_n_s_enabled_indices, __pyx_n_s_ch_names, __pyx_n_s_i, __pyx_n_s_ch_idx, __pyx_n_s_sfreq, __pyx_n_s_info, __pyx_n_s_raw, __pyx_n_s_montage, __pyx_n_s_filename); if (unlikely(!__pyx_tuple__47)) __PYX_ERR(0, 194, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__47);
+  __Pyx_GIVEREF(__pyx_tuple__47);
+  __pyx_codeobj__48 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 12, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__47, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_save_to_fif, 194, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__48)) __PYX_ERR(0, 194, __pyx_L1_error)
 
   /* "eeg_manager.py":226
  *         return raw
@@ -24447,10 +24412,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Read tasks from annotations file for a specific session"""
  *         try:
  */
-  __pyx_tuple__50 = PyTuple_Pack(8, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_f, __pyx_n_s_lines, __pyx_n_s_tasks, __pyx_n_s_in_session, __pyx_n_s_line, __pyx_n_s_e); if (unlikely(!__pyx_tuple__50)) __PYX_ERR(0, 226, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__50);
-  __Pyx_GIVEREF(__pyx_tuple__50);
-  __pyx_codeobj__51 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 8, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__50, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_read_annotations_file, 226, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__51)) __PYX_ERR(0, 226, __pyx_L1_error)
+  __pyx_tuple__49 = PyTuple_Pack(8, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_f, __pyx_n_s_lines, __pyx_n_s_tasks, __pyx_n_s_in_session, __pyx_n_s_line, __pyx_n_s_e); if (unlikely(!__pyx_tuple__49)) __PYX_ERR(0, 226, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__49);
+  __Pyx_GIVEREF(__pyx_tuple__49);
+  __pyx_codeobj__50 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 8, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__49, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_read_annotations_file, 226, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__50)) __PYX_ERR(0, 226, __pyx_L1_error)
 
   /* "eeg_manager.py":251
  *             return []
@@ -24459,10 +24424,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Analyze recorded session data"""
  *         try:
  */
-  __pyx_tuple__52 = PyTuple_Pack(39, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_sample_annotations, __pyx_n_s_f, __pyx_n_s_lines, __pyx_n_s_tasks, __pyx_n_s_in_session, __pyx_n_s_line, __pyx_n_s_task, __pyx_n_s_sample_file, __pyx_n_s_combined_file, __pyx_n_s_raw_files_2, __pyx_n_s_raw_combined, __pyx_n_s_raw_file, __pyx_n_s_raw, __pyx_n_s_events, __pyx_n_s_epochs, __pyx_n_s_X, __pyx_n_s_unique_events, __pyx_n_s_event_mapping, __pyx_n_s_event_id, __pyx_n_s_y, __pyx_n_s_i, __pyx_n_s_event, __pyx_n_s_event_name, __pyx_n_s_name, __pyx_n_s_value, __pyx_n_s_patterns_2, __pyx_n_s_class_names, __pyx_n_s_n_components, __pyx_n_s_class_idx, __pyx_n_s_binary_y, __pyx_n_s_csp, __pyx_n_s_e, __pyx_n_s_f, __pyx_n_s_idx, __pyx_n_s_event, __pyx_n_s_i, __pyx_n_s_task); if (unlikely(!__pyx_tuple__52)) __PYX_ERR(0, 251, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__52);
-  __Pyx_GIVEREF(__pyx_tuple__52);
-  __pyx_codeobj__53 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 39, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__52, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_analyze_session, 251, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__53)) __PYX_ERR(0, 251, __pyx_L1_error)
+  __pyx_tuple__51 = PyTuple_Pack(39, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_sample_annotations, __pyx_n_s_f, __pyx_n_s_lines, __pyx_n_s_tasks, __pyx_n_s_in_session, __pyx_n_s_line, __pyx_n_s_task, __pyx_n_s_sample_file, __pyx_n_s_combined_file, __pyx_n_s_raw_files_2, __pyx_n_s_raw_combined, __pyx_n_s_raw_file, __pyx_n_s_raw, __pyx_n_s_events, __pyx_n_s_epochs, __pyx_n_s_X, __pyx_n_s_unique_events, __pyx_n_s_event_mapping, __pyx_n_s_event_id, __pyx_n_s_y, __pyx_n_s_i, __pyx_n_s_event, __pyx_n_s_event_name, __pyx_n_s_name, __pyx_n_s_value, __pyx_n_s_patterns_2, __pyx_n_s_class_names, __pyx_n_s_n_components, __pyx_n_s_class_idx, __pyx_n_s_binary_y, __pyx_n_s_csp, __pyx_n_s_e, __pyx_n_s_f, __pyx_n_s_idx, __pyx_n_s_event, __pyx_n_s_i, __pyx_n_s_task); if (unlikely(!__pyx_tuple__51)) __PYX_ERR(0, 251, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__51);
+  __Pyx_GIVEREF(__pyx_tuple__51);
+  __pyx_codeobj__52 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 39, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__51, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_analyze_session, 251, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__52)) __PYX_ERR(0, 251, __pyx_L1_error)
 
   /* "eeg_manager.py":368
  *             raise
@@ -24471,10 +24436,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Enable/disable a channel"""
  *         self.channel_states[channel_name] = enabled
  */
-  __pyx_tuple__54 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_channel_name, __pyx_n_s_enabled); if (unlikely(!__pyx_tuple__54)) __PYX_ERR(0, 368, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__54);
-  __Pyx_GIVEREF(__pyx_tuple__54);
-  __pyx_codeobj__55 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__54, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_set_channel_state, 368, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__55)) __PYX_ERR(0, 368, __pyx_L1_error)
+  __pyx_tuple__53 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_channel_name, __pyx_n_s_enabled); if (unlikely(!__pyx_tuple__53)) __PYX_ERR(0, 368, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__53);
+  __Pyx_GIVEREF(__pyx_tuple__53);
+  __pyx_codeobj__54 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__53, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_set_channel_state, 368, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__54)) __PYX_ERR(0, 368, __pyx_L1_error)
 
   /* "eeg_manager.py":372
  *         self.channel_states[channel_name] = enabled
@@ -24483,10 +24448,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Get list of enabled channel indices"""
  *         all_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
  */
-  __pyx_tuple__56 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_all_channels, __pyx_n_s_eeg_channels, __pyx_n_s_i, __pyx_n_s_ch_idx); if (unlikely(!__pyx_tuple__56)) __PYX_ERR(0, 372, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__56);
-  __Pyx_GIVEREF(__pyx_tuple__56);
-  __pyx_codeobj__57 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__56, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_enabled_channels, 372, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__57)) __PYX_ERR(0, 372, __pyx_L1_error)
+  __pyx_tuple__55 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_all_channels, __pyx_n_s_eeg_channels, __pyx_n_s_i, __pyx_n_s_ch_idx); if (unlikely(!__pyx_tuple__55)) __PYX_ERR(0, 372, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__55);
+  __Pyx_GIVEREF(__pyx_tuple__55);
+  __pyx_codeobj__56 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__55, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_enabled_channels, 372, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__56)) __PYX_ERR(0, 372, __pyx_L1_error)
 
   /* "eeg_manager.py":379
  *                 if self.channel_states[all_channels[i]]]
@@ -24495,10 +24460,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Get channel positions in 2D for topographic plotting"""
  *         positions = {
  */
-  __pyx_tuple__58 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_positions); if (unlikely(!__pyx_tuple__58)) __PYX_ERR(0, 379, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__58);
-  __Pyx_GIVEREF(__pyx_tuple__58);
-  __pyx_codeobj__59 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__58, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_channel_positions, 379, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__59)) __PYX_ERR(0, 379, __pyx_L1_error)
+  __pyx_tuple__57 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_positions); if (unlikely(!__pyx_tuple__57)) __PYX_ERR(0, 379, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__57);
+  __Pyx_GIVEREF(__pyx_tuple__57);
+  __pyx_codeobj__58 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__57, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_channel_positions, 379, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__58)) __PYX_ERR(0, 379, __pyx_L1_error)
 
   /* "eeg_manager.py":407
  *     }
@@ -24507,10 +24472,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     def validate_channel_name(name):
  *         """
  */
-  __pyx_tuple__60 = PyTuple_Pack(4, __pyx_n_s_name, __pyx_n_s_formatted_name, __pyx_n_s_re, __pyx_n_s_pattern); if (unlikely(!__pyx_tuple__60)) __PYX_ERR(0, 407, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__60);
-  __Pyx_GIVEREF(__pyx_tuple__60);
-  __pyx_codeobj__61 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__60, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_validate_channel_name, 407, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__61)) __PYX_ERR(0, 407, __pyx_L1_error)
+  __pyx_tuple__59 = PyTuple_Pack(4, __pyx_n_s_name, __pyx_n_s_formatted_name, __pyx_n_s_re, __pyx_n_s_pattern); if (unlikely(!__pyx_tuple__59)) __PYX_ERR(0, 407, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__59);
+  __Pyx_GIVEREF(__pyx_tuple__59);
+  __pyx_codeobj__60 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__59, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_validate_channel_name, 407, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__60)) __PYX_ERR(0, 407, __pyx_L1_error)
 
   /* "eeg_manager.py":431
  *         return False, f"Channel name '{name}' is not a standard 10-20 system position"
@@ -24519,10 +24484,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Get current data for plotting"""
  *         if self.board and self.board.is_prepared():
  */
-  __pyx_tuple__62 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_data, __pyx_n_s_enabled_channels); if (unlikely(!__pyx_tuple__62)) __PYX_ERR(0, 431, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__62);
-  __Pyx_GIVEREF(__pyx_tuple__62);
-  __pyx_codeobj__63 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__62, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_current_data, 431, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__63)) __PYX_ERR(0, 431, __pyx_L1_error)
+  __pyx_tuple__61 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_data, __pyx_n_s_enabled_channels); if (unlikely(!__pyx_tuple__61)) __PYX_ERR(0, 431, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__61);
+  __Pyx_GIVEREF(__pyx_tuple__61);
+  __pyx_codeobj__62 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__61, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_current_data, 431, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__62)) __PYX_ERR(0, 431, __pyx_L1_error)
 
   /* "eeg_manager.py":442
  *         return None
@@ -24531,10 +24496,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Stop current session"""
  *         if self.is_recording:
  */
-  __pyx_tuple__64 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_f, __pyx_n_s_session_num); if (unlikely(!__pyx_tuple__64)) __PYX_ERR(0, 442, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__64);
-  __Pyx_GIVEREF(__pyx_tuple__64);
-  __pyx_codeobj__65 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__64, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_stop_session, 442, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__65)) __PYX_ERR(0, 442, __pyx_L1_error)
+  __pyx_tuple__63 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_f, __pyx_n_s_session_num); if (unlikely(!__pyx_tuple__63)) __PYX_ERR(0, 442, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__63);
+  __Pyx_GIVEREF(__pyx_tuple__63);
+  __pyx_codeobj__64 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__63, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_stop_session, 442, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__64)) __PYX_ERR(0, 442, __pyx_L1_error)
 
   /* "eeg_manager.py":457
  *         self.current_session_num = session_num  # Keep it until next session starts
@@ -24543,10 +24508,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Combine all FIF files into one in formatted_data"""
  *         print("\n=== Starting File Combination Process ===")
  */
-  __pyx_tuple__66 = PyTuple_Pack(19, __pyx_n_s_self, __pyx_n_s_raw_files_2, __pyx_n_s_f, __pyx_n_s_raw_combined, __pyx_n_s_current_time, __pyx_n_s_tasks, __pyx_n_s_first_raw, __pyx_n_s_recording_duration, __pyx_n_s_all_onsets, __pyx_n_s_all_durations, __pyx_n_s_all_descriptions, __pyx_n_s_raw_file, __pyx_n_s_full_path, __pyx_n_s_raw, __pyx_n_s_i, __pyx_n_s_task, __pyx_n_s_annotations, __pyx_n_s_output_file, __pyx_n_s_f); if (unlikely(!__pyx_tuple__66)) __PYX_ERR(0, 457, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__66);
-  __Pyx_GIVEREF(__pyx_tuple__66);
-  __pyx_codeobj__67 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 19, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__66, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_combine_fif_files, 457, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__67)) __PYX_ERR(0, 457, __pyx_L1_error)
+  __pyx_tuple__65 = PyTuple_Pack(19, __pyx_n_s_self, __pyx_n_s_raw_files_2, __pyx_n_s_f, __pyx_n_s_raw_combined, __pyx_n_s_current_time, __pyx_n_s_tasks, __pyx_n_s_first_raw, __pyx_n_s_recording_duration, __pyx_n_s_all_onsets, __pyx_n_s_all_durations, __pyx_n_s_all_descriptions, __pyx_n_s_raw_file, __pyx_n_s_full_path, __pyx_n_s_raw, __pyx_n_s_i, __pyx_n_s_task, __pyx_n_s_annotations, __pyx_n_s_output_file, __pyx_n_s_f); if (unlikely(!__pyx_tuple__65)) __PYX_ERR(0, 457, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__65);
+  __Pyx_GIVEREF(__pyx_tuple__65);
+  __pyx_codeobj__66 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 19, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__65, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_combine_fif_files, 457, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__66)) __PYX_ERR(0, 457, __pyx_L1_error)
 
   /* "eeg_manager.py":523
  *         return output_file
@@ -24555,10 +24520,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Update the action names and their configurations"""
  *         self.task_names = new_actions
  */
-  __pyx_tuple__68 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_new_actions); if (unlikely(!__pyx_tuple__68)) __PYX_ERR(0, 523, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__68);
-  __Pyx_GIVEREF(__pyx_tuple__68);
-  __pyx_codeobj__69 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__68, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_update_action_names, 523, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__69)) __PYX_ERR(0, 523, __pyx_L1_error)
+  __pyx_tuple__67 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_new_actions); if (unlikely(!__pyx_tuple__67)) __PYX_ERR(0, 523, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__67);
+  __Pyx_GIVEREF(__pyx_tuple__67);
+  __pyx_codeobj__68 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__67, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_update_action_names, 523, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__68)) __PYX_ERR(0, 523, __pyx_L1_error)
 
   /* "eeg_manager.py":527
  *         self.task_names = new_actions
@@ -24567,10 +24532,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Delete a specific session and its files"""
  *         # Delete raw files
  */
-  __pyx_tuple__70 = PyTuple_Pack(7, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_file_2, __pyx_n_s_f, __pyx_n_s_lines, __pyx_n_s_in_session, __pyx_n_s_line); if (unlikely(!__pyx_tuple__70)) __PYX_ERR(0, 527, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__70);
-  __Pyx_GIVEREF(__pyx_tuple__70);
-  __pyx_codeobj__71 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__70, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_delete_session, 527, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__71)) __PYX_ERR(0, 527, __pyx_L1_error)
+  __pyx_tuple__69 = PyTuple_Pack(7, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_file_2, __pyx_n_s_f, __pyx_n_s_lines, __pyx_n_s_in_session, __pyx_n_s_line); if (unlikely(!__pyx_tuple__69)) __PYX_ERR(0, 527, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__69);
+  __Pyx_GIVEREF(__pyx_tuple__69);
+  __pyx_codeobj__70 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__69, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_delete_session, 527, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__70)) __PYX_ERR(0, 527, __pyx_L1_error)
 
   /* "eeg_manager.py":560
  *                         f.write(line)
@@ -24579,10 +24544,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Delete all session files and reset"""
  *         # Delete all files in data directories
  */
-  __pyx_tuple__72 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_directory, __pyx_n_s_file_2, __pyx_n_s_file_path, __pyx_n_s_e, __pyx_n_s_f); if (unlikely(!__pyx_tuple__72)) __PYX_ERR(0, 560, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__72);
-  __Pyx_GIVEREF(__pyx_tuple__72);
-  __pyx_codeobj__73 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__72, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_delete_all_sessions, 560, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__73)) __PYX_ERR(0, 560, __pyx_L1_error)
+  __pyx_tuple__71 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_directory, __pyx_n_s_file_2, __pyx_n_s_file_path, __pyx_n_s_e, __pyx_n_s_f); if (unlikely(!__pyx_tuple__71)) __PYX_ERR(0, 560, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__71);
+  __Pyx_GIVEREF(__pyx_tuple__71);
+  __pyx_codeobj__72 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__71, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_delete_all_sessions, 560, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__72)) __PYX_ERR(0, 560, __pyx_L1_error)
 
   /* "eeg_manager.py":579
  *         self.current_session_num = None
@@ -24591,10 +24556,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Combine FIF files from all sessions into one"""
  *         print("\n=== Starting All Sessions File Combination Process ===")
  */
-  __pyx_tuple__74 = PyTuple_Pack(20, __pyx_n_s_self, __pyx_n_s_raw_files_2, __pyx_n_s_f, __pyx_n_s_raw_combined, __pyx_n_s_current_time, __pyx_n_s_all_onsets, __pyx_n_s_all_durations, __pyx_n_s_all_descriptions, __pyx_n_s_sessions, __pyx_n_s_session, __pyx_n_s_tasks, __pyx_n_s_i, __pyx_n_s_task, __pyx_n_s_raw_file, __pyx_n_s_full_path, __pyx_n_s_raw, __pyx_n_s_annotations, __pyx_n_s_output_file, __pyx_n_s_f, __pyx_n_s_f); if (unlikely(!__pyx_tuple__74)) __PYX_ERR(0, 579, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__74);
-  __Pyx_GIVEREF(__pyx_tuple__74);
-  __pyx_codeobj__75 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 20, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__74, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_combine_all_fif_files, 579, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__75)) __PYX_ERR(0, 579, __pyx_L1_error)
+  __pyx_tuple__73 = PyTuple_Pack(20, __pyx_n_s_self, __pyx_n_s_raw_files_2, __pyx_n_s_f, __pyx_n_s_raw_combined, __pyx_n_s_current_time, __pyx_n_s_all_onsets, __pyx_n_s_all_durations, __pyx_n_s_all_descriptions, __pyx_n_s_sessions, __pyx_n_s_session, __pyx_n_s_tasks, __pyx_n_s_i, __pyx_n_s_task, __pyx_n_s_raw_file, __pyx_n_s_full_path, __pyx_n_s_raw, __pyx_n_s_annotations, __pyx_n_s_output_file, __pyx_n_s_f, __pyx_n_s_f); if (unlikely(!__pyx_tuple__73)) __PYX_ERR(0, 579, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__73);
+  __Pyx_GIVEREF(__pyx_tuple__73);
+  __pyx_codeobj__74 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 20, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__73, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_combine_all_fif_files, 579, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__74)) __PYX_ERR(0, 579, __pyx_L1_error)
 
   /* "eeg_manager.py":650
  *         return output_file
@@ -24603,10 +24568,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Save session data to remote storage"""
  *         try:
  */
-  __pyx_tuple__76 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_data, __pyx_n_s_response, __pyx_n_s_e); if (unlikely(!__pyx_tuple__76)) __PYX_ERR(0, 650, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__76);
-  __Pyx_GIVEREF(__pyx_tuple__76);
-  __pyx_codeobj__77 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__76, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_save_session_data, 650, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__77)) __PYX_ERR(0, 650, __pyx_L1_error)
+  __pyx_tuple__75 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_data, __pyx_n_s_response, __pyx_n_s_e); if (unlikely(!__pyx_tuple__75)) __PYX_ERR(0, 650, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__75);
+  __Pyx_GIVEREF(__pyx_tuple__75);
+  __pyx_codeobj__76 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__75, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_save_session_data, 650, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__76)) __PYX_ERR(0, 650, __pyx_L1_error)
 
   /* "eeg_manager.py":666
  *             return False
@@ -24615,10 +24580,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Load session data from remote storage"""
  *         try:
  */
-  __pyx_tuple__78 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_response, __pyx_n_s_data, __pyx_n_s_e); if (unlikely(!__pyx_tuple__78)) __PYX_ERR(0, 666, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__78);
-  __Pyx_GIVEREF(__pyx_tuple__78);
-  __pyx_codeobj__79 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__78, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_load_session_data, 666, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__79)) __PYX_ERR(0, 666, __pyx_L1_error)
+  __pyx_tuple__77 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_session_num, __pyx_n_s_response, __pyx_n_s_data, __pyx_n_s_e); if (unlikely(!__pyx_tuple__77)) __PYX_ERR(0, 666, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__77);
+  __Pyx_GIVEREF(__pyx_tuple__77);
+  __pyx_codeobj__78 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__77, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_load_session_data, 666, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__78)) __PYX_ERR(0, 666, __pyx_L1_error)
 
   /* "eeg_manager.py":677
  *             return None
@@ -24627,10 +24592,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Get list of available sample data files"""
  *         try:
  */
-  __pyx_tuple__80 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_formatted_dir, __pyx_n_s_sample_file, __pyx_n_s_e); if (unlikely(!__pyx_tuple__80)) __PYX_ERR(0, 677, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__80);
-  __Pyx_GIVEREF(__pyx_tuple__80);
-  __pyx_codeobj__81 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__80, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_sample_files, 677, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__81)) __PYX_ERR(0, 677, __pyx_L1_error)
+  __pyx_tuple__79 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_formatted_dir, __pyx_n_s_sample_file, __pyx_n_s_e); if (unlikely(!__pyx_tuple__79)) __PYX_ERR(0, 677, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__79);
+  __Pyx_GIVEREF(__pyx_tuple__79);
+  __pyx_codeobj__80 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__79, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_get_sample_files, 677, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__80)) __PYX_ERR(0, 677, __pyx_L1_error)
 
   /* "eeg_manager.py":694
  *             return []
@@ -24639,10 +24604,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         """Update the active channel configuration"""
  *         try:
  */
-  __pyx_tuple__82 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_channel_names, __pyx_n_s_e, __pyx_n_s_name); if (unlikely(!__pyx_tuple__82)) __PYX_ERR(0, 694, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__82);
-  __Pyx_GIVEREF(__pyx_tuple__82);
-  __pyx_codeobj__83 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__82, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_update_channels, 694, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__83)) __PYX_ERR(0, 694, __pyx_L1_error)
+  __pyx_tuple__81 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_channel_names, __pyx_n_s_e, __pyx_n_s_name); if (unlikely(!__pyx_tuple__81)) __PYX_ERR(0, 694, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__81);
+  __Pyx_GIVEREF(__pyx_tuple__81);
+  __pyx_codeobj__82 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__81, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_eeg_manager_py, __pyx_n_s_update_channels, 694, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__82)) __PYX_ERR(0, 694, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -25177,7 +25142,7 @@ if (!__Pyx_RefNanny) {
  *         # Board setup
  *         self.board = None
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_1__init__, 0, __pyx_n_s_EEGManager___init, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__32)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 12, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_1__init__, 0, __pyx_n_s_EEGManager___init, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__31)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_init, __pyx_t_3) < 0) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -25189,7 +25154,7 @@ if (!__Pyx_RefNanny) {
  *         """Determine the next available session number from annotations file"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_3_get_next_session_number, 0, __pyx_n_s_EEGManager__get_next_session_num, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__34)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_3_get_next_session_number, 0, __pyx_n_s_EEGManager__get_next_session_num, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__33)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 80, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_get_next_session_number, __pyx_t_3) < 0) __PYX_ERR(0, 80, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -25201,9 +25166,9 @@ if (!__Pyx_RefNanny) {
  *         """Initialize OpenBCI board"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_5initialize_board, 0, __pyx_n_s_EEGManager_initialize_board, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_5initialize_board, 0, __pyx_n_s_EEGManager_initialize_board, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__35)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_tuple__37);
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_tuple__36);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_initialize_board, __pyx_t_3) < 0) __PYX_ERR(0, 96, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
@@ -25214,7 +25179,7 @@ if (!__Pyx_RefNanny) {
  *         """Stop board streaming"""
  *         if self.board and self.is_streaming:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_7stop_stream, 0, __pyx_n_s_EEGManager_stop_stream, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__39)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 115, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_7stop_stream, 0, __pyx_n_s_EEGManager_stop_stream, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__38)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 115, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_stop_stream, __pyx_t_3) < 0) __PYX_ERR(0, 115, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -25226,7 +25191,7 @@ if (!__Pyx_RefNanny) {
  *         """Initialize a new recording session"""
  *         self.current_session_num = session_num
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_9initialize_session, 0, __pyx_n_s_EEGManager_initialize_session, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__41)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 130, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_9initialize_session, 0, __pyx_n_s_EEGManager_initialize_session, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 130, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_initialize_session, __pyx_t_3) < 0) __PYX_ERR(0, 130, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -25238,7 +25203,7 @@ if (!__Pyx_RefNanny) {
  *         """Get next task in sequence"""
  *         if self.current_task_index < len(self.task_sequence):
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_11get_next_task, 0, __pyx_n_s_EEGManager_get_next_task, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__43)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 149, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_11get_next_task, 0, __pyx_n_s_EEGManager_get_next_task, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__42)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_get_next_task, __pyx_t_3) < 0) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -25250,7 +25215,7 @@ if (!__Pyx_RefNanny) {
  *         """Start recording current task"""
  *         if self.board and self.is_streaming:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_13start_recording, 0, __pyx_n_s_EEGManager_start_recording, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__45)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 157, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_13start_recording, 0, __pyx_n_s_EEGManager_start_recording, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__44)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 157, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_start_recording, __pyx_t_3) < 0) __PYX_ERR(0, 157, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -25262,7 +25227,7 @@ if (!__Pyx_RefNanny) {
  *         """Stop recording and save data"""
  *         if self.is_recording:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_15stop_recording, 0, __pyx_n_s_EEGManager_stop_recording, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__47)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 178, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_15stop_recording, 0, __pyx_n_s_EEGManager_stop_recording, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__46)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 178, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_stop_recording, __pyx_t_3) < 0) __PYX_ERR(0, 178, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -25274,7 +25239,7 @@ if (!__Pyx_RefNanny) {
  *         """Save EEG data as FIF file"""
  *         # Only use names of enabled channels
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_17save_to_fif, 0, __pyx_n_s_EEGManager_save_to_fif, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__49)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 194, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_17save_to_fif, 0, __pyx_n_s_EEGManager_save_to_fif, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__48)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 194, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_save_to_fif, __pyx_t_3) < 0) __PYX_ERR(0, 194, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -25286,7 +25251,7 @@ if (!__Pyx_RefNanny) {
  *         """Read tasks from annotations file for a specific session"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_19_read_annotations_file, 0, __pyx_n_s_EEGManager__read_annotations_fil, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__51)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 226, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_19_read_annotations_file, 0, __pyx_n_s_EEGManager__read_annotations_fil, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__50)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 226, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_read_annotations_file, __pyx_t_3) < 0) __PYX_ERR(0, 226, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -25298,7 +25263,7 @@ if (!__Pyx_RefNanny) {
  *         """Analyze recorded session data"""
  *         try:
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_21analyze_session, 0, __pyx_n_s_EEGManager_analyze_session, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__53)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 251, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_21analyze_session, 0, __pyx_n_s_EEGManager_analyze_session, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__52)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 251, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_analyze_session, __pyx_t_3) < 0) __PYX_ERR(0, 251, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -25310,7 +25275,7 @@ if (!__Pyx_RefNanny) {
  *         """Enable/disable a channel"""
  *         self.channel_states[channel_name] = enabled
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_23set_channel_state, 0, __pyx_n_s_EEGManager_set_channel_state, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__55)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 368, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_23set_channel_state, 0, __pyx_n_s_EEGManager_set_channel_state, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__54)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 368, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_set_channel_state, __pyx_t_3) < 0) __PYX_ERR(0, 368, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -25322,7 +25287,7 @@ if (!__Pyx_RefNanny) {
  *         """Get list of enabled channel indices"""
  *         all_channels = ['FCz', 'C3', 'Cz', 'CPz', 'C2', 'C4']
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_25get_enabled_channels, 0, __pyx_n_s_EEGManager_get_enabled_channels, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__57)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 372, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_25get_enabled_channels, 0, __pyx_n_s_EEGManager_get_enabled_channels, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__56)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 372, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_get_enabled_channels, __pyx_t_3) < 0) __PYX_ERR(0, 372, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -25334,7 +25299,7 @@ if (!__Pyx_RefNanny) {
  *         """Get channel positions in 2D for topographic plotting"""
  *         positions = {
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_27get_channel_positions, 0, __pyx_n_s_EEGManager_get_channel_positions, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__59)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 379, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_27get_channel_positions, 0, __pyx_n_s_EEGManager_get_channel_positions, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__58)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 379, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_get_channel_positions, __pyx_t_3) < 0) __PYX_ERR(0, 379, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -25442,7 +25407,7 @@ if (!__Pyx_RefNanny) {
  *     def validate_channel_name(name):
  *         """
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_29validate_channel_name, __Pyx_CYFUNCTION_STATICMETHOD, __pyx_n_s_EEGManager_validate_channel_name, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__61)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 407, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_29validate_channel_name, __Pyx_CYFUNCTION_STATICMETHOD, __pyx_n_s_EEGManager_validate_channel_name, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__60)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 407, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_staticmethod, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 407, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -25457,7 +25422,7 @@ if (!__Pyx_RefNanny) {
  *         """Get current data for plotting"""
  *         if self.board and self.board.is_prepared():
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_31get_current_data, 0, __pyx_n_s_EEGManager_get_current_data, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__63)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 431, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_31get_current_data, 0, __pyx_n_s_EEGManager_get_current_data, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__62)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 431, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_get_current_data, __pyx_t_4) < 0) __PYX_ERR(0, 431, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -25469,7 +25434,7 @@ if (!__Pyx_RefNanny) {
  *         """Stop current session"""
  *         if self.is_recording:
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_33stop_session, 0, __pyx_n_s_EEGManager_stop_session, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__65)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 442, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_33stop_session, 0, __pyx_n_s_EEGManager_stop_session, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__64)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 442, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_stop_session, __pyx_t_4) < 0) __PYX_ERR(0, 442, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -25481,7 +25446,7 @@ if (!__Pyx_RefNanny) {
  *         """Combine all FIF files into one in formatted_data"""
  *         print("\n=== Starting File Combination Process ===")
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_35combine_fif_files, 0, __pyx_n_s_EEGManager_combine_fif_files, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__67)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 457, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_35combine_fif_files, 0, __pyx_n_s_EEGManager_combine_fif_files, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__66)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 457, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_combine_fif_files, __pyx_t_4) < 0) __PYX_ERR(0, 457, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -25493,7 +25458,7 @@ if (!__Pyx_RefNanny) {
  *         """Update the action names and their configurations"""
  *         self.task_names = new_actions
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_37update_action_names, 0, __pyx_n_s_EEGManager_update_action_names, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__69)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 523, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_37update_action_names, 0, __pyx_n_s_EEGManager_update_action_names, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__68)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 523, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_update_action_names, __pyx_t_4) < 0) __PYX_ERR(0, 523, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -25505,7 +25470,7 @@ if (!__Pyx_RefNanny) {
  *         """Delete a specific session and its files"""
  *         # Delete raw files
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_39delete_session, 0, __pyx_n_s_EEGManager_delete_session, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__71)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 527, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_39delete_session, 0, __pyx_n_s_EEGManager_delete_session, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__70)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 527, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_delete_session, __pyx_t_4) < 0) __PYX_ERR(0, 527, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -25517,7 +25482,7 @@ if (!__Pyx_RefNanny) {
  *         """Delete all session files and reset"""
  *         # Delete all files in data directories
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_41delete_all_sessions, 0, __pyx_n_s_EEGManager_delete_all_sessions, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__73)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 560, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_41delete_all_sessions, 0, __pyx_n_s_EEGManager_delete_all_sessions, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__72)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 560, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_delete_all_sessions, __pyx_t_4) < 0) __PYX_ERR(0, 560, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -25529,7 +25494,7 @@ if (!__Pyx_RefNanny) {
  *         """Combine FIF files from all sessions into one"""
  *         print("\n=== Starting All Sessions File Combination Process ===")
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_43combine_all_fif_files, 0, __pyx_n_s_EEGManager_combine_all_fif_files, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__75)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 579, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_43combine_all_fif_files, 0, __pyx_n_s_EEGManager_combine_all_fif_files, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__74)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 579, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_combine_all_fif_files, __pyx_t_4) < 0) __PYX_ERR(0, 579, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -25541,7 +25506,7 @@ if (!__Pyx_RefNanny) {
  *         """Save session data to remote storage"""
  *         try:
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_45save_session_data, 0, __pyx_n_s_EEGManager_save_session_data, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__77)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 650, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_45save_session_data, 0, __pyx_n_s_EEGManager_save_session_data, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__76)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 650, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_save_session_data, __pyx_t_4) < 0) __PYX_ERR(0, 650, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -25553,7 +25518,7 @@ if (!__Pyx_RefNanny) {
  *         """Load session data from remote storage"""
  *         try:
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_47load_session_data, 0, __pyx_n_s_EEGManager_load_session_data, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__79)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 666, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_47load_session_data, 0, __pyx_n_s_EEGManager_load_session_data, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__78)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 666, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_load_session_data, __pyx_t_4) < 0) __PYX_ERR(0, 666, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -25565,7 +25530,7 @@ if (!__Pyx_RefNanny) {
  *         """Get list of available sample data files"""
  *         try:
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_49get_sample_files, 0, __pyx_n_s_EEGManager_get_sample_files, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__81)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 677, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_49get_sample_files, 0, __pyx_n_s_EEGManager_get_sample_files, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__80)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 677, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_get_sample_files, __pyx_t_4) < 0) __PYX_ERR(0, 677, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -25577,7 +25542,7 @@ if (!__Pyx_RefNanny) {
  *         """Update the active channel configuration"""
  *         try:
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_51update_channels, 0, __pyx_n_s_EEGManager_update_channels, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__83)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 694, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_11eeg_manager_10EEGManager_51update_channels, 0, __pyx_n_s_EEGManager_update_channels, NULL, __pyx_n_s_eeg_manager, __pyx_d, ((PyObject *)__pyx_codeobj__82)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 694, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_update_channels, __pyx_t_4) < 0) __PYX_ERR(0, 694, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -28463,7 +28428,7 @@ static PyObject *__Pyx_ImportDottedModule_WalkParts(PyObject *module, PyObject *
 #endif
 static PyObject *__Pyx__ImportDottedModule(PyObject *name, PyObject *parts_tuple) {
 #if PY_MAJOR_VERSION < 3
-    PyObject *module, *from_list, *star = __pyx_n_s__21;
+    PyObject *module, *from_list, *star = __pyx_n_s__20;
     CYTHON_UNUSED_VAR(parts_tuple);
     from_list = PyList_New(1);
     if (unlikely(!from_list))
@@ -28526,7 +28491,7 @@ static PyObject* __Pyx_ImportFrom(PyObject* module, PyObject* name) {
         if (unlikely(!module_name_str)) { goto modbad; }
         module_name = PyUnicode_FromString(module_name_str);
         if (unlikely(!module_name)) { goto modbad; }
-        module_dot = PyUnicode_Concat(module_name, __pyx_kp_u__30);
+        module_dot = PyUnicode_Concat(module_name, __pyx_kp_u__29);
         if (unlikely(!module_dot)) { goto modbad; }
         full_name = PyUnicode_Concat(module_dot, name);
         if (unlikely(!full_name)) { goto modbad; }
@@ -30464,7 +30429,7 @@ __Pyx_PyType_GetName(PyTypeObject* tp)
     if (unlikely(name == NULL) || unlikely(!PyUnicode_Check(name))) {
         PyErr_Clear();
         Py_XDECREF(name);
-        name = __Pyx_NewRef(__pyx_n_s__84);
+        name = __Pyx_NewRef(__pyx_n_s__83);
     }
     return name;
 }
